@@ -473,12 +473,15 @@ function problemPrompt(
     "high-impact": `Write a HIGH IMPACT problem card for the ${industry.name} industry.
 This problem transforms the industry the next day if solved.
 
+PRIORITY CHECK: If this industry involves human contact, field work, or craft skill, look first for tacit knowledge problems — situations where an experienced worker has internalized pattern recognition (visual, auditory, tactile, olfactory) that a machine learning model could capture and scale. If you find one, make it the high-impact problem and tag it #tacit-knowledge-ml. Examples: fault detection by sound, quality assessment by sight, early warning by subtle sensory cues.
+
 Format:
 # {Problem Title}
 
 **Industry:** [[${industry.id}|${industry.name}]]
 **Type:** High Impact
 **One-liner:** {one sentence — what changes the day after this is solved}
+**Tags:** {2-5 tags from the taxonomy: algorithm tag + task type tag + domain tag + priority tags}
 
 ## The Problem
 {2-3 sentences. Specific workflow, specific people, specific consequence.}
@@ -723,12 +726,124 @@ cat problem-index/_bookmark.md
 
 ---
 
+## Tag Taxonomy
+
+All problem cards and ML/AI docs carry tags from these three tiers. Apply 2-5 tags per file. Tags go on the `**Tags:**` line immediately after `**One-liner:**`.
+
+### Tier 1 — ML Algorithm / Model
+What technique does the solution primarily use?
+
+| Tag | When to use |
+|---|---|
+| `#logistic-regression` | Binary or multiclass classification on tabular data |
+| `#linear-regression` | Continuous output prediction, tabular data |
+| `#random-forest` | Ensemble classification/regression, tabular data |
+| `#gradient-boosting` | XGBoost / LightGBM / CatBoost — tabular, high accuracy |
+| `#svm` | Support Vector Machine — small-to-medium datasets |
+| `#cnn` | Convolutional Neural Network — images, signals, audio spectrograms |
+| `#rnn` | Recurrent Neural Network — sequential data |
+| `#lstm` | Long Short-Term Memory — sequences with long dependencies |
+| `#transformer` | Attention-based — text, vision, multimodal |
+| `#bert` | Pre-trained language model fine-tuning |
+| `#llm` | Large language model — generation, reasoning, extraction |
+| `#autoencoder` | Representation learning, anomaly detection |
+| `#isolation-forest` | Unsupervised anomaly detection, tabular data |
+| `#k-means` | Unsupervised clustering |
+| `#dbscan` | Density-based clustering, irregular shapes |
+| `#gaussian-process` | Probabilistic regression with uncertainty estimates |
+| `#bayesian-network` | Probabilistic graphical models |
+| `#reinforcement-learning` | Agent/environment, sequential decision-making |
+| `#diffusion-model` | Generative — image, audio, signal synthesis |
+| `#gan` | Generative Adversarial Network |
+
+### Tier 2 — ML Task Type
+What does the model predict or produce?
+
+| Tag | When to use |
+|---|---|
+| `#binary-classification` | Two-class output (yes/no, pass/fail, at-risk/safe) |
+| `#multiclass-classification` | 3+ discrete output classes |
+| `#regression` | Continuous numeric output |
+| `#object-detection` | Locate and classify objects in images/video |
+| `#semantic-segmentation` | Pixel-level image classification |
+| `#named-entity-recognition` | Extract typed entities from text |
+| `#text-classification` | Assign categories to documents or sentences |
+| `#seq2seq` | Sequence-in, sequence-out (translation, summarization) |
+| `#time-series-forecasting` | Predict future values from historical sequences |
+| `#anomaly-detection` | Flag outliers in data streams or records |
+| `#recommendation` | Rank items for a user or context |
+| `#ranking` | Order a set of candidates by relevance or quality |
+| `#text-generation` | Produce natural language output |
+| `#speech-recognition` | Convert audio to text (ASR) |
+| `#ocr` | Optical character recognition — documents, forms, signs |
+| `#change-point-detection` | Detect shifts in time-series distributions |
+| `#survival-analysis` | Time-to-event prediction (churn, failure, death) |
+| `#causal-inference` | Estimate treatment effects from observational data |
+| `#pose-estimation` | Detect body / object pose from images or video |
+
+### Tier 3 — ML Application Domain
+Which field does this belong to?
+
+| Tag | When to use |
+|---|---|
+| `#computer-vision` | Image, video, thermal, depth data |
+| `#nlp` | Text understanding and generation |
+| `#speech-processing` | Audio, voice, sound analysis |
+| `#tabular-ml` | Structured rows/columns — the most common real-world case |
+| `#graph-ml` | Graph neural networks, network analysis |
+| `#multimodal` | Combines 2+ modalities (e.g. image + text) |
+| `#signal-processing` | Vibration, EMG, EEG, sensor streams |
+
+### Priority & Context Tags
+Apply alongside the above tiers.
+
+| Tag | When to use |
+|---|---|
+| `#tacit-knowledge-ml` | **Top-priority.** Worker has internalized pattern recognition through experience. ML can capture, codify, and scale this. See below. |
+| `#quick-win` | Buildable in <4 weeks with available data |
+| `#automation` | Replaces a fully manual, repetitive step |
+| `#data-integration` | Core challenge is joining / reconciling disparate data sources |
+| `#workflow-orchestration` | Core challenge is sequencing and routing work between systems |
+| `#compliance` | Solution directly addresses a regulatory or legal constraint |
+| `#worker-facing` | Primary beneficiary is the individual worker, not the business |
+| `#revenue-impact` | Solution directly unlocks or protects revenue |
+| `#ai-agent` | Opportunity for an autonomous AI agent (multi-step, tool use) |
+| `#ai-platform` | Opportunity to build a vertical AI platform or workflow layer |
+
+---
+
+## Tacit Knowledge ML — Priority Rule
+
+**Definition:** Tacit knowledge is expertise that workers have internalized through years of practice that they cannot fully articulate but express through intuition, judgment, and pattern recognition. This is the *most important* ML opportunity in any profession with human contact or craft work.
+
+**Examples:**
+- An electrician who can look at a panel and immediately sense something is wrong in the wire routing before testing anything → computer vision + classification
+- A mechanic who hears a knock and knows which bearing is failing → acoustic ML, `#cnn` + `#multiclass-classification` + `#speech-processing`
+- A nurse who senses a patient is about to deteriorate hours before vitals confirm it → multivariate anomaly detection, `#tabular-ml` + `#anomaly-detection`
+- A welder who judges weld quality by visual inspection → `#computer-vision` + `#semantic-segmentation`
+- A soil scientist who feels soil texture and estimates composition → `#multimodal` + `#regression`
+- A plumber who reads water pressure fluctuation patterns as a symptom → `#time-series-forecasting` + `#anomaly-detection`
+
+**When to apply:** For any industry where workers develop mastery through repeated, high-stakes sensory or perceptual tasks — trades, clinical care, manufacturing QC, agriculture, transportation, food service — the `ml-opportunity.md` file MUST include at least one entry targeting tacit knowledge. This entry carries `#tacit-knowledge-ml` and is listed first in the document.
+
+**Why this matters:** These problems are structurally hard to solve because the knowledge holder often cannot write a spec. The value of the ML solution is not incremental efficiency — it is the preservation and scalability of rare expertise that took decades to develop.
+
+---
+
 ## Obsidian Setup
 
-1. Open Obsidian → `Open folder as vault` → select `problem-index/`
-2. Enable Graph View — you'll see the full link structure
-3. Search by tag: `#high-impact`, `#low-impact`, `#worker-life`
-4. Start in `_index.md` and navigate via links
+The vault is already configured. `problem-index/` contains `.obsidian/` with `app.json`, `graph.json`, `workspace.json`. Open Obsidian → `Open folder as vault` → select `problem-index/`.
+
+Graph view color coding:
+- **Red** → `#tacit-knowledge-ml` (highest priority opportunities)
+- **Blue** → `#computer-vision`
+- **Dark blue** → `#nlp`
+- **Purple** → `#deep-learning`
+- **Yellow** → `#quick-win`
+- **Green** → `#tabular-ml`
+- **Orange** → `#speech-processing`
+
+Navigate: start at `_index.md` → industry profile → problem cards → `ml-opportunity.md`.
 
 ---
 

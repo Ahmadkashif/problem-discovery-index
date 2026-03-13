@@ -2,17 +2,42 @@
   "collapse-filter": false,
   "search": "",
   "showTags": true,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#ml-nlp  ",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
+      "query": "tag:#tacit-knowledge-ml",
+      "color": { "a": 1, "rgb": 16711680 }
+    },
+    {
+      "query": "tag:#computer-vision",
+      "color": { "a": 1, "rgb": 3381759 }
+    },
+    {
+      "query": "tag:#nlp",
+      "color": { "a": 1, "rgb": 52479 }
+    },
+    {
+      "query": "tag:#deep-learning",
+      "color": { "a": 1, "rgb": 8388736 }
+    },
+    {
+      "query": "tag:#quick-win",
+      "color": { "a": 1, "rgb": 16776960 }
+    },
+    {
+      "query": "tag:#tabular-ml",
+      "color": { "a": 1, "rgb": 65280 }
+    },
+    {
+      "query": "tag:#speech-processing",
+      "color": { "a": 1, "rgb": 16744448 }
+    },
+    {
+      "query": "tag:#reinforcement-learning",
+      "color": { "a": 1, "rgb": 9109504 }
     }
   ],
   "collapse-display": false,
@@ -25,6 +50,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.1316872427983558,
-  "close": true
+  "scale": 0.16019703729810417,
+  "close": false
 }
