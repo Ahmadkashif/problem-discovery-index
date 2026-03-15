@@ -1,0 +1,18 @@
+# Quality Inspector Visual Inspection Fatigue
+
+**Industry:** [[medical-device-mfg|Medical Device Manufacturing]]
+**Type:** Worker Life Changing
+**One-liner:** Quality inspectors who examine 200-500 finished medical devices per day under magnification — checking for surface defects, particulate contamination, dimensional conformance, and labeling accuracy under cleanroom conditions — develop chronic eye strain and cognitive fatigue from sustained close-focus visual assessment that degrades their detection accuracy over the shift and over their career.
+**Tags:** #cnn #binary-classification #computer-vision #worker-facing #tacit-knowledge-ml
+
+## The Problem
+Medical device visual inspection is performed under magnification (stereo microscopes or magnifying lamps at 3-10x) in controlled environments — cleanrooms for implantables, controlled areas for sterile devices. Inspectors evaluate each device against a visual acceptance standard: checking for surface scratches, burrs, flash, particulate contamination, discoloration, seal integrity, and label accuracy. For Class II and III devices, this inspection is a regulatory requirement documented in the DHR. An inspector examines 200-500 units per day, spending 30-90 seconds per unit under magnification. The work demands sustained visual concentration at a fixed focal distance for 6-8 hours, producing chronic eye strain, headaches, and neck pain from the microscope posture. Experienced inspectors develop a calibrated judgment for borderline conditions — is this scratch cosmetic or functional? Is this particulate count within specification? — that takes 1-2 years to develop and that degrades measurably when the inspector is fatigued.
+
+## Why It Matters to the Worker
+Inspection is a high-responsibility, low-recognition role. A missed defect on an implantable device can result in patient harm, a recall, and personal liability exposure for the inspector who signed the acceptance record. This accountability pressure combined with the physical strain of microscope work makes quality inspection one of the highest-burnout roles in medical device manufacturing. Inspectors who develop chronic eye problems or repetitive strain injuries from years of microscope work face career-limiting consequences — they cannot continue in the role but their skills are specific to visual quality assessment, leaving limited lateral movement options within the company.
+
+## What a Solution Looks Like
+A vision-assisted inspection system with high-resolution cameras and controlled illumination that performs first-pass screening of each device, classifying units as clearly acceptable, clearly rejectable, or borderline. The inspector reviews only borderline units under magnification — reducing magnification time from 6-8 hours per shift to 1-2 hours focused on genuinely ambiguous cases. The system logs every inspection decision with image evidence, satisfying DHR documentation requirements automatically. The inspector's role shifts from exhaustive visual screening to expert judgment on difficult cases, which is both less physically demanding and more professionally engaging.
+
+## Impact If Solved
+Reduces inspector magnification time by 70-80%, directly reducing eye strain and musculoskeletal injury risk. Maintains or improves defect detection rates by eliminating fatigue-driven misses on clearly rejectable units. Transforms the inspection role from repetitive screening to expert adjudication — a higher-skilled, more sustainable career path. Reduces inspector turnover, which currently runs 25-35% annually at many device manufacturers due to the physical demands of the role.

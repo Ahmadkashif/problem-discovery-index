@@ -1,0 +1,60 @@
+# Machine Learning Opportunities — Environmental Consultants
+
+**Industry:** [[environmental-consultants|Environmental Consultants]]
+**Derived from:** [[problems/environmental-consultants/high-impact|High Impact]], [[problems/environmental-consultants/low-impact-1|Low Impact 1]], [[problems/environmental-consultants/low-impact-2|Low Impact 2]], [[problems/environmental-consultants/worker-life-1|Worker Life 1]], [[problems/environmental-consultants/worker-life-2|Worker Life 2]]
+
+---
+
+## 1. Contamination Risk Scoring from Site Characteristics
+#gradient-boosting #binary-classification #tabular-ml #automation
+
+**Problem statement:** Before any physical investigation, environmental consultants assess contamination likelihood based on property history, surrounding land use, regulatory records, and geological setting. This triage decision — whether to recommend a Phase II investigation after a Phase I — is subjective and inconsistent across practitioners. A model that scores contamination probability from structured site features would standardize recommendations and reduce unnecessary Phase II investigations (currently ~30% of Phase IIs find no contamination above screening levels).
+
+**ML task:** Binary Classification (contamination above screening levels: yes/no) with probability calibration for risk scoring
+**Input data:** Structured features extracted from Phase I reports: property age, historical land use codes (gas station, dry cleaner, industrial, agricultural), distance to nearest known contaminated site, geological setting (depth to groundwater, soil type, hydrogeologic vulnerability index), state regulatory database hit count within search radius, presence of underground storage tanks, Sanborn map industrial use indicators. Approximately 40-60 features per site.
+**Target:** Binary label — Phase II investigation found contamination above applicable screening levels (1) or did not (0). Secondary target: contaminant class (petroleum, chlorinated solvents, metals, pesticides) as multiclass.
+**Evaluation metric:** AUC-ROC as primary metric; calibration curve quality (Brier score) is critical because the output probability directly informs a risk communication to the client. False negative cost is high (missed contamination = liability), so optimize for recall > 0.90 at a precision that still reduces unnecessary Phase IIs by 20%+.
+**Scope:** 2-3 ML engineers, 6-month build. Feature engineering from structured Phase I data is straightforward. The main challenge is assembling a labeled training set, which requires pairing Phase I reports with their subsequent Phase II outcomes — data that exists within consulting firms but is not centrally aggregated. A partnership with 3-5 mid-size firms could yield 5,000-10,000 labeled pairs within 6 months.
+**Data availability:** Moderate. Individual firms have 500-2,000 Phase I/Phase II pairs in their project archives. Federal databases (EPA Brownfields, state voluntary cleanup programs) provide partial labels. The data exists but is scattered and requires curation agreements with firms who view it as proprietary.
+
+---
+
+## 2. Lab Result Anomaly Detection for QA/QC Flagging
+#isolation-forest #anomaly-detection #tabular-ml #data-integration #compliance
+
+**Problem statement:** Environmental lab analytical results occasionally contain errors — transcription mistakes, unit errors, sample mix-ups, or instrument calibration drift — that are difficult to catch in manual review. A consulting firm receiving results for 20 monitoring wells with 30 analytes each must review 600+ data points per event against historical trends, internal consistency checks (e.g., dissolved metals should not exceed total metals), and plausibility bounds. An anomaly detection model trained on historical site data could flag suspicious results for human review before they are submitted to regulators.
+
+**ML task:** Anomaly Detection (unsupervised/semi-supervised) on multivariate time series of analytical results per monitoring location
+**Input data:** Time series of analytical results per well/sample point: analyte concentrations, field parameters (pH, conductivity, turbidity), sample collection metadata (date, method, lab ID). Historical data spanning 2-20 years of quarterly monitoring. Contextual features: recent site activities, seasonal patterns, co-contaminant ratios.
+**Target:** Anomaly score per data point; flagged results above threshold require human review. Semi-supervised approach using known lab errors (resampled and confirmed) as positive labels where available.
+**Evaluation metric:** Precision at recall 0.80 — the system must catch 80% of true errors while keeping false alarm rate below 15% to avoid alert fatigue. F1 score as secondary metric.
+**Scope:** 1-2 ML engineers, 4-month build. Isolation forest or autoencoder approach on per-site historical data. Each site is essentially its own model (site-specific geochemistry means cross-site generalization is limited). Cold-start problem for new sites requires a transfer learning approach from geochemically similar sites.
+**Data availability:** Good within individual firms. Environmental monitoring datasets are well-structured (EDD format), time-stamped, and often span years. The challenge is accessing data across firms. A SaaS product could train per-client models on their own historical data without cross-firm data sharing.
+
+---
+
+## 3. Remediation Cost Estimation from Site Characterization Data
+#gradient-boosting #regression #tabular-ml #revenue-impact
+
+**Problem statement:** After identifying contamination, consultants must estimate remediation costs for budgeting, insurance claims, and property transactions. Current estimates are based on professional judgment and analogous site experience, with typical accuracy of +/- 50-100% for early-stage estimates. A regression model trained on completed remediation projects could provide data-driven cost estimates with quantified uncertainty, enabling better decision-making for brownfield developers, insurers, and regulatory agencies.
+
+**ML task:** Regression with prediction intervals (quantile regression or conformal prediction for uncertainty quantification)
+**Input data:** Site characterization features: contaminant type and concentration, plume dimensions (length, width, depth), soil type, depth to groundwater, site access constraints, regulatory program (federal Superfund vs. state voluntary cleanup vs. RCRA corrective action), selected remediation technology (excavation, pump-and-treat, in-situ chemical oxidation, monitored natural attenuation), geographic region (labor and disposal costs vary). Approximately 30-50 features per project.
+**Target:** Total remediation cost (continuous, log-transformed) and project duration in months. Ideally broken into capital cost and annual O&M cost.
+**Evaluation metric:** Median absolute percentage error (MdAPE) as primary — target < 30% vs. current professional judgment at 50-100%. Prediction interval coverage (90% interval should contain 90% of actuals). RMSE on log-transformed cost as secondary.
+**Scope:** 2 ML engineers, 8-month build. The critical bottleneck is assembling labeled data — completed remediation projects with both characterization data and final costs. State closure databases contain some of this information (California's GeoTracker, New Jersey's SRP), but cost data is inconsistently reported. A partnership with EPA's Brownfields program or major environmental insurers could accelerate data access. Target 2,000-5,000 completed projects for initial training.
+**Data availability:** Difficult. Cost data is the most sensitive information in environmental consulting — firms guard it competitively, insurers consider it proprietary, and regulatory databases inconsistently report it. State voluntary cleanup program closure reports are the best public source but vary dramatically by state in detail and accessibility.
+
+---
+
+## 4. Regulatory Database Entity Extraction and Record Linkage
+#bert #named-entity-recognition #nlp #automation #data-integration
+
+**Problem statement:** Phase I ESA research requires matching a subject property against records in 15+ regulatory databases that use inconsistent naming conventions, address formats, and facility identifiers. "ABC Manufacturing, 123 Main St" might appear as "A.B.C. Mfg Inc, 123 N Main Street" in one database and "ABC MFG CO, 123 Main" in another. Currently, junior scientists manually review search results to determine which records match the subject property or nearby facilities. An NER + record linkage system could automate this matching, reducing the 8-12 hour database research task to automated retrieval with human review of ambiguous matches.
+
+**ML task:** Named Entity Recognition (facility names, addresses, permit numbers, contaminant types from semi-structured database outputs) + Record Linkage (probabilistic matching of facility records across databases)
+**Input data:** Raw outputs from regulatory database searches: HTML tables, PDF reports, CSV exports. Entities to extract: facility name, address components (street, city, state, ZIP), database-specific IDs (EPA ID, RCRA handler ID, state facility ID), contaminant names, regulatory status, violation dates. For record linkage: entity pairs from different databases with features for string similarity, geographic proximity, and temporal overlap.
+**Target:** For NER: BIO-tagged entity spans in database output text. For record linkage: binary match/non-match labels for facility record pairs, with confidence scores.
+**Evaluation metric:** NER: entity-level F1 score, targeting > 0.92 for addresses and > 0.88 for facility names (names are harder due to abbreviation variation). Record linkage: precision > 0.95 (false matches create incorrect regulatory findings in reports) with recall > 0.85.
+**Scope:** 2 ML engineers + 1 NLP specialist, 6-month build. Fine-tuning a pre-trained BERT model on environmental regulatory text is feasible with 5,000-10,000 annotated database records. The record linkage component can leverage existing frameworks (dedupe, Zingg) with domain-specific blocking rules. Deployment as a preprocessing step in the Phase I research workflow.
+**Data availability:** Good. Regulatory database outputs are public records. The labeling effort requires environmental domain expertise to annotate entities correctly (distinguishing facility names from program names, parsing inconsistent address formats). A team of 2-3 junior environmental scientists could label 1,000 records per week.

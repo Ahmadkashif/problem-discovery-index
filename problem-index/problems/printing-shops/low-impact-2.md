@@ -1,0 +1,18 @@
+# Prepress File Preparation Automation
+
+**Industry:** [[printing-shops|Printing Shops]]
+**Type:** Low Impact (Customisation Opportunity)
+**One-liner:** PDF preflight and correction tools like Enfocus Pitstop and Markzware FlightCheck can detect and fix many file errors, but they don't understand the production context — whether a file needs bleed added for a specific trimmed product, whether the color space is appropriate for the target press and substrate, or whether the image resolution is adequate for the specific viewing distance and print process — decisions that prepress technicians currently make manually for every incoming file.
+**Tags:** #cnn #binary-classification #computer-vision #automation
+
+## The Problem
+Every print job begins with a customer-supplied file — typically a PDF — that must be prepared for production: verifying correct dimensions and bleed, converting color spaces (RGB to CMYK, spot color matching), checking image resolution, applying trapping (overlap between adjacent colors to prevent white gaps from registration variation), and creating the imposition layout (arranging pages on the press sheet). Customers submit files with errors 40-60% of the time: missing bleed, RGB images, low-resolution graphics, incorrect dimensions, fonts not embedded, transparency issues. A prepress technician reviews each file, identifies errors, either fixes them or sends the file back to the customer, and then prepares the production-ready version. For a shop processing 30-50 jobs per day, this file preparation step consumes 1-3 hours of skilled prepress time.
+
+## What Already Exists
+Enfocus Pitstop (integrated with Acrobat) performs automated preflight checks against configurable profiles and can auto-fix many common errors (font embedding, color space conversion, low-resolution image flagging). Kodak Prinergy and EFI Fiery include preflight in their workflows. These tools apply generic rules — but the correction decisions are production-specific: should this RGB image be converted to CMYK with the offset profile or the digital profile? Does this job need 3mm bleed or 5mm bleed based on the finishing spec? Is 150 DPI adequate for a billboard but not for a brochure? The prepress technician makes these context-dependent decisions.
+
+## The Customisation Gap
+A production-context-aware prepress automation system needs: (1) job-specification-aware preflight — applying correction rules based on the specific production parameters (press type, substrate, finishing, viewing distance) rather than generic tolerances; (2) automated correction with production context — converting colors using the correct ICC profile for the target press/substrate combination, adding bleed based on the trim specification, and adjusting trapping based on the press registration capability; (3) customer file quality scoring — rating incoming files by production-readiness and generating specific, actionable correction requests when manual customer revision is needed rather than generic error lists. The production-context linkage between the file's technical characteristics and the job's production requirements is what generic preflight tools don't provide.
+
+## Impact If Solved
+Reduces prepress file preparation time from 15-30 minutes per job to 5-10 minutes for routine files (auto-corrected with production-context rules, technician reviews and approves). Reduces customer revision cycles — specific, actionable file correction requests get resolved faster than generic preflight error reports. For a shop processing 40 jobs per day, recovering 15 minutes per job saves 10 hours of prepress technician time daily.

@@ -1,0 +1,18 @@
+# Rework Technician Micro-Soldering Strain
+
+**Industry:** [[electronics-contract-mfg|Electronics Contract Manufacturing]]
+**Type:** Worker Life Changing
+**One-liner:** Rework technicians who spend 6-8 hours per shift hand-soldering BGA, QFN, and fine-pitch components under stereo microscopes — removing and replacing components with hot air stations, soldering irons, and flux at 0.4mm pitch — develop chronic eye strain, hand tremor, and neck pain that limits their career span in the role to 5-10 years before physical degradation forces a role change.
+**Tags:** #cnn #object-detection #computer-vision #worker-facing
+
+## The Problem
+When AOI or ICT identifies a defective solder joint or misplaced component, the board routes to the rework station. Rework technicians — the most skilled manual workers in an electronics factory — remove the defective component using hot air or infrared rework stations, clean the pad site, apply fresh solder paste, and place and reflow a replacement component. For BGA packages (solder balls under the component, invisible after placement), the technician works blind — they must align the component by reference marks, reflow it, and then x-ray to verify joint formation. For fine-pitch QFN and QFP components (0.4-0.5mm pitch), hand soldering requires magnification at 10-20x and steady hands for extended periods. A busy rework station processes 20-50 boards per shift, with each board requiring 5-30 minutes of focused microscope work.
+
+## Why It Matters to the Worker
+Rework technicians are typically the highest-paid hourly workers on the production floor, reflecting the skill required. But the physical cost is severe: sustained microscope use causes progressive eye strain and headaches; the fine motor demands of micro-soldering cause hand and wrist fatigue; the hunched posture over the microscope causes chronic neck and upper back pain. Experienced rework technicians report that after 5-10 years in the role, their vision and hand steadiness have degraded enough to affect their accuracy — they can feel themselves getting slower and less precise. The career path is a dead end: the skill is highly specialized and doesn't transfer to other manufacturing roles, and the physical demands eventually force retirement from the role regardless of the technician's desire to continue.
+
+## What a Solution Looks Like
+Two complementary approaches: (1) upstream defect reduction — improving SMT process parameters, solder paste deposition, and placement accuracy to reduce the rework rate from 2-5% to under 1%, directly reducing the volume of boards that require rework; (2) rework assistance technology — automated component removal and placement stations that handle the thermal profile and component alignment, reducing the technician's role from manual soldering to setup, verification, and quality judgment. Camera-assisted alignment systems for BGA rework that overlay the component pattern on the pad site, eliminating the need for the technician to align by eye under magnification. Ergonomic workstation redesign with digital microscopes (screen-based rather than eyepiece-based) that allow natural posture during inspection.
+
+## Impact If Solved
+Extends rework technician career duration from 5-10 years to 15-20+ years by reducing physical strain. Reduces rework processing time by 30-40% through assisted alignment and automated thermal profiles. Maintains rework quality while accommodating the natural aging of the technician's vision and fine motor skills — a critical concern as the average age of skilled rework technicians increases and new entrants to the role decline.

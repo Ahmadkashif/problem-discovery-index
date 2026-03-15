@@ -20,14 +20,13 @@ There are two spec files in the root:
 
 Read `problem-index/_bookmark.md` first on every session. It is the authoritative state file.
 
-As of initial setup, **5 industries are complete:**
-1. `behavioral-health-clinics`
-2. `home-health-agencies`
-3. `dental-practices`
-4. `physical-therapy`
-5. `medical-billing`
+**35 industries are complete** (as of 2026-03-15):
+1–5: `behavioral-health-clinics`, `home-health-agencies`, `dental-practices`, `physical-therapy`, `medical-billing`
+6–15: `urgent-care`, `veterinary-practices`, `pharmacy-independents`, `immigration-law`, `personal-injury-law`, `estate-planning`, `small-law-firms`, `compliance-consulting`, `general-contractors`, `electrical-contractors`
+16–25: `plumbing-contractors`, `roofing-contractors`, `hvac-contractors`, `landscaping`, `painting-contractors`, `home-inspection`, `solar-installers`, `utility-contractors`, `property-management`, `commercial-real-estate`
+26–35: `short-term-rentals`, `real-estate-appraisers`, `hoa-management`, `freight-brokerage`, `last-mile-delivery`, `warehouse-3pl`, `customs-brokers`, `cold-chain-logistics`, `contract-manufacturing`, `metal-fabrication`
 
-The next industry in the processing queue is `urgent-care` (industry #6 in HEALTHCARE & CLINICAL).
+The next industry in the processing queue is `food-manufacturing` (industry #36 in MANUFACTURING & INDUSTRIAL).
 
 **Every session starts by reading `_bookmark.md` to verify current state before writing any files.**
 
@@ -273,18 +272,48 @@ Generate 3-4 AI agent or vertical platform opportunities. Each is a distinct pro
 
 ## Processing Order
 
-Process industries in this exact order (from `industries.ts`). Current position: industry #6, `urgent-care`.
+Process industries in this exact order (from `industries.ts`). Current position: industry #36, `food-manufacturing`.
 
 ```
-COMPLETED (5):
+COMPLETED (35):
 1.  behavioral-health-clinics
 2.  home-health-agencies
 3.  dental-practices
 4.  physical-therapy
 5.  medical-billing
+6.  urgent-care
+7.  veterinary-practices
+8.  pharmacy-independents
+9.  immigration-law
+10. personal-injury-law
+11. estate-planning
+12. small-law-firms
+13. compliance-consulting
+14. general-contractors
+15. electrical-contractors
+16. plumbing-contractors
+17. roofing-contractors
+18. hvac-contractors
+19. landscaping
+20. painting-contractors
+21. home-inspection
+22. solar-installers
+23. utility-contractors
+24. property-management
+25. commercial-real-estate
+26. short-term-rentals
+27. real-estate-appraisers
+28. hoa-management
+29. freight-brokerage
+30. last-mile-delivery
+31. warehouse-3pl
+32. customs-brokers
+33. cold-chain-logistics
+34. contract-manufacturing
+35. metal-fabrication
 
 QUEUE:
-6.  urgent-care                 ← START HERE
+36. food-manufacturing          ← START HERE
 7.  veterinary-practices
 8.  pharmacy-independents
 9.  immigration-law

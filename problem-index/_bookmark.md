@@ -1,8 +1,8 @@
 # Bookmark
 
 ## Status
-Last updated: 2026-03-13T00:00:00.000Z
-Completed: 5 / 120 industries
+Last updated: 2026-03-15T02:00:00.000Z
+Completed: 55 / 120 industries
 
 ## Completed
 - [[behavioral-health-clinics]]
@@ -10,11 +10,6 @@ Completed: 5 / 120 industries
 - [[dental-practices]]
 - [[physical-therapy]]
 - [[medical-billing]]
-
-## In Progress
-_none_
-
-## Queue (next up)
 - [[urgent-care]]
 - [[veterinary-practices]]
 - [[pharmacy-independents]]
@@ -50,9 +45,9 @@ _none_
 - [[electronics-contract-mfg]]
 - [[printing-shops]]
 - [[crop-farming]]
+- [[food-distributors]]
 - [[livestock-operations]]
 - [[greenhouse-horticulture]]
-- [[food-distributors]]
 - [[restaurant-suppliers]]
 - [[accounting-firms-smb]]
 - [[staffing-agencies]]
@@ -65,6 +60,11 @@ _none_
 - [[ecommerce-sellers]]
 - [[auto-dealers-independent]]
 - [[specialty-food-retail]]
+
+## In Progress
+- (none)
+
+## Queue (next up)
 - [[medical-supply-retail]]
 - [[independent-insurance-agents]]
 - [[mortgage-brokers]]

@@ -1,0 +1,18 @@
+# Automated Regulatory Change Impact Analysis and Client Notification
+
+**Industry:** [[compliance-consulting|Compliance Consulting Firms]]
+**Type:** High Impact
+**One-liner:** A compliance consultant who currently monitors 6-12 regulatory frameworks manually — reading every Federal Register notice, FDA guidance document, and state agency update — gets an AI system that reads them first, classifies the impact on each active client engagement, and delivers a targeted briefing with specific client action recommendations within 24 hours of each regulatory change.
+**Tags:** #bert #text-classification #nlp #automation #tacit-knowledge-ml #revenue-impact
+
+## The Problem
+Regulatory change is continuous across every compliance domain. The FDA issues new guidance documents, warning letters, and rule changes; CMS updates billing and quality requirements quarterly; OSHA issues new standards and enforcement policy updates; state regulators add jurisdiction-specific overlays to federal requirements. A compliance consultant serving clients in multiple industries must monitor all of these simultaneously and translate each change into a specific client impact analysis: which clients are affected, how significantly, what specific control or policy update is required, and by when. Currently, this is done by reading the regulatory notice, applying domain expertise to assess impact, and drafting a client communication — a process that takes 2-4 hours per significant regulatory change and falls behind when multiple changes arrive simultaneously.
+
+## Why It's Unsolved
+Regulatory change monitoring and impact analysis requires two things: (1) domain-specific classification of the change's scope — a skilled compliance consultant can read an FDA guidance document and immediately know whether it affects food manufacturers, medical device makers, both, or neither, and which specific 21 CFR subparts are implicated; (2) client-specific impact mapping — applying the classified change to each client's actual control inventory to identify specific gaps. The second step requires understanding both the regulatory standard and the client's current compliance posture. This client-specific contextual reasoning is what makes automated impact analysis hard and what constitutes the tacit expertise of an experienced compliance consultant.
+
+## What a Solution Looks Like
+A regulatory monitoring pipeline that: (1) ingests regulatory publication feeds from relevant federal and state agencies; (2) uses an NLP classification model trained on the consultant's domain expertise to classify each change by regulation section, affected client industry, and impact severity; (3) maps the classified change against the consultant's active client engagement inventory to produce client-specific impact analyses; (4) generates a client notification draft for each affected engagement, including the specific control or policy language requiring update. The consultant reviews the generated impact analyses for accuracy, adds their interpretive judgment for ambiguous cases, and sends client notifications — spending 20 minutes per change rather than 2-4 hours.
+
+## Impact If Solved
+A compliance firm serving 50 active clients across 3-4 regulatory frameworks currently spends 15-25% of total billable time on regulatory monitoring and change communication. Automating this to 80% of coverage recovers that time for billable project work. More strategically, proactive regulatory change notification is a high-value client retention mechanism — clients who receive timely, specific guidance from their consultant renew engagements more readily than those who hear about regulatory changes from industry news.

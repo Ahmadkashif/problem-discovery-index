@@ -1,0 +1,18 @@
+# Process Validation Documentation Burden
+
+**Industry:** [[medical-device-mfg|Medical Device Manufacturing]]
+**Type:** Worker Life Changing
+**One-liner:** Manufacturing engineers who spend 40% of their time drafting IQ/OQ/PQ validation protocols and reports — documents that follow rigid FDA-expected structures and are 80% structurally identical across validations — could be doing engineering work instead of producing compliance documentation that an LLM can draft from validated templates and process data.
+**Tags:** #llm #text-generation #nlp #worker-facing #compliance
+
+## The Problem
+Process validation under 21 CFR Part 820.75 requires that every manufacturing process affecting device quality be validated, with documented protocols (IQ — Installation Qualification, OQ — Operational Qualification, PQ — Performance Qualification) and execution reports. A single process validation generates 50-200 pages of documentation: protocol objectives, equipment specifications, test parameters, acceptance criteria, raw data, statistical analysis, deviations, and conclusions. Manufacturing engineers draft these documents from scratch or from loosely maintained templates, adapting the structure to each specific process while ensuring FDA-expected content elements are present. A typical mid-size device manufacturer executes 10-30 process validations per year (new products, process changes, equipment replacements), each requiring 40-80 hours of engineering documentation time. Engineers report spending 40% of their total work time on validation documentation — time they describe as the least valuable and most frustrating part of their job.
+
+## Why It Matters to the Worker
+Manufacturing engineers are hired for their technical problem-solving skills — designing processes, troubleshooting production issues, optimizing yield. Instead, they spend nearly half their time as technical writers producing compliance documents. The documentation burden is particularly acute during new product launches, when the engineering team is simultaneously scaling production and writing validation protocols under deadline pressure. Engineers who leave medical device manufacturing for other industries consistently cite documentation burden as a primary reason — they want to engineer, not write. The irony is that the most experienced engineers, whose process knowledge is most valuable for writing accurate validation documents, are also the engineers whose time is most wasted on the repetitive structural elements of the documentation.
+
+## What a Solution Looks Like
+An LLM-powered validation document generation system that: (1) takes the engineer's process description, equipment specifications, and critical process parameters as structured inputs; (2) generates a complete IQ/OQ/PQ protocol draft with FDA-expected section structure, boilerplate language, and acceptance criteria populated from the engineer's inputs; (3) after validation execution, ingests raw data and generates the execution report with statistical analysis, deviation documentation, and conclusions. The engineer reviews, edits, and approves rather than drafting from blank pages. The system maintains validated templates that ensure regulatory consistency across all validations.
+
+## Impact If Solved
+Reduces validation documentation time from 40-80 hours to 10-20 hours per validation (engineer reviews and refines rather than drafts from scratch). Recovers 20-30% of manufacturing engineering capacity from documentation to actual engineering work. Reduces time-to-market for new devices by accelerating the validation documentation that often sits on the critical path of product launch timelines.

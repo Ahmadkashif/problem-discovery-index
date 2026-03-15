@@ -1,0 +1,18 @@
+# Proactive Plan Staleness Detection and Client Re-Engagement
+
+**Industry:** [[estate-planning|Estate Planning Law Firms]]
+**Type:** High Impact
+**One-liner:** An estate planning firm that systematically monitors its entire client base for life events that trigger plan updates — and reaches out proactively with specific, relevant recommendations — converts a dormant client file into a sustainable revenue stream while genuinely protecting clients whose plans have drifted out of alignment.
+**Tags:** #gradient-boosting #binary-classification #tabular-ml #revenue-impact
+
+## The Problem
+Estate plans become legally valid but practically wrong over time. A will written in 2015 may name a beneficiary who has since died, rely on a power of attorney who has since become incapacitated, not account for a business interest acquired in 2018, or use tax exemptions that have changed twice since. The attorney who drafted the plan has no mechanism to know any of this — clients don't call to report life changes, and the attorney doesn't have a systematic process to monitor them. The result: a client file goes dormant after the initial engagement, the client eventually dies with a stale plan, and the estate is administered at increased cost (unexpected tax exposure, beneficiary disputes, assets not in trust) that the plan was designed to prevent. Meanwhile, the attorney left several billable update engagements on the table over 10 years.
+
+## Why It's Unsolved
+Estate planning firms are small and relationship-driven — they track client information in matter management systems, not in CRM platforms with triggered outreach workflows. Attorneys rely on clients to initiate contact when circumstances change, which most clients don't do because they don't know when their estate plan needs an update. There is no data integration between the attorney's matter management system and the external data sources (public records, client-reported life events, financial data) that would signal a plan needs review. Building this proactively requires both a data monitoring layer and a recommendation logic engine — neither of which exist in current estate planning software.
+
+## What a Solution Looks Like
+A client monitoring system that: (1) maintains a structured profile of each client's plan type, key parties named (executor, trustee, beneficiaries, power of attorney), and major asset categories documented at plan execution; (2) monitors for triggering events from multiple sources — public marriage/divorce records, obituary monitoring for named beneficiaries, tax law changes affecting applicable exclusion amounts, client-reported life events via an annual wellness questionnaire; (3) generates a prioritized re-engagement list weekly, with a specific update recommendation for each flagged client ("your trust names John Smith as successor trustee — public records indicate Mr. Smith passed away on January 15th; a trustee update engagement is recommended"); (4) auto-drafts the client outreach email with the specific issue identified and a proposed next step. The attorney reviews and sends the outreach — no cold calling.
+
+## Impact If Solved
+A mature estate planning practice with 500+ dormant client files that implements proactive monitoring can realistically generate 50-100 update engagements annually that would otherwise never have happened — at average fees of $1,500-4,000 per update engagement, that is $75K-400K in annual revenue from an existing client base. More importantly, it significantly reduces the likelihood that a client dies with a plan that creates preventable estate administration problems.

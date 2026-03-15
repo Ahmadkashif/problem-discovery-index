@@ -1,0 +1,18 @@
+# SMT Operator Changeover Time Between Product Runs
+
+**Industry:** [[electronics-contract-mfg|Electronics Contract Manufacturing]]
+**Type:** Worker Life Changing
+**One-liner:** SMT operators who execute product changeovers — swapping feeder reels, changing stencils, loading new placement programs, and adjusting reflow profiles — spend 45-90 minutes on each changeover for short-run programs, and as production shifts toward higher-mix lower-volume, the ratio of changeover time to production time increasingly dominates their shift.
+**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing #automation
+
+## The Problem
+High-mix ECMs run 5-15 different product programs per SMT line per day. Each changeover requires: loading the correct feeder reels at the correct slot positions on the placement machine (30-100 unique component reels per program), installing the correct solder paste stencil, loading the placement program, and setting the reflow profile. An experienced operator executes a changeover in 45-60 minutes; a less experienced operator takes 60-90 minutes. On a line running 8 programs per day with 45-minute changeovers, 6 hours of a 10-hour shift are spent on changeover — leaving only 4 hours for actual production. The changeover task is physically demanding (feeder reels weigh 1-5 lbs each, and an operator may handle 50-100 reels per changeover), cognitively demanding (verifying correct component in correct slot is a critical quality step — a wrong component loaded in the wrong feeder position produces defective boards), and time-pressured (the line is not producing during changeover, so every minute costs throughput).
+
+## Why It Matters to the Worker
+Operators experience changeover as the most stressful part of their job. The physical handling of dozens of reels under time pressure causes repetitive strain. The verification responsibility — confirming every component/slot combination is correct — carries quality risk (a wrong component error can produce an entire run of defective boards before detection). When changeovers run long, operators feel production pressure from supervisors tracking line utilization metrics. The cognitive load of maintaining accuracy while working fast under observation is the daily reality of high-mix SMT operation. Operators who could develop process expertise and contribute to quality improvement spend their shifts moving reels and verifying barcodes instead.
+
+## What a Solution Looks Like
+An optimized changeover sequencing system that: (1) pre-stages feeder reels for the next program while the current program runs (kitting optimization that minimizes reel changes by identifying common components between sequential programs); (2) generates a visual changeover guide on the operator's workstation showing exactly which slots change, which stay, and the physical sequence for minimum handling; (3) automates verification through barcode scanning integrated with the placement program — the operator scans each reel as loaded and gets immediate confirmation or error. Combined with production scheduling that sequences programs to minimize total changeover (grouping programs with similar BOMs), the system reduces both the physical handling and the cognitive verification burden.
+
+## Impact If Solved
+Reduces average changeover time from 45-90 minutes to 20-40 minutes through optimized sequencing and kitting. Reduces wrong-component loading errors (currently 0.1-0.5% of changeovers result in wrong-component events) through automated barcode verification. Recovers 2-4 hours of production time per line per day on high-mix lines. Reduces operator physical strain from reel handling by 30-40% through kitting optimization that minimizes unnecessary reel swaps.

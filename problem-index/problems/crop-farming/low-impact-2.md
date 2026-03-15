@@ -1,0 +1,18 @@
+# Grain Marketing Decision Support
+
+**Industry:** [[crop-farming|Crop Farming]]
+**Type:** Low Impact (Customisation Opportunity)
+**One-liner:** Commodity trading platforms and market analysis tools exist for professional grain traders, but they don't account for the farm-specific variables that determine a farmer's optimal sale strategy — local basis patterns, on-farm storage costs and capacity, crop quality differentials, cash flow requirements from operating loans, and crop insurance interactions — leaving most farmers to make six-figure marketing decisions based on gut feeling and the co-op's spot price.
+**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+
+## The Problem
+A 3,000-acre corn farmer produces $1.5-$2.5 million of grain annually. The marketing decision — when to sell, how much to forward-contract before harvest, whether to store and sell later, which delivery point offers the best net price after basis and freight — is a financial decision comparable in magnitude to any corporate treasury function, but it's made by a farmer working alone with a commodity ticker and advice from the local elevator manager. Most farmers sell reactively: they deliver grain at harvest when cash flow demands payment on operating loans, accepting whatever the spot price is. The farmers who market proactively — forward-contracting 30-50% of expected production before harvest, storing grain and selling into seasonal basis improvements — capture $0.10-$0.30/bushel more than reactive sellers, worth $30,000-$90,000 annually on a 3,000-acre corn operation.
+
+## What Already Exists
+CME Group futures platforms, DTN/Progressive Farmer market analysis, and brokerage tools from ADM, Cargill, and local elevator companies provide futures prices, basis quotes, and market commentary. Farm management platforms (Bushel, Indigo, FarmLogs) track grain inventory and contracts. None of these tools integrate the farm-specific financial context — the farmer's production cost per bushel, storage cost per month, operating loan payment schedule, crop insurance guarantee price, and local basis history — into a personalized marketing recommendation.
+
+## The Customisation Gap
+A farm-specific grain marketing tool needs: (1) production cost calculation per field — incorporating seed, fertilizer, chemical, fuel, labor, land cost, and overhead to determine the farmer's breakeven price; (2) local basis modeling — predicting the basis (difference between local cash price and futures price) at each delivery point the farmer can access, based on historical patterns, local supply/demand, and transportation costs; (3) storage economics — calculating the expected return to storage (basis improvement minus storage cost minus interest on deferred revenue) for the farmer's specific storage capacity and cost structure; (4) cash flow integration — aligning marketing recommendations with the farmer's operating loan payment schedule and cash flow requirements. The farm-specific financial modeling layered on top of commodity market data is what generic trading platforms don't provide.
+
+## Impact If Solved
+Shifts farmers from reactive to proactive grain marketing, capturing $0.10-$0.30/bushel of additional value — $30,000-$90,000 annually for a 3,000-acre corn operation. Reduces emotional decision-making (panic selling during price drops, holding too long hoping for higher prices) by providing data-driven recommendation with explicit risk/reward tradeoffs. Makes sophisticated marketing strategy accessible to operators who don't have a commodity trading background.
