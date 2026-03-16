@@ -1,0 +1,18 @@
+# Infestation Diagnosis and Treatment Intelligence
+
+**Industry:** [[pest-control|Pest Control]]
+**Type:** High Impact
+**One-liner:** Every technician diagnoses and treats like the 20-year veteran who reads an infestation scene the way a detective reads a crime scene — species, severity, entry points, and optimal treatment from the evidence alone.
+**Tags:** #cnn #gradient-boosting #multiclass-classification #computer-vision #tabular-ml #tacit-knowledge-ml #revenue-impact
+
+## The Problem
+An experienced pest control technician walks into a building and reads the infestation like a language: the shape and size of droppings identify species (mouse vs. rat vs. squirrel vs. cockroach species), the distribution pattern reveals travel routes and harborage locations, gnaw marks indicate severity and duration, grease marks along baseboards show frequency of use, and structural features (gaps, pipe penetrations, foundation cracks) reveal entry points. From this evidence, the veteran knows: it's a Norway rat colony that's been established 2-3 months, entering through the gap where the AC line penetrates the foundation, harboring under the concrete slab, with a population of approximately 15-25 based on droppings volume. They know the treatment protocol (exterior bait stations + interior snap traps + exclusion work at three specific entry points) and can predict the resolution timeline (2-3 weeks). A new technician sees droppings and applies a generic treatment that may or may not address the actual species and entry points.
+
+## Why It's Unsolved
+The knowledge is deeply multi-modal: visual evidence (droppings, damage, tracks, grease marks), structural assessment (building construction, entry point identification), species-specific behavioral knowledge (rats are neophobic and won't approach new objects for days; mice are curious and investigate immediately — this determines trap placement timing), and environmental context (season, geography, nearby habitat). The diagnostic reasoning is sequential — each observation narrows the hypothesis — and experienced technicians often can't articulate their reasoning because they've compressed years of pattern recognition into "I just know." Treatment protocols depend on species identification, severity assessment, structural constraints, regulatory limits, and customer preferences (no rodenticides if they have pets), creating a multi-dimensional decision space.
+
+## What a Solution Looks Like
+A mobile diagnostic assistant that guides the technician through a structured inspection: photo documentation of evidence (droppings, damage, entry points), structured data capture (building type, construction, surrounding environment), and measurement inputs (droppings volume estimate, damage extent). The system identifies the pest species from evidence photos, estimates infestation severity from distribution patterns, maps probable entry points from structural photos, and recommends a treatment protocol considering species behavior, regulatory constraints, and customer profile. Output: species identification with confidence, severity estimate, entry point map, treatment plan with product recommendations, and expected resolution timeline.
+
+## Impact If Solved
+Reduces service callbacks from 25% to under 10% by ensuring correct species identification and treatment approach on the first visit. Enables new technicians to deliver veteran-quality diagnostics within months rather than years. Standardizes treatment quality across a multi-branch operation — the #1 challenge for national and regional pest control companies. Increases first-visit resolution from 60% to 85%, reducing per-customer cost-to-serve.

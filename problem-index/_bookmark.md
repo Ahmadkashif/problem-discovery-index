@@ -1,8 +1,8 @@
 # Bookmark
 
 ## Status
-Last updated: 2026-03-16T00:00:00.000Z
-Completed: 95 / 120 industries
+Last updated: 2026-03-17T00:00:00.000Z
+Completed: 118 / 118 industries
 
 ## Completed
 - [[behavioral-health-clinics]]
@@ -99,11 +99,6 @@ Completed: 95 / 120 industries
 - [[news-media-local]]
 - [[gyms-independent]]
 - [[personal-trainers]]
-
-## In Progress
-- (none)
-
-## Queue (next up)
 - [[youth-sports-orgs]]
 - [[auto-repair-shops]]
 - [[auto-body-shops]]
@@ -127,3 +122,9 @@ Completed: 95 / 120 industries
 - [[grant-writers]]
 - [[public-defenders]]
 - [[land-surveyors]]
+
+## In Progress
+- (none)
+
+## Queue (next up)
+- (none remaining)
