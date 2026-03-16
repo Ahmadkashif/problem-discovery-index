@@ -1,0 +1,18 @@
+# Data Quality Assessment Autopilot
+
+**Industry:** [[data-analytics-consultants|Data Analytics Consultants]]
+**Type:** High Impact
+**One-liner:** Analysts stop spending 60-80% of every engagement manually profiling, cleaning, and debugging client data — an automated system flags quality issues, broken joins, and schema anomalies within minutes of connecting to a new dataset.
+**Tags:** #isolation-forest #gradient-boosting #anomaly-detection #tabular-ml #tacit-knowledge-ml #revenue-impact
+
+## The Problem
+When a data analytics consultant connects to a new client's data warehouse, the first days or weeks are consumed by data profiling: checking column distributions, identifying null patterns, discovering implicit business logic encoded in column names or values, tracing join keys across tables that were never formally documented, and catching silent data quality failures like truncated timestamps, mixed-unit columns, or zombie rows from deprecated ETL pipelines. This work is invisible to the client — it does not appear in the deliverable — yet it accounts for the majority of billable hours. An experienced analyst can glance at a table schema, sample a few hundred rows, and instinctively know which columns will cause problems, which joins will produce fan-outs, and where the data quality landmines are buried. A junior analyst performing the same assessment takes three to five times longer and still misses issues the senior would catch in the first pass.
+
+## Why It's Unsolved
+The tacit knowledge that senior analysts bring to data quality assessment is extraordinarily difficult to capture. It is not a checklist — it is a pattern recognition skill built from hundreds of engagements across different industries, data stacks, and organizational maturity levels. The analyst is reading signals in column naming conventions, distribution shapes, null-rate patterns, and table relationship structures simultaneously. No single rule engine or data profiling tool (Great Expectations, dbt tests, Monte Carlo) captures this holistic assessment because they operate on predefined expectations, not learned intuition. Training data is also hard to produce: you would need to record an expert analyst's investigation process across many engagements, label which signals they reacted to and which issues they ultimately found, and handle the fact that experts often disagree on the severity or even existence of a data quality issue. Deploying such a system is additionally constrained by the fact that it must work across arbitrary schemas it has never seen before — every client's data warehouse is a unique snowflake.
+
+## What a Solution Looks Like
+A tool that ingests a data warehouse connection (or a set of tables/CSVs), performs automated statistical profiling, and then applies a learned model to predict: (1) which columns are likely to contain quality issues, ranked by severity, (2) which table joins are likely to produce unexpected row multiplication or loss, (3) which columns encode implicit business logic that needs human clarification, and (4) a recommended investigation order — essentially a prioritized checklist that mimics what a senior analyst would do first. The system outputs an annotated data quality report with confidence scores and evidence (sample rows, distribution plots, join cardinality estimates), cutting the manual profiling phase from days to hours.
+
+## Impact If Solved
+Consulting firms reclaim 40-60% of engagement hours currently spent on data profiling and cleaning, translating directly to either higher margins or lower client costs. Junior analysts become productive on new engagements within hours instead of weeks, dramatically reducing the bottleneck of requiring senior analysts on every project kickoff.

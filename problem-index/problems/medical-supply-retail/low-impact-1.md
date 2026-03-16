@@ -1,0 +1,18 @@
+# Product Catalog Search by Clinical Need and Payer Coverage
+
+**Industry:** [[medical-supply-retail|Medical Supply Retail]]
+**Type:** Low Impact (Customisation Opportunity)
+**One-liner:** Generic product search tools cannot navigate the intersection of HCPCS codes, clinical indications, and payer-specific coverage rules that DME staff must mentally cross-reference for every order — a search for "patient needs a power wheelchair, has Medicare Advantage through UnitedHealthcare, diagnosis is multiple sclerosis" should return the three specific chair models that are both clinically appropriate and covered under that plan, not 200 generic results.
+**Tags:** #bert #text-classification #nlp #recommendation
+
+## The Problem
+A DME supplier's product catalog typically contains 5,000–20,000 SKUs mapped to hundreds of HCPCS codes, and the correct product for a given patient depends on a three-way match: the patient's clinical indication and functional limitations, the HCPCS code that describes the equipment category, and the specific payer's coverage policy for that code. An order for a "standard wheelchair" could map to HCPCS codes E1130, E1150, E1160, K0001, K0002, K0003, or K0004 depending on the patient's weight, functional capacity, and expected duration of need — and each code has different documentation requirements and reimbursement rates that vary by payer. Experienced staff memorize these mappings for common products and payers, but new hires and even veterans struggle with less-common equipment categories (custom orthotics, wound care supply kits, enteral nutrition formularies) where the code-product-payer matrix is especially dense.
+
+## What Already Exists
+Brightree and other DME software platforms include product catalogs with HCPCS code lookups, and third-party databases like PDAC (Pricing, Data Analysis, and Coding) maintain the official HCPCS-to-product mapping. General-purpose search within these catalogs is keyword-based: you can search by product name, manufacturer, or HCPCS code if you already know it. Medicare fee schedules and LCDs are publicly available on the CMS website. Commercial payer coverage policies are published in their provider portals.
+
+## The Customisation Gap
+No existing tool performs the three-way match — clinical need to HCPCS code to payer coverage — in a single query. A staff member must first translate the physician's order into the correct HCPCS code (often ambiguous), then look up which products in their catalog map to that code, then check whether the patient's specific payer covers that code under the patient's specific plan, then verify that the documentation requirements for that payer-code combination are met. Each step is a separate system or manual lookup. The customization gap is a semantic search layer that understands clinical terminology ("patient cannot self-propel due to bilateral upper extremity weakness" maps to power mobility, not manual wheelchair), maps it to the correct HCPCS code(s), filters the product catalog to matching items in stock, and cross-references the patient's payer coverage policy to surface only products that are both clinically appropriate and reimbursable. This requires fine-tuning a language model on DME-specific terminology, HCPCS coding conventions, and payer policy language — none of which is handled by generic enterprise search.
+
+## Impact If Solved
+Reduces product selection time from 10–20 minutes per order (for non-routine items) to under 2 minutes, eliminates coding errors that lead to claim denials (estimated 8–12% of denials are attributable to incorrect HCPCS code selection), and enables new staff to handle complex orders within weeks rather than months of on-the-job training.

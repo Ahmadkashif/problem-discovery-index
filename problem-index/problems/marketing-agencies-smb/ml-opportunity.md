@@ -5,7 +5,21 @@
 
 ---
 
-## 1. Multi-Channel Attribution Modeling for Low-Volume Advertisers
+## 1. Campaign Creative Fatigue Detection Before Performance Drops
+#gradient-boosting #change-point-detection #tabular-ml #tacit-knowledge-ml
+
+**Problem statement:** Experienced PPC and media buyers develop an intuition for when a creative is "getting tired" — they notice subtle shifts in engagement patterns (CTR plateau, frequency creep, cost-per-click drift) 3-5 days before the metrics clearly show decline. Junior media buyers wait until ROAS drops and the client complains. This early detection instinct, built from running thousands of campaigns, is the difference between proactive optimization and reactive firefighting. The goal is to encode this tacit pattern recognition into a model that flags creative fatigue onset before it becomes visible in top-line performance metrics.
+
+**ML task:** Change-point detection on multivariate campaign time series + binary classification (fatigue onset within 3-5 days: yes/no)
+**Input data:** Daily and hourly campaign metrics from Meta Ads Manager and Google Ads — CTR, CPC, CPM, frequency, impression share, conversion rate, ROAS, reach-to-impression ratio, and engagement rate — as rolling time series per creative. Secondary signals from HubSpot and Agency Analytics: landing page bounce rate trends, time-on-site post-click, and lead quality scores. Feature engineering: rate-of-change features (first and second derivatives of CTR, CPC, frequency over 3/5/7-day windows), ratio features (CTR-to-frequency divergence, CPC-to-impression-share ratio), and distributional shift features (KL divergence of hourly engagement distributions vs. creative's first-week baseline).
+**Target:** Binary label — creative enters fatigue (defined as 15%+ CTR decline sustained over 5+ days) within the next 3-5 days. Positive class is the pre-fatigue window identified retrospectively from historical campaign data. Secondary target: estimated days-to-fatigue as a regression output for prioritization.
+**Evaluation metric:** Recall at 70% precision — missing a fatiguing creative costs wasted ad spend and client trust, while a false positive only triggers an early creative refresh (low cost). Lead time metric: average number of days of early warning before the performance drop becomes statistically significant by standard platform reporting. Business metric: reduction in cost-per-acquisition during the fatigue transition period for campaigns using the model vs. baseline.
+**Scope:** 1-2 ML engineers, 4-5 months to MVP. The core model is gradient-boosted trees on engineered time-series features per creative, trained on retrospectively labeled fatigue events. The hard parts: (1) defining the fatigue onset label consistently across campaigns with different baseline volatility — a creative spending $50/day has noisier signals than one spending $5,000/day, so the labeling function must be scale-aware; (2) distinguishing true creative fatigue from external shocks (competitor bid changes, seasonal demand shifts, audience exhaustion) that look similar in the metrics; (3) handling the class imbalance — most creative-days are not pre-fatigue. A hierarchical approach that groups creatives by campaign objective, industry vertical, and spend level improves generalization. Start with Meta Ads data (richer creative-level metrics) before expanding to Google Ads.
+**Data availability:** Campaign performance time series are readily available via Meta Marketing API and Google Ads API, and agencies already pull this data into dashboards via Agency Analytics or Supermetrics. The labeling challenge is the core difficulty — an experienced media buyer must review historical campaigns and annotate where they would have flagged fatigue, creating a ground-truth dataset that captures the tacit judgment. Initial dataset: 500+ creative lifecycles across 50+ accounts with retrospective fatigue labels. Agencies running 20+ client accounts generate this volume in 3-6 months.
+
+---
+
+## 2. Multi-Channel Attribution Modeling for Low-Volume Advertisers
 #gradient-boosting #causal-inference #tabular-ml #revenue-impact
 
 **Problem statement:** SMB clients with 50-500 monthly conversions across Google Ads, Meta, email, and organic channels need a statistically valid attribution model that works with sparse data, replacing last-click platform reporting that double-counts conversions and misleads budget allocation.
@@ -19,7 +33,7 @@
 
 ---
 
-## 2. Client Churn Prediction from Engagement and Performance Signals
+## 3. Client Churn Prediction from Engagement and Performance Signals
 #gradient-boosting #binary-classification #tabular-ml #revenue-impact
 
 **Problem statement:** Agencies lose 25-40% of clients annually, often with little warning. By the time a client expresses dissatisfaction, the decision to leave is already made. Predicting churn 60-90 days in advance from behavioral and performance signals enables proactive retention interventions.
@@ -33,7 +47,7 @@
 
 ---
 
-## 3. Content Performance Prediction Before Publication
+## 4. Content Performance Prediction Before Publication
 #gradient-boosting #regression #tabular-ml #nlp #automation
 
 **Problem statement:** Agencies produce 50-200 pieces of content per month (blog posts, social posts, email campaigns, ad copy) without a reliable way to predict which will perform well, leading to uniform effort allocation across high- and low-potential content.
@@ -47,7 +61,7 @@
 
 ---
 
-## 4. Ad Creative Performance Scoring and Variant Recommendation
+## 5. Ad Creative Performance Scoring and Variant Recommendation
 #cnn #gradient-boosting #multiclass-classification #computer-vision #tabular-ml #automation
 
 **Problem statement:** PPC specialists create 5-15 ad variants per campaign (headlines, descriptions, images) and rely on platform A/B testing that takes 2-4 weeks to converge. Pre-scoring creative elements before launch would reduce wasted spend on underperforming variants and accelerate time-to-winning-ad.

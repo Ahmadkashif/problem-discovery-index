@@ -98,18 +98,32 @@ All problem cards (`high-impact.md`, `low-impact-*.md`, `worker-life-*.md`) and 
 
 **This is the highest-priority opportunity type in the entire project.**
 
-In any industry where workers develop mastery through repeated sensory, perceptual, or judgment-based tasks — trades, clinical care, manufacturing, agriculture, transportation, food service — there are problems where an experienced worker has internalized pattern recognition that they cannot fully articulate but act on constantly. These are prime ML targets.
+**Tacit knowledge exists in EVERY industry — not just trades and physical work.** Any domain where experienced practitioners develop judgment through repeated exposure to patterns has tacit knowledge worth capturing with ML. This includes:
+
+- **Physical/sensory industries** (trades, manufacturing, agriculture, clinical care): pattern recognition through sight, sound, touch, smell
+- **Knowledge-work industries** (recruiting, consulting, sales, IT, finance): pattern recognition through repeated exposure to cases, clients, deals, tickets, and outcomes — the experienced practitioner "just knows" something that a junior cannot articulate from the data alone
+- **Transactional/retail industries** (dealers, buyers, merchandisers): pricing intuition, demand sensing, customer read, inventory judgment developed through thousands of transactions
+
+The common thread is: **an experienced worker acts on patterns they cannot write a specification for.** If someone says "I just know" or "you develop a feel for it" — that's tacit knowledge, and it's an ML target regardless of whether the job involves a wrench or a spreadsheet.
 
 **Examples of what to look for:**
+
+Physical/sensory tacit knowledge:
 - An electrician who can visually scan a panel and sense a wiring problem before testing → `#cnn` + `#object-detection` + `#computer-vision` + `#tacit-knowledge-ml`
 - A mechanic who hears an engine knock and identifies the failing bearing → `#cnn` + `#multiclass-classification` + `#speech-processing` + `#tacit-knowledge-ml`
 - A nurse sensing patient deterioration before vitals confirm it → `#gradient-boosting` + `#anomaly-detection` + `#tabular-ml` + `#tacit-knowledge-ml`
 - A welder visually grading weld quality → `#cnn` + `#semantic-segmentation` + `#computer-vision` + `#tacit-knowledge-ml`
-- A plumber reading pipe vibration patterns as symptoms → `#lstm` + `#anomaly-detection` + `#signal-processing` + `#tacit-knowledge-ml`
 - A crop farmer assessing soil health by touch and color → `#cnn` + `#multiclass-classification` + `#computer-vision` + `#tacit-knowledge-ml`
 
+Knowledge-work tacit knowledge:
+- A recruiter who reads a resume and *knows* this candidate will ghost before the start date → `#gradient-boosting` + `#binary-classification` + `#tabular-ml` + `#tacit-knowledge-ml`
+- An MSP technician who reads a ticket description and *knows* the real root cause isn't what the user described → `#bert` + `#text-classification` + `#nlp` + `#tacit-knowledge-ml`
+- A marketing strategist who sees campaign metrics and *knows* creative fatigue is setting in before CTR drops → `#gradient-boosting` + `#change-point-detection` + `#tabular-ml` + `#tacit-knowledge-ml`
+- An auto dealer buyer who does a 30-second auction walkaround and *knows* a car will sit on the lot 90 days → `#gradient-boosting` + `#regression` + `#tabular-ml` + `#tacit-knowledge-ml`
+- An experienced accountant who scans a client's books and *senses* something is off before finding the specific error → `#isolation-forest` + `#anomaly-detection` + `#tabular-ml` + `#tacit-knowledge-ml`
+
 **Rules:**
-1. For every industry with human-contact, field work, or craft skill: the `ml-opportunity.md` MUST include at least one tacit knowledge ML entry listed FIRST.
+1. **EVERY industry has tacit knowledge.** The `ml-opportunity.md` for every industry MUST include at least one tacit knowledge ML entry listed FIRST. There are no exceptions.
 2. For industries where tacit knowledge ML is the most transformative opportunity: it MUST be the `high-impact.md` problem — not a supporting item in `ml-opportunity.md`.
 3. Tacit knowledge problems require a more detailed "Why It's Hard" section: explain the data collection challenge (you have to capture the expert performing the task), the labeling challenge (the expert may not agree with themselves), and the deployment challenge (it must be faster than the expert to be adopted).
 

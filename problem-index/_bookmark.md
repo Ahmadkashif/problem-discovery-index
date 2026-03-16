@@ -1,8 +1,8 @@
 # Bookmark
 
 ## Status
-Last updated: 2026-03-15T02:00:00.000Z
-Completed: 55 / 120 industries
+Last updated: 2026-03-16T00:00:00.000Z
+Completed: 95 / 120 industries
 
 ## Completed
 - [[behavioral-health-clinics]]
@@ -60,21 +60,16 @@ Completed: 55 / 120 industries
 - [[ecommerce-sellers]]
 - [[auto-dealers-independent]]
 - [[specialty-food-retail]]
-
-## In Progress
-- (none)
-
-## Queue (next up)
-- [[medical-supply-retail]]
 - [[independent-insurance-agents]]
-- [[mortgage-brokers]]
-- [[wealth-management-rias]]
-- [[credit-unions]]
-- [[tax-prep-firms]]
 - [[collections-agencies]]
 - [[k12-private-schools]]
-- [[tutoring-centers]]
+- [[tax-prep-firms]]
 - [[vocational-schools]]
+- [[credit-unions]]
+- [[medical-supply-retail]]
+- [[tutoring-centers]]
+- [[mortgage-brokers]]
+- [[wealth-management-rias]]
 - [[corporate-training]]
 - [[language-schools]]
 - [[childcare-centers]]
@@ -85,16 +80,15 @@ Completed: 55 / 120 industries
 - [[coffee-shops-independent]]
 - [[owner-operator-trucking]]
 - [[towing-companies]]
+- [[energy-auditors]]
+- [[it-staffing-firms]]
 - [[moving-companies]]
 - [[charter-bus-operators]]
 - [[non-emergency-medical-transport]]
-- [[energy-auditors]]
-- [[oil-gas-field-services]]
-- [[it-staffing-firms]]
-- [[software-dev-agencies]]
-- [[cybersecurity-mssp]]
 - [[data-analytics-consultants]]
 - [[cloud-infrastructure-consultants]]
+- [[oil-gas-field-services]]
+- [[cybersecurity-mssp]]
 - [[nonprofits-social-services]]
 - [[faith-organizations]]
 - [[trade-associations]]
@@ -105,6 +99,11 @@ Completed: 55 / 120 industries
 - [[news-media-local]]
 - [[gyms-independent]]
 - [[personal-trainers]]
+
+## In Progress
+- (none)
+
+## Queue (next up)
 - [[youth-sports-orgs]]
 - [[auto-repair-shops]]
 - [[auto-body-shops]]

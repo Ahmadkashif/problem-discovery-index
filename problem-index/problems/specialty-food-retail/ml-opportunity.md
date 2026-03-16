@@ -5,7 +5,21 @@
 
 ---
 
-## 1. SKU-Level Demand Forecasting for Perishables
+## 1. Perishable Product Quality Assessment and Shelf Life Estimation at Receiving
+#cnn #gradient-boosting #multiclass-classification #computer-vision #tabular-ml #tacit-knowledge-ml
+
+**Problem statement:** Capture and replicate the sensory quality judgments that experienced specialty food staff make when evaluating incoming perishable products — a cheesemonger who feels the rind, smells the paste, and knows this wheel has 4 days of peak ripeness left vs. 10; a produce buyer who assesses color and firmness of avocados and knows which case is 2 days from perfect and which is already past peak; a butcher who examines marbling, color, and texture and knows the grade and aging state. This tacit expertise, built from handling thousands of products, drives ordering, pricing, and merchandising decisions — and it leaves the business when an experienced staff member departs.
+
+**ML task:** Multiclass classification (quality grade assignment) + regression (estimated days of peak shelf life remaining)
+**Input data:** High-resolution images of incoming products captured via smartphone at receiving (rind surface, cut face, marbling patterns, produce skin color and texture), environmental sensor readings (ambient temperature during transit, humidity), supplier metadata (distributor, origin, harvest/production date, transit time from Square or Revel POS receiving logs), product category and type (e.g., soft-ripened cheese, stone fruit, dry-aged beef), USDA grading standards as reference labels for initial calibration.
+**Target:** Two outputs: (1) quality grade classification (e.g., "peak now," "2–4 days to peak," "5–7 days to peak," "past peak — markdown immediately," "reject") and (2) estimated days of remaining optimal shelf life as a continuous value. Both outputs are per-item or per-case at receiving.
+**Evaluation metric:** Weighted F1 score for quality grade classification, with asymmetric penalties — misclassifying "past peak" as "peak now" (customer receives degraded product) penalized 3x versus misclassifying "peak now" as "2–4 days to peak" (conservative but acceptable). Mean absolute error in days for shelf life regression, targeting < 1 day MAE for products with < 7 day total shelf life. Secondary metric: spoilage reduction rate and markdown timing accuracy compared to staff-only baseline.
+**Scope:** This is a hard problem with a 6–12 month build timeline for an MVP covering a single product category (e.g., cheese only). The data collection challenge is significant: you must photograph products at receiving AND track their actual shelf life outcome (when did the product actually degrade?), requiring a 3–6 month instrumented data collection phase before model training begins. Labeling requires expert staff to grade products at receiving while photos are captured — and experts may disagree with each other or even with themselves on different days, necessitating multi-annotator consensus protocols. The vision model (CNN or Vision Transformer for image features) must be combined with tabular features (transit time, ambient temperature, supplier history) via a gradient-boosted ensemble for the final prediction. Team: 2 ML engineers + 1 domain expert (experienced cheesemonger/buyer as labeling consultant). Deployment must be faster and more consistent than the expert to drive adoption — a smartphone app that returns a grade and shelf-life estimate within 5 seconds of photographing a product at the receiving dock. Integration with specialty distributor platforms for supply chain context and with Square or Revel POS for automated markdown scheduling based on predicted shelf life.
+**Data availability:** No public datasets exist for specialty food sensory quality assessment. All training data must be collected in-house through an instrumented receiving workflow. USDA grading standards provide a starting taxonomy for meat and produce but do not cover artisan cheese, charcuterie, or specialty baked goods. The biggest bottleneck is capturing expert disagreement — two experienced cheesemongers may grade the same wheel differently, and the model must learn the distribution of expert opinion, not a single ground truth. Distributor platforms (UNFI, specialty importers) can provide transit time and cold chain data via API. Partnerships with 5–10 specialty food stores for diverse product coverage are essential to avoid overfitting to one store's product mix.
+
+---
+
+## 2. SKU-Level Demand Forecasting for Perishables
 #gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
 
 **Problem statement:** Predict daily unit demand per SKU at an individual specialty food store, accounting for day-of-week seasonality, holidays, weather, and shelf-life constraints, to generate optimal reorder quantities that minimize both spoilage and stockouts.
@@ -33,7 +47,7 @@
 
 ---
 
-## 3. Customer Basket Analysis and Product Affinity
+## 4. Customer Basket Analysis and Product Affinity
 #k-means #recommendation #tabular-ml #revenue-impact
 
 **Problem statement:** Identify product co-purchase patterns and customer segments in specialty food retail to inform cross-merchandising, staff pairing recommendations, and targeted promotions.
@@ -47,7 +61,7 @@
 
 ---
 
-## 4. Seasonal Assortment Planning and SKU Rationalization
+## 5. Seasonal Assortment Planning and SKU Rationalization
 #random-forest #multiclass-classification #tabular-ml #data-integration
 
 **Problem statement:** Recommend which SKUs to add, drop, or adjust quantities for in upcoming seasonal rotations, based on historical performance, category balance, and margin contribution.

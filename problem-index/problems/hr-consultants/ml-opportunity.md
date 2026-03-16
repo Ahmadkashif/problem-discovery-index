@@ -5,7 +5,21 @@
 
 ---
 
-## 1. Employment Law Change Detection and Client Impact Classification
+## 1. Employee Flight Risk Detection from Behavioral Signals
+#gradient-boosting #survival-analysis #tabular-ml #tacit-knowledge-ml
+
+**Problem statement:** Experienced HR consultants and managers develop an instinct for which employees are about to leave — they read subtle behavioral patterns: disengagement in meetings, PTO usage changes, LinkedIn profile updates, reduced initiative on new projects, shift in communication tone. An experienced HR consultant visiting a client site can walk through the office and identify 2-3 flight risks that the client's management hasn't noticed. This pattern recognition, built from observing hundreds of employee departures across dozens of client companies, is the most valuable retention intelligence an HR consultant provides. The goal is to capture and operationalize this tacit expertise into a model that continuously monitors behavioral signals across a consultant's entire client portfolio.
+
+**ML task:** Survival Analysis (time-to-voluntary-termination) + Binary Classification (flight risk yes/no within 90-day window)
+**Input data:** Aggregated behavioral signals from HRIS platforms (BambooHR, Gusto, Rippling) and adjacent systems: PTO request frequency and pattern changes, sick day clustering, benefits inquiry spikes (especially 401k vesting lookups and COBRA information access), time-tracking anomalies (earlier departures, later arrivals), performance review sentiment shifts, peer recognition frequency changes, training enrollment drop-off, internal job board browsing (where tracked), badge/VPN access time-of-day drift, Slack/Teams message volume and response latency changes, meeting attendance and camera-on rates, project volunteering decline. External signals: LinkedIn profile update timestamps, Glassdoor review posting correlation, local job market tightness for the employee's role and metro.
+**Target:** Time-to-voluntary-termination (survival curve per employee) and binary 90-day flight risk flag. The survival framing is critical because it captures the temporal dynamics consultants intuitively track — an employee isn't just "at risk" or "not," they're accelerating or decelerating along a departure trajectory.
+**Evaluation metric:** Concordance index (C-index) > 0.75 for the survival model. For the binary 90-day classifier, optimize for recall > 75% at precision > 45% — the cost of missing a genuine flight risk (lost employee, emergency backfill, client dissatisfaction with consultant) far exceeds the cost of a false alarm (a retention conversation with someone who wasn't actually leaving).
+**Scope:** 2-3 ML engineers + 1 domain expert (senior HR consultant who can articulate their intuition), 6-9 months. The hardest part is data collection: you must capture the behavioral signals the expert is unconsciously reading and map them to structured features. This requires instrumenting HRIS and communication platforms to extract behavioral time series, not just snapshot attributes. Labeling is also challenging — the expert consultant may not consciously know which signals they weighted, and their "predictions" are rarely recorded before the departure happens. A calibration study where consultants score flight risk on a portfolio and are later evaluated against actual departures is needed to establish the expert baseline the model must beat. Gradient boosting (XGBoost/LightGBM) with time-varying covariates handles the mixed feature types well; Cox proportional hazards as a baseline for the survival component. Deployment must surface risk scores in a way that consultants can act on during client site visits — a ranked dashboard with the top behavioral signal contributors per employee.
+**Data availability:** HRIS data from BambooHR, Gusto, and Rippling is accessible via API but behavioral signals (PTO pattern changes, benefits inquiry logs, time-tracking drift) require deeper integration than standard reporting endpoints. Communication metadata (Slack/Teams volume, meeting attendance) requires separate consent and integration. A consulting firm with 80+ clients and 3+ years of HRIS history could assemble a training corpus of 100,000+ employee-quarters with termination outcomes. The key labeling gap is expert intuition capture — running structured "flight risk review" sessions with senior consultants over 6-12 months to build a parallel dataset of expert predictions vs. outcomes.
+
+---
+
+## 2. Employment Law Change Detection and Client Impact Classification
 #bert #text-classification #nlp #compliance #revenue-impact
 
 **Problem statement:** Automatically ingest legislative, regulatory, and agency guidance updates from federal, state, and municipal sources, classify each as actionable vs. informational, extract the specific obligations (effective dates, headcount thresholds, industry applicability, required employer actions), and match them to affected clients in the consultant's portfolio.
@@ -19,7 +33,7 @@
 
 ---
 
-## 2. Employee Turnover Risk Prediction for Client Workforces
+## 3. Employee Turnover Risk Prediction for Client Workforces
 #gradient-boosting #binary-classification #tabular-ml #data-integration
 
 **Problem statement:** Predict which employees across a consultant's client portfolio are at elevated risk of voluntary turnover in the next 90 days, enabling proactive retention interventions rather than reactive backfills.
@@ -33,7 +47,7 @@
 
 ---
 
-## 3. Benefits Plan Optimization for SMB Clients
+## 4. Benefits Plan Optimization for SMB Clients
 #gradient-boosting #regression #tabular-ml #data-integration
 
 **Problem statement:** Given a client's workforce demographics, industry, geography, budget constraints, and current plan structure, recommend the benefits package configuration (health plan tier, dental/vision inclusion, retirement match rate, PTO policy) that maximizes employee satisfaction-adjusted retention while staying within budget.
@@ -47,7 +61,7 @@
 
 ---
 
-## 4. Payroll Error Anomaly Detection Across Multi-Client Portfolios
+## 5. Payroll Error Anomaly Detection Across Multi-Client Portfolios
 #gradient-boosting #anomaly-detection #tabular-ml #worker-facing
 
 **Problem statement:** Flag probable payroll errors before submission by detecting anomalous pay amounts, deduction configurations, and tax calculations relative to each employee's historical pattern and their client's payroll rules.

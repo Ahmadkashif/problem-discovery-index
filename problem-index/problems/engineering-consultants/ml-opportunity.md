@@ -5,7 +5,21 @@
 
 ---
 
-## 1. Project Budget Burn Rate Anomaly Detection
+## 1. Project Scope Creep Detection from Communication Patterns
+#gradient-boosting #binary-classification #tabular-ml #nlp #tacit-knowledge-ml
+
+**Problem statement:** Experienced PEs and project managers develop an instinct for when a project is heading toward scope creep — they read the pattern of client emails increasing in frequency, the "one more thing" requests that individually seem small, the design review meetings that keep reopening settled decisions. A senior PM knows two weeks into a project whether the scope is going to hold or blow up. Junior PMs don't recognize the pattern until the budget is already spent. This intuition from running hundreds of projects is the most valuable tacit knowledge in engineering consulting, and it can be encoded into a model that flags at-risk projects from communication and meeting metadata.
+
+**ML task:** Binary classification (scope creep risk vs. on-track) from multi-modal communication features
+**Input data:** Project communication metadata — email thread counts, frequency, reply latency, and word counts per week between firm and client; meeting minutes with reopened-item flags; RFI and change request logs; client feedback sentiment extracted via NLP from email bodies. Sourced from Deltek Vantagepoint project records, BST Global workflow data, Newforma project information management logs, and email/calendar integrations (Outlook, Google Workspace).
+**Target:** Binary label: project experienced >5% scope creep (measured as uncompensated additional scope hours relative to contracted fee) within 60 days of the prediction window. Secondary regression target: predicted magnitude of scope creep as a percentage of contracted fee.
+**Evaluation metric:** Precision-recall AUC with recall weighted 2x — missing a project that is about to blow its scope is far more expensive than a false alarm that prompts a PM to review a healthy project. F2-score as the summary metric. Calibrated probability outputs are essential so PMs can triage by risk level.
+**Scope:** Requires 3+ years of historical project data from a mid-size firm (100+ completed projects) with email metadata and project financials linked at the project level. A 2-person team (ML engineer + data engineer for the email/calendar integration pipeline) needs 10-14 weeks. The hardest part is feature engineering from communication patterns — building reliable signals from email frequency curves, meeting cadence changes, and NLP-extracted sentiment from client correspondence. Start with a single office or discipline to control for cultural communication norms. The labeling challenge is real: senior PMs may disagree on when scope creep "started" versus when it became visible, so ground truth should be tied to financial outcomes (uncompensated hours) rather than subjective PM judgment.
+**Data availability:** Medium-low. The raw data exists across email servers, Deltek Vantagepoint or BST Global project records, and Newforma document logs, but it has never been joined into a single training dataset. Email metadata requires IT cooperation and privacy review. The labeling is straightforward once you define scope creep financially — every firm tracks actual vs. budgeted hours at project closeout. The deployment challenge is that the model must surface warnings early enough (2-4 weeks before budget impact) to be actionable, which means the communication pattern features must be predictive well before the financial signals confirm the problem.
+
+---
+
+## 2. Project Budget Burn Rate Anomaly Detection
 #gradient-boosting #anomaly-detection #regression #tabular-ml #revenue-impact
 
 **Problem statement:** Detect projects whose labor burn rate is deviating from expected trajectories early enough for PMs to intervene with scope renegotiation or change orders, rather than discovering margin loss at project closeout.
@@ -19,7 +33,7 @@
 
 ---
 
-## 2. RFP Win Probability Prediction
+## 3. RFP Win Probability Prediction
 #gradient-boosting #binary-classification #tabular-ml #revenue-impact
 
 **Problem statement:** Predict the probability of winning an RFP based on firm qualifications, past relationship with the client, project characteristics, and competitive landscape, enabling principals to allocate pursuit effort to the highest-probability opportunities.
@@ -33,7 +47,7 @@
 
 ---
 
-## 3. Resource Utilization Forecasting
+## 4. Resource Utilization Forecasting
 #linear-regression #time-series-forecasting #tabular-ml #automation
 
 **Problem statement:** Forecast staff utilization rates 4-8 weeks ahead by discipline, enabling principals to identify underutilization before it erodes margins and overutilization before it causes burnout and missed deadlines.
@@ -47,7 +61,7 @@
 
 ---
 
-## 4. Drawing Review Automated Markup Detection
+## 5. Drawing Review Automated Markup Detection
 #cnn #object-detection #computer-vision #automation
 
 **Problem statement:** Detect and classify markups, redlines, and revision clouds on engineering drawing PDFs to automate the review-response cycle, replacing manual scanning of 200+ sheet drawing sets for reviewer comments.

@@ -5,7 +5,21 @@
 
 ---
 
-## 1. Auction Vehicle Pricing and Market Days Supply Prediction
+## 1. Auction Vehicle Assessment — Predicting Reconditioning Cost and Days-to-Sale from Walkaround
+#gradient-boosting #regression #tabular-ml #computer-vision #tacit-knowledge-ml
+
+**Problem statement:** Experienced used car buyers at auction develop an instinct for a vehicle's true condition and market desirability from a 30-60 second walkaround — they read paint condition, tire wear patterns, interior wear, odor, engine sound, and body panel gaps and *know* whether a car needs $500 or $5,000 in reconditioning, and whether it will sell in 15 days or sit for 90. A veteran buyer can walk a lane of 200 cars and pick the 10 that will be profitable. A new buyer overpays on cars that need hidden mechanical work and sits on inventory that doesn't match local demand. This appraisal intuition is the single most valuable skill in independent auto dealing.
+
+**ML task:** Multi-output regression — predict (1) total reconditioning cost and (2) days-to-sale from structured and unstructured walkaround data
+**Input data:** Walkaround video or structured photo set (exterior panels, wheel wells, tire tread, interior seats/dash/headliner, engine bay, undercarriage), audio clip of engine idle and rev, auction condition report fields (CR score, announcements, structural flags), VIN-decoded attributes (year, make, model, trim, mileage, drivetrain), dealer's local market data (zip code, recent comparable sales, current inventory mix), and seller history/reputation signals from Manheim, ADESA, or ACV Auctions
+**Target:** (1) Predicted total reconditioning cost in dollars (body, mechanical, detail, tires) with MAE target under $400; (2) Predicted days-to-sale at the dealer's lot with MAE target under 10 days. Combined into a go/no-go score and recommended maximum bid.
+**Evaluation metric:** MAE on reconditioning cost and days-to-sale, with asymmetric loss — underestimating recon cost and overestimating market speed are both more expensive than the reverse (they lead to overpaying). Secondary metric: profit-per-unit lift vs. unaided buying decisions, measured over a 90-day cohort.
+**Scope:** This is a hard problem because the core data collection challenge is capturing what the expert actually perceives during the walkaround — a veteran buyer processes paint orange-peel texture, door-gap uniformity, tire wear asymmetry, seat bolster compression, and engine knock harmonics in seconds. Labeling is difficult because two experienced buyers will disagree on recon estimates by $500-1,000 and on market speed by 10-20 days, so ground-truth labels must come from actual outcomes (realized recon invoices, actual sale dates) rather than expert consensus. Deployment must be faster than the auction pace — buyers have 60-90 seconds per car in-lane, so inference from a phone-camera walkaround must return a recommendation before the car crosses the block. Initial build requires partnerships with auction platforms (ACV Auctions already captures walkaround video; Manheim and ADESA provide structured CRs). Requires a multimodal pipeline: CNN-based image feature extraction from photos/video frames, audio feature extraction from engine clips, and a gradient-boosting ensemble over the combined tabular + extracted features. Team of 3-4 ML engineers + 1 data engineer, 8-12 month build. Training data sourced by pairing ACV Auctions walkaround media with downstream dealer recon invoices and DMS sale records — requires data-sharing agreements. Tools like vAuto and DealerSocket provide market days-supply benchmarks for calibration.
+**Data availability:** Walkaround video and photo data is increasingly available through digital-first auction platforms like ACV Auctions and BacklotCars. Structured condition reports from Manheim and ADESA are accessible via API. The critical gap is linking auction-side media to dealer-side outcomes (recon cost, actual sale date, sale price) — this requires DMS integration at the dealer level (Frazer, DealerSocket, RouteOne). Labeling is outcome-based rather than expert-annotated, which avoids the inter-rater reliability problem but requires 6-12 months of outcome accumulation per dealer cohort. Estimate 5,000-10,000 labeled vehicle records needed for a production-quality model across common segments.
+
+---
+
+## 2. Auction Vehicle Pricing and Market Days Supply Prediction
 #gradient-boosting #regression #time-series-forecasting #tabular-ml #revenue-impact
 
 **Problem statement:** Given a vehicle at auction (VIN-decoded specs, mileage, condition report, auction location), predict the optimal maximum bid that preserves target gross margin after reconditioning, and forecast market days supply — how many days the vehicle will take to retail in the dealer's specific zip code and price segment.
@@ -19,7 +33,7 @@
 
 ---
 
-## 2. Lead Scoring and Conversion Prediction
+## 3. Lead Scoring and Conversion Prediction
 #gradient-boosting #binary-classification #tabular-ml #worker-facing
 
 **Problem statement:** Given an incoming sales lead (source, inquiry content, customer behavior signals), predict the probability that the lead converts to a vehicle purchase within 14 days, enabling sales associates to prioritize outreach by conversion likelihood.
@@ -33,7 +47,7 @@
 
 ---
 
-## 3. Vehicle Reconditioning Cost Estimation from Inspection Data
+## 4. Vehicle Reconditioning Cost Estimation from Inspection Data
 #random-forest #regression #tabular-ml #revenue-impact
 
 **Problem statement:** Given a vehicle's condition report from auction (or a dealer-side inspection checklist), predict total reconditioning cost to retail-ready condition, enabling more accurate max-bid calculations at auction and faster recon workflow planning.
@@ -47,7 +61,7 @@
 
 ---
 
-## 4. Optimal Listing Price Prediction by Marketplace
+## 5. Optimal Listing Price Prediction by Marketplace
 #gradient-boosting #regression #tabular-ml #revenue-impact #automation
 
 **Problem statement:** For a given vehicle on a dealer's lot, predict the listing price on each marketplace (CarGurus, Cars.com, Autotrader, Facebook Marketplace) that maximizes the probability of sale within the dealer's target days-on-lot while preserving margin, accounting for each platform's competitive pricing dynamics and audience demographics.

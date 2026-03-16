@@ -1,0 +1,18 @@
+# Kitchen Crew Physical Toll on Multi-Event Production Days
+
+**Industry:** [[catering-companies|Catering Companies]]
+**Type:** Worker Life Changing
+**One-liner:** Kitchen prep staff and line cooks get workload distribution that accounts for cumulative physical strain across a 16-hour multi-event day instead of being scheduled purely by event timing.
+**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+
+## The Problem
+During peak catering season (May-October for weddings, November-December for corporate), kitchen crews routinely work 14-16 hour days producing for multiple events. A typical Saturday might require a crew of 6 to produce a 300-person wedding lunch (prep starts at 5 AM, service at noon), a 120-person cocktail reception (prep overlaps, service at 5 PM), and a 50-person intimate dinner (service at 7:30 PM). The physical demands are relentless: standing on concrete for the full shift, repetitive knife work during prep, lifting 40-lb hotel pans into and out of combi ovens, loading delivery vehicles, and working in kitchen temperatures that reach 100-110F during peak production. Crew scheduling is driven entirely by event timing and skill requirements — nobody models the cumulative fatigue of assigning the same cook to heavy protein breakdown at 5 AM, oven loading at 10 AM, and plating at 6 PM across a 16-hour shift. Injury rates spike in the back half of multi-event days: burns, cuts, and back strains concentrate in hours 10-16 when fatigue degrades motor control and attention.
+
+## Why It Matters to the Worker
+Kitchen crew in catering earn $15-22/hour and rely on overtime and event-season hours to make their annual income work. They cannot opt out of multi-event days without losing the hours that pay their rent. The physical toll accumulates across a season: chronic knee and back pain from standing on concrete, repetitive strain injuries in wrists and shoulders from prep work, and burn scars that are treated as occupational inevitabilities. Workers who sustain injuries during peak season lose their highest-earning weeks. The culture treats endurance as a virtue ("you can rest in January"), normalizing a work pattern that produces cumulative musculoskeletal damage.
+
+## What a Solution Looks Like
+A crew scheduling and task assignment tool that models the physical demand profile of each production task (standing duration, repetitive motion intensity, lifting weight and frequency, heat exposure) and distributes assignments across the crew to balance cumulative physical load throughout the day. Instead of assigning Cook A to protein prep from 5-8 AM, oven loading from 9-11 AM, and plating from 5-8 PM (all high physical demand), the system rotates high-demand and low-demand tasks across crew members and flags when any individual's cumulative load score exceeds a fatigue threshold. The tool also identifies days where the production schedule makes safe staffing impossible at current crew levels, giving the chef a data-backed argument for adding a crew member or splitting the production timeline.
+
+## Impact If Solved
+Reduces late-shift injury rates by distributing peak physical demands across the crew rather than concentrating them on the fastest workers. Gives kitchen managers a defensible basis for staffing requests during peak season — "this Saturday's production plan requires 8 crew, not 6, because the physical load distribution at 6 exceeds safe thresholds after hour 12." Extends career longevity for kitchen crew who currently age out of the physical demands by their mid-40s.

@@ -5,7 +5,21 @@
 
 ---
 
-## 1. Contamination Risk Scoring from Site Characteristics
+## 1. Contamination Likelihood Scoring from Site History and Context
+#gradient-boosting #binary-classification #tabular-ml #tacit-knowledge-ml
+
+**Problem statement:** Experienced environmental scientists develop an instinct for which sites will have contamination before any samples are collected. They read the combination of historical land use (gas station, dry cleaner, industrial), proximity to sensitive receptors, soil type, groundwater depth, and regulatory history and *know* whether a Phase I will escalate to a Phase II. Senior scientists can look at a Sanborn map, a topographic map, and a regulatory database hit list and predict with roughly 85% accuracy whether the site has a recognized environmental condition — a judgment built over hundreds of site assessments that they cannot fully articulate. A model that captures this tacit pattern recognition would save clients weeks and thousands of dollars in unnecessary Phase II work when the risk is low, and flag high-risk sites for immediate investigation.
+
+**ML task:** Binary Classification (recognized environmental condition requiring Phase II: yes/no) with calibrated probability output for risk triage
+**Input data:** Structured features derived from Phase I desktop review: historical land use codes from Sanborn fire insurance maps and city directories, EDR (Environmental Data Resources) radius report hit counts by database type (LUST, RCRIS, CERCLIS, state equivalent lists), distance and direction to nearest database-listed facility, topographic gradient and groundwater flow direction relative to nearby sources, depth to first groundwater (USGS data), soil type and permeability (SSURGO/NRCS), property age, ASTM E1527-21 standard search radius distances, EPA Envirofacts and ECHO database enforcement history, presence/absence of underground storage tanks (UST registry), and assessor land use classification history. Approximately 50-80 features per site.
+**Target:** Binary label — Phase I assessment concluded with a recognized environmental condition (REC) requiring Phase II investigation (1) or no further action (0). Ground truth derived from pairing Phase I conclusions with subsequent Phase II outcomes where available.
+**Evaluation metric:** AUC-ROC as primary metric with calibrated probability output (Brier score < 0.15). Because a missed contamination event carries high liability, optimize for recall > 0.92 at a decision threshold that still reduces unnecessary Phase II referrals by 20%+. Calibration is essential since the output probability is communicated directly to clients and lenders for risk decisions.
+**Scope:** 2-3 ML engineers, 7-month build. The core modeling (gradient-boosted trees on tabular features) is straightforward; the hard part is replicating the senior scientist's implicit weighting of contextual signals. Feature engineering must encode spatial relationships (e.g., a dry cleaner 200 ft upgradient is very different from 200 ft downgradient) and temporal patterns (a gas station that closed in 1970 vs. 2010). Requires partnership with 3-5 consulting firms to assemble 8,000-15,000 labeled Phase I reports with known outcomes. A 3-month data curation phase precedes model development.
+**Data availability:** Moderate-to-difficult. The tacit knowledge is locked inside senior scientists' heads — they cannot enumerate the rules they use, making traditional rule-based systems incomplete. Training data exists within consulting firm archives as Phase I/Phase II report pairs, but firms treat this as proprietary. EDR report data is commercially available but expensive at scale. EPA databases (Envirofacts, NEPAssist, EJScreen) and state equivalents are public but require significant ETL work. The labeling challenge is real: two senior scientists may disagree on whether a given combination of factors constitutes a REC, so inter-rater agreement studies (targeting Cohen's kappa > 0.75) are needed during data curation. Deployment must be faster and more consistent than the senior scientist to justify adoption — the model serves as a second opinion that catches sites the human might underweight.
+
+---
+
+## 2. Contamination Risk Scoring from Site Characteristics
 #gradient-boosting #binary-classification #tabular-ml #automation
 
 **Problem statement:** Before any physical investigation, environmental consultants assess contamination likelihood based on property history, surrounding land use, regulatory records, and geological setting. This triage decision — whether to recommend a Phase II investigation after a Phase I — is subjective and inconsistent across practitioners. A model that scores contamination probability from structured site features would standardize recommendations and reduce unnecessary Phase II investigations (currently ~30% of Phase IIs find no contamination above screening levels).
@@ -19,7 +33,7 @@
 
 ---
 
-## 2. Lab Result Anomaly Detection for QA/QC Flagging
+## 3. Lab Result Anomaly Detection for QA/QC Flagging
 #isolation-forest #anomaly-detection #tabular-ml #data-integration #compliance
 
 **Problem statement:** Environmental lab analytical results occasionally contain errors — transcription mistakes, unit errors, sample mix-ups, or instrument calibration drift — that are difficult to catch in manual review. A consulting firm receiving results for 20 monitoring wells with 30 analytes each must review 600+ data points per event against historical trends, internal consistency checks (e.g., dissolved metals should not exceed total metals), and plausibility bounds. An anomaly detection model trained on historical site data could flag suspicious results for human review before they are submitted to regulators.
@@ -33,7 +47,7 @@
 
 ---
 
-## 3. Remediation Cost Estimation from Site Characterization Data
+## 4. Remediation Cost Estimation from Site Characterization Data
 #gradient-boosting #regression #tabular-ml #revenue-impact
 
 **Problem statement:** After identifying contamination, consultants must estimate remediation costs for budgeting, insurance claims, and property transactions. Current estimates are based on professional judgment and analogous site experience, with typical accuracy of +/- 50-100% for early-stage estimates. A regression model trained on completed remediation projects could provide data-driven cost estimates with quantified uncertainty, enabling better decision-making for brownfield developers, insurers, and regulatory agencies.
@@ -47,7 +61,7 @@
 
 ---
 
-## 4. Regulatory Database Entity Extraction and Record Linkage
+## 5. Regulatory Database Entity Extraction and Record Linkage
 #bert #named-entity-recognition #nlp #automation #data-integration
 
 **Problem statement:** Phase I ESA research requires matching a subject property against records in 15+ regulatory databases that use inconsistent naming conventions, address formats, and facility identifiers. "ABC Manufacturing, 123 Main St" might appear as "A.B.C. Mfg Inc, 123 N Main Street" in one database and "ABC MFG CO, 123 Main" in another. Currently, junior scientists manually review search results to determine which records match the subject property or nearby facilities. An NER + record linkage system could automate this matching, reducing the 8-12 hour database research task to automated retrieval with human review of ambiguous matches.

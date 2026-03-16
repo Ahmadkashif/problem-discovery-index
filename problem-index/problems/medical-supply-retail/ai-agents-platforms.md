@@ -1,0 +1,48 @@
+# AI Agents & Platform Opportunities — Medical Supply Retail
+
+**Industry:** [[medical-supply-retail|Medical Supply Retail]]
+
+---
+
+## 1. Prior Auth Agent
+#ai-agent #llm #nlp #compliance #revenue-impact
+
+**Concept:** An autonomous agent that handles the entire prior authorization lifecycle for DME orders — from initial eligibility verification through submission, follow-up, and appeal if denied. The agent ingests a new order, pulls the patient's insurance eligibility via EDI 270/271, retrieves the applicable payer coverage policy, parses the clinical documentation package (CMN, physician notes, face-to-face records) using OCR and NLP, performs a pre-submission compliance audit against the specific payer's criteria, auto-generates the submission package with correct codes and supporting documents, submits via the payer's required channel (portal API, fax, or clearinghouse), monitors for response, and — if denied — classifies the denial reason, determines the corrective action, and either auto-corrects and resubmits (for documentation technicalities) or escalates to a human with a pre-drafted appeal and specific instructions on what additional information is needed from the physician.
+
+**Inputs:** New DME order data (patient demographics, diagnosis codes, prescribed equipment, referring physician), clinical documentation files (CMN, physician notes, face-to-face encounter records as PDFs or EHR exports), payer eligibility response (EDI 271), payer coverage policies (LCDs, medical policy documents), denial notifications (EDI 835, portal messages).
+
+**Outputs / Actions:** Pre-submission compliance audit report with gap flags, auto-generated submission packages routed to correct payer channels, real-time submission status tracking, denial classification with root cause and recommended action, auto-generated appeal letters with supporting documentation, escalation alerts to human staff for complex cases requiring physician outreach, and a dashboard showing prior auth cycle times, first-pass approval rates, and denial trends by payer.
+
+**Why now:** LLMs can now parse and reason over complex policy documents (LCDs run 20–40 pages of clinical criteria) and cross-reference them against patient-specific clinical documentation with sufficient accuracy for a human-in-the-loop workflow. OCR quality on medical forms has improved dramatically with document AI models (Google Document AI, Azure Document Intelligence). EDI transaction APIs and payer portal automation (via RPA) have matured enough to support programmatic submission. The economics are compelling: a prior auth agent replacing 60% of manual labor on a process that currently costs $25–$50 per order in staff time at a volume of 200–500 orders per month per supplier.
+
+**Market:** 12,000+ DME suppliers in the US, from single-location shops to regional chains. The buyer is the owner/GM or revenue cycle manager. Pricing model: per-order SaaS fee ($5–$15 per prior auth processed) or monthly subscription ($500–$3,000 based on order volume). TAM: $500M–$1B if penetrating 30–40% of the market at $3K–$8K annual spend per supplier.
+
+---
+
+## 2. Reorder Reminder Agent
+#ai-agent #llm #tabular-ml #revenue-impact #automation
+
+**Concept:** An agent that monitors every active patient's supply reorder eligibility window, predicts when they will need to reorder based on usage patterns and clinical data (CPAP compliance hours, wound healing trajectory, ostomy output frequency), and autonomously conducts personalized outreach — via SMS, email, or automated phone call — to schedule the reorder before the patient runs out. For patients who respond affirmatively, the agent auto-generates the reorder, verifies insurance eligibility, checks for any documentation renewals needed (CMN expiration, face-to-face re-certification), and routes the order for fulfillment. For patients who do not respond, the agent escalates to a human customer service rep with a pre-populated call script and the patient's full supply history.
+
+**Inputs:** Patient supply order history and reorder intervals, insurance eligibility windows (CMS replacement schedules, payer-specific frequencies), CPAP compliance data via manufacturer APIs (ResMed AirView, Philips Care Orchestrator), patient communication preferences and response history, CMN and prescription expiration dates, clinical status updates from referring providers.
+
+**Outputs / Actions:** Personalized reorder outreach messages (SMS, email, IVR calls) timed to the optimal window (after insurance eligibility opens, before the patient runs out), auto-generated reorder submissions for patients who confirm, documentation renewal alerts (flags when a CMN or prescription is expiring and automatically requests renewal from the physician's office), churn risk alerts for patients showing disengagement patterns, and a dashboard showing reorder capture rates, churn rates, and revenue per patient over time.
+
+**Why now:** CPAP and respiratory supply reorders are the highest-margin recurring revenue stream for DME suppliers, but patient capture rates (percentage of eligible reorders actually placed) average only 40–60% because outreach is manual and inconsistent. Conversational AI (LLM-powered SMS and IVR) can now conduct natural reorder conversations that feel personal rather than robotic. Manufacturer compliance APIs provide the usage data needed to time outreach precisely. The economics are straightforward: each captured reorder represents $50–$300 in revenue, and improving capture rates by 15–20 percentage points on a base of 1,000 active patients represents $75K–$600K in annual incremental revenue per supplier.
+
+**Market:** Every DME supplier with a recurring supply business (CPAP, wound care, diabetic supplies, ostomy) — estimated 8,000+ locations in the US. The buyer is the owner or sales manager. Pricing: per-captured-reorder fee ($3–$8) or percentage of incremental revenue generated. TAM: $300M–$600M based on the incremental revenue opportunity.
+
+---
+
+## 3. Insurance Appeal Agent
+#ai-agent #llm #nlp #compliance #worker-facing
+
+**Concept:** A specialized agent focused exclusively on claim denial appeals — the most adversarial and knowledge-intensive part of the DME revenue cycle. The agent ingests denied claims, classifies the denial into a root cause taxonomy (50+ specific denial reasons mapped from CARC/RARC codes and payer-specific denial letters), retrieves the applicable appeal strategy from an institutional knowledge base built from historical appeal outcomes, auto-generates the appeal letter with correct policy citations and clinical justification, assembles the supporting documentation package, and submits the appeal through the correct payer channel. For denials requiring additional clinical documentation from the referring physician, the agent auto-generates the physician outreach request specifying exactly what is needed. The agent learns from every appeal outcome, continuously refining its strategy recommendations and letter templates per payer, per denial reason, per product category.
+
+**Inputs:** Denied claim data (EDI 835 remittance advice with CARC/RARC codes, payer portal denial notifications, faxed denial letters processed via OCR), original submission documentation (CMN, physician notes, order details), payer coverage policies and appeal filing requirements (deadlines, required formats, submission channels), historical appeal outcomes (what strategy worked for similar denials), and physician contact information for documentation requests.
+
+**Outputs / Actions:** Denial root cause classification with confidence score, recommended appeal strategy (what argument to make, what documentation to include), auto-generated appeal letter with policy citations and clinical justification, assembled documentation package ready for submission, physician outreach requests specifying exact documentation gaps, appeal submission via correct channel (portal, fax, mail), appeal outcome tracking with strategy effectiveness scoring, and trend analysis identifying payers or denial reasons where appeal success rates are declining (signaling a policy change that requires strategic adjustment).
+
+**Why now:** The appeal process is fundamentally a legal-argumentative writing task — composing persuasive letters that cite specific policy language and clinical evidence — which is precisely what LLMs excel at. Fine-tuned on DME-specific denial and appeal corpora, an LLM can generate appeal letters that are more thorough and better-cited than what a junior billing rep produces, while being 10x faster. The appeal knowledge base (which strategies work for which payers) has been locked in individual reps' heads — an agent that systematically captures and applies this knowledge survives staff turnover. The regulatory environment is also favorable: CMS has been pushing for faster, more transparent appeals processes, and several states have enacted prior auth reform laws that create structured appeal pathways more amenable to automation.
+
+**Market:** Same 12,000+ DME supplier market as the Prior Auth Agent, but can be sold independently or as a complement. The buyer is the billing manager or owner. Pricing: per-appeal fee ($10–$25) or monthly subscription. Revenue recovery per successful appeal averages $500–$3,000, so even a $25 per-appeal fee represents < 5% of recovered revenue. TAM: $200M–$400M based on denial volumes and appeal rates across the industry.

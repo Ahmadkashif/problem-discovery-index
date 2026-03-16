@@ -5,7 +5,21 @@
 
 ---
 
-## 1. Ticket Auto-Classification and Intelligent Routing
+## 1. Ticket Root Cause Inference from Symptom Descriptions
+#bert #text-classification #nlp #tacit-knowledge-ml
+
+**Problem statement:** Experienced L2/L3 technicians read a ticket description and intuitively know the real root cause isn't what the user described — they pattern-match from thousands of prior tickets where "my email is slow" actually meant "the Exchange server is running out of memory" or "the user's PST file is 40GB." This diagnostic intuition, built over years of resolving tickets, is the most valuable tacit knowledge in an MSP and the hardest to transfer to junior staff.
+
+**ML task:** Multi-class text classification (symptom description → root cause category)
+**Input data:** Ticket subject line and description (the user-reported symptom), client environment metadata (server types, endpoint count, network topology), device context from RMM (OS version, installed software, recent alerts), and historical resolution notes for the same client. Sources: ConnectWise Manage, Datto/Autotask, NinjaRMM PSA ticket exports with linked RMM device context.
+**Target:** Root cause category (50-100 classes: Exchange memory exhaustion, oversized PST, DNS misconfiguration, group policy conflict, switch port flapping, certificate expiration, storage IOPS bottleneck, etc.) with confidence score. Secondary output: recommended diagnostic steps ranked by likelihood.
+**Evaluation metric:** Top-3 accuracy on root cause category (target >80%), since technicians benefit from a ranked shortlist even if the top-1 prediction is wrong. Top-1 accuracy target >55%. Weighted by resolution time savings: correctly predicting a root cause that typically takes 2+ hours to diagnose is worth more than predicting a 10-minute fix. Recall on high-severity root causes (server down, security breach indicators) must exceed 90%.
+**Scope:** Fine-tune a BERT-class model on 100K+ resolved tickets with both the original symptom description and the final resolution notes. The resolution notes serve as weak labels for root cause — an NLP extraction pipeline must parse free-text resolution notes into structured root cause categories before training. 2-3 ML engineers, 12-16 weeks to production MVP. The core difficulty is threefold: (1) **data collection** — you need tickets where an expert actually wrote a meaningful resolution note, not just "fixed it" or "resolved"; (2) **labeling** — two senior technicians may disagree on root cause taxonomy, especially for multi-factor issues where email slowness was caused by both a large PST *and* an Exchange memory leak; (3) **deployment** — the model must surface predictions within seconds of ticket creation to be useful, and technicians will only trust it after it proves accurate on their specific client environments.
+**Data availability:** High volume but medium quality — every MSP has tens of thousands of tickets in ConnectWise, Datto/Kaseya, or NinjaRMM, but resolution notes are inconsistently written. MSPs that enforce structured resolution fields or use templates produce cleaner training data. Multi-tenant MSP platforms (like ConnectWise or Datto) could aggregate anonymized data across MSPs to build a generalizable model, though client-specific fine-tuning would still be needed.
+
+---
+
+## 2. Ticket Auto-Classification and Intelligent Routing
 #bert #llm #text-classification #nlp #automation #revenue-impact
 
 **Problem statement:** Inbound tickets arrive as unstructured text mixing end-user language with technical jargon, and must be classified by issue category, urgency, affected system, and appropriate technician tier — currently done manually or with brittle keyword rules that misroute 20-30% of tickets.
@@ -19,7 +33,7 @@
 
 ---
 
-## 2. Alert Noise Reduction and Actionability Scoring
+## 3. Alert Noise Reduction and Actionability Scoring
 #gradient-boosting #binary-classification #tabular-ml #worker-facing
 
 **Problem statement:** RMM monitoring generates 300-800 alerts daily for a mid-size MSP, with 80%+ being non-actionable noise, burying genuine incidents and causing technician alert fatigue.
@@ -33,7 +47,7 @@
 
 ---
 
-## 3. Client Churn Prediction from Ticket and Engagement Patterns
+## 4. Client Churn Prediction from Ticket and Engagement Patterns
 #gradient-boosting #binary-classification #tabular-ml #revenue-impact
 
 **Problem statement:** MSPs lose 10-15% of clients annually, often with minimal warning — the client simply doesn't renew. Early identification of at-risk clients enables proactive intervention by account managers.
@@ -47,7 +61,7 @@
 
 ---
 
-## 4. Endpoint Failure Prediction from RMM Telemetry
+## 5. Endpoint Failure Prediction from RMM Telemetry
 #random-forest #gradient-boosting #binary-classification #time-series-forecasting #tabular-ml
 
 **Problem statement:** MSPs are reactive to hardware failures — a server disk fails, a workstation blue-screens — causing emergency tickets, SLA breaches, and client frustration. RMM agents already collect the telemetry that could predict failures before they happen.
@@ -61,7 +75,7 @@
 
 ---
 
-## 5. Technician Utilization Optimization and Scheduling
+## 6. Technician Utilization Optimization and Scheduling
 #linear-regression #gradient-boosting #regression #tabular-ml #workflow-orchestration
 
 **Problem statement:** MSP dispatchers assign tickets to technicians based on availability and rough skill match, but suboptimal scheduling leaves some technicians over-utilized (causing burnout and quality drops) while others are under-utilized, and on-site visits are not batched geographically.

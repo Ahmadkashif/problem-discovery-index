@@ -1,0 +1,18 @@
+# Infrastructure Maintenance Prioritization via Tacit Knowledge Capture
+
+**Industry:** [[municipal-services|Municipal Services]]
+**Type:** High Impact
+**One-liner:** Every municipality's most valuable infrastructure database is the pattern recognition inside its senior public works supervisors' heads — capturing it before they retire transforms reactive maintenance into predictive capital planning.
+**Tags:** #gradient-boosting #cnn #anomaly-detection #computer-vision #tabular-ml #tacit-knowledge-ml #revenue-impact
+
+## The Problem
+Experienced city works supervisors drive their districts and *read* infrastructure the way a radiologist reads a scan. They see a specific alligator-crack pattern on a residential street and know it will pothole through next freeze-thaw cycle. They hear the flow rate at a hydrant test and know the main behind it is tuberculated. They look at a tree canopy overhang and know which limbs will drop in the next ice storm. This judgment — built over 20-30 years of daily observation — determines which of 500 possible maintenance jobs actually get prioritized in a constrained budget. When these supervisors retire, the replacement gets the same streets but none of the pattern library, and maintenance decisions revert to squeaky-wheel politics or arbitrary rotation schedules.
+
+## Why It's Unsolved
+Three compounding challenges make this uniquely hard. **Data collection:** You must capture the expert *in the act of judging* — riding along, recording what they look at, what they flag, what they skip, and why. Most municipalities have never structured this; the knowledge transfer is "ride with Dave for six months." **Labeling disagreement:** Two 25-year supervisors will prioritize differently because they've internalized different failure modes from different districts, soil types, and traffic patterns — there is no single ground truth, only calibrated expert judgment. **Deployment context:** The model must run on something a crew leader can use on a tablet during a windshield survey, overlaying predictions on a live map, which means inference must be fast and the UX must not slow down the existing drive-through workflow. Additionally, municipal procurement cycles are 12-18 months, and IT departments are risk-averse, making adoption slow even when the technology works.
+
+## What a Solution Looks Like
+A vehicle-mounted camera system (dashcam-grade, $200 hardware) captures continuous street-level imagery during routine supervisor drives. A CNN model scores pavement distress, curb degradation, storm drain condition, and vegetation encroachment from the imagery. A gradient-boosted tabular model fuses these visual scores with GIS data (pipe age, soil type, traffic count, last repair date, utility cut history, freeze-thaw cycles) to produce a per-asset failure probability over 6/12/24-month horizons. The output is a prioritized maintenance queue that a public works director can hand to council during budget season — replacing "Dave thinks Elm Street is next" with "the model trained on Dave's 30 years of judgment, plus sensor data, says Elm Street has an 84% probability of structural failure by next November."
+
+## Impact If Solved
+Municipalities that shift from reactive to predictive maintenance reduce per-mile road rehabilitation costs by 40-60% (National Cooperative Highway Research Program data). For a mid-size city spending $15M/year on street maintenance, that is $6-9M in avoided emergency repairs and extended asset life — plus the institutional knowledge survives the retirement wave hitting public works nationwide (average age of a public works director is 57).

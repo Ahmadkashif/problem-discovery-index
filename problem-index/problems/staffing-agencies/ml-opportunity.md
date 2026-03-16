@@ -5,7 +5,21 @@
 
 ---
 
-## 1. Semantic Candidate-to-Requisition Matching
+## 1. Candidate Reliability and Placement Success Prediction
+#gradient-boosting #binary-classification #tabular-ml #tacit-knowledge-ml
+
+**Problem statement:** Experienced staffing recruiters develop an instinct for which candidates will show up, stay, and succeed on an assignment — reading patterns across resume gaps, communication responsiveness, job history stability, and interview demeanor that they cannot articulate as explicit rules but act on constantly. When senior recruiters leave, this institutional pattern recognition walks out the door. A model trained on historical placement outcomes can capture these latent signals and make them available to every recruiter on the team.
+
+**ML task:** Binary classification — predict whether a candidate placed on a given job order will complete the assignment successfully (defined as finishing the contracted duration or being extended/converted).
+**Input data:** Candidate behavioral features (average response time to recruiter texts/emails, number of reschedules during onboarding, time gaps between consecutive jobs, average assignment tenure, number of distinct agencies worked with), resume structural features (formatting consistency, employment gap patterns, job title progression trajectory, skill keyword density vs. verified certifications ratio), interview features (punctuality to interview, follow-up behavior, questions asked), and job-order contextual features (shift type, commute distance, pay rate percentile, client historical turnover rate). Data sourced from Bullhorn or Avionté ATS records, Sense or Herefish communication logs, and onboarding workflow timestamps.
+**Target:** Binary label: 1 = candidate completed the assignment successfully (full contract duration or converted to direct hire), 0 = candidate no-showed, quit within first 2 weeks, or was terminated for performance. For agencies with sufficient volume, a secondary ordinal target (no-show / early falloff / completed / extended / converted) enables richer prediction.
+**Evaluation metric:** PR-AUC as the primary metric given class imbalance (success rate varies 55–80% depending on segment). Operationally, optimize for recall at 80% precision on the "will fail" class — recruiters need to trust that flagged candidates genuinely warrant extra vetting, but cannot afford to miss high-risk placements that damage client relationships.
+**Scope:** A team of 1–2 ML engineers + 1 data engineer can ship v1 in 10–14 weeks. The hardest part is feature engineering from unstructured behavioral signals: computing responsiveness scores from communication logs requires integration with the agency's messaging platform (Sense, Herefish, or native Bullhorn texting), and building resume-structure features requires a lightweight NLP pipeline to parse and normalize resume formats across the candidate pool. The model itself is standard gradient-boosted trees (XGBoost/LightGBM); expect 50–80 engineered features. Deployment is a risk score surfaced in the ATS candidate record at placement time, with SHAP-based explanations showing which factors drove the score so recruiters can act on specific concerns rather than a black-box number.
+**Data availability:** Every staffing agency with 3+ years of Bullhorn or Avionté history and 10K+ completed placements has the core outcome labels. Communication responsiveness data requires API access to the messaging platform — Sense provides webhook-level event data, Herefish stores interaction timestamps. The critical labeling challenge is distinguishing "candidate failed" from "assignment ended for client-side reasons" (e.g., client lost the contract), which requires manual review of a sample of termination records to establish clean labels. Expect 5–10% label noise even after cleaning.
+
+---
+
+## 2. Semantic Candidate-to-Requisition Matching
 #transformer #ranking #nlp #revenue-impact #automation
 
 **Problem statement:** Staffing recruiters manually search ATS databases using keyword queries that miss 70–80% of qualified candidates because job order language and candidate resume language describe the same skills differently; a learned semantic matching model can bridge this vocabulary gap and surface the best candidates in seconds.
@@ -19,7 +33,7 @@
 
 ---
 
-## 2. Candidate No-Show and Falloff Prediction
+## 3. Candidate No-Show and Falloff Prediction
 #gradient-boosting #binary-classification #tabular-ml #revenue-impact
 
 **Problem statement:** Between 15–30% of placed temp workers either no-show on their first day or fall off the assignment within the first week, costing staffing agencies $500–$2,000 per occurrence in lost revenue, re-recruitment costs, and damaged client relationships; a classifier that predicts falloff risk at placement time enables proactive mitigation.
@@ -33,7 +47,7 @@
 
 ---
 
-## 3. Bill Rate Optimization via Realized Margin Regression
+## 4. Bill Rate Optimization via Realized Margin Regression
 #gradient-boosting #regression #tabular-ml #revenue-impact
 
 **Problem statement:** Account managers quote bill rates based on gut instinct and outdated spreadsheets, resulting in margin leakage of 1.5–3 points on 20–30% of job orders because they fail to account for state-specific burden costs, workers' comp class codes, overtime patterns, and client payment behavior; a regression model can predict true realized margin at quote time.
@@ -47,7 +61,7 @@
 
 ---
 
-## 4. Client Churn Prediction
+## 5. Client Churn Prediction
 #gradient-boosting #binary-classification #tabular-ml #revenue-impact
 
 **Problem statement:** Staffing agencies lose 15–25% of active clients annually, often without warning because the signals of disengagement — declining order volume, slower req approvals, shorter assignment durations — are spread across multiple systems and no one is watching the aggregate pattern.
@@ -61,7 +75,7 @@
 
 ---
 
-## 5. Candidate Reactivation Scoring
+## 6. Candidate Reactivation Scoring
 #gradient-boosting #binary-classification #tabular-ml #automation
 
 **Problem statement:** Staffing agency databases contain 10–100x more inactive candidates than active ones, but recruiters have no systematic way to identify which dormant candidates are likely to re-engage; a reactivation model can surface the 5–10% of the inactive pool most worth contacting, turning a dead database into a pipeline.

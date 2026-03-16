@@ -5,7 +5,21 @@
 
 ---
 
-## 1. SKU-Level Profitability Prediction
+## 1. Listing Conversion Intuition — Predicting Which Listings Will Convert Before Launch
+#gradient-boosting #regression #nlp #tabular-ml #tacit-knowledge-ml
+
+**Problem statement:** Experienced e-commerce sellers develop an instinct for which product listings will convert well before they ever go live — they read the combination of title keyword density, main image composition, price point relative to competition, review velocity potential, and seasonal timing and know whether a listing will achieve 10% conversion or 2%. Senior sellers can glance at a competitor's listing and immediately identify the exploitable weakness. This intuition, built from launching hundreds of products and watching conversion data obsessively, is what separates 7-figure sellers from those who burn through inventory. The goal is to capture this tacit pattern recognition into a model that scores draft listings pre-launch.
+
+**ML task:** Regression (predicting continuous conversion rate) with feature attribution ranking (identifying which listing elements drive or suppress conversion)
+**Input data:** Draft listing content (title, bullet points, description, backend keywords), main image and secondary image features (extracted via CNN — background color, text overlay presence, product-to-whitespace ratio, lifestyle vs. packshot), price point and competitive price spread within the subcategory, category-level seasonality index at planned launch date, keyword search volume and competition density from Helium 10 or Jungle Scout, existing review count and velocity benchmarks for the subcategory, seller account metrics (account age, feedback score). Sources: Amazon Seller Central (SP-API), Shopify product data, Helium 10 API, Jungle Scout API. 80-120 features per draft listing.
+**Target:** Predicted 30-day post-launch session conversion rate (continuous, 0-100%). Secondary: ranked list of the top 5 listing weaknesses most suppressing predicted conversion, with estimated conversion lift if each is addressed.
+**Evaluation metric:** MAE on conversion rate prediction, with asymmetric loss penalizing over-prediction 2x (a seller who launches expecting 10% conversion but gets 3% wastes ad spend ramping a dud; under-prediction just means a pleasant surprise). Spearman rank correlation between predicted and actual conversion across a cohort of new launches. For weakness identification: precision@5 validated against post-launch A/B test outcomes.
+**Scope:** This is a hard problem because the expert intuition integrates visual, textual, and market-context signals simultaneously — requiring a multimodal feature pipeline. Image feature extraction via pre-trained CNN (ResNet or EfficientNet) for composition scoring, NLP features from listing text (keyword density, readability, claim specificity), and tabular market context features fed into a gradient-boosted ensemble. Data collection challenge: you need to capture the seller's pre-launch assessment alongside the actual outcome, which means instrumenting a "rate this listing before launch" workflow to build labeled training data. Labeling challenge: experienced sellers often disagree on what makes a listing convert — their intuition is calibrated to their specific niche, so models may need category-level specialization. Deployment challenge: the model must provide actionable feedback fast enough to be useful during listing creation, not after launch. 3-4 engineers, 5-6 months for MVP. Requires 10K+ listing launches with pre-launch features and post-launch conversion outcomes for initial training.
+**Data availability:** Historical listing performance data is available from Amazon SP-API (Brand Analytics for brand-registered sellers) and Shopify Analytics API. Competitive listing data and keyword metrics available from Helium 10 and Jungle Scout APIs. The critical gap is pre-launch draft data — most sellers don't save drafts systematically, so the platform must capture listing snapshots at creation time and pair them with 30-day post-launch outcomes. Image features require scraping or API access to listing images. Bootstrapping with 50K+ existing live listings and their conversion rates is feasible; the pre-launch prediction framing requires a prospective data collection phase of 3-6 months with early adopter sellers.
+
+---
+
+## 2. SKU-Level Profitability Prediction
 #gradient-boosting #regression #tabular-ml #data-integration #revenue-impact
 
 **Problem statement:** Given a product's historical sales, fee structures, ad spend allocation, return rates, and COGS, predict the true net profit per unit for each SKU across each sales channel on a rolling 30-day basis — enabling sellers to identify margin-negative products before they reorder inventory.
@@ -19,7 +33,7 @@
 
 ---
 
-## 2. Demand Forecasting for Inventory Planning
+## 3. Demand Forecasting for Inventory Planning
 #gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
 
 **Problem statement:** Predict unit sales velocity per SKU per channel over 30/60/90-day horizons, accounting for seasonality, promotional events (Prime Day, Black Friday), ad spend changes, and competitor pricing shifts — so sellers can optimize reorder quantities and avoid both stockouts (which tank Amazon ranking) and overstock (which incurs long-term storage fees).
@@ -33,7 +47,7 @@
 
 ---
 
-## 3. PPC Bid Optimization with Profit-Aware Objective
+## 4. PPC Bid Optimization with Profit-Aware Objective
 #gradient-boosting #regression #tabular-ml #automation
 
 **Problem statement:** For each keyword-ASIN pair in a seller's Amazon PPC portfolio, predict the profit-maximizing bid amount — not the ACOS-minimizing bid — by incorporating per-SKU margin data, conversion rate at different bid levels, organic rank effects of sustained ad spend, and budget constraints across the full campaign portfolio.
@@ -47,7 +61,7 @@
 
 ---
 
-## 4. Return Rate Prediction per Listing
+## 5. Return Rate Prediction per Listing
 #random-forest #binary-classification #tabular-ml #revenue-impact
 
 **Problem statement:** Before a seller launches a new product or modifies a listing, predict the expected return rate based on listing content (images, title accuracy, bullet point claims), product category benchmarks, pricing relative to competitors, and review sentiment patterns — flagging listings likely to exceed category-average return rates before they accumulate costly returns.
@@ -61,7 +75,7 @@
 
 ---
 
-## 5. Listing Conversion Rate Optimization
+## 6. Listing Conversion Rate Optimization
 #bert #regression #nlp #recommendation
 
 **Problem statement:** Given a product listing's title, bullet points, images, price, and competitive context, predict the expected conversion rate (sessions to purchases) and generate specific, ranked recommendations for content changes most likely to improve conversion — enabling sellers to prioritize listing optimization efforts across a large catalog.
