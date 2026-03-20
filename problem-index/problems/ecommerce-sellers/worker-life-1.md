@@ -3,7 +3,7 @@
 **Industry:** [[ecommerce-sellers|E-Commerce Sellers]]
 **Type:** Worker Life Changing
 **One-liner:** Amazon sellers get back the mental bandwidth consumed by constant fear of account suspension — knowing policy violations are caught and resolved before they escalate to enforcement.
-**Tags:** #bert #text-classification #nlp #worker-facing #compliance
+**Tags:** #bert #transformers #transfer-learning #word-embeddings #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #worker-facing #compliance
 
 ## The Problem
 Amazon sellers live under a regime where a single unresolved policy violation, an IP complaint from a competitor (often frivolous), or a spike in order defect rate can trigger account suspension — freezing all revenue and inventory with no human support line to call. Sellers check their Account Health dashboard 3-5 times daily. When a warning appears, they scramble to draft a Plan of Action (POA) appeal, often spending $500-$2,000 on third-party reinstatement consultants. The appeals process is opaque: Amazon's automated system often rejects POAs with a generic template response, and sellers have no way to know what specific language or evidence will satisfy the reviewer.

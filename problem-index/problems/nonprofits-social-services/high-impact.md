@@ -3,7 +3,7 @@
 **Industry:** [[nonprofits-social-services|Social Services Nonprofits]]
 **Type:** High Impact
 **One-liner:** Program directors can finally answer "does this program actually work, and for whom?" with statistical rigor instead of cherry-picked success stories.
-**Tags:** #gradient-boosting #causal-inference #tabular-ml #revenue-impact #data-integration
+**Tags:** #gradient-boosting #causal-inference #feature-engineering #evaluation-metrics #logistic-regression #hypothesis-testing #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #confidence-intervals #revenue-impact #data-integration
 
 ## The Problem
 Social services nonprofits deliver programs — job training, housing stabilization, substance abuse recovery, re-entry support — but almost none can measure whether those programs cause better outcomes or simply correlate with clients who were already on an upward trajectory. Outcome data is scattered across case management systems, partner agency databases, county HMIS (Homeless Management Information Systems), and state benefit portals. Program directors assemble annual reports by manually pulling numbers from four or five systems, counting outputs (number of clients served, number of sessions delivered) rather than outcomes (employment sustained at 6 months, housing retention at 12 months) because true outcome measurement requires linking records across organizations and time horizons that exceed any single grant cycle.

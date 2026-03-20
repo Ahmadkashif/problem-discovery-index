@@ -3,7 +3,7 @@
 **Industry:** [[electrical-contractors|Electrical Contractors]]
 **Type:** Worker Life Changing
 **One-liner:** Master electricians who carry irreplaceable diagnostic and installation knowledge in their heads — but have no time to formally teach it — get a tool that captures their expertise in structured form as they work, and delivers it to apprentices as context-specific learning on the job site, not in a classroom.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #word-embeddings #evaluation-metrics #worker-facing
 
 ## The Problem
 Apprenticeship is the primary knowledge transfer mechanism in the electrical trades — apprentices learn by working alongside journeymen and masters, observing decisions, and asking questions. The problem is that this transfer is highly opportunistic: the master is focused on the work, not on teaching; the apprentice is afraid to ask too many questions; and the most valuable learning moments (why this wire routing decision, why this panel configuration, what this specific symptom means) happen in 30-second windows that aren't captured anywhere. The master electrician who retires from a firm takes with them decades of accumulated tacit knowledge — about the firm's customer base, about local utility quirks, about the specific failure patterns in the building types the firm services — that cannot be replaced by classroom training or code study.

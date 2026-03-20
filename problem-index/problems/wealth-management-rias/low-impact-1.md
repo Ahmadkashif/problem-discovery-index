@@ -3,7 +3,7 @@
 **Industry:** [[wealth-management-rias|Wealth Management RIAs]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Portfolio reporting tools generate identical charts for every client — but a retiree drawing income needs a completely different explanation than a 35-year-old accumulating aggressively.
-**Tags:** #llm #text-generation #nlp #automation
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #automation
 
 ## The Problem
 Every quarter, RIA operations staff or paraplanners generate portfolio reports through Orion, Black Diamond, or Tamarac. These reports contain accurate performance data, asset allocation breakdowns, and benchmark comparisons. But the narrative section — the part clients actually read — is either a generic market commentary applied to every client or a manually written paragraph the advisor dictates per client. For a 200-client book, personalized narratives take 40-60 hours per quarter.

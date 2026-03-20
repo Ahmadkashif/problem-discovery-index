@@ -3,7 +3,7 @@
 **Industry:** [[environmental-consultants|Environmental Consultants]]
 **Type:** High Impact
 **One-liner:** Environmental Site Assessment turnaround drops from 3-4 weeks to 3-4 days by automating the regulatory database research and boilerplate report assembly that consumes 70% of project hours.
-**Tags:** #llm #bert #text-generation #named-entity-recognition #nlp #automation #revenue-impact
+**Tags:** #large-language-models #bert #transformers #attention-mechanisms #word-embeddings #transfer-learning #evaluation-metrics #automation #revenue-impact
 
 ## The Problem
 A Phase I Environmental Site Assessment requires a consultant to manually search 15+ regulatory databases (EPA ECHO, RCRA, CERCLIS, state DEQ equivalents, fire insurance maps, historical aerial photographs, city directories, topographic maps) for every property address, then synthesize findings into a 40-80 page report following ASTM E1527-21 standards. Each database has its own search interface, output format, and quirks — a Sanborn fire insurance map search alone can take 2 hours for a single parcel. The report itself is 60-70% standardized language adapted to site-specific conditions, but consultants rewrite it from scratch or copy-paste from prior reports, introducing errors and inconsistencies. A senior scientist spends 20-30 billable hours per Phase I, with firms completing 200-500 Phase Is annually — this single deliverable represents 30-50% of revenue for many small environmental firms.

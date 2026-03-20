@@ -3,7 +3,7 @@
 **Industry:** [[home-health-agencies|Home Health Agencies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Hospital discharge referrals arrive via fax and phone, creating a 24-48 hour information gap that delays the critical first home visit and causes patients to bounce back to the ER.
-**Tags:** #data-integration #workflow-orchestration #quick-win
+**Tags:** #bert #transfer-learning #data-integration #workflow-orchestration #quick-win
 
 ## The Problem
 When a hospital discharges a patient to home health, the referral contains the patient's diagnoses, medication list, care orders, and functional status. This information arrives at the home health agency via fax, e-fax, or sometimes a phone call — and must be manually entered into the agency's EHR to create the patient record, generate the plan of care, and schedule the first visit (which Medicare requires within 48 hours of discharge). Missing or illegible information triggers phone tag with the hospital discharge planner.

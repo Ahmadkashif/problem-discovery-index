@@ -5,7 +5,7 @@
 ---
 
 ## 1. Claims Triage and Decision Support Agent
-#ai-agent #nlp #tabular-ml #automation
+#ai-agent #bert #transfer-learning #gradient-boosting #feature-engineering #evaluation-metrics #loss-functions #automation
 
 **Concept:** An AI agent that processes incoming claims from intake to decision-ready state. When a new claim arrives, the agent: extracts structured data from all submitted documents (claim forms, medical records, employer reports), classifies the claim by complexity and line of business, matches it to the appropriate policy terms and coverage provisions, pre-populates a structured claim summary with extracted facts mapped to coverage requirements, generates a recommended decision (approve/deny/pend) with confidence score and supporting rationale, and routes the claim to the appropriate examiner based on complexity and workload. The examiner receives a complete case file that requires review and judgment rather than assembly from raw documents.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Client Reporting and SLA Intelligence Agent
-#ai-agent #llm #text-generation #data-integration
+#ai-agent #large-language-models #transformers #attention-mechanisms #descriptive-statistics #evaluation-metrics #data-integration
 
 **Concept:** An AI agent that automates the monthly client reporting process and provides real-time SLA intelligence. The agent maintains each client's unique report template, KPI definitions, and SLA thresholds. At month-end, the agent automatically extracts claims data, generates all reports in each client's required format, writes narrative commentary on performance trends and outliers, and prepares the reporting package for account manager review. Between reporting cycles, the agent provides real-time SLA dashboards, proactive breach warnings, and ad-hoc claim status summaries that preempt client escalation calls.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Fraud Detection and Investigation Agent
-#ai-agent #anomaly-detection #nlp #tabular-ml
+#ai-agent #bert #gradient-boosting #feature-engineering #evaluation-metrics #conditional-probability-and-bayes-theorem #entropy-cross-entropy-kl-divergence
 
 **Concept:** An AI agent that continuously monitors the claims stream for fraud indicators, combining narrative analysis (linguistic markers of fabrication), billing pattern analysis (provider anomalies), and claims pattern analysis (claimant behavior anomalies). When the agent detects suspicious patterns, it assembles an investigation file — the specific anomalies detected, supporting evidence from the claim documents, historical context (prior claims by the same claimant/provider), and comparable confirmed fraud cases. The file is routed to the SIU team with a structured investigation recommendation rather than a vague "suspicious" flag.
 

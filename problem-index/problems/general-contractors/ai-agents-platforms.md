@@ -5,7 +5,7 @@
 ---
 
 ## 1. Construction Intelligence Platform — Estimating and Project Analytics
-#ai-platform #cnn #computer-vision #revenue-impact
+#ai-platform #cnns #transfer-learning #linear-regression #feature-engineering #gradient-descent #evaluation-metrics #revenue-impact
 
 **Concept:** A GC-focused AI platform that addresses the two most impactful intelligence gaps: preliminary cost estimation from drawing sets (using computer vision to classify architectural systems and produce division-level cost estimates) and project profitability analytics (tracking actual vs. estimated costs in real time with anomaly detection for scope creep and subcontractor overruns).
 **Inputs:** Architectural drawing set images (PDF/DWG) for estimating; daily cost and progress data from project management system (Procore API) for project analytics; historical completed project data for model training
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Autonomous Job Site Monitoring Agent
-#ai-agent #cnn #computer-vision #compliance
+#ai-agent #cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #compliance
 
 **Concept:** An autonomous agent that processes all job site photos (from superintendent smartphones, drone surveys, or fixed cameras) to produce daily safety violation reports, progress assessment by work area, quality issue flags, and site activity analysis — turning the existing photo-taking behavior of field staff into structured intelligence without adding a new documentation burden.
 **Inputs:** Photos uploaded from field staff (Procore photo management or dedicated app), drone survey images (weekly or bi-weekly), project schedule and scope for context, OSHA violation taxonomy
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Change Order Documentation and Claim Management Agent
-#ai-agent #llm #nlp #revenue-impact
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #evaluation-metrics #revenue-impact
 
 **Concept:** An autonomous agent that monitors the project for change events — architect supplemental instructions, owner verbal direction, unforeseen conditions discovered in the field, material substitution approvals — and automatically initiates the change order documentation process: drafting the formal change order request with proper notice language, estimating the cost and schedule impact, routing it for approval, and tracking it through the approval process.
 **Inputs:** Field superintendent voice notes and photos of changed conditions, project contract type (AIA, ConsensusDocs, owner proprietary) for correct notice language, project schedule and cost model for impact calculation, project communication log from Procore
@@ -38,7 +38,7 @@
 ---
 
 ## 4. Subcontractor Management and Bid Intelligence Platform
-#ai-platform #gradient-boosting #tabular-ml
+#ai-platform #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics
 
 **Concept:** A subcontractor intelligence platform that combines performance tracking, bid analysis, and market pricing intelligence — giving GC project managers and estimators a data-driven view of subcontractor reliability and bid competitiveness for every scope of work on every project.
 **Inputs:** Historical bid data (scope, price, trade, project type, location), project performance data per sub (schedule adherence, change order ratio, quality deficiency count), Procore subcontractor directory integration, current market labor and material cost indices

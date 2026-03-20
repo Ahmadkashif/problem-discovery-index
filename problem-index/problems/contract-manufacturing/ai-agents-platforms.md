@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Contract Manufacturing
 
 **Industry:** [[contract-manufacturing|Contract Manufacturing]]
-**Tags:** #ai-agent #ai-platform #compliance #automation #revenue-impact
+**Tags:** #ai-agent #ai-platform #gradient-boosting #large-language-models #cnns #gaussian-processes #compliance #automation #revenue-impact
 
 ---
 

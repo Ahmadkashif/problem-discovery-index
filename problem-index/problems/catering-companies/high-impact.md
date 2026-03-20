@@ -3,7 +3,7 @@
 **Industry:** [[catering-companies|Catering Companies]]
 **Type:** High Impact
 **One-liner:** Every catering proposal becomes a reliable P&L forecast instead of a gut-feel gamble, eliminating the 15-25% cost estimation error that sinks new operators.
-**Tags:** #gradient-boosting #regression #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Catering companies quote events days or weeks before execution, committing to a price before they know actual food costs, labor hours, rental fees, travel time, or waste. Experienced catering sales managers can read a client inquiry — venue type, guest count, service style, time of year, corporate vs. social — and estimate true costs within 5% of actuals. They instinctively know that a 200-person outdoor wedding in July will have 12% higher protein waste than a 200-person indoor corporate dinner, that cocktail receptions consume 40% less per-head on entrees but 3x on passed appetizers, and that certain venue combinations with certain service styles require an extra service captain. New operators, or experienced operators quoting unfamiliar event types, miss by 15-25%, and those misses compound across a season into five-figure profit leakage.

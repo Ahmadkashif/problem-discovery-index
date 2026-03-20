@@ -5,7 +5,7 @@
 ---
 
 ## 1. Smart Dispatch Agent
-#ai-agent #automation #revenue-impact
+#ai-agent #gradient-boosting #feature-engineering #large-language-models #evaluation-metrics #automation #revenue-impact
 
 **Concept:** An AI dispatch co-pilot that listens to incoming calls (via telephony integration or motor club API feed), extracts key details (vehicle type, location, situation description), queries the truck type prediction model and demand forecast, and presents the dispatcher with a recommended truck assignment, driver, and ETA — all within the 60-second window before the dispatcher must commit. The agent handles the cognitive heavy-lifting (Which trucks are available? Which driver is closest with the right equipment? What's the realistic ETA given current traffic?) while the dispatcher retains final authority. For motor club digital dispatches that arrive via API, the agent can auto-accept and auto-assign routine calls (e.g., lockouts, tire changes) that match clear criteria, freeing the dispatcher to focus on complex calls.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Billing Reconciliation Agent
-#ai-agent #automation #data-integration
+#ai-agent #large-language-models #bert #transformers #feature-engineering #automation #data-integration
 
 **Concept:** An autonomous agent that monitors all billing channels — motor club portals, insurance claim systems, direct invoices — and continuously reconciles submitted charges against payments received. When a payment arrives, the agent matches it to the original invoice, compares line items against the contracted rate table for that specific payer, identifies underpayments or denied line items, and auto-generates dispute documentation with supporting evidence (photos, timestamps, mileage logs). For new jobs, the agent pre-validates billing before submission: checking that all required documentation is attached, that rates match the current contract, and that the submission format matches the payer's requirements. The agent learns payer-specific dispute patterns over time — e.g., "Agero consistently denies after-hours surcharges unless the dispatch timestamp is before 6 AM or after 10 PM" — and proactively flags billing that is likely to be disputed.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Impound Management Agent
-#ai-agent #compliance #automation
+#ai-agent #large-language-models #transformers #cnns #transfer-learning #compliance #automation
 
 **Concept:** A compliance-aware agent that manages the full lifecycle of every impounded vehicle from intake to disposition. At intake, the agent photographs the vehicle (damage documentation), runs the plate/VIN through DMV databases, identifies the registered owner and any lienholders, and initiates the state-specific notification process. It tracks every impounded vehicle against the applicable statutory timeline — generating and mailing certified notification letters at the legally required intervals, monitoring for owner responses, calculating accruing storage charges, and triggering auction preparation when the holding period expires. The agent maintains a live dashboard showing every vehicle's status, upcoming deadlines, and compliance risk. When state statutes change, the agent updates its workflows automatically.
 

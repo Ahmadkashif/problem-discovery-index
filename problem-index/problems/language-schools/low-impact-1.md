@@ -3,7 +3,7 @@
 **Industry:** [[language-schools|Language Schools]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic LMS platforms treat language learning like any other course — they cannot adapt pacing to CEFR-level spread within a single classroom or adjust for language-specific skill progressions.
-**Tags:** #bayesian-network #regression #tabular-ml #workflow-orchestration
+**Tags:** #bayesian-inference #conditional-probability-and-bayes-theorem #linear-regression #probability-distributions #feature-engineering #evaluation-metrics #workflow-orchestration
 
 ## The Problem
 Most language schools cannot afford to run dedicated sections for every half-level on the CEFR scale. A typical "B1" class contains students ranging from strong A2 to weak B2, and the instructor must somehow advance all of them. The LMS (Canvas, Moodle, Google Classroom) delivers content linearly — Module 1, Module 2, Module 3 — with no awareness that language acquisition follows non-linear, skill-specific progressions: a student might be B2 in reading comprehension but A2 in productive writing, or fluent in informal spoken register but unable to produce academic prose. The pacing problem is not just speed; it is multi-dimensional skill routing that generic platforms were never designed to handle.

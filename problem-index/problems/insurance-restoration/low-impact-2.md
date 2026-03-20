@@ -3,7 +3,7 @@
 **Industry:** [[insurance-restoration|Insurance Restoration]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Asset tracking tools can tell you where a dehumidifier is, but they can't tell you that pulling it from Job A (which is 80% dry) to rush-deploy on Job B (a new Category 3 loss) will extend Job A's drying time by 2 days and trigger a carrier SLA violation — while leaving Job C's air scrubber running 3 days past when it was needed.
-**Tags:** #gradient-boosting #regression #tabular-ml #workflow-orchestration
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #optimization-fundamentals #linear-regression #probability-distributions #workflow-orchestration
 
 ## The Problem
 A mid-size restoration company manages 200-500 pieces of drying equipment (dehumidifiers, air movers, air scrubbers, HEPA vacuums, moisture meters) across 15-40 concurrent jobs. Equipment is the company's largest capital investment after labor. Every piece sitting in the warehouse loses money. Every piece running past necessity on a job wastes energy costs and delays deployment to new jobs. But removing equipment too early extends drying time, risks mold growth, and can result in failed clearance testing. Equipment managers make constant allocation trade-offs with incomplete information — they don't know real-time drying progress on every job, so they either over-deploy (safe but capital-inefficient) or under-deploy (risky and potentially job-extending).

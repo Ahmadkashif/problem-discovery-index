@@ -3,7 +3,7 @@
 **Industry:** [[municipal-services|Municipal Services]]
 **Type:** Worker Life Changing
 **One-liner:** City clerks stop spending 10-15 hours per week manually searching, reviewing, and redacting public records — reclaiming time for the legislative support work they were actually hired to do.
-**Tags:** #llm #text-generation #nlp #worker-facing #compliance
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing #compliance
 
 ## The Problem
 City clerks in mid-size municipalities handle 20-80 FOIA/public records requests per month, each requiring a multi-step process: interpret the request scope, search across email archives, meeting minutes, contracts, personnel files, police reports, and financial records, identify responsive documents, review each for redaction requirements (SSNs, medical info, law enforcement sensitive, attorney-client privilege, deliberative process), apply redactions, compile the response, and track the statutory deadline (typically 5 business days). A single complex request — "all emails between the city manager and XYZ Development regarding the Main Street project" — can take 8-12 hours to fulfill across fragmented document management systems, email servers, and physical filing cabinets. Clerks do this on top of their primary duties: preparing council agendas, recording minutes, managing elections, and maintaining ordinance codification.

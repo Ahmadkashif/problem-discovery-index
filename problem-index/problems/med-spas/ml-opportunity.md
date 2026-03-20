@@ -6,7 +6,7 @@
 ---
 
 ## 1. Facial Aging Assessment and Injection Mapping
-#cnn #regression #computer-vision #tacit-knowledge-ml
+#cnns #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #backpropagation #gradient-descent #cross-validation #activation-functions #bias-variance-tradeoff #tacit-knowledge-ml
 
 **Problem statement:** An experienced aesthetic injector looks at a face and reads a complex map of aging — midface volume loss in the malar fat pads, deepening nasolabial folds from descending SMAS tissue, perioral lines from orbicularis oris hyperactivity, lateral brow ptosis from frontalis fatigue, and jawline blunting from pre-jowl fat pad atrophy and masseter hypertrophy. They mentally map which areas need volume restoration (filler), which need muscle relaxation (toxin), which need skin tightening (RF/laser), and which need surface-level treatment (chemical peel/microneedling). This multi-layered assessment — combining anatomical knowledge, aging pattern recognition, and product-specific outcome prediction — takes 5-10 years of full-time injection experience to develop. New injectors see "wrinkles" and reach for Botox; experienced injectors see "volume loss creating skin folds that wrinkles follow" and reach for filler first, toxin second.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Treatment Outcome Prediction from Before/After Photo Analysis
-#cnn #regression #computer-vision
+#cnns #transfer-learning #evaluation-metrics #loss-functions #backpropagation #gradient-descent #gans #diffusion-models #cross-validation #bias-variance-tradeoff
 
 **Problem statement:** Patients want to know "what will I look like after this treatment?" and providers want to know "which treatment combination will produce the best result for this face?" Before/after photo analysis across thousands of cases could answer both questions — but no standardized outcome measurement system exists in aesthetics.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Client Lifetime Value Prediction
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #linear-regression #probability-distributions #expectation-variance-covariance #bias-variance-tradeoff
 
 **Problem statement:** Med spa revenue depends on repeat visits. Predicting which new patients will become high-LTV clients (>$5,000/year) versus one-time visitors enables targeted retention investment. Currently, practices spend equally on retaining all patients.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Injectable Inventory Demand Forecasting
-#gradient-boosting #time-series-forecasting #tabular-ml
+#gradient-boosting #time-series-forecasting #exponential-smoothing #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #expectation-variance-covariance
 
 **Problem statement:** Med spas must balance between product waste (reconstituted Botox expires in 24 hours, fillers have 12-24 month shelf life) and stockouts (canceling a Sculptra appointment because the product wasn't reconstituted 72 hours in advance costs $1,500+ in lost revenue). Forecasting demand by product by day would optimize ordering and preparation.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Treatment Plan Recommendation Engine
-#gradient-boosting #recommendation #tabular-ml #computer-vision
+#gradient-boosting #cnns #transfer-learning #feature-engineering #cross-validation #evaluation-metrics #loss-functions #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 **Problem statement:** Given a patient's facial assessment, goals, budget, and treatment history, what combination of treatments will produce the best outcome? Currently each injector makes this decision independently — a recommendation engine trained on outcome data from thousands of cases would provide evidence-based treatment planning.
 

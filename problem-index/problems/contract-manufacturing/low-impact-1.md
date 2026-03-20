@@ -3,7 +3,7 @@
 **Industry:** [[contract-manufacturing|Contract Manufacturing]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic document analysis tools can read engineering change orders, but don't understand BOM structures, process qualification requirements, or the downstream impact of a material substitution on production tooling, test fixtures, and quality specifications — the manufacturing-specific reasoning that determines whether an ECO is a simple update or a multi-week re-qualification event.
-**Tags:** #llm #bert #named-entity-recognition #nlp #compliance #automation
+**Tags:** #large-language-models #bert #attention-mechanisms #transformers #transfer-learning #word-embeddings #evaluation-metrics #compliance #automation
 
 ## The Problem
 

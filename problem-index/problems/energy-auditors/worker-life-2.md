@@ -3,7 +3,7 @@
 **Industry:** [[energy-auditors|Energy Auditors]]
 **Type:** Worker Life Changing
 **One-liner:** Auditors stop losing 3-5 hours per week to no-shows and poorly routed schedules that burn fuel and daylight.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 Energy auditors travel to homes and small commercial buildings across wide service territories — a single day might cover 50+ miles between appointments. No-show rates run 15-25% for residential audits because homeowners forget, lose interest, or do not understand they need to be present. When a homeowner no-shows, the auditor has a dead hour in their schedule plus wasted drive time, and the open slot cannot easily be filled because audits require homeowner presence and access to mechanical systems. Scheduling is typically handled through generic CRM tools (Housecall Pro, Jobber) that optimize for calendar density but not for route efficiency or no-show risk.

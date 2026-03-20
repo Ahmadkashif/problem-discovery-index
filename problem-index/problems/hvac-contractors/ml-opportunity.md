@@ -6,7 +6,7 @@
 ---
 
 ## 1. Refrigerant System Fault Diagnosis from Gauge Readings
-#gradient-boosting #multiclass-classification #tabular-ml #signal-processing #tacit-knowledge-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #conditional-probability-and-bayes-theorem #probability-distributions #tacit-knowledge-ml
 
 **Problem statement:** Experienced HVAC technicians diagnose refrigerant circuit faults by interpreting the joint state of suction pressure, discharge pressure, superheat, and subcooling — a multi-variable pattern recognition skill that takes 5-8 years to internalize. A classification model trained on labeled diagnostic service calls can replicate this reasoning, enabling junior technicians to reach correct diagnosis on the first visit.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Predictive Equipment Failure from Runtime and Temperature Data
-#lstm #time-series-forecasting #anomaly-detection #signal-processing #revenue-impact
+#lstms-and-grus #time-series-forecasting #change-point-detection #loss-functions #backpropagation #gradient-descent #evaluation-metrics #feature-engineering #revenue-impact
 
 **Problem statement:** Smart thermostats (ecobee, Sensi, Nest) collect continuous runtime and temperature data that encodes early equipment degradation: a system running longer to meet setpoint, reduced cooling capacity in high-load conditions, refrigerant loss reducing efficiency over time. These patterns appear in the data weeks before the customer calls about a comfort complaint. Detect them proactively.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Maintenance Agreement Churn Prediction
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #conditional-probability-and-bayes-theorem #revenue-impact
 
 **Problem statement:** Predict which maintenance agreement customers are at risk of cancellation at their next renewal, 60-90 days in advance, to trigger targeted retention outreach before the renewal date.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Capacitor and Contactor Failure Prediction from Electrical Measurements
-#gradient-boosting #binary-classification #tabular-ml #tacit-knowledge-ml #quick-win
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #descriptive-statistics #tacit-knowledge-ml #quick-win
 
 **Problem statement:** Experienced HVAC technicians measure capacitor microfarad ratings and contactor resistance during maintenance visits and assess proximity to failure from the reading — a capacitor at 85% of nameplate rating is at risk; one at 70% should be replaced. Codify this tacit decision rule into a model that flags borderline components for proactive replacement during maintenance visits rather than waiting for emergency failure.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Duct Leakage Estimation from System Performance Measurements
-#gaussian-process #regression #tabular-ml #tacit-knowledge-ml
+#gaussian-processes #linear-regression #kernel-methods #feature-engineering #evaluation-metrics #probability-distributions #bayesian-inference #tacit-knowledge-ml
 
 **Problem statement:** Experienced HVAC technicians can estimate duct leakage severity from system performance indicators — significantly low static pressure, higher-than-expected runtime for setpoint, temperature differential below spec at registers — without performing a full blower door test. A regression model can provide a duct leakage probability estimate from easily-measured system performance inputs, flagging homes that warrant a full duct sealing evaluation.
 

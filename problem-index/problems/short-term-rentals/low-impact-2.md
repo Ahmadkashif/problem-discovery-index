@@ -3,7 +3,7 @@
 **Industry:** [[short-term-rentals|Short-Term Rentals]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic copywriting tools can improve listing descriptions, but don't understand the specific Airbnb/Vrbo search ranking signals, the photo ordering and quality standards that affect conversion, or the relationship between listing attributes and the specific review scores (cleanliness, location, value) that determine visibility in the platform's search algorithm.
-**Tags:** #gradient-boosting #regression #nlp #recommendation #revenue-impact
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #word-embeddings #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 

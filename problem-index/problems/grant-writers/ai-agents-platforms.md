@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Grant Writers
 
 **Industry:** [[grant-writers|Grant Writers]]
-**Tags:** #ai-agent #ai-platform #llm #bert #gradient-boosting #text-generation #text-classification #binary-classification #nlp #tabular-ml #compliance #revenue-impact
+**Tags:** #ai-agent #ai-platform #large-language-models #bert #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #attention-mechanisms #entropy-cross-entropy-kl-divergence #compliance #revenue-impact
 
 ---
 

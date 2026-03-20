@@ -3,7 +3,7 @@
 **Industry:** [[behavioral-health-clinics|Behavioral Health Clinics]]
 **Type:** Worker Life Changing
 **One-liner:** Therapists get back the 60-90 minutes per day they currently spend writing progress notes after sessions, reclaiming that time for direct patient care or simply going home on time.
-**Tags:** #worker-facing #ml-nlp #ai-agent
+**Tags:** #large-language-models #transformers #transfer-learning #loss-functions #attention-mechanisms #worker-facing #ai-agent
 
 ## The Problem
 After every 45-55 minute therapy session, the clinician must write a progress note — typically in DAP (Data, Assessment, Plan) or BIRP (Behavior, Intervention, Response, Plan) format — that documents what was discussed, clinical observations, interventions used, and the plan going forward. Most therapists see 6-8 patients per day, and each note takes 10-15 minutes. This means 60-90 minutes of documentation after their last patient, often done at home in the evening. The notes must be detailed enough to meet medical necessity requirements if audited, but therapists receive minimal training on documentation and live in constant anxiety about writing too much (privacy risk) or too little (audit risk).

@@ -3,7 +3,7 @@
 **Industry:** [[trade-associations|Trade Associations]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic event platforms handle registration and logistics but fail at the association-specific workflows of speaker recruitment, sponsor fulfillment, CE credit tracking, and multi-track agenda optimization.
-**Tags:** #llm #text-generation #nlp #workflow-orchestration
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #workflow-orchestration
 
 ## The Problem
 Trade association conferences are not corporate events — they serve as the primary venue for member networking, continuing education credit delivery, sponsor/exhibitor revenue generation, and policy discussion. Event planners spend 6-9 months per annual conference managing speaker recruitment pipelines (often from the membership itself), sponsor fulfillment obligations (booth placement, speaking slots, logo placement tiers), CE/CLE credit submission to accrediting bodies, and multi-track agenda construction that balances topical diversity against room capacity and attendee preferences. These workflows are deeply interconnected: moving a session to a different time slot cascades into sponsor contract obligations, CE credit hour calculations, and speaker availability conflicts.

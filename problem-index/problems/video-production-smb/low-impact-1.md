@@ -3,7 +3,7 @@
 **Industry:** [[video-production-smb|SMB Video Production]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Frame-accurate client feedback stops getting lost in email threads and vague Slack messages, cutting revision cycle time in half.
-**Tags:** #llm #text-generation #nlp #workflow-orchestration
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #workflow-orchestration
 
 ## The Problem
 Clients watch a rough cut and send feedback via email, Slack, text, or phone call. Their comments are rarely frame-accurate — "the transition around 1:20 feels off" or "can you make the intro more dynamic?" Editors must translate these into specific timeline edits, often requiring a follow-up call to clarify intent. A single round of revisions that should take 2 hours consumes 6 hours when you include the back-and-forth interpretation cycle. Multiple stakeholders on the client side compound the problem — the marketing director, the VP, and legal each send separate, sometimes contradictory notes through different channels.

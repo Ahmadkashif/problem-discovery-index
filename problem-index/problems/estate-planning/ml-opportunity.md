@@ -6,7 +6,7 @@
 ---
 
 ## 1. Estate Plan Staleness Risk Scoring from Life Event Detection
-#gradient-boosting #binary-classification #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #tacit-knowledge-ml
 
 **Problem statement:** Experienced estate planning attorneys have internalized which client life events (marriage, divorce, death of a named party, business acquisition, tax law change, state domicile move) trigger a plan update and how urgently. This judgment can be formalized as a staleness risk model that scores each client's plan for update urgency based on detectable events — combining internal client record changes with publicly available external data.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Tax Law Change Impact Analysis for Active Client Plans
-#bert #text-classification #nlp #compliance
+#bert #transfer-learning #loss-functions #evaluation-metrics #cross-validation #compliance
 
 **Problem statement:** When estate and gift tax law changes (TCJA sunset provisions, annual exclusion adjustments, state estate tax threshold changes), automatically identify which clients in the firm's active database have plans that reference the changed provisions and classify the severity of the impact — enabling targeted client outreach and update recommendations.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Estate Administration Duration and Complication Prediction
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #confidence-intervals
 
 **Problem statement:** Predict the expected duration and complexity of a new estate administration at intake, based on estate size, asset types, jurisdiction, number of beneficiaries, and presence of complicating factors — enabling accurate scope estimates for fee quotes and resource planning.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Charitable Planning Opportunity Identification
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #revenue-impact
 
 **Problem statement:** Identify which clients in the firm's existing base are candidates for charitable planning strategies (Charitable Remainder Trusts, Donor Advised Funds, Qualified Charitable Distributions) based on their financial profile, estate size, and tax situation — enabling targeted recommendations that create client value and additional fee engagements.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Beneficiary Conflict and Dispute Risk Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics
 
 **Problem statement:** Predict which estates, based on family structure and plan characteristics visible at administration intake, are at elevated risk of beneficiary disputes — enabling proactive attorney intervention (beneficiary meetings, clearer communication protocols) before conflict escalates to litigation.
 

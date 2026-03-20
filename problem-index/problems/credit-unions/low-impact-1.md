@@ -3,7 +3,7 @@
 **Industry:** [[credit-unions|Credit Unions]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Mobile banking platforms from Alkami, Q2, and NCR Voyix deliver functional parity with large bank apps, but CU members comparing their experience to Chime, SoFi, and Apple Card find missing features — instant provisional credit for disputes, real-time spend categorization, and conversational account management — that generic CU digital banking doesn't provide.
-**Tags:** #llm #automation #nlp #data-integration
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #data-integration #automation
 
 ## The Problem
 

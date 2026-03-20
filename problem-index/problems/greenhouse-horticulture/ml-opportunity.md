@@ -6,7 +6,7 @@
 ---
 
 ## 1. Pest and Disease Early Detection from Plant Images
-#cnn #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #cross-validation #optimization-fundamentals #tacit-knowledge-ml
 
 **Problem statement:** Experienced IPM scouts visually identify pest damage, insect presence, and disease symptoms on greenhouse crops from subtle cues (leaf stippling, webbing, discoloration patterns, fungal sporulation) that take 2-3 years to learn. A CNN-based classifier can capture this tacit visual expertise and make it available to every worker holding a phone.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Climate Control Setpoint Optimization
-#reinforcement-learning #regression #tabular-ml #revenue-impact
+#markov-decision-processes #dynamic-programming #policy-gradient-methods #gradient-descent #optimization-fundamentals #evaluation-metrics #expectation-variance-covariance #revenue-impact
 
 **Problem statement:** Greenhouse climate control involves continuous tradeoffs between energy cost, crop growth rate, crop quality, and disease pressure. Current rule-based controllers leave significant optimization headroom that an RL agent can capture by learning crop-specific response functions from sensor data and growth outcomes.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Crop Growth Rate Prediction
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #confidence-intervals #gradient-descent #bias-variance-tradeoff
 
 **Problem statement:** Greenhouse crop scheduling depends on accurate finish-date predictions, but actual crop duration varies by 1-3 weeks from catalog estimates due to accumulated light, temperature, and cultivar-specific responses. A regression model that predicts days-to-finish from current growth stage and climate trajectory would transform scheduling accuracy.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Irrigation Scheduling from Substrate Sensor Data
-#lstm #anomaly-detection #signal-processing
+#lstms-and-grus #rnns #time-series-forecasting #loss-functions #backpropagation #evaluation-metrics #gradient-descent #probability-distributions
 
 **Problem statement:** Greenhouse irrigation management requires interpreting substrate moisture, EC, and temperature signals to determine when and how much to water — a skill that experienced irrigation technicians develop through years of observing plant response. An LSTM-based model can learn normal irrigation-response patterns per zone and crop type, then flag anomalies and recommend adjustments.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Bloom Timing Prediction for Ornamental Crops
-#gradient-boosting #time-series-forecasting #tabular-ml
+#gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #confidence-intervals #gradient-descent
 
 **Problem statement:** Ornamental growers selling flowering plants (poinsettias, chrysanthemums, Easter lilies, spring bulbs) must deliver product in bloom for specific retail windows. Bloom timing depends on photoperiod manipulation, temperature, cultivar genetics, and accumulated growing conditions. Mis-timed crops lose 30-60% of their value.
 

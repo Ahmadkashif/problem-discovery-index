@@ -3,7 +3,7 @@
 **Industry:** [[short-term-rentals|Short-Term Rentals]]
 **Type:** High Impact
 **One-liner:** STR operators using PriceLabs or Beyond Pricing who know their algorithmic tool is leaving money on the table during local events, holidays, and micro-demand shifts — but lack the time or data to consistently override it manually — get a reinforcement learning pricing agent that learns from each property's booking history and local demand signals to outperform static rule-based dynamic pricing.
-**Tags:** #reinforcement-learning #time-series-forecasting #tabular-ml #revenue-impact
+**Tags:** #markov-decision-processes #policy-gradient-methods #temporal-difference-learning #time-series-forecasting #gradient-boosting #feature-engineering #expectation-variance-covariance #optimization-fundamentals #revenue-impact
 
 ## The Problem
 

@@ -3,7 +3,7 @@
 **Industry:** [[auto-dealers-independent|Independent Auto Dealers]]
 **Type:** Worker Life Changing
 **One-liner:** F&I managers stop manually re-entering the same deal into 5-10 different lender portals and get approval decisions in minutes instead of hours.
-**Tags:** #llm #automation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #word-embeddings #evaluation-metrics #worker-facing #automation
 
 ## The Problem
 When a customer agrees to finance a vehicle, the finance and insurance (F&I) manager must submit the deal to lenders for approval. Independent dealers typically work with 5-15 subprime and mid-tier lenders (Capital One Auto, Westlake Financial, DriveTime, United Auto Credit, regional credit unions) because their buyers often have credit scores below 650. Each lender has its own portal, its own required fields, its own stipulation format, and its own callback method. The F&I manager re-enters the same customer data (income, employer, residence history, references, trade-in details) into portal after portal, toggling between browser tabs, waiting for each to return a decision. A single deal submission round takes 45-90 minutes. On a busy Saturday with 6-8 deals working, the F&I manager is buried in data entry until 10pm.

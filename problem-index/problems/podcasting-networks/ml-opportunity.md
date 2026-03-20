@@ -6,7 +6,7 @@
 ---
 
 ## 1. Show Retention Prediction from Pilot Audio Signals
-#lstm #gradient-boosting #regression #nlp #speech-processing #tacit-knowledge-ml
+#lstms-and-grus #gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #backpropagation #loss-functions #word-embeddings #cross-validation #tacit-knowledge-ml
 
 **Problem statement:** Experienced producers listen to a pilot episode and predict whether listeners will return for episode 3 — reading host chemistry, pacing, topic coherence, and production quality cues that they cannot fully articulate but act on consistently. This tacit judgment needs to be captured in a model that can evaluate pre-release audio at scale.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Episode Performance Prediction
-#gradient-boosting #regression #tabular-ml #nlp #revenue-impact
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #word-embeddings #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** After a show is established, networks need to predict which upcoming episodes will over- or under-perform the show's baseline, so they can allocate marketing spend, schedule cross-promos, and price ad inventory dynamically.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Sponsor-Show Matching
-#gradient-boosting #recommendation #tabular-ml #nlp
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #word-embeddings #logistic-regression #bias-variance-tradeoff
 
 **Problem statement:** Mid-tier shows are under-monetized because programmatic ad tools match on category and CPM rather than content-brand psychographic alignment. A recommendation model that surfaces non-obvious sponsor-show pairings with explainable fit scores would unlock revenue currently left on the table.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Audience Growth Forecasting
-#gradient-boosting #time-series-forecasting #tabular-ml
+#gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #probability-distributions #expectation-variance-covariance
 
 **Problem statement:** Network executives make catalog investment decisions (which shows to renew, which to sunset, where to allocate marketing budget) using trailing download trends and gut feel. A forecasting model that projects audience trajectory 3-6 months out would enable data-driven portfolio management.
 

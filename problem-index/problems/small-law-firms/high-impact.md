@@ -3,7 +3,7 @@
 **Industry:** [[small-law-firms|Small Law Firms]]
 **Type:** High Impact
 **One-liner:** Small firm attorneys who under-bill by 20-35% because they don't capture time in real-time recover $50,000-150,000 per attorney annually — not by working more, but by getting credit for work already done.
-**Tags:** #transformer #multiclass-classification #nlp #revenue-impact
+**Tags:** #transformers #attention-mechanisms #loss-functions #cross-validation #evaluation-metrics #feature-engineering #backpropagation #revenue-impact
 
 ## The Problem
 Legal billing depends on time entries: a description of the work done, the client and matter it applies to, and the time spent. The standard workflow — attorney works throughout the day and reconstructs time entries at day's end — is structurally broken. Memory-based reconstruction consistently under-bills by 20-35% because attorneys forget the 8-minute call, the 12-minute email review, the 20-minute research tangent. At $300-500/hour billing rates, 2 hours of unbilled daily work represents $60,000-100,000 in annual revenue loss per attorney. This is not a discipline problem — it is a capture problem. The work is done; the billing record doesn't exist because the friction of creating it in real-time is too high.

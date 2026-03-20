@@ -5,7 +5,7 @@
 ---
 
 ## 1. Arrangement Conference Copilot
-#ai-agent #revenue-impact #tabular-ml
+#ai-agent #gradient-boosting #feature-engineering #evaluation-metrics #cross-validation #revenue-impact
 
 **Concept:** An AI agent that prepares funeral directors for arrangement conferences by assembling all available family signals — preneed files, intake call transcription analysis, community demographics, historical purchasing patterns for similar families — and generating a recommended presentation strategy. The agent suggests which service tiers to lead with, which add-ons are most likely to resonate, and which options to de-emphasize. Post-conference, the agent logs the outcome and refines future recommendations. The agent never interacts with the family directly — it operates as a director's preparation tool, like a briefing document generated 30 minutes before the meeting.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Memorial Content Agent
-#ai-agent #llm #text-generation #nlp
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings
 
 **Concept:** An AI agent that manages the complete memorial content pipeline from a single family interview. The agent guides the director through a structured-but-conversational biographical interview, then generates all memorial materials: obituary (in multiple formats for different publications and platforms), funeral program, prayer card text, slideshow narration script, thank-you note template, and online memorial page content. The agent maintains tonal consistency across all materials and handles the mechanical formatting requirements — newspaper character limits, program layout constraints, and online platform formatting.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Preneed Outreach Agent
-#ai-agent #automation #revenue-impact
+#ai-agent #large-language-models #gradient-boosting #feature-engineering #automation #revenue-impact
 
 **Concept:** An AI agent that manages the funeral home's preneed (pre-planning) sales pipeline. The agent identifies high-propensity prospects from community data (recent retirees, estate planning attorney referrals, attendees at community seminars), generates personalized outreach (direct mail content, email sequences, seminar invitations), manages follow-up cadences, and schedules appointments for preneed counselors. The agent handles the awkward nature of death-planning outreach by maintaining a tone that emphasizes planning, family burden reduction, and financial protection rather than mortality.
 

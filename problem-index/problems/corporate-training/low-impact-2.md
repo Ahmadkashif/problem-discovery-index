@@ -3,7 +3,7 @@
 **Industry:** [[corporate-training|Corporate Training]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Compliance training tracking exists in every LMS, but it breaks down completely when a company operates across multiple legal entities, jurisdictions, and regulatory frameworks with different requirements per role.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #compliance #data-integration
+**Tags:** #gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #compliance #data-integration
 
 ## The Problem
 Mid-market and enterprise organizations operating across states or countries face a compliance training matrix that is combinatorial: each jurisdiction has its own mandatory training topics (sexual harassment, safety, data privacy, anti-bribery), each with different content requirements, completion deadlines, renewal periods, and documentation standards. A 2,000-person company operating in 15 states with 40 job classifications can face 800+ distinct compliance training requirements. L&D administrators manually maintain spreadsheets mapping requirements to roles to entities, and a single missed renewal can trigger regulatory fines, audit failures, or liability exposure.

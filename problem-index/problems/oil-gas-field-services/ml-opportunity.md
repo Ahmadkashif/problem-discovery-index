@@ -6,7 +6,7 @@
 ---
 
 ## 1. Equipment Condition Classification from Multi-Modal Field Observations
-#lstm #cnn #anomaly-detection #signal-processing #computer-vision #tacit-knowledge-ml #revenue-impact
+#lstms-and-grus #cnns #rnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #activation-functions #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Veteran field technicians diagnose wellsite equipment health through integrated sensory observation — the sound of a rod pump gearbox, the color of produced fluid at the separator, the vibration feel of a wellhead, the smell near a casing vent — and make go/no-go decisions that prevent catastrophic failures. This tacit expertise must be encoded into a model that replicates multi-modal diagnosis at scale.
 
@@ -25,7 +25,7 @@
 ---
 
 ## 2. Production Decline Curve Forecasting with Equipment Health Integration
-#gradient-boosting #lstm #time-series-forecasting #tabular-ml
+#gradient-boosting #lstms-and-grus #time-series-forecasting #feature-engineering #evaluation-metrics #cross-validation #backpropagation #gradient-descent #causal-inference
 
 **Problem statement:** Standard decline curve analysis (DCA) treats production decline as a purely geological phenomenon, but in practice 20-40% of production shortfall is caused by equipment degradation (pump wear, scale buildup, paraffin accumulation) that is correctable with timely intervention. A model that separates equipment-driven decline from reservoir-driven decline would identify which wells have recoverable production.
 
@@ -44,7 +44,7 @@
 ---
 
 ## 3. Chemical Treatment Optimization for Well Maintenance
-#gaussian-process #bayesian-network #regression #tabular-ml
+#gaussian-processes #bayesian-inference #bayesian-optimization #feature-engineering #evaluation-metrics #confidence-intervals #probability-distributions #conditional-probability-and-bayes-theorem
 
 **Problem statement:** Field service companies apply chemical treatments (corrosion inhibitors, scale inhibitors, paraffin solvents, biocides, demulsifiers) to wells on fixed schedules or in response to visible problems. Treatment dosages and frequencies are set by chemical vendor recommendations and field tech judgment, but the actual optimal regime depends on well-specific conditions (water chemistry, temperature, flow rate, bacterial load) that change over time. Over-treatment wastes $2,000-$10,000/well/year in chemicals; under-treatment causes equipment failures and production loss.
 
@@ -63,7 +63,7 @@
 ---
 
 ## 4. Environmental Compliance Anomaly Detection from Field Data Streams
-#isolation-forest #gradient-boosting #anomaly-detection #tabular-ml #compliance
+#gradient-boosting #feature-engineering #evaluation-metrics #cross-validation #descriptive-statistics #probability-distributions #bias-variance-tradeoff #large-language-models #compliance
 
 **Problem statement:** Regulatory violations in oilfield operations — unreported spills, excessive flaring, methane emissions above permit limits, produced water disposal irregularities — often originate from field-level events that are visible in operational data but not flagged by current threshold-based monitoring. By the time a violation is discovered during an inspection, penalties have compounded and remediation costs have escalated.
 
@@ -82,7 +82,7 @@
 ---
 
 ## 5. Crew Route and Dispatch Optimization with Dynamic Re-Routing
-#gradient-boosting #reinforcement-learning #regression #tabular-ml
+#gradient-boosting #markov-decision-processes #policy-gradient-methods #feature-engineering #evaluation-metrics #optimization-fundamentals #dynamic-programming #cross-validation
 
 **Problem statement:** Dispatchers assign field crews to wellsites using manual judgment, resulting in 30-40% excess driving miles, chronic schedule unpredictability for techs, and suboptimal allocation of specialized skills to the jobs that need them. When emergency calls come in mid-day, the entire schedule is disrupted because re-optimization is done by gut feel.
 

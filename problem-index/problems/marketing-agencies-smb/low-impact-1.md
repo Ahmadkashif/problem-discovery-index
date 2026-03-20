@@ -3,7 +3,7 @@
 **Industry:** [[marketing-agencies-smb|SMB Marketing Agencies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Reporting tools already aggregate the numbers — but no tool explains what the numbers mean for this specific client's business, so AMs spend 4-6 hours per client per month writing narrative around dashboards.
-**Tags:** #llm #text-generation #nlp #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #entropy-cross-entropy-kl-divergence #evaluation-metrics #automation
 
 ## The Problem
 Every month, account managers pull data from 3-5 platforms (Google Ads, Meta, Google Analytics, email, SEO tools), paste metrics into a reporting template, and then write 1-2 pages of narrative context explaining what happened, why it happened, and what the agency recommends doing next. For an AM managing 12 clients, this consumes 50-70 hours per month — nearly half their available time. The narrative is the part the client actually reads, but it's the part no tool generates. Clients who receive numbers-only reports ask more questions, schedule more "catch-up" calls, and rate agency communication lower in satisfaction surveys.

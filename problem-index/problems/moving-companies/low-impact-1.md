@@ -3,7 +3,7 @@
 **Industry:** [[moving-companies|Moving Companies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic CRMs can track leads but cannot handle the move-specific booking lifecycle — survey scheduling, binding/non-binding quote variants, deposit collection, crew assignment, and post-move follow-up in one flow.
-**Tags:** #llm #text-generation #nlp #workflow-orchestration
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #workflow-orchestration
 
 ## The Problem
 A moving company's sales cycle is unlike almost any other service business: a lead comes in via phone, web form, or marketplace (HireAHelper, Yelp, Angi), requires an in-home or virtual survey before quoting, involves complex quote structures (binding, non-binding, not-to-exceed, hourly vs. flat rate), and needs crew/truck assignment that changes daily. Most companies use Salesforce, HubSpot, or a spreadsheet, then duct-tape survey scheduling through Calendly, quoting through Word templates, and payment through Square or Stripe — none of which talk to each other.

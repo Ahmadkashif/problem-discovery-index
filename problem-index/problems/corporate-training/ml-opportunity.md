@@ -6,7 +6,7 @@
 ---
 
 ## 1. Participant Engagement Detection from Live Session Signals
-#cnn #lstm #anomaly-detection #computer-vision #tabular-ml #tacit-knowledge-ml
+#cnns #lstms-and-grus #transfer-learning #loss-functions #backpropagation #gradient-descent #evaluation-metrics #matrix-algebra #optimization-fundamentals #tacit-knowledge-ml
 
 **Problem statement:** Experienced corporate facilitators develop an intuitive ability to "read the room" — they detect disengagement from subtle cues like posture shifts, reduced eye contact, question frequency drop-off, typing-instead-of-watching behavior in virtual sessions, and energy dips after lunch. This tacit skill takes 3–5 years to develop and is impossible to articulate as explicit rules, yet it drives real-time instructional pivots (switching to breakout exercises, calling on quiet participants, inserting energy breaks) that determine whether a $50K training session produces lasting behavior change or is forgotten by Friday.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Training Effectiveness Prediction from Early Signals
-#gradient-boosting #regression #tabular-ml #revenue-impact #data-integration
+#gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #revenue-impact #data-integration
 
 **Problem statement:** L&D leaders need to know whether a training program will produce measurable business outcomes before waiting 6–12 months for downstream metrics to materialize. Early signals — assessment score distributions, learner engagement patterns during the course, manager reinforcement behaviors, practice exercise completion rates — contain predictive information about eventual business impact, but no one has built the model connecting them.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Skill Gap Identification from Assessment Response Patterns
-#bayesian-network #multiclass-classification #tabular-ml #recommendation
+#bayesian-inference #conditional-probability-and-bayes-theorem #probability-distributions #feature-engineering #evaluation-metrics #cross-validation
 
 **Problem statement:** Standard training assessments produce a pass/fail score, but the pattern of which questions a learner gets wrong — and how they get them wrong (which distractors they select) — reveals specific conceptual gaps and misconceptions that should drive personalized remediation. Currently, an employee who scores 72% on a compliance exam gets the same "retake the course" recommendation whether they failed on regulatory definitions, procedural sequencing, or scenario-based judgment questions.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Personalized Course Recommendation by Role, Performance, and Career Path
-#gradient-boosting #random-forest #recommendation #ranking #tabular-ml #data-integration
+#gradient-boosting #random-forests #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #data-integration
 
 **Problem statement:** Corporate learning catalogs contain 200–2,000 courses, and employees receive either no guidance on what to take next or a one-size-fits-all curriculum assigned by job title. The result is that high-potential employees waste time on irrelevant courses while struggling employees miss the targeted skill-building that would close their specific performance gaps. LinkedIn Learning and Coursera for Business offer content recommendations based on consumption similarity ("people who watched X also watched Y"), but they have no access to internal performance data, manager feedback, or business-unit-specific competency models.
 

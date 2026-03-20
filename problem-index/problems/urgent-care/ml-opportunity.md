@@ -6,7 +6,7 @@
 ---
 
 ## 1. Waiting Room Triage Acuity Scoring from Visual and Behavioral Cues
-#cnn #multiclass-classification #computer-vision #tacit-knowledge-ml #worker-facing
+#cnns #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #loss-functions #probability-distributions #tacit-knowledge-ml #worker-facing
 
 **Problem statement:** Experienced nurses and MAs can visually assess a waiting room patient — skin color, posture, respiratory rate approximation, level of distress — and immediately flag who needs to be seen urgently before any vitals are taken. This tacit pattern recognition can be captured as a multimodal triage model that combines entered chief complaint and demographic data with waiting room observation signals.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Patient Volume Demand Forecasting
-#gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+#gradient-boosting #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #expectation-variance-covariance #revenue-impact
 
 **Problem statement:** Predict daily and hourly patient visit volume for an urgent care center 24-72 hours out, using center-specific historical data enriched with external signals — enabling data-driven staffing decisions that eliminate the revenue loss from understaffed surges and the waste from overstaffed slow periods.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Ambient Clinical Encounter Transcription and Chart Generation
-#transformer #speech-recognition #seq2seq #nlp #worker-facing
+#transformers #seq2seq #large-language-models #attention-mechanisms #transfer-learning #loss-functions #backpropagation #worker-facing
 
 **Problem statement:** Convert urgent care clinical encounter audio (physician-patient conversation during the visit) into a structured SOAP note draft in the center's EHR template format, ready for physician review and signature within 60 seconds of visit end.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. ICD-10 Diagnosis Coding Accuracy and Specificity Improvement
-#bert #text-classification #nlp #compliance #revenue-impact
+#bert #transfer-learning #loss-functions #evaluation-metrics #cross-validation #feature-engineering #compliance #revenue-impact
 
 **Problem statement:** Urgent care physicians often code diagnoses at low specificity (J06.9 — acute upper respiratory infection, unspecified) when the clinical documentation supports a more specific code that reimburses at higher rates and satisfies payer medical necessity requirements. Automatically suggest the highest-specificity appropriate ICD-10 code given the clinical note.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Antibiotic Stewardship Decision Support
-#gradient-boosting #binary-classification #tabular-ml #compliance
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #compliance
 
 **Problem statement:** Urgent care centers are significant contributors to antibiotic overprescription — particularly for respiratory infections where antibiotics provide no benefit but are frequently prescribed under patient pressure. A model predicting bacterial vs. viral etiology from clinical presentation data can support the provider in declining antibiotic requests with data-backed confidence.
 

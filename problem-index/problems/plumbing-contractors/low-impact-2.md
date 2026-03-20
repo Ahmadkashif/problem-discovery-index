@@ -3,7 +3,7 @@
 **Industry:** [[plumbing-contractors|Plumbing Contractors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic permit databases exist but don't resolve the specific question a plumber faces: does this specific job type in this specific municipality require a permit, and if so, what inspections are required and what is the current fee schedule?
-**Tags:** #llm #text-classification #nlp #compliance #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #evaluation-metrics #compliance #automation
 
 ## The Problem
 Plumbing permits are required for virtually all new installation work (new water heater, new fixture, new gas line) and most replacement work in most US jurisdictions, but the specific requirements vary significantly by municipality — what requires a permit in one county doesn't in the neighboring county; what triggers a full inspection in one city requires only a final in another. Experienced plumbers have internalized these rules for their primary service area over years of working with local building departments. When they move into a new service area, or when a junior plumber takes a job in an unfamiliar jurisdiction, the permit question requires either a call to the building department (20-30 minutes of hold time and often an ambiguous answer) or a guess based on general rules. Pulling permits on work that didn't require one wastes time and money; skipping permits on work that required them creates liability for both the contractor and the homeowner.

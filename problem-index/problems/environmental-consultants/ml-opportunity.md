@@ -6,7 +6,7 @@
 ---
 
 ## 1. Contamination Likelihood Scoring from Site History and Context
-#gradient-boosting #binary-classification #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #gradient-descent #maximum-likelihood-estimation #tacit-knowledge-ml
 
 **Problem statement:** Experienced environmental scientists develop an instinct for which sites will have contamination before any samples are collected. They read the combination of historical land use (gas station, dry cleaner, industrial), proximity to sensitive receptors, soil type, groundwater depth, and regulatory history and *know* whether a Phase I will escalate to a Phase II. Senior scientists can look at a Sanborn map, a topographic map, and a regulatory database hit list and predict with roughly 85% accuracy whether the site has a recognized environmental condition — a judgment built over hundreds of site assessments that they cannot fully articulate. A model that captures this tacit pattern recognition would save clients weeks and thousands of dollars in unnecessary Phase II work when the risk is low, and flag high-risk sites for immediate investigation.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Contamination Risk Scoring from Site Characteristics
-#gradient-boosting #binary-classification #tabular-ml #automation
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #automation
 
 **Problem statement:** Before any physical investigation, environmental consultants assess contamination likelihood based on property history, surrounding land use, regulatory records, and geological setting. This triage decision — whether to recommend a Phase II investigation after a Phase I — is subjective and inconsistent across practitioners. A model that scores contamination probability from structured site features would standardize recommendations and reduce unnecessary Phase II investigations (currently ~30% of Phase IIs find no contamination above screening levels).
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Lab Result Anomaly Detection for QA/QC Flagging
-#isolation-forest #anomaly-detection #tabular-ml #data-integration #compliance
+#autoencoders #pca #feature-engineering #evaluation-metrics #probability-distributions #expectation-variance-covariance #descriptive-statistics #data-integration #compliance
 
 **Problem statement:** Environmental lab analytical results occasionally contain errors — transcription mistakes, unit errors, sample mix-ups, or instrument calibration drift — that are difficult to catch in manual review. A consulting firm receiving results for 20 monitoring wells with 30 analytes each must review 600+ data points per event against historical trends, internal consistency checks (e.g., dissolved metals should not exceed total metals), and plausibility bounds. An anomaly detection model trained on historical site data could flag suspicious results for human review before they are submitted to regulators.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Remediation Cost Estimation from Site Characterization Data
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #confidence-intervals #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** After identifying contamination, consultants must estimate remediation costs for budgeting, insurance claims, and property transactions. Current estimates are based on professional judgment and analogous site experience, with typical accuracy of +/- 50-100% for early-stage estimates. A regression model trained on completed remediation projects could provide data-driven cost estimates with quantified uncertainty, enabling better decision-making for brownfield developers, insurers, and regulatory agencies.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Regulatory Database Entity Extraction and Record Linkage
-#bert #named-entity-recognition #nlp #automation #data-integration
+#bert #transformers #transfer-learning #word-embeddings #loss-functions #evaluation-metrics #entropy-cross-entropy-kl-divergence #automation #data-integration
 
 **Problem statement:** Phase I ESA research requires matching a subject property against records in 15+ regulatory databases that use inconsistent naming conventions, address formats, and facility identifiers. "ABC Manufacturing, 123 Main St" might appear as "A.B.C. Mfg Inc, 123 N Main Street" in one database and "ABC MFG CO, 123 Main" in another. Currently, junior scientists manually review search results to determine which records match the subject property or nearby facilities. An NER + record linkage system could automate this matching, reducing the 8-12 hour database research task to automated retrieval with human review of ambiguous matches.
 

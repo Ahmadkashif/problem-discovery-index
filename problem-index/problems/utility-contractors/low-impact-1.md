@@ -3,7 +3,7 @@
 **Industry:** [[utility-contractors|Utility Contractors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** NASSCO PACP/MACP coding software exists for manual defect logging, but automating the coding from CCTV footage video — identifying each defect frame, assigning the correct PACP code, and generating the condition report — requires a municipal pipe inspection-specific computer vision model that no general-purpose platform provides.
-**Tags:** #cnn #object-detection #semantic-segmentation #computer-vision #automation #compliance
+**Tags:** #cnns #object-detection #semantic-segmentation #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #automation #compliance
 
 ## The Problem
 

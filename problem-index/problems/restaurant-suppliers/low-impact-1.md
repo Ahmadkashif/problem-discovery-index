@@ -3,7 +3,7 @@
 **Industry:** [[restaurant-suppliers|Restaurant Suppliers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic B2B demand forecasting ignores menu cycles, seasonal dishes, and event-driven volume spikes that drive 40-60% of order variability in restaurant supply.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml
+**Tags:** #gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #expectation-variance-covariance
 
 ## The Problem
 Procurement buyers at independent distributors commit to perishable inventory 3-7 days ahead of demand. A buyer ordering 2,000 lbs of salmon on Monday is guessing based on last week's sales and gut feel about the upcoming weekend. They have no systematic way to account for the fact that 15 of their restaurant accounts just launched spring menus featuring salmon, or that a local convention is bringing 10,000 visitors next week. The result is either spoilage (2-5% of perishable revenue) or stockouts that force restaurants to emergency-order from competitors.

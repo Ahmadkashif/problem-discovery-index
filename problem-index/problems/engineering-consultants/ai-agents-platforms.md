@@ -5,7 +5,7 @@
 ---
 
 ## 1. Project Financial Health Agent
-#ai-agent #revenue-impact #automation
+#ai-agent #gradient-boosting #time-series-forecasting #feature-engineering #evaluation-metrics #revenue-impact #automation
 
 **Concept:** An autonomous agent that monitors project financial health across the firm's entire portfolio by continuously ingesting timesheet data, comparing burn rates against contracted fees and historical project benchmarks, and proactively alerting PMs and principals when a project shows signs of margin erosion. Unlike a dashboard that waits to be checked, the agent pushes weekly project health digests and immediate alerts when burn rate anomalies are detected, including specific dollar amounts at risk and recommended next actions (file change order, freeze scope, reassign staff).
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Proposal Assembly Agent
-#ai-agent #llm #text-generation #nlp #automation
+#ai-agent #large-language-models #transformers #attention-mechanisms #word-embeddings #transfer-learning #automation
 
 **Concept:** An agent that reads an incoming RFP, extracts evaluation criteria and format requirements, then assembles a draft proposal by pulling relevant project descriptions, staff resumes, and technical approach language from a structured firm knowledge base. For federal SF330 submissions, the agent maps firm data directly into the required section format. The agent handles the 80% of proposal content that is recombinable from existing material, leaving principals to write only the project-specific technical approach and fee strategy.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Code Compliance Check Agent
-#ai-agent #bert #text-classification #nlp #compliance
+#ai-agent #bert #transformers #transfer-learning #entropy-cross-entropy-kl-divergence #evaluation-metrics #compliance
 
 **Concept:** An agent that maintains a continuously updated database of local building code amendments by jurisdiction, then checks engineering design parameters against the applicable local code — not just the base IBC or ASCE 7. The agent ingests municipal ordinance updates, extracts code amendments, and flags design calculations or drawings that may conflict with jurisdiction-specific requirements before permit submission. It functions as an always-current code research assistant that eliminates the manual PDF cross-referencing engineers currently perform.
 

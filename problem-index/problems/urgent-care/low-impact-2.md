@@ -3,7 +3,7 @@
 **Industry:** [[urgent-care|Urgent Care Centers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic patient education tools produce discharge instructions that are hospital-level verbose and not calibrated to the 15-minute urgent care context — leaving patients confused and driving unnecessary return visits.
-**Tags:** #llm #text-generation #nlp #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #automation
 
 ## The Problem
 After diagnosing and treating a patient, the urgent care provider is responsible for discharge instructions — what to watch for, when to return, how to take medications, and when to follow up with a primary care doctor. The current workflow is either choosing from a library of pre-written PDF handouts (accurate but generic) or quickly verbalizing instructions that the patient may not retain. Neither approach calibrates the instructions to the patient's specific presentation, their level of health literacy, or their specific prescription. A patient discharged with a diagnosis of "viral pharyngitis" and a prescription for dexamethasone gets a handout written for a general population, not one that explains why they received a steroid for a sore throat and what to watch for.

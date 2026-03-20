@@ -5,7 +5,7 @@
 ---
 
 ## 1. Veterinary Diagnostic Imaging AI Platform
-#ai-platform #computer-vision #revenue-impact
+#cnns #object-detection #transfer-learning #evaluation-metrics #ai-platform #revenue-impact
 
 **Concept:** A veterinary-specific radiology AI platform that integrates with practice PACS or DR/CR systems, processes DICOM files automatically, and returns structured abnormality reports within 30 seconds — serving as a first-read triage layer for general practitioners and a QA layer for teleradiology. Unlike general medical imaging AI, this platform is trained on veterinary species (canine, feline, equine) with species-specific models and normal-range atlases.
 **Inputs:** DICOM radiograph file (triggered automatically on acquisition), patient species/breed/age/sex from EHR, indication/clinical context from the ordering vet
@@ -16,7 +16,7 @@
 ---
 
 ## 2. AI-Powered Client Triage and After-Hours Support Agent
-#ai-agent #nlp #worker-facing
+#large-language-models #gradient-boosting #feature-engineering #transfer-learning #ai-agent #worker-facing
 
 **Concept:** A multi-channel triage agent (SMS, web chat, app) that handles pet owner inquiries 24/7 — collecting structured symptom information, applying species-specific urgency scoring, providing home care guidance for non-urgent situations, and routing emergencies to the on-call vet with a structured brief. During business hours, the same agent handles appointment booking, prescription refill requests, and vaccination reminders, routing only clinical questions to staff.
 **Inputs:** Owner free-text message or voice message (species, symptoms, duration, behavioral changes); pet profile from practice management system (age, known conditions, medications)
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Veterinary Practice Operations and Revenue Intelligence Platform
-#ai-platform #tabular-ml #revenue-impact
+#gradient-boosting #feature-engineering #evaluation-metrics #survival-analysis #ai-platform #revenue-impact
 
 **Concept:** A practice analytics platform that combines appointment utilization, client retention, revenue per visit, compliance rates, and benchmark comparison against regional peers — delivering actionable weekly recommendations rather than passive dashboards. Key workflows: identify clients overdue for high-value services (dentals, bloodwork, specialist referrals), flag revenue leakage from undertreated chronic conditions, and surface the practice's highest-churn client segments for targeted reactivation.
 **Inputs:** Practice management system data (appointments, diagnoses, procedures, invoices, client activity), optional integration with payment processor and marketing email platform
@@ -38,7 +38,7 @@
 ---
 
 ## 4. Continuing Education and Clinical Decision Support Agent for General Practitioners
-#ai-agent #llm #nlp
+#large-language-models #transformers #attention-mechanisms #transfer-learning #ai-agent
 
 **Concept:** A clinical reasoning assistant embedded in the practice workflow that helps general practitioners handle cases outside their core expertise — exotic species presentations, complex dermatology, neurology screenings — by retrieving relevant case patterns, diagnostic decision trees, and treatment protocols from veterinary literature and databases, presented in context as the vet is examining the patient.
 **Inputs:** Patient species, age, presenting complaint, physical exam findings entered into EHR; vet's clinical question in natural language ("What are the top 3 differentials for a 6-year-old ferret presenting with hindlimb weakness and weight loss?")

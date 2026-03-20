@@ -6,7 +6,7 @@
 ---
 
 ## 1. Footage Quality & Usability Scoring from Raw Clips
-#cnn #lstm #binary-classification #computer-vision #tacit-knowledge-ml
+#cnns #lstms-and-grus #transfer-learning #loss-functions #backpropagation #gradient-descent #evaluation-metrics #matrix-algebra #feature-engineering #cross-validation #tacit-knowledge-ml
 
 **Problem statement:** Experienced editors and DPs review hours of raw footage and instantly assess which takes are usable — reading subtle cues like performance energy, eye-line consistency, focus accuracy, audio clarity, and continuity with adjacent shots. This tacit judgment, built over thousands of hours in the edit bay, is the bottleneck in post-production: an editor on a 2-day corporate shoot may have 8-12 hours of raw footage and needs 45-90 minutes of selects. Currently, logging and reviewing consumes 40-60% of total post-production time.
 
@@ -25,7 +25,7 @@
 ---
 
 ## 2. Project Budget & Timeline Prediction
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #bias-variance-tradeoff #probability-distributions #revenue-impact
 
 **Problem statement:** SMB video production companies price projects using intuition and rough comparables, leading to systematic underestimation of post-production costs, revision cycles, and deliverable complexity. A data-driven budget model could predict total project cost and timeline from initial project parameters.
 
@@ -44,7 +44,7 @@
 ---
 
 ## 3. Client Satisfaction Prediction from Revision Patterns
-#random-forest #binary-classification #tabular-ml #revenue-impact
+#random-forests #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #cross-validation #bert #word-embeddings #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Production companies are blindsided by client churn — a project wraps, the producer thinks it went well, and the client never returns. Revision patterns, communication sentiment, and response latency during a project contain strong signals about client satisfaction that go unnoticed in the daily grind.
 
@@ -63,7 +63,7 @@
 ---
 
 ## 4. Crew Availability & Demand Forecasting
-#gradient-boosting #time-series-forecasting #tabular-ml #worker-facing
+#gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #probability-distributions #expectation-variance-covariance #worker-facing
 
 **Problem statement:** Producers book freelance crew reactively, often 3-7 days before a shoot, leading to availability conflicts and suboptimal crew composition. Predicting demand patterns and freelancer availability windows would enable proactive booking and reduce day-of cancellations.
 

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Candidate Reliability and Placement Success Prediction
-#gradient-boosting #binary-classification #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #gradient-descent #bias-variance-tradeoff #tacit-knowledge-ml
 
 **Problem statement:** Experienced staffing recruiters develop an instinct for which candidates will show up, stay, and succeed on an assignment — reading patterns across resume gaps, communication responsiveness, job history stability, and interview demeanor that they cannot articulate as explicit rules but act on constantly. When senior recruiters leave, this institutional pattern recognition walks out the door. A model trained on historical placement outcomes can capture these latent signals and make them available to every recruiter on the team.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Semantic Candidate-to-Requisition Matching
-#transformer #ranking #nlp #revenue-impact #automation
+#transformers #attention-mechanisms #word-embeddings #transfer-learning #norms-and-inner-products #evaluation-metrics #gradient-descent #loss-functions #revenue-impact #automation
 
 **Problem statement:** Staffing recruiters manually search ATS databases using keyword queries that miss 70–80% of qualified candidates because job order language and candidate resume language describe the same skills differently; a learned semantic matching model can bridge this vocabulary gap and surface the best candidates in seconds.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Candidate No-Show and Falloff Prediction
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #gradient-descent #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Between 15–30% of placed temp workers either no-show on their first day or fall off the assignment within the first week, costing staffing agencies $500–$2,000 per occurrence in lost revenue, re-recruitment costs, and damaged client relationships; a classifier that predicts falloff risk at placement time enables proactive mitigation.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Bill Rate Optimization via Realized Margin Regression
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #expectation-variance-covariance #revenue-impact
 
 **Problem statement:** Account managers quote bill rates based on gut instinct and outdated spreadsheets, resulting in margin leakage of 1.5–3 points on 20–30% of job orders because they fail to account for state-specific burden costs, workers' comp class codes, overtime patterns, and client payment behavior; a regression model can predict true realized margin at quote time.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Client Churn Prediction
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #probability-distributions #time-series-forecasting #revenue-impact
 
 **Problem statement:** Staffing agencies lose 15–25% of active clients annually, often without warning because the signals of disengagement — declining order volume, slower req approvals, shorter assignment durations — are spread across multiple systems and no one is watching the aggregate pattern.
 
@@ -76,7 +76,7 @@
 ---
 
 ## 6. Candidate Reactivation Scoring
-#gradient-boosting #binary-classification #tabular-ml #automation
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #probability-distributions #automation
 
 **Problem statement:** Staffing agency databases contain 10–100x more inactive candidates than active ones, but recruiters have no systematic way to identify which dormant candidates are likely to re-engage; a reactivation model can surface the 5–10% of the inactive pool most worth contacting, turning a dead database into a pipeline.
 

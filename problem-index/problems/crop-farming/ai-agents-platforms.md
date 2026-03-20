@@ -5,7 +5,7 @@
 ---
 
 ## 1. Scouting Report Agent
-#ai-agent #automation #revenue-impact
+#ai-agent #cnns #semantic-segmentation #transfer-learning #evaluation-metrics #automation #revenue-impact
 
 **Concept:** An agent that processes drone multispectral imagery or satellite data for a farmer's fields, generates zone-level crop health assessments with stress type classification, and delivers a prioritized scouting report — telling the farmer or agronomist exactly which fields need attention, what the likely issue is, and where in the field to look — replacing the current workflow of flying a drone, manually reviewing images, and writing a scouting report.
 **Inputs:** Multispectral drone imagery or satellite imagery (Planet, Sentinel-2) for enrolled fields; crop type and growth stage per field from planting records; weather data (recent precipitation, temperature, humidity); input application history; historical stress patterns for each field
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Spray Decision Agent
-#ai-agent #compliance #revenue-impact
+#ai-agent #gradient-boosting #decision-trees #feature-engineering #conditional-probability-and-bayes-theorem #compliance #revenue-impact
 
 **Concept:** An agent that integrates crop growth stage, pest/disease pressure models, weather forecast, and product label restrictions to recommend spray timing and product selection — answering the farmer's daily question during the growing season: "Should I spray today, and if so, what, where, and at what rate?"
 **Inputs:** Crop growth stage per field (from planting date and GDD accumulation); disease and pest pressure models (university extension threshold models for specific crop-pest combinations); weather forecast (next 7 days — temperature, precipitation probability, wind speed, inversion risk); product label restrictions (application timing relative to growth stage, re-entry intervals, pre-harvest intervals); scouting observations and imagery-based stress detections; current product inventory and pricing
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Grain Marketing Agent
-#ai-agent #revenue-impact
+#ai-agent #time-series-forecasting #gradient-boosting #feature-engineering #optimization-fundamentals #revenue-impact
 
 **Concept:** An agent that monitors commodity markets, local basis patterns, storage economics, and the farmer's financial position to recommend grain sale timing and forward contracting strategies — replacing the ad-hoc marketing decisions that most farmers make based on gut feeling and the local elevator's spot price.
 **Inputs:** CME futures prices (real-time); local basis quotes from the farmer's delivery points (elevator, ethanol plant, river terminal); on-farm grain inventory (bushels by crop, storage location, moisture content); storage cost parameters (energy cost for aeration, opportunity cost of capital, shrinkage rate); operating loan balance and payment schedule; crop insurance guarantee price; historical basis patterns for each delivery point; farmer's risk tolerance preference
@@ -38,7 +38,7 @@
 ---
 
 ## 4. Equipment Maintenance Scheduling Agent
-#ai-agent #automation
+#ai-agent #time-series-forecasting #gradient-boosting #feature-engineering #automation
 
 **Concept:** An agent that monitors equipment telematics from John Deere Operations Center, CNH Connected, or AGCO Fuse, tracks operating hours and condition indicators, and schedules preventive maintenance to occur during non-critical windows — ensuring that equipment is ready for planting and harvest without requiring the farmer to manually track maintenance intervals across 5-15 machines.
 **Inputs:** Equipment telematics data (operating hours, engine diagnostics, fluid levels, error codes); manufacturer maintenance schedules (service intervals by operating hours for each machine); seasonal calendar (planting window, spray windows, harvest window — when each machine is critical); local dealer service availability and parts inventory; historical repair records

@@ -5,7 +5,7 @@
 ---
 
 ## 1. Location Optimizer Agent
-#ai-agent #gradient-boosting #regression #tabular-ml #tacit-knowledge-ml #revenue-impact
+#ai-agent #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #tacit-knowledge-ml #revenue-impact
 
 **Concept:** An autonomous agent that ingests weather forecasts, event calendars, foot-traffic data, competitor social-media location posts, and the truck's own POS history every evening, then pushes a ranked list of recommended parking locations for the next day by 5 AM. The agent monitors conditions throughout the day and can issue mid-shift alerts ("Rain starting at 2 PM — consider relocating to the covered garage district for the dinner shift"). Over time it learns the operator's preferences (avoids certain neighborhoods, prefers spots near restrooms) and adjusts recommendations accordingly.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Prep Planning Agent
-#ai-agent #gradient-boosting #regression #tabular-ml #automation #quick-win
+#ai-agent #gradient-boosting #linear-regression #decision-trees #feature-engineering #evaluation-metrics #automation #quick-win
 
 **Concept:** An agent that generates a daily prep list — exact quantities of each ingredient to purchase and prepare — based on the next day's confirmed location, weather forecast, historical demand patterns, and current inventory levels. It integrates with the POS to track what sold and what was wasted, continuously improving its estimates. On commissary mornings, the operator opens the app and sees a checklist: "Prep 40 lbs chicken thighs, 15 lbs rice, 8 lbs slaw mix, 3 gallons sauce" with confidence intervals and cost projections.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Social Media & Customer Engagement Agent
-#ai-agent #llm #text-generation #nlp #automation
+#ai-agent #large-language-models #transfer-learning #attention-mechanisms #transformers #automation
 
 **Concept:** An autonomous social media manager that drafts and schedules daily location-announcement posts across Instagram, Twitter/X, and TikTok, responds to customer DMs with menu information and catering quotes, and monitors local food-truck community hashtags for event opportunities or competitor movements. The operator reviews and approves posts with a single tap rather than composing them from scratch at 9 PM after a 14-hour day.
 

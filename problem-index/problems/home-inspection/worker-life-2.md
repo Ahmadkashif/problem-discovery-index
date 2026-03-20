@@ -3,7 +3,7 @@
 **Industry:** [[home-inspection|Home Inspection]]
 **Type:** Worker Life Changing
 **One-liner:** Home inspectors who depend on real estate agent referrals for 70-80% of their bookings but have no systematic way to track which agent relationships are active vs. dormant, or to measure how their report quality compares to what agents say clients expect, get a referral relationship dashboard and report quality feedback loop.
-**Tags:** #tabular-ml #automation #recommendation #worker-facing
+**Tags:** #gradient-boosting #feature-engineering #evaluation-metrics #descriptive-statistics #automation #worker-facing
 
 ## The Problem
 

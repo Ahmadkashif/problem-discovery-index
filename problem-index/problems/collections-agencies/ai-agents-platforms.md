@@ -5,7 +5,7 @@
 ---
 
 ## 1. Smart Dialer Agent
-#ai-agent #gradient-boosting #ranking #tabular-ml #revenue-impact
+#ai-agent #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #revenue-impact
 
 **Concept:** An AI agent that sits between the collection platform and the predictive dialer, dynamically reordering the call queue every 15 minutes based on real-time contact probability, payment propensity, and Reg F attempt budget remaining per account. Unlike static campaign lists, the agent continuously reprioritizes — if a morning call to a debtor went to voicemail, it reschedules that number for an evening attempt and surfaces a different high-probability account. It also selects the optimal channel (call, SMS, email, letter) per account based on historical response patterns and regulatory permissibility.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Compliance Scripting Agent
-#ai-agent #llm #text-generation #nlp #compliance
+#ai-agent #large-language-models #transformers #attention-mechanisms #word-embeddings #evaluation-metrics #compliance
 
 **Concept:** A real-time compliance co-pilot that listens to the active call via speech-to-text, identifies the account's jurisdiction and debt type, and surfaces the exact required disclosures, prohibited phrases, and timing restrictions on the agent's screen as a dynamic script overlay. When the agent deviates from required language — skipping a mini-Miranda, using prohibited "threatening" phrasing, or failing to disclose time-barred debt status — the agent flashes an immediate warning. Post-call, it generates a compliance score and flags calls requiring supervisor review.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Payment Arrangement Agent
-#ai-agent #llm #text-generation #nlp #automation #revenue-impact
+#ai-agent #large-language-models #transformers #attention-mechanisms #word-embeddings #gradient-boosting #evaluation-metrics #automation #revenue-impact
 
 **Concept:** An autonomous digital negotiation agent that handles inbound and outbound debtor communications via SMS, email, and web chat — negotiating payment arrangements without human agent involvement. The agent presents settlement offers calibrated by the propensity model, handles counteroffers within pre-approved parameters, sets up payment plans via ACH/card tokenization, and sends legally compliant confirmation documentation. It escalates to a human agent only when the debtor requests it or when the negotiation falls outside approved parameters.
 

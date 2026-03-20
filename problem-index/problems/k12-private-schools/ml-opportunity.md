@@ -6,7 +6,7 @@
 ---
 
 ## 1. Student Engagement Risk Detection (Tacit Knowledge ML)
-#gradient-boosting #lstm #anomaly-detection #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #lstms-and-grus #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #backpropagation #loss-functions #tacit-knowledge-ml
 
 **Problem statement:** Experienced teachers can "read a room" and identify which students are disengaging — showing up but mentally checked out, socially withdrawing, losing curiosity — weeks or months before grades decline. This perceptual judgment, built over years of observing thousands of students, is the earliest and most actionable signal of academic or emotional trouble. It cannot currently be captured, scaled, or transferred to less experienced teachers.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Enrollment Yield Prediction
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** After admissions decisions are sent, schools cannot accurately predict which accepted families will enroll, leading to over-acceptance (overcrowded classrooms) or under-acceptance (empty seats and revenue shortfalls).
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Family Attrition Prediction
-#gradient-boosting #survival-analysis #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #survival-analysis #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #maximum-likelihood-estimation #revenue-impact
 
 **Problem statement:** Schools discover families are leaving when re-enrollment contracts are not returned in March — too late to intervene or backfill the seat. Predicting attrition 4-6 months in advance enables targeted retention outreach.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Financial Aid Optimization
-#gradient-boosting #regression #tabular-ml #data-integration
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #expectation-variance-covariance #data-integration
 
 **Problem statement:** Schools allocate $2-10M in annual financial aid using committee judgment and static formulas (e.g., "families below $X income get Y% discount"). This approach either over-awards (reducing net tuition revenue) or under-awards (losing price-sensitive families to competitors), but schools have no model to optimize the tradeoff.
 

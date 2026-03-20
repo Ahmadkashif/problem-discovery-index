@@ -3,7 +3,7 @@
 **Industry:** [[general-contractors|General Contractors]]
 **Type:** Worker Life Changing
 **One-liner:** Project managers who currently discover schedule problems only after they've cascaded across multiple dependent trades — when recovery is expensive and the owner is already notified — get an early-warning system that flags delay risks 2-3 weeks before they materialize, while recovery options still exist.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #probability-distributions #worker-facing
 
 ## The Problem
 Construction schedules are dependency networks: drywall can't start until rough-in is complete; flooring can't start until drywall is painted; millwork installation depends on flooring. When a trade falls behind, the delay propagates through all dependent activities in a cascade that the project manager must manually trace and resequence. The problem is timing: project managers typically discover that a trade is running behind when the trade is significantly behind — when the crew is already 5-7 days late and the downstream trades are already being impacted. At that point, recovery options are limited and expensive: overtime, crew acceleration, activity resequencing all cost money. If the delay had been identified when it was 1-2 days behind schedule, recovery would have been straightforward and inexpensive.

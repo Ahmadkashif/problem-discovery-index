@@ -3,7 +3,7 @@
 **Industry:** [[collections-agencies|Collections Agencies]]
 **Type:** Worker Life Changing
 **One-liner:** Collectors gain real-time emotional support and de-escalation guidance during hostile calls, reducing the psychological toll that drives 50-70% annual turnover in the industry.
-**Tags:** #bert #text-classification #nlp #worker-facing
+**Tags:** #bert #transformers #transfer-learning #word-embeddings #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #worker-facing
 
 ## The Problem
 Collection agents endure verbal abuse, threats, and emotional manipulation on a daily basis — industry surveys report that 60%+ of agents experience hostile interactions multiple times per shift. Unlike customer service roles where the caller wants help, debtors often view the collector as an adversary. Agents internalize this hostility, leading to anxiety, depression, and burnout. The industry's annual turnover rate of 50-70% is directly tied to this emotional labor, and agencies spend $5,000-$8,000 per agent on recruiting and training replacements.

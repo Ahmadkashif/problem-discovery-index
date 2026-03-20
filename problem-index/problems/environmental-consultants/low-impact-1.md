@@ -3,7 +3,7 @@
 **Industry:** [[environmental-consultants|Environmental Consultants]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic field data apps exist but none handle environmental-specific chain-of-custody workflows, lab analytical result import with automatic regulatory limit comparison, or exceedance flagging tied to site-specific cleanup standards.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #data-integration #compliance
+**Tags:** #gradient-boosting #feature-engineering #evaluation-metrics #logistic-regression #cross-validation #conditional-probability-and-bayes-theorem #data-integration #compliance
 
 ## The Problem
 Environmental field work generates structured data that must flow seamlessly from sample collection through laboratory analysis to regulatory comparison: GPS coordinates, sample IDs, collection methods, preservation techniques, chain-of-custody transfers, lab analytical results across dozens of analytes, and comparison against screening levels that vary by state, media type (soil vs. groundwater vs. soil gas), land use (residential vs. commercial), and depth interval. Field technicians currently record this on paper forms or generic tablet apps, then a project scientist manually enters lab results from PDF reports into Excel, looks up the correct screening levels from state guidance documents, and flags exceedances. A single groundwater monitoring event across 20 wells with 30 analytes each generates 600 data points that must be individually compared against the correct standard — and the "correct standard" depends on the site's regulatory program, which may have changed since the last event.

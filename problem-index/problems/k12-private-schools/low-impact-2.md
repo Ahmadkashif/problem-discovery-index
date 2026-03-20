@@ -3,7 +3,7 @@
 **Industry:** [[k12-private-schools|K-12 Private Schools]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Parents receive 15+ messages per week from different school sources — email, app push, SMS, printed flyer — with no unified thread, no deduplication, and no way to filter by relevance to their specific child.
-**Tags:** #llm #text-generation #nlp #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #word-embeddings #transfer-learning #evaluation-metrics #automation
 
 ## The Problem
 A parent with two children in different divisions (lower and upper school) receives separate communications from each division head, each homeroom teacher, the athletics department, the arts program, the business office, and the head of school. Messages arrive via email, a school app (Finalsite or ParentSquare), SMS alerts, and occasionally paper in a backpack. There is no single view of "everything relevant to the Smith family this week." Parents disengage from the noise and miss critical information (schedule changes, permission slips, payment deadlines), then blame the school for poor communication.

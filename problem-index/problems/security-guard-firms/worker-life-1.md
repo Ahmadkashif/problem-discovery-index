@@ -3,7 +3,7 @@
 **Industry:** [[security-guard-firms|Security Guard Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Guards on overnight static posts stop fighting boredom-induced alertness decline and start having structured engagement that keeps them sharp and connected.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #worker-facing
 
 ## The Problem
 Security guards on static posts — lobby desks, gate houses, loading docks — spend 8-12 hour shifts in isolation with minimal human interaction, especially on overnight shifts. The monotony creates a dual problem: psychological distress (isolation, boredom, feeling invisible) and security degradation (alertness declines significantly after 2-3 hours of unstimulated monitoring). Guards cope by using phones, sleeping, or mentally disengaging — all of which defeat the purpose of their presence. The industry's response (periodic patrol rounds, checkpoint scans) provides brief physical activity but doesn't address the cognitive monotony.

@@ -3,7 +3,7 @@
 **Industry:** [[hair-salons-independent|Hair Salons (Independent)]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic accounting tools cannot handle the hybrid commission/booth-rental structures that most independent salons use — stylists on different compensation models sitting side by side, with different tax, scheduling, and inventory implications.
-**Tags:** #gradient-boosting #regression #tabular-ml #data-integration
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #evaluation-metrics #descriptive-statistics #expectation-variance-covariance #arithmetic-and-basic-algebra #data-integration
 
 ## The Problem
 

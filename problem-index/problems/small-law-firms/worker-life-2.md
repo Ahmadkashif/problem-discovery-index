@@ -3,7 +3,7 @@
 **Industry:** [[small-law-firms|Small Law Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Solo attorneys and small firm office managers who manually review unbilled time, send invoices, and follow up on overdue accounts — spending 4-8 hours per month on billing administration that generates its own awkwardness in client relationships — get an automated billing cycle that handles invoicing, follow-up, and AR aging without them having to initiate each step.
-**Tags:** #automation #tabular-ml #workflow-orchestration #worker-facing #revenue-impact
+**Tags:** #gradient-boosting #feature-engineering #survival-analysis #automation #workflow-orchestration #worker-facing #revenue-impact
 
 ## The Problem
 Billing is the least favorite task of most attorneys, and in small firms there is no billing manager to delegate it to. The workflow involves: reviewing unbilled time to ensure accuracy, preparing and sending invoices on the billing cycle, tracking which invoices have been paid, following up on overdue accounts at the right time and in the right tone, and writing off balances that are uncollectable. The follow-up step is particularly fraught — an attorney must contact a client about an overdue invoice without damaging the relationship or appearing to prioritize money over the matter. Many attorneys delay follow-up out of discomfort, allowing AR to age further. The resulting cash flow unpredictability is a significant operational stress for firm owners.

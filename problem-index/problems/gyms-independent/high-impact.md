@@ -3,7 +3,7 @@
 **Industry:** [[gyms-independent|Independent Gyms]]
 **Type:** High Impact
 **One-liner:** Every month, gyms lose 3-5% of members silently — a model that identifies at-risk members in their first 30 days would shift retention from reactive to preemptive.
-**Tags:** #gradient-boosting #survival-analysis #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #survival-analysis #decision-trees #feature-engineering #evaluation-metrics #maximum-likelihood-estimation #probability-distributions #expectation-variance-covariance #cross-validation #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Independent gyms lose 30-50% of their membership annually, and the vast majority of cancellations follow a pattern that experienced staff can sense but cannot act on at scale. An owner who has run a gym for a decade will watch a new member do a single session — scanning whether they wander aimlessly between machines, avoid free weights entirely, skip stretching, come at inconsistent times, or never make eye contact with staff — and predict with surprising accuracy whether that person will still be a member in six months. This tacit judgment synthesizes dozens of behavioral micro-signals that no existing gym management platform captures or models.

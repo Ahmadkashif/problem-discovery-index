@@ -3,7 +3,7 @@
 **Industry:** [[accounting-firms-smb|SMB Accounting Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Staff accountants reclaim 15-25 hours per week during tax season by eliminating the document chase and manual data entry that consume the majority of their overtime.
-**Tags:** #llm #ocr #nlp #worker-facing #automation
+**Tags:** #large-language-models #cnns #transformers #transfer-learning #attention-mechanisms #evaluation-metrics #worker-facing #automation
 
 ## The Problem
 Staff accountants at SMB firms work 60-80 hours per week from late January through April 15, with a second surge from August through October 15 for extensions. The majority of incremental hours beyond a normal 40-hour week are not spent on complex tax analysis — they are consumed by chasing clients for missing documents (5-8 follow-up emails per client on average), manually keying W-2 and 1099 data into tax software, reconciling client-provided numbers against bank statements, and assembling workpapers in the firm's required format. A staff accountant preparing 80-120 individual returns during busy season spends roughly 60% of their overtime on these mechanical tasks. The AICPA reports that 75% of accounting professionals cite burnout as a top concern, and the industry loses approximately 30% of staff accountants within their first five years.

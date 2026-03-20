@@ -3,7 +3,7 @@
 **Industry:** [[auto-repair-shops|Auto Repair Shops]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Parts ordering tools can search catalogs, but they can't optimize the daily decision of which supplier to use for each part considering price, availability, quality tier, delivery time, and core return logistics.
-**Tags:** #gradient-boosting #regression #tabular-ml #automation
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #entropy-cross-entropy-kl-divergence #automation
 
 ## The Problem
 A typical shop orders 15-40 parts per day across 3-6 suppliers. Each part has multiple options: OEM, premium aftermarket, economy aftermarket, and remanufactured. The same brake rotor can cost $35 from AutoZone, $52 from NAPA, and $78 from the dealer — but the $35 option might be backordered and the $78 option comes with a 3-year warranty vs. 1-year. Parts specialists spend 1-2 hours daily comparing options, calling suppliers, and managing delivery logistics. The wrong choice costs money (overpaying), time (waiting for backorders), or quality (cheap parts that fail).

@@ -5,7 +5,7 @@
 ---
 
 ## 1. Profitability Dashboard Agent
-#ai-agent #data-integration #revenue-impact
+#ai-agent #gradient-boosting #feature-engineering #evaluation-metrics #data-integration #revenue-impact
 
 **Concept:** An autonomous agent that connects to a seller's Amazon, Shopify, Walmart, and ad platform accounts, continuously ingests transaction data, extracts COGS from forwarded supplier invoices via OCR, and maintains a real-time per-SKU profit-and-loss view across all channels. The agent proactively alerts when a product's margin drops below a configurable threshold, recommends price adjustments or ad spend reallocation, and generates weekly P&L summaries with plain-language explanations of margin changes ("Your margin on SKU X dropped 8% this week because Amazon increased FBA storage fees for oversized items").
 **Inputs:** Marketplace API transaction feeds (orders, fees, refunds, ad spend), supplier invoices (email forwarding or upload), shipping carrier cost data, seller-configured COGS and margin thresholds.
@@ -16,7 +16,7 @@
 ---
 
 ## 2. PPC Optimization Agent
-#ai-agent #automation #revenue-impact
+#ai-agent #gradient-boosting #feature-engineering #optimization-fundamentals #evaluation-metrics #automation #revenue-impact
 
 **Concept:** A fully autonomous Amazon PPC management agent that ingests a seller's entire advertising portfolio, connects to their profitability data, and makes daily bid adjustments, budget reallocations, and keyword harvesting decisions optimized for profit (not ACOS). The agent runs its own A/B tests — splitting traffic between bid strategies on matched keyword sets — and reports results weekly. It handles the full PPC lifecycle: discovers new keyword opportunities from search term reports, launches auto campaigns to mine converting terms, graduates winners to manual campaigns, and pauses underperformers — all without human intervention beyond setting portfolio-level profit targets and budget ceilings.
 **Inputs:** Amazon Advertising API data (campaigns, ad groups, keywords, search terms, performance metrics), per-SKU profitability data, organic ranking data for owned ASINs, seller-defined profit targets and budget constraints, competitive ASIN monitoring feeds.
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Customer Service Agent
-#ai-agent #llm #automation #worker-facing
+#ai-agent #large-language-models #transformers #attention-mechanisms #word-embeddings #transfer-learning #automation #worker-facing
 
 **Concept:** A multi-channel customer service agent that unifies Amazon Buyer-Seller Messaging, Shopify inbox, email, and social media DMs into a single queue, auto-resolves routine inquiries (order tracking, return eligibility, product specifications) using real-time order and catalog data, and drafts responses for complex cases that require seller approval. The agent maintains the seller's brand voice, enforces marketplace-specific response policies (Amazon's prohibited phrases, required response times), and learns from the seller's edits to improve drafts over time. For Amazon specifically, it monitors buyer message sentiment to proactively identify potential negative reviews and escalates them before they're posted.
 **Inputs:** Customer messages across all channels, order management system data (tracking numbers, delivery dates, return windows), product catalog with specifications and FAQs, seller's return/refund policies, marketplace policy guidelines (Amazon's communication rules), historical response patterns and seller edits.

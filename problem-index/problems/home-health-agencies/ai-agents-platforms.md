@@ -6,7 +6,7 @@
 ---
 
 ## 1. Scheduling & Dispatch Agent
-#ai-agent #ml-optimization #revenue-impact
+#optimization-fundamentals #numerical-methods #gradient-boosting #feature-engineering #ai-agent #revenue-impact
 
 **What it does:** An autonomous scheduling agent that builds daily visit schedules overnight, then actively manages the day in real-time. When a patient cancels at 9am, the agent re-routes affected clinicians, offers the open slot to waitlisted patients, and notifies all parties via SMS. When a clinician calls out, it redistributes their visits across remaining staff by acuity priority, flagging any visits that cannot be safely reassigned.
 
@@ -18,7 +18,7 @@
 ---
 
 ## 2. OASIS Co-Pilot Agent
-#ai-agent #worker-facing #ml-nlp
+#large-language-models #bert #transfer-learning #ai-agent #worker-facing
 
 **What it does:** A bedside documentation agent that assists clinicians during OASIS assessments. It pre-populates fields from prior data, guides the clinician through only the questions needing fresh observation, validates internal consistency in real-time ("you marked M1800 as 'independent with ADLs' but M1810 indicates 'requires assistance with bathing' — please reconcile"), and checks scoring against CMS guidelines before submission.
 
@@ -30,7 +30,7 @@
 ---
 
 ## 3. Referral Intake & Onboarding Platform
-#ai-platform #data-integration #workflow-orchestration
+#bert #transfer-learning #ai-platform #data-integration #workflow-orchestration
 
 **What it does:** A platform that receives hospital discharge referrals (via fax, e-fax, HIE, or portal), extracts structured data from the referral documents, auto-generates the plan of care from hospital orders, checks insurance eligibility and home health benefit status, pre-schedules the start-of-care visit, and routes incomplete referrals back to the discharge planner with specific missing-information requests.
 
@@ -42,7 +42,7 @@
 ---
 
 ## 4. Clinical Peer Support & Knowledge Platform
-#ai-platform #worker-facing #quick-win
+#large-language-models #word-embeddings #transfer-learning #ai-platform #worker-facing #quick-win
 
 **What it does:** A mobile-first platform where field clinicians post clinical questions (text, photos of wounds, medication questions), receive AI-assisted initial guidance with citations to clinical guidelines, and get peer responses from colleagues and clinical supervisors. The platform builds a searchable knowledge base of resolved clinical Q&A specific to the agency's patient population.
 
@@ -54,7 +54,7 @@
 ---
 
 ## 5. EVV-Payroll-Clinical Reconciliation Agent
-#ai-agent #automation #compliance
+#logistic-regression #decision-trees #feature-engineering #ai-agent #automation #compliance
 
 **What it does:** An agent that continuously monitors the three records of every visit (EVV check-in/out, clinical note, payroll entry), classifies discrepancies, auto-resolves routine variances, and escalates true exceptions with a pre-written explanation of the discrepancy and recommended resolution. It learns from each reconciliation decision to reduce future exceptions.
 

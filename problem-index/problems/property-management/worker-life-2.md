@@ -3,7 +3,7 @@
 **Industry:** [[property-management|Property Management]]
 **Type:** Worker Life Changing
 **One-liner:** Property managers who conduct move-out inspections, photograph damage, and then spend 45-60 minutes writing the itemized damage report and security deposit accounting letter — the document that must satisfy state security deposit law requirements — get the report generated from their inspection photos and damage notes.
-**Tags:** #llm #multimodal #automation #worker-facing #compliance
+**Tags:** #large-language-models #transformers #cnns #transfer-learning #loss-functions #evaluation-metrics #automation #worker-facing #compliance
 
 ## The Problem
 

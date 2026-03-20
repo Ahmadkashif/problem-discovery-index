@@ -6,7 +6,7 @@
 ---
 
 ## 1. Developmental Milestone Anomaly Detection from Behavioral Observations
-#gradient-boosting #lstm #anomaly-detection #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #lstms-and-grus #decision-trees #feature-engineering #evaluation-metrics #time-series-forecasting #probability-distributions #backpropagation #tacit-knowledge-ml
 
 **Problem statement:** Experienced ECE teachers develop an intuitive sense for when a child's behavior pattern signals a developmental concern rather than a bad day or normal phase — they notice subtle shifts in speech fluency, social withdrawal patterns, changes in motor coordination during play, or emotional regulation regressions that accumulate over weeks. This tacit pattern recognition identifies children who need early intervention referrals months before formal quarterly assessments catch the same signals. The goal is to encode this expert judgment into a model that continuously monitors the stream of daily behavioral observations and flags children whose trajectory diverges from typical developmental patterns.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Staff Callout Prediction
-#gradient-boosting #binary-classification #tabular-ml #quick-win
+#gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #quick-win
 
 **Problem statement:** Staff callouts — particularly same-morning callouts — create ratio compliance emergencies that force directors into reactive scheduling. Predicting which staff members are likely to call out on a given day allows proactive substitute pre-scheduling and float staff positioning.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Enrollment Demand Forecasting
-#linear-regression #gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+#linear-regression #gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance #revenue-impact
 
 **Problem statement:** Childcare centers operate with long enrollment lead times (waitlists of 3-18 months for infant rooms) but volatile actual demand — families move, change jobs, shift to part-time, or withdraw unexpectedly. Accurate demand forecasting by age group and schedule type enables optimal capacity planning, waitlist management, and revenue projection.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Parent Churn Prediction
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Losing an enrolled family costs a center $10,000-$30,000 in annual tuition revenue, and most directors learn about a withdrawal 2 weeks before the last day — too late to fill the slot from the waitlist without a revenue gap. Predicting which families are at risk of withdrawing 60-90 days in advance enables proactive retention interventions (director check-ins, schedule adjustments, tuition flexibility conversations).
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Voice-to-Observation NLP Pipeline
-#transformer #named-entity-recognition #text-classification #nlp #worker-facing
+#transformers #bert #transfer-learning #attention-mechanisms #word-embeddings #loss-functions #evaluation-metrics #entropy-cross-entropy-kl-divergence #worker-facing
 
 **Problem statement:** The worker-life-1 problem (teacher documentation burden) requires an NLP pipeline that converts 10-15 second teacher voice memos into structured developmental observations tagged with the correct milestone domain, assessment framework category, and child identifier — accurately enough that teachers approve >90% of generated observations without editing.
 

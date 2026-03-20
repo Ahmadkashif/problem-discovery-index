@@ -3,7 +3,7 @@
 **Industry:** [[auto-repair-shops|Auto Repair Shops]]
 **Type:** Worker Life Changing
 **One-liner:** Technicians stop being punished for doing thorough diagnostic work — the flat-rate system rewards speed, but accurate diagnosis requires patience.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance #worker-facing
 
 ## The Problem
 Most auto technicians are paid flat-rate: they earn a fixed number of hours per job regardless of actual time spent. A brake job that "books" at 1.5 hours pays 1.5 hours whether it takes 45 minutes or 3 hours. This creates constant pressure to rush, skip steps, and avoid complex diagnostic work that may take 2 hours but only pay 0.5 hours. Technicians report this as the single most stressful aspect of their work — the feeling of working against the clock on every vehicle.

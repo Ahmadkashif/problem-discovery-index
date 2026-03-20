@@ -3,7 +3,7 @@
 **Industry:** [[language-schools|Language Schools]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** SEVIS compliance is already software-managed for universities — but no tool addresses the specific reporting cadence, attendance-threshold rules, and program-extension workflows of intensive English programs and standalone language schools.
-**Tags:** #llm #text-classification #nlp #compliance #data-integration
+**Tags:** #large-language-models #bert #transfer-learning #attention-mechanisms #word-embeddings #evaluation-metrics #compliance #data-integration
 
 ## The Problem
 Schools enrolling international students on F-1 or M-1 visas must report to SEVP (Student and Exchange Visitor Program) through the SEVIS portal: initial I-20 issuance, quarterly enrollment verification, attendance threshold compliance (students must attend at least 80% of scheduled hours), program extension requests, authorized early withdrawal, and status terminations. Designated School Officials (DSOs) manage this manually — cross-referencing attendance spreadsheets against SEVIS deadlines, hand-entering records into the federal portal, and chasing students for supporting documents. A missed or late report can result in a student's SEVIS record being terminated, which triggers loss of legal immigration status — a catastrophic outcome for the student and a reputational and regulatory risk for the school.

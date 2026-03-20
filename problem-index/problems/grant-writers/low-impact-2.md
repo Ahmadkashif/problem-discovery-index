@@ -3,7 +3,7 @@
 **Industry:** [[grant-writers|Grant Writers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic project management tools can't track the cascading compliance deadlines that follow a grant award — interim reports, financial reconciliations, no-cost extension windows, and continuation applications — causing nonprofits to miss deadlines that can trigger fund clawbacks.
-**Tags:** #llm #text-generation #nlp #compliance #workflow-orchestration
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #evaluation-metrics #entropy-cross-entropy-kl-divergence #compliance #workflow-orchestration
 
 ## The Problem
 

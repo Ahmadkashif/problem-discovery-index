@@ -6,7 +6,7 @@
 ---
 
 ## 1. Load Profitability Scoring from Market Signals and Operator Intuition
-#gradient-boosting #ranking #regression #tabular-ml #tacit-knowledge-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #optimization-fundamentals #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Experienced owner-operators evaluate loads using a mental model that integrates posted rate, deadhead distance, fuel costs, tolls, detention risk, backhaul opportunity at the destination market, seasonal patterns, and lane-level supply/demand dynamics — producing a profitability estimate in seconds that outperforms simple rate-per-mile screening by 30-50%. This tacit evaluation must be captured and encoded into a scoring model.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Predictive Maintenance from Truck Telemetry and Audio Signatures
-#cnn #lstm #anomaly-detection #signal-processing #tacit-knowledge-ml
+#cnns #lstms-and-grus #rnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #activation-functions #tacit-knowledge-ml
 
 **Problem statement:** Experienced owner-operators develop an ear for their truck — they detect a bearing whine, injector knock, turbo flutter, or air brake hiss days or weeks before a component failure triggers a warning light or diagnostic trouble code. This auditory and vibrational pattern recognition, built over hundreds of thousands of miles with the same engine, represents tacit mechanical knowledge that could be captured through continuous audio and vibration monitoring.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Fuel Cost Optimization Along Planned Routes
-#gradient-boosting #regression #tabular-ml #time-series-forecasting
+#gradient-boosting #decision-trees #feature-engineering #time-series-forecasting #evaluation-metrics #optimization-fundamentals #cross-validation #gradient-descent
 
 **Problem statement:** Diesel fuel prices vary by $0.50-$1.00/gallon across stops along a typical 500-mile route, and an owner-operator's 150-gallon tank means each fill-up decision has a $75-$150 swing. Operators make fueling decisions based on habit, loyalty programs, and rough mental models of price geography that don't account for real-time price fluctuations, detour costs, or tank range optimization.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Detention Time Prediction by Facility
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #confidence-intervals #descriptive-statistics #bias-variance-tradeoff
 
 **Problem statement:** Detention time at shipper and receiver facilities is the largest unpaid cost in owner-operator trucking, but there is no reliable way to predict how long a driver will wait at a specific facility before accepting a load. Individual operators accumulate facility-level knowledge over years, but this knowledge is siloed and lost when an operator changes lanes or retires.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Lane Rate Forecasting for Strategic Positioning
-#lstm #time-series-forecasting #tabular-ml
+#lstms-and-grus #rnns #time-series-forecasting #backpropagation #gradient-descent #loss-functions #activation-functions #feature-engineering #evaluation-metrics
 
 **Problem statement:** Spot market rates on trucking lanes fluctuate by 30-60% seasonally and can spike 100%+ during disruptions (weather events, produce season, holiday shipping surges). Experienced operators *sense* when a lane is tightening — they notice more loads posting, faster booking, and brokers calling with higher offers — and position themselves in markets before rates spike. This market-timing intuition is a significant driver of top-operator earnings.
 

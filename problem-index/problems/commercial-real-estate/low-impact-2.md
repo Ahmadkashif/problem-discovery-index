@@ -3,7 +3,7 @@
 **Industry:** [[commercial-real-estate|Commercial Real Estate]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic business data platforms can identify companies that may be looking for space, but the CRE-specific signal — which companies are experiencing the employment growth, lease expiration timing, and industry expansion patterns that indicate an active space search — requires a CRE-specific model built on occupier behavior data.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #recommendation #revenue-impact
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 

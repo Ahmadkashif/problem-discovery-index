@@ -3,7 +3,7 @@
 **Industry:** [[rv-dealerships|RV Dealerships]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** CRM tools can send marketing emails, but they can't time winterization/de-winterization campaigns to match each customer's specific usage pattern, geography, and vehicle needs.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml
+**Tags:** #gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #exponential-smoothing
 
 ## The Problem
 RV dealerships face extreme seasonal service demand: spring de-winterization and fall winterization create 4-6 week backlogs that overwhelm service departments. Most dealerships blast generic reminders to their entire customer base, creating a first-come stampede rather than a managed flow. Customers who winterize late risk freeze damage ($2,000-$10,000 in repairs). Dealerships who can't spread the demand lose customers to mobile winterization services.

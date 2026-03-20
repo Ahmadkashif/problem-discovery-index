@@ -3,7 +3,7 @@
 **Industry:** [[news-media-local|Local News Media]]
 **Type:** Worker Life Changing
 **One-liner:** Copy editors stop choosing between accuracy and their own health — automated pre-editing catches the mechanical errors so humans can focus on judgment calls.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing
 
 ## The Problem
 Local newsrooms that once employed 4–6 copy editors now have 1–2, or have eliminated the role entirely and pushed copy editing onto reporters and section editors. The remaining copy editors process 20–40 articles per shift, checking AP style compliance, factual consistency (does the age match the birthday mentioned three paragraphs later?), source attribution accuracy, legal risk language (defamation, privacy), headline-body alignment, and basic grammar. At 15–25 minutes per thorough edit, the math is impossible — a single copy editor cannot properly edit 30 articles in an 8-hour shift. The result is either errors that damage credibility or copy editors working unpaid overtime and burning out within 18 months.

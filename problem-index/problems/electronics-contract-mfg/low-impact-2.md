@@ -3,7 +3,7 @@
 **Industry:** [[electronics-contract-mfg|Electronics Contract Manufacturing]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Test engineering teams develop ICT (In-Circuit Test) and FCT (Functional Test) programs for each new PCBA, but no tool systematically analyzes whether the test program actually covers all critical circuit nodes and failure modes — test coverage gaps are discovered only when field failures occur on nodes that were never tested, generating warranty costs and customer trust damage.
-**Tags:** #bayesian-network #binary-classification #tabular-ml #compliance
+**Tags:** #bayesian-inference #conditional-probability-and-bayes-theorem #gradient-boosting #feature-engineering #evaluation-metrics #probability-distributions #graph-theory #compliance
 
 ## The Problem
 Every PCBA program requires a test strategy: which components and circuit nodes are tested by ICT (probing individual components and connections), which functional behaviors are verified by FCT (powering the board and testing system-level functions), and which areas are covered only by AOI/visual inspection. Developing this test strategy requires a test engineer to analyze the schematic, identify critical nodes, and determine which nodes are accessible to ICT probe points given the board layout. For complex boards (1,000+ components), this analysis takes 2-4 weeks and relies heavily on the test engineer's judgment about which nodes are high-risk. The consequence of gaps: components that pass visual inspection but have electrical defects (wrong value, incorrect orientation, solder joint that looks good but has high resistance) escape to the field.

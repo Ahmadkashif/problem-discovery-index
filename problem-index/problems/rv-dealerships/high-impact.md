@@ -3,7 +3,7 @@
 **Industry:** [[rv-dealerships|RV Dealerships]]
 **Type:** High Impact
 **One-liner:** Dealerships stop losing $3,000-$15,000 per trade-in on hidden damage they could have predicted from the walkaround — because the experienced appraiser's eye now has a model behind it.
-**Tags:** #gradient-boosting #cnn #regression #computer-vision #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #cnns #linear-regression #transfer-learning #feature-engineering #loss-functions #evaluation-metrics #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 An experienced RV appraiser walks through a trade-in and within 30 minutes estimates reconditioning cost within 10-15% accuracy. They read dozens of subtle signals: soft spots in the floor (water damage below), discoloration patterns on ceiling panels (roof leak history), appliance age from serial number formats, delamination bubbles on exterior walls (structural moisture intrusion), tire sidewall cracking (extended storage), and slideout seal condition. A new appraiser misses these signals and either overvalues the trade (costing the dealership $5,000-$15,000 in unexpected reconditioning) or undervalues it (losing the deal to a competitor). The industry's average reconditioning cost overrun on trades is 35-50%.

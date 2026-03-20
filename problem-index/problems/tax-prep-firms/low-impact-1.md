@@ -3,7 +3,7 @@
 **Industry:** [[tax-prep-firms|Tax Prep Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic tax software calculates state taxes but cannot reason about nexus triggers, apportionment rules, or state-specific credit eligibility for remote workers and multi-state businesses.
-**Tags:** #llm #text-classification #nlp #compliance
+**Tags:** #large-language-models #bert #transformers #attention-mechanisms #word-embeddings #evaluation-metrics #compliance
 
 ## The Problem
 Post-2020 remote work has created a nexus explosion: a small business client with employees in three states now potentially has income tax, withholding, and sales tax obligations in all three, each with different thresholds, apportionment formulas, and credit mechanisms. Preparers at small firms spend 45-90 minutes per multi-state return researching whether a state's economic nexus threshold has been met, which income allocation method applies (separate accounting vs. formula apportionment), and whether the resident state grants a credit for taxes paid to the non-resident state. This research is repeated from scratch each season because rules change annually and no tool tracks the state-by-state matrix automatically.

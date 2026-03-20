@@ -3,7 +3,7 @@
 **Industry:** [[funeral-homes|Funeral Homes]]
 **Type:** High Impact
 **One-liner:** Funeral homes stop leaving $2,000-$5,000 per case on the table because directors can match service packages to family needs and budget signals — without the guilt of upselling grieving people or the lost revenue of under-presenting options.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 The arrangement conference is a 60-90 minute meeting where a family selects a casket, vault, service type, visitation format, transportation, flowers, printed materials, and dozens of add-ons — totaling $8,000-$15,000 for a traditional burial or $3,000-$6,000 for cremation with service. The director must read the family's emotional state, financial capacity, cultural expectations, and relationship dynamics in real-time to present appropriate options. Present too aggressively and the family feels exploited during their worst moment; present too passively and they leave without services they would have valued, reducing revenue by $2,000-$5,000 per case.

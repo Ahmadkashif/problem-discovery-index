@@ -5,7 +5,7 @@
 ---
 
 ## 1. Medical Records Intelligence Platform
-#ai-platform #nlp #revenue-impact
+#bert #transfer-learning #evaluation-metrics #ai-platform #revenue-impact
 
 **Concept:** A purpose-built medical record processing platform for PI firms that handles the full records intelligence workflow: OCR ingestion, clinical entity extraction, injury chronology construction, pre-existing condition flagging, treatment gap analysis, and medical specials calculation — integrated with Filevine, SmartAdvocate, and Clio to push structured output directly into the case file.
 **Inputs:** Medical record PDF/image uploads (or direct integration with record retrieval service), case context (injury date, claimed injuries, accident type)
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Case Valuation and Settlement Intelligence Agent
-#ai-agent #tabular-ml #revenue-impact
+#gradient-boosting #feature-engineering #evaluation-metrics #ai-agent #revenue-impact
 
 **Concept:** An AI agent embedded in the case management workflow that provides real-time case valuation at key decision points — initial case acceptance, demand letter preparation, and settlement negotiation stages — by analyzing the specific case characteristics against the firm's historical outcomes and jurisdiction-level benchmark data. Outputs a data-backed valuation range with the key factors driving the estimate.
 **Inputs:** Case data from CMS (injury type, medical specials, liability assessment, jurisdiction, opposing insurer), medical records summary from records intelligence platform, comparable case outcomes from the firm's historical database
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Automated Intake and Case Screening Agent
-#ai-agent #tabular-ml #nlp
+#large-language-models #gradient-boosting #feature-engineering #ai-agent
 
 **Concept:** An autonomous intake agent that handles the initial client consultation data collection — gathering accident details, injury description, insurance information, liability factors, and prior medical history — via a conversational interface (phone call, web form, or SMS), scores the case for acceptance likelihood, and routes high-potential cases to an attorney callback with a pre-populated intake summary and preliminary case value estimate.
 **Inputs:** Client-initiated contact via phone/web/SMS, structured intake questions covering accident facts, injury claims, insurance coverage, liability description, prior medical history
@@ -38,7 +38,7 @@
 ---
 
 ## 4. Litigation Readiness and Discovery Management Agent
-#ai-agent #bert #nlp #workflow-orchestration
+#bert #large-language-models #transfer-learning #ai-agent #workflow-orchestration
 
 **Concept:** An agent that manages the transition from pre-litigation to litigation — tracking discovery deadlines, generating initial discovery requests (interrogatories, requests for production, deposition notices) calibrated to the specific case type, monitoring defense discovery compliance, and flagging discovery disputes for attorney attention. Reduces the administrative overhead of litigation management that keeps associate attorneys in document-management mode rather than strategy mode.
 **Inputs:** Case file data, filed complaint, court scheduling order (deadlines extracted via NLP), existing medical records and evidence inventory, opposing counsel information

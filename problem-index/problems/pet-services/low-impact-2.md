@@ -3,7 +3,7 @@
 **Industry:** [[pet-services|Pet Services]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Grooming businesses price by breed chart, but actual grooming time varies 3x between a well-maintained standard poodle and a matted one — causing groomers to either undercharge by $30-$60 per session or quote prices that scare off clients with easy dogs.
-**Tags:** #gradient-boosting #regression #tabular-ml
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff
 
 ## The Problem
 Grooming pricing is typically set by breed or size category — "small dog bath: $35, large dog full groom: $75." But actual grooming time depends on coat condition (matting level, last grooming date, shedding stage), temperament (cooperative vs. anxious/aggressive), requested style complexity, and the specific dog's physical characteristics (double coat, curly coat, skin conditions). A "large dog full groom" takes 90 minutes for a well-maintained golden retriever but 3+ hours for a severely matted goldendoodle — yet both are quoted the same $75. Groomers absorb the time difference, effectively earning $15/hour on difficult dogs versus $50/hour on easy ones. The alternative — quoting high to cover worst cases — prices out the easy dogs who are the most profitable clients.

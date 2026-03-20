@@ -3,7 +3,7 @@
 **Industry:** [[it-managed-services|IT Managed Services]]
 **Type:** Worker Life Changing
 **One-liner:** NOC technicians drown in hundreds of daily alerts where 80%+ are noise, and the constant triage of false positives erodes their attention, judgment, and job satisfaction.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #gradient-descent #worker-facing
 
 ## The Problem
 A typical MSP managing 1,500-3,000 endpoints generates 300-800 monitoring alerts per day from RMM agents, network monitors, backup systems, and security tools. NOC technicians and L1 staff must visually scan each alert, determine if it's actionable, and either escalate or dismiss it. The vast majority — 80% or more — are non-actionable: a server CPU spike that resolves in 30 seconds, a backup warning that clears on retry, a disk space alert on a temp folder that's already scheduled for cleanup. But buried in that noise are the genuine incidents — a failing RAID controller, a ransomware encryption event, a domain controller replication failure — that require immediate action. Technicians develop "alert blindness" after weeks of sifting through noise, and critical alerts get missed or delayed.

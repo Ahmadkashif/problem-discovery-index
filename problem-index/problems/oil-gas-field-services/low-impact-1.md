@@ -3,7 +3,7 @@
 **Industry:** [[oil-gas-field-services|Oil & Gas Field Services]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Field techs spend 45-90 minutes per day transcribing handwritten notes into service tickets — a solved problem in other industries, but oilfield terminology and multi-party billing make generic dictation tools useless.
-**Tags:** #llm #speech-recognition #text-generation #nlp #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #rnns #automation
 
 ## The Problem
 After every wellsite visit, field technicians must document what they found, what they did, parts consumed, and hours worked. This information flows into billing (operator pays service company), maintenance history, and regulatory records. Most techs scribble notes on paper tickets in the field, then transcribe them into FieldFX or a similar system hours later — often at the end of a 12-hour shift. Details get lost, part numbers are wrong, and billable hours are under-reported because techs cannot remember exact arrival/departure times.

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Listing Conversion Intuition — Predicting Which Listings Will Convert Before Launch
-#gradient-boosting #regression #nlp #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #cnns #bert #feature-engineering #cross-validation #evaluation-metrics #transfer-learning #loss-functions #bias-variance-tradeoff #tacit-knowledge-ml
 
 **Problem statement:** Experienced e-commerce sellers develop an instinct for which product listings will convert well before they ever go live — they read the combination of title keyword density, main image composition, price point relative to competition, review velocity potential, and seasonal timing and know whether a listing will achieve 10% conversion or 2%. Senior sellers can glance at a competitor's listing and immediately identify the exploitable weakness. This intuition, built from launching hundreds of products and watching conversion data obsessively, is what separates 7-figure sellers from those who burn through inventory. The goal is to capture this tacit pattern recognition into a model that scores draft listings pre-launch.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. SKU-Level Profitability Prediction
-#gradient-boosting #regression #tabular-ml #data-integration #revenue-impact
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #data-integration #revenue-impact
 
 **Problem statement:** Given a product's historical sales, fee structures, ad spend allocation, return rates, and COGS, predict the true net profit per unit for each SKU across each sales channel on a rolling 30-day basis — enabling sellers to identify margin-negative products before they reorder inventory.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Demand Forecasting for Inventory Planning
-#gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+#gradient-boosting #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Predict unit sales velocity per SKU per channel over 30/60/90-day horizons, accounting for seasonality, promotional events (Prime Day, Black Friday), ad spend changes, and competitor pricing shifts — so sellers can optimize reorder quantities and avoid both stockouts (which tank Amazon ranking) and overstock (which incurs long-term storage fees).
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. PPC Bid Optimization with Profit-Aware Objective
-#gradient-boosting #regression #tabular-ml #automation
+#gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #gradient-descent #bias-variance-tradeoff #automation
 
 **Problem statement:** For each keyword-ASIN pair in a seller's Amazon PPC portfolio, predict the profit-maximizing bid amount — not the ACOS-minimizing bid — by incorporating per-SKU margin data, conversion rate at different bid levels, organic rank effects of sustained ad spend, and budget constraints across the full campaign portfolio.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Return Rate Prediction per Listing
-#random-forest #binary-classification #tabular-ml #revenue-impact
+#random-forests #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bert #word-embeddings #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Before a seller launches a new product or modifies a listing, predict the expected return rate based on listing content (images, title accuracy, bullet point claims), product category benchmarks, pricing relative to competitors, and review sentiment patterns — flagging listings likely to exceed category-average return rates before they accumulate costly returns.
 
@@ -76,7 +76,7 @@
 ---
 
 ## 6. Listing Conversion Rate Optimization
-#bert #regression #nlp #recommendation
+#bert #transformers #transfer-learning #word-embeddings #loss-functions #evaluation-metrics #gradient-descent #backpropagation
 
 **Problem statement:** Given a product listing's title, bullet points, images, price, and competitive context, predict the expected conversion rate (sessions to purchases) and generate specific, ranked recommendations for content changes most likely to improve conversion — enabling sellers to prioritize listing optimization efforts across a large catalog.
 

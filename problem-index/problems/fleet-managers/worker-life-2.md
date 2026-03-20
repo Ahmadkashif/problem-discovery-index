@@ -3,7 +3,7 @@
 **Industry:** [[fleet-managers|Fleet Managers]]
 **Type:** Worker Life Changing
 **One-liner:** Compliance officers stop living in fear of the next DOT audit and start spending their time on actual safety improvement rather than paperwork.
-**Tags:** #llm #text-generation #nlp #worker-facing #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #worker-facing #compliance
 
 ## The Problem
 Fleet compliance officers manage a staggering documentation burden: Driver Vehicle Inspection Reports (DVIRs) for every vehicle every day, hours-of-service (HOS) records for every driver, CDL verification and medical certificate tracking, drug and alcohol testing programs (random selection, post-accident, reasonable suspicion), vehicle registration and insurance documentation, and DOT number/MC authority maintenance. A 100-vehicle fleet generates 36,500+ DVIRs per year alone. Each regulation has specific record retention requirements (3-6 years), and an audit can request any document with 48 hours notice.

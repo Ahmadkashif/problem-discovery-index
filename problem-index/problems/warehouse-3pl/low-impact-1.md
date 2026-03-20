@@ -3,7 +3,7 @@
 **Industry:** [[warehouse-3pl|Warehouse & 3PL]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic inventory management systems track theoretical inventory levels, but don't identify which specific locations have the highest probability of physical-vs-system discrepancy — enabling targeted cycle counts that concentrate counting effort where errors are most likely.
-**Tags:** #gradient-boosting #binary-classification #anomaly-detection #tabular-ml
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #descriptive-statistics
 
 ## The Problem
 

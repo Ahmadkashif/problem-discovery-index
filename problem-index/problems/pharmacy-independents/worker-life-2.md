@@ -3,7 +3,7 @@
 **Industry:** [[pharmacy-independents|Independent Pharmacies]]
 **Type:** Worker Life Changing
 **One-liner:** Pharmacists who spend 30-60 minutes at shift end manually reconciling controlled substance dispensing records against physical inventory counts — a DEA-required process with zero margin for discrepancy errors — get an automated audit trail that surfaces discrepancies in real time rather than at the end of a 10-hour shift.
-**Tags:** #anomaly-detection #tabular-ml #automation #compliance #worker-facing
+**Tags:** #descriptive-statistics #hypothesis-testing #evaluation-metrics #feature-engineering #automation #compliance #worker-facing
 
 ## The Problem
 DEA regulations require independent pharmacies to maintain perpetual inventory records for Schedule II controlled substances (oxycodone, hydromorphone, fentanyl, Adderall, etc.) and to reconcile dispensing logs against physical counts on a regular basis. Any discrepancy — even a count-off-by-one — requires an investigation, a DEA-reportable event if the discrepancy is unexplained, and potential inspection risk. At shift end, a pharmacist manually cross-references the day's controlled substance dispense log against the running inventory counts in the PMS, identifies any discrepancies, tracks them to dispensing records, and signs off. This is a high-stakes manual reconciliation that takes 30-60 minutes per shift and is usually done when the pharmacist is most tired.

@@ -3,7 +3,7 @@
 **Industry:** [[credit-unions|Credit Unions]]
 **Type:** Worker Life Changing
 **One-liner:** Tellers get their transaction window back — instead of awkwardly pitching products during a 90-second deposit, they receive a single contextually relevant suggestion only when the member's account data indicates genuine fit, transforming cross-sell from a compliance checkbox into a natural conversation.
-**Tags:** #gradient-boosting #recommendation #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #conditional-probability-and-bayes-theorem #worker-facing
 
 ## The Problem
 

@@ -3,7 +3,7 @@
 **Industry:** [[grant-writers|Grant Writers]]
 **Type:** High Impact
 **One-liner:** Grant writers invest 40-80 hours per federal proposal with only 10-25% win rates because they lack a systematic way to assess fit before committing — a model that scores grant-organization alignment and predicts win probability would redirect effort toward winnable opportunities and double effective ROI.
-**Tags:** #bert #gradient-boosting #binary-classification #nlp #tabular-ml #revenue-impact
+**Tags:** #bert #gradient-boosting #transfer-learning #feature-engineering #cross-validation #evaluation-metrics #attention-mechanisms #entropy-cross-entropy-kl-divergence #conditional-probability-and-bayes-theorem #revenue-impact
 
 ## The Problem
 

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Perishable Demand Forecasting with Censored Demand Correction
-#gradient-boosting #lstm #time-series-forecasting #tabular-ml #revenue-impact
+#gradient-boosting #lstms-and-grus #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #gradient-descent #revenue-impact
 
 **Problem statement:** Predict daily demand at the SKU-customer-segment level for 2,000-10,000 perishable products with 3-14 day shelf lives, accounting for weather, events, promotions, and substitution effects — while correcting for censored demand during historical stockout periods.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Product Quality and Remaining Shelf Life Estimation at Receiving
-#cnn #random-forest #multiclass-classification #computer-vision #tabular-ml
+#cnns #random-forests #transfer-learning #feature-engineering #loss-functions #backpropagation #evaluation-metrics #cross-validation #gradient-descent
 
 **Problem statement:** At the receiving dock, estimate the remaining usable shelf life of incoming perishable products using visual inspection (photos) combined with sensor data (temperature logger readings from transit), so buyers can make immediate replenishment and pricing decisions.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Dynamic Pricing for Short-Dated Inventory
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #expectation-variance-covariance #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Set optimal markdown prices for perishable inventory approaching its sell-by date, maximizing recovery revenue while ensuring product moves before it becomes waste — balancing price against demand elasticity, customer willingness to buy short-dated product, and cannibalization of full-price sales.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Customer Churn Prediction from Order Pattern Changes
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #gradient-descent #revenue-impact
 
 **Problem statement:** Detect early signals that a food distribution customer is beginning to shift volume to a competitor, based on changes in order frequency, SKU breadth, order size, and complaint/credit patterns — giving sales reps 4-6 weeks of warning to intervene before the customer fully defects.
 

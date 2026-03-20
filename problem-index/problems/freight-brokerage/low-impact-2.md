@@ -3,7 +3,7 @@
 **Industry:** [[freight-brokerage|Freight Brokerage]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic demand forecasting tools project volume but don't understand freight-specific demand drivers — shipper inventory cycles, seasonal produce patterns, retail inventory push ahead of holiday seasons — that allow a broker to pre-position carrier capacity before a demand spike.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #time-series-forecasting #exponential-smoothing #feature-engineering #cross-validation #evaluation-metrics #autoregressive-models #revenue-impact
 
 ## The Problem
 

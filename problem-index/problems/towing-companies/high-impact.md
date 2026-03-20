@@ -3,7 +3,7 @@
 **Industry:** [[towing-companies|Towing Companies]]
 **Type:** High Impact
 **One-liner:** Every wrong-truck dispatch is a wasted round trip that burns fuel, violates motor club SLAs, and drops the company in rotation ranking — accurate first-dispatch and realistic ETAs keep revenue flowing.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact #tacit-knowledge-ml
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #probability-distributions #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 When a call comes in, the dispatcher has 60–90 seconds to determine which truck type is needed (wheel-lift vs. flatbed vs. medium-duty wrecker), which available driver can reach the scene fastest given current traffic and job queue, and what ETA to quote the motor club or customer. Get the truck type wrong and the driver arrives, cannot perform the service, and a second truck must be dispatched — doubling response time and halving margin. Motor clubs like AAA and Agero enforce strict ETA windows (typically 30–45 minutes); companies that consistently miss ETAs lose their rotation position, which can represent 40–60% of monthly call volume. Experienced dispatchers develop an intuitive read on calls — they parse vague caller descriptions ("my car is stuck in a ditch off Route 9"), cross-reference vehicle type with likely service needs, and factor in terrain, weather, and time-of-day patterns that no current dispatch software captures.

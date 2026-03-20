@@ -5,7 +5,7 @@
 ---
 
 ## 1. Diagnostic Assistant Agent
-#ai-agent #tacit-knowledge-ml #signal-processing #revenue-impact
+#ai-agent #cnns #lstms-and-grus #feature-engineering #transfer-learning #tacit-knowledge-ml #revenue-impact
 
 **Concept:** An AI agent that assists technicians during the diagnostic process by analyzing real-time OBD data streams, audio recordings, and vehicle history to suggest probable root causes ranked by likelihood. The agent acts as a "second opinion" that captures the diagnostic reasoning of master technicians — it explains why it suspects a particular fault (e.g., "misfire on cylinder 3 with elevated fuel trim suggests injector failure, not ignition — consistent with TSB 19-023 for this model year"). It learns from each confirmed diagnosis, building a shop-specific knowledge base.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Parts Sourcing Optimization Agent
-#ai-agent #automation #revenue-impact
+#ai-agent #gradient-boosting #feature-engineering #cross-validation #automation #revenue-impact
 
 **Concept:** An AI agent that automatically finds the optimal parts combination for each repair order by searching across all connected suppliers simultaneously, factoring in price, availability, delivery time, quality tier, warranty terms, and the shop's historical failure rates by brand. The agent learns the shop's quality preferences by repair type — premium brakes for BMW owners, value brakes for the 2005 Corolla getting sold next month — and optimizes daily orders to hit volume discount thresholds.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Customer Communication Autopilot
-#ai-agent #llm #text-generation #worker-facing
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #worker-facing
 
 **Concept:** An AI agent that monitors repair order status and automatically generates customer communications at each stage — vehicle received confirmation, diagnosis summary in plain language, repair authorization request with DVI photos and prioritized recommendations, parts delay notifications, completion and pickup instructions. The agent translates technician notes and DVI findings into trust-building customer language, matching the shop's voice and the customer's communication preferences (text vs. email vs. call preference).
 
@@ -41,7 +41,7 @@
 ---
 
 ## 4. Predictive Maintenance Platform
-#ai-platform #tabular-ml #survival-analysis
+#ai-platform #gradient-boosting #survival-analysis #feature-engineering #maximum-likelihood-estimation #probability-distributions
 
 **Concept:** A platform that aggregates repair data across thousands of shops to build vehicle-specific failure prediction models, then delivers proactive service recommendations to individual shops during each customer visit. When a 2017 Ford F-150 with 85,000 miles comes in for an oil change, the platform alerts the advisor: "87% of this model develop cam phaser issues between 90-110K miles — inspect now." Turns reactive repair into proactive maintenance, increasing average repair order value and customer trust.
 

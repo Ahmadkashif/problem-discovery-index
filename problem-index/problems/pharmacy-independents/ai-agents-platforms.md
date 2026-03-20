@@ -5,7 +5,7 @@
 ---
 
 ## 1. PBM Contract Intelligence and DIR Monitoring Platform
-#ai-platform #tabular-ml #revenue-impact
+#gradient-boosting #feature-engineering #evaluation-metrics #ai-platform #revenue-impact
 
 **Concept:** A financial intelligence platform built specifically for independent pharmacies that translates PBM contracts and DIR reconciliation statements into operational decisions — telling the pharmacist owner which contracts are profitable, which are loss-generating, and what specific changes (adherence improvement targets, formulary optimization, cash-pay substitution opportunities) would move the needle most.
 **Inputs:** PBM remittance files (835 transactions), DIR reconciliation statements (manual upload or API where available), PMS claims data feed, wholesaler acquisition cost data
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Automated Prior Authorization Agent
-#ai-agent #llm #automation #workflow-orchestration
+#large-language-models #transformers #attention-mechanisms #ai-agent #automation #workflow-orchestration
 
 **Concept:** An autonomous agent that manages the prior authorization process end-to-end from the pharmacy side: detects a PA-required rejection, retrieves the payer-specific PA form requirements, pre-populates the form from PMS data, generates a clinical necessity narrative using the drug's approved indications and the patient's diagnosis history, routes the pre-packaged PA request to the prescriber for one-click approval, submits to the payer, and tracks status — escalating to a human pharmacist only when a non-standard decision is required.
 **Inputs:** PA-required rejection event from PMS, patient medication history, prescriber NPI and fax/portal contact, drug indication database, payer PA portal credentials
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Patient Medication Adherence Engagement Platform
-#ai-platform #tabular-ml #automation
+#gradient-boosting #survival-analysis #feature-engineering #ai-platform #automation
 
 **Concept:** A pharmacy-branded patient communication platform that uses adherence risk scoring to trigger personalized, timely outreach — refill reminders via patient-preferred channel (text, app, phone), proactive clinical check-ins for high-risk adherence patients, post-fill counseling messages for new prescriptions, and automated immunization and annual wellness reminders. Distinguishes itself from generic health CRMs by being embedded in the PMS data model and calibrated to DIR fee-affecting adherence metrics.
 **Inputs:** PMS patient medication history, fill records, patient communication preferences, PDC scores per drug class, DIR-affecting drug category flags
@@ -38,7 +38,7 @@
 ---
 
 ## 4. Pharmacy Acquisition and Compliance Due Diligence Agent
-#ai-agent #tabular-ml #compliance
+#gradient-boosting #feature-engineering #evaluation-metrics #ai-agent #compliance
 
 **Concept:** An AI agent used by independent pharmacy buyers, lenders (pharmacy specialty lenders like Lenders.com), and brokers to rapidly analyze the financial and compliance health of a pharmacy acquisition target — processing 3 years of PMS data, PBM contracts, DEA registration records, and state board records into a standardized due diligence report with red flags, normalized revenue metrics, and DIR-adjusted margin analysis.
 **Inputs:** PMS data export (claims, revenue, patient counts), PBM contract documents (PDF), DEA and state board registration documents, prior year DIR reconciliation statements

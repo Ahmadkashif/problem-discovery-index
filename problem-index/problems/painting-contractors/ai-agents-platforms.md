@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Painting Contractors
 
 **Industry:** [[painting-contractors|Painting Contractors]]
-**Tags:** #ai-agent #ai-platform #automation #workflow-orchestration #revenue-impact
+**Tags:** #ai-agent #ai-platform #cnns #large-language-models #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #automation #workflow-orchestration #revenue-impact
 
 ---
 

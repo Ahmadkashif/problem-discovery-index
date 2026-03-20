@@ -6,7 +6,7 @@
 ---
 
 ## 1. DME Fit Prediction from Patient Measurements and Condition
-#cnn #gradient-boosting #multiclass-classification #computer-vision #tabular-ml #tacit-knowledge-ml
+#cnns #gradient-boosting #transfer-learning #feature-engineering #cross-validation #evaluation-metrics #loss-functions #backpropagation #gradient-descent #tacit-knowledge-ml
 
 **Problem statement:** Capture and replicate the tacit expertise of experienced DME fitters who look at a patient — their body habitus, posture, gait pattern, skin condition, and functional movement — and intuitively know which wheelchair seat width, cushion type, back support configuration, or orthotic design will work before taking a single measurement. A veteran fitter with 15 years of experience can watch a patient transfer from bed to chair and immediately narrow the wheelchair selection from 200 options to 3, predict which cushion will prevent pressure injuries for that specific body type, and anticipate fitting adjustments that a new fitter would only discover after the patient returns with complaints. This tacit pattern recognition — built from thousands of fittings — is the single most valuable and most fragile asset in a DME operation.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Prior Authorization Approval Prediction
-#gradient-boosting #bert #binary-classification #nlp #tabular-ml #compliance #revenue-impact
+#gradient-boosting #bert #transformers #feature-engineering #cross-validation #evaluation-metrics #transfer-learning #entropy-cross-entropy-kl-divergence #compliance #revenue-impact
 
 **Problem statement:** Predict whether a DME prior authorization submission will be approved, denied, or pended on first pass, given the patient's clinical documentation, the requested equipment, and the specific payer's coverage criteria — enabling staff to fix documentation gaps before submission rather than after denial.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Reorder Timing Prediction for Recurring DME Supplies
-#gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+#gradient-boosting #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Predict when a patient will need to reorder recurring medical supplies (CPAP masks and filters, wound care dressings, ostomy supplies, diabetic testing supplies) based on their usage pattern, insurance coverage cycle, and clinical condition changes — enabling proactive outreach before the patient runs out and before the insurance-eligible reorder date.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Claim Denial Root Cause Classification
-#bert #multiclass-classification #nlp #compliance #revenue-impact
+#bert #transformers #transfer-learning #word-embeddings #loss-functions #evaluation-metrics #entropy-cross-entropy-kl-divergence #compliance #revenue-impact
 
 **Problem statement:** Automatically classify insurance claim denials into actionable root cause categories — distinguishing between documentation errors (fixable by the supplier), medical necessity disputes (require physician involvement), coverage exclusions (require patient notification), and billing/coding errors (fixable by the billing team) — from the unstructured denial notifications that arrive as EDI 835 remittance advice, payer portal messages, and faxed letters.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Inventory Demand Forecasting by Product Category and Payer Mix
-#gradient-boosting #time-series-forecasting #tabular-ml #data-integration
+#gradient-boosting #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #data-integration
 
 **Problem statement:** Predict weekly demand per product category at an individual DME supplier location, accounting for seasonal patterns (respiratory equipment demand spikes in winter), payer mix shifts (a large local employer switching insurance carriers changes the coverage landscape overnight), and referral source activity (a new orthopedic surgeon opening a practice nearby will increase mobility equipment referrals within 3–6 months).
 

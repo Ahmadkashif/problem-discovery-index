@@ -5,7 +5,7 @@
 ---
 
 ## 1. Job Placement Agent
-#ai-agent #ranking #tabular-ml #automation
+#ai-agent #gradient-boosting #feature-engineering #evaluation-metrics #large-language-models #automation
 
 **Concept:** An autonomous agent that monitors employer hiring signals (job postings, historical hiring seasonality, direct employer portal updates), matches them against graduating student profiles, and executes the outreach workflow — sending personalized introduction emails to employers with student skill summaries, scheduling interviews, and following up on placement verification. The agent replaces the bulk of the career services coordinator's cold-calling workflow, letting them focus on high-touch counseling for students who need interview prep, resume help, or confidence building.
 **Inputs:** Student competency data from SIS, employer contact database, live job posting feeds (Indeed/ZipRecruiter APIs), historical placement records, employer communication preferences, calendar availability for interviews.
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Accreditation Compliance Agent
-#ai-agent #llm #text-generation #nlp #compliance
+#ai-agent #large-language-models #transfer-learning #attention-mechanisms #transformers #compliance
 
 **Concept:** A continuously running agent that monitors the school's compliance posture against its accreditor's standards in real time — pulling enrollment data, calculating placement rates, checking faculty credential currency, and flagging when any metric approaches a threshold. When accreditation self-study is due, the agent drafts the full document: narrative sections contextualized with the school's data, evidence citations linked to source documents, and metric tables formatted to the accreditor's specification. The compliance officer reviews and edits rather than writes from scratch.
 **Inputs:** SIS data feeds (enrollment, grades, completion rates), placement tracking data, faculty HR records (credentials, professional development hours), financial statements, student satisfaction survey results, accreditation standards documents (ACCSC, COE, state boards), previous self-study documents as style/format templates.
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Employer Engagement Agent
-#ai-agent #ai-platform #bert #text-classification #nlp #data-integration
+#ai-agent #ai-platform #bert #transfer-learning #word-embeddings #attention-mechanisms #feature-engineering #data-integration
 
 **Concept:** A platform that replaces the annual advisory board meeting with continuous, structured employer engagement. The agent monitors labor market signals for each trade program's geographic area, surfaces curriculum gaps to program directors with specific recommendations, automates employer survey collection and analysis, and manages advisory board scheduling and follow-up. It converts the advisory board from a compliance checkbox into an active curriculum feedback loop.
 **Inputs:** Live job posting data from aggregator APIs (Lightcast, Indeed), school curriculum documents and competency frameworks, employer survey responses (structured + free text), advisory board meeting transcripts (audio-to-text), BLS and state labor department employment projections, employer CRM contact data and engagement history.

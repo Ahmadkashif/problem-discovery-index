@@ -6,7 +6,7 @@
 ---
 
 ## 1. Demand Sensing & Rate Optimization from Tacit Revenue Intuition
-#gradient-boosting #lstm #time-series-forecasting #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #lstms-and-grus #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #backpropagation #tacit-knowledge-ml
 
 **Problem statement:** Experienced boutique hotel GMs and revenue managers develop an intuitive sense for demand shifts — they notice booking pace accelerating on a Tuesday, recognize that a particular conference always spills demand into their neighborhood, or feel that competitor rates are "too high" relative to actual demand — and adjust rates 3-5 days before the data in any dashboard would confirm the pattern. This tacit demand-sensing ability takes 2-4 years to develop at a specific property and walks out the door with every GM departure.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Guest Satisfaction Risk Prediction
-#gradient-boosting #binary-classification #tabular-ml #nlp
+#gradient-boosting #logistic-regression #decision-trees #bert #feature-engineering #evaluation-metrics #word-embeddings #attention-mechanisms
 
 **Problem statement:** Boutique hotels receive negative reviews that could have been prevented if staff had intervened during the stay — a guest who mentioned a noise issue at check-in but wasn't proactively followed up with, or a long-stay guest whose housekeeping preferences weren't tracked. Predicting which active guests are at risk of dissatisfaction enables real-time service recovery before checkout.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Cancellation Prediction & Overbooking Calibration
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #revenue-impact
 
 **Problem statement:** Boutique hotels lose 8-15% of expected revenue to cancellations and no-shows, but overbooking (the standard chain hotel mitigation) is culturally and operationally unacceptable for a 30-room property where walking a guest to a competitor destroys the brand promise. An accurate cancellation probability per reservation enables selective overbooking that maximizes occupancy without ever walking a guest.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Optimal Room Assignment & Upgrade Decisioning
-#gradient-boosting #regression #tabular-ml #recommendation
+#gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals
 
 **Problem statement:** Front desk agents assign rooms at check-in based on habit and availability, missing opportunities to strategically place guests in rooms that maximize both satisfaction and revenue — a couple celebrating an anniversary should be upgraded to the corner suite that would otherwise sit empty, while a business traveler who books the same room type every visit should get their preferred room without asking.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Dynamic Housekeeping Sequencing
-#gradient-boosting #regression #tabular-ml #worker-facing
+#gradient-boosting #linear-regression #decision-trees #feature-engineering #evaluation-metrics #optimization-fundamentals #worker-facing
 
 **Problem statement:** Housekeeping room assignments are created statically each morning and immediately become stale as actual checkout times diverge from scheduled departure times. A model that predicts actual room-ready times and continuously re-optimizes cleaning sequences would eliminate the dead time and end-of-day rush that define the housekeeping experience.
 

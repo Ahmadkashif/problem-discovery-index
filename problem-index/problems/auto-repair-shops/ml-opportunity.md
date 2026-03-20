@@ -6,7 +6,7 @@
 ---
 
 ## 1. Fault Diagnosis from Audio, Vibration, and OBD Signals
-#cnn #lstm #multiclass-classification #speech-processing #signal-processing #tacit-knowledge-ml
+#cnns #lstms-and-grus #feature-engineering #loss-functions #evaluation-metrics #gradient-descent #backpropagation #probability-distributions #tacit-knowledge-ml
 
 **Problem statement:** Master technicians diagnose engine, transmission, and drivetrain faults from sound and vibration patterns that they cannot articulate as explicit rules — a timing chain rattle sounds different from a valve tick, and a wheel bearing hum differs from a tire noise, but the distinctions are learned through thousands of hours of exposure. This tacit auditory and tactile knowledge is the most valuable and least transferable skill in the trade.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Repair Time Estimation by Vehicle and Condition
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance
 
 **Problem statement:** Book time (Mitchell/AllData labor guides) estimates repair duration for an average vehicle, but actual time varies 50-200% based on rust, mileage, prior repairs, and regional conditions. This variance drives flat-rate pay inequity.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Predictive Parts Failure from Vehicle Profiles
-#gradient-boosting #survival-analysis #tabular-ml
+#gradient-boosting #survival-analysis #feature-engineering #evaluation-metrics #probability-distributions #maximum-likelihood-estimation #conditional-probability-and-bayes-theorem
 
 **Problem statement:** Certain vehicles develop predictable failure patterns (e.g., 2012-2015 Honda Civics with timing chain stretch at 80-100K miles), but this knowledge is scattered across TSBs, forums, and individual technician experience.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Customer Retention and Defection Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #conditional-probability-and-bayes-theorem
 
 **Problem statement:** Shops lose 20-30% of customers annually but don't know which ones are at risk. A customer who skips a recommended service is 3x more likely to not return, but this signal is buried in repair order history.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. DVI Photo Analysis for Condition Assessment
-#cnn #multiclass-classification #computer-vision
+#cnns #transfer-learning #loss-functions #evaluation-metrics #backpropagation #gradient-descent #matrix-algebra #optimization-fundamentals
 
 **Problem statement:** Technicians take 20-40 photos during vehicle inspections, but service advisors lack the technical knowledge to interpret them. An automated system that grades component condition from photos would bridge this gap.
 

@@ -3,7 +3,7 @@
 **Industry:** [[crop-farming|Crop Farming]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Commodity trading platforms and market analysis tools exist for professional grain traders, but they don't account for the farm-specific variables that determine a farmer's optimal sale strategy — local basis patterns, on-farm storage costs and capacity, crop quality differentials, cash flow requirements from operating loans, and crop insurance interactions — leaving most farmers to make six-figure marketing decisions based on gut feeling and the co-op's spot price.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #expectation-variance-covariance #revenue-impact
 
 ## The Problem
 A 3,000-acre corn farmer produces $1.5-$2.5 million of grain annually. The marketing decision — when to sell, how much to forward-contract before harvest, whether to store and sell later, which delivery point offers the best net price after basis and freight — is a financial decision comparable in magnitude to any corporate treasury function, but it's made by a farmer working alone with a commodity ticker and advice from the local elevator manager. Most farmers sell reactively: they deliver grain at harvest when cash flow demands payment on operating loans, accepting whatever the spot price is. The farmers who market proactively — forward-contracting 30-50% of expected production before harvest, storing grain and selling into seasonal basis improvements — capture $0.10-$0.30/bushel more than reactive sellers, worth $30,000-$90,000 annually on a 3,000-acre corn operation.

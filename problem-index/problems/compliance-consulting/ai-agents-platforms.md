@@ -5,7 +5,7 @@
 ---
 
 ## 1. Compliance Intelligence Platform for Consulting Firms
-#ai-platform #bert #nlp #revenue-impact
+#ai-platform #bert #transformers #transfer-learning #large-language-models #attention-mechanisms #revenue-impact
 
 **Concept:** A purpose-built AI platform for compliance consulting firms that automates the three most time-consuming activities: regulatory change monitoring and client impact mapping, gap analysis report generation, and evidence collection coordination — integrated with the consultant's client portfolio and active engagement data.
 **Inputs:** Regulatory framework configuration per consultant, active client engagement registry, evidence submission portal for client artifact collection, prior engagement reports for firm's language and standards
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Regulatory Change Monitoring and Impact Agent
-#ai-agent #bert #nlp #compliance
+#ai-agent #bert #transformers #transfer-learning #evaluation-metrics #feature-engineering #compliance
 
 **Concept:** An autonomous monitoring agent that watches all configured regulatory feeds, classifies each new publication's scope and significance, maps it to the firm's active client portfolio, and delivers a targeted briefing to each consultant with specific client action recommendations — all within 24 hours of the regulatory change publication.
 **Inputs:** Regulatory publication feeds (FDA, OCR, CMS, OSHA, FINRA, state agencies — configurable by practice area), active client engagement database with regulatory framework and industry tags
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Automated Audit Readiness Preparation Agent
-#ai-agent #automation #workflow-orchestration #compliance
+#ai-agent #large-language-models #transformers #automation #workflow-orchestration #compliance
 
 **Concept:** An autonomous agent that manages the evidence collection and audit preparation process from the consultant's side: generating the evidence request list based on the audit scope, sending structured evidence requests to the right client contacts, tracking submission status, checking submitted evidence for adequacy, and organizing validated evidence in the auditor-ready file structure — escalating to the consultant only when evidence is inadequate or a client contact is unresponsive.
 **Inputs:** Audit scope (regulatory framework, audit period, auditor identity), client contact directory by role (IT, HR, Operations, Legal, Quality), evidence requirements database per regulatory framework
@@ -38,7 +38,7 @@
 ---
 
 ## 4. Client Compliance Posture Monitoring Platform
-#ai-platform #tabular-ml #compliance
+#ai-platform #gradient-boosting #feature-engineering #time-series-forecasting #evaluation-metrics #compliance
 
 **Concept:** A continuous client compliance monitoring platform that tracks client control effectiveness between formal audit cycles — monitoring configured control indicators (access review completion rates, training completion status, incident response testing dates, policy review dates) and alerting the consultant when a client's compliance posture is drifting — enabling proactive consulting value rather than reactive audit preparation.
 **Inputs:** Client-configured control monitoring data (via lightweight client portal or API integration with client IT systems for automated checks where available), client's compliance obligation profile, remediation tracking data from prior assessments

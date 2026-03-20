@@ -3,7 +3,7 @@
 **Industry:** [[chiropractic-practices|Chiropractic Practices]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic outcome tracking tools can administer patient surveys, but they don't know that a chiropractic treatment plan for lumbar radiculopathy should show measurable Oswestry Disability Index improvement by visit 6 — and that if it doesn't, the treatment approach needs to change, not just continue for another 12 visits.
-**Tags:** #gradient-boosting #regression #tabular-ml
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #linear-regression #descriptive-statistics #expectation-variance-covariance #bias-variance-tradeoff
 
 ## The Problem
 Chiropractic treatment plans are typically set at the initial exam (e.g., "3x/week for 4 weeks, then 2x/week for 4 weeks, then 1x/week for 4 weeks") and followed without systematic outcome monitoring. The DC asks "how are you feeling?" at each visit, but subjective patient responses don't provide the objective data needed to determine whether the treatment approach is working, needs modification, or should be discontinued. Validated outcome measures (Oswestry Disability Index for low back, Neck Disability Index for cervical, PROMIS-29 for general function) exist but are rarely administered systematically. Without outcome data, treatment plans either continue too long (patient plateaus but keeps coming because they feel incrementally better) or end too early (patient is discharged at the end of the predetermined plan without verifying goal achievement).

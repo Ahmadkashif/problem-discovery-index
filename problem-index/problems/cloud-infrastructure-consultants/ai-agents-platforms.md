@@ -5,7 +5,7 @@
 ---
 
 ## 1. Cost Optimization Agent
-#ai-agent #gradient-boosting #anomaly-detection #tabular-ml #revenue-impact
+#ai-agent #gradient-boosting #decision-trees #feature-engineering #change-point-detection #evaluation-metrics #gradient-descent #revenue-impact
 
 **Concept:** An autonomous agent that continuously monitors cloud billing and utilization across all client environments, identifies cost optimization opportunities (right-sizing, Reserved Instance purchases, architecture changes to reduce data transfer costs), generates client-ready recommendations with projected savings and implementation steps, and optionally executes low-risk optimizations (deleting unattached volumes, scheduling dev/staging shutdowns) with one-click approval. Unlike static reporting tools, the agent learns from each client's acceptance patterns — if a client always rejects RDS downsizing recommendations because they prioritize headroom for quarterly spikes, the agent adjusts its threshold for that client.
 **Inputs:** AWS Cost and Usage Reports / Azure Cost Management / GCP billing exports (daily), CloudWatch/Monitor utilization metrics (hourly), resource metadata and tags, historical recommendation acceptance/rejection data, client-specific policies (e.g., "never downsize production databases without a maintenance window").
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Infrastructure Audit Agent
-#ai-agent #llm #binary-classification #tabular-ml #compliance #automation
+#ai-agent #large-language-models #attention-mechanisms #transformers #logistic-regression #feature-engineering #compliance #automation
 
 **Concept:** An agent that performs comprehensive infrastructure audits — security posture, compliance status, architecture best practices, cost efficiency, operational readiness — on demand or on a recurring schedule. It ingests the full state of a client environment (Terraform state, cloud provider APIs, CSPM findings, monitoring configuration), compares it against the firm's internal standards and the client's compliance requirements, and produces a structured audit report with findings, risk ratings, and remediation runbooks. The agent replaces the 40-60 hour manual audit process that senior architects currently perform for new client onboarding and quarterly reviews.
 **Inputs:** Terraform state files and IaC repositories, cloud provider API outputs (describe-instances, list-buckets, get-policy, etc.), CSPM scan results, monitoring and alerting configurations, client compliance requirements (SOC 2, HIPAA, PCI DSS, CIS benchmarks), the firm's internal best-practices knowledge base.
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Incident Triage Agent
-#ai-agent #gradient-boosting #binary-classification #tabular-ml #worker-facing
+#ai-agent #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #time-series-forecasting #worker-facing
 
 **Concept:** An agent that sits between monitoring tools (Datadog, CloudWatch, PagerDuty) and on-call engineers, performing real-time triage of every alert across all client environments. For each incoming alert, the agent classifies it as actionable or noise based on historical resolution patterns, correlates it with concurrent alerts to identify root causes, enriches it with relevant context (recent deployments, similar past incidents, applicable runbook), and routes it to the appropriate engineer with a pre-brief. Non-actionable alerts are suppressed with a daily digest. The agent effectively replaces the first 15-30 minutes of incident investigation that every on-call engineer currently performs manually.
 **Inputs:** Real-time alert streams from PagerDuty/Datadog/CloudWatch (alert type, severity, resource, timestamp), historical alert resolution data (time-to-resolve, resolution action taken, was it a true incident or noise), deployment logs from CI/CD pipelines (what changed recently in this environment), client environment documentation (architecture topology, service dependencies), on-call rotation schedules.

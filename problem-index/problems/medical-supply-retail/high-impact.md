@@ -3,7 +3,7 @@
 **Industry:** [[medical-supply-retail|Medical Supply Retail]]
 **Type:** High Impact
 **One-liner:** The day after this is solved, a DME supplier submits a wheelchair order and gets a prior authorization decision in minutes instead of days, eliminating the 45–90 minute manual phone-fax-portal cycle that currently consumes 40% of revenue cycle staff time and delays patient equipment delivery by weeks.
-**Tags:** #llm #bert #text-classification #nlp #compliance #revenue-impact
+**Tags:** #large-language-models #bert #transformers #attention-mechanisms #word-embeddings #transfer-learning #evaluation-metrics #entropy-cross-entropy-kl-divergence #compliance #revenue-impact
 
 ## The Problem
 Every DME order above a cost threshold — wheelchairs, hospital beds, CPAP machines, wound VAC systems — requires prior authorization from the patient's insurance payer before the supplier can deliver and bill. This process involves verifying the patient's eligibility and benefits, collecting clinical documentation from the referring physician (Certificate of Medical Necessity, detailed written orders, progress notes), assembling the submission package with correct HCPCS codes and modifiers, submitting via payer-specific channels (fax, web portal, phone), and then following up through multiple rounds of "additional information requested" cycles. A single prior auth can take 45–90 minutes of active staff time spread across 3–15 business days of calendar time. First-pass denial rates run 20–35% — often for documentation technicalities like a missing physician signature date, an incomplete CMN field, or a diagnosis code that doesn't match the payer's LCD (Local Coverage Determination) criteria. Each denial triggers a resubmission cycle that doubles the labor cost.

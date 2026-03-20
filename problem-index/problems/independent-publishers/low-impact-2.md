@@ -3,7 +3,7 @@
 **Industry:** [[independent-publishers|Independent Publishers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Royalty accounting software exists for large publishers, but independent presses need a system that handles the chaotic reality of 15+ royalty structures per title across print, ebook, audiobook, foreign, and subsidiary rights without requiring a dedicated finance team.
-**Tags:** #gradient-boosting #regression #tabular-ml #compliance #data-integration
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #arithmetic-and-basic-algebra #compliance #data-integration
 
 ## The Problem
 A single title at an independent publisher may have separate royalty terms for hardcover, paperback, ebook, audiobook, book club, foreign translation (by territory), serial rights, film/TV option, and merchandise licensing. Each format reports sales on different schedules, in different currencies, through different distributors. Rights managers track grant dates, reversion clauses, option windows, and territory restrictions in spreadsheets that become unmaintainable past 50 titles. Quarterly royalty statements take weeks to produce and frequently contain errors that damage author relationships.

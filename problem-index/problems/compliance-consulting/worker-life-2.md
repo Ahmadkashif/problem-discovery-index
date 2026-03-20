@@ -3,7 +3,7 @@
 **Industry:** [[compliance-consulting|Compliance Consulting Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Compliance consultants who spend 20-40 hours writing gap analysis reports, remediation roadmaps, and audit-ready documentation — rewriting structurally identical content across engagements with client-specific substitutions — get AI-generated first drafts they can review in 4 hours rather than write from scratch.
-**Tags:** #llm #text-generation #nlp #automation #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #automation #worker-facing
 
 ## The Problem
 Compliance report writing is the final, most time-consuming phase of every engagement — and it is structurally redundant across engagements. A HIPAA Security Rule gap analysis for a medical practice looks structurally identical to one for a different medical practice: the same regulatory sections, the same control categories, the same finding formats, the same remediation guidance for common gaps. What changes is the client name, specific evidence reviewed, specific system names, and the degree of each gap. Despite this structural similarity, each report is written largely from scratch because there is no template system sophisticated enough to handle the contextual variation, and consultants don't want to risk a report that looks like a form letter.

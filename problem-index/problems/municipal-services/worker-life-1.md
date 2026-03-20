@@ -3,7 +3,7 @@
 **Industry:** [[municipal-services|Municipal Services]]
 **Type:** Worker Life Changing
 **One-liner:** Crew leaders get back 60-90 minutes per day currently lost to backtracking, idle drive time, and dispatches that ignore geographic clustering — time that translates directly to fewer unpaid overtime hours and less physical exhaustion.
-**Tags:** #reinforcement-learning #regression #tabular-ml #worker-facing
+**Tags:** #markov-decision-processes #dynamic-programming #policy-gradient-methods #gradient-boosting #linear-regression #feature-engineering #evaluation-metrics #optimization-fundamentals #worker-facing
 
 ## The Problem
 Public works crews — street repair, water/sewer maintenance, sign installation, mowing, snow plowing — start each day with a work order list that was sequenced by priority or entry date, not geography. A three-person street patch crew might drive from the north end of town to the south, back north for a priority fill, then west for another — covering 80 miles in a day when a geographically optimized route would cover 35. Crew leaders manually resequence on the fly, but they lack real-time visibility into which jobs were added mid-shift, which were closed by another crew, or which require equipment they do not currently have on the truck. The result is 2-3 hours of windshield time per 8-hour shift, meaning the crew that is supposed to fill 15 potholes fills 9.

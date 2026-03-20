@@ -3,7 +3,7 @@
 **Industry:** [[staffing-agencies|Staffing Agencies]]
 **Type:** Worker Life Changing
 **One-liner:** Onboarding coordinators spend their entire week chasing I-9 documents, W-4 forms, background check authorizations, drug test appointments, and client-specific paperwork across 30–80 new starts — texting, calling, and emailing the same people repeatedly while the recruiter and client both pressure them to get workers on-site faster.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #entropy-cross-entropy-kl-divergence #evaluation-metrics #worker-facing #automation
 
 ## The Problem
 When a staffing agency places a candidate, the onboarding coordinator must collect and verify a stack of documents before the worker can start: I-9 with acceptable identification documents, W-4 or state equivalent, direct deposit authorization, background check consent and completion, drug screen scheduling and results, client-specific safety acknowledgments, non-compete or non-solicitation agreements, and sometimes certifications (forklift, OSHA-10, food handler). For a branch placing 40–80 new starts per week, this means the coordinator is simultaneously managing document collection for dozens of people, most of whom are hourly workers without easy access to scanners, printers, or even reliable email.

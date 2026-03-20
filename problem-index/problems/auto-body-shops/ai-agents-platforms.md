@@ -5,7 +5,7 @@
 ---
 
 ## 1. Collision Damage Assessment Agent
-#ai-agent #computer-vision #tacit-knowledge-ml #revenue-impact
+#ai-agent #cnns #transfer-learning #object-detection #evaluation-metrics #tacit-knowledge-ml #revenue-impact
 
 **Concept:** An AI agent that analyzes collision damage photos to generate comprehensive initial estimates that account for predicted hidden damage. The agent identifies impact geometry, maps force propagation paths through the specific vehicle's crush structure, and predicts damage to non-visible components with probability scores. Output is a "pre-supplemented" estimate that reduces the supplement cycle from 2-3 rounds to 0-1, cutting days from cycle time and reducing adversarial insurer interactions.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Insurance Supplement Negotiation Agent
-#ai-agent #llm #text-generation #compliance
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #compliance
 
 **Concept:** An AI agent that handles the supplement request and negotiation process with insurance companies. It generates insurer-compliant documentation from teardown photos and estimator annotations, submits supplements through the appropriate channels (CCC, Mitchell portals), monitors status, responds to adjuster challenges with pre-built justification language, and escalates to the estimator only when human judgment is required. The agent knows each insurer's documentation preferences, common challenge points, and approval patterns.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Production Scheduling and Workflow Agent
-#ai-agent #workflow-orchestration #automation
+#ai-agent #gradient-boosting #feature-engineering #optimization-fundamentals #workflow-orchestration #automation
 
 **Concept:** An AI agent that manages the collision repair production floor — scheduling vehicles through body work, frame repair, paint, and reassembly stages based on real-time technician availability, paint booth capacity, parts arrival status, and cycle time targets. The agent re-optimizes the schedule continuously as parts delays, supplement approvals, and new vehicle intake change the plan. It predicts delivery dates customers can rely on and alerts management when DRP cycle time targets are at risk.
 

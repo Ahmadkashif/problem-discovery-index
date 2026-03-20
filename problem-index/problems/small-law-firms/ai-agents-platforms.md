@@ -5,7 +5,7 @@
 ---
 
 ## 1. AI-Powered Practice Management Platform with Embedded Intelligence
-#ai-platform #nlp #revenue-impact
+#transformers #large-language-models #feature-engineering #evaluation-metrics #ai-platform #revenue-impact
 
 **Concept:** A next-generation practice management platform for small firms that embeds AI intelligence directly into the core billing, research, and client communication workflows — automatic time capture from activity streams, AI-assisted conflict checking, matter profitability prediction, and legal research synthesis — rather than offering AI as an add-on to a legacy system. The key differentiator from Clio is that AI isn't a feature; it's the operational foundation.
 **Inputs:** Attorney activity streams (email, calendar, document editing, phone), matter data, billing history, legal research queries, client communication drafts
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Automatic Time Capture and Billing Intelligence Agent
-#ai-agent #transformer #nlp #revenue-impact
+#transformers #attention-mechanisms #loss-functions #feature-engineering #ai-agent #revenue-impact
 
 **Concept:** A background agent integrated with Microsoft 365/Google Workspace that monitors all attorney activity, classifies billable work to the correct client/matter using the attorney's personal billing patterns, generates billing narratives in the attorney's voice, and presents a daily review inbox of suggested time entries. Learns continuously from attorney approvals and edits to improve matter classification and narrative quality.
 **Inputs:** Email (sender, recipient, subject, duration of composition/reading), calendar (meetings, participants, duration), document editing (file name, duration, edit volume), phone calls (duration, contact), case management system activity
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Legal Research and Brief Analysis Agent
-#ai-agent #llm #nlp
+#large-language-models #transformers #attention-mechanisms #transfer-learning #ai-agent
 
 **Concept:** A legal research agent that accepts natural-language research questions, retrieves and synthesizes relevant case law and statutes from integrated legal databases (Westlaw, Fastcase, Casetext), identifies research gaps in draft briefs, and produces citation-ready research memos — all within a practice management workflow where the research output is attached directly to the matter file.
 **Inputs:** Research question in natural language, jurisdiction and practice area context, draft brief or memo for gap analysis, legal database credentials (Westlaw, Fastcase, or Casetext API)
@@ -38,7 +38,7 @@
 ---
 
 ## 4. Client Intake and Conflict Screening Agent
-#ai-agent #bert #nlp #compliance
+#bert #transfer-learning #evaluation-metrics #feature-engineering #ai-agent #compliance
 
 **Concept:** An automated client intake and conflict screening agent that collects new matter information via a structured intake questionnaire (web form, SMS, or phone call), runs a comprehensive conflict check against the firm's matter history and a corporate affiliate database, and routes qualified intake opportunities to the attorney with a structured intake brief and conflict clearance report — before the attorney spends a minute on the matter.
 **Inputs:** New client contact via firm website or phone, structured intake questionnaire (client name, matter type, adverse parties, key facts), firm's matter database, corporate affiliate lookup API

@@ -3,7 +3,7 @@
 **Industry:** [[personal-trainers|Personal Trainers]]
 **Type:** Worker Life Changing
 **One-liner:** Trainers get back financial stability — knowing next month's income before it arrives instead of watching it evaporate session by session.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #probability-distributions #expectation-variance-covariance #worker-facing
 
 ## The Problem
 A trainer billing $80/session with 25 weekly sessions expects $8,000/month gross. In practice, cancellations, no-shows, seasonal dips (summer vacations, holiday weeks, New Year's resolution dropoff by February), and client turnover create swings of 20-40% month-over-month. Most trainers are 1099 contractors with no base salary, no PTO, no sick days — every cancelled session is direct lost income. They cannot plan major expenses, qualify for mortgages predictably, or build emergency funds because they genuinely do not know what next month's income will be until it happens.

@@ -3,7 +3,7 @@
 **Industry:** [[nonprofits-social-services|Social Services Nonprofits]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Volunteer coordinators stop manually juggling availability spreadsheets and start placing the right volunteer in the right role based on skills, reliability history, and program needs.
-**Tags:** #gradient-boosting #recommendation #tabular-ml #workflow-orchestration
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #logistic-regression #probability-distributions #bias-variance-tradeoff #workflow-orchestration
 
 ## The Problem
 Social services nonprofits rely on volunteers for 30-50% of service delivery hours — food pantry shifts, mentoring sessions, transportation for elderly clients, after-school tutoring, shelter overnight coverage. Volunteer coordinators maintain spreadsheets or basic sign-up tools (SignUpGenius, Google Forms) and manually match volunteers to shifts based on availability. They have no systematic way to account for volunteer skills (bilingual, CPR-certified, background-checked for child programs), reliability history (this volunteer has cancelled 4 of their last 6 shifts), or program-specific requirements (this shelter shift needs at least one male and one female volunteer per policy). No-show rates run 20-35%, and coordinators spend hours every week making phone calls to fill gaps.

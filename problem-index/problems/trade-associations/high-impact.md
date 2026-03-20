@@ -3,7 +3,7 @@
 **Industry:** [[trade-associations|Trade Associations]]
 **Type:** High Impact
 **One-liner:** Associations stop losing 15-25% of members annually by identifying at-risk members months before lapse and proving concrete dues ROI to each segment.
-**Tags:** #gradient-boosting #survival-analysis #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #survival-analysis #decision-trees #feature-engineering #evaluation-metrics #maximum-likelihood-estimation #probability-distributions #expectation-variance-covariance #cross-validation #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Trade associations lose 15-25% of their membership base every year, and most don't know a member is leaving until the renewal invoice goes unpaid. Executive directors have long relied on tacit signals — who stopped attending chapter meetings, who disengaged from committee work, whose email opens dropped off, who seemed distant at the annual conference — to sense which members were drifting. But this intuition lives in one person's head, doesn't scale across thousands of members, and can't be systematically acted on by the membership team. Meanwhile, members themselves struggle to quantify what their dues actually bought them, making the renewal decision feel discretionary rather than essential.

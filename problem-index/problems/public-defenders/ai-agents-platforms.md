@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Public Defenders
 
 **Industry:** [[public-defenders|Public Defenders]]
-**Tags:** #ai-agent #ai-platform #llm #bert #gradient-boosting #text-generation #text-classification #multiclass-classification #nlp #tabular-ml #compliance #worker-facing
+**Tags:** #ai-agent #ai-platform #large-language-models #bert #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #attention-mechanisms #entropy-cross-entropy-kl-divergence #compliance #worker-facing
 
 ---
 

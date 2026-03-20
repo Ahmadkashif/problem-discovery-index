@@ -3,7 +3,7 @@
 **Industry:** [[estate-planning|Estate Planning Law Firms]]
 **Type:** High Impact
 **One-liner:** An estate planning firm that systematically monitors its entire client base for life events that trigger plan updates — and reaches out proactively with specific, relevant recommendations — converts a dormant client file into a sustainable revenue stream while genuinely protecting clients whose plans have drifted out of alignment.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #revenue-impact
 
 ## The Problem
 Estate plans become legally valid but practically wrong over time. A will written in 2015 may name a beneficiary who has since died, rely on a power of attorney who has since become incapacitated, not account for a business interest acquired in 2018, or use tax exemptions that have changed twice since. The attorney who drafted the plan has no mechanism to know any of this — clients don't call to report life changes, and the attorney doesn't have a systematic process to monitor them. The result: a client file goes dormant after the initial engagement, the client eventually dies with a stale plan, and the estate is administered at increased cost (unexpected tax exposure, beneficiary disputes, assets not in trust) that the plan was designed to prevent. Meanwhile, the attorney left several billable update engagements on the table over 10 years.

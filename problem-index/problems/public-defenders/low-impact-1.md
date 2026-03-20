@@ -3,7 +3,7 @@
 **Industry:** [[public-defenders|Public Defenders]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic legal communication tools assume clients have email and phone access, but 60% of public defender clients are incarcerated with access limited to $0.25-per-message kiosks, monitored phone calls, and postal mail — creating a communication blackout at the moment when informed consent matters most.
-**Tags:** #llm #text-generation #nlp #data-integration #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #evaluation-metrics #entropy-cross-entropy-kl-divergence #data-integration #worker-facing
 
 ## The Problem
 

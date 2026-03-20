@@ -3,7 +3,7 @@
 **Industry:** [[security-guard-firms|Security Guard Firms]]
 **Type:** High Impact
 **One-liner:** Every shift is filled with the right guard before the client notices a gap — because the system predicted the no-show, arranged the backup, and confirmed coverage before the shift started.
-**Tags:** #gradient-boosting #reinforcement-learning #regression #tabular-ml #workflow-orchestration #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #bias-variance-tradeoff #workflow-orchestration #revenue-impact
 
 ## The Problem
 A security guard firm with 200 guards and 50 client sites must fill 300-500 shifts per week. Each shift has requirements: armed/unarmed, specific certifications, client preferences (some clients ban specific guards), geographic proximity, and overtime limits. No-show rates run 10-20% — every day, 5-15 guards don't show up, triggering a cascade of emergency calls to find replacements before the client discovers an uncovered post. An uncovered post is a contract-threatening event: clients pay for presence, and gaps expose them to liability. Operations managers spend 3-5 hours daily on schedule adjustments, phone calls, and emergency dispatching.

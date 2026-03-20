@@ -3,7 +3,7 @@
 **Industry:** [[collections-agencies|Collections Agencies]]
 **Type:** Worker Life Changing
 **One-liner:** Agents reclaim productive work time by eliminating the 70% of their shift currently spent on wrong numbers, voicemails, and disconnected lines that yield zero meaningful conversations.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 A typical collection agent's shift looks like this: the predictive dialer connects a call, the agent hears ringing, then a voicemail, then a disconnected number, then a wrong party, then another voicemail — for hours on end. Industry data shows agents spend only 25-30% of their shift in actual conversations with debtors. The remaining time is dead air, wrong numbers, and voicemail boxes. This is not just an efficiency problem; it is profoundly demoralizing. Agents describe the experience as "calling into a void" — repetitive non-contact that creates a sense of futility and helplessness that compounds the emotional toll of the hostile calls they do connect.

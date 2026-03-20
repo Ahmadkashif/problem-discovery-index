@@ -3,7 +3,7 @@
 **Industry:** [[corporate-training|Corporate Training]]
 **Type:** Worker Life Changing
 **One-liner:** Instructional designers get their creative time back instead of spending 60% of their week updating existing courses every time a product feature changes, a policy is revised, or a regulation is amended.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing #automation
 
 ## The Problem
 Instructional designers at mid-market companies maintain catalogs of 50–200 active courses. Every product release, policy update, or regulatory change triggers a cascade of updates across multiple courses — a single product UI change might affect 8 different courses that reference that screen. Designers spend Monday mornings reviewing change logs from product, legal, and HR teams, then spend the rest of the week hunting through SCORM packages and video scripts to find every reference that needs updating. They re-record narration, re-screenshot interfaces, re-export modules, and re-upload to the LMS. By the time they finish one update cycle, the next batch of changes has arrived. Original course creation — the work they were hired to do and trained for — gets pushed to evenings and weekends.

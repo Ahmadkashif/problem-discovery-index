@@ -1,7 +1,7 @@
 # AI Agents and Platforms — HOA Management
 
 **Industry:** [[hoa-management|HOA Management]]
-**Tags:** #ai-agent #ai-platform #automation #compliance #workflow-orchestration
+**Tags:** #ai-agent #ai-platform #large-language-models #gradient-boosting #cnns #automation #compliance #workflow-orchestration
 
 ---
 

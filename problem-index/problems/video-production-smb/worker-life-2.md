@@ -3,7 +3,7 @@
 **Industry:** [[video-production-smb|SMB Video Production]]
 **Type:** Worker Life Changing
 **One-liner:** Freelance crew members stop losing gigs to scheduling chaos and producers stop scrambling for last-minute replacements, because real-time availability and skill matching replace the frantic group-text-at-10-PM workflow.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #time-series-forecasting #probability-distributions #worker-facing
 
 ## The Problem
 SMB production companies rely on a rotating pool of 15-40 freelancers (camera operators, gaffers, sound recordists, PAs, makeup artists) booked on a per-project basis. The producer texts or calls their preferred people, waits for responses, gets a mix of "yes," "maybe," and silence. Double-bookings happen constantly because freelancers juggle 3-5 ongoing relationships with different production companies, each using a different communication channel. A freelancer confirms a Tuesday shoot on Monday morning, then gets a higher-paying gig and cancels at 6 AM on shoot day. The producer's panic call tree begins, burning 2-3 hours and sometimes resulting in a shoot with a suboptimal crew member who has never worked with the team.

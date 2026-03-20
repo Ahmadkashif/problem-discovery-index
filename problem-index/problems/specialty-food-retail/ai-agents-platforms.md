@@ -5,7 +5,7 @@
 ---
 
 ## 1. Inventory Reorder Agent
-#ai-agent #automation #revenue-impact
+#ai-agent #gradient-boosting #time-series-forecasting #feature-engineering #evaluation-metrics #automation #revenue-impact
 
 **Concept:** An autonomous ordering agent that monitors real-time inventory levels (via POS depletion and manual shelf checks), forecasts demand for each SKU over its remaining shelf life, and generates optimized purchase orders for each vendor — respecting order minimums, delivery windows, and budget constraints. The agent drafts orders nightly, sends them to the owner for one-tap approval each morning, and routes approved orders to vendors via email, portal, or API. It escalates only on exceptions: a vendor is out of stock, a minimum isn't met, or a spoilage risk item needs a markdown decision.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Vendor Management Agent
-#ai-agent #workflow-orchestration #data-integration
+#ai-agent #large-language-models #feature-engineering #evaluation-metrics #workflow-orchestration #data-integration
 
 **Concept:** A coordination agent that manages the full lifecycle of 30–50 vendor relationships: tracks order windows and sends reminders, monitors deliveries against orders and flags discrepancies (short shipments, substitutions, late arrivals), reconciles vendor invoices against received goods, and maintains a vendor performance scorecard. The agent handles routine vendor communication — confirming orders, requesting ETAs, following up on credits for short ships — and escalates to the owner only for decisions requiring judgment (drop a consistently unreliable vendor, negotiate new terms).
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Staff Product Knowledge Agent
-#ai-agent #ai-platform #worker-facing
+#ai-agent #ai-platform #large-language-models #transformers #word-embeddings #evaluation-metrics #worker-facing
 
 **Concept:** A conversational AI assistant accessible on a tablet or phone behind the counter that serves as an instant product encyclopedia for specialty counter staff. Staff can ask natural language questions ("What's a semi-soft washed-rind cheese under $25/lb that pairs with Pinot Noir?"), scan a product barcode for full profile information (origin, tasting notes, pairings, allergens, storage instructions), and get customer-facing talking points generated in real time. The knowledge base is seeded from distributor product data and augmented by the store owner's notes, with the LLM filling gaps and generating pairing logic.
 

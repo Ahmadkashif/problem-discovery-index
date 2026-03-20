@@ -3,7 +3,7 @@
 **Industry:** [[behavioral-health-clinics|Behavioral Health Clinics]]
 **Type:** Worker Life Changing
 **One-liner:** Intake coordinators stop being the human bottleneck between a patient's cry for help and their first appointment, gaining clarity and control over a chaotic matching process.
-**Tags:** #worker-facing #ml-recommendation #ai-agent #quick-win
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #worker-facing #ai-agent #quick-win
 
 ## The Problem
 Intake coordinators at behavioral health clinics field 20-40 calls/inquiries per day from prospective patients, each requiring a mini-assessment: what's the presenting concern, what insurance do they have (and is it in-network), do they need a therapist or prescriber or both, do they have preferences (gender, language, specialty), and which clinicians have availability that matches. This matching process involves cross-referencing clinician caseload capacity, specialty areas, license type (some payers won't cover certain license types), and schedule openings — typically across a spreadsheet, the EHR scheduling module, and the credentialing list. A single intake call takes 15-25 minutes.

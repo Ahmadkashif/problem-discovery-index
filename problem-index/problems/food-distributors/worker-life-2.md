@@ -3,7 +3,7 @@
 **Industry:** [[food-distributors|Food Distributors]]
 **Type:** Worker Life Changing
 **One-liner:** Drivers get a mobile documentation tool that captures delivery condition evidence instantly, so they stop being the scapegoat for quality disputes they did not cause.
-**Tags:** #cnn #object-detection #computer-vision #worker-facing
+**Tags:** #cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #worker-facing
 
 ## The Problem
 Food distribution delivery drivers handle 15-25 stops per route, and at 3-5 stops per day a customer rejects product or claims quality issues — bruised produce, thawed frozen items, short counts, wrong grades. The driver is expected to resolve the dispute on the spot: accept the return, issue a handwritten credit memo, and move on. But the driver has no way to document the product's condition at the moment of delivery, so when the customer claims the strawberries arrived moldy, the driver cannot prove they were fine at handoff. Credit memos written on paper at 5 AM on a loading dock are frequently illegible, lost, or disputed later by the sales team. Drivers absorb blame for quality issues that originated in the warehouse (mispicks, improper rotation) or at the supplier (pre-existing damage), and repeated credits on a driver's route trigger supervisory review that feels punitive.

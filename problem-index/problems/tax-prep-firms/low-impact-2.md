@@ -3,7 +3,7 @@
 **Industry:** [[tax-prep-firms|Tax Prep Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Financial planning tools model investments and retirement but cannot simulate tax-specific scenarios like entity restructuring, Roth conversions, or QBI deduction optimization that tax preparers need to sell advisory services.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #gradient-descent #revenue-impact
 
 ## The Problem
 Tax prep firms earn $200-500 per return during filing season but could earn $1,000-3,000 per client annually through year-round tax planning engagements — entity selection (S-corp vs. LLC vs. sole prop), retirement contribution optimization, Roth conversion laddering, timing of capital gains harvesting, QBI deduction threshold management, and estimated tax payment scheduling. Most small firms do not offer these services because they lack tools to quickly model scenarios and present clear "Option A saves $4,200 vs. Option B saves $6,800" comparisons to clients. Preparers who attempt it use spreadsheets that take 2-3 hours per client and are error-prone.

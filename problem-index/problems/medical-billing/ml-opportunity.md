@@ -6,7 +6,7 @@
 ---
 
 ## 1. Pre-Submission Denial Prediction
-#ml-classification #revenue-impact #quick-win
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #entropy-cross-entropy-kl-divergence #revenue-impact #quick-win
 
 **Problem statement:** Given a claim's attributes (CPT/ICD codes, modifiers, payer, provider, place of service, patient demographics, authorization status), predict the probability of first-pass denial and the most likely denial reason — before the claim is submitted.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Payer Rule Change Detection from Bulletin Text
-#ml-nlp #compliance #quick-win
+#large-language-models #bert #transfer-learning #evaluation-metrics #compliance #quick-win
 
 **Problem statement:** Given raw payer bulletin text (newsletter, policy update, transmittal), extract structured rule changes — which procedure codes are affected, what changed (new modifier requirement, coverage policy change, fee schedule update), effective date, and which of the billing company's clients are impacted.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. ERA Payment Accuracy Validation
-#ml-classification #revenue-impact
+#logistic-regression #gradient-boosting #feature-engineering #evaluation-metrics #descriptive-statistics #hypothesis-testing #revenue-impact
 
 **Problem statement:** Given an ERA payment line, the claim's billed amount, and the provider's contracted rate for that payer/code combination, classify the payment as: correct, underpayment (payer paid less than contracted), overpayment, or unresolvable (contract terms unknown).
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Claim Status Extraction from Payer Portals
-#ml-nlp #automation #worker-facing
+#bert #transfer-learning #large-language-models #evaluation-metrics #automation #worker-facing
 
 **Problem statement:** Given a payer portal's claim status page (HTML/text), extract the structured claim status — paid, pending, denied, in review — along with relevant details (check number, denial reason, appeal deadline, additional information needed).
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Coding Pattern Anomaly Detection
-#ml-classification #compliance #quick-win
+#gradient-boosting #descriptive-statistics #entropy-cross-entropy-kl-divergence #hypothesis-testing #evaluation-metrics #compliance #quick-win
 
 **Problem statement:** Given a provider's coding patterns over time (distribution of E/M levels, procedure code frequency, modifier usage), detect anomalies that suggest upcoding risk, downcoding (revenue loss), or documentation-coding mismatches — before a payer audit flags the issue.
 

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Scope Bomb Detection from Requirement Ambiguity
-#bert #gradient-boosting #regression #nlp #tabular-ml #tacit-knowledge-ml
+#bert #gradient-boosting #transformers #feature-engineering #cross-validation #evaluation-metrics #word-embeddings #transfer-learning #confidence-intervals #tacit-knowledge-ml
 
 **Problem statement:** Experienced project leads read a client brief and instinctively sense when the true scope is 2-3x what is written — they detect vague language, undefined integrations, "simple" features that require cross-cutting architectural changes, and missing technical specifications. This tacit pattern recognition, built over hundreds of projects, is the agency's most valuable and least transferable asset. The goal is to capture this judgment as a model that flags scope risk in new briefs before estimation begins.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Project Timeline Prediction from Sprint Velocity Patterns
-#gradient-boosting #time-series-forecasting #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #time-series-forecasting #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent
 
 **Problem statement:** Agencies commit to delivery dates based on initial estimates, but actual progress varies wildly across sprints due to requirement changes, team availability, and technical blockers. Current "are we on track" assessments are qualitative — the PM's gut feeling — until the project is obviously late.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Developer-Project Matching for Optimal Staffing
-#gradient-boosting #ranking #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #optimization-fundamentals #bias-variance-tradeoff
 
 **Problem statement:** Agency principals and resource managers allocate developers to projects based on availability and rough skill match, ignoring the interaction effects that determine actual productivity — a developer's familiarity with the specific tech stack combination, their track record on similar project types (e-commerce vs. healthcare vs. fintech), their working relationship with the assigned PM and client, and their current cognitive load from other active projects.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Client Satisfaction Prediction from Communication Patterns
-#bert #binary-classification #nlp #tabular-ml
+#bert #gradient-boosting #transformers #word-embeddings #feature-engineering #evaluation-metrics #transfer-learning #conditional-probability-and-bayes-theorem
 
 **Problem statement:** Client churn at agencies is often a surprise — the relationship seemed fine until the client suddenly moves to a competitor or brings development in-house. The warning signs were present in communication patterns weeks or months earlier: shorter emails, longer response times, fewer questions (disengagement, not satisfaction), escalation to higher-level contacts, and tonal shifts in feedback. PMs and account managers miss these signals because they are spread across hundreds of messages.
 

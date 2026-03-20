@@ -3,7 +3,7 @@
 **Industry:** [[auto-body-shops|Auto Body Shops]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic project management tools can track timelines, but they can't navigate the insurer-specific DRP scorecards that determine whether a shop keeps its most valuable referral relationships.
-**Tags:** #gradient-boosting #regression #tabular-ml #compliance
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #compliance
 
 ## The Problem
 Direct Repair Program relationships with major insurers (State Farm, GEICO, Progressive, Allstate) drive 50-70% of volume for most collision shops. Each insurer tracks different KPIs — cycle time, supplement ratio, customer satisfaction scores, touch time, parts utilization ratios — with different thresholds that determine whether a shop stays in the program. A shop in 4 DRP programs is simultaneously optimizing for 4 different scorecard systems, often with conflicting incentives.

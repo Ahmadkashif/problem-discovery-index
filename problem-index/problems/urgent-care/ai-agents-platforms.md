@@ -5,7 +5,7 @@
 ---
 
 ## 1. Operational Command Center Platform
-#ai-platform #revenue-impact #automation
+#gradient-boosting #time-series-forecasting #feature-engineering #evaluation-metrics #ai-platform #revenue-impact #automation
 
 **Concept:** A real-time operational dashboard for urgent care operators that combines demand forecasting, staffing recommendations, wait time prediction, and payer performance analytics in one view. Not a reactive reporting tool — a forward-looking system that tells the operator what to do in the next 72 hours to maximize throughput and minimize waste.
 **Inputs:** EHR visit data stream, staff scheduling system, payer reimbursement data, external signals (weather, flu surveillance, local calendar)
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Patient Intake and Pre-Visit Processing Agent
-#ai-agent #automation #data-integration
+#large-language-models #bert #feature-engineering #ai-agent #automation #data-integration
 
 **Concept:** An autonomous agent that handles the full patient intake process before they enter the exam room: collects chief complaint and symptom history via SMS/web, verifies insurance eligibility and calculates patient cost responsibility, pre-populates the EHR chart with intake information, flags high-acuity presentations for immediate notification, and routes patients to the appropriate provider type (MD vs. NP vs. PA) based on complaint complexity.
 **Inputs:** Patient-initiated text or web form, insurance card image (OCR → payer lookup), chief complaint in natural language
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Ambient Documentation Platform
-#ai-platform #nlp #speech-recognition #worker-facing
+#transformers #large-language-models #seq2seq #attention-mechanisms #transfer-learning #ai-platform #worker-facing
 
 **Concept:** A purpose-built ambient AI documentation platform for urgent care — distinct from general medical scribing tools in that it is optimized for the 10-20 minute acute care encounter, integrates with urgent care-specific EHR templates (Experity, Athenahealth urgent care workflows), and trains on urgent care-specific clinical language (presenting complaint patterns, rapid diagnostic workflows, discharge criteria for urgent vs. ED referral).
 **Inputs:** Consented encounter audio (physician-patient dialogue), patient chart context, EHR template structure
@@ -38,7 +38,7 @@
 ---
 
 ## 4. Insurance and Billing Reconciliation Agent
-#ai-agent #automation #revenue-impact #compliance
+#large-language-models #gradient-boosting #feature-engineering #ai-agent #automation #revenue-impact #compliance
 
 **Concept:** An autonomous agent that handles the full post-visit revenue cycle loop: submits claims, monitors payer responses, identifies denial patterns, drafts appeal letters for common denial reasons, and flags systematic underpayment patterns (e.g., a specific payer consistently downcoding urgent care visits to office visit rates) for contract renegotiation evidence.
 **Inputs:** Signed encounter notes, submitted claims, payer remittance data (ERA files), denial codes

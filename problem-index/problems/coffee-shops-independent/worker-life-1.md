@@ -3,7 +3,7 @@
 **Industry:** [[coffee-shops-independent|Independent Coffee Shops]]
 **Type:** Worker Life Changing
 **One-liner:** A busy barista pulls 300+ shots per shift, each requiring a precise tamp with 30lbs of force — their wrists, shoulders, and lower backs pay the price within months.
-**Tags:** #lstm #anomaly-detection #signal-processing #worker-facing #tacit-knowledge-ml
+**Tags:** #lstms-and-grus #rnns #activation-functions #loss-functions #backpropagation #gradient-descent #time-series-forecasting #evaluation-metrics #probability-distributions #worker-facing #tacit-knowledge-ml
 
 ## The Problem
 A barista on a busy morning shift produces 250-400 espresso-based drinks in 6-8 hours. Each drink requires grinding (twisting a portafilter into a grinder), dosing, tamping (applying ~30lbs of downward force with a level wrist), locking the portafilter into the group head (a twisting motion under load), and steaming milk (holding a pitcher at an angle while controlling a steam valve). These motions are repeated every 60-90 seconds. Within 3-6 months of full-time bar work, baristas commonly develop wrist tendinitis, shoulder impingement, lower back pain from standing on hard floors in a hunched posture, and trigger finger. Most shops have no ergonomic assessment, no rotation protocol, and no way to detect when a barista's movement pattern is degrading before injury occurs.

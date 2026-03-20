@@ -5,8 +5,8 @@
 
 ---
 
-## 1. Family Needs and Budget Assessment from Arrangement Conference Signals (Primary Opportunity — Tacit Knowledge ML)
-#gradient-boosting #bert #regression #nlp #tabular-ml #tacit-knowledge-ml
+## 1. Family Needs and Budget Assessment from Arrangement Conference Signals (Primary Opportunity -- Tacit Knowledge ML)
+#gradient-boosting #bert #transformers #word-embeddings #feature-engineering #cross-validation #evaluation-metrics #attention-mechanisms #tacit-knowledge-ml
 
 **Problem statement:** Experienced funeral directors read dozens of signals during a family's first contact and arrangement conference — the family's communication style, vocabulary around death (clinical vs. euphemistic), questions about pricing versus questions about personalization, references to the deceased's wishes, family group dynamics (who speaks, who defers) — and synthesize these into an intuitive assessment of which service tier, add-ons, and memorialization options to present. This tacit read determines whether a family spends $4,000 or $14,000. New directors lack this pattern recognition and either under-present (losing revenue) or over-present (creating resentment). The knowledge retires with veteran directors and is never systematically captured.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Preneed Conversion Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 **Problem statement:** Preneed (pre-planning) sales represent the funeral industry's highest-margin revenue and customer lock-in, but conversion rates from outreach to signed contract average only 3-5%. Identifying which community members are most likely to convert from general interest to funded preneed contracts would dramatically improve marketing ROI.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Death Call Volume Forecasting
-#linear-regression #time-series-forecasting #tabular-ml
+#linear-regression #time-series-forecasting #exponential-smoothing #feature-engineering #evaluation-metrics #descriptive-statistics #expectation-variance-covariance
 
 **Problem statement:** Funeral homes staff based on historical averages but experience significant demand volatility — flu seasons, heat waves, cold snaps, and pandemic waves create surges that overwhelm capacity, while summer months may leave staff underutilized. Accurate 2-4 week forecasting would enable proactive staffing adjustments.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Obituary Generation Quality Scoring
-#bert #regression #nlp
+#bert #transformers #attention-mechanisms #word-embeddings #evaluation-metrics #loss-functions #gradient-descent
 
 **Problem statement:** AI-generated obituaries vary in quality — some read as generic templates while others capture the deceased's personality authentically. An automated quality scorer would enable iterative improvement of obituary generation systems and flag outputs that need human editing.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Service Package Recommendation Engine
-#gradient-boosting #recommendation #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance #bias-variance-tradeoff
 
 **Problem statement:** Funeral homes offer 50-150 individual items and services that can be combined in thousands of ways, but directors typically present 3-4 standard packages. A recommendation engine that suggests personalized packages based on family characteristics and expressed preferences would increase both family satisfaction and revenue.
 

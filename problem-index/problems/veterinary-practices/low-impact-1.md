@@ -3,7 +3,7 @@
 **Industry:** [[veterinary-practices|Veterinary Practices]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic drug reference tools exist (Plumb's, VIN) but aren't integrated into the prescribing workflow as a real-time calculation and interaction check calibrated to the species, breed, and weight of the specific patient being treated.
-**Tags:** #tabular-ml #binary-classification #compliance #automation
+**Tags:** #decision-trees #feature-engineering #evaluation-metrics #arithmetic-and-basic-algebra #compliance #automation
 
 ## The Problem
 Veterinary pharmacology is species-specific in ways that have no human medicine parallel: many drugs that are safe for dogs are toxic for cats (NSAIDs, certain antibiotics), drug metabolism rates differ dramatically by species and breed (sighthound breeds metabolize barbiturates differently; brachycephalic breeds have different anesthetic profiles), and dosing calculations for exotic species (rabbits, birds, reptiles) require subspecialty knowledge that general practitioners access through references rather than memorized dosing ranges. In emergency situations — a seizing dog, a cat in acute respiratory distress — dosing errors occur under pressure. The current workflow is: reach for Plumb's Veterinary Drug Handbook, look up the drug, do the weight-based calculation manually, double-check, then draw up the dose. Each step is manual and error-prone.

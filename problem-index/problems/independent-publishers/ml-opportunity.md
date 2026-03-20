@@ -6,7 +6,7 @@
 ---
 
 ## 1. Manuscript Market-Potential Scoring (Tacit Knowledge ML)
-#bert #transformer #regression #nlp #tacit-knowledge-ml #revenue-impact
+#bert #transformers #transfer-learning #attention-mechanisms #word-embeddings #linear-regression #feature-engineering #evaluation-metrics #loss-functions #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Experienced acquisitions editors assess a manuscript's commercial viability from a brief sample by unconsciously integrating signals about voice quality, narrative pacing, prose rhythm, genre-market fit, and comp-title positioning — a judgment built across thousands of reads and hundreds of tracked outcomes. Encoding this tacit editorial intuition into a model would allow systematic triage of the submission pipeline.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Sales Trajectory Prediction for Acquired Titles
-#gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+#gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #probability-distributions #expectation-variance-covariance #revenue-impact
 
 **Problem statement:** Independent publishers make print-run, marketing-spend, and co-op placement decisions 6-9 months before publication with minimal data-driven guidance on expected sell-through velocity, leading to frequent overprints (pulped inventory) or underprints (missed sales during demand spikes).
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Cover Design A/B Optimization
-#cnn #binary-classification #computer-vision #multimodal #recommendation
+#cnns #transfer-learning #logistic-regression #loss-functions #backpropagation #gradient-descent #evaluation-metrics #matrix-algebra #cross-validation
 
 **Problem statement:** Cover design drives 30-50% of a browser's click-through decision on retail platforms, yet independent publishers typically commission one cover and commit to it without data-driven testing, relying on editorial committee consensus that often optimizes for trade aesthetic rather than retail conversion.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Author Platform Impact Modeling
-#gradient-boosting #regression #tabular-ml #nlp #revenue-impact
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #bias-variance-tradeoff #probability-distributions #revenue-impact
 
 **Problem statement:** Acquisitions editors weigh an author's "platform" (social media following, newsletter subscribers, speaking engagements, media appearances) as a factor in acquisition decisions, but the actual relationship between platform metrics and book sales is poorly understood and varies dramatically by genre, audience, and platform type.
 

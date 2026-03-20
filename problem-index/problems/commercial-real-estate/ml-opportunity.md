@@ -6,7 +6,7 @@
 ---
 
 ## 1. Cap Rate and Property Value Prediction from Transaction Comparables
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #confidence-intervals #expectation-variance-covariance #revenue-impact
 
 **Problem statement:** Estimate commercial property value (price per sq ft and cap rate) from property characteristics and recent comparable transactions, providing boutique CRE firms with market intelligence that previously required expensive institutional data subscriptions.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Lease Clause Extraction and Rent Roll Abstraction
-#llm #named-entity-recognition #nlp #automation #quick-win
+#large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #feature-engineering #evaluation-metrics #automation #quick-win
 
 **Problem statement:** Extract key economic and risk terms from commercial lease documents — rent schedules, escalations, CAM provisions, options, co-tenancy clauses — to accelerate due diligence and rent roll analysis.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Tenant Prospect Scoring for Leasing Assignments
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Score prospective tenants by likelihood to be actively searching for space of a specific type, size, and location — combining lease expiration timing, employment growth signals, and industry expansion patterns.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Offering Memorandum Automated Generation
-#llm #text-generation #nlp #automation
+#large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #loss-functions #automation
 
 **Problem statement:** Generate investment property offering memorandum sections (executive summary, investment highlights, market overview) from structured property data inputs, reducing OM production time from 15-25 hours to 2-3 hours of review.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Deal Pipeline Velocity Prediction and Stall Detection
-#gradient-boosting #binary-classification #tabular-ml #quick-win
+#gradient-boosting #logistic-regression #survival-analysis #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #quick-win
 
 **Problem statement:** Predict which active deals in a broker's pipeline are at risk of stalling or dying vs. progressing to closing — to prioritize engagement effort on closeable deals and identify interventions for at-risk deals.
 

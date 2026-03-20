@@ -3,7 +3,7 @@
 **Industry:** [[crop-farming|Crop Farming]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Farm management platforms like Climate FieldView and John Deere Operations Center collect equipment telemetry automatically, but the agronomic context that makes the data useful — scouting observations, input application notes, weather-driven decision rationale, and crop condition assessments — must be entered manually by farmers who are operating heavy equipment 14 hours a day during planting and harvest and have no time or inclination to type notes into a tablet.
-**Tags:** #llm #named-entity-recognition #nlp #data-integration
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #feature-engineering #data-integration
 
 ## The Problem
 Precision agriculture generates enormous volumes of machine data — planting populations, application rates, yield monitor readings — all captured automatically through equipment telematics. But the agronomic decisions that explain this data are not captured: why was this field planted at a higher population? Why was fungicide applied to this field but not the adjacent one? What did the agronomist observe during scouting? This contextual information lives in the farmer's head, in text messages to the agronomist, in handwritten notes on the truck dashboard, and in verbal conversations — never making it into the farm management system. Without this context, the machine data is descriptive (what happened) but not analytical (why it happened and what to do differently next year).

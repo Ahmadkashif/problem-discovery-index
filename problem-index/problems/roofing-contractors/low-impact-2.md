@@ -3,7 +3,7 @@
 **Industry:** [[roofing-contractors|Roofing Contractors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** EagleView and Nearmap provide accurate roof geometry measurements, but converting those measurements into a materials order with correct waste factors for each plane, hip, ridge, and valley configuration — accounting for the contractor's specific installation method and shingle product — requires a roofing-specific calculation layer that general estimating tools don't provide.
-**Tags:** #automation #tabular-ml #compliance #workflow-orchestration
+**Tags:** #arithmetic-and-basic-algebra #feature-engineering #automation #compliance #workflow-orchestration
 
 ## The Problem
 

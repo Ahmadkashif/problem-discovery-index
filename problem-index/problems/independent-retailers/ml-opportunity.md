@@ -6,7 +6,7 @@
 ---
 
 ## 1. Buyer Demand Intuition — Predicting What Will Sell Before It's Stocked
-#gradient-boosting #binary-classification #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #word-embeddings #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #gradient-descent #tacit-knowledge-ml
 
 **Problem statement:** Experienced independent retail buyers develop an instinct for which new products will sell in *their* store — they read the intersection of their customer base, local trends, seasonal patterns, and product attributes in a way they cannot write rules for. A veteran boutique owner at a trade show picks up a product, looks at it, considers their regulars, and *knows* it will move. A new owner buys what they personally like and sits on dead inventory for months. This product selection intuition, built from years of watching what sells and what doesn't in a specific community, is the core competitive advantage of an independent retailer. An ML model should replicate that intuition by learning the latent mapping between product attributes and a store's historical sales success patterns.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. SKU-Level Demand Forecasting for Low-Volume Retail
-#gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+#gradient-boosting #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Independent retailers need SKU-level demand forecasts to set reorder quantities, but individual stores sell only 5-50 units/month per SKU — far below the volume where standard time-series methods (ARIMA, Prophet) produce reliable predictions. The model must combine sparse local sales data with external signals to generate actionable weekly reorder recommendations.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Dynamic Markdown Pricing for Slow-Moving Inventory
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #gradient-descent #revenue-impact
 
 **Problem statement:** Retailers mark down slow-moving inventory using flat rules (30% off after 60 days, 50% off after 90 days) that leave margin on the table for items that would sell at smaller discounts and fail to move items that need steeper cuts earlier. An ML model should recommend SKU-specific markdown schedules that maximize total margin recovery across the remaining lifecycle of slow-moving stock.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Customer Segmentation and Lifetime Value from POS Data
-#k-means #gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#k-means-clustering #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #dimensionality-reduction #expectation-variance-covariance #revenue-impact
 
 **Problem statement:** Independent retailers know their regulars by face but have no systematic view of customer segments, purchase patterns, or churn risk. Retailers who accept card payments have implicit customer identifiers (last-four digits + card network as a proxy) but no tooling to turn transaction patterns into actionable segments. The model should identify high-value customers, at-risk churners, and latent segments to target with retention campaigns.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Product Assortment Optimization via Collaborative Filtering
-#gradient-boosting #recommendation #tabular-ml #data-integration
+#gradient-boosting #bert #word-embeddings #feature-engineering #matrix-decompositions #evaluation-metrics #norms-and-inner-products #data-integration
 
 **Problem statement:** Independent retailers choose which products to stock based on trade show visits, vendor pitches, and personal taste. They have no systematic way to answer: "Given what my customers buy, what products am I missing that similar stores carry successfully?" A recommendation model should identify assortment gaps by comparing a store's catalog and sales patterns against a network of peer stores.
 

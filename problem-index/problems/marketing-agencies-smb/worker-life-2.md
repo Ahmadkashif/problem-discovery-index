@@ -3,7 +3,7 @@
 **Industry:** [[marketing-agencies-smb|SMB Marketing Agencies]]
 **Type:** Worker Life Changing
 **One-liner:** Writers and designers stop dreading the "can we try something else?" email when briefs are tight enough to get 80% of deliverables approved in one round instead of three.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #entropy-cross-entropy-kl-divergence #evaluation-metrics #worker-facing
 
 ## The Problem
 Content creators at SMB agencies — copywriters, graphic designers, video editors — go through an average of 3-5 revision rounds per deliverable. A blog post gets written, reviewed by the AM, sent to the client, returned with vague feedback ("make it punchier"), revised, re-reviewed, re-sent, returned again ("actually can we go back closer to the first version but keep paragraph 3"). A social media graphic follows a similar loop. The root cause in 70% of cases is not creative quality but brief inadequacy: the original brief didn't capture the client's brand voice preferences, approval criteria, or reference examples clearly enough for the creator to hit the target on the first attempt. Creators spend 40-60% of their production time on revisions rather than new work.

@@ -3,7 +3,7 @@
 **Industry:** [[hvac-contractors|HVAC Contractors]]
 **Type:** High Impact
 **One-liner:** Experienced HVAC technicians who diagnose refrigerant system faults by reading the interplay of suction pressure, discharge pressure, superheat, and subcooling measurements — a multi-variable pattern recognition skill that takes 5-8 years to develop — get that diagnostic reasoning replicated by an ML model that interprets the gauge readings and returns a ranked differential diagnosis before the junior tech makes a costly misdiagnosis.
-**Tags:** #gradient-boosting #multiclass-classification #tabular-ml #signal-processing #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #conditional-probability-and-bayes-theorem #probability-distributions #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 

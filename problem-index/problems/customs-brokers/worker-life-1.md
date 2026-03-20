@@ -3,7 +3,7 @@
 **Industry:** [[customs-brokers|Customs Brokers]]
 **Type:** Worker Life Changing
 **One-liner:** Customs entry preparers who submit entries to ACE with incomplete or inconsistent data — triggering CBP holds and rejection notices that delay cargo release — get a pre-submission completeness check that catches missing fields and data inconsistencies before the entry is filed.
-**Tags:** #llm #compliance #automation #worker-facing
+**Tags:** #large-language-models #attention-mechanisms #transformers #transfer-learning #compliance #automation #worker-facing
 
 ## The Problem
 

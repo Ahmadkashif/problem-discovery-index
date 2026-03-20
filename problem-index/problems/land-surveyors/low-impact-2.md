@@ -3,7 +3,7 @@
 **Industry:** [[land-surveyors|Land Surveyors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Survey firms operating across multiple counties and states must track different plat filing requirements, monument standards, minimum technical standards, and certification language for each jurisdiction — a fragmented compliance landscape that no generic tool manages and that causes 5-10% of plat submissions to be rejected on first filing.
-**Tags:** #llm #text-generation #nlp #compliance #data-integration
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #evaluation-metrics #entropy-cross-entropy-kl-divergence #compliance #data-integration
 
 ## The Problem
 

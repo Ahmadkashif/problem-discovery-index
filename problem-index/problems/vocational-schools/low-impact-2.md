@@ -3,7 +3,7 @@
 **Industry:** [[vocational-schools|Vocational Schools]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Curriculum committees make program changes based on anecdotal employer feedback from poorly attended annual meetings — they should be working from real-time labor market intelligence matched to their specific trade programs.
-**Tags:** #bert #text-classification #nlp #data-integration
+**Tags:** #bert #transfer-learning #word-embeddings #attention-mechanisms #transformers #feature-engineering #evaluation-metrics #entropy-cross-entropy-kl-divergence #data-integration
 
 ## The Problem
 Accreditors require vocational schools to maintain employer advisory boards that review curriculum relevance. In practice, these boards meet once or twice a year, attendance is spotty (3-5 of 12 invited employers show up), and feedback is anecdotal: "We're seeing more solar on commercial roofs" or "Your graduates don't know BIM software." Program directors then translate these vague signals into curriculum changes with a 6-18 month lag. Meanwhile, actual labor market demand shifts faster — new certifications emerge, specific tools become industry standard, and geographic demand for certain trades spikes or collapses. Schools are making multi-year curriculum bets on thin, delayed signal.

@@ -3,7 +3,7 @@
 **Industry:** [[hvac-contractors|HVAC Contractors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic CRM churn prediction tools exist but don't understand HVAC maintenance agreement dynamics — the service visit intervals, equipment age triggers, and customer behavior patterns that predict whether a maintenance customer will renew, cancel, or upgrade to a replacement equipment plan.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #revenue-impact #automation
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #conditional-probability-and-bayes-theorem #revenue-impact #automation
 
 ## The Problem
 

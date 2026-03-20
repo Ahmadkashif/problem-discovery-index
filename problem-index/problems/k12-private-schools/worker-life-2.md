@@ -3,7 +3,7 @@
 **Industry:** [[k12-private-schools|K-12 Private Schools]]
 **Type:** Worker Life Changing
 **One-liner:** Admissions directors stop drowning in a 6-week application tsunami and instead spend their time on the high-judgment work — family interviews and committee deliberation — that actually determines enrollment quality.
-**Tags:** #bert #text-classification #nlp #worker-facing
+**Tags:** #bert #transformers #transfer-learning #word-embeddings #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #worker-facing
 
 ## The Problem
 A competitive private school receives 300-800 applications for 50-150 openings, with 80% of applications arriving in a 6-week window (January-February). Each application includes parent essays, teacher recommendations, student writing samples, transcripts, and test scores. The admissions director and a small team (often 1-3 people) must read every document, score each application on multiple rubrics, flag incomplete files, schedule family interviews, and prepare committee review packets — all while continuing to host campus tours and answer prospective family inquiries. During peak season, admissions directors routinely work 60-70 hour weeks.

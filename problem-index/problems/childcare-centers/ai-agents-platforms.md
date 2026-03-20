@@ -5,7 +5,7 @@
 ---
 
 ## 1. Ratio Compliance Scheduling Agent
-#ai-agent #automation #compliance
+#ai-agent #markov-decision-processes #dynamic-programming #optimization-fundamentals #automation #compliance
 
 **Concept:** An autonomous scheduling agent that continuously monitors real-time room occupancy (via check-in/check-out data from brightwheel or Procare), staff clock-ins, and state ratio requirements — and proactively reassigns float staff, adjusts break schedules, and triggers substitute callouts when it detects a current or imminent ratio breach. Unlike static scheduling tools, this agent operates in a continuous loop throughout the day: it ingests the morning callout text at 6:30 AM, regenerates the day's staff assignments before the center opens at 7:00 AM, monitors attendance arrivals against projections, and dynamically shifts a floater from the preschool room to the toddler room when three extra toddlers arrive by 8:15 AM. The agent handles the combinatorial optimization that directors currently solve by intuition and whiteboard — room-level ratio constraints, mandatory break windows, staff qualification requirements (only certain teachers are infant-qualified), and transition periods.
 **Inputs:** Real-time check-in/check-out events, staff clock-in/out and callout notifications, state ratio rules by age group, staff qualification records, enrollment schedules, historical attendance patterns.
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Daily Report Generation Agent
-#ai-agent #automation #worker-facing
+#ai-agent #large-language-models #transfer-learning #attention-mechanisms #automation #worker-facing
 
 **Concept:** An agent that autonomously compiles each child's daily parent report by aggregating structured data from throughout the day — meal consumption logged by the kitchen, nap start/end times from cot check sensors or teacher taps, diaper change timestamps, activity participation notes from teacher voice memos, outdoor play duration, and classroom photos — into a warm, personalized narrative report delivered to parents via their preferred platform (brightwheel, HiMama, or email) at pickup time. The agent doesn't just list data points; it generates narrative summaries ("Olivia had a great morning — she ate most of her oatmeal at breakfast, built an impressive block tower during free play, and napped for a solid 2 hours. She was a little fussy after snack but perked up during outdoor time and spent 20 minutes on the climbing structure with her friend Marcus.") that match the warm, reassuring tone parents expect. It learns each center's communication style and each teacher's voice over time.
 **Inputs:** Meal logs (what was served, consumption level per child), nap timestamps, diaper change logs, teacher voice memo observations (processed by the NLP pipeline), activity schedules, classroom photos with auto-generated captions, incident reports if any.
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Enrollment Pipeline Agent
-#ai-agent #ai-platform #revenue-impact
+#ai-agent #ai-platform #large-language-models #transfer-learning #attention-mechanisms #revenue-impact
 
 **Concept:** An autonomous enrollment management agent that handles the full parent inquiry-to-enrollment pipeline: responding to initial inquiries within minutes (via SMS, email, or web chat), qualifying leads based on child age, desired start date, and schedule needs, checking real-time availability by classroom and waitlist position, scheduling and confirming center tours, sending post-tour follow-up sequences, managing waitlist communications, processing enrollment paperwork (immunization records, emergency contacts, authorized pickup lists, allergy documentation), and triggering onboarding workflows when a spot opens. The agent replaces the director's most time-consuming non-pedagogical function — the enrollment sales cycle that currently involves 8-12 touchpoints over weeks or months and drops 40-60% of inquiries due to slow response times.
 **Inputs:** Parent inquiries from website forms, Facebook messages, phone calls (transcribed), emails, and walk-in tour requests. Center capacity data by classroom and age group. Waitlist positions and priority rules. Enrollment document checklists by state. Parent CRM data (inquiry date, tour status, follow-up history).

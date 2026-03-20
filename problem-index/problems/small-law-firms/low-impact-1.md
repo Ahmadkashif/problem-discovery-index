@@ -3,7 +3,7 @@
 **Industry:** [[small-law-firms|Small Law Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Practice management systems can search their client database for matching names, but the legally meaningful conflict check — identifying corporate affiliates, related entities, adverse parties in prior matters, and the nuanced imputation rules for shared-office practitioners — requires legal judgment that simple name matching doesn't provide.
-**Tags:** #bert #text-classification #nlp #automation #compliance
+**Tags:** #bert #transfer-learning #loss-functions #evaluation-metrics #feature-engineering #automation #compliance
 
 ## The Problem
 Before accepting a new client representation, the attorney must ensure no conflict of interest exists — with current clients (can't represent adverse parties against them), former clients (can't represent a new client against them in a substantially related matter), and certain other parties depending on jurisdiction. The conflict check involves searching the firm's records for: the new client's name and all related entities and individuals (principals, subsidiaries, parent companies, related parties), the adverse parties and their related entities, and the nature of the new matter to compare against prior matters. Current practice management system search functions do a name-match search — they find exact and approximate matches in the client database, but they don't understand corporate family relationships, don't know that "ABC Corp." and "ABC Corporation" are the same entity, and don't assist with the legal analysis of whether a found relationship constitutes an actual conflict.

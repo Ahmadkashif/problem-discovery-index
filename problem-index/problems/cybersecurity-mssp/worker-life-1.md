@@ -3,7 +3,7 @@
 **Industry:** [[cybersecurity-mssp|Cybersecurity MSSPs]]
 **Type:** Worker Life Changing
 **One-liner:** L1 SOC analysts get their cognitive capacity back — instead of mindlessly clicking through 500 nearly-identical false positives per shift, they investigate real threats that use their training and build their career.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 L1 SOC analysts at MSSPs work 8-12 hour shifts processing alerts in a queue. On a typical shift, an analyst handles 200-400 alerts, of which 95%+ are false positives that require the same repetitive investigation steps: open alert, check source IP, check user context, check asset tag, compare to baseline, close as false positive, write a one-line disposition note. The work is monotonous, cognitively draining, and high-stakes — because buried in those 400 alerts might be 5-10 that represent actual intrusions, and missing one means a client gets breached. The combination of tedium and constant vigilance creates chronic stress. Industry-wide, L1 SOC analyst turnover exceeds 30% annually, and burnout is the primary cited reason.

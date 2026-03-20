@@ -3,7 +3,7 @@
 **Industry:** [[dental-practices|Dental Practices]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Financial presentation tools exist for many industries, but dental practices still present treatment plans on paper printouts with estimated ranges rather than precise, insurance-aware cost breakdowns with financing options built in.
-**Tags:** #revenue-impact #ai-platform #quick-win
+**Tags:** #optimization-fundamentals #arithmetic-and-basic-algebra #revenue-impact #ai-platform #quick-win
 
 ## The Problem
 When a dentist diagnoses treatment and the office presents a treatment plan, the patient receives a document showing procedure codes, fees, and a rough insurance estimate. The estimate is often wrong because it's based on the practice's fee schedule and a generic insurance percentage, not the patient's actual remaining benefits. Payment options (in-house financing, CareCredit, insurance maximization strategies like phasing treatment across calendar years) are discussed verbally and inconsistently.

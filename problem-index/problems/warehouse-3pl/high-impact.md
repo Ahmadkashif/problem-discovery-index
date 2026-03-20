@@ -3,7 +3,7 @@
 **Industry:** [[warehouse-3pl|Warehouse & 3PL]]
 **Type:** High Impact
 **One-liner:** Warehouse operations managers who slot SKUs manually based on gut feel and experience — placing fast-moving items near the pick face but without continuously optimizing the slot assignments as velocity and order patterns change — get a slotting optimization model that continuously recommends slot reassignments to minimize total picker travel distance as demand patterns evolve.
-**Tags:** #gradient-boosting #regression #tabular-ml #reinforcement-learning #revenue-impact
+**Tags:** #gradient-boosting #linear-regression #optimization-fundamentals #k-means-clustering #feature-engineering #combinatorics-and-counting #evaluation-metrics #revenue-impact
 
 ## The Problem
 

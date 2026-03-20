@@ -3,7 +3,7 @@
 **Industry:** [[cloud-infrastructure-consultants|Cloud Infrastructure Consultants]]
 **Type:** Worker Life Changing
 **One-liner:** DevOps engineers stop getting woken up at 3 AM for alerts that turn out to be noise, transient spikes, or issues they could have been pre-briefed on before the page fired.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #logistic-regression #time-series-forecasting #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 Cloud consulting engineers rotate on-call across 15-40 client environments simultaneously. Each environment has its own monitoring stack (Datadog, CloudWatch, New Relic, PagerDuty) with independently configured alert thresholds. A typical on-call shift produces 20-50 alerts, of which 60-70% are noise — transient CPU spikes from batch jobs, disk usage alerts on auto-expanding volumes, or cascading alerts from a single root cause. Engineers are jolted awake, context-switch into an unfamiliar client environment, spend 15-30 minutes determining the alert is not actionable, and then struggle to fall back asleep. After a week-long on-call rotation, engineers report 10-15 hours of lost sleep and measurably degraded work quality for the following 2-3 days.

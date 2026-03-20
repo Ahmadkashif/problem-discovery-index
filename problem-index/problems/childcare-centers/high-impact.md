@@ -3,7 +3,7 @@
 **Industry:** [[childcare-centers|Childcare Centers]]
 **Type:** High Impact
 **One-liner:** Every room in the center stays in ratio compliance every minute of every day — without the director manually shuffling staff on a whiteboard during every break, transition, and callout.
-**Tags:** #reinforcement-learning #regression #tabular-ml #compliance #revenue-impact
+**Tags:** #markov-decision-processes #dynamic-programming #linear-regression #optimization-fundamentals #lagrange-multipliers #convex-optimization #compliance #revenue-impact
 
 ## The Problem
 State licensing mandates strict staff-to-child ratios (e.g., 1:4 for infants, 1:7 for toddlers, 1:10 for preschoolers) that must be maintained at all times — not just at headcount snapshots but during nap transitions, outdoor play rotations, lunch breaks, bathroom breaks, and staff handoffs. Directors spend 1-2 hours per day reactively shuffling floaters and pulling teachers between rooms to maintain compliance when someone calls out, a child arrives early, or a teacher takes a legally mandated break. A single ratio violation caught during an unannounced inspection can result in fines, probation, or license revocation, making this an existential operational risk.

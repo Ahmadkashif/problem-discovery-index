@@ -5,7 +5,7 @@
 ---
 
 ## 1. Autonomous Climate Optimization Agent
-#ai-agent #reinforcement-learning #automation
+#ai-agent #markov-decision-processes #policy-gradient-methods #dynamic-programming #optimization-fundamentals #automation
 
 **Concept:** An AI agent that continuously manages greenhouse climate setpoints by integrating real-time sensor data, weather forecasts, energy price signals, and crop growth models. The agent connects to existing climate computers via API (Priva, Ridder, Argus) and adjusts heating, ventilation, CO2, supplemental lighting, and shade curtains every 15-60 minutes. It operates within grower-defined safety bounds but autonomously discovers energy-saving strategies (e.g., pre-heating before an energy price spike, extending temperature integration windows, optimizing DIF strategies per crop) that most growers would never manually test.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Multi-Crop Scheduling and Bench Space Agent
-#ai-agent #workflow-orchestration #data-integration
+#ai-agent #optimization-fundamentals #combinatorics-and-counting #gradient-boosting #feature-engineering #workflow-orchestration #data-integration
 
 **Concept:** An AI scheduling agent that continuously optimizes crop placement, bench space allocation, and production timing across a multi-zone greenhouse. It ingests wholesale orders, current crop inventory with growth-stage tracking, predicted finish dates (from ML growth models), and zone constraints (temperature compartments, light levels, bench types) to generate and maintain an optimal production schedule. When conditions change — a crop runs late, an order cancels, a zone goes down for maintenance — the agent re-optimizes and presents the grower with adjustment options ranked by revenue impact.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. AI-Powered Scouting Report and IPM Decision Agent
-#ai-agent #ai-platform #computer-vision #compliance
+#ai-agent #ai-platform #cnns #transfer-learning #large-language-models #evaluation-metrics #compliance
 
 **Concept:** A platform that combines computer-vision-based pest/disease detection with an LLM-powered IPM decision engine. Scouts capture images via a mobile app; the vision model identifies and grades pest/disease issues; the LLM agent then generates treatment recommendations based on the specific pest/disease complex, crop type, growth stage, upcoming ship dates (some pesticides have pre-harvest intervals), available biological controls in the grower's inventory, and regulatory constraints (EPA label restrictions, state-specific rules, organic certification requirements if applicable). The agent maintains a greenhouse-wide pest pressure map and tracks treatment efficacy over time.
 

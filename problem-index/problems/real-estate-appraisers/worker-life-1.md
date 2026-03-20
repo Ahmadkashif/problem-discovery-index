@@ -3,7 +3,7 @@
 **Industry:** [[real-estate-appraisers|Real Estate Appraisers]]
 **Type:** Worker Life Changing
 **One-liner:** Appraisers who measure a house's exterior dimensions during the field inspection — tape measure or laser measure, walking the perimeter — and then spend 20-30 minutes in Apex Sketch recreating the floor plan from their field notes get that floor plan auto-generated from photos of the property and exterior measurements, ready to review and submit.
-**Tags:** #computer-vision #automation #worker-facing #multimodal
+**Tags:** #cnns #object-detection #transfer-learning #loss-functions #backpropagation #gradient-descent #automation #worker-facing
 
 ## The Problem
 

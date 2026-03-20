@@ -3,7 +3,7 @@
 **Industry:** [[pest-control|Pest Control]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic routing tools optimize one day at a time, but pest control needs to optimize recurring service patterns across monthly and quarterly schedules with variable stop durations and time-window constraints.
-**Tags:** #reinforcement-learning #regression #tabular-ml #workflow-orchestration
+**Tags:** #markov-decision-processes #dynamic-programming #optimization-fundamentals #feature-engineering #evaluation-metrics #gradient-descent #workflow-orchestration
 
 ## The Problem
 A pest control technician serves 8-15 stops per day across a territory. Each customer has a service frequency (monthly, bi-monthly, quarterly), a preferred time window, and a variable service duration (10 minutes for a basic exterior spray to 90 minutes for a full interior treatment). Scheduling these recurring visits across 300-1,000 customers in a territory while minimizing drive time, respecting time windows, and maintaining consistent scheduling (customers expect the same day/time each month) is an optimization problem that operations managers solve manually — typically freezing routes that become progressively less efficient as customers churn and new ones are added.

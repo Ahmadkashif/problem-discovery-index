@@ -5,7 +5,7 @@
 ---
 
 ## 1. Story Assignment Agent
-#ai-agent #nlp #automation #revenue-impact
+#ai-agent #large-language-models #bert #attention-mechanisms #word-embeddings #evaluation-metrics #revenue-impact #automation
 
 **Concept:** An autonomous agent that monitors incoming story signals — tips, press releases, public meeting agendas, social media trends, police blotter feeds, court filings, and competitor coverage — and generates prioritized story recommendations for the morning editorial meeting. Each recommendation includes a predicted engagement profile (from the engagement prediction model), suggested reporter assignment based on beat and availability, estimated reporting time, and a brief competitive scan showing whether other local outlets have covered the topic.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Multi-Platform Publishing Agent
-#ai-agent #llm #text-generation #nlp #automation
+#ai-agent #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #entropy-cross-entropy-kl-divergence #automation
 
 **Concept:** An agent that takes a published article and autonomously generates, formats, and schedules platform-specific versions: newsletter excerpt with subject line variants, Facebook and Instagram posts with engagement-optimized framing, Twitter/X thread, Apple News formatted summary, mobile push notification copy, and a homepage headline variant. The agent learns the outlet's voice from its archive, enforces AP style and editorial standards, and adapts framing for each platform's audience behavior patterns (learned from the outlet's historical platform performance data).
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Ad Sales Intelligence Agent
-#ai-agent #ai-platform #llm #text-generation #nlp #revenue-impact
+#ai-agent #ai-platform #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #entropy-cross-entropy-kl-divergence #revenue-impact
 
 **Concept:** An autonomous agent that identifies, researches, and generates custom ad sales proposals for local businesses. The agent monitors the outlet's coverage area for new business openings, expansions, seasonal campaigns, and competitor advertising activity, then generates a tailored pitch deck for each prospect showing: audience overlap with the business's customer profile, recommended ad placements and content sponsorships, comparable advertiser case studies from the outlet's history, and a pricing proposal calibrated to the prospect's estimated marketing budget.
 

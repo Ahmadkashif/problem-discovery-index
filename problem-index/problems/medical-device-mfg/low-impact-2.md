@@ -3,7 +3,7 @@
 **Industry:** [[medical-device-mfg|Medical Device Manufacturing]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Regulatory affairs professionals searching the FDA 510(k) database for predicate devices — substantially equivalent devices already cleared by FDA that serve as the legal basis for a new 510(k) submission — use keyword search on a database with 200,000+ records and inconsistent product classification, a task that takes days of manual review when a domain-specific search and comparison engine could surface the strongest predicates in hours.
-**Tags:** #bert #text-classification #nlp #compliance
+**Tags:** #bert #transformers #attention-mechanisms #word-embeddings #transfer-learning #evaluation-metrics #gradient-descent #norms-and-inner-products #compliance
 
 ## The Problem
 The 510(k) premarket notification pathway — used by 80%+ of new medical devices reaching the US market — requires demonstrating that a new device is substantially equivalent to a legally marketed predicate device. Finding the right predicate is a critical regulatory strategy decision: a strong predicate with similar intended use, technology, and performance characteristics makes the submission straightforward; a weak predicate invites FDA questions, additional testing requirements, or rejection. Regulatory affairs specialists search the FDA's 510(k) database (200,000+ clearance records dating to 1976), the device classification database, and sometimes published literature to identify candidate predicates. This search involves interpreting product codes, reading 510(k) summary statements, comparing intended use language, and assessing technology differences — a task that takes 2-5 days of focused regulatory affairs time per submission.

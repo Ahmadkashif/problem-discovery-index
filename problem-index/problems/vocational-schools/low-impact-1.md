@@ -3,7 +3,7 @@
 **Industry:** [[vocational-schools|Vocational Schools]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Accreditation self-study reports that take 3-6 months of manual assembly could be generated in days from structured data pulls and LLM-drafted narratives.
-**Tags:** #llm #text-generation #nlp #compliance
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #compliance #automation
 
 ## The Problem
 Vocational schools undergo accreditation reviews on 2-5 year cycles (ACCSC, COE, state licensing boards, plus programmatic accreditors for specific trades). Each cycle requires a self-study document — typically 200-400 pages — covering institutional effectiveness metrics, placement rates, student satisfaction surveys, financial stability, faculty qualifications, and curriculum alignment with industry standards. Compliance staff spend 3-6 months pulling data from disparate systems, writing narrative sections that contextualize the numbers, cross-referencing standards against evidence, and assembling supporting documentation. A single missed standard can trigger a show-cause letter that threatens the school's operating authority.

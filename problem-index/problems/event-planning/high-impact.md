@@ -3,7 +3,7 @@
 **Industry:** [[event-planning|Event Planning]]
 **Type:** High Impact
 **One-liner:** Planners quote within 5% on the first consultation instead of discovering the budget gap three months into planning — because the model reads the real scope behind the client's vision.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 When a client describes their event vision — "rustic chic barn wedding, 200 guests, craft cocktails, live band, autumn theme" — an experienced planner mentally prices every implied element: the barn venue costs $8K-$15K, craft cocktails for 200 means $35-$50/person ($7K-$10K), a live band runs $3K-$8K, autumn floral is premium ($6K-$10K), and they haven't mentioned lighting, rentals, stationery, transportation, or day-of coordination. The real budget is $60K-$90K, but the client says "$40K." An experienced planner manages this gap immediately, resetting expectations or adjusting scope. A new planner takes the client at their word, plans to $40K, and spends three months discovering that nothing in the vision fits the budget — destroying the relationship and the planner's margin.

@@ -3,7 +3,7 @@
 **Industry:** [[warehouse-3pl|Warehouse & 3PL]]
 **Type:** Worker Life Changing
 **One-liner:** Pickers who follow WMS-generated pick lists in a sequence that's not optimized for their current aisle position — resulting in unnecessary backtracking — get a real-time path that minimizes their travel distance for the current pick batch given their location in the warehouse.
-**Tags:** #tabular-ml #automation #worker-facing #workflow-orchestration
+**Tags:** #optimization-fundamentals #graph-theory #combinatorics-and-counting #automation #worker-facing #workflow-orchestration
 
 ## The Problem
 

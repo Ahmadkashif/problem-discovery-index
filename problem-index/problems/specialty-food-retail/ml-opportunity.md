@@ -6,7 +6,7 @@
 ---
 
 ## 1. Perishable Product Quality Assessment and Shelf Life Estimation at Receiving
-#cnn #gradient-boosting #multiclass-classification #computer-vision #tabular-ml #tacit-knowledge-ml
+#cnns #gradient-boosting #transfer-learning #feature-engineering #cross-validation #evaluation-metrics #loss-functions #backpropagation #gradient-descent #tacit-knowledge-ml
 
 **Problem statement:** Capture and replicate the sensory quality judgments that experienced specialty food staff make when evaluating incoming perishable products — a cheesemonger who feels the rind, smells the paste, and knows this wheel has 4 days of peak ripeness left vs. 10; a produce buyer who assesses color and firmness of avocados and knows which case is 2 days from perfect and which is already past peak; a butcher who examines marbling, color, and texture and knows the grade and aging state. This tacit expertise, built from handling thousands of products, drives ordering, pricing, and merchandising decisions — and it leaves the business when an experienced staff member departs.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. SKU-Level Demand Forecasting for Perishables
-#gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+#gradient-boosting #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Predict daily unit demand per SKU at an individual specialty food store, accounting for day-of-week seasonality, holidays, weather, and shelf-life constraints, to generate optimal reorder quantities that minimize both spoilage and stockouts.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 2. Dynamic Markdown Pricing for Approaching-Date Inventory
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #gradient-descent #revenue-impact
 
 **Problem statement:** Determine the optimal markdown price and timing for perishable items approaching their sell-by date, maximizing recovery value while clearing inventory before spoilage.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Customer Basket Analysis and Product Affinity
-#k-means #recommendation #tabular-ml #revenue-impact
+#k-means-clustering #feature-engineering #evaluation-metrics #descriptive-statistics #expectation-variance-covariance #dimensionality-reduction #revenue-impact
 
 **Problem statement:** Identify product co-purchase patterns and customer segments in specialty food retail to inform cross-merchandising, staff pairing recommendations, and targeted promotions.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Seasonal Assortment Planning and SKU Rationalization
-#random-forest #multiclass-classification #tabular-ml #data-integration
+#random-forests #decision-trees #feature-engineering #cross-validation #evaluation-metrics #entropy-cross-entropy-kl-divergence #bias-variance-tradeoff #data-integration
 
 **Problem statement:** Recommend which SKUs to add, drop, or adjust quantities for in upcoming seasonal rotations, based on historical performance, category balance, and margin contribution.
 

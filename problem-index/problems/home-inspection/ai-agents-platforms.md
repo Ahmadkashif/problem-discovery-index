@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Home Inspection
 
 **Industry:** [[home-inspection|Home Inspection]]
-**Tags:** #ai-agent #ai-platform #automation #workflow-orchestration #revenue-impact
+**Tags:** #ai-agent #ai-platform #cnns #gradient-boosting #large-language-models #object-detection #transfer-learning #feature-engineering #evaluation-metrics #automation #workflow-orchestration #revenue-impact
 
 ---
 

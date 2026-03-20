@@ -3,7 +3,7 @@
 **Industry:** [[med-spas|Med Spas]]
 **Type:** Worker Life Changing
 **One-liner:** Injectors stop making their worst clinical decisions at 4pm after 8 hours of continuous facial assessment and treatment planning — because a visual decision support system pre-analyzes each patient's facial anatomy and presents structured treatment options before the consultation begins.
-**Tags:** #cnn #multiclass-classification #computer-vision #worker-facing
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering #activation-functions #worker-facing
 
 ## The Problem
 A busy med spa injector sees 12-20 patients per day, each requiring a unique facial assessment and treatment recommendation. The first consultation of the day gets full cognitive resources: the injector carefully assesses facial proportions, considers multiple treatment options, thinks about long-term treatment sequencing, and crafts a comprehensive plan. By the 15th consultation, cognitive depletion is measurable: recommendations become more formulaic, treatment plans less comprehensive, and the injector defaults to their 3-4 most familiar treatments rather than considering the full range of options. This isn't laziness — it's the documented neuroscience of decision fatigue, amplified by the visual-spatial and creative cognitive demands of aesthetic assessment.

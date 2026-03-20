@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Freight Brokerage
 
 **Industry:** [[freight-brokerage|Freight Brokerage]]
-**Tags:** #ai-agent #ai-platform #automation #workflow-orchestration #revenue-impact
+**Tags:** #ai-agent #ai-platform #gradient-boosting #time-series-forecasting #feature-engineering #automation #workflow-orchestration #revenue-impact
 
 ---
 

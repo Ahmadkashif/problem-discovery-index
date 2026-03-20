@@ -3,7 +3,7 @@
 **Industry:** [[moving-companies|Moving Companies]]
 **Type:** High Impact
 **One-liner:** Every move gets a quote within 5% of actual cost before the truck leaves the warehouse, eliminating profit-destroying underestimates and customer-losing overestimates.
-**Tags:** #gradient-boosting #regression #computer-vision #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #cnns #object-detection #feature-engineering #cross-validation #evaluation-metrics #transfer-learning #backpropagation #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 An experienced estimator walks through a 3-bedroom house and, within 15 minutes, produces a quote covering cubic footage, crew size, truck allocation, and total hours — accurate to within 10% — using pattern recognition they cannot fully articulate. They notice the solid oak dresser that will need four people, the narrow L-shaped staircase that adds 45 minutes, the garage full of awkwardly shaped items that won't stack. New estimators take 2-3 years to develop this intuition, and during that ramp-up period their estimates miss by 20-40%, directly eroding margins on binding quotes or triggering disputes on non-binding ones. The industry loses an estimated 8-12% of gross revenue annually to estimation error.

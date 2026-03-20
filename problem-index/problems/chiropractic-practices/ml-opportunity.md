@@ -6,7 +6,7 @@
 ---
 
 ## 1. Postural Compensation Pattern Recognition from Standardized Photos
-#cnn #gradient-boosting #multiclass-classification #computer-vision #tabular-ml #tacit-knowledge-ml
+#cnns #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #backpropagation #gradient-descent #cross-validation #bias-variance-tradeoff #tacit-knowledge-ml
 
 **Problem statement:** Experienced chiropractors read compensatory biomechanical chains across the full kinetic chain — seeing how foot pronation drives pelvic tilt drives spinal curvature drives head position. This pattern recognition takes 10-15 years of clinical experience to develop and varies by technique system. Encoding this tacit knowledge into a computer vision model would make expert-level postural assessment available to every DC regardless of experience level.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Treatment Outcome Prediction by Condition and Presentation
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #linear-regression #probability-distributions #expectation-variance-covariance #bias-variance-tradeoff
 
 **Problem statement:** Chiropractors set treatment plans based on experience and condition type, but cannot predict which patients will respond quickly (6-8 visits), which will require extended care (20+ visits), and which are unlikely to respond to chiropractic care at all. Accurate outcome prediction would reduce over-treatment, enable earlier referral for non-responders, and support insurance medical necessity documentation.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Visit Count Estimation for Treatment Planning
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #linear-regression #survival-analysis #probability-distributions #expectation-variance-covariance
 
 **Problem statement:** DCs estimate treatment plan length at the initial exam, but these estimates are often standardized by condition type rather than individualized. Accurate per-patient visit estimates improve case acceptance, insurance pre-authorization, and patient expectation management.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Insurance Denial Risk Prediction
-#gradient-boosting #binary-classification #tabular-ml #compliance
+#gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #entropy-cross-entropy-kl-divergence #compliance
 
 **Problem statement:** Chiropractic claims are denied at 2-3x the rate of general medical claims. Predicting which claims are likely to be denied before submission would enable proactive documentation improvement, saving both the denied revenue and the appeal time.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Patient Compliance and Dropout Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #survival-analysis #conditional-probability-and-bayes-theorem #probability-distributions
 
 **Problem statement:** 30-40% of chiropractic patients drop out of their treatment plan before completion. Predicting which patients are at risk of dropping out would enable proactive engagement (schedule flexibility, financial arrangements, education on expected timeline) before the patient disappears.
 

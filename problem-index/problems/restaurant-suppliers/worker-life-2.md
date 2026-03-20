@@ -3,7 +3,7 @@
 **Industry:** [[restaurant-suppliers|Restaurant Suppliers]]
 **Type:** Worker Life Changing
 **One-liner:** Meat cutters and warehouse workers stop getting blamed for pick errors on custom orders that were set up to fail by illegible specs and time pressure.
-**Tags:** #cnn #object-detection #computer-vision #worker-facing
+**Tags:** #cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #worker-facing
 
 ## The Problem
 Restaurant supply warehouses handle a mix of case-pick (grab a case of canned tomatoes) and custom-cut/portioned products (cut 40 lbs of NY strip into 12-oz portions, portion 25 lbs of salmon into 6-oz filets). Custom orders account for 15-25% of warehouse volume but generate 60-70% of picking errors. A meat cutter receives a printed ticket — often hand-annotated by a sales rep — specifying cut, portion size, trim level, and pack count. Under time pressure (orders ship by 4 AM for morning delivery), errors compound: wrong portion size, wrong cut specification, miscounted packs. Each error triggers a credit memo ($50-$200), a re-delivery, and a damaged customer relationship.

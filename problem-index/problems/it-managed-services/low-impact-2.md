@@ -3,7 +3,7 @@
 **Industry:** [[it-managed-services|IT Managed Services]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Device counts in ConnectWise never match device counts in Datto, and the gap is pure revenue leakage on per-device contracts.
-**Tags:** #bert #named-entity-recognition #nlp #data-integration #automation
+**Tags:** #bert #transformers #word-embeddings #transfer-learning #attention-mechanisms #feature-engineering #evaluation-metrics #data-integration #automation
 
 ## The Problem
 MSPs bill clients on per-device, per-user, or per-seat models, but the source-of-truth for device and user counts is split across PSA (ConnectWise Manage, Autotask) and RMM (Datto, ConnectWise Automate, NinjaRMM) platforms. These systems drift: a new workstation deployed by the client's internal IT shows up in RMM but not in the PSA agreement; a decommissioned server stays in the PSA billing configuration for months. The typical MSP under-bills by 5-12% due to unreconciled asset counts, representing $50-150K in annual revenue leakage for a 2,000-endpoint shop.

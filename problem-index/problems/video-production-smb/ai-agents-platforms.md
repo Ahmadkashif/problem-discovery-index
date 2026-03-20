@@ -5,7 +5,7 @@
 ---
 
 ## 1. Project Estimation Agent
-#ai-agent #revenue-impact #automation
+#ai-agent #large-language-models #gradient-boosting #feature-engineering #evaluation-metrics #attention-mechanisms #revenue-impact #automation
 
 **Concept:** An autonomous agent that ingests a client brief (email, PDF, or intake form), extracts project parameters (deliverable types, durations, shoot requirements, distribution channels), queries the shop's historical project database for comparable jobs, and generates a detailed estimate with line-item costs, timeline, and risk flags — all before the producer opens a spreadsheet. The agent identifies scope ambiguities in the brief and drafts clarifying questions for the client. When a project is active, it monitors hours logged against the estimate and alerts the producer when any line item hits 75% of budget.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Review Workflow Agent
-#ai-agent #workflow-orchestration #nlp
+#ai-agent #large-language-models #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #workflow-orchestration
 
 **Concept:** An agent that sits between clients and editors, intercepting feedback from any channel (email, Slack, SMS, voice memo, Frame.io comments), parsing it into structured revision instructions with frame-accurate timecodes, resolving conflicts between multiple stakeholders, and presenting the editor with a prioritized, actionable revision checklist. When feedback is ambiguous, the agent drafts a clarification request to the client with specific options ("Did you mean shorten the intro montage from 15s to 10s, or replace the opening shot entirely?"). After the editor completes revisions, the agent generates a change log for the client showing exactly what was modified.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Asset Licensing & Compliance Agent
-#ai-agent #compliance #nlp
+#ai-agent #large-language-models #bert #attention-mechanisms #word-embeddings #entropy-cross-entropy-kl-divergence #compliance
 
 **Concept:** An agent that monitors every stock footage clip, music track, and sound effect used across all projects, automatically ingesting and parsing license agreements from every vendor (Shutterstock, Artgrid, Epidemic Sound, Musicbed, Pond5, etc.), and maintaining a real-time compliance database. When an editor drags a stock clip into a timeline, the agent checks the license against the project's deliverable specs and distribution plan — flagging violations before the project ships. When a client requests repurposing a delivered video for a new channel, the agent instantly reports which assets require re-licensing and what the cost would be.
 

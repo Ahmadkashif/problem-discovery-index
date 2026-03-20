@@ -5,7 +5,7 @@
 ---
 
 ## 1. Member Retention Agent
-#ai-agent #gradient-boosting #survival-analysis #tabular-ml #revenue-impact
+#ai-agent #gradient-boosting #survival-analysis #decision-trees #feature-engineering #evaluation-metrics #maximum-likelihood-estimation #probability-distributions #revenue-impact
 
 **Concept:** An autonomous agent that continuously monitors member engagement signals across AMS, event, email, and community platforms, computes real-time lapse risk scores, and executes a tiered retention workflow without human initiation. For low-risk members approaching renewal, it sends personalized automated reminders with value summaries. For medium-risk members, it drafts personalized outreach emails for the membership director's review, pre-populated with engagement history and suggested talking points. For high-risk members, it schedules a call on the membership director's calendar with a briefing document. Post-interaction, it logs outcomes and updates its risk model.
 **Inputs:** AMS membership records, event attendance logs, email engagement data, community forum activity, committee participation records, historical renewal outcomes, membership director feedback on outreach results.
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Legislative Alert and Advocacy Coordination Agent
-#ai-agent #bert #text-classification #nlp #compliance
+#ai-agent #bert #transfer-learning #attention-mechanisms #word-embeddings #evaluation-metrics #entropy-cross-entropy-kl-divergence #compliance
 
 **Concept:** An agent that autonomously monitors federal and state legislative databases, classifies bill relevance to the association's domain, assesses member impact by jurisdiction, generates plain-language alert summaries, and coordinates advocacy responses. When a relevant bill is introduced, the agent drafts a member-facing alert explaining the impact in non-legal language, identifies affected members by state/district, suggests advocacy actions (contact your representative, submit public comment, attend hearing), and — if authorized — sends segmented alerts through the association's email platform. For high-priority bills, it drafts testimony templates and talking points for the government affairs director.
 **Inputs:** Legislative database feeds (LegiScan, congress.gov, OpenStates APIs), association policy position documents, member geographic and segment data from AMS, historical advocacy action data, government affairs staff feedback on alert accuracy.
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Conference Planning and Optimization Platform
-#ai-platform #llm #text-generation #nlp #workflow-orchestration #recommendation
+#ai-platform #large-language-models #attention-mechanisms #transformers #gradient-boosting #feature-engineering #optimization-fundamentals #workflow-orchestration
 
 **Concept:** A vertical platform that manages the full association conference lifecycle: speaker recruitment (sourcing from member database, generating personalized invitations, tracking responses), sponsor fulfillment (mapping contract obligations to agenda slots, tracking deliverables, flagging gaps), agenda optimization (predicting session attendance, assigning rooms, resolving scheduling conflicts), CE credit management (auto-generating accreditation submissions from session metadata), and attendee experience personalization (recommending sessions based on member profile and engagement history). The platform replaces the 6-8 spreadsheets and 3-4 disconnected tools that event planners currently juggle.
 **Inputs:** AMS member data (expertise, past presentations, committee roles), sponsor contracts with tier obligations, historical session attendance data, CE accreditation requirements by jurisdiction, venue room capacities and AV configurations, attendee registration and preference data.

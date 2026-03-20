@@ -3,7 +3,7 @@
 **Industry:** [[metal-fabrication|Metal Fabrication]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Finite element analysis tools can simulate weld distortion, but require hours of setup per assembly by an FEA engineer — while fabrication shops need a fast, practical distortion prediction that a welder or fitter can use to set up pre-bend angles and welding sequence for a new assembly before it distorts and requires straightening.
-**Tags:** #gradient-boosting #regression #gaussian-process #tabular-ml #simulation
+**Tags:** #gradient-boosting #gaussian-processes #linear-regression #feature-engineering #cross-validation #evaluation-metrics #confidence-intervals #bayesian-optimization #tacit-knowledge-ml
 
 ## The Problem
 

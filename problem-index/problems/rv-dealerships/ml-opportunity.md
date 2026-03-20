@@ -6,7 +6,7 @@
 ---
 
 ## 1. Trade-In Condition Assessment from Walkthrough Inspection
-#cnn #gradient-boosting #regression #computer-vision #tabular-ml #tacit-knowledge-ml
+#cnns #gradient-boosting #linear-regression #transfer-learning #feature-engineering #loss-functions #evaluation-metrics #gradient-descent #tacit-knowledge-ml
 
 **Problem statement:** Experienced RV appraisers walk through a trade-in and read dozens of subtle visual signals — soft spots, discoloration, seal degradation, appliance age markers, delamination patterns — to estimate reconditioning cost within 10-15% accuracy. This tacit knowledge, developed over thousands of trade-in inspections, is the most valuable and scarce skill at an RV dealership. Without it, dealerships over-pay for trades by 35-50% due to hidden damage.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Service Repair Time Prediction for Multi-System Jobs
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance
 
 **Problem statement:** RV service jobs span 2-10 days across multiple specialties. Accurate time prediction is critical for scheduling, customer communication, and capacity planning, but no labor guide accounts for the interactions between systems on a single unit.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Seasonal Demand Forecasting for Service Capacity
-#gradient-boosting #time-series-forecasting #tabular-ml
+#gradient-boosting #time-series-forecasting #exponential-smoothing #feature-engineering #evaluation-metrics #descriptive-statistics
 
 **Problem statement:** Winterization and de-winterization create 4-6 week demand spikes that overwhelm service departments. Accurate demand forecasting by week would enable proactive staffing and staggered campaign timing.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Trade-In Market Value Estimation
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff
 
 **Problem statement:** NADA guides provide base RV values, but actual market values vary 20-40% based on brand reputation, floor plan popularity, option packages, and regional demand — factors that trade quickly in the RV market.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Customer Lifestyle-to-Unit Matching
-#bert #recommendation #nlp #tabular-ml
+#bert #transformers #attention-mechanisms #word-embeddings #feature-engineering #evaluation-metrics #gradient-descent
 
 **Problem statement:** RV buying is lifestyle-driven — a retired couple full-timing needs different features than a young family weekend camping. Sales consultants match customers to units through conversation, but new consultants lack the experience to ask the right questions and map answers to inventory.
 

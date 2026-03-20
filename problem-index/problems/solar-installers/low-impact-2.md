@@ -3,7 +3,7 @@
 **Industry:** [[solar-installers|Solar Installers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic project timeline tools don't model the utility interconnection queue — the primary source of timeline uncertainty in solar projects — which varies by utility, queue backlog, and project size in ways that only firms with extensive local utility experience can estimate accurately.
-**Tags:** #gradient-boosting #regression #tabular-ml #automation
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #automation
 
 ## The Problem
 

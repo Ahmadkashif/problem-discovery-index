@@ -3,7 +3,7 @@
 **Industry:** [[painting-contractors|Painting Contractors]]
 **Type:** High Impact
 **One-liner:** Experienced painters who assess surface condition — reading peeling paint patterns, substrate moisture, chalking, adhesion failure, and substrate type — to determine the correct prep method and paint system before applying any product get that diagnostic reasoning replicated by a computer vision model, preventing paint failures caused by incorrect surface assessment.
-**Tags:** #cnn #multiclass-classification #computer-vision #tacit-knowledge-ml #revenue-impact
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #feature-engineering #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 

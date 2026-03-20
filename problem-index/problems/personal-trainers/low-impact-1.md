@@ -3,7 +3,7 @@
 **Industry:** [[personal-trainers|Personal Trainers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic scheduling tools don't understand session packages, makeup policies, or the financial mechanics of a trainer's cancellation-heavy business.
-**Tags:** #gradient-boosting #regression #tabular-ml #workflow-orchestration
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #probability-distributions #bias-variance-tradeoff #workflow-orchestration
 
 ## The Problem
 Trainers sell sessions in packages (10-packs, monthly subscriptions, punch cards) with complex cancellation and makeup rules — 24-hour cancellation policies, storm/illness exceptions, rollover sessions, and expiration dates. When a client cancels, the trainer must decide whether to charge the session, offer a makeup, or extend the package, then manually update the remaining balance, reschedule, and fill the now-open slot. With 15-30 active clients each managing different package types, the bookkeeping becomes a part-time job.

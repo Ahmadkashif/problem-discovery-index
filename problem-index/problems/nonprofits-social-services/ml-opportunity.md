@@ -6,7 +6,7 @@
 ---
 
 ## 1. Client Needs Assessment from Intake Conversations (Tacit Knowledge ML)
-#gradient-boosting #bert #multiclass-classification #nlp #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #bert #transfer-learning #attention-mechanisms #feature-engineering #evaluation-metrics #word-embeddings #cross-validation #entropy-cross-entropy-kl-divergence #tacit-knowledge-ml
 
 **Problem statement:** Experienced case managers read a client's intake narrative — what they say, how they say it, what they omit — and identify underlying needs the client hasn't explicitly stated. A client requesting help with utility bills may actually be facing eviction; a client describing "family stress" may be experiencing domestic violence; a client minimizing substance use may need immediate referral to treatment. This pattern recognition develops over years of practice and is the difference between a new case manager who takes the presenting problem at face value and a veteran who reads between the lines.
 
@@ -25,7 +25,7 @@
 ---
 
 ## 2. Program Outcome Prediction
-#gradient-boosting #causal-inference #tabular-ml #revenue-impact
+#gradient-boosting #causal-inference #feature-engineering #evaluation-metrics #logistic-regression #hypothesis-testing #conditional-probability-and-bayes-theorem #confidence-intervals #revenue-impact
 
 **Problem statement:** Predict whether a specific client will achieve the target outcome for a given program (e.g., stable housing at 12 months, employment at 6 months, sobriety at 90 days) based on their characteristics at enrollment, enabling better resource allocation and honest effectiveness reporting.
 
@@ -44,7 +44,7 @@
 ---
 
 ## 3. Donor Lapse Prediction
-#gradient-boosting #survival-analysis #tabular-ml #worker-facing
+#gradient-boosting #survival-analysis #decision-trees #feature-engineering #evaluation-metrics #maximum-likelihood-estimation #probability-distributions #expectation-variance-covariance #worker-facing
 
 **Problem statement:** Predict which donors in a nonprofit's portfolio are at risk of lapsing (ceasing giving entirely) within the next 6 months, enabling proactive stewardship before the relationship deteriorates beyond recovery.
 
@@ -63,7 +63,7 @@
 ---
 
 ## 4. Volunteer Retention and Reliability Prediction
-#gradient-boosting #binary-classification #tabular-ml #workflow-orchestration
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #cross-validation #probability-distributions #bias-variance-tradeoff #workflow-orchestration
 
 **Problem statement:** Predict which volunteers are likely to no-show for a specific upcoming shift and which volunteers are at risk of permanently disengaging from the organization, enabling proactive schedule management and retention outreach.
 

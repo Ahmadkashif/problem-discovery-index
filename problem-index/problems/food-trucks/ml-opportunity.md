@@ -6,7 +6,7 @@
 ---
 
 ## 1. Location-Day Revenue Prediction (Tacit Knowledge Capture)
-#gradient-boosting #regression #tabular-ml #tacit-knowledge-ml #revenue-impact
+#gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Experienced food truck operators integrate weather, local events, day-of-week, competitor positions, and neighborhood foot-traffic patterns into a single daily location decision — but this intuition takes 2-3 years to develop and cannot be articulated as explicit rules. The goal is to capture this tacit decision process as a predictive model that any operator can use from day one.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Daily Prep Quantity Optimization
-#gradient-boosting #regression #tabular-ml #quick-win
+#gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #quick-win
 
 **Problem statement:** Food trucks must prep ingredients 4-8 hours before service with no ability to restock mid-shift. Over-prep wastes $50-$150/day in perishable ingredients; under-prep loses $200-$500 in turned-away customers. The optimal prep quantity depends on location, weather, day-of-week, menu mix, and whether there is a nearby event — the same features that drive revenue, but mapped to per-item demand.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Menu Item Demand by Location Type
-#random-forest #multiclass-classification #tabular-ml #recommendation
+#random-forests #decision-trees #k-means-clustering #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff
 
 **Problem statement:** Different locations attract different customer demographics with different taste preferences — a tech-campus lunch crowd skews toward bowls and healthy options, while a late-night bar district wants loaded fries and tacos. Operators currently guess which menu items to emphasize at each location type, leading to mismatched inventory and missed upsell opportunities.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Social Media Post Timing & Content Optimization
-#gradient-boosting #regression #tabular-ml #quick-win
+#gradient-boosting #linear-regression #decision-trees #feature-engineering #causal-inference #evaluation-metrics #hypothesis-testing #quick-win
 
 **Problem statement:** Food trucks rely on Instagram, Twitter/X, and TikTok to announce daily locations and drive foot traffic, but operators post at random times with inconsistent content quality. The engagement-to-foot-traffic conversion is unmeasured: operators do not know whether a post at 9 AM or 10:30 AM generates more actual customers, or whether a photo of the truck at the location outperforms a menu close-up.
 

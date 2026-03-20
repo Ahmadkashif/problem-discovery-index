@@ -3,7 +3,7 @@
 **Industry:** [[insurance-tpa|Insurance Third-Party Administrators (TPAs)]]
 **Type:** Worker Life Changing
 **One-liner:** Account managers stop spending 60% of their day firefighting individual claim escalations from carrier clients because AI-generated claim status summaries and proactive exception reporting address client questions before they become phone calls.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #worker-facing
 
 ## The Problem
 TPA account managers are the primary relationship interface between the TPA and its carrier/employer clients. Each account manager handles 5-15 client accounts, and their intended role is strategic — ensuring overall program performance, managing SLA compliance, and growing the relationship. In practice, 60-70% of their time is consumed by individual claim escalations: a carrier's claims liaison calls to ask "What's the status of claim #XYZ?" or "Why was this claim denied?" or "This claim has been open for 90 days — what's happening?" Each inquiry requires the account manager to research the claim in the claims system, compile a summary, and respond — a 15-30 minute task that occurs 10-20 times per day across their client portfolio. The result is an account manager who is perpetually reactive, never has time for proactive client management, and burns out from the constant interruptions and context-switching.

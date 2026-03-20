@@ -3,7 +3,7 @@
 **Industry:** [[insurance-restoration|Insurance Restoration]]
 **Type:** High Impact
 **One-liner:** Restoration contractors stop losing $5K-$15K per job from underscoped water damage because a model predicts where moisture has migrated behind walls and under floors before demo begins — eliminating the cycle of scope supplements, carrier pushback, and absorbed costs.
-**Tags:** #cnn #gradient-boosting #regression #computer-vision #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #cnns #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #backpropagation #gradient-descent #cross-validation #bias-variance-tradeoff #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 When a water loss occurs — burst pipe, appliance failure, storm intrusion — visible damage is only part of the picture. Water wicks through drywall, migrates along floor joists, travels through insulation, and pools in cavities that are invisible without destructive investigation. An experienced restoration technician walks into a water loss, looks at the visible damage, considers the building's construction type (slab vs. crawlspace, balloon frame vs. platform frame), estimates elapsed time since the loss, notes ambient humidity and temperature, and predicts where moisture has traveled. They know that a second-floor bathroom overflow in a balloon-frame home means water has reached the basement. They know that water on a concrete slab migrates laterally 3-5 feet beyond visible damage. They know that 72 hours of standing water in a Category 1 loss can escalate to Category 3 contamination.

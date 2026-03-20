@@ -3,7 +3,7 @@
 **Industry:** [[youth-sports-orgs|Youth Sports Organizations]]
 **Type:** High Impact
 **One-liner:** Organizations stop losing 30% of volunteer coaches every season to preventable administrative overload, and registration stops being a three-week crisis managed in spreadsheets.
-**Tags:** #gradient-boosting #regression #tabular-ml #workflow-orchestration #automation
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #optimization-fundamentals #probability-distributions #workflow-orchestration #automation
 
 ## The Problem
 Youth sports organizations run registration windows where 200-2,000 families sign up across multiple programs within days. Administrators manually sort players into age groups, manage waitlists, handle scholarship requests, and assign teams — while simultaneously recruiting volunteer coaches, securing field permits, and scheduling referee coverage. The interdependencies are brutal: you can't finalize teams until you have coaches, can't schedule until you have fields, and can't confirm fields until you know team counts.

@@ -3,7 +3,7 @@
 **Industry:** [[commercial-real-estate|Commercial Real Estate]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic document parsing tools can extract text from PDF leases but don't understand CRE-specific lease structure — rent escalations, CAM reconciliation, co-tenancy clauses, options to renew, and termination provisions — the fields that determine the economic risk and value of a commercial property's rent roll.
-**Tags:** #llm #named-entity-recognition #nlp #automation #data-integration
+**Tags:** #large-language-models #transfer-learning #word-embeddings #attention-mechanisms #transformers #feature-engineering #evaluation-metrics #automation #data-integration
 
 ## The Problem
 

@@ -3,7 +3,7 @@
 **Industry:** [[medical-billing|Medical Billing]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Payer billing rule changes are published across dozens of websites, bulletins, and policy updates — but no tool aggregates them into actionable alerts for the specific payers and specialties a billing company handles.
-**Tags:** #ml-nlp #compliance #quick-win
+**Tags:** #bert #transfer-learning #large-language-models #compliance #quick-win
 
 ## The Problem
 Insurance payers constantly update their billing rules: new prior authorization requirements, changed modifier policies, updated fee schedules, revised LCD/NCD coverage determinations, and modified bundling logic. These changes are published in payer bulletins, CMS transmittals, MAC (Medicare Administrative Contractor) updates, and sometimes only communicated through webinars or portal notices. A billing company managing 30 provider clients across 5 specialties and 15 payers needs to monitor hundreds of information sources. Missing a rule change means weeks of preventable denials before the pattern is recognized.

@@ -3,7 +3,7 @@
 **Industry:** [[real-estate-appraisers|Real Estate Appraisers]]
 **Type:** High Impact
 **One-liner:** Residential appraisers who develop supportable dollar adjustments for property differences (bedroom count, bathroom count, garage, condition, location) through subjective market experience and matched-pair analysis — a process that takes experienced appraisers years to calibrate and junior appraisers routinely get wrong — get a market-calibrated adjustment model derived from the local MLS sales data that reflects how buyers in that specific market actually price each property attribute.
-**Tags:** #gradient-boosting #regression #causal-inference #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #linear-regression #causal-inference #feature-engineering #cross-validation #evaluation-metrics #confidence-intervals #bias-variance-tradeoff #maximum-likelihood-estimation #revenue-impact
 
 ## The Problem
 

@@ -3,7 +3,7 @@
 **Industry:** [[last-mile-delivery|Last-Mile Delivery]]
 **Type:** High Impact
 **One-liner:** Delivery operations that re-deliver 5-10% of packages at full per-stop cost because no one was home or the address is inaccessible — costs that compound across thousands of daily stops — get a per-stop success probability score before dispatch, enabling dynamic interventions (alternate delivery instructions, delivery time window selection, locker routing) that reduce first-attempt failures.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 

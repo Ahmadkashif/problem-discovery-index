@@ -3,7 +3,7 @@
 **Industry:** [[accounting-firms-smb|SMB Accounting Firms]]
 **Type:** High Impact
 **One-liner:** Firms reclaim 30-40% of busy season capacity currently spent chasing and manually keying client documents into tax prep software.
-**Tags:** #bert #cnn #ocr #named-entity-recognition #nlp #computer-vision #automation #revenue-impact
+**Tags:** #bert #cnns #transfer-learning #attention-mechanisms #word-embeddings #loss-functions #backpropagation #evaluation-metrics #gradient-descent #automation #revenue-impact
 
 ## The Problem
 During tax season, a typical 5-person CPA firm manages 300-500 individual returns and 50-100 business returns. Each client submits documents through a chaotic mix of channels: emailed PDFs, photos of W-2s taken on phones, forwarded 1099 emails, bank statement downloads, and occasionally physical paper. Staff accountants spend 20-30 minutes per individual return and 1-3 hours per business return simply gathering, identifying, and manually entering data from these documents into UltraTax, Lacerte, or Drake. At a blended staff rate of $75/hour, a mid-size firm burns $150K-$300K annually on document intake alone — time that could be spent on advisory work billed at $200-$400/hour.

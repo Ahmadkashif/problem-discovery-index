@@ -3,7 +3,7 @@
 **Industry:** [[food-trucks|Food Trucks]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Shared commissary kitchens run on first-come-first-served sign-up sheets — food truck operators end up prepping at 3 AM or losing a service day entirely.
-**Tags:** #gradient-boosting #regression #tabular-ml #workflow-orchestration
+**Tags:** #gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #workflow-orchestration
 
 ## The Problem
 Most municipalities require food trucks to operate out of a licensed commissary kitchen for storage, prep, and cleaning. These commissaries serve 15-40 trucks on rotating schedules, but booking is typically managed via paper sign-up sheets, group texts, or a basic Google Calendar shared among all tenants. Prime prep slots (4-7 AM) are perpetually oversubscribed, forcing operators into 2-3 AM arrivals or afternoon slots that compress their service window. When an operator's route changes last-minute (weather cancellation, event reschedule), there is no mechanism to release or swap slots efficiently.

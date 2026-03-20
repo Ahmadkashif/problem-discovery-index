@@ -5,7 +5,7 @@
 ---
 
 ## 1. Inspection Diagnostic Agent
-#ai-agent #computer-vision #tacit-knowledge-ml #revenue-impact
+#ai-agent #cnns #transfer-learning #feature-engineering #evaluation-metrics #tacit-knowledge-ml #revenue-impact
 
 **Concept:** An AI agent that guides pest control technicians through structured inspections, analyzing evidence photos in real-time to identify species, assess severity, map entry points, and recommend treatment protocols. The agent acts as a virtual senior technician — it sees what the field tech photographs and provides expert-level interpretation. During the inspection, it prompts: "Photograph the droppings near the kitchen sink for species confirmation... These appear to be German cockroach frass — note the pepper-like appearance. Check behind the refrigerator and under the dishwasher for harborage. Severity estimate: moderate, 3-6 month establishment based on distribution." Output is a complete inspection report with evidence-based treatment recommendation.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Treatment Planning and Compliance Agent
-#ai-agent #compliance #automation
+#ai-agent #large-language-models #transformers #attention-mechanisms #compliance #automation
 
 **Concept:** An AI agent that generates regulatory-compliant treatment plans from inspection findings. Given the diagnosis (species, severity, location), the agent selects appropriate products from the company's inventory considering label restrictions, state regulations, customer-specific constraints (pets, children, organic preferences), and treatment efficacy data. It generates the complete application record pre-filled with EPA registration numbers, target pest, application rates, and weather conditions. Post-service, it triggers any required notifications and files state reports automatically.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Route and Territory Optimization Platform
-#ai-platform #workflow-orchestration #automation
+#ai-platform #optimization-fundamentals #feature-engineering #gradient-boosting #evaluation-metrics #workflow-orchestration #automation
 
 **Concept:** A platform that continuously optimizes pest control territories, route assignments, and recurring service schedules as customers churn and new ones onboard. Rather than static route sheets that degrade over time, the platform re-optimizes weekly, inserting new customers into the optimal day/position, rebalancing territories when technician headcount changes, and forecasting capacity constraints before they become service failures. Includes demand forecasting by pest type and region to enable proactive staffing.
 

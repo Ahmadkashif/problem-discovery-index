@@ -3,7 +3,7 @@
 **Industry:** [[wealth-management-rias|Wealth Management RIAs]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Compliance documentation tools exist for broker-dealers but don't map to the specific regulatory framework RIAs face under the Investment Advisers Act of 1940.
-**Tags:** #llm #text-classification #nlp #compliance
+**Tags:** #large-language-models #bert #transfer-learning #attention-mechanisms #word-embeddings #evaluation-metrics #compliance
 
 ## The Problem
 RIA firms face SEC examinations (for firms with >$100M AUM) or state regulatory exams (for smaller firms) every 3-7 years. Preparation requires assembling and organizing years of documentation: ADV Parts 1, 2A, and 2B filings, client agreements, trading records, advertising archives, email retention records, best execution analyses, and proxy voting records. A typical exam request list contains 40-80 line items. Firms spend 80-200 hours pulling, organizing, and cross-referencing these documents, often hiring outside compliance consultants at $200-400/hour.

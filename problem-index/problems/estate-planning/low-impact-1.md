@@ -3,7 +3,7 @@
 **Industry:** [[estate-planning|Estate Planning Law Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Document assembly tools like HotDocs and Wealth Counsel generate standard estate planning documents from templates, but the intake process that feeds them — gathering asset information, family structure, and planning objectives — is still a manual conversation requiring the attorney to translate unstructured client input into structured form fields.
-**Tags:** #llm #seq2seq #nlp #automation #workflow-orchestration
+**Tags:** #large-language-models #transformers #seq2seq #attention-mechanisms #transfer-learning #automation #workflow-orchestration
 
 ## The Problem
 Before documents can be assembled, the attorney must gather the client's full estate planning picture: marital status, children and their ages, current asset inventory (real property, financial accounts, retirement accounts, business interests, life insurance), named beneficiaries on non-probate assets, healthcare preferences, current incapacity concerns, and charitable intentions. This intake conversation takes 60-90 minutes and generates handwritten notes or recorded discussion that a paralegal then transcribes into the document assembly software's intake fields. The transcription step adds time, introduces transcription errors, and the intake fields often don't map cleanly to the nuanced information gathered in conversation.

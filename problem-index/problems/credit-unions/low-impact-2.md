@@ -3,7 +3,7 @@
 **Industry:** [[credit-unions|Credit Unions]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** BSA/AML platforms like Verafin and Abrigo detect suspicious transactions using rule-based thresholds and ML models trained primarily on commercial bank data, producing 90%+ false positive alert rates at small credit unions where normal member transaction patterns trigger rules designed for different account behaviors.
-**Tags:** #gradient-boosting #anomaly-detection #tabular-ml #compliance
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #probability-distributions #descriptive-statistics #hypothesis-testing #compliance
 
 ## The Problem
 

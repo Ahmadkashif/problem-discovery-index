@@ -3,7 +3,7 @@
 **Industry:** [[solar-installers|Solar Installers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic CRM lead scoring tools exist but don't model the solar-specific signals that predict whether a lead will close — homeownership, roof age, south-facing roof area, current electricity bill, shade conditions, local utility rate trajectory, and the customer's decision timeline for a $20,000 purchase.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #conditional-probability-and-bayes-theorem #revenue-impact
 
 ## The Problem
 

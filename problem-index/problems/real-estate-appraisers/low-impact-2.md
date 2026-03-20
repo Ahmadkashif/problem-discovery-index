@@ -3,7 +3,7 @@
 **Industry:** [[real-estate-appraisers|Real Estate Appraisers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** TOTAL and other report writing platforms format appraisal reports but don't flag USPAP compliance gaps or CU-risk indicators before submission — catching the internal consistency errors and unsupported adjustment patterns that lead to lender revision requests.
-**Tags:** #llm #text-classification #nlp #compliance #automation
+**Tags:** #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #evaluation-metrics #compliance #automation
 
 ## The Problem
 

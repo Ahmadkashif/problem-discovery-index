@@ -3,7 +3,7 @@
 **Industry:** [[commercial-real-estate|Commercial Real Estate]]
 **Type:** High Impact
 **One-liner:** Small-to-mid-sized CRE brokers who rely on expensive CoStar subscriptions and manual comp searches to value properties and identify pricing signals — information that institutional brokers access through sophisticated analytics platforms — get an affordable, automated comparable transaction analysis and valuation model calibrated to their specific submarket and asset type focus.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #probability-distributions #expectation-variance-covariance #revenue-impact
 
 ## The Problem
 

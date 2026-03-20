@@ -3,7 +3,7 @@
 **Industry:** [[hoa-management|HOA Management]]
 **Type:** Worker Life Changing
 **One-liner:** HOA managers who write 10-30 violation notices per community per inspection cycle — each one needing to cite the specific CC&R section, describe the violation, state the remediation required, and set a correction deadline — get those notices generated automatically from the inspection record with the correct CC&R citations for each violation type.
-**Tags:** #llm #text-generation #nlp #compliance #worker-facing
+**Tags:** #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #compliance #worker-facing
 
 ## The Problem
 

@@ -3,7 +3,7 @@
 **Industry:** [[pest-control|Pest Control]]
 **Type:** Worker Life Changing
 **One-liner:** Sales inspectors stop being forced to choose between their commission and their conscience — an objective diagnostic system validates what the property actually needs.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #worker-facing
 
 ## The Problem
 The "sales inspector" role combines pest diagnosis with sales — the person who identifies the problem also sells the treatment. Commission structures incentivize upselling: recommending a $1,500 termite treatment when monitoring would suffice, or selling a full-home fumigation when targeted treatment would resolve the issue. Ethical inspectors face constant tension between doing right by the customer and earning a living. The result is either customer exploitation (upselling) or inspector income loss (honest recommendations that leave money on the table).

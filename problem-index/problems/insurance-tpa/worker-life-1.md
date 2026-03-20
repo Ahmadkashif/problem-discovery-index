@@ -3,7 +3,7 @@
 **Industry:** [[insurance-tpa|Insurance Third-Party Administrators (TPAs)]]
 **Type:** Worker Life Changing
 **One-liner:** Claims examiners stop making their worst decisions at 3 PM because AI-assisted document extraction and pre-populated decision templates reduce each claim from 60 minutes of cognitive labor to 15 minutes of review — cutting the daily decision count from 8-10 from-scratch analyses to 15-20 confirmations.
-**Tags:** #bert #text-classification #nlp #worker-facing
+**Tags:** #bert #transfer-learning #word-embeddings #attention-mechanisms #transformers #loss-functions #evaluation-metrics #entropy-cross-entropy-kl-divergence #worker-facing
 
 ## The Problem
 A claims examiner makes 8-10 substantive coverage decisions per day, each requiring focused attention on unstructured medical records, policy language, and regulatory requirements. By mid-afternoon, the examiner has processed 200+ pages of medical documentation, compared dozens of diagnosis-treatment combinations against policy terms, and written 5-6 decision rationales. Decision fatigue is real and measurable — error rates on claims adjudicated after 2 PM are 15-25% higher than morning decisions. Examiners report feeling "mentally drained" by early afternoon but cannot slow down because SLA deadlines create constant time pressure. The cognitive load is compounded by interruptions — phone calls from claimants, emails from attorneys, and supervisor reviews break concentration, forcing the examiner to re-read documents they've already processed.

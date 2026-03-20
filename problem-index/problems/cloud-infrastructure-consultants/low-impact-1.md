@@ -3,7 +3,7 @@
 **Industry:** [[cloud-infrastructure-consultants|Cloud Infrastructure Consultants]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic IaC generators produce syntactically correct Terraform/CloudFormation but miss the firm's naming conventions, security baselines, and client-specific module patterns — engineers spend 40% of their time fixing generated code.
-**Tags:** #llm #text-generation #nlp #automation
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #automation
 
 ## The Problem
 Cloud consultants build Terraform modules, CloudFormation stacks, and Pulumi programs for every client engagement. Common patterns recur — VPC with public/private subnets, EKS cluster with managed node groups, RDS with Multi-AZ failover — but each client has unique requirements around naming conventions, tagging policies, security group rules, and compliance constraints. Engineers either start from scratch or copy-paste from a previous project and spend hours adapting it, introducing drift from the firm's internal standards.

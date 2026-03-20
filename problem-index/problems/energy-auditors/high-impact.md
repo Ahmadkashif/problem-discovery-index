@@ -3,7 +3,7 @@
 **Industry:** [[energy-auditors|Energy Auditors]]
 **Type:** High Impact
 **One-liner:** Savings projections become trustworthy enough that homeowners, contractors, and utility programs can fund retrofits with confidence instead of guesswork.
-**Tags:** #gradient-boosting #gaussian-process #regression #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #gaussian-processes #feature-engineering #cross-validation #evaluation-metrics #bayesian-inference #confidence-intervals #probability-distributions #bias-variance-tradeoff #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Energy auditors collect field measurements — blower door results, insulation R-values, duct leakage, HVAC efficiency ratings, window specs — and feed them into modeling software (TREAT, Ekotrope, REM/Rate) to predict energy savings from proposed retrofits. The models routinely over-predict savings by 30-50% because they cannot account for occupant behavior, micro-climate effects, building geometry nuances, and the dozens of judgment calls an experienced auditor makes but never records. Experienced auditors mentally adjust their recommendations based on patterns they have seen across hundreds of buildings — noticing that a particular 1960s ranch floor plan always leaks more than the model predicts, or that a certain furnace brand degrades faster than its rated efficiency — but this calibration knowledge lives entirely in their heads and retires when they do.

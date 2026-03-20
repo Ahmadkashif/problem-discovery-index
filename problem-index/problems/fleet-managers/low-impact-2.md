@@ -3,7 +3,7 @@
 **Industry:** [[fleet-managers|Fleet Managers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Fuel card systems track purchases, but they can't detect the subtle patterns that distinguish legitimate fuel use from theft — fuel card sharing, odometer manipulation, and strategic fueling at non-contracted stations.
-**Tags:** #isolation-forest #anomaly-detection #tabular-ml
+**Tags:** #random-forests #decision-trees #feature-engineering #evaluation-metrics #descriptive-statistics #probability-distributions #expectation-variance-covariance
 
 ## The Problem
 Fuel is typically the second-largest fleet expense after depreciation. Fuel card fraud — drivers filling personal vehicles, selling fuel access, or manipulating odometer readings — costs fleets 3-7% of fuel spend. Beyond outright theft, suboptimal fueling behavior (ignoring contracted stations, fueling partially rather than fully, fueling at peak price times) adds 5-10% to costs. Fleet managers review fuel card reports monthly, but the volume of transactions (hundreds per day) makes manual detection of anomalies impossible.

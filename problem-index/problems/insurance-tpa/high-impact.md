@@ -3,7 +3,7 @@
 **Industry:** [[insurance-tpa|Insurance Third-Party Administrators (TPAs)]]
 **Type:** High Impact
 **One-liner:** TPAs cut claims processing time from 15-30 days to 3-5 days for routine claims by automating document extraction, coverage matching, and initial decision recommendations — while maintaining the accuracy that keeps carriers from pulling their book of business.
-**Tags:** #bert #gradient-boosting #binary-classification #nlp #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #bert #transfer-learning #feature-engineering #cross-validation #evaluation-metrics #loss-functions #probability-distributions #conditional-probability-and-bayes-theorem #entropy-cross-entropy-kl-divergence #revenue-impact
 
 ## The Problem
 A TPA claims examiner processes 150-200 claims per month across workers' compensation, group health, or property/casualty lines. Each claim requires: (1) intake and documentation assembly — collecting the claim form, supporting medical records, employer reports, police reports, or property damage assessments, (2) coverage verification — matching the claim against the specific policy's terms, exclusions, waiting periods, and benefit schedules, (3) medical review — for health and workers' comp claims, evaluating whether the treatment is medically necessary, whether the diagnosis matches the mechanism of injury, and whether the provider's billing is appropriate, (4) reserve estimation — setting aside the predicted total cost of the claim based on diagnosis, treatment trajectory, and historical outcomes, and (5) adjudication decision — approve, deny, or pend for additional information, with written justification that can withstand regulatory audit and legal challenge.

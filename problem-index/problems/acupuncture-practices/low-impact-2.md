@@ -3,7 +3,7 @@
 **Industry:** [[acupuncture-practices|Acupuncture Practices]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic inventory management tracks stock levels, but it doesn't know that Chai Hu (Bupleurum) in a Xiao Yao San formula must be from a specific grade supplier, that the formula requires 7 herbs in precise ratios, that the patient's concurrent use of blood thinners contraindicates Dan Shen (Salvia), or that California requires different labeling than Oregon for herbal products.
-**Tags:** #gradient-boosting #regression #tabular-ml
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #time-series-forecasting #probability-distributions #expectation-variance-covariance
 
 ## The Problem
 Approximately 30-40% of acupuncture practices prescribe Chinese herbal formulas — either as raw herbs, granule concentrates, or patent pills. A practice maintaining a raw herb dispensary stocks 150-300 individual herbs, each with expiration dates, quality grades, and supplier variability. Classical formulas (Gui Zhi Tang, Si Wu Tang, Xiao Yao San) combine 4-15 herbs in specific ratios. Practitioners frequently modify classical formulas by adding or removing herbs based on the patient's TCM pattern. Inventory management is a nightmare: tracking which herbs are running low, reordering from approved suppliers (GMP-certified, heavy metal tested), managing lot numbers for traceability, checking for herb-drug interactions, and complying with state-specific labeling requirements.

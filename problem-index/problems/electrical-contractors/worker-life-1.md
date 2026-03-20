@@ -3,7 +3,7 @@
 **Industry:** [[electrical-contractors|Electrical Contractors]]
 **Type:** Worker Life Changing
 **One-liner:** An apprentice or journeyman electrician standing in front of an intermittent electrical problem — flickering lights, a GFCI that keeps tripping, a breaker that trips under specific loads — gets a structured diagnostic checklist that surfaces the most likely causes based on the symptom pattern, instead of guessing or waiting for the master to come over.
-**Tags:** #llm #multiclass-classification #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #evaluation-metrics #conditional-probability-and-bayes-theorem #worker-facing
 
 ## The Problem
 Electrical fault diagnosis is one of the most experience-dependent skills in the trade. An intermittent fault (a light that occasionally flickers, a circuit that trips under specific conditions, an outlet that works sometimes) can have 5-15 different root causes, and the correct diagnosis requires understanding the symptom pattern, the circuit's topology, the building's age and wiring history, and the specific failure signatures associated with each cause type. An experienced master electrician hears "the lights flicker when the refrigerator starts" and immediately knows this is likely a loose neutral connection or an undersized service conductor — they've seen this pattern hundreds of times. An apprentice hears the same symptom description and has no framework for what to check first, leading to random testing that wastes time and sometimes fails to find the problem at all.

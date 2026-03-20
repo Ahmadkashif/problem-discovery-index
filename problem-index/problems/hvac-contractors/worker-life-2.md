@@ -3,7 +3,7 @@
 **Industry:** [[hvac-contractors|HVAC Contractors]]
 **Type:** Worker Life Changing
 **One-liner:** HVAC technicians handling refrigerants who are required by EPA Section 608 to log every refrigerant recovery and charge event — recording equipment identifier, refrigerant type, amount recovered/added, and technician certification number — get that logging done automatically from the service call data, eliminating a compliance documentation task that takes 5-10 minutes per call and is frequently done incorrectly.
-**Tags:** #automation #compliance #worker-facing #llm
+**Tags:** #large-language-models #transformers #transfer-learning #automation #compliance #worker-facing
 
 ## The Problem
 

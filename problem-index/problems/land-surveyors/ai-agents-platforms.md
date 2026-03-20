@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Land Surveyors
 
 **Industry:** [[land-surveyors|Land Surveyors]]
-**Tags:** #ai-agent #ai-platform #llm #bert #cnn #gradient-boosting #text-generation #text-classification #multiclass-classification #semantic-segmentation #ocr #nlp #computer-vision #tabular-ml #tacit-knowledge-ml #compliance #revenue-impact
+**Tags:** #ai-agent #ai-platform #large-language-models #bert #cnns #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #semantic-segmentation #attention-mechanisms #tacit-knowledge-ml #compliance #revenue-impact
 
 ---
 

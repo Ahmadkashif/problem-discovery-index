@@ -6,7 +6,7 @@
 ---
 
 ## 1. Congregant Engagement Trajectory Prediction (Tacit Knowledge ML)
-#gradient-boosting #survival-analysis #tabular-ml #tacit-knowledge-ml #revenue-impact
+#gradient-boosting #survival-analysis #decision-trees #feature-engineering #evaluation-metrics #maximum-likelihood-estimation #probability-distributions #expectation-variance-covariance #cross-validation #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Experienced pastors detect family disengagement from subtle multi-signal patterns — attendance frequency shifts, giving cadence changes, small-group withdrawal, reduced volunteerism — weeks before anyone else notices. This tacit pattern recognition breaks down as congregations grow past 150-200 members and cannot scale through hiring alone.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Giving Pattern Anomaly Detection
-#isolation-forest #anomaly-detection #tabular-ml #revenue-impact
+#gradient-boosting #change-point-detection #feature-engineering #evaluation-metrics #time-series-forecasting #descriptive-statistics #probability-distributions #revenue-impact
 
 **Problem statement:** Churches depend on consistent giving but have no early warning when giving patterns shift at the aggregate or household level — a major donor quietly reduces contributions, seasonal giving dips arrive earlier than expected, or a campaign underperforms relative to historical norms. Staff discover shortfalls only when the monthly financial report reveals a gap.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Small Group Health Scoring
-#gradient-boosting #binary-classification #tabular-ml #data-integration
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #cross-validation #probability-distributions #bias-variance-tradeoff #data-integration
 
 **Problem statement:** Small groups (Bible studies, life groups, discipleship cohorts) are the primary relational engine of most churches, but leaders and staff have no visibility into which groups are thriving and which are quietly dying. A group that started with 12 members may have 4 active participants and a burned-out facilitator, but this only surfaces when the group formally disbands.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Event Attendance and Resource Demand Forecasting
-#gradient-boosting #regression #tabular-ml #workflow-orchestration
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #probability-distributions #confidence-intervals #workflow-orchestration
 
 **Problem statement:** Churches plan events — holiday services, vacation Bible school, community outreach meals, special concerts — with wildly inaccurate attendance estimates. Easter might draw 2x normal attendance, but whether it's 1.8x or 2.4x determines whether you need overflow seating, additional parking volunteers, and extra children's ministry rooms. Under-preparation creates chaotic visitor experiences; over-preparation wastes volunteer hours and budget.
 

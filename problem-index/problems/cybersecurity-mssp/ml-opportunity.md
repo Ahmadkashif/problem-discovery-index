@@ -6,7 +6,7 @@
 ---
 
 ## 1. Alert True-Positive Scoring from Analyst Tacit Knowledge
-#gradient-boosting #bert #binary-classification #nlp #tabular-ml #tacit-knowledge-ml #revenue-impact
+#gradient-boosting #bert #transformers #feature-engineering #cross-validation #evaluation-metrics #word-embeddings #transfer-learning #entropy-cross-entropy-kl-divergence #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Senior SOC analysts can glance at an alert — its source, severity, MITRE mapping, timing, payload snippet, and client context — and classify it as true or false positive in seconds. This expert judgment integrates 15-20 signals simultaneously and is never documented. When that analyst leaves, their pattern recognition leaves too, and the MSSP's false positive rate spikes until a replacement builds the same intuition over 6-12 months.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Threat Hunting Anomaly Detection Across Client Environments
-#isolation-forest #autoencoder #anomaly-detection #tabular-ml
+#autoencoders #activation-functions #loss-functions #backpropagation #gradient-descent #descriptive-statistics #probability-distributions #feature-engineering
 
 **Problem statement:** Threat hunters at MSSPs proactively search for signs of compromise that rule-based detection missed. They manually query SIEM data looking for unusual patterns — lateral movement, data exfiltration staging, living-off-the-land binary usage — across dozens of client environments. An automated anomaly detection system could surface the most suspicious behavioral deviations for human review, expanding threat hunting coverage from 2-3 clients per hunter per week to all clients continuously.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Client Security Risk Scoring & Gap Prioritization
-#gradient-boosting #multiclass-classification #tabular-ml #compliance
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #descriptive-statistics #compliance
 
 **Problem statement:** MSSPs assess each client's security posture periodically, but the scoring is subjective and inconsistent across analysts. A model that ingests each client's actual telemetry — patch cadence, endpoint coverage percentage, mean-time-to-respond, alert volume trends, vulnerability scan results, compliance control status — and outputs a calibrated risk score with prioritized gap recommendations would standardize assessments and enable continuous monitoring.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Incident Response Time Prediction & SLA Risk Scoring
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #confidence-intervals #probability-distributions #revenue-impact
 
 **Problem statement:** MSSPs operate under SLA commitments — typically 15-minute acknowledgment and 1-4 hour containment windows depending on severity. When multiple incidents occur simultaneously or during off-hours with reduced staffing, SLA breaches happen and trigger contractual penalties. A model that predicts expected resolution time for each incoming incident, given current SOC workload and analyst availability, would let shift leads proactively redistribute work and escalate before an SLA breach occurs rather than after.
 

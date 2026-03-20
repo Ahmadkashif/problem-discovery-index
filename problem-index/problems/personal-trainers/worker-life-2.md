@@ -3,7 +3,7 @@
 **Industry:** [[personal-trainers|Personal Trainers]]
 **Type:** Worker Life Changing
 **One-liner:** Trainers get back 8-12 hours per week currently spent on program writing, check-in messages, and bookkeeping — hours that could be sessions or rest.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing #automation
 
 ## The Problem
 For every hour a trainer spends in a session, they spend 20-30 minutes on unpaid administrative work: writing next week's program, logging session notes, responding to client check-in messages ("Is it okay if I do extra cardio today?"), sending invoices, chasing late payments, updating spreadsheets, and posting social media content to attract new clients. A trainer with 25 weekly sessions spends 8-12 additional hours on admin — effectively working 40+ hours while billing for 25. The admin work is repetitive, low-skill relative to the trainer's expertise, but too personalized to outsource cheaply.

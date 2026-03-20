@@ -3,7 +3,7 @@
 **Industry:** [[auto-body-shops|Auto Body Shops]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Parts ordering tools can search catalogs, but they can't make the OEM-vs-aftermarket-vs-recycled decision for each part on each repair considering insurance guidelines, shop margin, quality risk, and availability.
-**Tags:** #gradient-boosting #multiclass-classification #tabular-ml #automation
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #entropy-cross-entropy-kl-divergence #automation
 
 ## The Problem
 Every collision repair requires dozens of parts decisions: OEM new, aftermarket new, recycled/salvage, or remanufactured. Each option has different cost, quality, warranty, availability, and insurance acceptance characteristics. Insurance companies push alternative parts to reduce claim costs; customers want OEM quality; shops want the option that arrives fastest with best margin. Parts managers make 50-100 of these decisions daily, often under time pressure and with incomplete information about availability.

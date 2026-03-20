@@ -3,7 +3,7 @@
 **Industry:** [[security-guard-firms|Security Guard Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Operations managers stop being woken at 3am every time a guard no-shows and start sleeping through the night because the system handles routine callouts autonomously.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #worker-facing
 
 ## The Problem
 Security operations run 24/7, and guard no-shows are a daily occurrence. When a midnight guard doesn't appear, someone must scramble to fill the post — and that someone is the operations manager. Ops managers describe being on-call 24/7/365, receiving 2-5 callouts per night for no-shows, emergency requests, and guard issues. Each callout requires 20-60 minutes: calling backup guards, confirming availability, dispatching, and notifying the client. The cumulative sleep disruption and stress makes this role unsustainable — ops manager turnover at security firms is 40-50% annually.

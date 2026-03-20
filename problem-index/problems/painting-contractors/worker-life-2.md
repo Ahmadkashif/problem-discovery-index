@@ -3,7 +3,7 @@
 **Industry:** [[painting-contractors|Painting Contractors]]
 **Type:** Worker Life Changing
 **One-liner:** Painting company owners who don't know whether their jobs are profitable until the invoice is sent — and who have no visibility into which crew members or job types consistently run over budget — get a real-time profitability dashboard from clock-in/clock-out data and material usage records.
-**Tags:** #tabular-ml #regression #automation #worker-facing #revenue-impact
+**Tags:** #linear-regression #gradient-boosting #feature-engineering #evaluation-metrics #descriptive-statistics #automation #worker-facing #revenue-impact
 
 ## The Problem
 

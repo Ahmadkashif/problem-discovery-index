@@ -6,7 +6,7 @@
 ---
 
 ## 1. Underground Utility Detection from GPR B-Scan Imagery
-#cnn #object-detection #regression #signal-processing #tacit-knowledge-ml
+#cnns #object-detection #linear-regression #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering #tacit-knowledge-ml
 
 **Problem statement:** GPR B-scan interpretation — identifying buried utility hyperbolic reflections and estimating depth — requires 2-3 years of supervised training to perform reliably. A CNN trained on labeled GPR B-scan data can identify and classify subsurface reflections to reduce utility strikes during excavation.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Gas Leak Indicator Detection from Patrol Photos
-#cnn #binary-classification #computer-vision #tacit-knowledge-ml #quick-win
+#cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering #tacit-knowledge-ml #quick-win
 
 **Problem statement:** Detect above-grade gas migration visual indicators (dead vegetation patterns, surface anomalies) from patrol photos to guide combustible gas indicator deployment during leak detection surveys.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. CCTV Pipe Inspection Defect Coding (PACP/MACP Automation)
-#cnn #object-detection #semantic-segmentation #computer-vision
+#cnns #object-detection #semantic-segmentation #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent
 
 **Problem statement:** Automate NASSCO PACP/MACP condition coding from CCTV footage to reduce the labor intensity of large utility pipe inspection programs.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Project Ground Condition Risk Assessment
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #conditional-probability-and-bayes-theorem #revenue-impact
 
 **Problem statement:** Predict which utility construction projects are at elevated risk of encountering unforeseen ground conditions (rock, unexpected utility congestion, groundwater) that will require scope changes and erode fixed-price contract margin.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Cathodic Protection System Anomaly Detection
-#isolation-forest #anomaly-detection #time-series-forecasting #signal-processing
+#time-series-forecasting #change-point-detection #evaluation-metrics #feature-engineering #descriptive-statistics #hypothesis-testing #probability-distributions
 
 **Problem statement:** Cathodic protection (CP) systems on buried metal pipelines require periodic voltage and current measurement surveys. Detecting when a CP system's readings indicate inadequate protection — before the pipeline segment corrodes through — is a safety and regulatory compliance requirement.
 

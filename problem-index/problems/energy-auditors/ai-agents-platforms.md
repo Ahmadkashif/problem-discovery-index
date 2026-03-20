@@ -5,7 +5,7 @@
 ---
 
 ## 1. Audit Report Agent
-#ai-agent #llm #text-generation #nlp #automation
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #automation
 
 **Concept:** An autonomous agent that ingests raw audit data (field measurements, photos, model outputs, test results) and generates fully formatted, standards-compliant reports for multiple audiences in a single pass. The agent understands HERS, BPI 2400, ASHRAE Level I/II/III report structures and produces each variant from the same underlying dataset — including measure descriptions written in the terminology each standard requires, compliant savings calculations, and pre-populated compliance attestation sections. It adapts narrative tone for the audience: technical for utility QA reviewers, accessible for homeowners, executive-summary style for commercial building managers.
 **Inputs:** Structured audit data export from modeling software (TREAT, Ekotrope, REM/Rate), field photos, blower door / duct blaster test results, proposed measure specifications.
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Incentive Matching Agent
-#ai-agent #bert #text-classification #nlp #data-integration
+#ai-agent #bert #transformers #word-embeddings #transfer-learning #large-language-models #feature-engineering #data-integration
 
 **Concept:** A continuously-updated agent that monitors federal, state, utility, and municipal incentive programs, parses their eligibility requirements into structured rules, and automatically matches a specific building's audit data and proposed retrofit measures to all applicable incentives. When the auditor completes an audit, the agent outputs a ranked list of incentive programs the project qualifies for, with dollar amounts, application deadlines, and pre-filled application forms. It monitors program funding levels and alerts auditors when programs are approaching budget exhaustion or when new programs launch in their service territory.
 **Inputs:** Completed audit data (building characteristics, proposed measures with specifications), auditor's service territory / utility territories served, homeowner income bracket (for income-qualified programs), real-time program database feeds.
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Field Data Capture Agent
-#ai-agent #cnn #ocr #computer-vision #automation #worker-facing
+#ai-agent #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #automation #worker-facing
 
 **Concept:** A mobile-first agent that acts as an intelligent field assistant during energy audits. The auditor photographs equipment nameplates, insulation, windows, and diagnostic instrument displays; the agent extracts structured data (model numbers, efficiency ratings, R-values, test readings) in real time and populates audit software fields automatically. It maintains a running checklist of required data points per audit protocol, alerts the auditor to missing items before they leave the building, and uses voice interaction for hands-free annotation in attics and crawlspaces. The agent cross-references extracted model numbers against AHRI and Energy Star databases to auto-populate equipment specifications.
 **Inputs:** Smartphone camera feed (photos of nameplates, insulation, windows, instrument displays), voice annotations, GPS location (for climate zone determination), audit protocol requirements (BPI, RESNET).

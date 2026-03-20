@@ -5,7 +5,7 @@
 ---
 
 ## 1. Herd Health Alert Agent
-#ai-agent #anomaly-detection #data-integration
+#ai-agent #cnns #lstms-and-grus #time-series-forecasting #evaluation-metrics #probability-distributions #data-integration
 
 **Concept:** An autonomous monitoring agent that fuses data from pen cameras, ear-tag sensors, weather stations, and treatment records to generate real-time illness risk scores for every animal on the operation. The agent doesn't just flag sick animals — it identifies emerging disease events at the pen and lot level, detects when morbidity rates are deviating from seasonal baselines, and autonomously escalates to the consulting veterinarian when patterns suggest a systemic issue (new BRD strain, mycotoxin-contaminated feed, water quality problem) rather than routine individual illness. It learns the operation's specific disease patterns over time, adjusting thresholds for breed types, arrival source (auction-origin cattle have 3-5x the BRD risk of ranch-direct cattle), and season.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Calving Watch Agent
-#ai-agent #computer-vision #worker-facing
+#ai-agent #cnns #object-detection #transfer-learning #loss-functions #evaluation-metrics #worker-facing
 
 **Concept:** A dedicated calving surveillance agent that monitors camera feeds from calving pastures and barns 24/7 during the calving season, autonomously classifying labor stages and dispatching alerts only when human intervention is needed. The agent distinguishes between normal unassisted calving (85-95% of events in mature cows) and dystocia requiring assistance, and learns the specific operation's herd characteristics over successive calving seasons — adjusting alert thresholds for heifer vs. mature cow calvings, updating its model with the outcome of every birth (assisted/unassisted, calf vigor score, cow recovery).
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Market Timing Agent
-#ai-agent #ai-platform #time-series-forecasting #tabular-ml #revenue-impact
+#ai-agent #ai-platform #time-series-forecasting #gradient-boosting #transformers #feature-engineering #optimization-fundamentals #revenue-impact
 
 **Concept:** An autonomous marketing decision agent for cattle producers that integrates live cattle futures prices, regional basis levels, seasonal price patterns, individual animal performance data (weight, rate of gain, projected quality grade), feed costs, and packer grid premiums/discounts to recommend optimal marketing timing and sorting for every pen or group of cattle. The agent runs continuous what-if simulations: "If you hold Pen 12 another 14 days, projected weight gain adds $38/head but increased feed cost is $25/head and futures curve suggests $15/head price decline — net: sell now at $2/head advantage over holding." It accounts for the non-linear economics that most producers miss — the interaction between yield grade discounts (overweight carcasses), quality grade premiums (more days on feed = more marbling), and declining feed efficiency in the final feeding period.
 

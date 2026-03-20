@@ -3,7 +3,7 @@
 **Industry:** [[solar-installers|Solar Installers]]
 **Type:** Worker Life Changing
 **One-liner:** Solar installers whose monitoring platforms (SolarEdge, Enphase) show hundreds of installed systems but have no automated alert system for underperforming systems — meaning customers notice the underperformance months before the installer does — get proactive anomaly alerts and auto-drafted customer communication before the customer calls to complain.
-**Tags:** #isolation-forest #anomaly-detection #time-series-forecasting #signal-processing #worker-facing
+**Tags:** #time-series-forecasting #change-point-detection #evaluation-metrics #feature-engineering #descriptive-statistics #hypothesis-testing #probability-distributions #worker-facing
 
 ## The Problem
 

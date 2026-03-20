@@ -3,7 +3,7 @@
 **Industry:** [[specialty-food-retail|Specialty Food Retail]]
 **Type:** Worker Life Changing
 **One-liner:** Counter staff get instant access to product origins, tasting notes, and pairing suggestions instead of memorizing hundreds of items over months of on-the-job training.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #word-embeddings #transfer-learning #evaluation-metrics #worker-facing
 
 ## The Problem
 A cheesemonger at a well-stocked cheese shop is expected to discuss 150–400 cheeses by name — knowing the milk type, region, producer, aging process, flavor profile, texture, seasonality, and ideal pairings for each. Wine shop staff face the same challenge across hundreds of labels. Butcher counter staff must advise on cuts, cooking methods, and sourcing. New hires take 6–12 months to reach baseline competence, and even experienced staff cannot keep up when 20% of the assortment rotates seasonally. The result: new employees defer to a senior colleague (creating a bottleneck), give vague answers ("it's good"), or avoid customer interactions entirely during their ramp-up period.

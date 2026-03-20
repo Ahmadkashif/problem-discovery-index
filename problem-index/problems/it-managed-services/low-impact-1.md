@@ -3,7 +3,7 @@
 **Industry:** [[it-managed-services|IT Managed Services]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic IT audit tools produce compliance checklists, not the MSP-specific client health scores and hardware refresh roadmaps that vCIOs need for quarterly business reviews.
-**Tags:** #gradient-boosting #regression #tabular-ml #data-integration
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #bias-variance-tradeoff #data-integration
 
 ## The Problem
 vCIOs at MSPs conduct quarterly business reviews (QBRs) with each client, presenting technology health scores, hardware lifecycle status, security posture, and budget recommendations. Preparing a single QBR takes 4-8 hours of manual data gathering: pulling asset age from RMM, cross-referencing warranty dates, checking patch compliance, reviewing ticket trends for recurring issues, and assembling it all into a client-facing deck. A vCIO managing 15-20 clients spends 60-120 hours per quarter just on QBR preparation, leaving little time for the strategic advisory work that differentiates a good MSP.

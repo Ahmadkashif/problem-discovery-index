@@ -3,7 +3,7 @@
 **Industry:** [[towing-companies|Towing Companies]]
 **Type:** Worker Life Changing
 **One-liner:** Tow operators work inches from highway traffic at night, in rain, on blind curves — a rear-facing awareness system gives them eyes in the back of their head when their hands are on the winch.
-**Tags:** #cnn #binary-classification #computer-vision #worker-facing
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #object-detection #matrix-algebra #optimization-fundamentals #worker-facing
 
 ## The Problem
 Tow truck operators are struck and killed at a rate that makes towing one of the most dangerous occupations in the United States — the National Highway Traffic Safety Administration reports an average of 60+ tow operator fatalities per year, with the majority involving being struck by passing vehicles while working roadside. The operator's attention is necessarily focused on the disabled vehicle: assessing damage, positioning the truck, operating the winch or wheel-lift, and securing the load. During this 10–30 minute window, they are exposed to passing traffic with only cones, strobes, and a reflective vest as protection. Night calls (which represent 35–40% of volume) and highway shoulder work are the highest-risk scenarios. Operators develop a hypervigilance — constantly glancing over their shoulder — that adds cognitive load and still cannot protect against a vehicle approaching from a blind spot at 65 mph.

@@ -3,7 +3,7 @@
 **Industry:** [[physical-therapy|Physical Therapy]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Standardized outcome measures are the gold standard for proving PT works, but administering them at the right times and comparing results to benchmarks remains a manual, inconsistent process.
-**Tags:** #compliance #automation #quick-win
+**Tags:** #decision-trees #feature-engineering #evaluation-metrics #compliance #automation #quick-win
 
 ## The Problem
 PT practices are increasingly required by payers and quality programs (MIPS, FOTO) to administer standardized outcome measures — tools like the Oswestry Disability Index (low back), DASH (upper extremity), LEFS (lower extremity), and Neck Disability Index — at evaluation, regular intervals, and discharge. Each measure is specific to a body region or condition. PTs must select the right measure, administer it at the right time points, score it, document it in the note, and report results to quality programs. Most PTs do this inconsistently because the EMR doesn't automate measure selection or scheduling.

@@ -3,7 +3,7 @@
 **Industry:** [[commercial-real-estate|Commercial Real Estate]]
 **Type:** Worker Life Changing
 **One-liner:** CRE brokers who manage 20-40 active client and deal relationships across 12-24 month deal cycles — without a CRM discipline — and routinely lose deals because they didn't follow up at the right moment get an automated relationship intelligence layer that surfaces which clients need attention this week and why.
-**Tags:** #gradient-boosting #tabular-ml #recommendation #automation #worker-facing
+**Tags:** #gradient-boosting #feature-engineering #evaluation-metrics #time-series-forecasting #probability-distributions #automation #worker-facing
 
 ## The Problem
 

@@ -3,7 +3,7 @@
 **Industry:** [[chiropractic-practices|Chiropractic Practices]]
 **Type:** Worker Life Changing
 **One-liner:** Chiropractors stop spending 2-3 hours every evening writing SOAP notes for the 20-30 patients they saw that day — because an ambient listening system generates compliant documentation from the clinical encounter in real time.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #worker-facing
 
 ## The Problem
 Every chiropractic visit requires a SOAP note documenting Subjective complaints, Objective findings (postural assessment, range of motion, orthopedic tests, palpation findings, subluxation levels), Assessment (clinical impression and response to care), and Plan (treatment rendered, home instructions, next visit). A thorough SOAP note takes 3-5 minutes to write per patient. With 20-30 patients per day, documentation consumes 1-2.5 hours of clinical time or — more commonly — is completed after hours at home. Most DCs use templated notes in their EHR (ChiroTouch, Jane App), but templates create compliance risk: identical-looking notes across visits suggest insufficient examination, triggering insurance audits. The documentation must be visit-specific with unique objective findings to withstand audit scrutiny, yet the workflow pressure of a patient every 10-15 minutes leaves no time for detailed writing between patients.

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Visual Product Quality Inspection on Production Lines
-#cnn #object-detection #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #object-detection #transfer-learning #loss-functions #backpropagation #gradient-descent #evaluation-metrics #matrix-algebra #optimization-fundamentals #tacit-knowledge-ml
 
 **Problem statement:** Experienced QA inspectors visually assess product at line speed for defects — color deviation, shape deformation, foreign material, seal integrity, fill-level inconsistency — using pattern recognition that takes 2-5 years to develop and degrades with fatigue. A CNN-based inspection system can perform 100% inline assessment, replacing sampling inspection and eliminating fatigue-driven quality escapes.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Batch Yield Prediction from Process Parameters
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #descriptive-statistics
 
 **Problem statement:** Batch-to-batch yield variation of 3-8% is driven by ingredient lot properties, ambient conditions (humidity, temperature), equipment condition, and operator parameter choices. Predicting final batch yield from early-stage process parameters enables mid-batch corrections and identifies which input variables most influence yield for a given product.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Shelf Life Prediction from Production Conditions
-#gradient-boosting #survival-analysis #tabular-ml
+#gradient-boosting #survival-analysis #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #conditional-probability-and-bayes-theorem
 
 **Problem statement:** Product shelf life depends on production conditions (thermal processing adequacy, packaging atmosphere, seal integrity, ingredient lot characteristics) and storage conditions. Predicting shelf life from production parameters enables proactive identification of batches with shortened shelf life before they reach distribution, reducing waste and customer complaints from early spoilage.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Equipment Failure Prediction from Sensor Streams
-#lstm #binary-classification #signal-processing
+#lstms-and-grus #logistic-regression #time-series-forecasting #backpropagation #loss-functions #feature-engineering #evaluation-metrics #change-point-detection
 
 **Problem statement:** Unplanned equipment downtime on filling, mixing, and conveying equipment costs $5,000-$50,000 per hour in lost production. Experienced maintenance technicians detect early failure signatures — bearing vibration changes, motor current anomalies, temperature trends — before catastrophic failure, but this monitoring is intermittent and depends on technician availability and attention.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Ingredient Lot Quality Prediction from Supplier and COA Data
-#gradient-boosting #multiclass-classification #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #conditional-probability-and-bayes-theorem
 
 **Problem statement:** Incoming ingredient lot quality variance drives downstream batch quality variation. Experienced receiving inspectors and food scientists develop intuition for which suppliers, growing seasons, and COA value ranges predict lot-level quality problems — but this knowledge is not systematized. Predicting incoming lot quality from supplier history and COA data enables proactive receiving decisions and process parameter adjustments.
 

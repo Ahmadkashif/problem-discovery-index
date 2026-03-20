@@ -3,7 +3,7 @@
 **Industry:** [[non-emergency-medical-transport|Non-Emergency Medical Transport]]
 **Type:** Worker Life Changing
 **One-liner:** Drivers get back the mental bandwidth currently consumed by paperwork, signature chasing, and trip documentation — so they can focus on safely moving medically fragile patients.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #worker-facing
 
 ## The Problem
 NEMT drivers handle 8-15 trips per day, and each trip requires documenting pickup/dropoff times, collecting patient or facility staff signatures (often on a tablet with a cracked screen in a parking lot), noting any patient condition observations (e.g., "patient appeared confused," "oxygen tank was low"), recording odometer readings, and confirming the correct service level was provided. Drivers also manage direct patient interactions — helping patients into vehicles, securing wheelchairs, communicating with facility staff about patient readiness — while simultaneously watching the clock because their next pickup is in 22 minutes across town. On top of this, drivers receive dispatch changes via radio, text, or app notification mid-route and must mentally re-sequence their day. The cognitive load causes documentation errors on 15-25% of trips, which become billing denials that the driver never sees but that erode the company's revenue.

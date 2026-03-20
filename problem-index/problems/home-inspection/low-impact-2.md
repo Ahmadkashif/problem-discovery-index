@@ -3,7 +3,7 @@
 **Industry:** [[home-inspection|Home Inspection]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic inspection checklists cover all building systems but don't pre-flag the inspection focus areas most relevant to a specific property's characteristics — age, construction type, geographic location, and known historical deficiency patterns for similar properties.
-**Tags:** #gradient-boosting #tabular-ml #recommendation #automation
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #automation
 
 ## The Problem
 

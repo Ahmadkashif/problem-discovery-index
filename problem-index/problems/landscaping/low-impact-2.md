@@ -3,7 +3,7 @@
 **Industry:** [[landscaping|Landscaping]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic fertilization programs exist (4-step programs, 6-step programs) but don't account for regional soil type, pH, historical drought stress, customer's mowing and irrigation habits, or the specific grass species mix — the variables that determine whether the standard program is correct or needs adjustment.
-**Tags:** #gradient-boosting #regression #tabular-ml #compliance
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #compliance
 
 ## The Problem
 

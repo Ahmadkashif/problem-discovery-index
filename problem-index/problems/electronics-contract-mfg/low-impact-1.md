@@ -3,7 +3,7 @@
 **Industry:** [[electronics-contract-mfg|Electronics Contract Manufacturing]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Component search and cross-reference tools like Octopart and SiliconExpert exist for general electronics sourcing, but none of them understand an ECM's facility-specific AVL (Approved Vendor List), customer-specific component restrictions, or the form-fit-function equivalence criteria that determine whether an alternative component can actually be substituted on a specific PCBA without engineering change approval.
-**Tags:** #bert #text-classification #nlp #data-integration #automation
+**Tags:** #bert #transformers #word-embeddings #transfer-learning #attention-mechanisms #feature-engineering #evaluation-metrics #data-integration #automation
 
 ## The Problem
 A typical PCBA BOM contains 200-2,000 line items. When a customer sends a new BOM for quotation or when components on an existing program go on allocation or become obsolete, the procurement team must "scrub" the BOM: verify each component's availability, pricing, and lead time; identify components at risk (end-of-life, single-source, long lead time); and find approved alternatives for unavailable parts. This BOM scrub involves checking each component against the ECM's AVL (which vendors are approved for which component families), the customer's approved component list (which may restrict sourcing to specific manufacturers), and distributor availability (authorized vs. broker). A 500-line BOM scrub takes a procurement specialist 4-8 hours of manual cross-referencing between component databases, AVL spreadsheets, and distributor portals.

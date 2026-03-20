@@ -6,7 +6,7 @@
 ---
 
 ## 1. Vehicle Failure Prediction from Telematics and Maintenance History
-#lstm #gradient-boosting #anomaly-detection #signal-processing #tabular-ml #tacit-knowledge-ml
+#lstms-and-grus #gradient-boosting #feature-engineering #evaluation-metrics #loss-functions #probability-distributions #gradient-descent #time-series-forecasting #tacit-knowledge-ml
 
 **Problem statement:** Experienced fleet managers develop an intuition for which vehicles in their fleet are about to have problems — they notice patterns in maintenance frequency, driver complaints, telematics anomalies, and operating conditions that collectively signal impending failure before any single metric crosses a threshold. This pattern recognition across multiple weak signals is the definition of tacit knowledge that ML can capture.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Driver Risk Scoring and Incident Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #conditional-probability-and-bayes-theorem
 
 **Problem statement:** Telematics-based safety scores don't predict incidents well because they weight all events equally. A hard brake in a construction zone is different from a hard brake at a green light — context matters.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Fuel Consumption Anomaly Detection
-#isolation-forest #anomaly-detection #tabular-ml
+#random-forests #decision-trees #feature-engineering #evaluation-metrics #descriptive-statistics #probability-distributions #expectation-variance-covariance
 
 **Problem statement:** Fuel theft and waste hide in the noise of legitimate consumption variation. Detecting anomalies requires modeling expected consumption for each vehicle-route-driver-load combination and identifying deviations.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Optimal Vehicle Replacement Timing
-#survival-analysis #gradient-boosting #regression #tabular-ml
+#survival-analysis #gradient-boosting #linear-regression #feature-engineering #maximum-likelihood-estimation #probability-distributions #evaluation-metrics
 
 **Problem statement:** Fleets replace vehicles based on simple rules (age or mileage thresholds), ignoring the actual total cost of ownership trajectory. Some vehicles become expensive early; others run efficiently well past typical replacement age.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Dynamic Vehicle-Driver-Route Assignment
-#reinforcement-learning #regression #tabular-ml #workflow-orchestration
+#markov-decision-processes #dynamic-programming #policy-gradient-methods #optimization-fundamentals #gradient-descent #evaluation-metrics #workflow-orchestration
 
 **Problem statement:** Daily vehicle assignment is a constraint-satisfaction problem that coordinators solve heuristically. Optimal assignment considering vehicle suitability, driver certification, fuel efficiency, maintenance scheduling, and customer requirements could reduce costs 5-10%.
 

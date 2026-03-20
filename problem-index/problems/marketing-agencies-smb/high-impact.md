@@ -3,7 +3,7 @@
 **Industry:** [[marketing-agencies-smb|SMB Marketing Agencies]]
 **Type:** High Impact
 **One-liner:** Agencies can finally prove to a $10K/month client exactly which channel mix drove their conversions, ending the "is this working?" conversation that causes 30% of churn.
-**Tags:** #gradient-boosting #causal-inference #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #causal-inference #decision-trees #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #hypothesis-testing #revenue-impact
 
 ## The Problem
 SMB clients running $5K-$50K/month in ad spend typically spread budget across Google Ads, Meta, email nurture sequences, and organic content — but conversion data lives in siloed platform dashboards that each claim credit for the same sale. The agency account manager cannot answer the client's fundamental question: "Which of these channels is actually driving my revenue?" Without a defensible answer, the client defaults to cutting the channel with the least visible activity, which is often the one doing the most assisted-conversion work (email, organic SEO). Within 6-9 months, the client sees diminishing returns from the surviving channels and churns from the agency entirely.

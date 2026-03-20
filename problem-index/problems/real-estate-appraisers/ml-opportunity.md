@@ -6,7 +6,7 @@
 ---
 
 ## 1. Market-Calibrated Adjustment Development via Hedonic Regression
-#gradient-boosting #regression #causal-inference #tabular-ml #revenue-impact
+#gradient-boosting #linear-regression #causal-inference #feature-engineering #cross-validation #confidence-intervals #maximum-likelihood-estimation #bias-variance-tradeoff #evaluation-metrics #revenue-impact
 
 **Problem statement:** Derive market-supported dollar adjustments for standard property attributes (GLA, bedroom/bath, garage, condition, age) from local MLS sales data, replacing rule-of-thumb adjustment tables with statistically-calibrated market values.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Comparable Sale Ranking by Multi-Attribute Similarity
-#gradient-boosting #ranking #tabular-ml #quick-win
+#gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #norms-and-inner-products #bias-variance-tradeoff #quick-win
 
 **Problem statement:** Rank candidate comparable sales by their overall similarity to the subject property, weighted by local market adjustment rates, to guide comp selection.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. CU Risk Scoring Before Submission
-#gradient-boosting #binary-classification #tabular-ml #compliance #quick-win
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #compliance #quick-win
 
 **Problem statement:** Predict which appraisal reports will receive high CU risk scores (≥ 2.5) before they are submitted, enabling the appraiser to address flagged issues proactively.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Automated Market Conditions Commentary Generation
-#llm #text-generation #tabular-ml #quick-win
+#large-language-models #attention-mechanisms #transformers #transfer-learning #descriptive-statistics #quick-win
 
 **Problem statement:** Generate FNMA-compliant market conditions commentary from current MLS statistics for the subject's submarket — eliminating the manual data gathering and writing task for the required market conditions section.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Property Condition and Quality Classification from Inspection Photos
-#cnn #multiclass-classification #computer-vision
+#cnns #transfer-learning #loss-functions #backpropagation #gradient-descent #evaluation-metrics #matrix-algebra #optimization-fundamentals
 
 **Problem statement:** Classify property condition and quality rating (FNMA C1-C6 condition scale, Q1-Q6 quality scale) from inspection photos to provide an objective starting point for the appraiser's condition/quality assessment.
 

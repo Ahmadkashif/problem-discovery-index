@@ -3,7 +3,7 @@
 **Industry:** [[cybersecurity-mssp|Cybersecurity MSSPs]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Compliance reports for SOC 2, HIPAA, and PCI-DSS are already templated — but populating them with client-specific evidence, mapping controls to actual tool outputs, and narrating findings still takes 10-20 hours per client per quarter.
-**Tags:** #llm #text-generation #nlp #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #compliance
 
 ## The Problem
 MSSPs produce recurring compliance reports for clients undergoing SOC 2 Type II, HIPAA security rule, and PCI-DSS assessments. Each report requires mapping the client's security controls to framework requirements, pulling evidence from SIEM logs, vulnerability scan results, access review records, and policy documents, then writing narrative summaries that auditors will accept. A compliance analyst spends 10-20 hours per client per reporting cycle assembling this — much of it copying data from tool dashboards into Word documents and rewriting boilerplate with client-specific details.

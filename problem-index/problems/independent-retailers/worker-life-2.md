@@ -3,7 +3,7 @@
 **Industry:** [[independent-retailers|Independent Retailers]]
 **Type:** Worker Life Changing
 **One-liner:** Associates gain instant, confident product expertise so they can actually help customers instead of guessing or deferring to the owner.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #word-embeddings #transfer-learning #evaluation-metrics #worker-facing
 
 ## The Problem
 A sales associate in an independent retail store is expected to know the details of 500-5,000 SKUs: materials, care instructions, sizing nuances, compatible accessories, origin stories, and how products compare to alternatives. In practice, associates know 10-15% of the catalog well and bluff or deflect on the rest. When a customer asks "Is this jacket machine-washable?" or "Which of these two knife sets holds an edge longer?", the associate either guesses, reads the packaging (which the customer already did), or says "Let me ask the owner" — who may be in the back doing inventory. The result is lost sales, eroded customer trust, and associates who feel incompetent.

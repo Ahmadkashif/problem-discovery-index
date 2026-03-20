@@ -3,7 +3,7 @@
 **Industry:** [[electrical-contractors|Electrical Contractors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** The NEC codebook and NFPA resources exist in digital form, but there's no tool that generates a project-specific compliance checklist — "for a new kitchen circuit in a 1987 house in Texas, these are the specific NEC 2020 requirements you must satisfy" — that accounts for local adoption, amendment, and the building's existing installation vintage.
-**Tags:** #llm #text-classification #nlp #compliance #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #evaluation-metrics #compliance #automation
 
 ## The Problem
 Electrical code compliance is complex in three dimensions: the NEC is updated every 3 years; local jurisdictions adopt NEC editions on different schedules (a Texas jurisdiction may be on NEC 2017 while a California jurisdiction is on NEC 2023); and when working on existing installations, understanding which requirements apply to the new work (vs. which are grandfathered in the existing installation) requires experience with code adoption history and the "when work is done on existing systems" provisions. An experienced master electrician has internalized these rules — they know that adding a circuit in a kitchen requires AFCI protection under NEC 2020 but not necessarily under NEC 2017, and they know which code edition their local jurisdiction has adopted. Junior electricians and apprentices frequently make compliance errors on this dimension because the code is not systematically presented to them in the job-specific context.

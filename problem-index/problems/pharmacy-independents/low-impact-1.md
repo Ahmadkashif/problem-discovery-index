@@ -3,7 +3,7 @@
 **Industry:** [[pharmacy-independents|Independent Pharmacies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic prior authorization tools exist for medical practices but aren't designed for pharmacy-initiated PAs — where the pharmacist is the one catching the rejection at point-of-sale and must initiate the PA process while a patient waits at the counter.
-**Tags:** #llm #text-generation #automation #nlp #workflow-orchestration
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #automation #workflow-orchestration
 
 ## The Problem
 When a prescription is rejected by insurance with a "prior authorization required" message, the pharmacist must initiate a PA request on behalf of the prescriber — contacting the prescriber's office, gathering clinical documentation, submitting the PA to the payer, and tracking status — while the patient either waits, pays cash out of pocket, or goes without their medication. The process takes 15-45 minutes of active pharmacist time and 24-72 hours of calendar time. Independent pharmacies with high PA volumes (chronic disease management, specialty adjacent drugs, brand-name drugs with step therapy requirements) spend 10-20% of pharmacist clinical time on PA processing rather than direct patient care.

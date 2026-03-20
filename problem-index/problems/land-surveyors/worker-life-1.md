@@ -3,7 +3,7 @@
 **Industry:** [[land-surveyors|Land Surveyors]]
 **Type:** Worker Life
 **One-liner:** Field surveyors carry 30-50 lbs of equipment (tripods, GNSS receivers, total stations, prism poles, machetes, paint) through uncleared terrain for 6-10 hours per day — creating musculoskeletal injury rates 3x the general workforce and shortening field careers to 15-20 years.
-**Tags:** #cnn #pose-estimation #computer-vision #worker-facing
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering #activation-functions #worker-facing
 
 ## The Problem
 

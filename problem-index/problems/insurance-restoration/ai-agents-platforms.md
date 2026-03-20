@@ -5,7 +5,7 @@
 ---
 
 ## 1. Damage Assessment and Scope Agent
-#ai-agent #computer-vision #revenue-impact
+#ai-agent #cnns #transfer-learning #feature-engineering #gradient-boosting #loss-functions #evaluation-metrics #backpropagation #revenue-impact
 
 **Concept:** An AI agent that accompanies the project manager on the initial site inspection via mobile app. As the PM photographs damage and records moisture readings, the agent analyzes visible damage patterns, cross-references property records (build year, construction type, square footage), and generates a predicted moisture migration map with recommended probe points. Once the PM confirms affected areas, the agent auto-generates an Xactimate estimate with carrier-specific line-item formatting, reducing initial scope creation from 2-3 hours to 30-45 minutes while improving accuracy by incorporating construction-type-specific moisture migration predictions.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Emergency Triage and Dispatch Agent
-#ai-agent #automation #worker-facing
+#ai-agent #large-language-models #transformers #gradient-boosting #feature-engineering #evaluation-metrics #automation #worker-facing
 
 **Concept:** An AI agent that handles incoming emergency calls and web submissions 24/7. The agent conducts structured intake via phone (speech-to-text) or web form, classifying loss severity (immediate dispatch vs. morning response vs. self-service guidance), identifying the appropriate crew based on loss type, proximity, certifications, and current workload, and initiating dispatch with equipment recommendations. For routine losses, the agent dispatches autonomously with PM notification. For complex or large losses, the agent prepares a complete triage brief for PM review and approval.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Equipment Deployment and Monitoring Agent
-#ai-agent #workflow-orchestration
+#ai-agent #gradient-boosting #optimization-fundamentals #time-series-forecasting #feature-engineering #evaluation-metrics #workflow-orchestration
 
 **Concept:** An AI agent that manages equipment allocation across all active jobs. The agent tracks equipment location (GPS/Bluetooth), monitors drying progress through connected moisture sensors or manual readings, predicts when each job will reach clearance dryness, and recommends equipment redeployment as new jobs arrive. When a new water loss is dispatched, the agent automatically identifies the optimal equipment package — pulling units from jobs nearest to drying completion and scheduling delivery from warehouse stock — producing a dispatch manifest with delivery routing.
 

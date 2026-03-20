@@ -3,7 +3,7 @@
 **Industry:** [[gyms-independent|Independent Gyms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** CRMs can track leads, but none score a gym trial visitor's likelihood of converting based on how they actually used the facility during their free session.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #cross-validation #probability-distributions #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 Independent gyms typically convert only 20-30% of trial visitors into paying members. The follow-up process is manual and undifferentiated: front desk staff send the same "Thanks for visiting!" email to a prospect who tried three classes and asked about personal training and a prospect who walked the floor for 10 minutes and left. Owners have no systematic way to prioritize which leads deserve a phone call, which need a second free visit, and which are unlikely to convert regardless of effort.

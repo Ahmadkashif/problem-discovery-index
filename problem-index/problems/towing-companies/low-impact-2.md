@@ -3,7 +3,7 @@
 **Industry:** [[towing-companies|Towing Companies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Impound management software exists but cannot keep up with the state-by-state patchwork of lien laws, notification timelines, and auction rules that determine whether a towing company gets paid or eats the storage cost.
-**Tags:** #llm #text-generation #nlp #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #compliance
 
 ## The Problem
 When a vehicle is towed to an impound lot — whether from a police hold, private property removal, or abandoned vehicle pickup — the towing company must navigate a state-specific legal process to recover costs. This involves running title searches through the DMV (which can take days to weeks depending on the state), sending certified notification letters to registered owners and lienholders within mandated timelines, waiting through legally required holding periods (ranging from 10 to 45 days by state), and then either auctioning the vehicle or applying for a mechanic's lien. Miss a notification deadline by one day in states like California or Florida and the entire lien is void — the company absorbs all towing and storage costs. Lot attendants track 30–100 impounded vehicles simultaneously, each at a different stage of this process, using spreadsheets or whiteboard grids.

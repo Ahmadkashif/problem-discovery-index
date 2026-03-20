@@ -3,7 +3,7 @@
 **Industry:** [[faith-organizations|Faith Organizations]]
 **Type:** Worker Life Changing
 **One-liner:** Volunteer coordinators stop begging the same 50 people and start matching the right roles to the right members at the right life stage.
-**Tags:** #gradient-boosting #recommendation #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #logistic-regression #probability-distributions #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 Churches run on volunteers — greeters, nursery workers, sound technicians, small-group leaders, meal-train organizers, parking lot attendants — and a single volunteer coordinator (often part-time or unpaid) is responsible for filling 50-200 roles every week. The coordinator maintains a mental model of who is reliable, who is burned out, who has kids that conflict with certain time slots, and who said "maybe next quarter" six months ago. Recruitment happens through mass email blasts (5% response rate), awkward lobby asks, and guilt-laden pulpit announcements. The coordinator spends 15-20 hours per week on scheduling, texting no-shows, and finding last-minute substitutes, leaving no time for the relational work that actually builds a volunteer culture.

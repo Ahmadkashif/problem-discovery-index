@@ -3,7 +3,7 @@
 **Industry:** [[last-mile-delivery|Last-Mile Delivery]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic route optimization tools plan the day's stops before departure but don't reoptimize the remaining route in real time as stop completion times deviate from plan, traffic conditions change, and failed deliveries require rerouting decisions.
-**Tags:** #tabular-ml #time-series-forecasting #workflow-orchestration #automation
+**Tags:** #gradient-boosting #linear-regression #time-series-forecasting #feature-engineering #optimization-fundamentals #evaluation-metrics #workflow-orchestration #automation
 
 ## The Problem
 

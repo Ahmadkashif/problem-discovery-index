@@ -3,7 +3,7 @@
 **Industry:** [[personal-injury-law|Personal Injury Law Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** General LLM tools can draft professional letters but can't produce demand letters that incorporate PI-specific damages formulas, jurisdiction-specific caps, insurer-specific negotiation dynamics, and the persuasive structure that has historically worked against specific adjusters.
-**Tags:** #llm #text-generation #nlp #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #gradient-boosting #feature-engineering #automation
 
 ## The Problem
 A demand letter in a personal injury case is the first formal settlement communication to the insurer — it establishes the damages claimed, presents the medical evidence, argues liability, and sets a settlement demand amount. Writing a strong demand letter requires: synthesizing the medical chronology into a compelling narrative of the client's suffering and recovery, calculating economic damages (medical specials, lost wages, future care costs), applying jurisdiction-specific multipliers for general damages, and calibrating the demand amount to what the insurer can realistically pay on the specific policy and coverage. A junior associate drafting their first demand letters takes 4-6 hours per letter; an experienced PI attorney does it in 60-90 minutes and produces a significantly more persuasive document.

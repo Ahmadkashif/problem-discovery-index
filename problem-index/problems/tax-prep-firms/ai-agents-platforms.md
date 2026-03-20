@@ -5,7 +5,7 @@
 ---
 
 ## 1. Document Intake Agent
-#ai-agent #automation #ocr #nlp
+#ai-agent #cnns #bert #transformers #transfer-learning #word-embeddings #evaluation-metrics #automation
 
 **Concept:** An autonomous document processing agent that monitors all intake channels (client portal uploads, email attachments, scanned mail, photographed documents), classifies each document by tax form type, extracts all tax-relevant fields, cross-references extracted values against prior-year data and IRS transcripts, identifies missing documents, and sends targeted follow-up requests to clients — all without preparer intervention. The agent maintains a per-client document checklist that updates in real time and populates tax software input fields via API or structured export. A preparer opens a return to find it 70-80% pre-filled with confidence-scored values.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Client Communication Agent
-#ai-agent #llm #text-generation #automation #worker-facing
+#ai-agent #large-language-models #transformers #attention-mechanisms #word-embeddings #evaluation-metrics #automation #worker-facing
 
 **Concept:** A conversational AI agent that handles all routine client communications during filing season — status inquiries, document request follow-ups, appointment scheduling, refund status checks, and basic tax Q&A ("Can I deduct my home office?"). The agent maintains awareness of each client's engagement status (documents pending, in preparation, in review, filed, refund issued) and responds with accurate, personalized information. It operates across email, SMS, and client portal chat, matching the firm's communication tone. The agent escalates to a human only when the inquiry requires preparer judgment (e.g., "Should I file an extension?" with complex facts) or when a client expresses frustration above a sentiment threshold.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Quality Review Agent
-#ai-agent #ai-platform #anomaly-detection #tabular-ml #compliance
+#ai-agent #ai-platform #gradient-boosting #feature-engineering #evaluation-metrics #descriptive-statistics #probability-distributions #compliance
 
 **Concept:** An AI-powered review platform that pre-screens every completed return before it enters the human review queue. The agent performs three layers of analysis: (1) mechanical checks — math verification, form consistency, e-file validation rules, (2) cross-reference checks — source document values vs. entered values, prior-year consistency, IRS transcript matching, and (3) statistical anomaly checks — flagging line items that deviate from expected patterns given the taxpayer's profile (the tacit knowledge layer). The agent produces a review report for each return: a risk score (low/medium/high), a list of flagged items with explanations, and a recommended review depth (spot-check vs. full review). Human reviewers use this to prioritize their queue and focus attention on the items most likely to contain errors.
 

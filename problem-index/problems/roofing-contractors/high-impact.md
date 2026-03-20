@@ -3,7 +3,7 @@
 **Industry:** [[roofing-contractors|Roofing Contractors]]
 **Type:** High Impact
 **One-liner:** Experienced roofing inspectors who identify storm damage by reading hail impact patterns, granule loss, and wind lift signatures on shingles — pattern recognition built over thousands of roof inspections — get that visual expertise replicated by a computer vision model that classifies damage from photos, enabling junior inspectors to produce adjuster-quality assessments on the first visit.
-**Tags:** #cnn #multiclass-classification #object-detection #computer-vision #tacit-knowledge-ml #revenue-impact
+**Tags:** #cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #feature-engineering #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 

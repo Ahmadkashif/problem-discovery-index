@@ -3,7 +3,7 @@
 **Industry:** [[video-production-smb|SMB Video Production]]
 **Type:** Worker Life Changing
 **One-liner:** Editors stop burning evenings re-cutting sequences based on feedback they have to guess the meaning of, because every revision request arrives as a concrete, actionable edit instruction.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing
 
 ## The Problem
 Video editors — especially at SMB shops where one person handles the full post pipeline — receive client feedback that ranges from unhelpfully vague ("it doesn't feel right") to contradictory (marketing wants it faster, the CEO wants more gravitas). The editor makes their best interpretation, delivers a revised cut, and gets back "that's not what I meant." Three rounds become six. Each round costs 2-4 hours of focused timeline work, often done after hours to meet deadlines. The emotional toll is significant: editors describe feeling like "professional mind readers" who are punished for guessing wrong. Junior editors burn out fastest because they lack the client-management instincts that experienced editors develop over years.

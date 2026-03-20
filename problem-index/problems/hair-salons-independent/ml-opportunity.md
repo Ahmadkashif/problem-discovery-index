@@ -1,13 +1,13 @@
 # ML Opportunities — Hair Salons (Independent)
 
 **Industry:** [[hair-salons-independent|Hair Salons (Independent)]]
-**Tags:** #cnn #gradient-boosting #llm #regression #binary-classification #multiclass-classification #recommendation #time-series-forecasting #computer-vision #tabular-ml #nlp #tacit-knowledge-ml #revenue-impact #worker-facing
+**Tags:** #cnns #gradient-boosting #large-language-models #transfer-learning #feature-engineering #evaluation-metrics #cross-validation #loss-functions #backpropagation #tacit-knowledge-ml #revenue-impact #worker-facing
 
 ---
 
 ## 1. Hair Color Formulation from Visual Assessment (Primary Opportunity — Tacit Knowledge ML)
 
-#cnn #regression #computer-vision #tacit-knowledge-ml
+#cnns #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #backpropagation #gradient-descent #cross-validation #bias-variance-tradeoff #tacit-knowledge-ml
 
 **Problem statement:** Master colorists assess a client's hair under salon lighting and mentally compute a custom formulation by reading underlying pigment, porosity, texture, and chemical history — knowledge built over 5,000-10,000 color services that cannot be articulated as rules. Junior colorists rely on manufacturer swatch books that don't account for individual hair characteristics, leading to 15-25% color correction rates in their first 2 years.
 
@@ -29,7 +29,7 @@
 
 ## 2. Client Churn Prediction
 
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #survival-analysis #conditional-probability-and-bayes-theorem #probability-distributions #revenue-impact
 
 **Problem statement:** Salons lose 30-40% of clients annually without warning because no system monitors the behavioral signals that precede defection — elongating visit intervals, dropping add-on services, declining retail, shifting to off-peak times.
 
@@ -51,7 +51,7 @@
 
 ## 3. Service and Product Recommendation Engine
 
-#gradient-boosting #recommendation #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #k-nearest-neighbors #conditional-probability-and-bayes-theorem #probability-distributions
 
 **Problem statement:** Stylists recommend services and products based on personal familiarity rather than data-driven matching, leaving $5,000-$15,000/year in upsell revenue on the table per salon. A client who gets highlights every 8 weeks may benefit from a gloss treatment at the 4-week mark, but this is only suggested if the stylist happens to think of it.
 
@@ -73,7 +73,7 @@
 
 ## 4. Dynamic Pricing for Off-Peak Utilization
 
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #time-series-forecasting #probability-distributions #revenue-impact
 
 **Problem statement:** Independent salons operate at 55-70% chair utilization, with Monday-Wednesday afternoons consistently underbooked. Static pricing means empty chairs generate zero revenue, but salon owners fear that discounting will devalue their brand or anger full-price clients.
 
@@ -95,7 +95,7 @@
 
 ## 5. Stylist-Client Personality and Style Matching
 
-#gradient-boosting #binary-classification #tabular-ml #nlp
+#gradient-boosting #logistic-regression #bert #transfer-learning #feature-engineering #cross-validation #evaluation-metrics #word-embeddings #conditional-probability-and-bayes-theorem
 
 **Problem statement:** When assigning walk-in or new clients to available stylists, salons default to rotation or availability rather than fit. A mismatch between client expectations and stylist strengths leads to 40-50% of first-time clients not rebooking — the highest-leverage retention moment is the first visit.
 

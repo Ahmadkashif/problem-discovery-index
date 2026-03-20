@@ -6,7 +6,7 @@
 ---
 
 ## 1. Proficiency Diagnosis from Speech and Writing Samples
-#bert #lstm #multiclass-classification #nlp #speech-processing #tacit-knowledge-ml
+#bert #lstms-and-grus #transfer-learning #attention-mechanisms #word-embeddings #loss-functions #backpropagation #evaluation-metrics #gradient-descent #tacit-knowledge-ml
 
 **Problem statement:** Experienced placement testers can hear a student speak for 30 seconds and diagnose not just the CEFR level but the learner's native language, specific fossilized errors, and whether those errors are developmental or permanent — a multi-dimensional classification that takes years of immersion to develop and that testers cannot fully articulate as rules. This tacit diagnostic skill is the bottleneck for student placement, class composition, and individualized instruction planning.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Student Dropout Prediction
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Language school students drop out at rates of 25-40% before completing their target proficiency goal, often after plateauing at intermediate levels. Schools detect attrition only when the student fails to re-enroll — by which time intervention is impossible. Early identification of at-risk students would allow targeted engagement (schedule adjustment, supplementary tutoring, motivational check-ins) before the student disengages.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Optimal Class Composition
-#bayesian-network #regression #tabular-ml #data-integration
+#bayesian-inference #conditional-probability-and-bayes-theorem #linear-regression #probability-distributions #feature-engineering #evaluation-metrics #data-integration
 
 **Problem statement:** When a school has 30 students to distribute across three B1 sections, the assignment is currently done by availability (who can attend which time slot) and sometimes by the program director's gut sense of which L1 mixes produce productive interaction. Research in SLA shows that class composition — L1 diversity, proficiency-range spread, personality dynamics — significantly affects learning outcomes, but no school systematically optimizes for it.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Assessment Item Difficulty Calibration
-#logistic-regression #bayesian-network #regression #tabular-ml
+#logistic-regression #bayesian-inference #conditional-probability-and-bayes-theorem #maximum-likelihood-estimation #probability-distributions #evaluation-metrics
 
 **Problem statement:** Language schools that create their own quizzes, tests, and placement instruments have no systematic way to calibrate item difficulty. A grammar question that the item writer considers "B1-level" may actually discriminate at A2 or B2, producing unreliable assessments. Item response theory (IRT) calibration is standard in large-scale testing but requires psychometric expertise and sample sizes that small schools do not have.
 

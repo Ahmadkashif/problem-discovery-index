@@ -3,7 +3,7 @@
 **Industry:** [[charter-bus-operators|Charter Bus Operators]]
 **Type:** High Impact
 **One-liner:** Every charter operator knows their revenue but almost none know their actual per-trip profit — solving this transforms a gut-feel business into a data-driven one.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #confidence-intervals #probability-distributions #revenue-impact
 
 ## The Problem
 Charter bus operators quote trips manually by estimating fuel costs, tolls, driver wages, deadhead (empty repositioning) miles, overnight per diems, and bus wear — typically in a spreadsheet or on the back of an envelope. A single operator might handle 15-30 quote requests per week, each requiring 20-45 minutes of research and calculation. The result is wildly inconsistent pricing: the same 300-mile round-trip wedding charter might be quoted at $2,800 on Monday and $3,400 on Friday depending on who handles the call, what they remember about fuel prices, and whether they account for the 60-mile deadhead to reach the pickup location.

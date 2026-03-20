@@ -3,7 +3,7 @@
 **Industry:** [[general-contractors|General Contractors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic voice-to-text and note-taking tools can transcribe field observations, but they can't structure them into formal change order requests with scope description, cost impact, schedule impact, and the owner/architect notification language that protects the GC's claim rights under the contract.
-**Tags:** #llm #text-generation #nlp #automation #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #evaluation-metrics #automation #compliance
 
 ## The Problem
 Change orders are how GCs get paid for work beyond the original contract scope — and they are a major source of disputes when not documented properly. When a superintendent discovers that the soil conditions require additional excavation depth (a differing site condition), or when the architect's clarification drawing adds work that wasn't in the original scope, the GC has contractual rights to additional compensation — but only if the change is documented, submitted, and approved according to the contract's notice requirements. Most contracts require change order notice within 7-14 days of discovering the changed condition. Superintendents, who are managing 15 concurrent activities on a busy job site, often document changes informally (voice memo, text message, rough note) and rely on project managers to formalize them later. The "later" step gets delayed, deadlines are missed, and valid claims are lost.

@@ -3,7 +3,7 @@
 **Industry:** [[accounting-firms-smb|SMB Accounting Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Bookkeepers stop spending 3-4 hours per client per month on rote transaction categorization and shift to exception handling and client communication.
-**Tags:** #gradient-boosting #multiclass-classification #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #entropy-cross-entropy-kl-divergence #gradient-descent #worker-facing
 
 ## The Problem
 A firm bookkeeper managing 15-25 client accounts categorizes 1,500-10,000 transactions per month across those clients. QuickBooks Online and Xero auto-categorize 60-70% of transactions using bank rules and vendor matching, but the remaining 30-40% require manual review. These are the ambiguous ones: a $247.83 charge at "AMZN Mktp US" could be office supplies, inventory, or a personal expense depending on the client. A payment to "Gusto" is payroll processing for one client and a software subscription for another. The bookkeeper must open each transaction, check the vendor, check the amount pattern, sometimes ask the client, and assign the correct account. At 30 seconds per transaction and 400 manual transactions per client per month, that is 3-4 hours of pure categorization tedium per client, repeated monthly.

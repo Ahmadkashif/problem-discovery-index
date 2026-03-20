@@ -6,7 +6,7 @@
 ---
 
 ## 1. Movement Quality Assessment from Training Video
-#cnn #pose-estimation #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #transfer-learning #loss-functions #backpropagation #gradient-descent #evaluation-metrics #matrix-algebra #optimization-fundamentals #feature-engineering #cross-validation #tacit-knowledge-ml
 
 **Problem statement:** An experienced trainer watches a client squat, deadlift, or press and instantly identifies compensatory patterns — knee valgus, hip shift, excessive lumbar extension, scapular winging, forward head drift — that indicate mobility restrictions, strength imbalances, or injury risk. This assessment happens in real time, integrates the client's training history and injury background, and drives immediate programming adjustments. No automated system can replicate this today, leaving remote clients uncoached and junior trainers without the pattern library that takes 5-10 years to build.
 
@@ -25,7 +25,7 @@
 ---
 
 ## 2. Client Adherence & Dropout Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #cross-validation #probability-distributions #bias-variance-tradeoff
 
 **Problem statement:** Trainers lose 30-40% of clients within the first 90 days, but the warning signs (decreasing session frequency, shorter check-in responses, skipped homework workouts) emerge weeks before the actual cancellation. Predicting dropout risk with enough lead time to intervene would directly protect trainer income and client outcomes.
 
@@ -44,7 +44,7 @@
 ---
 
 ## 3. Program Effectiveness Prediction by Client Profile
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #bias-variance-tradeoff #probability-distributions
 
 **Problem statement:** Trainers design programs based on experience and intuition — "this client type responds well to higher volume, that client type needs more recovery." There is no systematic way to predict which programming variables (volume, intensity, frequency, exercise selection, periodization style) will produce the best outcomes for a given client profile.
 
@@ -63,7 +63,7 @@
 ---
 
 ## 4. Optimal Session Frequency & Scheduling Recommendation
-#gradient-boosting #time-series-forecasting #tabular-ml #recommendation
+#gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #probability-distributions #expectation-variance-covariance
 
 **Problem statement:** Trainers must recommend session frequency (2x/week, 3x/week, etc.) and schedule sessions around client availability, recovery needs, and their own capacity. Too few sessions and the client doesn't progress; too many and the client burns out or can't afford it. The optimal frequency varies by client and changes over time, but trainers set it once at onboarding and rarely revisit.
 

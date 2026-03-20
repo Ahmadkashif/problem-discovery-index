@@ -3,7 +3,7 @@
 **Industry:** [[moving-companies|Moving Companies]]
 **Type:** Worker Life Changing
 **One-liner:** Movers get real-time feedback on lifting form and cumulative load exposure, reducing the chronic back and joint injuries that end most moving careers within 3-5 years.
-**Tags:** #cnn #pose-estimation #computer-vision #worker-facing
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #semantic-segmentation #matrix-algebra #optimization-fundamentals #worker-facing
 
 ## The Problem
 Professional movers lift, carry, and maneuver 10,000-25,000 pounds of household goods per shift across uncontrolled environments — narrow staircases, uneven walkways, cramped elevators, steep driveways. The Bureau of Labor Statistics ranks movers among the top 10 occupations for musculoskeletal injuries. A typical mover sustains their first significant back injury within 18 months on the job. Crew leads informally coach new hires on form ("lift with your legs, pivot don't twist"), but under time pressure these habits collapse. There is no systematic tracking of cumulative load, repetition count, or biomechanical risk across a shift — the mover works until something hurts, and by then the damage is done.

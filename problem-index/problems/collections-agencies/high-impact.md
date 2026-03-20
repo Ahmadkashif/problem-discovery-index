@@ -3,7 +3,7 @@
 **Industry:** [[collections-agencies|Collections Agencies]]
 **Type:** High Impact
 **One-liner:** Every outbound call is prioritized by likelihood of reaching the debtor and converting the conversation into a payment arrangement, replacing static segmentation with dynamic scoring.
-**Tags:** #gradient-boosting #binary-classification #ranking #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #gradient-descent #revenue-impact
 
 ## The Problem
 Collection agencies purchase or receive debt portfolios and must work thousands of accounts with limited agent hours. Today, accounts are prioritized by balance size and days-past-due — crude proxies that ignore behavioral signals like prior contact attempts, time-of-day patterns, payment history on other accounts, and demographic indicators. The result is that agents burn through low-probability accounts at the same rate as high-probability ones, depressing recovery rates to 15-20% on purchased debt when optimal targeting could push that significantly higher.

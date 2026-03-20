@@ -6,7 +6,7 @@
 ---
 
 ## 1. Regulatory Finding Risk Prioritization from Consultant Judgment Patterns
-#gradient-boosting #ranking #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #bias-variance-tradeoff #probability-distributions #expectation-variance-covariance #tacit-knowledge-ml
 
 **Problem statement:** Experienced compliance consultants have internalized which non-conformances are genuinely high-risk vs. technically non-compliant but low-risk in practice — a distinction that separates senior from junior consultants and determines which remediation items clients actually need to prioritize with limited resources. This risk calibration judgment can be formalized as a ranking model trained on historical consultant-assigned severity ratings.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Regulatory Change Classification and Client Impact Mapping
-#bert #text-classification #nlp #automation
+#bert #transformers #transfer-learning #feature-engineering #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #automation
 
 **Problem statement:** Automatically classify new regulatory publications (Federal Register notices, agency guidance documents, policy updates) by: regulatory section affected, type of change (new requirement / clarification / enforcement guidance / safe harbor), affected industry and client type, and severity of required client action — mapping each classified change to the consultant's active client portfolio.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Audit Finding Recurrence Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 **Problem statement:** Predict which compliance gaps identified in an engagement are likely to recur in future audits if the client implements a remediation that addresses the surface finding but not the root cause — enabling the consultant to recommend more durable remediations and maintain their engagement value with the client long-term.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Client Readiness Assessment from Document Evidence
-#bert #text-classification #nlp #quick-win
+#bert #transformers #transfer-learning #loss-functions #evaluation-metrics #entropy-cross-entropy-kl-divergence #feature-engineering #quick-win
 
 **Problem statement:** Given a batch of client-submitted evidence documents, automatically assess whether each document satisfies the control requirement it was submitted to support — reducing the consultant's manual evidence review burden during the evidence collection phase.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Engagement Scoping and Fee Estimation
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #probability-distributions
 
 **Problem statement:** Predict the actual engagement hours for a new compliance project based on client profile characteristics, regulatory framework scope, and known complexity factors — improving fee quote accuracy and reducing engagement profitability variance.
 

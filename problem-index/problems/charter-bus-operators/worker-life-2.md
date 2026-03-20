@@ -3,7 +3,7 @@
 **Industry:** [[charter-bus-operators|Charter Bus Operators]]
 **Type:** Worker Life Changing
 **One-liner:** The ops manager at a charter company is the single point of failure for every trip — they deserve a system that handles the combinatorial nightmare of driver-bus-trip matching so they can stop working 14-hour days.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #optimization-fundamentals #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 A charter bus operations manager at a 15-bus fleet juggles 20-40 active bookings at any time, each requiring a specific bus type (motorcoach vs. mini-bus vs. school bus, with/without ADA lift, with/without WiFi and power outlets), a qualified driver (correct CDL endorsements, available HOS hours, no conflicts with other trips, familiarity with the route or client type), and a timeline that accounts for deadhead positioning, pre-trip inspections, fueling, and post-trip cleaning. When a Friday wedding charter runs 2 hours late, the ops manager is on the phone at 11 PM rearranging Saturday morning's airport transfer because the same bus was assigned to both. This person typically works 60-70 hour weeks during peak season (May-October) and carries the company's entire operational knowledge in their head.

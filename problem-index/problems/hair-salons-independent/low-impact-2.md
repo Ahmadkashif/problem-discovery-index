@@ -3,7 +3,7 @@
 **Industry:** [[hair-salons-independent|Hair Salons (Independent)]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic inventory management treats salon retail like any SKU-based business, but salon product movement is driven by stylist recommendations during services — a dynamic that no general-purpose inventory tool models.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #exponential-smoothing #probability-distributions #revenue-impact
 
 ## The Problem
 

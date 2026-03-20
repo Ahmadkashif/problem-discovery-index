@@ -3,7 +3,7 @@
 **Industry:** [[event-planning|Event Planning]]
 **Type:** Worker Life Changing
 **One-liner:** Planners stop being unpaid therapists for stressed clients and start having tools that manage routine client anxiety — freeing them for the creative and logistical work they actually love.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #worker-facing
 
 ## The Problem
 Event planners — especially wedding planners — absorb enormous emotional labor from clients. Brides text at 11pm panicking about centerpiece heights. Corporate clients call on weekends demanding last-minute changes driven by internal politics. Family conflicts about guest lists, seating arrangements, and cultural traditions land on the planner. The planner is expected to be responsive, empathetic, and solutions-oriented at all hours while simultaneously managing the logistical complexity of the event. This emotional labor is uncompensated, unbounded, and unacknowledged as a core job function.

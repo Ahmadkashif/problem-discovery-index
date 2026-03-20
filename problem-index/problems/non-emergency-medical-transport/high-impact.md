@@ -3,7 +3,7 @@
 **Industry:** [[non-emergency-medical-transport|Non-Emergency Medical Transport]]
 **Type:** High Impact
 **One-liner:** Every vehicle runs the right patients in the right order, honoring appointment windows, mobility constraints, and Medicaid authorization rules — without a dispatcher manually building each route.
-**Tags:** #reinforcement-learning #gradient-boosting #regression #tabular-ml #workflow-orchestration #compliance #revenue-impact
+**Tags:** #markov-decision-processes #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #optimization-fundamentals #dynamic-programming #policy-gradient-methods #workflow-orchestration #compliance #revenue-impact
 
 ## The Problem
 NEMT operators receive 50-500 trip requests per day from Medicaid brokers, healthcare facilities, and direct patients. Each trip carries hard constraints: appointment time windows (often 15-minute pickup precision required by brokers), vehicle type compatibility (wheelchair van vs. stretcher vs. ambulatory sedan), patient-specific load/unload times that vary from 2 minutes for an ambulatory patient to 20 minutes for a bariatric stretcher patient, attendant requirements, and geographic clustering across metro and rural areas. Dispatchers currently build routes manually or with basic routing tools that treat all passengers identically, resulting in 15-25% of trips arriving outside the broker's on-time window — triggering financial penalties, lost contracts, and patient harm when dialysis or chemotherapy appointments are missed.

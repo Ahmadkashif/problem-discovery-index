@@ -3,7 +3,7 @@
 **Industry:** [[tutoring-centers|Tutoring Centers]]
 **Type:** Worker Life
 **One-liner:** Part-time tutors handling 5-8 different students per shift — each at a different level, different subject, different learning profile — spend unpaid time before each shift reviewing notes and assembling materials, or wing it and deliver lower-quality sessions.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #worker-facing
 
 ## The Problem
 

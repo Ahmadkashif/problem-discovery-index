@@ -3,7 +3,7 @@
 **Industry:** [[youth-sports-orgs|Youth Sports Organizations]]
 **Type:** Worker Life Changing
 **One-liner:** Volunteer board members stop lying awake worrying about whether their organization is one missed background check or unsigned waiver away from a lawsuit.
-**Tags:** #llm #text-generation #nlp #worker-facing #compliance
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing #compliance
 
 ## The Problem
 Youth sports board members are personally liable for organizational failures — SafeSport compliance, background checks for all volunteers, insurance coverage, field safety inspections, concussion protocols, and state-specific nonprofit reporting. Most boards are 5-8 parents with no legal or compliance training, managing obligations they don't fully understand. A single missed background check on a volunteer can create catastrophic liability.

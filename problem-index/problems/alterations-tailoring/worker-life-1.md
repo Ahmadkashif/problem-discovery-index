@@ -3,7 +3,7 @@
 **Industry:** [[alterations-tailoring|Alterations & Tailoring]]
 **Type:** Worker Life Changing
 **One-liner:** Tailors and seamstresses stop developing debilitating hand, wrist, and neck conditions by their 50s because intelligent workload scheduling and ergonomic monitoring distribute strain across muscle groups rather than concentrating it in 8-hour precision sewing marathons.
-**Tags:** #lstm #anomaly-detection #signal-processing #worker-facing
+**Tags:** #lstms-and-grus #rnns #loss-functions #evaluation-metrics #gradient-descent #probability-distributions #worker-facing
 
 ## The Problem
 Tailors and seamstresses perform 6-10 hours of continuous precision hand and machine work daily: threading needles, hand-stitching buttonholes and blind hems, operating sewing machines with foot pedals while guiding fabric with both hands, pressing with heavy irons, and cutting with shears. The ergonomic profile concentrates strain in the fingers (pinch grip for hand-sewing), wrists (repetitive flexion/extension for machine sewing), neck and upper back (sustained forward head posture leaning over work), and shoulders (arms elevated for pressing). Carpal tunnel syndrome affects an estimated 30-40% of career tailors. Cervical spondylosis (neck degeneration) from decades of forward head posture is near-universal in tailors over 50. The physical toll is compounded by economic pressure — most tailors are paid per piece or per alteration, creating incentive to maximize output without breaks.

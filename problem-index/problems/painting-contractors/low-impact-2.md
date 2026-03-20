@@ -3,7 +3,7 @@
 **Industry:** [[painting-contractors|Painting Contractors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Paint manufacturer color matching apps exist but don't integrate the contractor's preferred product line, the substrate requirements, the sheen specification for the application context, and the customer's stated color mood into a recommendation that the estimator can present and order immediately.
-**Tags:** #computer-vision #recommendation #multimodal #automation
+**Tags:** #cnns #transfer-learning #feature-engineering #evaluation-metrics #automation
 
 ## The Problem
 

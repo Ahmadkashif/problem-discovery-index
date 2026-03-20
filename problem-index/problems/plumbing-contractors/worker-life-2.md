@@ -3,7 +3,7 @@
 **Industry:** [[plumbing-contractors|Plumbing Contractors]]
 **Type:** Worker Life Changing
 **One-liner:** Plumbers who spend 15-25 minutes at job end writing service reports — documenting the problem found, work performed, materials installed, and warranty terms — get that report generated from their job notes and photo documentation, ready to email the customer before they leave the driveway.
-**Tags:** #llm #text-generation #nlp #automation #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #evaluation-metrics #automation #worker-facing
 
 ## The Problem
 A completed plumbing service call requires a written record: what the problem was, what the diagnosis was, what work was performed, what materials were installed (with model numbers for warranty tracking), any recommendations for follow-up work, and the warranty terms on parts and labor. This documentation serves multiple purposes: customer communication, warranty record keeping, business liability protection, and historical record for future service calls at the same property. Currently, most residential plumbers complete this documentation verbally (verbal invoice) or with minimal written detail on a carbon copy work order. The result is that warranty disputes ("you replaced this water heater 14 months ago and it failed") can't be resolved efficiently, future technicians visiting the same property have no service history, and the documentation that protects the contractor's liability is inadequate.

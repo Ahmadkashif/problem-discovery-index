@@ -3,7 +3,7 @@
 **Industry:** [[independent-insurance-agents|Independent Insurance Agents]]
 **Type:** Worker Life Changing
 **One-liner:** Producers and agency principals stop spending 8-15 hours per month manually cross-referencing carrier commission statements against their book of business to find missing or incorrect payments.
-**Tags:** #gradient-boosting #anomaly-detection #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #feature-engineering #evaluation-metrics #descriptive-statistics #probability-distributions #cross-validation #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 Independent agencies earn revenue through commissions paid by carriers, typically 10-15% on commercial lines and 8-12% on personal lines. Each carrier sends a monthly commission statement — some via IVANS download, some as CSV files, some as PDFs — listing policies, premium amounts, and commission percentages. The agency must reconcile these statements against their AMS book-of-business records to verify that every policy was commissioned correctly, at the agreed rate, and that no policies were missed. A mid-size agency with 20 carrier appointments processes 20 separate commission statements monthly, each in a different format. Discrepancies are common: carriers apply incorrect commission tiers, miss new policies, or retroactively adjust commissions after audits without clear line-item explanation.

@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Commercial Real Estate
 
 **Industry:** [[commercial-real-estate|Commercial Real Estate]]
-**Tags:** #ai-agent #ai-platform #automation #workflow-orchestration #revenue-impact
+**Tags:** #ai-agent #ai-platform #large-language-models #transformers #feature-engineering #automation #workflow-orchestration #revenue-impact
 
 ---
 

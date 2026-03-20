@@ -3,7 +3,7 @@
 **Industry:** [[freight-brokerage|Freight Brokerage]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic carrier vetting tools check FMCSA authority status and safety rating, but don't score carriers on the behavioral signals that predict service failure and double-brokering fraud — patterns in their load acceptance, communication behavior, and tracking compliance that experienced dispatchers recognize from prior incidents.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #anomaly-detection
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 ## The Problem
 

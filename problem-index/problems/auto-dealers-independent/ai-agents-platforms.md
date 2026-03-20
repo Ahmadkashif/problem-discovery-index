@@ -5,7 +5,7 @@
 ---
 
 ## 1. Auction Buying Agent
-#ai-agent #revenue-impact #automation
+#ai-agent #gradient-boosting #feature-engineering #evaluation-metrics #time-series-forecasting #revenue-impact #automation
 
 **Concept:** An autonomous agent that monitors upcoming auction run lists across Manheim, ADESA/OPENLANE, and regional auction houses, identifies vehicles matching the dealer's inventory strategy (target makes/models, price bands, condition thresholds), scores each against local demand data, and either recommends a bid ceiling or places proxy bids automatically on behalf of the dealer during simulcast auctions. The agent continuously learns from the dealer's purchase outcomes — which cars sold fast, which sat — and refines its acquisition criteria over time.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Lead Management and Follow-Up Agent
-#ai-agent #worker-facing #automation
+#ai-agent #large-language-models #transformers #word-embeddings #evaluation-metrics #worker-facing #automation
 
 **Concept:** A conversational AI agent that handles the first 24-48 hours of lead engagement autonomously — responding to web inquiries, Facebook messages, and text messages within 60 seconds; qualifying the buyer's intent, budget, and vehicle preferences; answering inventory questions; scheduling test drives; and routing qualified leads to the right sales associate with full context. The agent speaks like a real salesperson (not a corporate chatbot), handles objections, and knows the dealer's current inventory, pricing, and promotion details.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Deal Structuring and Lender Matching Agent
-#ai-agent #automation #compliance
+#ai-agent #large-language-models #gradient-boosting #feature-engineering #evaluation-metrics #automation #compliance
 
 **Concept:** An AI agent that takes a customer's credit profile and deal parameters (vehicle price, down payment, trade-in, desired payment) and autonomously structures the optimal deal across the dealer's lender network — selecting the best lender match based on credit tier, loan-to-value, vehicle age, and the dealer's historical approval rates with each lender. The agent prepares submission packages formatted to each lender's requirements, submits simultaneously, monitors for decisions, and presents the F&I manager with a ranked list of approvals and counter-offers ready for customer presentation.
 

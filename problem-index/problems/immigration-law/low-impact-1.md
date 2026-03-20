@@ -3,7 +3,7 @@
 **Industry:** [[immigration-law|Immigration Law Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic document automation tools exist but aren't mapped to the specific conditional logic in USCIS forms — where one answer changes which subsequent sections apply, and where the exact phrasing of a response can change the legal strength of the application.
-**Tags:** #llm #seq2seq #nlp #automation #workflow-orchestration
+**Tags:** #large-language-models #transformers #seq2seq #attention-mechanisms #transfer-learning #automation #workflow-orchestration
 
 ## The Problem
 USCIS immigration forms are among the most complex government forms in existence. The I-485 (Adjustment of Status) runs 20+ pages with hundreds of conditional questions; the I-140 (Immigrant Petition) requires employer information that must exactly match the petition letter; the DS-260 (Immigrant Visa Application) must be completed accurately across every prior residence, entry, and employment. A paralegal completing these forms for a client spends 60-180 minutes per major form — cross-referencing client intake information, checking the form instructions for specific answer format requirements, and verifying that answers across multiple forms are internally consistent. Errors and inconsistencies between forms are the primary cause of USCIS RFEs and rejections.

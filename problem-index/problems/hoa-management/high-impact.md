@@ -3,7 +3,7 @@
 **Industry:** [[hoa-management|HOA Management]]
 **Type:** High Impact
 **One-liner:** HOA managers who wait until an account is 60-90 days past due before escalating — by which time collections costs are high and lien filing is the only remaining lever — get an early warning score that identifies accounts likely to become chronically delinquent from the first missed payment, enabling proactive payment plan outreach before the situation escalates.
-**Tags:** #gradient-boosting #binary-classification #survival-analysis #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #logistic-regression #survival-analysis #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #probability-distributions #revenue-impact
 
 ## The Problem
 

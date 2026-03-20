@@ -3,7 +3,7 @@
 **Industry:** [[environmental-consultants|Environmental Consultants]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Project management tools track tasks and deadlines, but none understand environmental permit structures — monitoring frequencies, reporting periods, agency submission windows, and the cascading consequences when one missed deadline triggers enforcement across an entire facility permit.
-**Tags:** #llm #text-classification #nlp #compliance #workflow-orchestration
+**Tags:** #large-language-models #bert #transformers #attention-mechanisms #word-embeddings #evaluation-metrics #compliance #workflow-orchestration
 
 ## The Problem
 An environmental consulting firm managing compliance for 50-200 client facilities must track thousands of permit-specific deadlines annually: air emission reports due quarterly to the state air quality agency, stormwater monitoring during specific rainfall events with results submitted within 30 days, hazardous waste manifests with 45-day exception reporting, underground storage tank monitoring with annual compliance certifications, and remediation progress reports on agency-dictated schedules. Each permit has its own reporting period, submission format (increasingly electronic but through different state portals), and penalty structure. A single missed deadline can result in $10,000-$50,000 in fines to the client and a malpractice claim against the consultant. Firms track this in Excel spreadsheets maintained by individual project managers, with no centralized visibility, no automatic alerts when agency deadlines shift, and no way to see cross-client patterns (e.g., "all 15 of our California stormwater clients have SMARTS reports due next month").

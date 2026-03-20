@@ -3,7 +3,7 @@
 **Industry:** [[hoa-management|HOA Management]]
 **Type:** Worker Life Changing
 **One-liner:** HOA managers who spend 3-5 hours before each board meeting assembling the meeting package — financial report, delinquency report, open work orders, violation status, upcoming capital projects — get that package auto-generated from the management platform data with no manual assembly required.
-**Tags:** #automation #llm #tabular-ml #worker-facing
+**Tags:** #large-language-models #attention-mechanisms #transformers #descriptive-statistics #automation #worker-facing
 
 ## The Problem
 

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Crop Stress Detection from Multispectral Imagery
-#cnn #semantic-segmentation #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #semantic-segmentation #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #optimization-fundamentals #tacit-knowledge-ml
 
 **Problem statement:** Experienced agronomists diagnose crop stress from visual cues that take years to develop — reading the specific yellow-green of nitrogen deficiency versus the blue-green of water stress, distinguishing soilborne disease patterns from foliar infections, identifying pest damage versus environmental stress. A CNN-based system operating on drone or satellite multispectral imagery can perform zone-level diagnosis across entire operations, scaling the agronomist's diagnostic expertise to thousands of acres with daily revisit frequency.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. In-Season Yield Prediction from Field and Weather Data
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #expectation-variance-covariance #bias-variance-tradeoff
 
 **Problem statement:** Predicting field-level crop yield before harvest — from planting parameters, weather accumulation, satellite vegetation indices, and soil characteristics — enables proactive marketing decisions (forward-contracting expected production), insurance planning, and input adjustment (reducing late-season input investment on fields with poor yield trajectory).
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Variable-Rate Input Prescription Maps from Zone Analysis
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #gradient-descent #bias-variance-tradeoff
 
 **Problem statement:** Variable-rate technology (VRT) allows seed, fertilizer, and chemical to be applied at different rates across different zones within a field, matching input rates to each zone's yield potential and nutrient needs. But generating the prescription map — deciding what rate to apply in each zone — requires agronomic expertise that most farmers don't have, and the prescription generation process is manual and time-consuming.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Harvest Timing Optimization
-#lstm #time-series-forecasting #tabular-ml
+#lstms-and-grus #rnns #time-series-forecasting #loss-functions #backpropagation #evaluation-metrics #gradient-descent #optimization-fundamentals
 
 **Problem statement:** The optimal harvest date balances grain moisture (lower moisture means less drying cost but higher field loss risk from weather), grain quality (protein content, test weight affected by late-season weather), weather risk (each day in the field increases exposure to storms), and market price (basis patterns shift through harvest season). Experienced farmers develop an intuitive sense of when to start and stop harvest on each field — a model can formalize this multi-objective optimization.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Weed Species Identification for Targeted Spraying
-#cnn #multiclass-classification #object-detection #computer-vision
+#cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #cross-validation #optimization-fundamentals
 
 **Problem statement:** Herbicide application is the largest chemical input cost for row crop farms ($30-$60/acre), and herbicide-resistant weed populations (waterhemp, Palmer amaranth, marestail) require species-specific treatment — a broad-spectrum application that worked 10 years ago is now ineffective on resistant populations. Identifying weed species at the field level enables targeted, species-specific herbicide application rather than blanket spraying.
 

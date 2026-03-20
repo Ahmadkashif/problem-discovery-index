@@ -3,7 +3,7 @@
 **Industry:** [[hr-consultants|HR Consultants]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Handbook templates exist everywhere, but none produce a state-compliant, client-specific, living document that updates itself when laws change.
-**Tags:** #llm #text-generation #nlp #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #word-embeddings #transfer-learning #evaluation-metrics #compliance
 
 ## The Problem
 HR consultants create and maintain employee handbooks for every client — a task that consumes 6-15 hours per new client and 3-5 hours per annual update cycle. Each handbook must reflect the client's specific state(s) of operation, industry-specific regulations (DOT drug testing for transportation, HIPAA for healthcare), company size thresholds triggering specific policies, and the client's cultural preferences around PTO structure, remote work, and disciplinary procedures. Consultants typically start from a master template and manually edit sections, but the number of jurisdiction-dependent clauses (at-will employment disclaimers, meal break requirements, harassment training mandates) makes every handbook a custom legal document.

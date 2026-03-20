@@ -5,7 +5,7 @@
 ---
 
 ## 1. L1 Ticket Resolution Agent
-#ai-agent #llm #automation #revenue-impact
+#ai-agent #large-language-models #bert #transformers #transfer-learning #evaluation-metrics #automation #revenue-impact
 
 **Concept:** An autonomous agent that monitors the PSA ticket queue, classifies inbound L1 tickets, and executes safe remediation actions via the RMM agent without human intervention. For password resets, it verifies the requester's identity against Active Directory and the PSA contact record, executes the reset, and sends credentials through a secure channel. For printer issues, it queries the endpoint's print spooler status, restarts the service, and verifies the printer is reachable. For connectivity problems, it runs a diagnostic sequence (DNS flush, adapter reset, gateway ping) and reports results. Tickets it cannot resolve with high confidence are escalated to L1 technicians with a pre-populated diagnosis and recommended next steps.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Client QBR Report Agent
-#ai-agent #llm #text-generation #data-integration
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #data-integration
 
 **Concept:** An agent that autonomously compiles quarterly business review materials for each MSP client by pulling data from RMM (asset inventory, patch compliance, backup success rates), PSA (ticket volume trends, SLA compliance, time-to-resolution), and security tools (vulnerability scan results, phishing simulation scores). It calculates a composite technology health score using MSP-configurable weightings, generates hardware refresh recommendations with estimated costs, and produces a branded PDF report with narrative summaries explaining trends and recommendations in client-friendly language. The vCIO reviews and personalizes the report in 15-20 minutes instead of building it from scratch over 4-8 hours.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Proactive Maintenance Agent
-#ai-agent #ai-platform #automation #data-integration
+#ai-agent #ai-platform #gradient-boosting #random-forests #time-series-forecasting #feature-engineering #evaluation-metrics #automation #data-integration
 
 **Concept:** An always-on agent that monitors RMM telemetry across all managed endpoints, detects emerging failure patterns (disk degradation, memory errors, thermal anomalies, backup failures trending toward quota exhaustion), and autonomously creates and schedules proactive maintenance tickets before the failure impacts the client. It groups related maintenance tasks by client site for efficient on-site batching, orders replacement parts through integrated procurement (Dell, HP, Ingram Micro APIs), and generates client communication explaining the proactive work and its cost avoidance value. The agent transforms the MSP from reactive ("your server crashed, we're fixing it") to genuinely proactive ("we detected your server's disk is degrading and scheduled a replacement for Thursday during your maintenance window").
 

@@ -3,7 +3,7 @@
 **Industry:** [[general-contractors|General Contractors]]
 **Type:** Worker Life Changing
 **One-liner:** Superintendents who spend 30-45 minutes at the end of each shift writing daily field reports — documenting weather, crew counts, work completed, and issues encountered — get that report generated automatically from the photos they're already taking throughout the day.
-**Tags:** #cnn #text-generation #computer-vision #multimodal #worker-facing #automation
+**Tags:** #cnns #large-language-models #transfer-learning #object-detection #loss-functions #backpropagation #evaluation-metrics #feature-engineering #worker-facing #automation
 
 ## The Problem
 Daily field reports (DFRs) are a contractual and risk management requirement on most commercial construction projects — they document site conditions, labor, equipment, work completed, and any events that could affect schedule or cost. Superintendents are required to produce them daily. The problem is timing: the superintendent's shift is spent managing trades, solving problems, and making decisions — at shift end, they have 30-45 minutes of report writing standing between them and going home. The report covers the same categories every day (weather, crew counts, work areas active, percent complete by area, issues encountered, materials delivered), but requires enough specificity that it serves as contemporaneous evidence if a dispute arises later. Rushed DFRs lose that evidentiary value.

@@ -3,7 +3,7 @@
 **Industry:** [[owner-operator-trucking|Owner-Operator Trucking]]
 **Type:** Worker Life Changing
 **One-liner:** Long-haul owner-operators spend 250+ nights per year alone in a truck cab, and the compounding effect of isolation, irregular sleep, and disconnection from family drives depression, substance abuse, and a suicide rate nearly double the national average.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #worker-facing
 
 ## The Problem
 An owner-operator running long-haul routes spends 10-14 hours per day in a cab alone, eats meals at truck stops, sleeps in a 7x4-foot sleeper berth, and goes days without meaningful human conversation beyond "door 7, back in" at a warehouse dock. The isolation is compounded by schedule unpredictability — a driver planning to be home Friday might get stuck at a shipper until Saturday, missing a child's game or a spouse's birthday. CDC data shows commercial truck drivers have rates of depression, obesity, and sleep disorders 2-3x above the general population. Mental health resources are effectively inaccessible: therapists don't have evening/weekend hours matching driver schedules, and there's no private space to take a therapy call from a truck stop parking lot.

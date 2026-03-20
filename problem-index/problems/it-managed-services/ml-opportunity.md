@@ -6,7 +6,7 @@
 ---
 
 ## 1. Ticket Root Cause Inference from Symptom Descriptions
-#bert #text-classification #nlp #tacit-knowledge-ml
+#bert #transformers #word-embeddings #transfer-learning #attention-mechanisms #evaluation-metrics #feature-engineering #loss-functions #gradient-descent #tacit-knowledge-ml
 
 **Problem statement:** Experienced L2/L3 technicians read a ticket description and intuitively know the real root cause isn't what the user described — they pattern-match from thousands of prior tickets where "my email is slow" actually meant "the Exchange server is running out of memory" or "the user's PST file is 40GB." This diagnostic intuition, built over years of resolving tickets, is the most valuable tacit knowledge in an MSP and the hardest to transfer to junior staff.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Ticket Auto-Classification and Intelligent Routing
-#bert #llm #text-classification #nlp #automation #revenue-impact
+#bert #large-language-models #transformers #word-embeddings #transfer-learning #attention-mechanisms #evaluation-metrics #loss-functions #automation #revenue-impact
 
 **Problem statement:** Inbound tickets arrive as unstructured text mixing end-user language with technical jargon, and must be classified by issue category, urgency, affected system, and appropriate technician tier — currently done manually or with brittle keyword rules that misroute 20-30% of tickets.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Alert Noise Reduction and Actionability Scoring
-#gradient-boosting #binary-classification #tabular-ml #worker-facing
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #gradient-descent #bias-variance-tradeoff #worker-facing
 
 **Problem statement:** RMM monitoring generates 300-800 alerts daily for a mid-size MSP, with 80%+ being non-actionable noise, burying genuine incidents and causing technician alert fatigue.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Client Churn Prediction from Ticket and Engagement Patterns
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #gradient-descent #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** MSPs lose 10-15% of clients annually, often with minimal warning — the client simply doesn't renew. Early identification of at-risk clients enables proactive intervention by account managers.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Endpoint Failure Prediction from RMM Telemetry
-#random-forest #gradient-boosting #binary-classification #time-series-forecasting #tabular-ml
+#random-forests #gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #probability-distributions
 
 **Problem statement:** MSPs are reactive to hardware failures — a server disk fails, a workstation blue-screens — causing emergency tickets, SLA breaches, and client frustration. RMM agents already collect the telemetry that could predict failures before they happen.
 
@@ -76,7 +76,7 @@
 ---
 
 ## 6. Technician Utilization Optimization and Scheduling
-#linear-regression #gradient-boosting #regression #tabular-ml #workflow-orchestration
+#linear-regression #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #gradient-descent #workflow-orchestration
 
 **Problem statement:** MSP dispatchers assign tickets to technicians based on availability and rough skill match, but suboptimal scheduling leaves some technicians over-utilized (causing burnout and quality drops) while others are under-utilized, and on-site visits are not batched geographically.
 

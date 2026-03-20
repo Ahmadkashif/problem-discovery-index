@@ -3,7 +3,7 @@
 **Industry:** [[pet-services|Pet Services]]
 **Type:** Worker Life Changing
 **One-liner:** Daycare attendants and groomers stop getting bitten 2-3 times per year because real-time behavioral monitoring warns them before a stressed animal reaches its bite threshold.
-**Tags:** #cnn #binary-classification #computer-vision #worker-facing
+**Tags:** #cnns #logistic-regression #transfer-learning #loss-functions #evaluation-metrics #backpropagation #gradient-descent #worker-facing
 
 ## The Problem
 Pet service workers experience animal bites at rates 5-10x the general workforce. Dog daycare attendants face the highest risk — breaking up fights, handling resource-guarding dogs, and managing pack dynamics result in 2-4 bite incidents per year for active floor staff. Groomers face a different risk profile: anxious or pain-sensitive dogs that snap during nail trimming, ear cleaning, or sanitary clipping. Most bites are preceded by warning signals (lip curling, stiffening, whale eye, growling) that experienced handlers recognize and avoid. New employees — who make up a disproportionate share of the workforce due to 40%+ annual turnover — lack the pattern recognition to read pre-bite signals and position themselves safely.

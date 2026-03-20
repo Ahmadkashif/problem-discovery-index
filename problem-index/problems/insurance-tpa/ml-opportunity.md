@@ -6,7 +6,7 @@
 ---
 
 ## 1. Claim Anomaly Detection from Narrative and Documentation Patterns (Primary Opportunity — Tacit Knowledge ML)
-#bert #isolation-forest #anomaly-detection #nlp #tabular-ml #tacit-knowledge-ml
+#bert #transfer-learning #attention-mechanisms #feature-engineering #evaluation-metrics #gradient-boosting #cross-validation #conditional-probability-and-bayes-theorem #entropy-cross-entropy-kl-divergence #maximum-likelihood-estimation #tacit-knowledge-ml
 
 **Problem statement:** Experienced claims examiners develop an intuitive sense for "something off" about a claim — the narrative doesn't match the diagnosis, the treatment timeline seems accelerated, the provider's billing pattern is unusual, or the claimant's description of the incident contains linguistic markers of fabrication or exaggeration. This pattern recognition is built from reviewing thousands of claims and seeing which ones eventually turned out to be fraudulent, inflated, or miscoded. Senior examiners flag 3-5x more suspicious claims than juniors, but they can rarely articulate the specific signals they detected — they describe it as a "gut feeling" or "it just doesn't read right." When these examiners turn over (25-30% annually in claims roles), the fraud detection capability degrades immediately.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Claims Triage and Routing
-#bert #gradient-boosting #multiclass-classification #nlp #tabular-ml
+#bert #gradient-boosting #decision-trees #transfer-learning #feature-engineering #cross-validation #evaluation-metrics #entropy-cross-entropy-kl-divergence #loss-functions #probability-distributions
 
 **Problem statement:** Incoming claims must be routed to the right examiner — simple claims to junior examiners, complex claims to seniors, specialized claims (subrogation potential, litigation likely, catastrophic injury) to specialists. Current routing is manual or based on simple rules (round-robin within a team). Intelligent triage could match claim complexity to examiner skill and capacity.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Reserve Estimation
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #linear-regression #bias-variance-tradeoff #expectation-variance-covariance #probability-distributions #regularization
 
 **Problem statement:** Reserve accuracy — predicting the total cost of a claim at the time of first report — is a core TPA competency that affects carrier financial reporting, reinsurance decisions, and regulatory compliance. Initial reserves set by examiners are typically 20-40% inaccurate, requiring frequent manual adjustments.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Provider Fraud Detection
-#gradient-boosting #isolation-forest #anomaly-detection #tabular-ml
+#gradient-boosting #feature-engineering #evaluation-metrics #cross-validation #descriptive-statistics #expectation-variance-covariance #hypothesis-testing #probability-distributions #conditional-probability-and-bayes-theorem
 
 **Problem statement:** A small percentage of providers (2-5%) generate disproportionate claim costs through over-utilization, upcoding, unbundling, or outright fraud. Identifying these providers requires comparing their billing patterns against peer benchmarks — a task that SIU teams do manually for flagged providers but cannot do systematically across the entire network.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. SLA Breach Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #time-series-forecasting #probability-distributions #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 **Problem statement:** TPAs face financial penalties when claims processing exceeds contractual SLA timelines. Predicting which claims are at risk of breaching SLA 5-10 days before the deadline enables proactive intervention — reassigning to available examiners, expediting pending documentation requests, or escalating to supervisors.
 

@@ -3,7 +3,7 @@
 **Industry:** [[greenhouse-horticulture|Greenhouse Horticulture]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic project management tools cannot model greenhouse-specific constraints like bench space allocation, light zone requirements, propagation-to-finish transitions, and temperature compartment sharing.
-**Tags:** #gradient-boosting #regression #tabular-ml #workflow-orchestration
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #combinatorics-and-counting #workflow-orchestration
 
 ## The Problem
 A multi-crop ornamental greenhouse may run 50-200 different SKUs (cultivars x pot sizes) simultaneously, each with different space requirements at different growth stages — a 4" poinsettia takes 0.5 sq ft in propagation but 1.2 sq ft at finish. Crops must be assigned to specific zones based on temperature and light requirements (high-light warm zone vs. cool-growing shade zone). The scheduling goal is to maximize revenue per square foot per week while meeting shipping dates for pre-booked wholesale orders. Most operations manage this with spreadsheets or whiteboards, and head growers report spending 8-12 hours per week on manual scheduling that still leaves 10-15% of bench space idle between crop turns.

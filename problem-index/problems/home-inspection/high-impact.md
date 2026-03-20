@@ -3,7 +3,7 @@
 **Industry:** [[home-inspection|Home Inspection]]
 **Type:** High Impact
 **One-liner:** Experienced home inspectors who identify defects across 12+ home systems by reading subtle visual evidence — hairline cracks in foundation walls, double-tapped breakers in panels, improper flashing patterns on roofs — get that multi-system visual expertise augmented by a computer vision model that flags potential defects in their inspection photos, reducing the miss rate for non-obvious defects.
-**Tags:** #cnn #object-detection #multiclass-classification #computer-vision #tacit-knowledge-ml #revenue-impact
+**Tags:** #cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #feature-engineering #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 

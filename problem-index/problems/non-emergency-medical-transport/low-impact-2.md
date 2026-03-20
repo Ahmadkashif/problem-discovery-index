@@ -3,7 +3,7 @@
 **Industry:** [[non-emergency-medical-transport|Non-Emergency Medical Transport]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Fleet maintenance tools exist for homogeneous trucking fleets — but NEMT operators run wheelchair vans, stretcher vehicles, sedans, and WAVs with different maintenance profiles, and a single vehicle down on a Monday morning means patients miss dialysis.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #time-series-forecasting #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent
 
 ## The Problem
 A typical 30-50 vehicle NEMT fleet includes wheelchair-accessible vans (with hydraulic lifts requiring separate maintenance cycles), stretcher vehicles (with locking mechanism inspections mandated by DOT), sedans for ambulatory patients, and sometimes bariatric-capable vehicles with reinforced suspension. Each vehicle type has different maintenance intervals, different failure modes, and different consequences when pulled from service. Operators schedule maintenance reactively or on crude mileage intervals, leading to breakdowns during service hours that strand patients and trigger broker penalties for missed trips. Lift and ramp failures alone account for 30-40% of roadside breakdowns in wheelchair fleets.

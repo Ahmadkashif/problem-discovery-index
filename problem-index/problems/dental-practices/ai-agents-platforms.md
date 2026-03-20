@@ -6,7 +6,7 @@
 ---
 
 ## 1. Insurance Intelligence Agent
-#ai-agent #revenue-impact #data-integration
+#bert #transfer-learning #ai-agent #revenue-impact #data-integration
 
 **What it does:** An agent that proactively verifies insurance benefits for the next day's schedule overnight. It logs into payer portals, extracts complete benefit breakdowns (not just eligibility), tracks each patient's remaining annual maximum and frequency limitations, and presents the front desk with a verified benefit summary per patient by 7am. When it can't extract data from a portal (changed layout, login issues), it flags those patients for manual verification.
 
@@ -18,7 +18,7 @@
 ---
 
 ## 2. Chairside Documentation Agent
-#ai-agent #worker-facing #ml-nlp
+#large-language-models #transformers #bert #ai-agent #worker-facing
 
 **What it does:** A voice-activated agent that listens to the dentist's verbal callouts during procedures, transcribes them, maps them to CDT codes and charting entries, tracks materials used (with lot numbers from barcode scans), and generates the complete procedure record. The dental assistant confirms the charted entry between patients with a quick review — replacing real-time transcription during the procedure.
 
@@ -30,7 +30,7 @@
 ---
 
 ## 3. Case Presentation & Financial Platform
-#ai-platform #revenue-impact #quick-win
+#optimization-fundamentals #arithmetic-and-basic-algebra #ai-platform #revenue-impact #quick-win
 
 **What it does:** A patient-facing platform that presents treatment plans with verified insurance coverage, precise out-of-pocket costs, multiple payment options (in-house, CareCredit, Sunbit), and calendar-year optimization recommendations. The patient sees an interactive breakdown: "Your crown costs $1,200. Insurance covers $720. Your cost: $480. If you schedule before December 31, you use this year's remaining benefits. If you wait until January, your out-of-pocket is $720 because your deductible resets."
 
@@ -42,7 +42,7 @@
 ---
 
 ## 4. Imaging Unification & Analysis Platform
-#ai-platform #data-integration #ml-computer-vision
+#cnns #object-detection #semantic-segmentation #transfer-learning #ai-platform #data-integration
 
 **What it does:** A platform that aggregates all dental imaging (intraoral, periapical, bitewing, pano, CBCT) into a unified timeline per patient, mapped to tooth numbers. Includes AI-assisted pathology detection (caries, bone loss, periapical lesions) that highlights regions of interest across all modalities. Dentists see the full visual history of any tooth in one view, with AI annotations as a second-opinion layer.
 
@@ -54,7 +54,7 @@
 ---
 
 ## 5. Schedule & Revenue Optimization Agent
-#ai-agent #revenue-impact #ml-optimization
+#gradient-boosting #feature-engineering #optimization-fundamentals #ai-agent #revenue-impact
 
 **What it does:** An agent that optimizes the daily and weekly schedule for production (revenue) and efficiency. It balances hygiene exams (high volume, low revenue per visit) with restorative procedures (lower volume, higher revenue), identifies open slots that could accommodate treatment plan patients who haven't scheduled, and sends targeted outreach to patients whose treatment plans are aging or whose insurance benefits are about to reset.
 

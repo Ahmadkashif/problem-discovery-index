@@ -6,7 +6,7 @@
 ---
 
 ## 1. Visit Schedule Optimization with Real-Time Rerouting
-#ml-optimization #revenue-impact
+#optimization-fundamentals #convex-optimization #numerical-methods #gradient-boosting #feature-engineering #evaluation-metrics #revenue-impact
 
 **Problem statement:** Given a daily patient census (locations, visit windows, acuity, payer-mandated frequencies), clinician roster (certifications, availability, home base location), and real-time disruptions (cancellations, call-outs), produce and continuously optimize visit schedules that minimize drive time while satisfying all clinical and regulatory constraints.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. OASIS Answer Pre-Population from Clinical Notes
-#ml-nlp #worker-facing #quick-win
+#bert #transfer-learning #feature-engineering #evaluation-metrics #worker-facing #quick-win
 
 **Problem statement:** Given a patient's recent visit notes, medication list, prior OASIS assessments, and hospital discharge summary, pre-populate as many OASIS fields as possible — reducing the clinician's assessment from 100+ questions to only those requiring fresh bedside observation.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Patient Hospitalization Risk Prediction
-#ml-classification #quick-win #revenue-impact
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #quick-win #revenue-impact
 
 **Problem statement:** Given a home health patient's clinical trajectory (visit notes, vital signs, OASIS functional scores, medication changes), predict the probability of hospitalization in the next 14 days so that the agency can intervene proactively.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. EVV Discrepancy Auto-Resolution
-#ml-classification #automation #quick-win
+#logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #automation #quick-win
 
 **Problem statement:** Given a set of EVV records, clinical visit notes, and payroll entries for the same visit, classify discrepancies as: legitimate (normal variance), data entry error (auto-correctable), or true exception (requires human review).
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Referral-to-Admission Conversion Prediction
-#ml-classification #revenue-impact
+#logistic-regression #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #revenue-impact
 
 **Problem statement:** Given a hospital discharge referral's attributes (diagnosis, payer, referring hospital, patient demographics, referral completeness), predict the probability that the referral will convert to an admitted patient — allowing the agency to prioritize high-conversion referrals and allocate intake resources accordingly.
 

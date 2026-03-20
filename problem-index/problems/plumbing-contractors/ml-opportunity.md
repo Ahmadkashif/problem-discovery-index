@@ -6,7 +6,7 @@
 ---
 
 ## 1. Sewer Pipe Defect Detection from Inspection Camera Video
-#cnn #object-detection #semantic-segmentation #computer-vision #tacit-knowledge-ml
+#cnns #object-detection #semantic-segmentation #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #tacit-knowledge-ml
 
 **Problem statement:** Experienced drain technicians identify pipe defects (root intrusion, cracking, offset, belly, grease accumulation, pipe material degradation) by watching sewer camera video footage — a visual pattern recognition skill built from thousands of camera runs. A convolutional model trained on labeled inspection footage can replicate this per-frame defect detection for residential and commercial plumbing pipe diameters (3"-6"), enabling junior technicians to produce expert-quality condition assessments.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Plumbing Fault Acoustic Signature Classification
-#cnn #multiclass-classification #signal-processing #tacit-knowledge-ml #quick-win
+#cnns #activation-functions #loss-functions #backpropagation #feature-engineering #evaluation-metrics #gradient-descent #tacit-knowledge-ml #quick-win
 
 **Problem statement:** Experienced plumbers diagnose plumbing system faults partially through acoustic cues — water hammer (banging pipes on valve closure), cavitation (hissing/vibration from undersized lines or pump issues), pipe vibration indicating loose hangers, the specific sound of a running toilet flapper leak, or the pressure surge pattern of a failing pressure reducing valve. Capture and classify these acoustic signatures to support remote diagnosis and apprentice training.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Service Call Outcome and Upsell Prediction
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Predict which service calls are likely to result in a repair authorization (vs. customer declining), and which calls present the highest-probability upsell opportunity (customer approves additional recommended work) — enabling smarter dispatching and technician preparation.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Water Leak Origin Localization from Stain Pattern Analysis
-#cnn #regression #computer-vision #tacit-knowledge-ml
+#cnns #linear-regression #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #conditional-probability-and-bayes-theorem #tacit-knowledge-ml
 
 **Problem statement:** Experienced plumbers can look at a water stain on a ceiling or wall and estimate the likely pipe run responsible — using the stain shape, color progression, and location relative to known plumbing fixtures to triangulate the leak source before cutting drywall. A computer vision model can replicate this spatial reasoning from photos to reduce unnecessary destructive investigation.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Predictive Maintenance Scheduling for Residential Water Heaters and Drains
-#gradient-boosting #survival-analysis #tabular-ml #revenue-impact
+#gradient-boosting #survival-analysis #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #maximum-likelihood-estimation #revenue-impact
 
 **Problem statement:** Predict which water heaters in a plumbing firm's customer base are approaching failure (based on age, model, installation environment, and service history) — enabling proactive replacement outreach before the customer calls at 9pm with no hot water, and scheduling drain maintenance before a backup occurs.
 

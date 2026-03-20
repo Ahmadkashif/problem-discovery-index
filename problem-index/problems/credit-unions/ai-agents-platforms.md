@@ -1,12 +1,12 @@
 # AI Agents & Platform Opportunities — Credit Unions
 
 **Industry:** [[credit-unions|Credit Unions]]
-**Tags:** #ai-agent #ai-platform #llm #automation #compliance #revenue-impact #data-integration
+**Tags:** #ai-agent #ai-platform #large-language-models #automation #compliance #revenue-impact #data-integration
 
 ---
 
 ## 1. Loan Decision Support Agent
-#ai-agent #gradient-boosting #binary-classification #tabular-ml #tacit-knowledge-ml #revenue-impact
+#ai-agent #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #probability-distributions #tacit-knowledge-ml #revenue-impact
 
 **Concept:** An agent that augments the loan officer's decision workflow by surfacing behavioral risk signals and compensating factors from member history the moment a loan application is opened. Rather than replacing the loan officer's judgment, it replicates the contextual awareness a veteran officer builds over years — presenting deposit pattern trends, payment history across all CU products, member engagement trajectory, and comparison to similar approved/declined applications — so that junior officers make decisions with the same informational depth as a 15-year veteran.
 
@@ -21,7 +21,7 @@
 ---
 
 ## 2. Member Engagement Agent
-#ai-agent #llm #recommendation #nlp #data-integration
+#ai-agent #large-language-models #attention-mechanisms #transformers #feature-engineering #data-integration
 
 **Concept:** An always-on agent that monitors member behavioral signals across core banking, digital banking, and card transaction data to identify engagement opportunities and attrition risks — then triggers personalized outreach through the appropriate channel (in-app notification, email, teller screen prompt, or branch manager alert) with a specific, contextually relevant message. Not a marketing automation blast — a single-member, single-message, single-moment intervention based on real-time behavioral signal.
 
@@ -36,7 +36,7 @@
 ---
 
 ## 3. BSA/AML Alert Triage Agent
-#ai-agent #gradient-boosting #anomaly-detection #tabular-ml #compliance #automation
+#ai-agent #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #descriptive-statistics #compliance #automation
 
 **Concept:** An agent that pre-processes BSA/AML alerts from the CU's existing monitoring platform (Verafin, Abrigo), enriches each alert with member behavioral context and community baseline data, scores investigation priority, and generates a draft case narrative for the BSA officer's review. The agent does not make SAR/no-SAR filing decisions — it eliminates the 60-80% of review time spent gathering context and writing case notes on alerts that are clearly false positives, freeing the BSA officer to focus on genuinely suspicious patterns.
 

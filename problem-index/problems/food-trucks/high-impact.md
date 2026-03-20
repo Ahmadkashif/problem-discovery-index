@@ -3,7 +3,7 @@
 **Industry:** [[food-trucks|Food Trucks]]
 **Type:** High Impact
 **One-liner:** Operators stop guessing which corner to park on and start knowing — turning the daily $200-or-$2,000 gamble into a data-driven decision.
-**Tags:** #gradient-boosting #regression #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 A food truck's daily revenue is almost entirely determined by where it parks and when. Experienced operators develop an intuitive model over years — they read weather forecasts, scan local event calendars, notice office-building occupancy patterns, track competitor locations, and weigh day-of-week effects — but this knowledge lives in their heads and takes 2-3 years of costly trial-and-error to build. New operators lose thousands in their first year parking in dead zones, and even veterans misjudge unfamiliar neighborhoods or miss emerging hotspots.

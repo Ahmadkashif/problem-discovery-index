@@ -3,7 +3,7 @@
 **Industry:** [[engineering-consultants|Engineering Consultants]]
 **Type:** Worker Life Changing
 **One-liner:** PMs stop spending Friday afternoons hunting down timesheets and manually assembling invoices so they can focus on managing projects.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #word-embeddings #evaluation-metrics #worker-facing #automation
 
 ## The Problem
 Engineering project managers spend 3-5 hours every week chasing engineers for timesheet submissions, verifying that hours are coded to the correct project phase and billing rate, reconciling timesheet data with contract fee schedules, and assembling invoices that match client-specific formatting requirements. Many clients require detailed backup — hours by person, by task, by date — formatted in their proprietary templates. A PM managing 8-12 active projects may spend an entire Friday afternoon on this administrative cycle, with the added stress that late or inaccurate invoices delay payment by 30-60 days, directly impacting the firm's cash flow.

@@ -3,7 +3,7 @@
 **Industry:** [[independent-insurance-agents|Independent Insurance Agents]]
 **Type:** Worker Life Changing
 **One-liner:** CSRs reclaim 2-3 hours per day currently spent on repetitive certificate-of-insurance issuance — the most soul-crushing task in an insurance agency.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #word-embeddings #transfer-learning #evaluation-metrics #worker-facing #automation
 
 ## The Problem
 CSRs in independent agencies field 20-50 certificate-of-insurance (COI) requests per day, primarily from commercial clients whose vendors, landlords, or general contractors require proof of coverage. Each request follows the same workflow: receive the request (email, phone, or portal), look up the policy in the AMS, identify the required certificate holder information and special endorsements, log into the carrier's portal or the AMS certificate module, generate the ACORD 25 or 28 form with the correct holder name and address, and email the completed certificate. The task takes 3-8 minutes each depending on complexity, and when a certificate holder has specific additional-insured or waiver-of-subrogation requirements, it can balloon to 15-20 minutes of back-and-forth.

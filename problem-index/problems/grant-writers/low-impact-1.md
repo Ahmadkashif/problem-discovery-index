@@ -3,7 +3,7 @@
 **Industry:** [[grant-writers|Grant Writers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Grant writers rewrite the same organizational descriptions, methodology sections, and capacity statements for every proposal because existing document management tools don't understand grant narrative structure or funder-specific tone requirements.
-**Tags:** #llm #text-generation #nlp #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #automation
 
 ## The Problem
 

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Multi-System Defect Detection from Inspection Photos
-#cnn #object-detection #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #feature-engineering #tacit-knowledge-ml
 
 **Problem statement:** Experienced home inspectors read subtle visual defect evidence across 15 building systems — a multi-domain visual pattern recognition skill built from hundreds of inspections. A computer vision model trained on labeled inspection photos can provide a second-pass review of the inspector's photo record, flagging potential defects that the inspector photographed but didn't consciously register during the inspection.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Property-Specific Deficiency Frequency Prediction
-#gradient-boosting #ranking #tabular-ml #quick-win
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #quick-win
 
 **Problem statement:** Predict which building systems have the highest deficiency probability for a specific property before the inspection, based on the property's characteristics, to focus the inspector's attention on highest-risk areas.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Inspection Report Narrative Generation
-#llm #text-generation #nlp #automation #quick-win
+#large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #evaluation-metrics #quick-win
 
 **Problem statement:** Generate professional, InterNACHI/ASHI-compliant report narratives from inspector voice notes and photo metadata, reducing post-inspection report writing time from 45-90 minutes to 15-20 minutes.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Foundation Crack Severity Classification
-#cnn #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering #tacit-knowledge-ml
 
 **Problem statement:** Foundation crack interpretation is one of the highest-liability areas in home inspection — inspectors who incorrectly dismiss active structural movement as normal settling face E&O claims. A classification model for foundation crack type (horizontal, stair-step, vertical, diagonal, offset) and severity can augment inspector judgment on this high-stakes deficiency category.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Repair Cost Range Estimation from Deficiency Type and Location
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics
 
 **Problem statement:** Provide repair cost range estimates for identified deficiencies based on defect type and geographic location, enabling inspectors to include cost context in reports without manual research.
 

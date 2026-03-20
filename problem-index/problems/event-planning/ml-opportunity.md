@@ -6,7 +6,7 @@
 ---
 
 ## 1. Event Scope and Budget Prediction from Client Brief
-#gradient-boosting #bert #regression #nlp #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #bert #transformers #word-embeddings #feature-engineering #cross-validation #evaluation-metrics #attention-mechanisms #tacit-knowledge-ml
 
 **Problem statement:** Experienced event planners read a client brief — a mix of vision descriptions, mood board references, guest count, and stated budget — and instantly know the real budget needed. They've calibrated this intuition through hundreds of final invoices. A "rustic elegant" wedding for 200 in Austin triggers a mental model: $75K-$95K. This tacit knowledge is the difference between planners who set expectations correctly and those who plan to an unrealistic budget for three months before discovering the mismatch.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Vendor-Event Matching and Recommendation
-#gradient-boosting #recommendation #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance #bias-variance-tradeoff
 
 **Problem statement:** Matching vendors to events based on style compatibility, budget tier, reliability, and team chemistry is a planner's most valuable skill. Systematizing this could enable new planners to leverage institutional knowledge.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Day-Of Timeline Prediction and Risk Identification
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance
 
 **Problem statement:** Day-of execution timelines are built from templates but actual timing varies significantly. Identifying which timeline items are at risk of running over — and by how much — enables better buffer planning.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Client Communication Pattern and Churn Risk
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 **Problem statement:** Client relationships that go sideways often show warning signs in communication patterns weeks before an explicit complaint: response delays, tone shifts, decreasing engagement with shared documents.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Dynamic Pricing and Capacity Optimization
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #expectation-variance-covariance
 
 **Problem statement:** Planners price based on intuition rather than demand data. During peak season (October, June), they're overbooked; during off-season, they discount desperately. Market-aware pricing could smooth demand and maximize revenue.
 

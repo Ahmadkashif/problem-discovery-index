@@ -3,7 +3,7 @@
 **Industry:** [[charter-bus-operators|Charter Bus Operators]]
 **Type:** Worker Life Changing
 **One-liner:** Charter bus drivers on multi-day trips accumulate fatigue that HOS regulations alone cannot detect — they need a system that watches out for them when they cannot watch out for themselves.
-**Tags:** #lstm #anomaly-detection #signal-processing #worker-facing
+**Tags:** #lstms-and-grus #rnns #activation-functions #loss-functions #backpropagation #gradient-descent #time-series-forecasting #evaluation-metrics #change-point-detection #worker-facing
 
 ## The Problem
 A charter bus driver on a 4-day wedding weekend or a 7-day band tour faces a fatigue profile that is fundamentally different from a freight driver's. They deal with irregular sleep schedules (waiting at venues until 1 AM for pickup, then driving to a hotel, then departing at 7 AM), passenger-induced stress (managing 50 people's needs, complaints, and safety), unfamiliar routes in every city, and the physical demand of loading/unloading luggage at every stop. HOS regulations set maximum driving windows but do not account for cumulative fatigue across consecutive short-sleep nights, nor for the cognitive load of navigating unfamiliar urban environments with a 45-foot vehicle. Drivers self-report feeling "fine" because admitting fatigue means losing the trip assignment and the income.

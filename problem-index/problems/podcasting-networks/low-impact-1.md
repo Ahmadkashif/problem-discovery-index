@@ -3,7 +3,7 @@
 **Industry:** [[podcasting-networks|Podcasting Networks]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Mid-tier shows (10K-100K downloads/episode) leave 30-50% of their ad inventory unsold because generic programmatic tools cannot articulate why a niche audience is valuable to a specific brand.
-**Tags:** #gradient-boosting #recommendation #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #word-embeddings #logistic-regression #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 Programmatic ad platforms like Megaphone's marketplace and Acast's self-serve tools fill inventory for top-100 shows automatically, but mid-tier shows — which collectively represent the majority of network revenue — rely on manual sales outreach. Ad sales reps pitch sponsors using download numbers and broad demographic categories (age, gender, geography), which fails to communicate the psychographic alignment between a niche show's audience and a brand's target customer. A true-crime podcast about financial fraud has a very different audience from a true-crime podcast about serial killers, but both show up as "True Crime, 25-44, US" in current tools.

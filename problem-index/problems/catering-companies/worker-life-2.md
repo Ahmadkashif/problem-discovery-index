@@ -3,7 +3,7 @@
 **Industry:** [[catering-companies|Catering Companies]]
 **Type:** Worker Life Changing
 **One-liner:** Kitchen prep staff and line cooks get workload distribution that accounts for cumulative physical strain across a 16-hour multi-event day instead of being scheduled purely by event timing.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #worker-facing
 
 ## The Problem
 During peak catering season (May-October for weddings, November-December for corporate), kitchen crews routinely work 14-16 hour days producing for multiple events. A typical Saturday might require a crew of 6 to produce a 300-person wedding lunch (prep starts at 5 AM, service at noon), a 120-person cocktail reception (prep overlaps, service at 5 PM), and a 50-person intimate dinner (service at 7:30 PM). The physical demands are relentless: standing on concrete for the full shift, repetitive knife work during prep, lifting 40-lb hotel pans into and out of combi ovens, loading delivery vehicles, and working in kitchen temperatures that reach 100-110F during peak production. Crew scheduling is driven entirely by event timing and skill requirements — nobody models the cumulative fatigue of assigning the same cook to heavy protein breakdown at 5 AM, oven loading at 10 AM, and plating at 6 PM across a 16-hour shift. Injury rates spike in the back half of multi-event days: burns, cuts, and back strains concentrate in hours 10-16 when fatigue degrades motor control and attention.

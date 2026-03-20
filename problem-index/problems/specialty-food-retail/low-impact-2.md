@@ -3,7 +3,7 @@
 **Industry:** [[specialty-food-retail|Specialty Food Retail]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Stores selling prepared foods generate compliant allergen and nutritional labels from their recipes instead of guessing with handwritten signs.
-**Tags:** #llm #named-entity-recognition #nlp #compliance
+**Tags:** #large-language-models #bert #transformers #word-embeddings #transfer-learning #evaluation-metrics #compliance
 
 ## The Problem
 Specialty food stores that make prepared items — deli salads, bakery goods, sandwiches, soups, grab-and-go meals — are subject to FDA allergen labeling requirements (FSMA, FALCPA) and increasingly to state-level calorie disclosure laws. Most small stores handle this with handwritten "contains: nuts, dairy" signs or generic printed cards that are not updated when recipes change. When a bakery swaps one flour brand for another (with different trace allergen warnings), the label often does not follow. A single mislabeled item can cause an allergic reaction, a lawsuit, or an FDA warning letter.

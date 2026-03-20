@@ -3,7 +3,7 @@
 **Industry:** [[k12-private-schools|K-12 Private Schools]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic billing software doesn't understand that one family can owe three different tuition rates across three children, with a need-based grant on one, a merit scholarship on another, and a 10-month payment plan with a 2% late fee waiver for board members.
-**Tags:** #gradient-boosting #regression #tabular-ml #workflow-orchestration
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #workflow-orchestration
 
 ## The Problem
 Private school billing is uniquely layered: base tuition varies by grade, financial aid reduces it by a percentage or flat amount, sibling discounts stack on top, payment plans split the remainder across 1, 2, or 10 installments, and mid-year enrollments or withdrawals require pro-rata recalculations. Business office staff spend hours each month reconciling FACTS/Smart Tuition outputs against their own spreadsheets because the billing system cannot model all the exception logic their board has approved.

@@ -3,7 +3,7 @@
 **Industry:** [[greenhouse-horticulture|Greenhouse Horticulture]]
 **Type:** High Impact
 **One-liner:** A reinforcement learning system that continuously adjusts greenhouse climate setpoints to minimize energy cost while maximizing crop quality and yield.
-**Tags:** #reinforcement-learning #regression #tabular-ml #revenue-impact #automation
+**Tags:** #markov-decision-processes #dynamic-programming #policy-gradient-methods #gradient-descent #optimization-fundamentals #evaluation-metrics #expectation-variance-covariance #probability-distributions #revenue-impact #automation
 
 ## The Problem
 Greenhouse climate management involves simultaneous control of heating, ventilation, shade curtains, supplemental lighting, CO2 injection, and humidity — with each variable affecting crop growth rate, quality, and disease pressure. In a typical 5-acre commercial greenhouse, energy costs run $300K-$800K annually (natural gas, electricity, propane), representing 20-30% of total production cost. Head growers adjust setpoints multiple times per day based on weather forecasts, crop stage, energy prices, and years of intuition about how their specific cultivars respond — knowledge that is nearly impossible to transfer when a grower retires or leaves.

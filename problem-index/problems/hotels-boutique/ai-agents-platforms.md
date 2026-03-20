@@ -5,7 +5,7 @@
 ---
 
 ## 1. Revenue Management Agent
-#ai-agent #revenue-impact #time-series-forecasting #tabular-ml
+#ai-agent #gradient-boosting #lstms-and-grus #time-series-forecasting #feature-engineering #evaluation-metrics #revenue-impact
 
 **Concept:** An autonomous revenue management agent that monitors booking pace, competitor rates, local event calendars, and market demand signals to set and adjust room rates across all distribution channels without human intervention. Unlike IDeaS or Duetto — which require a dedicated revenue manager to configure strategies and review recommendations — this agent operates as a fully autonomous pricing engine calibrated to the independent hotel's risk tolerance. It executes rate changes directly through PMS and channel manager APIs, sends the GM a daily summary of actions taken and their rationale, and escalates only when market conditions fall outside its confidence bounds (e.g., a sudden 80% cancellation spike suggesting a local emergency).
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Guest Communication Agent
-#ai-agent #llm #text-generation #nlp #automation
+#ai-agent #large-language-models #transfer-learning #attention-mechanisms #transformers #automation
 
 **Concept:** A multi-channel guest communication agent that handles the full lifecycle from booking confirmation through post-stay follow-up, writing in the specific voice and personality of each property. It monitors all inbound channels (OTA messaging, email, SMS, WhatsApp, Instagram DM), drafts contextually aware responses using guest history and property knowledge, executes pre-arrival upsell sequences personalized to the guest's profile and stay dates, and handles routine inquiries (parking, check-in time, restaurant recommendations) autonomously while escalating complex requests to staff with full context attached. Unlike Akia or Whistle, which use template trees, this agent generates free-form responses grounded in the property's actual amenities, policies, and local knowledge.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Operations Coordination Agent
-#ai-agent #ai-platform #automation #workflow-orchestration #data-integration
+#ai-agent #ai-platform #gradient-boosting #optimization-fundamentals #large-language-models #automation #workflow-orchestration #data-integration
 
 **Concept:** A central operations agent that sits across PMS, housekeeping, maintenance, and staffing systems to coordinate the daily operational flow of a boutique hotel. It dynamically re-sequences housekeeping assignments based on real-time checkout data, dispatches maintenance requests with priority scoring, forecasts staffing needs for the next 48 hours based on occupancy and arrival patterns, and surfaces cross-system conflicts before they become guest-facing problems (e.g., "Room 304 has a maintenance ticket for a leaking faucet but is assigned to an arriving VIP guest in 3 hours — recommend reassignment to Room 308 which is the same type and ready"). This agent replaces the GM's mental model of "what's happening across the property right now" with an always-on operational awareness layer.
 

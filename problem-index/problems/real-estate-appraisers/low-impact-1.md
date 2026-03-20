@@ -3,7 +3,7 @@
 **Industry:** [[real-estate-appraisers|Real Estate Appraisers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** MLS search tools let appraisers filter and sort sales but don't rank comparables by overall similarity to the subject property — the multi-attribute similarity judgment that experienced appraisers make intuitively to select the three best comparables from 20 candidates.
-**Tags:** #gradient-boosting #ranking #tabular-ml #automation
+**Tags:** #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #norms-and-inner-products #bias-variance-tradeoff #automation
 
 ## The Problem
 

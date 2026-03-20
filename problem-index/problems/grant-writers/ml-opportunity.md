@@ -1,13 +1,13 @@
 # ML Opportunities — Grant Writers
 
 **Industry:** [[grant-writers|Grant Writers]]
-**Tags:** #bert #gradient-boosting #llm #binary-classification #regression #text-classification #text-generation #time-series-forecasting #change-point-detection #nlp #tabular-ml #tacit-knowledge-ml #revenue-impact #compliance
+**Tags:** #bert #gradient-boosting #large-language-models #transfer-learning #feature-engineering #evaluation-metrics #cross-validation #attention-mechanisms #change-point-detection #time-series-forecasting #tacit-knowledge-ml #revenue-impact #compliance
 
 ---
 
 ## 1. Grant-Organization Fit Prediction from RFP Analysis (Primary Opportunity — Tacit Knowledge ML)
 
-#bert #gradient-boosting #binary-classification #nlp #tabular-ml #tacit-knowledge-ml
+#bert #gradient-boosting #transfer-learning #feature-engineering #cross-validation #evaluation-metrics #attention-mechanisms #word-embeddings #entropy-cross-entropy-kl-divergence #conditional-probability-and-bayes-theorem #tacit-knowledge-ml
 
 **Problem statement:** Experienced grant writers read an RFP and intuitively assess whether an organization has a realistic chance of winning — recognizing signals in funder language, budget ceilings, review criteria weighting, and competitive landscape that take 5-10 years to develop. Junior writers and small nonprofits without this expertise waste 40-80 hours on proposals that never had a realistic chance, but the assessment criteria exist only as tacit pattern recognition in the heads of senior professionals.
 
@@ -29,7 +29,7 @@
 
 ## 2. Win Probability Estimation with Reviewer Score Prediction
 
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #bert #transfer-learning #feature-engineering #cross-validation #evaluation-metrics #attention-mechanisms #bias-variance-tradeoff #probability-distributions #revenue-impact
 
 **Problem statement:** Federal grants are scored by peer reviewers on defined criteria (e.g., NIH uses Significance, Investigators, Innovation, Approach, Environment on a 1-9 scale). Writers cannot predict which criteria will differentiate their proposal from competitors, leading to uniform effort allocation rather than strategic emphasis.
 
@@ -51,7 +51,7 @@
 
 ## 3. Funder Priority Shift Detection
 
-#gradient-boosting #change-point-detection #tabular-ml #time-series-forecasting #nlp
+#gradient-boosting #change-point-detection #time-series-forecasting #bert #transfer-learning #feature-engineering #evaluation-metrics #cross-validation #bayesian-inference
 
 **Problem statement:** Foundation and federal funding priorities shift gradually — a foundation that funded direct service programs for 10 years may pivot toward systems change or policy advocacy. Writers who don't detect these shifts waste proposals targeting last year's priorities.
 
@@ -73,7 +73,7 @@
 
 ## 4. Budget Reasonableness Scoring
 
-#gradient-boosting #regression #tabular-ml #anomaly-detection
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #expectation-variance-covariance #confidence-intervals #probability-distributions
 
 **Problem statement:** Grant budgets that are too high get rejected for unreasonableness; budgets that are too low signal lack of capacity. Writers struggle to calibrate budgets for unfamiliar program types or funders, and there's no systematic way to benchmark against successful proposals.
 
@@ -95,7 +95,7 @@
 
 ## 5. Narrative Quality and Persuasiveness Prediction
 
-#bert #llm #text-classification #nlp #regression
+#bert #large-language-models #transfer-learning #attention-mechanisms #evaluation-metrics #loss-functions #entropy-cross-entropy-kl-divergence #word-embeddings #cross-validation
 
 **Problem statement:** Grant proposal quality varies enormously, but writers have no way to benchmark their narrative against successful proposals before submission. Peer review is time-consuming and expensive, and self-assessment is unreliable.
 

@@ -3,7 +3,7 @@
 **Industry:** [[hair-salons-independent|Hair Salons (Independent)]]
 **Type:** Worker Life
 **One-liner:** Stylists stand 8-10 hours per day with arms elevated above shoulder height, leading to career-ending musculoskeletal injuries — wrist, shoulder, and back problems force 25-30% of stylists out of the profession within 10 years.
-**Tags:** #cnn #pose-estimation #computer-vision #worker-facing
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering #activation-functions #worker-facing
 
 ## The Problem
 

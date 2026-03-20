@@ -3,7 +3,7 @@
 **Industry:** [[dental-practices|Dental Practices]]
 **Type:** High Impact
 **One-liner:** Every dental practice instantly knows exactly what each patient's insurance covers — remaining benefits, frequency limitations, waiting periods, and true out-of-pocket cost — before the patient sits in the chair, eliminating the #1 source of billing surprises and patient distrust.
-**Tags:** #data-integration #revenue-impact #ml-nlp
+**Tags:** #bert #transfer-learning #feature-engineering #evaluation-metrics #data-integration #revenue-impact
 
 ## The Problem
 Dental insurance is uniquely complex: benefits are structured around annual maximums (typically $1,000-$2,000), frequency limitations (e.g., one crown per tooth per 5 years), waiting periods for major services, downgrades (payer covers amalgam rate even if composite is placed), and missing tooth clauses. Front-desk staff currently verify eligibility (is the patient active?) but cannot reliably determine the specific benefit details that determine what a procedure will actually cost the patient. This information exists in payer systems but is not returned in standard electronic eligibility responses. The result: patients are surprised by bills, treatment acceptance drops, and practices write off thousands monthly in uncollectable patient responsibility they failed to communicate upfront.

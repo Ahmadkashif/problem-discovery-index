@@ -3,7 +3,7 @@
 **Industry:** [[pharmacy-independents|Independent Pharmacies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic patient outreach tools exist for health systems but aren't calibrated to the independent pharmacy's specific adherence metrics — Medicare Part D star ratings measures, PDC (Proportion of Days Covered) thresholds, and the specific drug categories that trigger DIR fee adjustments.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #automation
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #survival-analysis #automation
 
 ## The Problem
 Medication adherence is a clinical outcome measure and a financial performance metric for independent pharmacies at the same time: patients on chronic medications (statins, oral diabetes drugs, RAAS inhibitors) who miss refills drive down the pharmacy's PDC scores on those drug classes, which directly drives up DIR fee rates from Medicare Part D PBMs. The pharmacy has both a clinical incentive (patient health) and a financial incentive (DIR fee avoidance) to identify non-adherent patients and intervene proactively. But most independent pharmacies have no systematic adherence tracking — they react when a patient hasn't refilled in 30 days rather than predicting which patients are at risk of lapsing before the gap opens.

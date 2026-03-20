@@ -6,7 +6,7 @@
 ---
 
 ## 1. Turf Disease and Nutrient Deficiency Classification from Photos
-#cnn #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #feature-engineering #tacit-knowledge-ml
 
 **Problem statement:** Experienced lawn care technicians diagnose turf disease and nutrient deficiency by reading visual patterns on grass — lesion shape, color, distribution, mycelium presence — a visual library built from years of field experience. A CNN trained on labeled turf diagnostic photos can replicate this diagnosis to enable junior technicians to apply correct treatments on the first visit.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Customer Churn Prediction for Seasonal Renewal
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #conditional-probability-and-bayes-theorem #revenue-impact
 
 **Problem statement:** Predict which recurring lawn care customers will not renew for the upcoming season based on their prior-season service history — enabling proactive outreach 60-90 days before the season begins.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Job Duration Estimation for Route Optimization
-#gradient-boosting #regression #tabular-ml #quick-win
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #quick-win
 
 **Problem statement:** Accurate service time estimates per property are the foundation of efficient multi-stop routing. Replace manual time estimates (crew foreman's judgment) with a regression model trained on actual historical job durations by property characteristics.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Irrigation System Fault Classification from Zone Observation Data
-#gradient-boosting #multiclass-classification #tabular-ml #tacit-knowledge-ml #quick-win
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #tacit-knowledge-ml #quick-win
 
 **Problem statement:** Codify the diagnostic reasoning of experienced irrigation technicians — interpreting dry spots, pressure patterns, and head performance per zone — into a structured model that generates the repair list from observation inputs.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Weed Species Identification and Selective Herbicide Recommendation
-#cnn #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering #tacit-knowledge-ml
 
 **Problem statement:** Selective herbicide application requires identifying the weed species — grassy weeds (crabgrass, annual bluegrass) require different herbicides than broadleaf weeds (clover, dandelion, ground ivy), and applying the wrong product wastes cost and may harm the turf. Experienced technicians identify weed species visually; junior technicians default to broad-spectrum products that are less effective and higher cost.
 

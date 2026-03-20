@@ -3,7 +3,7 @@
 **Industry:** [[chiropractic-practices|Chiropractic Practices]]
 **Type:** Worker Life Changing
 **One-liner:** Chiropractors stop destroying their own shoulders, wrists, and thumbs by age 50 because real-time biomechanical feedback during adjustments identifies technique compensations that lead to cumulative injury — before chronic pain sets in.
-**Tags:** #lstm #anomaly-detection #signal-processing #worker-facing
+**Tags:** #lstms-and-grus #rnns #loss-functions #backpropagation #evaluation-metrics #time-series-forecasting #gradient-descent #probability-distributions #change-point-detection #worker-facing
 
 ## The Problem
 A full-time chiropractor performs 20-30 manual spinal adjustments per day, each requiring precise force application through the hands, wrists, and shoulders. The diversified technique (the most common) involves high-velocity, low-amplitude thrusts that transmit significant force through the practitioner's upper extremity joints. Over a career spanning 30+ years, this cumulative mechanical stress causes progressive damage: thumb CMC joint arthritis (from pisiform contact adjustments), carpal tunnel syndrome, rotator cuff degeneration, lateral epicondylitis, and cervical disc disease from the sustained neck positions required during adjustment setup. Surveys indicate that 60-70% of chiropractors report work-related musculoskeletal pain, with hand and wrist complaints being the most prevalent. Many DCs modify their technique or reduce patient volume after age 45-50, directly impacting income.

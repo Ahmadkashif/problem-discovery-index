@@ -3,7 +3,7 @@
 **Industry:** [[short-term-rentals|Short-Term Rentals]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic identity verification tools confirm who a guest is, but don't predict which bookings are likely to result in parties, property damage, or rule violations — the behavioral signals in the booking pattern and communication that experienced hosts recognize before check-in.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #nlp #automation
+**Tags:** #gradient-boosting #logistic-regression #word-embeddings #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #automation
 
 ## The Problem
 

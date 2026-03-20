@@ -3,7 +3,7 @@
 **Industry:** [[chiropractic-practices|Chiropractic Practices]]
 **Type:** High Impact
 **One-liner:** Chiropractors stop relying solely on 20 years of clinical intuition to see the connected compensatory patterns across a patient's entire kinetic chain — because a vision system identifies shoulder elevation, head forward translation, pelvic tilt, foot pronation, and their biomechanical relationships from standardized photos and movement screens, making expert-level postural assessment available to every DC on day one.
-**Tags:** #cnn #gradient-boosting #multiclass-classification #computer-vision #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #cnns #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #backpropagation #gradient-descent #cross-validation #bias-variance-tradeoff #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Chiropractic clinical skill is fundamentally about pattern recognition across the kinetic chain. An experienced DC looks at a patient standing in their underwear and sees a story: the right foot pronates slightly, which externally rotates the tibia, which creates a functional leg-length discrepancy, which tilts the pelvis, which the lumbar spine compensates for with a lateral curve, which the thoracic spine counter-curves to maintain eye-level, which drives one shoulder high, which creates cervical tension on the opposite side. The patient presents with neck pain, but the experienced chiropractor knows the neck is the symptom — the foot is the cause.

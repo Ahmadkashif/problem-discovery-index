@@ -3,7 +3,7 @@
 **Industry:** [[municipal-services|Municipal Services]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic ticketing systems handle citizen requests but cannot distinguish a pothole complaint that needs streets from a drainage complaint that needs utilities — so clerks manually triage hundreds of requests daily.
-**Tags:** #bert #text-classification #nlp #workflow-orchestration
+**Tags:** #bert #transfer-learning #attention-mechanisms #word-embeddings #evaluation-metrics #loss-functions #entropy-cross-entropy-kl-divergence #gradient-descent #workflow-orchestration
 
 ## The Problem
 Municipalities receive 50-500 citizen service requests per day through 311 calls, web forms, email, and mobile apps. Each request must be classified by department (streets, water, parks, code enforcement, animal control, planning), priority level, and geographic zone before being dispatched. Current 311 platforms like SeeClickFix provide dropdown menus, but citizens routinely miscategorize ("there's water on the street" could be a water main break, a storm drain blockage, or an irrigation runoff issue), and free-text descriptions contain the actual diagnostic information that clerks must read and interpret.

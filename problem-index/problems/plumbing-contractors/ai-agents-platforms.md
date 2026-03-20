@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Plumbing Contractors
 
 **Industry:** [[plumbing-contractors|Plumbing Contractors]]
-**Tags:** #ai-agent #ai-platform #automation #workflow-orchestration #revenue-impact
+**Tags:** #ai-agent #ai-platform #cnns #gradient-boosting #large-language-models #survival-analysis #transfer-learning #feature-engineering #evaluation-metrics #automation #workflow-orchestration #revenue-impact
 
 ---
 

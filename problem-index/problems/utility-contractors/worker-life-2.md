@@ -3,7 +3,7 @@
 **Industry:** [[utility-contractors|Utility Contractors]]
 **Type:** Worker Life Changing
 **One-liner:** Gas distribution survey teams performing leak detection patrols who must identify gas migration indicators from above-grade visual evidence — dead/stressed vegetation patterns, pavement cracking from subsurface gas accumulation, unusual frost patterns — get a photo-assisted field tool that flags potential leak indicators from survey photos for follow-up with combustible gas indicator equipment.
-**Tags:** #cnn #binary-classification #computer-vision #tacit-knowledge-ml #worker-facing
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering #tacit-knowledge-ml #worker-facing
 
 ## The Problem
 

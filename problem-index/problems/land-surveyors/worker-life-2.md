@@ -3,7 +3,7 @@
 **Industry:** [[land-surveyors|Land Surveyors]]
 **Type:** Worker Life
 **One-liner:** Survey field crews frequently work alone in remote, unmonitored locations — wooded parcels, rural highways, construction sites, flood-prone areas — with no reliable system to detect a fall, equipment-related injury, or medical emergency and summon help.
-**Tags:** #lstm #anomaly-detection #signal-processing #worker-facing
+**Tags:** #lstms-and-grus #rnns #loss-functions #backpropagation #evaluation-metrics #gradient-descent #time-series-forecasting #change-point-detection #probability-distributions #worker-facing
 
 ## The Problem
 

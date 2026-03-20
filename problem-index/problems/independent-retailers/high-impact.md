@@ -3,7 +3,7 @@
 **Industry:** [[independent-retailers|Independent Retailers]]
 **Type:** High Impact
 **One-liner:** Retailers stop guessing what to buy and how much, freeing up thousands in trapped cash while cutting stockouts by half.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #gradient-descent #revenue-impact
 
 ## The Problem
 Independent retailers purchase inventory based on owner intuition, prior-season memory, and vendor sales pitches. A gift shop owner placing a holiday order in August is essentially gambling $15,000-50,000 on which SKUs will move. Overstock sits on markdown racks for months consuming cash and shelf space; understock means empty displays during peak traffic and customers who leave without buying. Unlike chains that run demand planning software against millions of transactions, a single-store retailer has only their own 1-3 years of POS data — too sparse for traditional forecasting tools that assume high volume.

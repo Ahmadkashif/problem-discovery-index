@@ -3,7 +3,7 @@
 **Industry:** [[metal-fabrication|Metal Fabrication]]
 **Type:** Worker Life
 **One-liner:** Press brake operators bending metal to a specified angle must account for springback — the elastic recovery that occurs when the press ram retracts — by overbending, but the correct overbend angle varies with material alloy, heat, thickness, temper, and tooling condition in ways that experienced operators know intuitively and junior operators learn only through scrap parts.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing #tacit-knowledge-ml
+**Tags:** #gradient-boosting #linear-regression #gaussian-processes #feature-engineering #cross-validation #evaluation-metrics #confidence-intervals #worker-facing #tacit-knowledge-ml
 
 ## The Problem
 

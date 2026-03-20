@@ -3,7 +3,7 @@
 **Industry:** [[restaurant-suppliers|Restaurant Suppliers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** A chef searching for "a prep table that fits in a 30-inch space next to the fryer" gets zero useful results from standard product catalogs built around manufacturer part numbers.
-**Tags:** #bert #text-classification #nlp #recommendation
+**Tags:** #bert #transformers #word-embeddings #transfer-learning #attention-mechanisms #norms-and-inner-products #evaluation-metrics #feature-engineering
 
 ## The Problem
 Independent restaurant suppliers carry 5,000-15,000 SKUs in smallwares and equipment (cutting boards, prep tables, sheet pans, portion scales, cold-holding units). When a restaurant operator needs something, they describe it in workflow terms: "I need a cold rail that fits my 48-inch sandwich station" or "something to keep sauces at temp during service." The supplier's catalog is organized by manufacturer and product category, not by kitchen workflow or dimensional constraint. Sales reps become human search engines, flipping through PDFs and calling the office to find the right item — often taking 24-48 hours to respond to what should be a 5-minute lookup.

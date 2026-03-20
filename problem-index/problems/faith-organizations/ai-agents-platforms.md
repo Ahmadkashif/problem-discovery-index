@@ -5,7 +5,7 @@
 ---
 
 ## 1. Member Engagement Agent
-#ai-agent #gradient-boosting #survival-analysis #tabular-ml #tacit-knowledge-ml
+#ai-agent #gradient-boosting #survival-analysis #decision-trees #feature-engineering #evaluation-metrics #maximum-likelihood-estimation #tacit-knowledge-ml
 
 **Concept:** An autonomous engagement monitoring agent that continuously ingests attendance, giving, small-group, and volunteer data across all church management systems, maintains a per-household engagement score, and generates weekly pastoral action lists. When a household crosses a risk threshold, the agent drafts a personalized outreach message (email or text) for pastoral review, suggests the best staff member or lay leader to make contact based on existing relationships, and schedules a follow-up reminder if no response occurs within 7 days. The agent learns from pastoral feedback — when a pastor marks an alert as "not actually at risk" or "already knew about this," the model updates.
 **Inputs:** Real-time feeds from Planning Center (attendance, groups), Tithely/Pushpay (giving), volunteer scheduling tools, and event RSVPs. Pastor feedback on weekly action lists. Calendar availability for outreach scheduling.
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Giving Insights & Stewardship Agent
-#ai-agent #isolation-forest #anomaly-detection #tabular-ml #revenue-impact
+#ai-agent #gradient-boosting #change-point-detection #feature-engineering #evaluation-metrics #time-series-forecasting #descriptive-statistics #revenue-impact
 
 **Concept:** A financial intelligence agent that monitors congregational giving in real-time, detects anomalies at both household and aggregate levels, and generates stewardship campaign recommendations. The agent identifies when a major donor reduces giving (with sensitivity — it surfaces the pattern to the finance team, not the pulpit), predicts campaign outcomes before launch based on historical response patterns, and auto-generates personalized year-end giving statements with impact narratives ("Your $4,200 this year funded 840 meals through our food pantry"). It also benchmarks the congregation's giving health against anonymized peer churches of similar size and demographics.
 **Inputs:** Transaction-level giving data from Tithely, Pushpay, or direct bank integrations. Campaign calendars and goals. Budget line items mapped to ministry outcomes. Anonymized benchmark data from opt-in peer network.
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Volunteer Coordination Agent
-#ai-agent #gradient-boosting #recommendation #tabular-ml #worker-facing
+#ai-agent #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #cross-validation #worker-facing
 
 **Concept:** An autonomous volunteer management agent that maintains a living skills-and-availability profile for every member, generates weekly role-matching recommendations, sends personalized serving invitations (not mass blasts), tracks accept/decline patterns to learn preferences, automatically enforces serving frequency limits to prevent burnout, and handles day-of substitution when a volunteer cancels. The agent operates as a conversational interface — a volunteer can text "I can't make Sunday" and the agent finds a replacement, confirms the swap, and updates the schedule without the coordinator touching anything.
 **Inputs:** Member profiles (self-reported skills, interests, availability windows, serving history). Weekly role requirements from ministry leaders. Real-time availability updates via SMS/app. Accept/decline history with optional decline reasons. Post-serving satisfaction ratings (simple thumbs up/down).

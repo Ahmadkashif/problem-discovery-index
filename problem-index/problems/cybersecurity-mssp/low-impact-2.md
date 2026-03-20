@@ -3,7 +3,7 @@
 **Industry:** [[cybersecurity-mssp|Cybersecurity MSSPs]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Security posture assessments exist as frameworks and checklists, but scoring a specific client's actual risk across their unique combination of tools, configs, and threat exposure is still a manual spreadsheet exercise.
-**Tags:** #gradient-boosting #multiclass-classification #tabular-ml #compliance
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #descriptive-statistics #compliance
 
 ## The Problem
 MSSPs conduct security posture assessments during client onboarding and at quarterly or annual review cycles. An analyst reviews the client's firewall configs, endpoint protection coverage, patch management cadence, access control policies, vulnerability scan results, and incident history, then scores each control domain and identifies gaps. This assessment typically lives in a spreadsheet or slide deck, takes 8-15 hours per client, and produces inconsistent results depending on which analyst performs it. Between reviews, the posture drifts as configs change, new assets appear, and new vulnerabilities emerge — but the assessment stays static until the next cycle.

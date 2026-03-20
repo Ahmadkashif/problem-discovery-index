@@ -3,7 +3,7 @@
 **Industry:** [[dental-practices|Dental Practices]]
 **Type:** Worker Life Changing
 **One-liner:** Dental assistants stop being the invisible scribe who manually charts every procedure while simultaneously handing instruments, suctioning, and managing the patient — gaining the ability to focus fully on clinical assistance.
-**Tags:** #worker-facing #ml-nlp #ai-agent
+**Tags:** #large-language-models #transformers #attention-mechanisms #bert #worker-facing #ai-agent
 
 ## The Problem
 During restorative and surgical procedures, the dental assistant is expected to simultaneously assist the dentist (passing instruments, managing suction, mixing materials, retracting tissue) and chart the procedure in real-time on the practice management system. This means one hand on the keyboard or touchscreen and one hand assisting — or more commonly, trying to remember everything and charting frantically between patients. Procedure notes, material lot numbers, anesthesia records, and post-op instructions all need to be documented. When the assistant falls behind, the dentist's notes are incomplete, billing is delayed, and the practice loses revenue from unbilled procedures.

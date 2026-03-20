@@ -3,7 +3,7 @@
 **Industry:** [[staffing-agencies|Staffing Agencies]]
 **Type:** Worker Life Changing
 **One-liner:** Recruiters make 60–100 cold calls per day to candidates who mostly don't answer, leave voicemails that are never returned, and face constant rejection — leading to burnout rates above 50% annually in an industry where the average recruiter tenure is 18 months.
-**Tags:** #bert #text-classification #nlp #worker-facing
+**Tags:** #bert #transformers #word-embeddings #transfer-learning #attention-mechanisms #evaluation-metrics #feature-engineering #worker-facing
 
 ## The Problem
 Staffing recruiters operate under daily activity metrics: 60–100 outbound calls, 20–30 candidate submittals, 5–10 interviews scheduled. These KPIs are blunt instruments — they measure volume, not quality. A recruiter dials 80 numbers, reaches 15 live humans, gets 4 who are interested, and submits 2 who are qualified. The other 78 calls produced voicemails, disconnected numbers, "not interested" responses, and candidates who are already placed elsewhere. The emotional toll is similar to outbound sales: constant micro-rejections, pressure to hit numbers, and the knowledge that most of their daily effort produces no result.

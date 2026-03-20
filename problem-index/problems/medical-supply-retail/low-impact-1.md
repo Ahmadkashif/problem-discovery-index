@@ -3,7 +3,7 @@
 **Industry:** [[medical-supply-retail|Medical Supply Retail]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic product search tools cannot navigate the intersection of HCPCS codes, clinical indications, and payer-specific coverage rules that DME staff must mentally cross-reference for every order — a search for "patient needs a power wheelchair, has Medicare Advantage through UnitedHealthcare, diagnosis is multiple sclerosis" should return the three specific chair models that are both clinically appropriate and covered under that plan, not 200 generic results.
-**Tags:** #bert #text-classification #nlp #recommendation
+**Tags:** #bert #transformers #transfer-learning #word-embeddings #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics
 
 ## The Problem
 A DME supplier's product catalog typically contains 5,000–20,000 SKUs mapped to hundreds of HCPCS codes, and the correct product for a given patient depends on a three-way match: the patient's clinical indication and functional limitations, the HCPCS code that describes the equipment category, and the specific payer's coverage policy for that code. An order for a "standard wheelchair" could map to HCPCS codes E1130, E1150, E1160, K0001, K0002, K0003, or K0004 depending on the patient's weight, functional capacity, and expected duration of need — and each code has different documentation requirements and reimbursement rates that vary by payer. Experienced staff memorize these mappings for common products and payers, but new hires and even veterans struggle with less-common equipment categories (custom orthotics, wound care supply kits, enteral nutrition formularies) where the code-product-payer matrix is especially dense.

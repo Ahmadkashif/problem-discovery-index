@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Landscaping
 
 **Industry:** [[landscaping|Landscaping]]
-**Tags:** #ai-agent #ai-platform #automation #workflow-orchestration #revenue-impact
+**Tags:** #ai-agent #ai-platform #cnns #gradient-boosting #decision-trees #transfer-learning #feature-engineering #evaluation-metrics #automation #workflow-orchestration #revenue-impact
 
 ---
 

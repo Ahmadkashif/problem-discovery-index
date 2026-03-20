@@ -3,7 +3,7 @@
 **Industry:** [[hair-salons-independent|Hair Salons (Independent)]]
 **Type:** High Impact
 **One-liner:** Independent salons lose 30-40% of their client base annually because they have no systematic way to detect drift before it becomes defection — a retention engine that identifies at-risk clients and triggers personalized re-engagement would protect $150K-$300K in annual revenue for a mid-size salon.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #survival-analysis #conditional-probability-and-bayes-theorem #probability-distributions #revenue-impact
 
 ## The Problem
 

@@ -3,7 +3,7 @@
 **Industry:** [[specialty-food-retail|Specialty Food Retail]]
 **Type:** High Impact
 **One-liner:** Store owners stop losing 5–12% of perishable inventory to spoilage and stop missing sales on best-sellers because ordering finally reflects actual demand patterns.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #gradient-descent #revenue-impact
 
 ## The Problem
 Specialty food stores carry 1,000–5,000 SKUs where shelf lives range from 2 days (fresh bread, sashimi-grade fish) to 14 days (aged cheeses, charcuterie). Ordering is done by the owner or a head buyer who walks the shelves, checks what looks low, and places orders based on gut feel and rough memory of what sold last week. There is no data-driven reorder system designed for this store format — the result is chronic over-ordering on slow movers (leading to 5–12% spoilage rates by revenue) and chronic under-ordering on high-velocity items (leading to empty cases during peak traffic hours, particularly weekends).

@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Real Estate Appraisers
 
 **Industry:** [[real-estate-appraisers|Real Estate Appraisers]]
-**Tags:** #ai-agent #ai-platform #automation #compliance #revenue-impact
+**Tags:** #ai-agent #ai-platform #large-language-models #gradient-boosting #feature-engineering #evaluation-metrics #automation #compliance #revenue-impact
 
 ---
 

@@ -3,7 +3,7 @@
 **Industry:** [[hotels-boutique|Boutique Hotels]]
 **Type:** High Impact
 **One-liner:** Independent hotels stop leaving 15-25% of potential room revenue on the table because they finally have the same demand-sensing intelligence that chain properties get from IDeaS and Duetto.
-**Tags:** #gradient-boosting #lstm #time-series-forecasting #regression #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #lstms-and-grus #time-series-forecasting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #backpropagation #revenue-impact
 
 ## The Problem
 Boutique hotel GMs set room rates by checking a competitor's OTA listing, glancing at their own occupancy, and making a gut call — often adjusting prices once or twice a week when chain competitors are repricing multiple times per day based on booking pace, event calendars, and market segmentation. The result is systematic underpricing during demand spikes (selling out too early at rates $30-80 below market clearing) and overpricing during soft periods (sitting at 40% occupancy while a $15 rate drop would have captured price-sensitive demand). For a 40-room boutique averaging $180 ADR, this translates to $200K-$500K in annual revenue leakage — the difference between a profitable independent and one that sells to a management company.

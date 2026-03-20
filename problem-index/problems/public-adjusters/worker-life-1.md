@@ -3,7 +3,7 @@
 **Industry:** [[public-adjusters|Public Adjusters]]
 **Type:** Worker Life Changing
 **One-liner:** Public adjusters stop destroying their health and relationships during catastrophic deployments because intelligent case batching, documentation assistance, and workload limits prevent the 80-hour weeks that currently define hurricane and wildfire season.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #gradient-boosting #feature-engineering #evaluation-metrics #worker-facing
 
 ## The Problem
 When a major catastrophic event strikes — a hurricane, wildfire, tornado outbreak, or major hailstorm — public adjusters deploy to the affected area for 2-6 months. During deployment, adjusters work 70-90 hours per week: conducting 3-5 property inspections per day, writing estimates in the evening, photographing and documenting damage, negotiating with carrier adjusters, managing client communication, and driving between scattered inspection sites. The work is physically demanding (climbing on roofs, crawling in attics, inspecting water-damaged crawlspaces) and emotionally draining (clients are traumatized, homeless, or desperate). Adjusters live in hotels, eat poorly, sleep minimally, and have no recovery time.

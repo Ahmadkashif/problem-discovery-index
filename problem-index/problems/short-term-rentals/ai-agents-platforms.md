@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Short-Term Rentals
 
 **Industry:** [[short-term-rentals|Short-Term Rentals]]
-**Tags:** #ai-agent #ai-platform #automation #workflow-orchestration #revenue-impact
+**Tags:** #ai-agent #ai-platform #large-language-models #transformers #gradient-boosting #optimization-fundamentals #automation #workflow-orchestration #revenue-impact
 
 ---
 

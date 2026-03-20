@@ -6,7 +6,7 @@
 ---
 
 ## 1. Dental Benefit Extraction from Payer Portals
-#ml-nlp #revenue-impact #quick-win
+#bert #transfer-learning #feature-engineering #evaluation-metrics #revenue-impact #quick-win
 
 **Problem statement:** Given raw benefit summary pages from dental payer portals (HTML, PDF, or screen-scraped text), extract structured benefit details — annual maximum, remaining balance, deductible status, coverage percentages by category, frequency limitations, and waiting periods — into a standardized schema.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Treatment Acceptance Prediction
-#ml-classification #revenue-impact
+#logistic-regression #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #revenue-impact
 
 **Problem statement:** Given a treatment plan presentation (procedures, estimated cost, patient demographics, insurance coverage level, payment plan availability), predict whether the patient will accept the treatment — allowing the practice to prioritize follow-up and tailor the financial presentation.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Dental Radiograph Pathology Detection Assistance
-#ml-computer-vision #quick-win
+#cnns #object-detection #semantic-segmentation #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #quick-win
 
 **Problem statement:** Given a dental radiograph (bitewing, periapical, or panoramic), detect and highlight regions of interest — caries (cavities), periapical lesions, bone loss, and calculus — to assist the dentist's visual review.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Procedure-to-CDT Code Mapping from Voice
-#ml-nlp #worker-facing #automation
+#large-language-models #transformers #bert #attention-mechanisms #transfer-learning #worker-facing #automation
 
 **Problem statement:** Given the dentist's verbal callouts during a procedure ("prepping tooth 19 for an MO composite"), map the spoken description to the correct CDT procedure codes and charting entries.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Insurance Calendar-Year Optimization
-#ml-optimization #revenue-impact #quick-win
+#optimization-fundamentals #gradient-boosting #feature-engineering #cross-validation #arithmetic-and-basic-algebra #revenue-impact #quick-win
 
 **Problem statement:** Given a patient's treatment plan, remaining insurance benefits, and benefit reset date, generate a treatment sequencing recommendation that maximizes insurance utilization across calendar years — e.g., "do the crown in December (uses this year's remaining $800), then the implant in January (next year's full $1,500 maximum)."
 

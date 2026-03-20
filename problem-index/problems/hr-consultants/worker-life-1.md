@@ -3,7 +3,7 @@
 **Industry:** [[hr-consultants|HR Consultants]]
 **Type:** Worker Life Changing
 **One-liner:** The consultant stops burning mental energy reloading every client's org chart, state laws, and open issues from scratch before every interaction.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #word-embeddings #transfer-learning #evaluation-metrics #worker-facing
 
 ## The Problem
 An HR consultant typically manages 15-30 active clients simultaneously. Before every client call, email, or task, the consultant must mentally reconstruct that client's full context: which states they operate in, what HRIS they use, their headcount and whether they've crossed any regulatory thresholds recently, ongoing employee relations issues, where they are in open enrollment, their specific PTO and leave policies, and any pending investigations or terminations. This context lives across scattered notes in Outlook, Slack threads, shared Google Drives, and the consultant's memory. The average consultant spends 10-15 minutes per client interaction just re-orienting — totaling 2-3 hours per day of pure context reconstruction.

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Hail and Wind Damage Classification from Inspection Photos
-#cnn #multiclass-classification #object-detection #computer-vision #tacit-knowledge-ml
+#cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #feature-engineering #tacit-knowledge-ml
 
 **Problem statement:** Experienced roofing inspectors identify storm damage type, severity, and insurance eligibility by reading visual patterns on asphalt shingles — hail impact crater size and depth, granule displacement density, wind lift signatures — a tacit visual skill built from thousands of insurance inspections. A CNN trained on labeled inspection photos can replicate this damage classification to enable junior inspectors to produce adjuster-quality assessments.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Roof Condition Scoring from Aerial Imagery
-#cnn #regression #computer-vision #tacit-knowledge-ml
+#cnns #linear-regression #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering #tacit-knowledge-ml
 
 **Problem statement:** Experienced roofing estimators can visually assess a roof's remaining useful life and current condition from aerial imagery or street view — reading granule loss patterns, visible sagging, discoloration, and patch repair history. Automate this assessment at scale to enable post-storm property targeting and proactive maintenance outreach.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Storm Canvas Lead Scoring
-#gradient-boosting #ranking #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #probability-distributions #revenue-impact
 
 **Problem statement:** Rank properties within a storm footprint by insurance claim probability to optimize sales rep canvas routing after hail and wind events.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Supplement Line-Item Prediction from Inspection Data
-#gradient-boosting #multiclass-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Predict which Xactimate line items are claimable for a given inspection report — and which the insurance carrier is likely to contest — to guide supplement writing and prioritize negotiation effort.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Installation Quality Control from Progress Photos
-#cnn #binary-classification #computer-vision #tacit-knowledge-ml #quick-win
+#cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering #tacit-knowledge-ml #quick-win
 
 **Problem statement:** Roofing manufacturer warranties (GAF Golden Pledge, CertainTeed SureStart Plus) require specific installation details — starter strip alignment, nail pattern, valley metal flashing method, ridge cap exposure — that are verified by photo documentation. A quality control model that flags installation photos for non-compliant details enables real-time QC without requiring a senior inspector on every job.
 

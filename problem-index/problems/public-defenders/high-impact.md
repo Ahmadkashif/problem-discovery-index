@@ -3,7 +3,7 @@
 **Industry:** [[public-defenders|Public Defenders]]
 **Type:** High Impact
 **One-liner:** Public defenders carrying 2-5x the ABA-recommended caseload have no systematic way to identify which of their 200+ open cases need immediate attention, investigation, or motion practice — a triage system that surfaces case-specific opportunity and risk signals could ensure that limited defender hours go where they change outcomes.
-**Tags:** #bert #gradient-boosting #multiclass-classification #nlp #tabular-ml #revenue-impact
+**Tags:** #bert #gradient-boosting #transfer-learning #feature-engineering #cross-validation #evaluation-metrics #attention-mechanisms #entropy-cross-entropy-kl-divergence #conditional-probability-and-bayes-theorem #revenue-impact
 
 ## The Problem
 

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Press Color Calibration from Spectrophotometer Scan Bar Readings
-#gradient-boosting #regression #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #bias-variance-tradeoff #tacit-knowledge-ml
 
 **Problem statement:** Experienced pressmen adjust ink keys to achieve target color by reading spectrophotometer measurements and knowing intuitively which adjustments will move the color in the desired direction — a psychophysical skill developed over years of press operation. A regression model trained on historical ink key adjustment patterns (scan bar reading → ink key adjustment → resulting color shift) can predict the correct adjustment, guiding less experienced operators to achieve color match in fewer proof sheet iterations.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Job Cost Estimation from Job Specifications
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #expectation-variance-covariance #bias-variance-tradeoff
 
 **Problem statement:** Print job estimating requires predicting actual production time and material consumption from a job specification — a prediction that depends on shop-specific equipment performance, crew skill, and job complexity interactions that take years to learn empirically. A regression model trained on historical job data (specification → actual cost) captures this shop-specific knowledge.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Print Defect Detection from Inline Camera
-#cnn #object-detection #computer-vision
+#cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #optimization-fundamentals
 
 **Problem statement:** Print quality defects — hickeys (ink spots from particles on the blanket), streaking (ink starvation in specific zones), registration errors (misalignment between color separations), and ghosting (faint image repetition from ink distribution patterns) — are currently detected by the pressman's visual monitoring of printed sheets during production. An inline camera inspection system that detects defects in real-time enables press stop and correction before significant waste accumulates.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Paper Waste Prediction by Job Type
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #expectation-variance-covariance
 
 **Problem statement:** Paper waste (spoilage during makeready, production waste from defective sheets, trim waste from imposition) is 8-15% of total paper consumption on short-run jobs and 3-5% on long runs. Estimators apply generic waste factors to quotes; actual waste varies significantly by substrate type, press, color complexity, and finishing requirements. A predictive model enables accurate waste factoring per job type.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Prepress Preflight Error Classification and Auto-Correction Routing
-#bert #binary-classification #nlp #computer-vision
+#bert #transfer-learning #word-embeddings #attention-mechanisms #evaluation-metrics #gradient-boosting #feature-engineering #cross-validation
 
 **Problem statement:** Customer-submitted PDF files contain errors 40-60% of the time, but not all errors are equal — some can be auto-corrected (color space conversion, font embedding), some require customer revision (wrong dimensions, missing content), and some are subjective (is this image resolution adequate for this print process?). Classifying errors by correction type and routing them to the appropriate action (auto-fix, customer revision request, prepress technician judgment) accelerates file preparation.
 

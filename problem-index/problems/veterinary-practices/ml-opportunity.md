@@ -6,7 +6,7 @@
 ---
 
 ## 1. Veterinary Radiograph Abnormality Detection
-#cnn #object-detection #semantic-segmentation #computer-vision #tacit-knowledge-ml
+#cnns #object-detection #semantic-segmentation #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #tacit-knowledge-ml
 
 **Problem statement:** Given a canine or feline radiograph (DICOM), detect and localize pathological findings across musculoskeletal, thoracic, and abdominal regions — replicating the pattern recognition of an experienced veterinary radiologist for the most common abnormality categories seen in general practice.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Feline Pain and Distress Assessment from Facial Imagery
-#cnn #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #tacit-knowledge-ml
 
 **Problem statement:** Experienced vets assess feline pain level through subtle behavioral cues — ear position, orbital tightening, whisker position, muzzle tension, head position — captured in the Feline Grimace Scale (FGS). Automate FGS scoring from a still image or video frame, enabling real-time pain assessment by technicians without specialized training.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Patient Mortality and Anesthetic Risk Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #probability-distributions
 
 **Problem statement:** Predict anesthetic complication risk for individual patients before a procedure, using patient history, species, breed, age, weight, and pre-anesthetic lab values — to guide anesthetic protocol selection and client counseling.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Drug Interaction and Contraindication Classification for Multi-Species Prescriptions
-#gradient-boosting #binary-classification #tabular-ml #compliance
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #compliance
 
 **Problem statement:** Given a veterinary patient's species, breed, weight, age, concurrent medications, and a newly prescribed drug, flag contraindications, species-specific toxicity risks, and drug-drug interactions — returning a safety score with specific warnings.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Client Appointment No-Show and Compliance Dropout Prediction
-#gradient-boosting #survival-analysis #tabular-ml
+#gradient-boosting #survival-analysis #feature-engineering #cross-validation #evaluation-metrics #probability-distributions
 
 **Problem statement:** Predict which patients are at risk of missing their next scheduled appointment or dropping out of a chronic care protocol (dental health plan, senior wellness program, chronic disease management), enabling proactive outreach that prevents care gaps.
 

@@ -3,7 +3,7 @@
 **Industry:** [[greenhouse-horticulture|Greenhouse Horticulture]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic inventory management cannot track live plants at varying growth stages, predict bloom timing, or match future-state inventory to wholesale orders placed weeks in advance.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml #data-integration
+**Tags:** #gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance #confidence-intervals #data-integration
 
 ## The Problem
 Ornamental greenhouse operations (bedding plants, potted flowering, foliage) sell primarily through wholesale channels — big box retailers (Home Depot, Lowe's), garden centers, and landscapers — with orders placed 2-8 weeks before ship date. The grower must commit to fulfilling an order for "5,000 4.5" red geraniums, in flower, ship week 18" based on their assessment of current crop status. If the crop runs late (cold snap, cloudy weeks), they ship substandard product or short the order; if it runs early, they hold finished plants that consume bench space and labor. Current systems track what was planted and when, but cannot forecast what will be shippable and when.

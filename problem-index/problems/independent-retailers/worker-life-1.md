@@ -3,7 +3,7 @@
 **Industry:** [[independent-retailers|Independent Retailers]]
 **Type:** Worker Life Changing
 **One-liner:** The owner gets back 10-15 hours per week by offloading the repetitive administrative tasks that turn a shopkeeper into an unpaid back-office clerk.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #word-embeddings #evaluation-metrics #worker-facing #automation
 
 ## The Problem
 Independent retail store owners routinely work 60-70 hour weeks not because the store is open that long, but because they fill every role: cashier during rush hours, buyer on Tuesday mornings, bookkeeper on Wednesday nights, social media manager during lunch, HR when an associate calls in sick, and janitor after closing. The administrative overhead — reconciling daily sales against bank deposits, responding to vendor emails, updating the website, filing sales tax, scheduling staff — consumes 15-25 hours per week on top of the 40-50 hours spent on the floor. The owner opened a store to curate products and serve customers, not to process QuickBooks entries at midnight.

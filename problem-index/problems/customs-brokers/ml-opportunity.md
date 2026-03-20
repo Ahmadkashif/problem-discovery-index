@@ -6,7 +6,7 @@
 ---
 
 ## 1. HTS Code Classification from Product Descriptions
-#transformer #bert #text-classification #nlp #compliance #revenue-impact
+#transformers #bert #transfer-learning #attention-mechanisms #word-embeddings #loss-functions #backpropagation #evaluation-metrics #compliance #revenue-impact
 
 **Problem statement:** Predict the most likely HTS classification codes for imported goods from product descriptions, reducing classification research time and misclassification risk.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Commercial Invoice Data Extraction
-#llm #ocr #named-entity-recognition #nlp #quick-win
+#large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #feature-engineering #evaluation-metrics #quick-win
 
 **Problem statement:** Extract customs-required data fields from commercial invoice documents in multiple formats and languages for entry preparation data population.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Section 301 / 232 Exclusion Matching
-#transformer #text-classification #nlp #compliance #revenue-impact
+#transformers #word-embeddings #attention-mechanisms #transfer-learning #norms-and-inner-products #evaluation-metrics #compliance #revenue-impact
 
 **Problem statement:** Match newly-published tariff exclusions against a broker's client import portfolio by semantic similarity between exclusion descriptions and client product descriptions.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Entry Risk Scoring for CBP Examination Probability
-#gradient-boosting #binary-classification #tabular-ml #compliance
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #compliance
 
 **Problem statement:** Score each import entry for CBP examination probability before filing, enabling the broker to advise clients on examination risk for time-sensitive shipments.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Trade Program Eligibility Analysis
-#llm #text-classification #tabular-ml #revenue-impact #quick-win
+#large-language-models #attention-mechanisms #transformers #feature-engineering #descriptive-statistics #revenue-impact #quick-win
 
 **Problem statement:** Identify which of a client's current imports qualify for preferential duty programs (USMCA, CAFTA, GSP, etc.) that the client is not currently claiming, to surface duty reduction opportunities.
 

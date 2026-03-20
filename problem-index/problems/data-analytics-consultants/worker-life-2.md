@@ -3,7 +3,7 @@
 **Industry:** [[data-analytics-consultants|Data Analytics Consultants]]
 **Type:** Worker Life Changing
 **One-liner:** Consultants gain visibility into their pipeline and career trajectory instead of living in constant anxiety about whether they will be staffed next month or quietly managed out during a slow quarter.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #confidence-intervals #probability-distributions #worker-facing
 
 ## The Problem
 Analytics consulting firms operate on a utilization model: consultants are expected to bill 75-90% of their working hours to client engagements. When an engagement ends and the next one has not started, the consultant sits "on the bench" — still employed but not generating revenue. Bench time triggers a cascade of anxiety: Am I being staffed last because leadership sees me as dispensable? Is this a slow quarter or am I being quietly managed out? Should I be networking internally to get pulled onto a project, or does that look desperate? The utilization metric is tracked monthly, visible to partners, and directly influences promotion decisions, bonus calculations, and layoff lists. Consultants have no visibility into the pipeline — they do not know which proposals are pending, which engagements are about to close, or how their skills match upcoming demand. They learn their next assignment days before it starts, sometimes hours.

@@ -3,7 +3,7 @@
 **Industry:** [[independent-insurance-agents|Independent Insurance Agents]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** The same ACORD application data gets typed into 5-10 carrier portals because commercial lines bridge rating doesn't exist the way personal lines raters do.
-**Tags:** #llm #named-entity-recognition #nlp #automation #data-integration
+**Tags:** #large-language-models #bert #transformers #word-embeddings #transfer-learning #evaluation-metrics #automation #data-integration
 
 ## The Problem
 For every commercial lines submission, a producer or CSR fills out an ACORD application (125/126 for general liability, 130 for workers' comp, 140 for property), then manually enters the same information — business name, FEIN, NAICS code, revenue, payroll, location details, loss history — into each carrier's proprietary quoting portal. A single commercial account submitted to 5 carriers means entering the same 40-60 fields five times, each portal with slightly different field names, dropdown options, and required attachments. This takes 15-30 minutes per carrier portal, totaling 1-3 hours per account before a single quote is returned.

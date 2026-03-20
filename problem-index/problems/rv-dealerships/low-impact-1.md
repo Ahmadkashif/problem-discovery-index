@@ -3,7 +3,7 @@
 **Industry:** [[rv-dealerships|RV Dealerships]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic shop scheduling tools assume single-day repairs, but RV service jobs span 2-10 days across multiple technician specialties — automotive, plumbing, electrical, and appliance — requiring a scheduling approach that no auto-oriented tool provides.
-**Tags:** #gradient-boosting #regression #tabular-ml #workflow-orchestration
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #workflow-orchestration
 
 ## The Problem
 A typical RV service job involves 3-8 separate work orders across different systems, requiring different technician specialties, and spanning 2-10 business days. Scheduling these jobs means coordinating technician availability across specialties, parts arrival timing, bay/lot space (RVs are 25-45 feet long), and customer expectations. Service managers manually juggle 30-80 active jobs in various stages, with constant cascading delays when parts are late or discoveries during repair expand scope.

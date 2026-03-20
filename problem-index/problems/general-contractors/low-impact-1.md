@@ -3,7 +3,7 @@
 **Industry:** [[general-contractors|General Contractors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic vendor management tools track contact information and certifications, but subcontractor performance in construction requires scoring based on field-specific outcomes — schedule compliance, change order rates, quality defect rates, and response time — that no generic vendor management tool is designed to capture.
-**Tags:** #gradient-boosting #ranking #tabular-ml #automation
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #probability-distributions #automation
 
 ## The Problem
 Subcontractor selection is one of the highest-stakes decisions in GC project management. A mechanical sub that underperforms — consistently late, generating excessive change orders, doing rework — can delay a project by weeks and erode an entire project's margin. Yet most GCs maintain subcontractor records informally: a list of contacts, perhaps some notes about past performance, and the collective memory of the senior project managers who have worked with those subs before. When a new project manager is assigned a project, they inherit relationships they didn't build and have no systematic way to evaluate which subs are actually the most reliable performers for the specific trade and project type.

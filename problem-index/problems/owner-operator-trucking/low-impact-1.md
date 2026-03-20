@@ -3,7 +3,7 @@
 **Industry:** [[owner-operator-trucking|Owner-Operator Trucking]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** IFTA quarterly fuel tax reporting is a solved accounting problem in theory — but trucking-specific receipt parsing, mileage allocation across jurisdictions, and fuel purchase reconciliation remain manual nightmares for solo operators.
-**Tags:** #llm #ocr #nlp #compliance #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #cnns #compliance #automation
 
 ## The Problem
 Every quarter, owner-operators must file an International Fuel Tax Agreement (IFTA) return that allocates fuel purchased and miles driven across every state and province they operated in. This requires matching fuel receipts (often crumpled paper from truck stops) to GPS-tracked miles per jurisdiction, calculating tax owed or credits due for each state, and filing with the base jurisdiction. A typical owner-operator crosses 10-15 states per quarter and accumulates 200+ fuel receipts. Getting it wrong triggers audits with penalties up to $1,000 per violation.

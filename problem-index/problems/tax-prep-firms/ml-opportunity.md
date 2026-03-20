@@ -6,7 +6,7 @@
 ---
 
 ## 1. Return Anomaly Detection via Tacit Preparer Knowledge
-#isolation-forest #gradient-boosting #anomaly-detection #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #probability-distributions #bias-variance-tradeoff #conditional-probability-and-bayes-theorem #tacit-knowledge-ml
 
 **Problem statement:** Experienced tax reviewers develop an intuitive ability to "scan" a completed return and sense that something is off — a Schedule C that feels too clean, a charitable deduction that seems high for the income level, a depreciation schedule that does not match the asset description — before they can articulate why. This tacit pattern recognition, built over thousands of reviewed returns, is what catches errors that rule-based checks miss. It cannot be written as a checklist because the signal is contextual: $8,000 in charitable deductions is normal for a $250K household but suspicious for a $45K single filer with no prior giving history.
 
@@ -25,7 +25,7 @@
 ---
 
 ## 2. Audit Risk Scoring
-#gradient-boosting #binary-classification #tabular-ml #compliance
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #compliance
 
 **Problem statement:** Preparers and clients want to know the likelihood that a return will be selected for IRS audit before filing, so they can make informed decisions about aggressive vs. conservative positions. Currently, preparers rely on folklore ("don't deduct a home office") and outdated DIF score heuristics.
 
@@ -44,7 +44,7 @@
 ---
 
 ## 3. Client Lifetime Value Prediction
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance #descriptive-statistics #revenue-impact
 
 **Problem statement:** Tax prep firms invest disproportionate effort in clients who file once and leave, while under-serving loyal clients who would pay for advisory services. Predicting which new or returning clients will generate the most revenue over a 5-year horizon enables smarter resource allocation and targeted upsell.
 
@@ -63,7 +63,7 @@
 ---
 
 ## 4. Automated Deduction Optimization
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Preparers often accept the deductions clients provide without probing for missed opportunities — not from negligence, but because the time pressure of 15-25 returns per day leaves no room for optimization analysis. An ML system that identifies likely missed deductions based on the client's profile and return data could flag "this client probably qualifies for the home office deduction based on their W-2 employer and Schedule C activity" before the preparer even asks.
 

@@ -6,7 +6,7 @@
 ---
 
 ## 1. First-Attempt Delivery Success Prediction
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Predict which stops will fail on first attempt to enable proactive interventions (pre-delivery notification, alternate delivery options) before the driver arrives.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Stop Time Prediction for Route Planning
-#gradient-boosting #regression #tabular-ml #quick-win
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #bias-variance-tradeoff #quick-win
 
 **Problem statement:** Predict per-stop service time (from parking to package placed) accurately for route planning, replacing uniform time estimates with address-specific predictions that reflect actual time variability.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Driver Performance Efficiency Analysis
-#gradient-boosting #multiclass-classification #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #hypothesis-testing
 
 **Problem statement:** Decompose per-driver delivery efficiency into specific behavior categories (parking decisions, address navigation, recipient interaction speed, vehicle loading sequence) to enable targeted performance coaching.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. POD Photo Quality Classification
-#cnn #binary-classification #computer-vision #compliance #quick-win
+#cnns #transfer-learning #loss-functions #backpropagation #gradient-descent #evaluation-metrics #compliance #quick-win
 
 **Problem statement:** Assess proof-of-delivery photo quality in real time at driver submission — flagging photos that lack address visibility, package clarity, or adequate lighting before submission.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Package Theft Pattern Detection and High-Risk Area Flagging
-#gradient-boosting #anomaly-detection #tabular-ml
+#gradient-boosting #dbscan #logistic-regression #feature-engineering #evaluation-metrics #descriptive-statistics #conditional-probability-and-bayes-theorem
 
 **Problem statement:** Identify delivery zones and time windows with elevated package theft risk from "delivered but not received" claim patterns, enabling routing decisions (locker redirect, carrier hold) for high-risk addresses.
 

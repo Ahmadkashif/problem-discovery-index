@@ -6,7 +6,7 @@
 ---
 
 ## 1. System Layout Optimization from Aerial Imagery and Shade Analysis
-#cnn #regression #computer-vision #tabular-ml #revenue-impact
+#cnns #linear-regression #transfer-learning #loss-functions #backpropagation #gradient-descent #optimization-fundamentals #evaluation-metrics #feature-engineering #revenue-impact
 
 **Problem statement:** Solar system design requires optimizing panel placement to maximize annual energy production given roof geometry, shade conditions, and structural/setback constraints. Automate the layout optimization that currently requires 45-90 minutes of experienced designer time per site.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. System Performance Anomaly Detection
-#isolation-forest #anomaly-detection #time-series-forecasting #signal-processing #quick-win
+#time-series-forecasting #change-point-detection #evaluation-metrics #feature-engineering #descriptive-statistics #hypothesis-testing #probability-distributions #quick-win
 
 **Problem statement:** Detect when an installed system's production is below weather-adjusted expectations, indicating hardware faults or degradation — before the customer notices.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Lead Qualification Scoring
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #conditional-probability-and-bayes-theorem #revenue-impact
 
 **Problem statement:** Score solar leads by close probability using property-specific features (roof orientation, electricity usage, utility rate, shade estimate) to focus sales team effort on highest-probability leads.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Interconnection Timeline Prediction
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #confidence-intervals
 
 **Problem statement:** Predict interconnection approval timeline for a specific utility territory and project size from the solar company's historical submission records and public utility queue data.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Roof Structural Suitability Screening from Aerial Imagery
-#cnn #binary-classification #computer-vision #tabular-ml
+#cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering
 
 **Problem statement:** Pre-screen leads for structural suitability before committing to a site survey — identifying roofs with obvious disqualifying characteristics (severe deterioration, insufficient south-facing area, complex geometry with excessive penetrations) that would produce unfavorable installation economics.
 

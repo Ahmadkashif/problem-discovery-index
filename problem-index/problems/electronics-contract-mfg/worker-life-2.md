@@ -3,7 +3,7 @@
 **Industry:** [[electronics-contract-mfg|Electronics Contract Manufacturing]]
 **Type:** Worker Life Changing
 **One-liner:** Rework technicians who spend 6-8 hours per shift hand-soldering BGA, QFN, and fine-pitch components under stereo microscopes — removing and replacing components with hot air stations, soldering irons, and flux at 0.4mm pitch — develop chronic eye strain, hand tremor, and neck pain that limits their career span in the role to 5-10 years before physical degradation forces a role change.
-**Tags:** #cnn #object-detection #computer-vision #worker-facing
+**Tags:** #cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #optimization-fundamentals #worker-facing
 
 ## The Problem
 When AOI or ICT identifies a defective solder joint or misplaced component, the board routes to the rework station. Rework technicians — the most skilled manual workers in an electronics factory — remove the defective component using hot air or infrared rework stations, clean the pad site, apply fresh solder paste, and place and reflow a replacement component. For BGA packages (solder balls under the component, invisible after placement), the technician works blind — they must align the component by reference marks, reflow it, and then x-ray to verify joint formation. For fine-pitch QFN and QFP components (0.4-0.5mm pitch), hand soldering requires magnification at 10-20x and steady hands for extended periods. A busy rework station processes 20-50 boards per shift, with each board requiring 5-30 minutes of focused microscope work.

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Authorization Lifecycle Agent
-#ai-agent #revenue-impact #compliance
+#gradient-boosting #feature-engineering #evaluation-metrics #ai-agent #revenue-impact #compliance
 
 **What it does:** An agent that monitors every patient's authorization status across all payers in real-time. It tracks visits consumed vs. authorized, fires alerts 2-3 visits before expiration, pre-populates concurrent review forms with clinical data from the EMR, submits extension requests to payer portals, and blocks scheduling of unauthorized visits. When a denial comes back, it auto-generates the appeal with supporting documentation.
 
@@ -18,7 +18,7 @@
 ---
 
 ## 2. Documentation Intelligence Agent
-#ai-agent #worker-facing #ml-nlp
+#large-language-models #transformers #attention-mechanisms #transfer-learning #ai-agent #worker-facing
 
 **What it does:** An agent embedded in the PT's documentation workflow that takes clinical inputs (objective measurements, functional tests, interventions performed) and generates a complete visit note with payer-appropriate medical necessity language. It knows the patient's treatment plan goals, tracks progress across visits, and adjusts documentation language to match the payer's audit expectations. Flags when documentation is insufficient for continued authorization.
 
@@ -30,7 +30,7 @@
 ---
 
 ## 3. Outcome-Driven Care Platform
-#ai-platform #data-integration #compliance
+#time-series-forecasting #evaluation-metrics #descriptive-statistics #ai-platform #data-integration #compliance
 
 **What it does:** A platform that integrates outcome measurement, HEP adherence tracking, treatment planning, and quality reporting into a unified clinical intelligence system. It auto-selects measures by diagnosis, administers them at the right intervals (via patient portal or tablet in-clinic), trends scores longitudinally, correlates outcomes with adherence data from connected HEP apps, and generates MIPS/quality reports automatically.
 
@@ -42,7 +42,7 @@
 ---
 
 ## 4. HEP Adherence & Coaching Agent
-#ai-agent #worker-facing #quick-win
+#gradient-boosting #feature-engineering #time-series-forecasting #ai-agent #worker-facing #quick-win
 
 **What it does:** A patient-facing agent that delivers home exercise programs via mobile, sends reminders, tracks completion (self-reported or motion-sensor-validated), adapts difficulty based on patient feedback, and reports adherence data back to the PT's clinical workflow before the next visit. When adherence drops, it sends motivational nudges and alerts the PT.
 
@@ -54,7 +54,7 @@
 ---
 
 ## 5. Supervision Compliance & Scheduling Agent
-#ai-agent #compliance #automation
+#decision-trees #feature-engineering #optimization-fundamentals #ai-agent #compliance #automation
 
 **What it does:** An agent that monitors PTA caseloads against supervision requirements (varying by state and payer), identifies upcoming supervision gaps, and automatically adjusts the schedule to insert PT supervision visits at the right intervals. It ensures the supervising PT is on-site when required and blocks PTA appointments that would violate supervision ratios.
 

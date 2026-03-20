@@ -6,7 +6,7 @@
 ---
 
 ## 1. Player Development Potential Prediction from Early Performance Signals
-#gradient-boosting #regression #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #bias-variance-tradeoff #probability-distributions #tacit-knowledge-ml
 
 **Problem statement:** Experienced youth coaches watch tryouts and instinctively identify which 8-year-olds will develop into strong players by age 12 — reading coordination, coachability, motor learning rate, and competitive drive in ways they cannot articulate as rules. This tacit assessment drives travel team selection, development investment, and player pathway decisions.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Volunteer Coach Retention Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #cross-validation #probability-distributions #bias-variance-tradeoff
 
 **Problem statement:** Organizations lose 40% of volunteer coaches annually but don't know which ones are at risk until they simply don't register the next season.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Game Outcome and Competitive Balance Scoring
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #bias-variance-tradeoff #probability-distributions
 
 **Problem statement:** League administrators need to form balanced teams but have no objective measure of team strength. Post-season analysis reveals that 30-40% of games are blowouts (>3 goal differential), indicating systemic balance failures.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Field and Facility Demand Forecasting
-#gradient-boosting #time-series-forecasting #tabular-ml
+#gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #probability-distributions #expectation-variance-covariance
 
 **Problem statement:** Organizations over-book or under-book field permits months in advance, paying for unused slots or scrambling for last-minute availability. Weather cancellations cascade unpredictably.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Parent Communication Triage and Auto-Response
-#bert #text-classification #nlp #automation
+#bert #transfer-learning #attention-mechanisms #word-embeddings #evaluation-metrics #loss-functions #entropy-cross-entropy-kl-divergence #gradient-descent #automation
 
 **Problem statement:** Coaches and administrators receive 50-200 messages per week from parents. 70% are routine (schedule questions, carpool coordination, equipment queries) but require manual response, burying the 30% that need actual human judgment.
 

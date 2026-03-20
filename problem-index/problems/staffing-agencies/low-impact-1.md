@@ -3,7 +3,7 @@
 **Industry:** [[staffing-agencies|Staffing Agencies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic time-and-attendance platforms like UKG and ADP can track when someone clocks in, but they can't handle the staffing-specific nightmare of one worker reporting to three different client sites in a week — each with different overtime rules, meal/break requirements, and billing rates — without a payroll specialist manually reconciling every timecard.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #compliance
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #probability-distributions #compliance
 
 ## The Problem
 A staffing agency's temp workforce operates under a compliance regime that generic T&A systems were never designed for. A single temp worker might clock in at Client A on Monday (California, daily overtime after 8 hours, mandatory 30-minute meal break before hour 5), Client B on Tuesday–Wednesday (Texas, no daily overtime, federal FLSA weekly only), and Client C on Thursday–Friday (New York, spread-of-hours premium if shift exceeds 10 hours). Each client has a different bill rate, a different workers' comp class code, and potentially a different pay rate for the same worker. The staffing agency is the employer of record and bears full liability for every wage-and-hour violation.

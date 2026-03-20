@@ -3,7 +3,7 @@
 **Industry:** [[veterinary-practices|Veterinary Practices]]
 **Type:** Worker Life Changing
 **One-liner:** The vet on call at 11pm gets a structured triage summary — symptom history, species, age, relevant conditions — before they pick up the phone, and an AI-assisted urgency assessment that helps them decide "see now, see tomorrow morning, or home care instructions" without relying entirely on an anxious owner's description.
-**Tags:** #llm #text-classification #nlp #worker-facing
+**Tags:** #large-language-models #gradient-boosting #feature-engineering #transfer-learning #evaluation-metrics #worker-facing
 
 ## The Problem
 After-hours on-call is one of the most stressful and disruptive aspects of veterinary practice. The vet receives a call from a panicked pet owner who may be unable to accurately describe or assess their pet's symptoms — "he's not acting right," "she seems uncomfortable," "his breathing looks off" — and must make a triage decision with minimal information and no visual assessment. The stakes are real: missing a true emergency (urinary obstruction in a male cat, GDV in a large breed dog, respiratory distress) can be fatal, but sending every anxious owner to an emergency hospital at midnight is both unnecessary and damages the client relationship. Experienced vets have developed triage scripts and question patterns through years of calls, but newer vets are essentially improvising under pressure in the middle of the night.

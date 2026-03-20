@@ -3,7 +3,7 @@
 **Industry:** [[software-dev-agencies|Software Development Agencies]]
 **Type:** High Impact
 **One-liner:** Agencies stop bleeding margin on every project because estimates finally reflect actual build complexity instead of optimistic guesses.
-**Tags:** #gradient-boosting #regression #tabular-ml #nlp #revenue-impact #tacit-knowledge-ml
+**Tags:** #gradient-boosting #bert #transformers #feature-engineering #cross-validation #evaluation-metrics #word-embeddings #transfer-learning #bias-variance-tradeoff #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Software development agencies systematically underestimate projects by 30-50%, and the error compounds on fixed-bid contracts where every extra hour comes directly out of margin. The root cause is that estimation relies on senior leads pattern-matching against past projects in their heads — they read a client brief, sense which "simple" features hide architectural landmines (undefined integrations, ambiguous data models, unstated performance requirements), and adjust upward. But their adjustments are still anchored to the written scope, which is always incomplete. Junior PMs and less experienced leads lack this pattern library entirely, producing estimates that are functionally fictional.

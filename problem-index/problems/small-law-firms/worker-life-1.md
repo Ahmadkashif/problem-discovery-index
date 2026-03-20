@@ -3,7 +3,7 @@
 **Industry:** [[small-law-firms|Small Law Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Small firm attorneys who must conduct legal research without associate leverage — spending 4-8 hours on research that a large firm would assign to a first-year — get an AI research assistant that surfaces the relevant cases, statutes, and secondary sources in 20 minutes, with citations they can verify, so they can spend their time on analysis rather than retrieval.
-**Tags:** #llm #text-generation #nlp #ranking #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #evaluation-metrics #worker-facing
 
 ## The Problem
 Legal research is the intellectual backbone of legal representation — but in a small firm, every research task falls on either the billing attorney or a paralegal with limited research training. A novel legal question (what is the current standard for proving a fraudulent transfer in this jurisdiction? what are the elements of a negligent misrepresentation claim?) requires finding the controlling statute, the leading cases, any recent decisions that have modified the standard, and secondary sources that synthesize the law. At a large firm, this is assigned to an associate who spends 2-4 hours and produces a research memo. At a small firm, the billing attorney does it themselves — at the cost of 4-8 hours of their highest-value time — or delegates to a paralegal who may not know what they're looking for.

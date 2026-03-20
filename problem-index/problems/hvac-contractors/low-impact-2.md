@@ -3,7 +3,7 @@
 **Industry:** [[hvac-contractors|HVAC Contractors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic energy calculators exist but don't integrate a specific customer's equipment age, measured energy consumption, local utility rates, and available manufacturer rebates into a personalized 10-year cost-of-ownership comparison that a technician can present at the service call.
-**Tags:** #linear-regression #tabular-ml #automation #revenue-impact
+**Tags:** #linear-regression #feature-engineering #evaluation-metrics #arithmetic-and-basic-algebra #descriptive-statistics #automation #revenue-impact
 
 ## The Problem
 

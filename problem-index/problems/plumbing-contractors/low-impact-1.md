@@ -3,7 +3,7 @@
 **Industry:** [[plumbing-contractors|Plumbing Contractors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic voice-to-text and photo tools exist but don't understand plumbing-specific scope language or translate a technician's field assessment into a structured quote with labor hours, materials list, and tiered pricing options that the dispatcher can present to the customer over the phone.
-**Tags:** #llm #multimodal #text-generation #nlp #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #evaluation-metrics #automation
 
 ## The Problem
 Residential plumbing service calls follow a consistent structure: technician assesses the problem, estimates the scope and labor, quotes the customer, and gets approval before starting work. The quoting step is where revenue is made or lost — a vague quote leads to disputes; a slow quote loses the job to a competitor who quotes faster. Currently, the technician calls or texts the dispatcher with a verbal scope description ("this is a water heater replacement, 40 gallon gas, need to run new gas line because the existing flex is corroded"), and the dispatcher manually builds the quote in ServiceTitan, pulling material costs from memory or a price book and calculating labor. This takes 10-15 minutes per quote, during which the customer waits and the technician stands idle.

@@ -3,7 +3,7 @@
 **Industry:** [[warehouse-3pl|Warehouse & 3PL]]
 **Type:** Worker Life Changing
 **One-liner:** Receiving dock workers who document inbound shipment damage — photographing damaged cartons, counting short shipments, noting carrier damage signatures — and then manually enter exception reports in the WMS get that documentation automated from their photos, with carrier claims drafted automatically.
-**Tags:** #computer-vision #llm #automation #worker-facing #compliance
+**Tags:** #cnns #transfer-learning #large-language-models #loss-functions #backpropagation #evaluation-metrics #automation #worker-facing #compliance
 
 ## The Problem
 

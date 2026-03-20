@@ -5,7 +5,7 @@
 ---
 
 ## 1. Fit Assessment Agent
-#ai-agent #computer-vision #tacit-knowledge-ml
+#ai-agent #cnns #transfer-learning #semantic-segmentation #evaluation-metrics #tacit-knowledge-ml
 
 **Concept:** An AI agent that guides intake staff through a standardized photo capture protocol when a customer brings in a garment, then analyzes the garment-on-body images to detect fit issues, classify their severity, and generate an alteration prescription. The agent serves as a digital apprentice — it doesn't replace the master tailor but enables non-expert staff to conduct intake assessments for standard garments (trousers, shirts, simple dresses), routing only complex garments (suits, wedding dresses, structured formalwear) to the master tailor's attention. Over time, the agent builds a fit assessment knowledge base from every garment evaluated, preserving the tacit knowledge that would otherwise retire with the master tailor.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Order Tracking and Workflow Agent
-#ai-agent #workflow-orchestration #automation
+#ai-agent #gradient-boosting #feature-engineering #optimization-fundamentals #workflow-orchestration #automation
 
 **Concept:** An AI agent that digitizes the paper-ticket-on-garment workflow without requiring the tailor to learn a complex software system. At intake, the agent captures garment photos, annotates alterations on the images, generates a digital ticket linked to a QR code tag on the garment, estimates completion time based on current workload, and sends the customer a text confirmation with expected pickup date. As the tailor completes work, they scan garment tags to advance the status. The agent manages the queue — suggesting optimal work sequencing based on due dates, alteration type clustering (batch similar tasks), and physical strain distribution. Customer inquiries are handled automatically via text.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Pricing and Estimation Agent
-#ai-agent #tabular-ml #revenue-impact
+#ai-agent #cnns #gradient-boosting #feature-engineering #evaluation-metrics #revenue-impact
 
 **Concept:** An AI agent that generates accurate, garment-specific price quotes at intake by analyzing garment photos and requested alterations against the shop's pricing model. The agent identifies garment construction features (lined, boned, beaded, cuffed, pick-stitched) from photos, assesses alteration complexity at each modification point, and produces a transparent quote with line-item explanations. For complex garments where the photo analysis is uncertain, the agent flags specific questions for the master tailor rather than requiring a full in-person evaluation. The agent also generates a customer-facing explanation that justifies the price — "Your blazer has a functional surgeon's cuff, which means the sleeve must be shortened from the shoulder rather than the cuff, adding 45 minutes of work."
 

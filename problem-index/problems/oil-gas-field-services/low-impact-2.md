@@ -3,7 +3,7 @@
 **Industry:** [[oil-gas-field-services|Oil & Gas Field Services]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Field supervisors manually track overlapping compliance deadlines from state O&G commissions, EPA, BLM, and OSHA across dozens of wellsites — a problem generic compliance tools cannot solve because every state has different forms, cadences, and triggers.
-**Tags:** #llm #text-classification #nlp #compliance
+**Tags:** #large-language-models #bert #transformers #attention-mechanisms #word-embeddings #transfer-learning #compliance
 
 ## The Problem
 A single wellsite may fall under the jurisdiction of the state oil and gas commission (e.g., Texas RRC, North Dakota NDIC, Colorado COGCC), the EPA (emissions reporting, spill reporting), the BLM (for federal leases), and OSHA (H2S monitoring, confined space entry). Each agency has different reporting forms, filing deadlines, trigger thresholds, and penalty structures. A field supervisor managing 30-80 wells tracks these manually using spreadsheets, calendars, and memory. Missing a mechanical integrity test deadline can result in a well being shut in; failing to report a spill within the state-mandated window triggers escalating fines.

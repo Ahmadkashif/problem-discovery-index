@@ -5,7 +5,7 @@
 ---
 
 ## 1. Phase I ESA Research Agent
-#ai-agent #automation #nlp #revenue-impact
+#ai-agent #large-language-models #transformers #word-embeddings #evaluation-metrics #automation #revenue-impact
 
 **Concept:** An autonomous agent that takes a property address and parcel boundary as input, programmatically queries all ASTM E1527-21-required federal and state regulatory databases, retrieves and normalizes results, identifies facilities of concern within the standard search radii (1 mile for NPL sites, 0.5 miles for RCRA TSD facilities, 0.25 miles for UST registries, etc.), and generates a draft regulatory database search summary table with citations and hyperlinks to source records. The agent handles database-specific quirks: retrying failed queries, navigating CAPTCHAs through accessibility APIs where available, falling back to cached state database snapshots when live queries fail, and flagging databases that returned no results for manual verification.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Regulatory Compliance Calendar Agent
-#ai-agent #compliance #workflow-orchestration #llm
+#ai-agent #large-language-models #transformers #attention-mechanisms #word-embeddings #compliance #workflow-orchestration
 
 **Concept:** An agent that ingests environmental permits (air, water, waste, UST) via document upload, extracts all compliance obligations (monitoring frequencies, reporting deadlines, submission portals, required signatories) using LLM-powered document understanding, builds a multi-client compliance calendar, and autonomously manages the compliance workflow: sending tiered alerts (30-day, 14-day, 3-day), pre-populating report templates with available monitoring data, tracking submission confirmations, and escalating missed deadlines to firm leadership. The agent learns from each permit renewal, automatically updating deadlines when agencies modify reporting requirements.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Field Data QA/QC Agent
-#ai-agent #data-integration #anomaly-detection #compliance
+#ai-agent #autoencoders #pca #feature-engineering #evaluation-metrics #probability-distributions #data-integration #compliance
 
 **Concept:** An agent that sits between field data collection and report generation, autonomously performing quality assurance and quality control checks on environmental monitoring data. It ingests lab analytical results (EDDs), field parameters, and historical site data, then runs a comprehensive QA/QC protocol: checks internal consistency (dissolved vs. total metals, cation-anion balance for groundwater), compares results against historical trends per monitoring point, flags statistical outliers with context-aware thresholds (a benzene spike at a gas station site has different significance than at a dry cleaner site), validates chain-of-custody completeness, and generates a QA/QC summary memo documenting all checks performed and flags raised. The agent escalates anomalies to the project scientist with specific recommendations (resample, contact lab, verify field conditions).
 

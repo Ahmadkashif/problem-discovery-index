@@ -3,7 +3,7 @@
 **Industry:** [[food-trucks|Food Trucks]]
 **Type:** Worker Life Changing
 **One-liner:** Workers trapped in a 100-120°F steel box for 6-8 hours get an early warning before heat exhaustion sets in, instead of discovering it when they collapse.
-**Tags:** #lstm #anomaly-detection #signal-processing #worker-facing
+**Tags:** #lstms-and-grus #rnns #backpropagation #gradient-descent #loss-functions #evaluation-metrics #time-series-forecasting #descriptive-statistics #worker-facing
 
 ## The Problem
 Food truck interiors routinely reach 100-120°F during summer service, combining radiant heat from grills and fryers with minimal ventilation in a 7x14-foot steel enclosure. Operators and staff work through progressive heat stress symptoms — dizziness, confusion, slowed reaction time — because stopping service means losing revenue. Heat-related incidents cause burns (impaired coordination near hot oil), falls, and occasional hospitalizations. There is no objective monitoring: operators self-assess, and by the time they feel "really bad," they are already in early heat exhaustion.

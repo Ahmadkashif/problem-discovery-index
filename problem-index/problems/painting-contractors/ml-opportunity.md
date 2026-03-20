@@ -6,7 +6,7 @@
 ---
 
 ## 1. Surface Condition Classification and Paint System Recommendation
-#cnn #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #feature-engineering #tacit-knowledge-ml
 
 **Problem statement:** Experienced painters diagnose surface condition from visual evidence — peeling pattern, chalking, substrate type, moisture damage signs — and specify the correct prep method and paint system before applying any product. A CNN trained on labeled surface condition photos can replicate this assessment to prevent paint system failures caused by incorrect surface diagnosis.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Job Duration Estimation from Scope and Surface Area
-#gradient-boosting #regression #tabular-ml #quick-win
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #quick-win
 
 **Problem statement:** Estimating labor hours accurately is the primary determinant of painting job profitability. Replace manual labor hour estimation (estimator's judgment) with a regression model trained on historical job duration data by scope and surface area.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Paint Failure Risk Prediction from Application Conditions
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Predict which jobs are at elevated risk of paint failure based on application conditions — substrate condition, weather at time of application, paint system specified, and surface preparation documented — to flag high-risk jobs for senior review before the crew starts.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Color Harmony and Product Recommendation from Room Photos
-#cnn #recommendation #computer-vision #multimodal
+#cnns #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #gradient-descent
 
 **Problem statement:** Guide color selection during the estimate visit by recommending colors that harmonize with the customer's existing room contents and specifying the correct product and sheen for the application context.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Crew Productivity Anomaly Detection
-#isolation-forest #anomaly-detection #tabular-ml #quick-win
+#descriptive-statistics #evaluation-metrics #feature-engineering #hypothesis-testing #confidence-intervals #quick-win
 
 **Problem statement:** Detect when a crew or job is running significantly over estimated hours in real time — enabling the owner to intervene before a job becomes severely unprofitable rather than discovering the overrun after the invoice.
 

@@ -3,7 +3,7 @@
 **Industry:** [[news-media-local|Local News Media]]
 **Type:** High Impact
 **One-liner:** Editors stop guessing which stories justify a full reporting day and start seeing predicted subscription lift, engagement depth, and share velocity before committing resources.
-**Tags:** #bert #gradient-boosting #regression #nlp #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #bert #gradient-boosting #transfer-learning #attention-mechanisms #word-embeddings #linear-regression #feature-engineering #evaluation-metrics #loss-functions #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Local newsroom editors receive 20–50 story pitches, tips, and beat-generated ideas per week and must allocate 10–25 reporter-days across them. The decision of which stories get deep investigation versus a quick brief versus being killed entirely is made by editorial instinct — an editor's internalized sense of which topics will resonate with the community, drive subscriptions, and generate sharing. This tacit judgment integrates community relevance (does this affect enough people?), emotional resonance (does this provoke outrage, hope, or surprise?), information exclusivity (do we have this first?), and timing (is the community primed for this?). When editors retire or leave, this judgment walks out with them, and the replacement editor spends 1–2 years recalibrating to the community.

@@ -5,7 +5,7 @@
 ---
 
 ## 1. Prior Auth Agent
-#ai-agent #llm #nlp #compliance #revenue-impact
+#ai-agent #large-language-models #bert #transformers #word-embeddings #evaluation-metrics #compliance #revenue-impact
 
 **Concept:** An autonomous agent that handles the entire prior authorization lifecycle for DME orders — from initial eligibility verification through submission, follow-up, and appeal if denied. The agent ingests a new order, pulls the patient's insurance eligibility via EDI 270/271, retrieves the applicable payer coverage policy, parses the clinical documentation package (CMN, physician notes, face-to-face records) using OCR and NLP, performs a pre-submission compliance audit against the specific payer's criteria, auto-generates the submission package with correct codes and supporting documents, submits via the payer's required channel (portal API, fax, or clearinghouse), monitors for response, and — if denied — classifies the denial reason, determines the corrective action, and either auto-corrects and resubmits (for documentation technicalities) or escalates to a human with a pre-drafted appeal and specific instructions on what additional information is needed from the physician.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Reorder Reminder Agent
-#ai-agent #llm #tabular-ml #revenue-impact #automation
+#ai-agent #gradient-boosting #time-series-forecasting #large-language-models #feature-engineering #evaluation-metrics #revenue-impact #automation
 
 **Concept:** An agent that monitors every active patient's supply reorder eligibility window, predicts when they will need to reorder based on usage patterns and clinical data (CPAP compliance hours, wound healing trajectory, ostomy output frequency), and autonomously conducts personalized outreach — via SMS, email, or automated phone call — to schedule the reorder before the patient runs out. For patients who respond affirmatively, the agent auto-generates the reorder, verifies insurance eligibility, checks for any documentation renewals needed (CMN expiration, face-to-face re-certification), and routes the order for fulfillment. For patients who do not respond, the agent escalates to a human customer service rep with a pre-populated call script and the patient's full supply history.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Insurance Appeal Agent
-#ai-agent #llm #nlp #compliance #worker-facing
+#ai-agent #large-language-models #bert #transformers #word-embeddings #evaluation-metrics #compliance #worker-facing
 
 **Concept:** A specialized agent focused exclusively on claim denial appeals — the most adversarial and knowledge-intensive part of the DME revenue cycle. The agent ingests denied claims, classifies the denial into a root cause taxonomy (50+ specific denial reasons mapped from CARC/RARC codes and payer-specific denial letters), retrieves the applicable appeal strategy from an institutional knowledge base built from historical appeal outcomes, auto-generates the appeal letter with correct policy citations and clinical justification, assembles the supporting documentation package, and submits the appeal through the correct payer channel. For denials requiring additional clinical documentation from the referring physician, the agent auto-generates the physician outreach request specifying exactly what is needed. The agent learns from every appeal outcome, continuously refining its strategy recommendations and letter templates per payer, per denial reason, per product category.
 

@@ -3,7 +3,7 @@
 **Industry:** [[news-media-local|Local News Media]]
 **Type:** Worker Life Changing
 **One-liner:** Reporters get back the investigative hours that daily churn has stolen — turning beat reporters from content machines back into journalists.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing #automation
 
 ## The Problem
 A local beat reporter covering city government attends 3–5 public meetings per week, each generating a 600–1,000 word meeting recap that must be filed by deadline. Writing these recaps — pulling quotes from recordings, structuring the lede, adding context from prior coverage — consumes 60–70% of the reporter's working hours. The remaining time goes to source calls and email. Actual investigative work — following up on tips, filing FOIA requests, building long-term stories — happens on personal time or not at all. Reporters describe feeling like "meeting transcription services with a byline."

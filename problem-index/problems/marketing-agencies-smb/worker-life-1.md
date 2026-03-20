@@ -3,7 +3,7 @@
 **Industry:** [[marketing-agencies-smb|SMB Marketing Agencies]]
 **Type:** Worker Life Changing
 **One-liner:** AMs get their evenings back when they're no longer triaging 30+ daily messages from clients who just want to know "is my campaign working?" without waiting for the monthly report.
-**Tags:** #bert #text-classification #nlp #worker-facing
+**Tags:** #bert #transformers #word-embeddings #transfer-learning #attention-mechanisms #evaluation-metrics #feature-engineering #worker-facing
 
 ## The Problem
 Account managers at SMB agencies typically handle 8-15 clients simultaneously. Each client communicates through their preferred channel — some via email, others through Slack Connect, others through the PM tool's comment threads, and a few by text message. An AM receives 20-40 client messages per day, ranging from urgent ("our ads are showing the wrong phone number") to informational ("just FYI, we're closed next Monday") to anxious-but-not-actionable ("I noticed our impressions dropped yesterday, is something wrong?"). The AM must context-switch across clients, platforms, and urgency levels continuously. By 3pm, most AMs report decision fatigue and communication debt — messages they haven't responded to that will generate follow-up anxiety from clients. Many AMs work an extra 1-2 hours after dinner clearing the queue.

@@ -3,7 +3,7 @@
 **Industry:** [[cold-chain-logistics|Cold Chain Logistics]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic predictive maintenance models exist for industrial equipment, but don't understand refrigeration unit operating cycles, the specific failure modes of Carrier Transicold and Thermo King units, or the relationship between reefer telemetry patterns and specific component failures — the domain translation that turns generic anomaly detection into actionable maintenance scheduling.
-**Tags:** #gradient-boosting #binary-classification #anomaly-detection #tabular-ml #signal-processing
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #time-series-forecasting #change-point-detection #tacit-knowledge-ml
 
 ## The Problem
 

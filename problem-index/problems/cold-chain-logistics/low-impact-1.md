@@ -3,7 +3,7 @@
 **Industry:** [[cold-chain-logistics|Cold Chain Logistics]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic document generation tools can format data into PDFs, but don't know FDA FSMA, GDP pharmaceutical, or USDA cold chain documentation requirements — the regulatory-specific formatting, mandatory fields, and excursion response documentation that make a temperature report compliant vs. a records liability.
-**Tags:** #llm #text-generation #nlp #compliance #automation
+**Tags:** #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #compliance #automation
 
 ## The Problem
 

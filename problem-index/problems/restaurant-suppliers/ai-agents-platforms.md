@@ -5,7 +5,7 @@
 ---
 
 ## 1. Sales Intelligence Agent
-#ai-agent #gradient-boosting #tabular-ml #revenue-impact
+#ai-agent #gradient-boosting #large-language-models #feature-engineering #evaluation-metrics #decision-trees #revenue-impact
 
 **Concept:** An autonomous agent that monitors every account in a rep's territory overnight, cross-referencing ERP order data, credit memo history, and market pricing to generate a daily briefing. Each morning, the rep receives a prioritized action list: accounts at churn risk with the specific behavior change, cross-sell opportunities with talking points ("Bella Cucina buys $800/week in proteins from you but zero seafood — comparable Italian restaurants average $300/week in seafood"), and pricing alerts where a competitor likely undercut on a key category.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Menu-Based Procurement Agent
-#ai-agent #llm #nlp #automation
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #automation
 
 **Concept:** An agent that ingests restaurant menus (scraped from websites, photographed by reps, or uploaded by operators) and automatically generates suggested order lists mapped to the distributor's catalog. When a chef updates their menu — adding a duck confit appetizer or switching to a seasonal vegetable plate — the agent detects the change, maps new dishes to ingredient SKUs and portion quantities, and generates a suggested standing order adjustment for the rep to propose. The agent also monitors menu trends across the territory to inform procurement buying.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Pricing and Margin Optimization Agent
-#ai-agent #ai-platform #gradient-boosting #regression #tabular-ml
+#ai-agent #ai-platform #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals
 
 **Concept:** An autonomous pricing agent that sets and adjusts customer-specific pricing across thousands of SKUs daily, optimizing for margin while respecting competitive constraints. Independent distributors typically set prices via cost-plus with manual adjustments — a buyer sets the base margin, and sales reps negotiate customer-specific discounts with no visibility into the cumulative margin impact. The agent calculates optimal price points per SKU per customer segment, factoring in price elasticity (how much volume shifts with price changes), competitive exposure (commodity items where Sysco will undercut), and relationship value (high-volume loyal accounts get tighter margins on commodities to retain their premium-product spend).
 

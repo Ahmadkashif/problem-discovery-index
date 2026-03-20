@@ -5,7 +5,7 @@
 ---
 
 ## 1. Virtual Move Survey Agent
-#ai-agent #llm #computer-vision #automation
+#ai-agent #large-language-models #cnns #object-detection #transfer-learning #attention-mechanisms #automation
 
 **Concept:** An AI agent that conducts the entire pre-move survey asynchronously via the customer's smartphone. The customer walks through their home guided by voice prompts ("Now show me the bedroom closet... can you open the garage door?"), and the agent identifies, counts, and classifies items in real-time, asks clarifying questions ("Is that piano a baby grand or upright?"), flags access challenges ("I see a narrow spiral staircase — is that the only way to the second floor?"), and generates a complete cube sheet with photos, inventory, and access notes. The estimator reviews the agent's output and adjusts rather than conducting the survey from scratch.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Crew Dispatch and Schedule Optimization Agent
-#ai-agent #ai-platform #workflow-orchestration #automation
+#ai-agent #ai-platform #large-language-models #optimization-fundamentals #gradient-boosting #workflow-orchestration #automation
 
 **Concept:** An autonomous dispatch agent that takes the daily or weekly move manifest and produces optimized crew-truck-route assignments, then manages the schedule in real-time throughout the day. When a morning move runs long (crew texts "need 2 more hours"), the agent automatically recalculates downstream assignments, notifies affected customers with updated windows, reassigns available backup crew if needed, and alerts the dispatcher only when human judgment is required (e.g., a customer threatens cancellation). It replaces the dispatcher's whiteboard with a living plan that adapts continuously.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Claims Processing and Settlement Agent
-#ai-agent #computer-vision #compliance #automation
+#ai-agent #cnns #transfer-learning #large-language-models #evaluation-metrics #compliance #automation
 
 **Concept:** An end-to-end claims agent that handles damage claims from initial customer report through settlement offer. When a customer submits a damage claim (via photo upload and description), the agent matches destination photos against origin photos using image comparison models, assesses whether damage is consistent with transit (vs. pre-existing or normal wear), calculates liability based on the customer's selected valuation tier and the item's declared value, drafts a settlement offer letter that complies with FMCSA timelines (30-day acknowledgment, 120-day resolution), and presents the complete case to a claims manager for approval. For straightforward cases (clear transit damage, full-value coverage, item value under $500), the agent processes the claim autonomously.
 

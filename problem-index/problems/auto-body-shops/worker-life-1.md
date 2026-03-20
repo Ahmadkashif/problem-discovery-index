@@ -3,7 +3,7 @@
 **Industry:** [[auto-body-shops|Auto Body Shops]]
 **Type:** Worker Life Changing
 **One-liner:** Painters stop relying solely on PPE compliance and start getting real-time exposure monitoring that protects their long-term health.
-**Tags:** #cnn #anomaly-detection #computer-vision #worker-facing
+**Tags:** #cnns #transfer-learning #object-detection #evaluation-metrics #loss-functions #backpropagation #gradient-descent #worker-facing
 
 ## The Problem
 Auto body painters work with isocyanate-based paints, solvents, and primers that are among the most hazardous chemicals in any trade. Isocyanates cause occupational asthma at exposure levels below the detection threshold of smell. Painters wear supplied-air respirators and protective suits, but PPE compliance is imperfect — seal breaks, cartridge expiration, skin exposure during mixing, and spray booth ventilation failures all create exposure events that go undetected until health symptoms appear years later.

@@ -5,7 +5,7 @@
 ---
 
 ## 1. Booking and Waitlist Management Agent
-#ai-agent #revenue-impact #automation
+#ai-agent #gradient-boosting #large-language-models #feature-engineering #evaluation-metrics #revenue-impact #automation
 
 **Concept:** An AI agent that manages the complete tattoo booking pipeline: receives inquiries (from Instagram DMs, website, text), collects structured information (design concept, size, placement, budget, availability), scores no-show risk, sets deposit requirements accordingly, manages confirmation sequences calibrated by risk, and maintains an active waitlist for short-notice openings. When a cancellation occurs, the agent automatically contacts waitlisted clients in priority order, filling the slot before revenue is lost. The agent handles 80% of booking interactions autonomously, routing only complex consultations to the artist.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Design Consultation and Reference Analysis Agent
-#ai-agent #computer-vision #recommendation
+#ai-agent #cnns #transfer-learning #feature-engineering #evaluation-metrics #gradient-descent
 
 **Concept:** An AI agent that streamlines the design consultation process. When a client sends reference images, the agent analyzes them to extract dominant style elements, flags inconsistencies between references, assesses technical feasibility for the requested body placement and size, estimates design complexity and session time, and generates a structured design brief for the artist. During the consultation, the agent can show the client examples from the artist's portfolio that match their style preferences, helping bridge the communication gap between client vision and artist interpretation.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Social Media Portfolio Agent
-#ai-agent #llm #text-generation #automation
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #automation
 
 **Concept:** An AI agent that manages the tattoo artist's social media presence — scheduling posts from photographed work with generated captions and hashtags optimized for booking conversion (not just engagement), responding to DMs with booking intake collection, managing follower engagement, and providing analytics on which content types drive actual bookings. The agent maintains the artist's voice and aesthetic while systematizing the time-consuming mechanical work of social media management.
 

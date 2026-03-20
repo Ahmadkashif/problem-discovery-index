@@ -3,7 +3,7 @@
 **Industry:** [[pest-control|Pest Control]]
 **Type:** Worker Life Changing
 **One-liner:** Technicians stop relying on "I'll be careful" and start getting real-time exposure tracking that keeps cumulative chemical contact within safe limits across their entire workday.
-**Tags:** #cnn #binary-classification #computer-vision #worker-facing
+**Tags:** #cnns #logistic-regression #transfer-learning #evaluation-metrics #loss-functions #descriptive-statistics #worker-facing
 
 ## The Problem
 Pest control technicians handle concentrated pesticides daily — mixing, loading, and applying products that range from low-toxicity baits to restricted-use organophosphates and carbamates. Acute exposure incidents (spills, spray-back, improper mixing) are visible, but chronic low-level exposure through skin absorption, inhalation of mist or dust, and contaminated clothing is the greater long-term risk. Technicians performing 8-15 applications per day accumulate exposure across products with different active ingredients, and no system tracks their cumulative daily load against safety thresholds.

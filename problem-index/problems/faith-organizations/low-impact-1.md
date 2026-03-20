@@ -3,7 +3,7 @@
 **Industry:** [[faith-organizations|Faith Organizations]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic CRMs track individuals — churches need to track households, spiritual milestones, group affiliations, and giving as a family unit.
-**Tags:** #gradient-boosting #recommendation #tabular-ml #data-integration
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #logistic-regression #probability-distributions #bias-variance-tradeoff #data-integration
 
 ## The Problem
 Churches operate around family units, not individual contacts. A household might include two parents, three children in different age-based ministries, a grandmother in the seniors' group, and a college student home for summers. Tracking engagement, communication preferences, giving history, and volunteer roles at the household level — while still managing individual participation — requires a data model that generic CRMs like Salesforce or HubSpot don't natively support. Staff waste hours manually linking records, merging duplicates after marriages or divorces, and cross-referencing attendance across ministries to understand a family's total involvement.

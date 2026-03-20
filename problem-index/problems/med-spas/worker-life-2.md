@@ -3,7 +3,7 @@
 **Industry:** [[med-spas|Med Spas]]
 **Type:** Worker Life Changing
 **One-liner:** Front desk coordinators stop dreading every patient checkout because they're no longer the ones pressured to sell $200/month memberships and $500 treatment upgrades — because a personalized recommendation system handles treatment suggestions before the patient reaches the desk.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #logistic-regression #probability-distributions #expectation-variance-covariance #worker-facing
 
 ## The Problem
 Med spa front desk coordinators and patient consultants are assigned revenue targets: membership enrollment rates (typically 15-25% of new patients should convert to monthly memberships at $150-$300/month), product upsell rates (recommending skincare lines, treatment add-ons), and rebooking rates (ensuring patients schedule their next visit before leaving). These targets create a daily emotional burden: the coordinator must transition from warm, caring check-in to sales pitch at checkout, often to patients who just received an emotionally vulnerable treatment (cosmetic procedures involve body image and self-esteem). The coordinator who genuinely enjoys patient care feels their role has been turned into retail sales, but missing targets threatens their job.

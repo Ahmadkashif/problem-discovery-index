@@ -3,7 +3,7 @@
 **Industry:** [[hr-consultants|HR Consultants]]
 **Type:** High Impact
 **One-liner:** Every client's compliance posture is continuously validated against a living map of federal, state, and local employment law — no change slips through.
-**Tags:** #bert #text-classification #nlp #compliance #revenue-impact
+**Tags:** #bert #transformers #transfer-learning #word-embeddings #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #compliance #revenue-impact
 
 ## The Problem
 HR consultants managing 20-100 SMB clients across multiple states must track a relentless stream of employment law changes — new state sick leave mandates, pay transparency requirements, ban-the-box expansions, FMLA eligibility threshold updates, ADA reasonable accommodation guidance shifts, and local minimum wage adjustments. Each client has a unique footprint: employees in specific states, specific industries with sector-specific carve-outs, specific headcount thresholds that trigger different obligations. A single missed update — say, failing to notify a 52-employee client in Colorado about new FAMLI Act reporting requirements — exposes both the client and the consultant to audit penalties, employee lawsuits, and E&O claims.

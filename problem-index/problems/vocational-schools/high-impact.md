@@ -3,7 +3,7 @@
 **Industry:** [[vocational-schools|Vocational Schools]]
 **Type:** High Impact
 **One-liner:** Every graduating cohort gets matched to open positions ranked by fit, and at-risk students get intervention before they fall off the placement funnel.
-**Tags:** #gradient-boosting #ranking #binary-classification #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #logistic-regression #probability-distributions #bias-variance-tradeoff #gradient-descent #revenue-impact
 
 ## The Problem
 Vocational schools' entire value proposition is employment outcomes — accreditors (ACCSC, COE) mandate minimum placement rates (typically 70%+), Title IV funding depends on gainful employment metrics, and prospective students choose programs based on job placement stats. Yet most schools have no systematic way to predict which students are at risk of non-placement or to match graduates with the right employers. Career services coordinators work from static employer lists and personal relationships, manually matching students to openings based on geography and program completion alone, missing fit signals like specific skill strengths, employer culture, shift preferences, and transportation constraints.

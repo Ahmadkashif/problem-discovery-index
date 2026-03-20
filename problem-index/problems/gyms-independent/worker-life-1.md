@@ -3,7 +3,7 @@
 **Industry:** [[gyms-independent|Independent Gyms]]
 **Type:** Worker Life Changing
 **One-liner:** Front desk staff get the clarity to help the right prospects instead of the anxiety of pressuring every person who walks through the door.
-**Tags:** #gradient-boosting #ranking #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #cross-validation #probability-distributions #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 Front desk staff at independent gyms are hired for hospitality but measured on sales. They are expected to convert trial visitors, upsell personal training packages, and prevent cancellations — often with zero sales training and a commission structure that creates daily anxiety. Every interaction with a prospect carries implicit pressure: the owner is watching conversion rates, and staff who don't "close" feel expendable. The result is either aggressive tactics that alienate prospects or passive avoidance where staff simply process check-ins and avoid sales conversations entirely.

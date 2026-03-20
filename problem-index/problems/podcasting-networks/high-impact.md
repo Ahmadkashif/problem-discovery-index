@@ -3,7 +3,7 @@
 **Industry:** [[podcasting-networks|Podcasting Networks]]
 **Type:** High Impact
 **One-liner:** Networks can greenlight, restructure, or kill shows after episode 1 instead of wasting 10-20 episodes discovering a show bleeds listeners.
-**Tags:** #lstm #gradient-boosting #regression #tabular-ml #nlp #revenue-impact #tacit-knowledge-ml
+**Tags:** #lstms-and-grus #gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #backpropagation #loss-functions #word-embeddings #cross-validation #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Podcast networks invest $5K-$50K in new show development — hiring hosts, producing trailers, recording pilot batches — before they have any signal on whether the audience will stick. The industry's episode 1-to-episode 3 retention rate averages roughly 30-40%, meaning the majority of new shows hemorrhage listeners immediately. Experienced producers can listen to a pilot and predict retention with surprising accuracy, reading host chemistry, pacing inconsistencies, topic drift, and production-quality cues that correlate with listener drop-off. But this tacit judgment lives in a handful of senior producers and does not scale across the 20-50 pilots a mid-size network evaluates per quarter.

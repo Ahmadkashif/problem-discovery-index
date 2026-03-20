@@ -3,7 +3,7 @@
 **Industry:** [[personal-injury-law|Personal Injury Law Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic accounts payable and legal billing tools track invoices but have no logic for the specific lien resolution process in PI cases — Medicare, Medicaid, ERISA, and health insurer liens each have their own statutory processes, reduction formulas, and mandatory resolution sequences before settlement proceeds can be disbursed.
-**Tags:** #automation #tabular-ml #data-integration #compliance
+**Tags:** #decision-trees #feature-engineering #arithmetic-and-basic-algebra #automation #data-integration #compliance
 
 ## The Problem
 When a PI case settles, the settlement proceeds cannot be disbursed to the client until all medical liens are resolved. Medical liens arise from Medicare (the Medicare Secondary Payer Act requires reimbursement of Medicare payments related to the injury), Medicaid (state-specific lien rights), ERISA health insurance plans (subrogation rights), and Letters of Protection (LOPs — medical providers who treated the client on credit in exchange for a lien on settlement proceeds). Each lien type has different legal requirements: Medicare liens must be confirmed with CMS (Centers for Medicare & Medicaid Services) and formally resolved; Medicaid liens have state-specific reduction formulas; ERISA lien reduction is governed by the common fund doctrine; LOP amounts must be negotiated with each provider. Managing this across a 200-case active docket is an administrative nightmare with both legal exposure (distributed before all liens are resolved) and financial opportunity (negotiating lien reductions that increase client net recovery).

@@ -3,7 +3,7 @@
 **Industry:** [[event-planning|Event Planning]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** CRM tools can track vendor contacts, but they can't match the right vendors to each event's specific style, budget, and requirements — nor manage the 200+ email threads that keep 15 vendors synchronized.
-**Tags:** #gradient-boosting #recommendation #tabular-ml #workflow-orchestration
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance #workflow-orchestration
 
 ## The Problem
 Each event requires 10-30 vendors who must work together seamlessly on a single day. Matching the right vendors to each event involves style compatibility (a modern minimalist florist for a modern minimalist wedding), budget alignment, availability, reliability history, and interpersonal chemistry between vendor teams. A planner's vendor network is their most valuable asset — knowing that Photographer A and DJ B work well together, but Caterer C's setup always runs late. Coordinating these vendors involves hundreds of emails, countless phone calls, and a timeline that everyone must follow precisely.

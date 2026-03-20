@@ -3,7 +3,7 @@
 **Industry:** [[physical-therapy|Physical Therapy]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Home exercise apps exist by the hundreds, but none close the loop between what the PT prescribes, what the patient actually does at home, and how that adherence connects to clinical progress in the EMR.
-**Tags:** #worker-facing #data-integration #ml-time-series
+**Tags:** #time-series-forecasting #linear-regression #evaluation-metrics #descriptive-statistics #worker-facing #data-integration
 
 ## The Problem
 Physical therapists prescribe home exercise programs (HEPs) at every visit — typically 4-8 exercises with specific sets, reps, and frequency. Patient adherence is estimated at 30-50%, but PTs have no reliable data on actual compliance. At the next visit, the PT asks "did you do your exercises?" and the patient says "mostly" — and the PT adjusts the treatment plan based on this unreliable self-report. Poor HEP adherence is the #1 reason patients plateau, and PTs can't differentiate between "the program isn't working" and "the patient isn't doing the program."

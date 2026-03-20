@@ -3,7 +3,7 @@
 **Industry:** [[wealth-management-rias|Wealth Management RIAs]]
 **Type:** Worker Life Changing
 **One-liner:** Operations staff stop spending 4-6 hours daily navigating clunky custodian web portals to execute routine account maintenance that could be automated.
-**Tags:** #llm #automation #nlp #worker-facing
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #automation #worker-facing
 
 ## The Problem
 RIA operations staff interact daily with custodian platforms — Schwab Advisor Services, Fidelity Institutional, Pershing — to process money movements, open new accounts, submit transfer paperwork (ACATs), execute tax-loss harvesting trades, update beneficiary designations, and handle RMD distributions. Each custodian has a different interface, different form requirements, different processing timelines, and different error codes. A single account opening at Schwab requires navigating 8-12 screens and uploading 3-5 documents. Operations staff at a mid-size RIA process 15-30 of these transactions daily, spending 4-6 hours inside custodian portals.

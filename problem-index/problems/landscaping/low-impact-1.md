@@ -3,7 +3,7 @@
 **Industry:** [[landscaping|Landscaping]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic route optimization tools (Google Maps, routific) solve the traveling salesman problem for stop sequences but don't understand lawn care-specific constraints: crew productivity by property size, gate access requirements, scheduled vs. on-demand stops, mowing day restrictions by HOA rule, and the crew truck's equipment configuration affecting which properties it can service.
-**Tags:** #automation #tabular-ml #workflow-orchestration #revenue-impact
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #evaluation-metrics #optimization-fundamentals #automation #workflow-orchestration #revenue-impact
 
 ## The Problem
 

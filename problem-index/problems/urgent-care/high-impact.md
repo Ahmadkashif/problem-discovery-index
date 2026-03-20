@@ -3,7 +3,7 @@
 **Industry:** [[urgent-care|Urgent Care Centers]]
 **Type:** High Impact
 **One-liner:** An urgent care center that can predict patient volume 72 hours out with 85%+ accuracy can staff to demand — eliminating the $400-800/hr revenue loss from understaffing surges and the 20-30% labor waste from overstaffed slow periods.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #expectation-variance-covariance #revenue-impact
 
 ## The Problem
 Urgent care revenue is almost entirely a function of patient throughput, and patient throughput is almost entirely a function of staffing — but staffing decisions are made days in advance based on intuition and last year's schedule. A center that routinely sees 55 patients on Monday mornings but is staffed for 35 turns away patients, creates 90-minute wait times, receives poor reviews, and loses the incremental revenue permanently. Conversely, overstaffing a slow Tuesday afternoon by two clinicians costs $400-800 in unproductive labor. The volatility is predictable — school calendars, flu season, local events, weather, and regional disease surveillance data all carry signal — but no urgent care center is systematically modeling it.

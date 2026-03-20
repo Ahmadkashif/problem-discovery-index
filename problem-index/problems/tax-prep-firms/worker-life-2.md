@@ -3,7 +3,7 @@
 **Industry:** [[tax-prep-firms|Tax Prep Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Preparers and admin staff stop answering the same "where's my return?" question 40-60 times per day so they can focus on the work that actually requires their expertise.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #word-embeddings #transfer-learning #evaluation-metrics #worker-facing #automation
 
 ## The Problem
 From February through April, the front desk and every preparer's phone/email become flooded with client inquiries that follow a predictable pattern: "Did you receive my documents?", "When will my return be ready?", "Has it been filed yet?", "Where's my refund?" A mid-size firm (1,000-2,000 returns) fields 40-60 of these calls and emails per day during peak weeks. Each interaction takes 3-5 minutes — checking the client's status in the system, composing a response, and managing the client's anxiety. Admin coordinators spend 3-4 hours daily on status communications alone, and preparers lose an additional 30-60 minutes of focused prep time to interruptions.

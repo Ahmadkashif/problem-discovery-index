@@ -3,7 +3,7 @@
 **Industry:** [[data-analytics-consultants|Data Analytics Consultants]]
 **Type:** High Impact
 **One-liner:** Analysts stop spending 60-80% of every engagement manually profiling, cleaning, and debugging client data — an automated system flags quality issues, broken joins, and schema anomalies within minutes of connecting to a new dataset.
-**Tags:** #isolation-forest #gradient-boosting #anomaly-detection #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #feature-engineering #evaluation-metrics #cross-validation #descriptive-statistics #probability-distributions #bias-variance-tradeoff #hypothesis-testing #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 When a data analytics consultant connects to a new client's data warehouse, the first days or weeks are consumed by data profiling: checking column distributions, identifying null patterns, discovering implicit business logic encoded in column names or values, tracing join keys across tables that were never formally documented, and catching silent data quality failures like truncated timestamps, mixed-unit columns, or zombie rows from deprecated ETL pipelines. This work is invisible to the client — it does not appear in the deliverable — yet it accounts for the majority of billable hours. An experienced analyst can glance at a table schema, sample a few hundred rows, and instinctively know which columns will cause problems, which joins will produce fan-outs, and where the data quality landmines are buried. A junior analyst performing the same assessment takes three to five times longer and still misses issues the senior would catch in the first pass.

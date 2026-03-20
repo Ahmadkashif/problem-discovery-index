@@ -3,7 +3,7 @@
 **Industry:** [[podcasting-networks|Podcasting Networks]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Networks cross-promote shows blindly, wasting promo slots on audiences that already subscribe to both shows instead of targeting listeners most likely to convert.
-**Tags:** #gradient-boosting #recommendation #tabular-ml
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #logistic-regression #probability-distributions #bias-variance-tradeoff
 
 ## The Problem
 Podcast networks routinely insert cross-promo ads — "If you like this show, check out our other show" — across their catalog. The selection of which shows to cross-promote is driven by producer intuition or simple category matching, not by actual audience overlap data. A network with 30 shows has 870 possible pairwise cross-promo combinations; choosing the right ones determines whether promo slots drive incremental subscribers or waste inventory on listeners who already follow both shows.

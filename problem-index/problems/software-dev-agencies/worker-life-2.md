@@ -3,7 +3,7 @@
 **Industry:** [[software-dev-agencies|Software Development Agencies]]
 **Type:** Worker Life Changing
 **One-liner:** Project managers stop spending Friday afternoons manually assembling status updates for 5-10 clients and get that time back for actual project leadership.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #worker-facing #automation
 
 ## The Problem
 Agency PMs manage 5-10 concurrent client projects and each client expects a weekly status update — different formats, different levels of detail, different stakeholder audiences. A PM spends 3-5 hours every week pulling data from Jira, cross-referencing Slack conversations, checking GitHub for merge activity, reviewing time logs, and writing personalized status emails or slide decks. The work is pure synthesis: the information already exists across 6 tools, but no single view assembles it. PMs resort to copy-pasting from dashboards and manually translating developer-speak ("merged the auth refactor PR") into client-speak ("user login system upgrade completed").

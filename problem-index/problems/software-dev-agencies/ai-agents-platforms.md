@@ -5,7 +5,7 @@
 ---
 
 ## 1. Scoping & Estimation Agent
-#ai-agent #nlp #revenue-impact #tacit-knowledge-ml
+#ai-agent #large-language-models #transformers #gradient-boosting #feature-engineering #transfer-learning #tacit-knowledge-ml #revenue-impact
 
 **Concept:** An autonomous agent that ingests a client brief (SOW, RFP, email thread, or even a recorded discovery call transcript) and produces a structured scope breakdown with effort estimates, risk flags, and suggested questions to ask the client before committing. The agent decomposes vague requirements into concrete technical tasks, identifies undefined integrations and missing specifications, flags "simple" features that historically correlate with overruns (e.g., "custom reporting dashboard" or "real-time notifications"), and generates a range estimate (optimistic/likely/pessimistic) calibrated to the agency's historical accuracy on similar projects. It does not replace the estimation meeting — it prepares a first draft that the team reacts to instead of building from scratch.
 **Inputs:** Client brief documents (PDF, DOCX, Google Docs), discovery call transcripts (audio or text), agency's historical project data (past estimates vs. actuals), tech stack preferences, team capacity data.
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Automated Status Report Agent
-#ai-agent #llm #text-generation #automation #worker-facing
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #automation #worker-facing
 
 **Concept:** An agent that runs on a weekly cadence (or on-demand), pulling data from every tool in the agency's stack — Jira/Linear for task progress, GitHub/GitLab for code activity, Slack for key decisions and blockers, time tracking for budget burn, and calendar for meeting outcomes — and produces a client-ready status report per project. The agent adapts its output format and language to each client's preferences: some want a bullet-point email, others want a Notion page with screenshots, others want a 3-slide deck. It detects and highlights blockers, surfaces risks (budget burn rate exceeding plan, velocity declining), and proposes talking points for the next client call. The PM reviews and sends in 5 minutes instead of writing from scratch in 30.
 **Inputs:** API connections to Jira/Linear, GitHub/GitLab, Slack (specific channels per project), Harvest/Toggl/Clockify, Google Calendar. Client communication preferences (format, detail level, audience). Historical status reports for tone and style matching.
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Codebase Health & Handoff Agent
-#ai-agent #ai-platform #automation
+#ai-agent #ai-platform #large-language-models #gradient-boosting #feature-engineering #automation
 
 **Concept:** An agent that continuously monitors the agency's active project codebases and produces automated, client-readable health assessments. Unlike static analysis tools that output developer metrics, this agent translates code quality data into business language: "The authentication module has accumulated technical debt that will add ~40 hours to any future feature touching user login. Recommended remediation: 20 hours now vs. 60+ hours of compounding cost over the next 6 months." At project handoff, it generates a comprehensive transition document including architecture diagrams (auto-generated from code), dependency maps, risk areas, and a prioritized maintenance roadmap with cost estimates. During active development, it flags when tech debt is accumulating faster than the team is paying it down.
 **Inputs:** GitHub/GitLab repository access (code, PRs, commit history, CI/CD results). SonarQube/CodeClimate API data where available. Project context: original SOW scope, deadline pressure periods, team composition changes. Agency's standard architecture patterns and coding conventions.

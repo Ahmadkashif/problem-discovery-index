@@ -3,7 +3,7 @@
 **Industry:** [[public-adjusters|Public Adjusters]]
 **Type:** High Impact
 **One-liner:** Public adjusters stop leaving 30-50% of legitimate claim value on the table because AI-assisted inspection checklists and hidden damage prediction ensure every documentable loss is captured in the estimate — not just the damage the adjuster happened to notice during a 2-hour walk-through.
-**Tags:** #cnn #gradient-boosting #regression #computer-vision #tabular-ml #revenue-impact
+**Tags:** #cnns #gradient-boosting #transfer-learning #object-detection #feature-engineering #evaluation-metrics #loss-functions #backpropagation #gradient-descent #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 A public adjuster's primary value is documenting damage that the insurance carrier's adjuster missed, overlooked, or chose not to include. The difference between a $50,000 carrier estimate and a $120,000 public adjuster estimate is almost entirely documentation thoroughness — the public adjuster documents hidden water damage behind walls (visible only as slight discoloration at baseboards), secondary smoke damage in HVAC ductwork (not visible without opening vents), wind-driven rain damage to insulation in the attic (requiring ladder access), code-upgrade requirements triggered by the scope of repair, and matching/continuity requirements (if 30% of a roof is damaged, the entire roof may need replacement to match).

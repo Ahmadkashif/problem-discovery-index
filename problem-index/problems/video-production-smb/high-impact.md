@@ -3,7 +3,7 @@
 **Industry:** [[video-production-smb|SMB Video Production]]
 **Type:** High Impact
 **One-liner:** Producers stop losing 15-30% of project margin to scope creep because every engagement starts with a data-driven budget that accounts for real revision patterns, shoot complexity, and client behavior.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #bias-variance-tradeoff #probability-distributions #confidence-intervals #revenue-impact
 
 ## The Problem
 SMB video production companies price projects using gut feel and rough comparables. A producer estimates a corporate brand video at $12K based on "a similar one we did last year," but doesn't account for the fact that this client's legal team will require 4 additional review rounds, the location has poor acoustics requiring ADR, or the requested 3 deliverable formats will triple the export/QC time. Scope creep is the single largest margin killer — shops routinely absorb 20-40 hours of unbilled post-production work per project because the original estimate didn't model the real cost drivers.

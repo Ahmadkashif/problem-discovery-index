@@ -5,7 +5,7 @@
 ---
 
 ## 1. Technical Screening Agent
-#ai-agent #nlp #tacit-knowledge-ml #revenue-impact
+#ai-agent #bert #transformers #gradient-boosting #feature-engineering #transfer-learning #evaluation-metrics #tacit-knowledge-ml #revenue-impact
 
 **Concept:** An autonomous agent that performs first-pass technical screening of every inbound candidate. It ingests the candidate's resume, scrapes their public GitHub and Stack Overflow profiles, cross-references claimed skills against actual evidence (commit history, code complexity, answer quality), and produces a structured screening report with per-skill authenticity scores, red flags, and a recommended interview track. The agent can conduct an asynchronous technical pre-screen via chat — asking the candidate targeted questions about their claimed projects to assess depth of understanding before a human recruiter engages.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Rate Intelligence Agent
-#ai-agent #tabular-ml #time-series-forecasting #revenue-impact
+#ai-agent #gradient-boosting #time-series-forecasting #feature-engineering #evaluation-metrics #confidence-intervals #revenue-impact
 
 **Concept:** A continuously running agent that monitors the IT labor market in real time and provides on-demand rate recommendations for any technology-seniority-geography combination. It ingests job posting data from major boards, tracks placement outcomes across the firm's history, monitors competitor pricing signals, and produces rate cards that update weekly rather than quarterly. When an account manager enters a new opportunity, the agent returns a recommended bill rate, contractor pay rate, expected margin, predicted time-to-fill, and a confidence interval — along with a brief narrative explaining the key market factors driving the recommendation.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Contract Lifecycle Management Agent
-#ai-agent #ai-platform #workflow-orchestration #data-integration #worker-facing
+#ai-agent #ai-platform #large-language-models #gradient-boosting #feature-engineering #workflow-orchestration #data-integration #worker-facing
 
 **Concept:** An end-to-end agent that manages the full lifecycle of every contractor placement — from signed contract through onboarding, ongoing engagement monitoring, renewal/extension, and offboarding. It auto-generates client-specific onboarding guides by synthesizing past placement notes and client documentation, monitors engagement health through email and timesheet signals, predicts renewal likelihood 60 days before contract end, drafts extension proposals with updated rate recommendations, and coordinates offboarding logistics. Account managers interact with it via a daily briefing (email or Slack) that prioritizes which contracts need attention today.
 

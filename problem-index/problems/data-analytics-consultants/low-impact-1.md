@@ -3,7 +3,7 @@
 **Industry:** [[data-analytics-consultants|Data Analytics Consultants]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Dashboard creation tools exist for every BI platform, but none can take a consultant's analytical intent and a client's specific schema and auto-generate a working, styled, filterable dashboard without hours of manual widget configuration.
-**Tags:** #llm #text-generation #nlp #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #automation
 
 ## The Problem
 Analytics consultants build dashboards for every engagement — executive KPI views, operational monitoring panels, ad-hoc exploration interfaces. Each dashboard requires mapping the client's specific column names to visual components, configuring filters and drill-downs for the client's organizational hierarchy, applying the client's branding, and wiring up cross-filtering logic between charts. A consultant who built a nearly identical churn analysis dashboard for three SaaS clients last quarter still starts from scratch each time because the underlying schemas, naming conventions, and BI platform versions differ just enough to prevent direct reuse.

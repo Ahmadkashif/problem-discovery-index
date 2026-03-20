@@ -3,7 +3,7 @@
 **Industry:** [[auto-dealers-independent|Independent Auto Dealers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Listing tools syndicate inventory to marketplaces but don't optimize photos, descriptions, or pricing per platform — leaving thousands in lead volume on the table.
-**Tags:** #cnn #bert #text-generation #nlp #computer-vision #automation
+**Tags:** #cnns #bert #large-language-models #transformers #transfer-learning #word-embeddings #loss-functions #evaluation-metrics #automation
 
 ## The Problem
 An independent dealer with 100 cars on the lot needs each one listed on 4-8 platforms (Cars.com, Autotrader, CarGurus, Facebook Marketplace, Craigslist, dealer website, TrueCar). Each platform has different optimal photo counts (CarGurus rewards 30+ photos; Craigslist caps at 24), different description formats (Facebook favors short punchy copy; Autotrader rewards detailed feature lists), and different pricing display strategies (CarGurus grades you as "Great Deal" or "Overpriced" based on their proprietary algorithm). Dealers either post identical content everywhere — suboptimal for every platform — or spend 20-30 minutes per car hand-tailoring each listing, which at 15-20 new units per week is a half-time job.

@@ -5,7 +5,7 @@
 ---
 
 ## 1. Grant Report Agent
-#ai-agent #llm #text-generation #nlp #compliance
+#ai-agent #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #entropy-cross-entropy-kl-divergence #compliance
 
 **Concept:** An autonomous agent that monitors grant reporting deadlines, pulls outcome data from connected case management systems (Apricot, ETO, Salesforce NPSP), generates funder-specific narrative reports with correct metrics and formatting, and stages them for human review 7 days before the submission deadline. The agent maintains a funder template library that learns each funder's preferred language, metric definitions, and narrative structure from previously approved reports. It handles the common multi-funder attribution problem by tracking which clients and outcomes are reportable under each grant's scope and preventing double-counting.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Case Management Co-Pilot Agent
-#ai-agent #llm #nlp #tacit-knowledge-ml #worker-facing
+#ai-agent #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #tacit-knowledge-ml #worker-facing
 
 **Concept:** A mobile-first AI agent that rides alongside case managers throughout their day — transcribing client conversations (with consent) into structured progress notes, flagging when standardized assessments are due, surfacing relevant community resources based on the client's current needs, and alerting supervisors when a client's trajectory suggests escalating risk (housing loss, relapse, safety concern). The agent learns from the organization's senior case managers to develop the tacit pattern recognition that takes years to build — recognizing when a client's language patterns suggest undisclosed domestic violence, when missed appointments signal substance use relapse, or when a housing situation is more precarious than the client reports.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Donor Engagement Intelligence Platform
-#ai-platform #gradient-boosting #survival-analysis #tabular-ml #revenue-impact
+#ai-platform #gradient-boosting #survival-analysis #decision-trees #feature-engineering #evaluation-metrics #maximum-likelihood-estimation #probability-distributions #revenue-impact
 
 **Concept:** A donor relationship platform that goes beyond traditional CRM record-keeping to actively model each donor's engagement trajectory, predict lapse risk, recommend optimal outreach timing and channel, and generate personalized stewardship communications. The platform ingests giving data, email engagement, event attendance, and communication logs to build a dynamic relationship health score for each donor. It replaces the development director's mental model of "who needs attention" with a data-driven cultivation queue that balances revenue maximization against donor fatigue risk.
 

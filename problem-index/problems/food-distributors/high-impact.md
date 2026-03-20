@@ -3,7 +3,7 @@
 **Industry:** [[food-distributors|Food Distributors]]
 **Type:** High Impact
 **One-liner:** Distributors stop throwing away 2-5% of revenue in spoiled perishables because purchase quantities finally match actual demand at the SKU-customer-day level.
-**Tags:** #gradient-boosting #lstm #time-series-forecasting #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #lstms-and-grus #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #probability-distributions #revenue-impact
 
 ## The Problem
 A mid-size food distributor carrying 5,000 perishable SKUs must decide daily how much of each product to purchase from suppliers, knowing that over-buying creates spoilage write-offs and under-buying creates stockouts that push customers to competitors. Current forecasting relies on buyer intuition and trailing 4-week averages inside the ERP, which cannot account for weather shifts (a heat wave doubles beverage demand), local event calendars (a stadium concert spikes bar supply orders), menu cycle changes at institutional accounts (schools rotating to a new monthly menu), or complex substitution patterns (when Roma tomatoes stock out, 40% of customers accept grape tomatoes but 60% cancel the line). Spoilage waste runs $7M-$17M annually for a $350M distributor, and stockout-driven customer defection compounds the loss over time.

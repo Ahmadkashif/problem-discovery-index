@@ -3,7 +3,7 @@
 **Industry:** [[utility-contractors|Utility Contractors]]
 **Type:** High Impact
 **One-liner:** Experienced utility locators who interpret GPR (ground-penetrating radar) B-scan imagery to identify buried utility depth and routing — reading hyperbolic reflection patterns that take years of training to interpret correctly — get an ML model that identifies utilities in GPR scans and returns depth and routing estimates, reducing utility strikes during excavation.
-**Tags:** #cnn #object-detection #regression #signal-processing #tacit-knowledge-ml #revenue-impact
+**Tags:** #cnns #object-detection #linear-regression #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 

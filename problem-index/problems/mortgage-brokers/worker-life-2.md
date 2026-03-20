@@ -3,7 +3,7 @@
 **Industry:** [[mortgage-brokers|Mortgage Brokers]]
 **Type:** Worker Life Changing
 **One-liner:** Compliance officers stop re-reading every disclosure packet line-by-line and start reviewing only the exceptions that actually matter.
-**Tags:** #llm #text-generation #nlp #worker-facing #compliance
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #worker-facing #compliance
 
 ## The Problem
 Every residential mortgage must comply with TILA-RESPA Integrated Disclosure (TRID) rules, which mandate specific timelines, fee tolerances, and disclosure formats. A broker's compliance officer (or the loan officer wearing that hat) manually reviews each Loan Estimate and Closing Disclosure for fee tolerance violations, timing errors, changed circumstance documentation, and proper disclosure of broker compensation. A single TRID violation can result in $5,000-50,000 in fines per occurrence and trigger a full CFPB audit. Compliance review adds 30-60 minutes per file, and in a brokerage closing 50-100 loans per month, that's a full-time job of pure checking work.

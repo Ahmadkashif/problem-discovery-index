@@ -3,7 +3,7 @@
 **Industry:** [[engineering-consultants|Engineering Consultants]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Proposal tools built for sales teams cannot assemble SF330 forms, project experience matrices, or discipline-specific resumes that engineering RFPs demand.
-**Tags:** #llm #text-generation #nlp #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #evaluation-metrics #automation
 
 ## The Problem
 Engineering firms pursue 50-200 RFPs per year, and each response requires assembling project descriptions from past work, formatting staff resumes with PE licensure and relevant project lists, building organization charts with discipline leads, and writing technical approach narratives tailored to the specific scope. For federal work, the SF330 form (Architect-Engineer Qualifications) has rigid section requirements that must be followed exactly. A typical RFP response takes 40-80 person-hours, with marketing coordinators and principals spending nights and weekends before deadlines reconstructing information that exists somewhere across old proposals, project files, and staff records.

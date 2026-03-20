@@ -3,7 +3,7 @@
 **Industry:** [[independent-publishers|Independent Publishers]]
 **Type:** Worker Life Changing
 **One-liner:** Acquisitions editors reclaim evenings and weekends currently spent reading manuscripts they will reject within 60 seconds of opening, replaced by a pre-screened queue of submissions that actually warrant deep attention.
-**Tags:** #bert #text-classification #nlp #worker-facing #automation
+**Tags:** #bert #transfer-learning #attention-mechanisms #word-embeddings #evaluation-metrics #entropy-cross-entropy-kl-divergence #loss-functions #gradient-descent #worker-facing #automation
 
 ## The Problem
 At a typical independent press, acquisitions editors personally read 100-400 unsolicited submissions per month on top of agented proposals, developmental editing on acquired titles, and catalog planning. The vast majority of slush-pile manuscripts are immediately identifiable as non-viable (wrong genre for the press, poor prose quality, no market positioning), but each still requires opening, sampling, and composing a form rejection. Editors routinely spend 10-15 hours per week on this triage work, pushing it into evenings and weekends because daytime hours are consumed by meetings, editing, and author communication.

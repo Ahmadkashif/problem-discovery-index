@@ -3,7 +3,7 @@
 **Industry:** [[independent-insurance-agents|Independent Insurance Agents]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Account managers discover problematic renewals reactively when carrier notices arrive instead of proactively flagging accounts that need re-marketing 120+ days out.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 Independent agencies manage hundreds to thousands of policies across dozens of carriers, each with different renewal timelines. Account managers currently rely on AMS renewal reports — a flat list of policies expiring in the next 60-90 days — to identify which accounts need attention. But this list treats every renewal equally: a loyal client with flat rates gets the same flag as an account where the carrier has been increasing rates 15% annually and is likely to non-renew. By the time the renewal notice arrives with a 25% rate increase or non-renewal, there are only 45-60 days to re-market — not enough time for complex commercial accounts that require multiple submissions and underwriting reviews.

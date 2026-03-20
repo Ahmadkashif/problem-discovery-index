@@ -3,7 +3,7 @@
 **Industry:** [[insurance-tpa|Insurance Third-Party Administrators (TPAs)]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Business intelligence tools can build dashboards, but they can't automatically generate the 15-30 custom report formats that different carrier and employer clients demand monthly — each with unique KPIs, SLA definitions, and presentation formats — from claims data that lives in three different legacy systems.
-**Tags:** #gradient-boosting #regression #tabular-ml #compliance
+**Tags:** #gradient-boosting #feature-engineering #evaluation-metrics #linear-regression #descriptive-statistics #expectation-variance-covariance #data-integration #compliance
 
 ## The Problem
 TPAs serve 20-100+ carrier and employer clients simultaneously, and each client requires monthly (sometimes weekly) performance reports in their own format. Client A wants a PDF with claims-per-status breakdowns, average cycle time by claim type, and reserve accuracy. Client B wants an Excel workbook with paid-vs-incurred loss ratios, provider utilization, and a red-yellow-green SLA scorecard. Client C wants a PowerPoint deck with trend charts and narrative commentary. These reports are produced manually by account managers and analysts who export data from the claims system, manipulate it in Excel, format it to the client's template, write narrative commentary, and send it for review. A single account manager may spend 40-60 hours per month on client reporting — often the last week of every month is consumed entirely by report production.

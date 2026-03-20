@@ -3,7 +3,7 @@
 **Industry:** [[data-analytics-consultants|Data Analytics Consultants]]
 **Type:** Worker Life Changing
 **One-liner:** Analysts reclaim the hours lost to cryptic error messages, silent data type mismatches, and the slow grind of debugging queries against undocumented schemas they did not build.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #worker-facing
 
 ## The Problem
 An analytics consultant's daily reality involves writing SQL and Python against data warehouses they have never seen before, with schemas designed by engineers who are no longer at the client company, containing implicit business logic no one documented. A query that should take 20 minutes to write takes 3 hours because: a join on `customer_id` silently fans out due to a many-to-many relationship table the analyst did not know existed; a date filter fails because timestamps are stored as strings in mixed formats across partitions; a GROUP BY produces nonsensical results because a column labeled `region` actually contains a concatenation of region and sub-region codes. Each debugging cycle involves sampling rows, checking types, reading error messages that reference internal warehouse engine states, and slowly building a mental model of the data's actual structure versus its apparent structure. This is the most draining, least rewarding part of the job.

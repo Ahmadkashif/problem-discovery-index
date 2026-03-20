@@ -3,7 +3,7 @@
 **Industry:** [[tax-prep-firms|Tax Prep Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Reviewers get their evenings and weekends back during tax season instead of grinding through 15-25 returns per day looking for errors they can barely see by hour ten.
-**Tags:** #gradient-boosting #ranking #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #probability-distributions #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 In most tax prep firms, every return prepared by a staff preparer must be reviewed by a senior preparer, EA, or CPA before filing. During peak season (February through April 15), reviewers face queues of 15-25 returns per day, each requiring 20-40 minutes of careful examination — checking that source documents match entered values, deductions are properly categorized, credits are correctly claimed, and the return is internally consistent. By mid-afternoon, reviewer fatigue sets in: eyes glaze over schedules, and the mental model of "what looks wrong" degrades. Reviewers routinely work 60-70 hour weeks during this period, with Saturday being a full workday and Sunday a half-day.

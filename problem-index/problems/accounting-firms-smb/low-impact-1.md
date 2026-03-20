@@ -3,7 +3,7 @@
 **Industry:** [[accounting-firms-smb|SMB Accounting Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Firms can finally benchmark clients against industry peers and deliver advisory insights without spending hours manually mapping each client's idiosyncratic chart of accounts.
-**Tags:** #bert #text-classification #nlp #data-integration
+**Tags:** #bert #transformers #word-embeddings #transfer-learning #attention-mechanisms #evaluation-metrics #feature-engineering #data-integration
 
 ## The Problem
 Every SMB client sets up their QuickBooks or Xero chart of accounts differently. One restaurant client categorizes "paper goods" under "Supplies," another under "Cost of Goods Sold — Other," a third under a custom account called "Disposables." When a firm manages 200 clients across 15 industries, there is no consistent way to compare gross margins, expense ratios, or cash flow patterns across similar businesses. Partners who want to offer advisory services — "your food cost is 4 points above the median for fast-casual restaurants in your revenue band" — must first spend 2-4 hours per client manually mapping accounts to a standardized framework, and the mapping breaks every time the client adds a new account.

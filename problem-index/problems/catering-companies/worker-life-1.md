@@ -3,7 +3,7 @@
 **Industry:** [[catering-companies|Catering Companies]]
 **Type:** Worker Life Changing
 **One-liner:** Event coordinators stop being human shock absorbers for client changes that cascade through procurement, prep, staffing, and delivery with no system to trace the blast radius.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #worker-facing
 
 ## The Problem
 Event coordinators at catering companies live in a state of perpetual change management. A client texts at 4 PM on Thursday that the Friday rehearsal dinner guest count jumped from 65 to 90. Another emails at 9 AM that three tables need to be vegan instead of the standard menu. A venue calls to say the loading dock is unavailable and setup must use the front entrance, adding 30 minutes to load-in. Each change triggers a cascade: guest count changes affect food quantities, staffing levels, rental orders, and delivery vehicle capacity. Menu swaps affect procurement (is the ingredient available from the supplier by tomorrow?), prep schedules, and allergen matrices. Venue changes affect setup timelines, equipment selections, and crew call times. The coordinator must manually trace each change through every affected system — calling the kitchen, texting the crew lead, emailing the rental company, updating the BEO, revising the invoice — while fielding the next change from a different event. During peak season, a coordinator may be managing 8-12 active events simultaneously, each with its own change stream.

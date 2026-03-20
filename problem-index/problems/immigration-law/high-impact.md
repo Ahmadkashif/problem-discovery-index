@@ -3,7 +3,7 @@
 **Industry:** [[immigration-law|Immigration Law Firms]]
 **Type:** High Impact
 **One-liner:** Immigration attorneys who currently spend 8-20 hours assembling RFE responses — pulling policy memos, drafting legal arguments, gathering supporting documents — cut that to 2 hours of review and refinement, processing twice as many RFEs with the same team without sacrificing quality.
-**Tags:** #llm #text-generation #named-entity-recognition #nlp #tacit-knowledge-ml #revenue-impact
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #bert #evaluation-metrics #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 A Request for Evidence is USCIS notifying the petitioner that their application is deficient — the agency needs additional documentation or legal argument before it can approve. RFEs arrive with a strict response deadline (typically 87 days) and require a substantive response that addresses every point raised. The response must cite USCIS policy memos, AAO decisions, and case law; present supporting evidence (employer letters, expert opinions, expert witness declarations for specialized skills claims); and make a legal argument for why the petitioner meets the relevant standard. An experienced immigration attorney can write a persuasive RFE response, but it takes hours of research and drafting — work that must be redone largely from scratch for each unique RFE even when the legal arguments are structurally similar.

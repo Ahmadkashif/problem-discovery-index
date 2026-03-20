@@ -3,7 +3,7 @@
 **Industry:** [[medical-billing|Medical Billing]]
 **Type:** High Impact
 **One-liner:** Claims are flagged and fixed before submission — not after denial — turning medical billing from a reactive rework business into a proactive clean-claim operation.
-**Tags:** #ml-classification #revenue-impact #ai-agent
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #entropy-cross-entropy-kl-divergence #revenue-impact #ai-agent
 
 ## The Problem
 The average medical billing company submits thousands of claims per week and sees 5-10% denied on first pass. Each denial requires a biller to investigate the reason (wrong modifier, missing authorization, eligibility lapse, bundling edit, medical necessity), correct the claim, and resubmit — a process that takes 15-25 minutes per claim and often doesn't happen for weeks due to workload. Approximately 60% of denied claims are never reworked at all, representing pure revenue loss. The root causes are predictable: the same payer-specific rules, coding combinations, and documentation gaps cause the same denials week after week. But billers learn these patterns through painful experience rather than systematic analysis.

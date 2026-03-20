@@ -6,7 +6,7 @@
 ---
 
 ## 1. Lane Rate Prediction and Margin Optimization
-#gradient-boosting #regression #time-series-forecasting #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #time-series-forecasting #bias-variance-tradeoff #entropy-cross-entropy-kl-divergence #gradient-descent #revenue-impact
 
 **Problem statement:** Predict the optimal shipper quote and target carrier buy rate for each load to maximize expected margin while maintaining acceptable win rate.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Carrier Double-Broker Fraud Detection
-#isolation-forest #anomaly-detection #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #descriptive-statistics #probability-distributions
 
 **Problem statement:** Detect behavioral signals of double-brokering fraud and carrier service failure risk at booking time, before the load is dispatched.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Shipper Demand Forecasting by Lane
-#lstm #time-series-forecasting #gradient-boosting #tabular-ml #revenue-impact
+#lstms-and-grus #time-series-forecasting #gradient-boosting #autoregressive-models #feature-engineering #cross-validation #evaluation-metrics #backpropagation #revenue-impact
 
 **Problem statement:** Forecast per-shipper, per-lane weekly load volume 4-8 weeks ahead to enable proactive capacity pre-procurement before market tightening.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Carrier Capacity Matching for Lane Coverage
-#gradient-boosting #ranking #tabular-ml #quick-win
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #quick-win
 
 **Problem statement:** Rank carrier outreach candidates for a specific load by their predicted probability of accepting at the target buy rate, enabling the system to contact the most likely carriers first.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Late Shipment Early Warning
-#gradient-boosting #binary-classification #anomaly-detection #quick-win
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #time-series-forecasting #quick-win
 
 **Problem statement:** Predict which in-transit shipments are at risk of missing their delivery appointment before the driver's ETA becomes critical, enabling proactive shipper communication and contingency planning.
 

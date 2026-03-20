@@ -3,7 +3,7 @@
 **Industry:** [[owner-operator-trucking|Owner-Operator Trucking]]
 **Type:** High Impact
 **One-liner:** Every load an owner-operator accepts is a bet on net profit — experienced operators win that bet using pattern recognition they cannot articulate, and encoding that intuition into a model would close the income gap between veterans and newcomers.
-**Tags:** #gradient-boosting #regression #ranking #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #optimization-fundamentals #probability-distributions #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 An owner-operator scanning a load board sees a posted rate, origin, destination, and commodity type. What they don't see — but an experienced operator *feels* — is the true profitability of that load after deadhead miles to pickup, fuel cost along the specific route (elevation changes, speed limits, wind patterns), toll costs, detention risk at that particular shipper/receiver, the probability of finding a good outbound load at the destination market, and whether the lane is about to tighten or soften. A veteran operator with 15 years of experience processes all of this in seconds and rejects 90% of loads instantly. A new operator takes every load that meets their per-mile rate floor and ends up running 30% more miles for 40% less net income.

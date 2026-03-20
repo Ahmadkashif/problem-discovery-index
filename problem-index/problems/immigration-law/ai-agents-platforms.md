@@ -5,7 +5,7 @@
 ---
 
 ## 1. Immigration Case Intelligence Platform
-#ai-platform #nlp #revenue-impact
+#large-language-models #bert #gradient-boosting #transfer-learning #ai-platform #revenue-impact
 
 **Concept:** A purpose-built AI layer for immigration case management that sits on top of existing platforms (INSZoom, Docketwise) and adds: RFE prediction and drafting assistance, automated portal monitoring, document completeness checking, and case timeline prediction — the full intelligence stack that immigration practice needs but that incumbent CMS vendors haven't built.
 **Inputs:** Case management system data (case type, stage, dates, parties), USCIS/NVC/CEAC portal access for monitoring, document files (PDF, image), RFE documents when issued
@@ -16,7 +16,7 @@
 ---
 
 ## 2. RFE Response Drafting Agent
-#ai-agent #llm #nlp
+#large-language-models #transformers #attention-mechanisms #transfer-learning #ai-agent
 
 **Concept:** A specialized AI agent that processes an incoming RFE document, retrieves relevant USCIS policy memos, AAO decisions, and successful argument patterns from a curated immigration knowledge base, and generates a complete RFE response draft — organized by deficiency, with cited authority, evidence checklist, and argument structure — ready for attorney review and refinement within 30 minutes of RFE receipt.
 **Inputs:** RFE PDF (uploaded), original petition documents, case type and visa category, beneficiary and petitioner profiles from case management system
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Automated Client Communication and Case Status Agent
-#ai-agent #llm #automation
+#large-language-models #transformers #attention-mechanisms #ai-agent #automation
 
 **Concept:** An autonomous communication agent that manages all routine client-facing immigration updates — generating and sending weekly case status summaries, responding to common client questions (processing time, next steps, document status) via a client portal, and escalating novel issues to the responsible attorney or paralegal. Integrates with USCIS portal monitoring so that status changes trigger immediate client notification in plain language.
 **Inputs:** Case management system data feed, USCIS portal status monitoring, client communication history, client language preference (multilingual support is essential in immigration practice — clients speak 40+ languages)
@@ -38,7 +38,7 @@
 ---
 
 ## 4. Immigration Regulatory Change Monitoring and Impact Alert Agent
-#ai-agent #bert #nlp #compliance
+#bert #transfer-learning #evaluation-metrics #ai-agent #compliance
 
 **Concept:** An agent that monitors USCIS Policy Alerts, Federal Register immigration rulemaking, AAO published decisions, DOS cable releases, and AILA liaison meeting notes for regulatory and policy changes — classifies each change by visa category and procedural impact, and pushes targeted alerts to attorneys and paralegals managing affected case types, with a plain-language summary of what changed and what action is needed on pending cases.
 **Inputs:** USCIS.gov Policy Manual update feeds, Federal Register RSS, AAO decision releases, AILA member alerts, DOS Foreign Affairs Manual updates

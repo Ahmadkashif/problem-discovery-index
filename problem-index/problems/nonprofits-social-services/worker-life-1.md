@@ -3,7 +3,7 @@
 **Industry:** [[nonprofits-social-services|Social Services Nonprofits]]
 **Type:** Worker Life Changing
 **One-liner:** Case managers get 15-20 hours per week back for actual client work instead of typing progress notes, intake assessments, and referral forms that say the same things in slightly different ways.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing
 
 ## The Problem
 A typical case manager in a social services nonprofit carries 30-60 active clients and is required to document every interaction: intake assessments (45-90 minutes of structured questions), progress notes after each meeting or phone call, referral forms when connecting clients to partner agencies, safety plans for at-risk clients, and service plans that must be reviewed and updated every 30-90 days depending on the funder. Each documentation type has its own format — the county contract wants SOAP-style notes, the federal grant wants standardized assessment tools (VI-SPDAT, PHQ-9, AUDIT-C), and the organization's internal system wants a narrative summary. Case managers routinely stay 1-2 hours past their shift completing documentation, and many report that paperwork is the primary reason they leave the field within 2-3 years.

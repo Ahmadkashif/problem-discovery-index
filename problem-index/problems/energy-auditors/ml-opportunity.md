@@ -6,7 +6,7 @@
 ---
 
 ## 1. Energy Savings Prediction from Building Characteristics (Tacit Knowledge Calibration)
-#gradient-boosting #gaussian-process #regression #tabular-ml #tacit-knowledge-ml #revenue-impact
+#gradient-boosting #gaussian-processes #feature-engineering #cross-validation #evaluation-metrics #bayesian-inference #confidence-intervals #probability-distributions #bias-variance-tradeoff #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Experienced energy auditors mentally adjust modeled savings predictions based on building archetypes, construction vintages, and micro-climate patterns they have internalized over hundreds of audits — corrections that are never recorded and cannot be transferred to junior auditors or modeling software. The ML task is to learn these correction factors from historical audit-to-outcome data, producing calibrated savings estimates with uncertainty quantification.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Retrofit Measure Prioritization and Sequencing
-#gradient-boosting #ranking #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #optimization-fundamentals #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Given a building's current condition and a set of possible retrofit measures, determine the optimal order and combination of measures that maximizes energy savings per dollar spent, accounting for measure interactions (e.g., air sealing before insulation, right-sizing HVAC after envelope improvements).
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Utility Bill Disaggregation for Pre-Audit Screening
-#cnn #lstm #time-series-forecasting #signal-processing #data-integration
+#cnns #lstms-and-grus #time-series-forecasting #backpropagation #loss-functions #gradient-descent #activation-functions #feature-engineering #data-integration
 
 **Problem statement:** Before an auditor visits a building, disaggregate monthly or interval utility bill data into end-use categories (heating, cooling, baseload, water heating) to pre-screen buildings for the most promising retrofit opportunities and focus the auditor's field time on confirmed problem areas.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Audit Quality Scoring and Anomaly Detection
-#isolation-forest #gradient-boosting #anomaly-detection #tabular-ml #compliance
+#gradient-boosting #feature-engineering #evaluation-metrics #cross-validation #descriptive-statistics #probability-distributions #bias-variance-tradeoff #compliance
 
 **Problem statement:** Utility program administrators currently review 10-100% of submitted audits manually for quality control — checking for data consistency, reasonable values, and proper protocol adherence. An automated quality scoring system flags audits with likely errors or protocol deviations before they enter the review queue, focusing QA staff time on genuinely problematic submissions.
 

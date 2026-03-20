@@ -6,7 +6,7 @@
 ---
 
 ## 1. Prescription Drug-Seeking and Diversion Pattern Detection
-#gradient-boosting #binary-classification #tabular-ml #tacit-knowledge-ml #compliance
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #tacit-knowledge-ml #compliance
 
 **Problem statement:** Experienced pharmacists have internalized behavioral and prescription pattern recognition for drug-seeking behavior — specific controlled substance combinations, unusual fill timing, multi-prescriber patterns, cash-only payment, unusual geographic origin of prescriptions — that they use to make accept/refuse decisions. This tacit risk scoring can be formalized as a model that surfaces high-risk prescription presentations systematically, including patterns subtle enough to escape conscious notice.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. DIR Fee Exposure Prediction at Claim Level
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Predict the expected retroactive DIR fee for a new claim at point-of-sale, based on the PBM, plan type, drug class, patient adherence history, and current pharmacy performance metrics — enabling real-time margin calculation and cash-pay alternative counseling when DIR exposure makes a claim unprofitable.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Medication Adherence Dropout Survival Analysis
-#gradient-boosting #survival-analysis #tabular-ml
+#gradient-boosting #survival-analysis #feature-engineering #cross-validation #evaluation-metrics #probability-distributions
 
 **Problem statement:** For each chronic medication patient, predict the probability of missing the next refill (adherence gap) in the next 30/60/90 days — enabling proactive outreach to the highest-risk patients before the gap opens, rather than reactive calls after it already affects PDC scores.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Drug Interaction Clinical Significance Scoring
-#gradient-boosting #ranking #tabular-ml #compliance #worker-facing
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #compliance #worker-facing
 
 **Problem statement:** Re-rank the existing pharmacy DDI alert stream by clinical significance for this specific patient — suppressing low-risk theoretical interactions and elevating alerts where patient-specific risk factors (age, renal function, dose, novel combination) make the interaction genuinely actionable.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Pharmacy Revenue Mix Optimization — Cash Pay vs. Insurance
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #linear-regression #feature-engineering #evaluation-metrics #arithmetic-and-basic-algebra #revenue-impact
 
 **Problem statement:** For each prescription at fill, determine whether the cash pay price (via GoodRx, Mark Cuban Cost Plus, etc.) yields better net margin than the adjudicated insurance reimbursement after estimated DIR exposure — and surface this comparison to the pharmacist for patient counseling in real time.
 

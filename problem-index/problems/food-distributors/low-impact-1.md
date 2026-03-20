@@ -3,7 +3,7 @@
 **Industry:** [[food-distributors|Food Distributors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic route optimization treats every stop as identical cargo — food distributors need routing that understands multi-temperature compartments, product handling constraints, and dock-time variability.
-**Tags:** #reinforcement-learning #regression #tabular-ml #workflow-orchestration
+**Tags:** #markov-decision-processes #dynamic-programming #optimization-fundamentals #gradient-boosting #feature-engineering #evaluation-metrics #combinatorics-and-counting #workflow-orchestration
 
 ## The Problem
 A food distributor running 40-120 trucks daily must plan routes that satisfy customer delivery windows (restaurants need product by 5:30 AM, hospitals by 7 AM, schools by 6 AM), respect multi-temperature compartment capacity (each truck has frozen, chill, and dry sections with fixed cubic footage), enforce product-specific stacking rules (no heavy cases on soft fruit, dairy upright only), and account for highly variable dock times (a restaurant back-alley delivery takes 8 minutes; a hospital receiving dock with security check-in takes 35 minutes). Current routing tools like Roadnet or Descartes optimize for distance and time but treat cargo as homogeneous and use static stop-time estimates.

@@ -5,7 +5,7 @@
 ---
 
 ## 1. Predictive Maintenance Agent
-#ai-agent #time-series-forecasting #signal-processing #revenue-impact
+#ai-agent #lstms-and-grus #time-series-forecasting #gradient-boosting #feature-engineering #revenue-impact
 
 **Concept:** An AI agent that continuously monitors telematics data across the entire fleet, detects degradation patterns in real-time, and autonomously schedules preventive maintenance — booking with the shop, ordering parts, and rescheduling the vehicle's assignments to minimize operational disruption. The agent explains its reasoning ("Vehicle 147's coolant temperature has risen 8°F over 30 days while ambient temp was stable — this pattern preceded water pump failure in 3 similar vehicles in your fleet") so the fleet manager can trust and override its decisions.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Driver Coaching Agent
-#ai-agent #tabular-ml #worker-facing
+#ai-agent #gradient-boosting #feature-engineering #evaluation-metrics #descriptive-statistics #worker-facing
 
 **Concept:** An AI agent that generates personalized, context-aware coaching for each driver based on their specific behavioral patterns, route conditions, and improvement trajectory. Rather than generic "reduce hard braking" alerts, the agent delivers targeted micro-coaching: "On your Route 9 delivery segment, you average 3 hard brakes per trip at the Harrison Ave intersection — approaching at 5 mph slower would eliminate these events and save $12/week in brake wear." The agent tracks improvement over time and adjusts coaching intensity.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Compliance Documentation Agent
-#ai-agent #llm #compliance #automation
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #compliance #automation
 
 **Concept:** An AI agent that monitors compliance status across all DOT/FMCSA requirements in real-time, automatically generates required documentation, tracks filing deadlines, and prepares audit-ready packages on demand. The agent ingests data from ELD systems, HR databases, maintenance records, and drug testing programs to maintain a continuously updated compliance profile. When a gap is detected, it generates the corrective action and routes it to the responsible party.
 

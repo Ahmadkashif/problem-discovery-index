@@ -3,7 +3,7 @@
 **Industry:** [[mortgage-brokers|Mortgage Brokers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Rate lock decisions are already made every day — they're just made by gut feel and morning rate sheet emails instead of a model that knows the pipeline.
-**Tags:** #lstm #time-series-forecasting #tabular-ml #revenue-impact
+**Tags:** #lstms-and-grus #time-series-forecasting #rnns #backpropagation #gradient-descent #loss-functions #evaluation-metrics #expectation-variance-covariance #revenue-impact
 
 ## The Problem
 Mortgage brokers must decide when to lock a borrower's interest rate with the wholesale lender. Lock too early and you commit to a rate that might improve; lock too late and rates spike, forcing a worse rate or losing the deal. A typical brokerage locks 30-80 loans per month, and each basis point on a $400K loan is $40/year to the borrower — aggregate across a pipeline and bad timing costs tens of thousands in lost competitive positioning. Most brokers lock reflexively when the borrower says "go" rather than strategically timing the lock around market conditions and pipeline dynamics.

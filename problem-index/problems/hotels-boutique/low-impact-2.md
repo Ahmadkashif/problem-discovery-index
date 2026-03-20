@@ -3,7 +3,7 @@
 **Industry:** [[hotels-boutique|Boutique Hotels]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic CRM and messaging tools exist but can't replicate the boutique hotel's signature touch — personalized, context-aware guest communication that drives upsells and loyalty without sounding automated.
-**Tags:** #llm #text-generation #nlp #automation
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #automation
 
 ## The Problem
 Boutique hotels differentiate on personal service, yet guest communication is fragmented across 4-5 channels: OTA messaging (Booking.com and Expedia each have their own portals), email, SMS, WhatsApp, and sometimes Instagram DMs. A guest who books through Booking.com asks about parking via the OTA app, then emails about a dinner reservation, then texts on arrival day about early check-in. No single thread exists, so the front desk agent pieces together context from memory or by searching multiple systems. Pre-arrival upsell opportunities (room upgrades, airport transfers, spa packages, restaurant reservations) are handled inconsistently — some guests get a templated email, others get nothing, and the personalization that boutique guests expect is absent.

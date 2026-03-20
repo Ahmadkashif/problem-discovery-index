@@ -3,7 +3,7 @@
 **Industry:** [[environmental-consultants|Environmental Consultants]]
 **Type:** Worker Life Changing
 **One-liner:** Junior environmental scientists reclaim 8-12 hours per Phase I ESA currently spent copy-pasting search results from 15+ regulatory databases with different interfaces, formats, and reliability issues.
-**Tags:** #bert #text-classification #nlp #worker-facing #automation
+**Tags:** #bert #transformers #transfer-learning #word-embeddings #evaluation-metrics #entropy-cross-entropy-kl-divergence #worker-facing #automation
 
 ## The Problem
 Phase I Environmental Site Assessments require searching a minimum of 15 federal and state regulatory databases per ASTM E1527-21 standards: EPA's NEPAssist, ECHO, RCRAInfo, CERCLIS/SEMS, state-equivalent lists (e.g., California's GeoTracker and EnviroStor, Texas's TCEQ Central Registry), local underground storage tank registries, tribal databases for sites near tribal lands, and historical sources including Sanborn fire insurance maps, city directories, and historical aerial photographs. Each database has its own search interface — some accept addresses, some require coordinates, some only search by facility name. Results come in different formats: web tables, PDF downloads, map viewers with no export function. A junior scientist performing this research for a single site spends 8-12 hours navigating these interfaces, screenshotting results, copying data into the report, and verifying that no required database was missed. The work is entirely mechanical but requires enough judgment to catch when a database returns no results because the search parameters were wrong versus because no records exist.

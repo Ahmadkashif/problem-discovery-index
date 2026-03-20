@@ -5,7 +5,7 @@
 ---
 
 ## 1. Autonomous Staff Scheduling Agent
-#ai-agent #automation #revenue-impact
+#ai-agent #large-language-models #time-series-forecasting #feature-engineering #optimization-fundamentals #automation #revenue-impact
 
 **Concept:** An AI agent that continuously monitors POS transaction flow, weather forecasts, local event feeds, and historical patterns to generate and adjust weekly staff schedules without owner intervention. The agent drafts schedules 10 days out, sends them to staff for availability confirmation, resolves conflicts by offering open shifts to qualified backups ranked by proximity and skill level, and auto-adjusts day-of by texting a call-in request when real-time transaction pace exceeds the staffing model's threshold by 20%+ for 30 consecutive minutes. The owner receives a daily digest showing labor cost as a percentage of revenue, projected vs. actual, with a single "approve next week" button.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Perishable Inventory Reorder Agent
-#ai-agent #automation #data-integration
+#ai-agent #gradient-boosting #time-series-forecasting #cnns #feature-engineering #automation #data-integration
 
 **Concept:** An agent that monitors real-time sales velocity by perishable SKU category, compares against current inventory levels (entered via end-of-day counts or inferred from POS depletion curves), and generates supplier orders automatically — or presents a recommended order for one-tap owner approval. The agent accounts for supplier lead times, delivery windows, minimum order quantities, shelf life remaining on current stock, and tomorrow's demand forecast. It handles the bakery display case problem by modeling the relationship between case fullness at open and pastry sales conversion rate, recommending a "display buffer" quantity above expected sales.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Customer Engagement and Retention Agent
-#ai-agent #ai-platform #revenue-impact #recommendation
+#ai-agent #ai-platform #gradient-boosting #feature-engineering #logistic-regression #evaluation-metrics #large-language-models #revenue-impact
 
 **Concept:** An always-on agent that monitors customer visit patterns via POS payment token data, detects churn risk signals (visit frequency decline, day-of-week pattern change, average ticket decrease), and autonomously executes re-engagement campaigns through SMS or email. The agent segments customers without requiring app downloads or account creation — it identifies returning customers by payment card token and builds behavioral profiles passively. When a daily regular misses 3 consecutive expected visits, the agent sends a personalized message ("We miss you at our 7am bar — your usual oat milk cortado is on us this week, just show this text"). It also identifies upsell opportunities for engaged customers ("You always get a medium drip — want to try our new single-origin pour-over? First one's half off").
 

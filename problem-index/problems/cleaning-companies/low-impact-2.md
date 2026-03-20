@@ -3,7 +3,7 @@
 **Industry:** [[cleaning-companies|Cleaning Companies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Inspection apps let supervisors check boxes, but they can't objectively measure cleaning quality from photos or predict which clients are about to cancel.
-**Tags:** #cnn #binary-classification #computer-vision
+**Tags:** #cnns #logistic-regression #transfer-learning #loss-functions #evaluation-metrics #backpropagation #gradient-descent
 
 ## The Problem
 Cleaning quality is subjective and inconsistent. A supervisor visits a site post-cleaning and marks checkboxes on a form — but their standards vary by mood, time pressure, and personal thresholds. Clients experience inconsistent quality and communicate dissatisfaction through contract cancellation rather than complaints. By the time a cleaning company learns a client is unhappy, it's often too late — they've already solicited competitive bids.

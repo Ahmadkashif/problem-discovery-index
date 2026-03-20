@@ -3,7 +3,7 @@
 **Industry:** [[youth-sports-orgs|Youth Sports Organizations]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic CRM tools exist for fundraising, but none understand the hyper-local sponsorship dynamics of youth sports — where a $500 banner deal with the local pizza shop matters more than a $5,000 corporate grant.
-**Tags:** #llm #text-generation #nlp #revenue-impact
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #revenue-impact
 
 ## The Problem
 Youth sports organizations raise $10K-$500K annually through a mix of registration fees, sponsorships, fundraisers, and grants. The sponsorship process is entirely relationship-driven: a board member asks local businesses personally. There's no tracking of who was asked, what was offered, or when to follow up. Fundraiser selection (car wash vs. candy sale vs. golf tournament) is based on tradition, not ROI analysis.

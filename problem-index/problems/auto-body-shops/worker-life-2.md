@@ -3,7 +3,7 @@
 **Industry:** [[auto-body-shops|Auto Body Shops]]
 **Type:** Worker Life Changing
 **One-liner:** Estimators stop spending half their day arguing with insurance adjusters over supplement approvals and start spending it on repair planning and customer care.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #evaluation-metrics #worker-facing
 
 ## The Problem
 Collision estimators write the initial estimate, then discover hidden damage during teardown that requires supplemental payment from the insurer. Each supplement triggers a negotiation: the estimator must document the additional damage with photos, justify each line item against insurer guidelines, and often go back-and-forth 2-3 times before approval. A busy estimator manages 10-15 active supplements simultaneously, each requiring 30-60 minutes of documentation and phone/portal interaction. Insurance adjusters challenge items as a cost-control mechanism, creating adversarial dynamics that consume the estimator's day.

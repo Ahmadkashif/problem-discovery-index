@@ -1,13 +1,13 @@
 # ML Opportunities — Credit Unions
 
 **Industry:** [[credit-unions|Credit Unions]]
-**Tags:** #gradient-boosting #llm #isolation-forest #binary-classification #anomaly-detection #recommendation #regression #tabular-ml #nlp #tacit-knowledge-ml #compliance #revenue-impact
+**Tags:** #gradient-boosting #large-language-models #feature-engineering #evaluation-metrics #cross-validation #probability-distributions #tacit-knowledge-ml #compliance #revenue-impact
 **Derived from:** [[problems/credit-unions/high-impact|High Impact]], [[problems/credit-unions/low-impact-1|Low Impact 1]], [[problems/credit-unions/low-impact-2|Low Impact 2]], [[problems/credit-unions/worker-life-1|Worker Life 1]], [[problems/credit-unions/worker-life-2|Worker Life 2]]
 
 ---
 
 ## 1. Member Default Prediction with Behavioral Signals (Primary Opportunity — Tacit Knowledge ML)
-#gradient-boosting #binary-classification #tabular-ml #tacit-knowledge-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Veteran CU loan officers predict member default more accurately than credit scores by reading behavioral signals in deposit patterns, account usage shifts, and member engagement history — judgment built from hundreds of observed loan outcomes that is lost when they retire and unavailable to junior lending staff.
 
@@ -21,7 +21,7 @@
 ---
 
 ## 2. Member Churn Prediction and Retention Targeting
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #time-series-forecasting #probability-distributions #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Credit unions lose 5-8% of members annually, but identify at-risk members only after they've already moved their primary banking relationship — when the direct deposit switches to another institution and the share account balance drops to near zero.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Cross-Sell Propensity Scoring for Teller and Digital Channels
-#gradient-boosting #recommendation #tabular-ml #worker-facing
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #probability-distributions #worker-facing
 
 **Problem statement:** CU tellers and digital banking platforms deliver untargeted product suggestions that convert at 1-3%, creating member friction and teller stress while missing high-propensity opportunities hidden in member transaction patterns.
 
@@ -49,7 +49,7 @@
 ---
 
 ## 4. BSA/AML Alert Prioritization for Credit Union Transaction Patterns
-#gradient-boosting #isolation-forest #anomaly-detection #tabular-ml #compliance
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #descriptive-statistics #hypothesis-testing #probability-distributions #compliance
 
 **Problem statement:** BSA/AML platforms generate 200-400 alerts per month at small CUs with 90%+ false positive rates because monitoring rules and ML models are calibrated for commercial bank transaction distributions, not the member-level behavioral baselines of a 15,000-member community institution.
 

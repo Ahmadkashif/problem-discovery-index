@@ -5,7 +5,7 @@
 ---
 
 ## 1. Manuscript Screening Agent
-#ai-agent #llm #nlp #automation #worker-facing
+#ai-agent #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing #automation
 
 **Concept:** An autonomous agent that monitors the publisher's submission inbox (email, Submittable, or direct upload portal), ingests each new manuscript, evaluates it against the publisher's genre focus, quality threshold, and recent acquisition patterns, and routes it into tiered queues (auto-decline, maybe-review, priority-read) with a 2-3 sentence rationale for each decision. For auto-declines, it generates a personalized form rejection that references the specific manuscript and explains the fit gap. For priority reads, it produces a one-page brief: comp titles, estimated market positioning, and highlighted passages that triggered the recommendation.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Marketing Campaign Orchestration Agent
-#ai-agent #llm #gradient-boosting #automation #revenue-impact
+#ai-agent #large-language-models #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #attention-mechanisms #revenue-impact #automation
 
 **Concept:** An agent that takes a title's metadata, publication date, budget, and target audience, then autonomously plans, executes, and optimizes a multi-channel marketing campaign. It drafts BookBub ad copy, generates social media post sequences (with image prompts for the design team), schedules email newsletter features, submits review copies to relevant trade outlets, and monitors real-time performance signals (ad CTR, email open rates, early BookScan data) to reallocate budget mid-campaign. The agent operates within guardrails set by the marketing coordinator, who approves creative and budget shifts above a threshold.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Rights & Royalty Management Platform
-#ai-platform #llm #tabular-ml #compliance #data-integration
+#ai-platform #large-language-models #attention-mechanisms #transformers #feature-engineering #evaluation-metrics #compliance #data-integration
 
 **Concept:** A vertical platform that ingests publishing contracts (via LLM-powered clause extraction), models the royalty structures they define (escalating tiers, basket accounting, reserves against returns, foreign-currency terms), automatically processes sales reports from all distribution channels (Ingram, Amazon KDP, ACX, Baker & Taylor, foreign co-publishers), and produces accurate royalty statements on a configurable schedule. The platform monitors contract terms for approaching reversion dates, expiring option windows, and territory conflicts, generating alerts and recommended actions. It handles the full rights lifecycle from initial grant through exploitation tracking to reversion.
 

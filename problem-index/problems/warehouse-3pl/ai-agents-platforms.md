@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Warehouse & 3PL
 
 **Industry:** [[warehouse-3pl|Warehouse & 3PL]]
-**Tags:** #ai-agent #ai-platform #automation #workflow-orchestration #revenue-impact
+**Tags:** #ai-agent #ai-platform #gradient-boosting #k-means-clustering #optimization-fundamentals #automation #workflow-orchestration #revenue-impact
 
 ---
 

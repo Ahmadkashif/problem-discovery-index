@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Property Management
 
 **Industry:** [[property-management|Property Management]]
-**Tags:** #ai-agent #ai-platform #automation #workflow-orchestration #revenue-impact
+**Tags:** #ai-agent #ai-platform #gradient-boosting #large-language-models #cnns #decision-trees #feature-engineering #evaluation-metrics #automation #workflow-orchestration #revenue-impact
 
 ---
 

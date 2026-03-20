@@ -3,7 +3,7 @@
 **Industry:** [[ecommerce-sellers|E-Commerce Sellers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Listing tools sync inventory counts across marketplaces but don't optimize the actual content — titles, bullet points, images, and backend keywords — for each platform's distinct ranking algorithm.
-**Tags:** #bert #text-generation #nlp #recommendation
+**Tags:** #bert #large-language-models #transformers #attention-mechanisms #word-embeddings #transfer-learning #evaluation-metrics
 
 ## The Problem
 A seller listing a product on Amazon, Shopify, Walmart, and eBay needs four different versions of the same listing. Amazon A9 rewards keyword-stuffed titles with specific character limits and backend search terms. Walmart's algorithm favors clean, readable titles and penalizes keyword stuffing. Shopify SEO follows Google's rules. eBay has its own item specifics schema. Sellers either create one generic listing and cross-post it (leaving ranking potential on the table) or spend 15-30 minutes per SKU per channel manually optimizing — which becomes impossible at 200+ SKUs.

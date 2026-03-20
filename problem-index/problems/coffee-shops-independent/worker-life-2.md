@@ -3,7 +3,7 @@
 **Industry:** [[coffee-shops-independent|Independent Coffee Shops]]
 **Type:** Worker Life Changing
 **One-liner:** The shift lead arrives 45 minutes before open and stays 40 minutes after close — unpaid or underpaid — to run checklists from memory and count a cash drawer by hand.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #worker-facing #automation
 
 ## The Problem
 Opening and closing an independent coffee shop involves 25-40 discrete tasks: equipment warmup and calibration (grinder dialing, boiler temperature checks, brew water quality test), food safety checks (cooler temps, display case rotation, date labeling), cash drawer count-in/count-out, safe reconciliation, daily sales log, cleaning verification, alarm system arming, and next-day prep notes. Most shops manage this with a laminated checklist or a notebook — nothing is digitized, nothing is time-stamped, and there is no verification that tasks were actually completed versus checked off reflexively. When something goes wrong (a cooler was at 45F overnight, the cash drawer is $20 short), there is no audit trail. The shift lead carries the entire cognitive and administrative load, often staying 30-45 minutes past their paid shift to finish.

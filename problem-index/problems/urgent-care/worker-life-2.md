@@ -3,7 +3,7 @@
 **Industry:** [[urgent-care|Urgent Care Centers]]
 **Type:** Worker Life Changing
 **One-liner:** Medical assistants performing intake triage at urgent care centers get a real-time acuity score that validates their clinical instinct and flags the patients who look stable but may not be — reducing the weight of making that call alone.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #worker-facing
 
 ## The Problem
 Urgent care medical assistants perform triage — gathering chief complaint, vital signs, and brief history — often within their first few years of clinical experience and without physician oversight at intake. The task is clinically consequential: misclassifying a patient with early sepsis, a cardiac event masquerading as indigestion, or a pediatric respiratory deterioration as "routine" can have serious consequences. Experienced MAs and nurses develop triage intuition over years, but newer staff lack that pattern recognition and are making acuity judgments under time pressure with a waiting room full of patients watching them.

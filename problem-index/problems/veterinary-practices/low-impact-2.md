@@ -3,7 +3,7 @@
 **Industry:** [[veterinary-practices|Veterinary Practices]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Ambient AI documentation tools exist for human medicine but aren't trained on veterinary clinical language, multi-species terminology, or the specific documentation patterns of a vet managing an uncooperative patient while narrating findings aloud.
-**Tags:** #llm #speech-recognition #seq2seq #nlp #automation #worker-facing
+**Tags:** #large-language-models #transformers #seq2seq #attention-mechanisms #transfer-learning #loss-functions #automation #worker-facing
 
 ## The Problem
 Veterinary documentation has a unique challenge that human medical scribing tools aren't designed for: the patient is often struggling, vocalizing, or uncooperative throughout the physical examination, making continuous dictation difficult. Vets narrate findings as they examine — "heart sounds clear, no murmur, lungs clear bilaterally, abdomen soft, no pain response on palpation" — while simultaneously restraining the patient, which means audio quality is variable and the narration is non-linear. The clinical terminology is species-specific (a "BCS of 5/9 in a canine patient" means something precise), and the documentation must capture diet, vaccination status, parasite prevention, and follow-up plan — fields that generic medical scribing tools don't structure for.

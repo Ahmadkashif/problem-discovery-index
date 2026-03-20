@@ -3,7 +3,7 @@
 **Industry:** [[hotels-boutique|Boutique Hotels]]
 **Type:** Worker Life Changing
 **One-liner:** Housekeepers stop racing through rooms on rigid assignment sheets and start working from dynamically optimized sequences that match actual checkout patterns and physical building layout.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #worker-facing
 
 ## The Problem
 Housekeeping supervisors at boutique hotels build room assignment sheets the night before or early morning, dividing rooms among 3-8 housekeepers based on a static list of expected checkouts and stayovers. The reality diverges immediately: late checkouts shift the sequence, early departures create opportunities that go unnoticed for an hour, and the physical layout of a boutique property (often a converted historic building with wings, floors, and annexes connected by stairs rather than service elevators) means a bad assignment order adds 20-40 minutes of dead walking time per shift. Housekeepers are evaluated on rooms-per-hour metrics while working against a 3:00-4:00 PM check-in deadline, creating a pressure window where quality drops because the math doesn't work — 14 rooms in 6 hours with 30-minute turnover times requires zero delays, and delays are constant.

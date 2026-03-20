@@ -6,7 +6,7 @@
 ---
 
 ## 1. Move Scope Estimation from Walkthrough Video
-#gradient-boosting #regression #computer-vision #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #cnns #object-detection #feature-engineering #cross-validation #transfer-learning #evaluation-metrics #backpropagation #gradient-descent #tacit-knowledge-ml
 
 **Problem statement:** An experienced estimator walks a home and intuitively predicts cubic footage, crew size, truck allocation, and labor hours within 10% accuracy — a skill that takes 2-3 years to develop and cannot be explicitly articulated. The goal is to replicate this tacit pattern recognition by extracting visual and spatial features from a walkthrough video and combining them with structured move metadata to predict move scope.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Crew Size and Move Duration Prediction
-#gradient-boosting #regression #tabular-ml #quick-win
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #quick-win
 
 **Problem statement:** Dispatchers manually assign crew sizes and estimate move durations based on gut feel and the estimator's cube sheet, frequently under-staffing complex moves (leading to overtime and customer dissatisfaction) or over-staffing simple ones (wasting labor). A tabular model trained on historical move outcomes can predict optimal crew allocation and expected duration from structured move attributes.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Customer Churn and Rebooking Prediction
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Moving companies lose 30-50% of qualified leads between initial inquiry and booking, and a significant portion of booked customers cancel or rebook with competitors after receiving the quote. Predicting which leads are likely to convert and which booked customers are at risk of cancellation allows targeted follow-up and pricing adjustments.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Multi-Stop Route and Load Optimization for Moving Fleets
-#reinforcement-learning #regression #tabular-ml #automation
+#markov-decision-processes #dynamic-programming #policy-gradient-methods #gradient-boosting #evaluation-metrics #optimization-fundamentals #expectation-variance-covariance #automation
 
 **Problem statement:** Dispatchers manually plan daily routes for 5-20 trucks, each potentially handling multiple moves (especially for local/short-distance operations). They balance drive time, loading sequence (items for the last delivery go in first), crew availability windows, customer time preferences, and truck capacity constraints. The combinatorial complexity means dispatchers use simple heuristics that leave 15-25% of efficiency on the table.
 

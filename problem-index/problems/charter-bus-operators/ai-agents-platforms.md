@@ -5,7 +5,7 @@
 ---
 
 ## 1. Quote Generation Agent
-#ai-agent #llm #revenue-impact
+#ai-agent #large-language-models #transformers #gradient-boosting #feature-engineering #revenue-impact
 
 **Concept:** An autonomous quoting agent that receives trip inquiries via email, web form, or phone transcription and produces a detailed, branded quote document within minutes — no dispatcher involvement required for standard trips. The agent parses the inquiry to extract trip parameters (dates, pickup/dropoff, group size, trip type, special requests), calculates a cost estimate using the operator's historical cost model and real-time fuel/toll data, applies the operator's margin rules and seasonal pricing adjustments, and generates a professional PDF quote with terms and conditions. For non-standard requests (hazmat proximity, international border crossings, oversized groups requiring multi-bus coordination), the agent flags the quote for human review with a pre-populated draft.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Compliance Documentation Agent
-#ai-agent #llm #compliance
+#ai-agent #large-language-models #transformers #transfer-learning #word-embeddings #compliance
 
 **Concept:** A continuously running compliance agent that monitors all regulatory deadlines (FMCSA biennial updates, MCS-150 filings, driver medical certificate expirations, drug testing program requirements, annual vehicle inspection due dates, state intrastate permit renewals), auto-generates required documents from structured data already in the system, and files electronically where portals exist. The agent maintains a living compliance calendar, sends escalating alerts (30-day, 14-day, 3-day) to the responsible person, and can draft appeal documents if a violation or unsatisfactory safety rating is received.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Fleet Scheduling & Dispatch Platform
-#ai-platform #ai-agent #workflow-orchestration
+#ai-platform #ai-agent #optimization-fundamentals #gradient-boosting #large-language-models #workflow-orchestration
 
 **Concept:** A unified scheduling platform purpose-built for charter bus operations that combines trip management, driver scheduling, bus assignment, and real-time dispatch into a single AI-augmented interface. The platform's core intelligence is a constraint-satisfaction engine that continuously optimizes the assignment of drivers and buses to trips while respecting HOS limits, CDL endorsement requirements, bus capacity/amenity matching, maintenance windows, and driver preferences. When disruptions occur (late returns, breakdowns, driver call-outs), the platform instantly re-optimizes and presents the dispatcher with ranked resolution options rather than requiring manual re-puzzling.
 

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Job Site Safety Hazard Detection from Photographs
-#cnn #object-detection #computer-vision #tacit-knowledge-ml #compliance
+#cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #matrix-algebra #gradient-descent #feature-engineering #tacit-knowledge-ml #compliance
 
 **Problem statement:** Experienced superintendents can walk a job site and immediately identify OSHA violations and safety hazards — workers without hardhats, unguarded floor openings, improper scaffold erection, missing fall protection at leading edges — a pattern recognition capability built from years of field experience and safety training. A computer vision model can replicate this scan systematically across all job site photos, catching hazards that a busy superintendent walking 30,000 square feet of active construction might miss.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Preliminary Cost Estimation from Architectural Drawing Analysis
-#cnn #regression #computer-vision #multimodal #tacit-knowledge-ml #revenue-impact
+#cnns #linear-regression #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering #matrix-algebra #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Extract cost-predictive features from architectural drawings — structural system classification, floor plate geometry, mechanical system type, building envelope complexity, finish level indicators — and combine them with project metadata (location, project type, gross area) to produce preliminary cost-per-square-foot estimates by division, replicating the experienced estimator's pattern recognition from hundreds of completed projects.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Schedule Delay Prediction and Cascade Modeling
-#gradient-boosting #time-series-forecasting #tabular-ml
+#gradient-boosting #decision-trees #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #probability-distributions
 
 **Problem statement:** Given daily field progress data (percent complete by activity vs. scheduled), weather conditions, crew count reports, and historical delay patterns for similar project types, predict which activities are at risk of delay in the next 14 days and model the cascade impact on downstream activities.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Subcontractor Bid Competitiveness Prediction
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #descriptive-statistics
 
 **Problem statement:** Given a scope of work and a subcontractor bid, predict whether the bid is competitively priced relative to the market, over-priced (leaving money on the table in negotiations), or suspiciously low (a red flag for scope misunderstanding or future change order inflation).
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Project Profitability Prediction at Award
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #probability-distributions #revenue-impact
 
 **Problem statement:** Predict, at the time of contract award, which projects will exceed their cost budgets — allowing the firm to increase supervision intensity, tighten subcontractor monitoring, and establish contingency reserves on high-risk projects before problems materialize.
 

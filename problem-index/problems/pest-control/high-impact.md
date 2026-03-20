@@ -3,7 +3,7 @@
 **Industry:** [[pest-control|Pest Control]]
 **Type:** High Impact
 **One-liner:** Every technician diagnoses and treats like the 20-year veteran who reads an infestation scene the way a detective reads a crime scene — species, severity, entry points, and optimal treatment from the evidence alone.
-**Tags:** #cnn #gradient-boosting #multiclass-classification #computer-vision #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #cnns #gradient-boosting #transfer-learning #feature-engineering #loss-functions #evaluation-metrics #backpropagation #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 An experienced pest control technician walks into a building and reads the infestation like a language: the shape and size of droppings identify species (mouse vs. rat vs. squirrel vs. cockroach species), the distribution pattern reveals travel routes and harborage locations, gnaw marks indicate severity and duration, grease marks along baseboards show frequency of use, and structural features (gaps, pipe penetrations, foundation cracks) reveal entry points. From this evidence, the veteran knows: it's a Norway rat colony that's been established 2-3 months, entering through the gap where the AC line penetrates the foundation, harboring under the concrete slab, with a population of approximately 15-25 based on droppings volume. They know the treatment protocol (exterior bait stations + interior snap traps + exclusion work at three specific entry points) and can predict the resolution timeline (2-3 weeks). A new technician sees droppings and applies a generic treatment that may or may not address the actual species and entry points.

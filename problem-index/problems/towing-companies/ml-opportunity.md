@@ -6,7 +6,7 @@
 ---
 
 ## 1. Job Complexity and Duration Prediction from Call Description
-#gradient-boosting #bert #regression #text-classification #nlp #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #bert #transformers #feature-engineering #cross-validation #evaluation-metrics #word-embeddings #transfer-learning #loss-functions #tacit-knowledge-ml
 
 **Problem statement:** Experienced dispatchers read a caller's description — often vague, inaccurate, or incomplete — and intuitively estimate the truck type needed, job duration, and whether the stated location is reliable. This tacit judgment, built over thousands of dispatched calls, is never recorded and cannot be transferred to new dispatchers. The goal is to capture this decision-making pattern and surface it as real-time recommendations during call intake.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Demand Forecasting by Zone and Hour
-#gradient-boosting #time-series-forecasting #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #time-series-forecasting #evaluation-metrics #cross-validation #bias-variance-tradeoff #gradient-descent
 
 **Problem statement:** Towing demand is highly spatio-temporal — accident clusters correlate with rush hours, weather events, road construction, and local events, but companies position trucks reactively rather than predictively, leaving drivers idle in low-demand zones while calls queue in high-demand areas.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Optimal Truck Positioning and Pre-staging
-#reinforcement-learning #regression #tabular-ml #revenue-impact
+#markov-decision-processes #dynamic-programming #policy-gradient-methods #gradient-boosting #evaluation-metrics #optimization-fundamentals #expectation-variance-covariance #revenue-impact
 
 **Problem statement:** Between calls, tow trucks either return to the yard or idle at the last job location. Neither strategy minimizes response time for the next call. Optimal pre-staging — positioning trucks at locations that minimize expected response time given demand predictions — is a dynamic optimization problem that changes hourly.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Motor Club Rotation Performance Scoring
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Motor clubs evaluate towing companies on response time, customer satisfaction, and claim accuracy to determine rotation ranking. Companies do not know which factors most influence their ranking or which calls are most likely to trigger a negative review that drops their position. A predictive model of rotation risk per call would let companies allocate their best drivers and fastest trucks to the calls that matter most.
 

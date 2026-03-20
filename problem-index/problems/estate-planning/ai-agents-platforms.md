@@ -5,7 +5,7 @@
 ---
 
 ## 1. Proactive Client Relationship Intelligence Platform
-#ai-platform #tabular-ml #revenue-impact
+#gradient-boosting #feature-engineering #evaluation-metrics #ai-platform #revenue-impact
 
 **Concept:** A client monitoring and relationship management platform purpose-built for estate planning firms — continuously monitoring the existing client base for plan update triggers (life events, tax law changes, plan age), generating prioritized re-engagement recommendations, and automating outreach with personalized, attorney-reviewed communications. Transforms the firm's dormant client file into an active recurring revenue relationship.
 **Inputs:** Case management system client data feed, public records monitoring APIs (vital records, marriage/divorce records, business registry changes), IRS and state revenue department regulatory monitoring feeds, annual client wellness questionnaire responses
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Conversational Estate Planning Intake Agent
-#ai-agent #llm #nlp
+#large-language-models #transformers #attention-mechanisms #transfer-learning #ai-agent
 
 **Concept:** A client-facing conversational agent that conducts the structured data-gathering phase of an estate planning intake — walking the client through their family structure, asset inventory, and planning objectives in a guided conversation before the attorney meeting — and produces a structured intake brief that populates directly into the document assembly system.
 **Inputs:** Client-initiated conversation via secure web portal or app, structured question trees for different family/asset configurations, legal knowledge base for explaining estate planning concepts in plain language
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Estate Administration Workflow Agent
-#ai-agent #automation #workflow-orchestration
+#large-language-models #ai-agent #automation #workflow-orchestration
 
 **Concept:** An autonomous workflow agent that manages the estate administration process from opening to closing — generating the complete task checklist, tracking correspondence with financial institutions, generating required notices to beneficiaries and creditors, monitoring tax filing deadlines, and surfacing the daily priority work list for the administering paralegal.
 **Inputs:** Estate intake information (decedent, asset inventory, beneficiary list, executor identity), jurisdiction (state probate rules), case management system integration for task logging
@@ -38,7 +38,7 @@
 ---
 
 ## 4. Estate Tax Analysis and Planning Scenario Agent
-#ai-agent #tabular-ml #llm #revenue-impact
+#large-language-models #gradient-boosting #arithmetic-and-basic-algebra #feature-engineering #ai-agent #revenue-impact
 
 **Concept:** An AI planning assistant for the estate attorney that — given a client's asset structure and family situation — runs multiple estate and gift tax scenarios (gifting strategies, GRAT structures, SLAT trusts, charitable planning combinations) and produces a comparative analysis showing projected estate tax liability and net-to-heirs for each scenario, in language the attorney can present directly to the client.
 **Inputs:** Client asset inventory with values and basis, family structure (ages of beneficiaries), applicable exclusion amount (current + sunset scenario), state estate tax threshold, income and liquidity needs, charitable intentions

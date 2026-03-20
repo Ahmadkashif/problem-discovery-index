@@ -3,7 +3,7 @@
 **Industry:** [[event-planning|Event Planning]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Timeline templates exist, but they can't generate the venue-specific, vendor-specific, minute-by-minute execution plan that accounts for setup constraints, transition times, and the contingencies that experienced planners automatically build in.
-**Tags:** #llm #text-generation #nlp #workflow-orchestration
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #workflow-orchestration
 
 ## The Problem
 A wedding day timeline involves 50-200 individual items across 10-14 hours, with dependencies, buffer times, and contingencies. Setup starts at 8am with vendor load-in sequenced by space (florist before lighting, lighting before furniture). The ceremony-to-reception transition must account for cocktail hour entertainment, room flipping, and guest flow. Every element has dependencies: the photographer needs the bride ready by 2:30 for first-look photos, which requires hair/makeup to finish by 2:00, which means starting at 10:00 for a 6-person bridal party. Experienced planners build these timelines from pattern recognition; new planners miss dependencies and create cascading delays.

@@ -3,7 +3,7 @@
 **Industry:** [[crop-farming|Crop Farming]]
 **Type:** Worker Life Changing
 **One-liner:** Farmers who must maintain detailed field-level records for crop insurance claims, USDA program compliance, and nutrient management plans — documenting planting dates, application rates, yields, and management practices — spend 40-80 hours per year on recordkeeping that they experience as the single most frustrating non-farming task in their operation.
-**Tags:** #llm #text-generation #nlp #worker-facing #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #evaluation-metrics #entropy-cross-entropy-kl-divergence #worker-facing #compliance
 
 ## The Problem
 Federal crop insurance requires field-level records of planting dates, crop varieties, seeding rates, harvest dates, and yields. USDA conservation programs (CSP, EQIP, CRP) require documentation of management practices. State nutrient management regulations require records of every fertilizer and manure application with date, rate, product, and field location. Organic certification requires complete input records with no gaps. These records must be maintained per field, per year, and must be producible on demand for insurance adjusters, USDA inspectors, and state regulators. Most farmers maintain these records in a combination of spreadsheets, paper logbooks, handwritten notes, and memory — a system that is unreliable, time-consuming to compile when a claim or audit occurs, and maddeningly duplicative (the same information is recorded in different formats for different programs).

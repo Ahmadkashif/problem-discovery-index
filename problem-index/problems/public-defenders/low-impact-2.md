@@ -3,7 +3,7 @@
 **Industry:** [[public-defenders|Public Defenders]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** General legal research platforms like Westlaw and Lexis are built for attorneys who have 2-3 hours to research a question — public defenders handling 200+ cases need jurisdiction-specific, charge-specific research delivered in 5 minutes, not a search engine that returns 500 cases.
-**Tags:** #bert #text-classification #nlp #quick-win
+**Tags:** #bert #transfer-learning #attention-mechanisms #transformers #word-embeddings #evaluation-metrics #entropy-cross-entropy-kl-divergence #loss-functions #quick-win
 
 ## The Problem
 

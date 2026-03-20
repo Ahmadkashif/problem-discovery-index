@@ -6,7 +6,7 @@
 ---
 
 ## 1. Early Illness Detection from Behavioral Anomaly
-#cnn #lstm #anomaly-detection #computer-vision #signal-processing #tacit-knowledge-ml #revenue-impact
+#cnns #lstms-and-grus #rnns #loss-functions #backpropagation #evaluation-metrics #gradient-descent #time-series-forecasting #probability-distributions #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Feedlot pen riders detect bovine respiratory disease 24-48 hours before clinical symptoms by reading subtle behavioral deviations — reduced feed bunk visits, altered gait, social isolation, decreased rumination — but this tacit pattern recognition degrades with fatigue and is concentrated in an aging, shrinking workforce. The goal is to encode this expert perceptual model into a multi-modal anomaly detection system that matches or exceeds the best rider's first-hour accuracy, sustained 24/7.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Feed Intake Prediction and Nutritional Optimization
-#gradient-boosting #regression #tabular-ml #quick-win
+#gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #bias-variance-tradeoff #quick-win
 
 **Problem statement:** Individual feed intake varies 30-40% among animals of similar weight and breed, driven by genetics, health status, weather, and social hierarchy, but most operations feed uniform rations based on pen averages. Predicting individual-level intake would enable precision feeding strategies that reduce feed waste by 5-10% and improve feed conversion efficiency.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Calving Difficulty Prediction
-#random-forest #gradient-boosting #binary-classification #tabular-ml #computer-vision
+#random-forests #gradient-boosting #cnns #feature-engineering #cross-validation #evaluation-metrics #decision-trees #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 **Problem statement:** Dystocia (difficult birth) affects 15-25% of first-calf heifers and 3-8% of mature cows, causing $500-3,000 in losses per event. Predicting which animals are high-risk before calving season would enable preemptive management (moving to monitored calving lots, scheduling C-sections for extreme cases), while real-time camera-based detection of prolonged labor would trigger timely intervention.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Carcass Quality Prediction from Live Animal Data
-#gradient-boosting #random-forest #regression #tabular-ml #computer-vision
+#gradient-boosting #random-forests #cnns #feature-engineering #cross-validation #evaluation-metrics #decision-trees #gradient-descent #bias-variance-tradeoff
 
 **Problem statement:** Carcass quality grade (USDA Prime, Choice, Select) determines the price a fed animal receives at slaughter, with a $200-400/head spread between Prime and Select, yet producers ship cattle to the packer with minimal ability to predict individual grading outcomes. Predicting carcass quality from live-animal data collected in the feedlot would enable optimal marketing timing and sorting for grid pricing.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Pasture Forage Availability Estimation from Satellite Imagery
-#cnn #regression #computer-vision #time-series-forecasting
+#cnns #time-series-forecasting #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #linear-regression #feature-engineering
 
 **Problem statement:** Cow-calf producers managing 500-50,000 acres of rangeland make stocking rate decisions (how many cows per acre) based on visual assessment and rainfall memory, leading to chronic overgrazing during drought years that degrades pasture productivity for 3-5 years and forces emergency destocking at depressed cattle prices. Satellite-based forage biomass estimation would enable proactive stocking adjustments weeks before visual degradation becomes obvious.
 

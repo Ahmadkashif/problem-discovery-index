@@ -3,7 +3,7 @@
 **Industry:** [[immigration-law|Immigration Law Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Immigration paralegals who spend 2-3 hours per day responding to "what's the status of my case?" calls and emails — from clients who are often dealing with work authorization gaps, visa expirations, and family separation anxieties — get that time back while clients actually receive more frequent and more informative updates.
-**Tags:** #llm #text-generation #automation #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #automation #worker-facing
 
 ## The Problem
 Immigration clients are among the most anxious clients in all of legal services — their cases directly affect their employment authorization, family unity, and ability to remain in the country. When a case is taking 12-24 months to process (normal for employment-based immigration), clients call and email constantly requesting updates that the paralegal can only answer with "still pending, no update." These calls are emotionally demanding (the paralegal must manage the client's anxiety), repetitive (the same information communicated to 20 clients per week), and consume the majority of a case manager's daily schedule — leaving less time for actual case work. The irony is that the firm often knows exactly where every case stands, but lacks an efficient mechanism to proactively share that information.

@@ -3,7 +3,7 @@
 **Industry:** [[short-term-rentals|Short-Term Rentals]]
 **Type:** Worker Life Changing
 **One-liner:** STR property managers who respond to 30-80 guest messages per day — pre-booking inquiries, check-in instructions, mid-stay questions, checkout reminders — and spend 1-2 hours daily on routine guest communication get that communication handled automatically, with only escalations and unusual requests requiring human response.
-**Tags:** #llm #text-generation #nlp #automation #worker-facing
+**Tags:** #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #automation #worker-facing
 
 ## The Problem
 

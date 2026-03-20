@@ -3,7 +3,7 @@
 **Industry:** [[tattoo-studios|Tattoo Studios]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Pinterest boards and Google Image searches can collect references, but they can't help an artist understand what a client actually wants from a jumble of 30 screenshots of other people's tattoos — or estimate the design hours a concept will require.
-**Tags:** #cnn #recommendation #computer-vision
+**Tags:** #cnns #transfer-learning #evaluation-metrics #loss-functions #gradient-descent #backpropagation #feature-engineering
 
 ## The Problem
 Custom tattoo design begins with a consultation where the client shares reference images, describes their vision, and the artist interprets this into a drawable concept. Clients typically send 10-30 reference images that may be stylistically inconsistent (mixing realism, neo-traditional, and geometric elements), physically incompatible with the requested body placement, or technically impossible at the desired size. The artist must navigate these contradictions diplomatically, extract the underlying aesthetic preference, and produce a design that satisfies the client's vision while being technically executable. This process takes 2-5 unpaid hours per custom piece.

@@ -3,7 +3,7 @@
 **Industry:** [[podcasting-networks|Podcasting Networks]]
 **Type:** Worker Life Changing
 **One-liner:** Ad sales reps stop spending 60% of their week on cold research and templated outreach, and instead focus on closing warm leads the system has already qualified and ranked.
-**Tags:** #gradient-boosting #ranking #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #logistic-regression #probability-distributions #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 An ad sales rep at a mid-size podcast network is responsible for filling inventory across 10-30 shows, which means identifying, researching, and pitching dozens of potential sponsors per week. The workflow is brutally manual: scan competitor shows for brand mentions, research the brand's marketing strategy, find the right buyer (often a media agency, not the brand directly), personalize the pitch with show-specific audience data, send the email, and follow up 3-5 times. A rep sends 50-100 outreach emails per week, with a response rate of 5-10% and a close rate under 2%. The majority of the rep's time is spent on prospects who will never respond.

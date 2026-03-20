@@ -3,7 +3,7 @@
 **Industry:** [[pest-control|Pest Control]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Operations platforms track billing and scheduling, but they don't automatically ensure every application record includes the EPA registration number, application rate, target pest, weather conditions, and state-specific notification requirements.
-**Tags:** #llm #text-generation #nlp #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #compliance
 
 ## The Problem
 Every pesticide application must be documented with specific details: product name, EPA registration number, active ingredient, application rate, target pest, area treated, weather conditions, applicator certification number, and date/time. State regulations add requirements: some states mandate pre-notification to adjacent properties, others require posting of treated areas for specific durations, and restricted-use products have additional reporting requirements. A single missed record in an audit can result in $5,000-$25,000 fines. Multi-state operators face a matrix of varying requirements that changes as regulations update.

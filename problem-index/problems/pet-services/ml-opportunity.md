@@ -5,8 +5,8 @@
 
 ---
 
-## 1. Dog Temperament and Reactivity Assessment from Behavioral Observation (Primary Opportunity — Tacit Knowledge ML)
-#cnn #multiclass-classification #computer-vision #tacit-knowledge-ml
+## 1. Dog Temperament and Reactivity Assessment from Behavioral Observation (Primary Opportunity -- Tacit Knowledge ML)
+#cnns #object-detection #transfer-learning #loss-functions #evaluation-metrics #backpropagation #gradient-descent #feature-engineering #tacit-knowledge-ml
 
 **Problem statement:** Experienced daycare staff evaluate a new dog's temperament in the first 5 minutes of a temperament test — reading posture, tail carriage, ear position, approach style, reaction to other dogs, and recovery time from startle — and predict with 80-90% accuracy whether the dog will be a safe group player, which play style group it fits, and what its trigger points are. This assessment is entirely tacit: staff say "I just know that dog is going to be a problem" but can't articulate the specific body language cues they processed. New staff make poor assessments, leading to either rejected safe dogs (lost revenue) or admitted reactive dogs (fight risk). The knowledge is built from observing thousands of dog introductions and is not written in any manual.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Grooming Time Prediction by Dog Profile
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance
 
 **Problem statement:** Grooming time varies 3x for dogs in the same breed/size category depending on coat condition, temperament, and requested services. Accurate per-visit time prediction enables correct pricing, scheduling, and groomer workload management.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Pack Compatibility Scoring
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #optimization-fundamentals
 
 **Problem statement:** Deciding which dogs to place together in daycare groups affects both safety and play quality. Currently, grouping is done by size and the attendant's memory of individual dogs. A compatibility model could optimize group composition to minimize conflict and maximize positive play.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Client Retention Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 **Problem statement:** Pet service facilities experience 30-40% annual client churn but don't identify at-risk clients until they've already left. Predicting churn 30-60 days before it happens enables targeted retention outreach.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Injury Risk Prediction from Environmental and Behavioral Factors
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #descriptive-statistics
 
 **Problem statement:** Dog fights and handler injuries cluster around specific conditions — high-arousal days (thunderstorms, construction noise, new dogs in group), understaffed shifts, late-afternoon fatigue periods, and specific dog combinations. Predicting elevated risk days/shifts enables preventive staffing and group size adjustments.
 

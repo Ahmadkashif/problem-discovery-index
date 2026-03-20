@@ -3,7 +3,7 @@
 **Industry:** [[wealth-management-rias|Wealth Management RIAs]]
 **Type:** Worker Life Changing
 **One-liner:** Advisors get back 30-45 minutes per client meeting that currently goes to toggling between five different software systems to assemble a complete client picture.
-**Tags:** #llm #text-generation #nlp #worker-facing #data-integration
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #worker-facing #data-integration
 
 ## The Problem
 Before every client meeting — and a typical advisor has 6-10 per week — the advisor or their paraplanner must manually pull data from multiple disconnected systems: current portfolio holdings and performance from Orion or Black Diamond, financial plan status and projections from MoneyGuidePro or eMoney, recent communications and notes from Redtail or Wealthbox CRM, pending service requests or account paperwork from the custodian portal, and any recent life events or planning triggers noted in scattered email threads. This assembly process takes 30-45 minutes per client and involves logging into 3-5 separate applications, copying data, and mentally synthesizing it into a coherent briefing.

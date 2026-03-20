@@ -3,7 +3,7 @@
 **Industry:** [[fleet-managers|Fleet Managers]]
 **Type:** High Impact
 **One-liner:** Fleets stop choosing between too-early maintenance that wastes parts and too-late maintenance that causes $5,000-$50,000 roadside breakdowns.
-**Tags:** #lstm #gradient-boosting #anomaly-detection #time-series-forecasting #tabular-ml #signal-processing #revenue-impact
+**Tags:** #lstms-and-grus #gradient-boosting #time-series-forecasting #feature-engineering #evaluation-metrics #loss-functions #probability-distributions #gradient-descent #revenue-impact
 
 ## The Problem
 Fleet managers maintain 50-5,000 vehicles with a mix of manufacturer-recommended intervals and reactive repairs. Manufacturer schedules are conservative (designed for worst-case conditions) and ignore actual operating conditions — a truck running highway routes in Arizona has different maintenance needs than the same truck doing stop-and-go urban delivery in Michigan winters. The result: either wasteful over-maintenance (changing oil at 5K miles when the oil still has 3K miles of life) or catastrophic under-maintenance (a $200 water pump failure becoming a $15,000 engine replacement because it wasn't caught). Experienced fleet managers develop intuition for which vehicles are "trouble" — but this doesn't scale.

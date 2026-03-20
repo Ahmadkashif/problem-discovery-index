@@ -3,7 +3,7 @@
 **Industry:** [[nonprofits-social-services|Social Services Nonprofits]]
 **Type:** Worker Life Changing
 **One-liner:** Development directors stop burning out their best donors through over-solicitation and start building sustainable giving relationships informed by data instead of desperation.
-**Tags:** #gradient-boosting #survival-analysis #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #survival-analysis #decision-trees #feature-engineering #evaluation-metrics #probability-distributions #maximum-likelihood-estimation #expectation-variance-covariance #worker-facing
 
 ## The Problem
 Development directors at social services nonprofits manage donor portfolios of 200-500 individual donors plus 20-50 institutional/corporate donors. They face constant pressure to hit quarterly fundraising targets, which drives a pattern of over-solicitation: the same reliable donors get asked for money 8-12 times per year via email appeals, event invitations, peer-to-peer campaigns, and direct asks. Development directors can feel when a donor is pulling away — slower email responses, declining event attendance, smaller gift amounts — but they have no systematic way to distinguish a donor entering fatigue from one who simply had a busy month. The result is a reactive cycle: a major donor stops giving, the development director scrambles to replace the revenue, and increases solicitation pressure on remaining donors, accelerating the next lapse.

@@ -3,7 +3,7 @@
 **Industry:** [[software-dev-agencies|Software Development Agencies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Static analysis tools exist but none produce a client-readable tech debt report that maps code health to business risk and maintenance cost.
-**Tags:** #gradient-boosting #multiclass-classification #tabular-ml
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #descriptive-statistics
 
 ## The Problem
 Every agency project ends with a handoff — either to the client's internal team, a maintenance contractor, or back to the agency on a retainer. The codebase at handoff carries accumulated tech debt from deadline pressure, mid-project pivots, and the gap between "works" and "works well." Neither the agency nor the client has a clear, quantified picture of what that debt will cost to service. The agency risks reputation damage when the client's team inherits a fragile codebase; the client risks budget surprises when "small changes" take weeks because of hidden coupling.

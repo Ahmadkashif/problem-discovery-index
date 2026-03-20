@@ -3,7 +3,7 @@
 **Industry:** [[staffing-agencies|Staffing Agencies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** When an account manager quotes a bill rate to a client on the phone, they're guessing at the true margin because the real cost — burden rate, workers' comp class code, SUTA rate by state, ACA obligations, and client-specific payment terms — lives in five different systems and one senior person's head.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #expectation-variance-covariance #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 Staffing agencies live and die on spread — the difference between what the client pays (bill rate) and what the agency pays out (pay rate + burden). But burden is not a single number. It includes FICA (7.65%), FUTA (0.6% on first $7K), SUTA (varies from 0.5% to 6.2% depending on the state and the agency's experience rating), workers' comp premiums (which vary by class code — office clerical at $0.30/$100 vs. roofing at $15.00/$100), ACA health insurance obligations if the worker hits 30 hours/week for a measurement period, and sometimes client-specific costs like required safety training or drug testing. An account manager quoting a bill rate of $22/hour for a warehouse worker in Ohio might assume 25% burden when the true burden is 31%, turning a healthy 28% gross margin into a break-even 19%.

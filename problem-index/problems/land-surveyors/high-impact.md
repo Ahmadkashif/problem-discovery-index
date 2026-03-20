@@ -3,7 +3,7 @@
 **Industry:** [[land-surveyors|Land Surveyors]]
 **Type:** High Impact
 **One-liner:** Senior surveyors translate 100-year-old deed descriptions into modern coordinates by reading physical evidence in the landscape alongside archaic legal language — this tacit knowledge is retiring at 3,000-4,000 PLS per year, and no system exists to capture the judgment that transforms raw measurements into legally defensible boundary determinations.
-**Tags:** #bert #cnn #multiclass-classification #nlp #computer-vision #tacit-knowledge-ml #revenue-impact
+**Tags:** #bert #cnns #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #attention-mechanisms #backpropagation #gradient-descent #cross-validation #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 

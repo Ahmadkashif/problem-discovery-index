@@ -3,7 +3,7 @@
 **Industry:** [[hoa-management|HOA Management]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic financial modeling tools can project reserve fund balances forward, but don't integrate the community's reserve study (component inventory, useful life estimates, replacement costs) with actual assessment collection rates, inflation assumptions, and investment return scenarios to produce a defensible funding plan recommendation.
-**Tags:** #gradient-boosting #regression #tabular-ml #compliance #automation
+**Tags:** #gradient-boosting #linear-regression #time-series-forecasting #feature-engineering #sequences-and-series #arithmetic-and-basic-algebra #compliance #automation
 
 ## The Problem
 

@@ -3,7 +3,7 @@
 **Industry:** [[accounting-firms-smb|SMB Accounting Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** CPAs get definitive, citation-backed answers to client-specific tax questions in minutes instead of the 45-90 minute manual research cycle through CCH and RIA.
-**Tags:** #llm #text-generation #nlp
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #entropy-cross-entropy-kl-divergence #evaluation-metrics
 
 ## The Problem
 When a client asks "Can I deduct my home office if I also rent a coworking space?" or a preparer encounters an unusual K-1 allocation from a client's partnership interest, the CPA must research the position, find supporting authority (IRC sections, Treasury regulations, revenue rulings, court cases), and document the rationale in a tax memo that survives IRS scrutiny. A mid-complexity research question takes 45-90 minutes using traditional tools, and a typical firm encounters 5-15 such questions per week during tax season. The research must be precise — citing the wrong revenue ruling or missing a recent Tax Court decision creates malpractice exposure.

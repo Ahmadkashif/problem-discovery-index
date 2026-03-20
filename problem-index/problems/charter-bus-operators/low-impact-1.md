@@ -3,7 +3,7 @@
 **Industry:** [[charter-bus-operators|Charter Bus Operators]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic compliance tools handle trucking regulations well but miss the charter-specific requirements around passenger carrier safety ratings, operating authority renewals, and state-by-state intrastate permits.
-**Tags:** #llm #text-generation #nlp #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #compliance
 
 ## The Problem
 Charter bus operators face a layered compliance burden: FMCSA operating authority maintenance, biennial updates, USDOT number renewals, driver qualification files (medical certificates, CDL verification, MVR pulls every 12 months), drug & alcohol testing program records, annual vehicle inspections, and state-specific intrastate operating permits that vary by jurisdiction. A single missed filing — like failing to update the MCS-150 form — can trigger an investigation that results in an out-of-service order, grounding the entire fleet. Small operators (1-10 buses) typically assign compliance to an operations manager who handles it alongside dispatch, scheduling, and customer calls.

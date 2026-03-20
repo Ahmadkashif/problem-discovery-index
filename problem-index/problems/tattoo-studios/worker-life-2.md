@@ -3,7 +3,7 @@
 **Industry:** [[tattoo-studios|Tattoo Studios]]
 **Type:** Worker Life Changing
 **One-liner:** Studio owners and artists reclaim 10-15 hours per week from Instagram content creation, DM management, and engagement — without losing the social media presence that drives 80% of their bookings.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #worker-facing #automation
 
 ## The Problem
 Instagram is the tattoo industry's primary marketing channel, portfolio platform, and booking system combined. An artist or studio owner spends 10-15 hours weekly on: photographing completed work with proper lighting, writing engaging captions with relevant hashtags, responding to DMs (booking inquiries mixed with casual messages and spam), engaging with other accounts to maintain algorithmic visibility, managing stories and reels for ongoing engagement, and reposting client healed photos. This is unpaid labor that directly competes with paid tattooing time — every hour on Instagram is an hour not tattooing.

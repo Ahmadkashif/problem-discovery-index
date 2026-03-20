@@ -3,7 +3,7 @@
 **Industry:** [[last-mile-delivery|Last-Mile Delivery]]
 **Type:** Worker Life Changing
 **One-liner:** Delivery drivers who photograph package placement at every door — a required step for proof-of-delivery documentation — but whose photos are inconsistent in quality and framing get guided photo capture that ensures every delivery photo is an adequate evidence record for claims and recipient disputes.
-**Tags:** #computer-vision #automation #compliance #worker-facing
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #compliance #worker-facing
 
 ## The Problem
 

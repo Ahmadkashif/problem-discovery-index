@@ -3,7 +3,7 @@
 **Industry:** [[landscaping|Landscaping]]
 **Type:** High Impact
 **One-liner:** Experienced lawn care technicians who diagnose turf disease and nutrient deficiency by reading grass color patterns, lesion shapes, and disease progression signs — visual pattern recognition that determines which pesticide or fertilizer product to apply — get that diagnostic expertise replicated by a computer vision model, enabling technicians with 6 months of experience to diagnose correctly instead of guessing.
-**Tags:** #cnn #multiclass-classification #computer-vision #tacit-knowledge-ml #revenue-impact
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #feature-engineering #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 

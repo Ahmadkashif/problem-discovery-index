@@ -3,7 +3,7 @@
 **Industry:** [[personal-trainers|Personal Trainers]]
 **Type:** High Impact
 **One-liner:** Every client rep is scored for compensatory patterns and injury risk in real time, giving trainers superhuman movement analysis and clients safer, faster progress.
-**Tags:** #cnn #pose-estimation #multiclass-classification #computer-vision #tacit-knowledge-ml #revenue-impact
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #gradient-descent #evaluation-metrics #matrix-algebra #optimization-fundamentals #feature-engineering #cross-validation #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 An experienced trainer watches a client squat and instantly identifies ankle dorsiflexion restriction, lateral hip shift, knee valgus collapse, and anterior pelvic tilt — all within a single rep, all without formal assessment tools. This pattern recognition is built over years of watching thousands of clients perform thousands of reps, and it is the single most valuable skill in the profession. But it cannot be transferred to junior trainers, it cannot scale beyond the one-on-one session, and it degrades when the trainer is fatigued, distracted, or managing group sessions. Remote and hybrid clients — now 30-40% of many trainers' books — get almost none of this benefit because asynchronous video review is too time-consuming to do at rep-by-rep granularity.

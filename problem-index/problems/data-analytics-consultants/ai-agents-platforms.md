@@ -5,7 +5,7 @@
 ---
 
 ## 1. Data Quality Agent
-#ai-agent #anomaly-detection #automation #data-integration
+#ai-agent #large-language-models #gradient-boosting #feature-engineering #descriptive-statistics #automation #data-integration
 
 **Concept:** An autonomous agent that connects to a client's data warehouse at engagement kickoff, runs a comprehensive profiling and quality assessment, and produces an annotated data quality report within hours — not the days or weeks it currently takes an analyst to do manually. The agent profiles every table and column, tests join relationships for fan-outs and data loss, identifies columns with implicit business logic (e.g., encoded status codes, overloaded fields), detects stale or orphaned tables, and ranks all findings by likely impact on downstream analysis. It operates continuously during the engagement, monitoring for data drift or upstream changes that could invalidate the consultant's work.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Dashboard Builder Agent
-#ai-agent #llm #text-generation #automation
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #automation
 
 **Concept:** An agent that takes a natural-language description of the desired analytical view (e.g., "monthly recurring revenue by customer segment with churn overlay and cohort retention curves"), connects to the client's data warehouse, identifies the relevant tables and columns, writes the necessary SQL transformations, and generates a complete, interactive dashboard in the client's BI platform of choice (Tableau, Looker, Power BI, Metabase). The agent handles the semantic mapping between analytical concepts and the client's specific schema, applies appropriate aggregation logic, and configures cross-filtering and drill-down behavior.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Project Scoping Agent
-#ai-agent #ai-platform #revenue-impact #workflow-orchestration
+#ai-agent #ai-platform #large-language-models #gradient-boosting #feature-engineering #confidence-intervals #revenue-impact #workflow-orchestration
 
 **Concept:** An agent that assists principals and account managers in scoping new analytics engagements by analyzing the prospective client's data environment, comparing it to historical engagements, and generating a detailed scope document with effort estimates, risk factors, and recommended team composition. The agent conducts a preliminary data assessment (with client permission), maps the requested deliverables to its knowledge of similar past projects, identifies potential scope risks (e.g., "their data warehouse has 47 tables with no documentation — expect 2x the usual data profiling effort"), and produces a draft SOW with phase-by-phase timelines and confidence intervals.
 

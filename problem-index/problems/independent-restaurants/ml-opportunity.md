@@ -6,7 +6,7 @@
 ---
 
 ## 1. Kitchen Production Quality Detection from Visual and Temporal Signals
-#cnn #lstm #anomaly-detection #computer-vision #signal-processing #tabular-ml #tacit-knowledge-ml
+#cnns #lstms-and-grus #transfer-learning #loss-functions #backpropagation #gradient-descent #evaluation-metrics #matrix-algebra #optimization-fundamentals #tacit-knowledge-ml
 
 **Problem statement:** An experienced chef or line cook assesses dish quality, kitchen pace, and ingredient freshness through a continuous stream of tacit sensory judgments — reading sear color and surface texture to know doneness without a thermometer, smelling fermentation onset in walk-in proteins before any visible spoilage, feeling dough hydration by hand pressure response, and reading the rhythm of ticket printing and plate-up timing to sense when the kitchen is falling behind before tickets actually pile up. These judgments are real-time, multi-modal, and largely inarticulate: the cook "just knows." Capturing and replicating this expert perception is the highest-leverage ML opportunity in independent restaurants because it addresses quality consistency (the #1 driver of repeat visits), food safety, waste reduction, and kitchen flow management simultaneously.
 
@@ -25,7 +25,7 @@
 ---
 
 ## 2. Daily Demand Forecasting by Menu Item
-#gradient-boosting #time-series-forecasting #tabular-ml #data-integration
+#gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance #data-integration
 
 **Problem statement:** Independent restaurants order ingredients 2-3 days in advance and prep 4-12 hours before service based on the chef's intuition about expected covers and menu mix. When they over-forecast, perishable ingredients are wasted (4-10% of food purchased, industry average). When they under-forecast, they 86 popular items mid-service, losing revenue and frustrating guests. Accurate per-item demand forecasting at the daily level would directly reduce both waste and stockouts.
 
@@ -44,7 +44,7 @@
 ---
 
 ## 3. Food Waste Prediction and Prep Optimization
-#random-forest #regression #tabular-ml #automation
+#random-forests #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #automation
 
 **Problem statement:** Prep cooks at independent restaurants prepare quantities of sauces, proteins, vegetables, and mise en place based on the chef's verbal instructions, which are based on experience and rough mental models. Actual usage varies by 20-40% from prep quantities on any given day, resulting in either waste (prepped food that expires before use) or mid-service scrambles to prep more. An ML model that recommends precise prep quantities per item based on forecasted demand, shelf life, and current inventory would reduce waste and eliminate the stressful mid-rush re-prep scenario.
 
@@ -63,7 +63,7 @@
 ---
 
 ## 4. Shift-Level Staffing Optimization from Covers, Weather, and Event Signals
-#gradient-boosting #regression #tabular-ml #workflow-orchestration
+#gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #workflow-orchestration
 
 **Problem statement:** Independent restaurant managers build weekly schedules using intuition and spreadsheets, frequently over- or under-staffing by 1-2 servers or cooks per shift. Over-staffing costs $100-$200 per unnecessary labor shift; under-staffing degrades service quality and increases ticket times. Predicting optimal staff count per role (servers, cooks, bussers, bartenders) for each shift based on expected demand would reduce labor cost by 5-10% while maintaining or improving service quality.
 
@@ -82,7 +82,7 @@
 ---
 
 ## 5. Review Sentiment Analysis for Operational Issue Detection
-#bert #text-classification #nlp #quick-win
+#bert #transfer-learning #word-embeddings #attention-mechanisms #evaluation-metrics #entropy-cross-entropy-kl-divergence #quick-win
 
 **Problem statement:** Independent restaurants receive 5-30 reviews per week across Yelp, Google, and TripAdvisor. Owners read them reactively and respond individually, but do not systematically extract operational signals — e.g., "three reviews this month mentioned slow service on Saturday nights" or "complaints about the fish special cluster around the weeks when the sous chef is off." An NLP pipeline that extracts structured operational categories from review text and trends them over time would convert anecdotal feedback into actionable intelligence.
 

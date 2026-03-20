@@ -3,7 +3,7 @@
 **Industry:** [[moving-companies|Moving Companies]]
 **Type:** Worker Life Changing
 **One-liner:** Long-distance moving drivers get proactive scheduling that prevents HOS violations before they happen, eliminating the stress of choosing between illegal driving and missed delivery windows.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing #compliance
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #worker-facing #compliance
 
 ## The Problem
 Drivers on interstate moves operate under FMCSA Hours of Service regulations: 11 hours driving within a 14-hour on-duty window, mandatory 30-minute breaks, and 10-hour off-duty periods. But moving is not trucking — drivers don't just drive. They load at origin (2-6 hours of physical labor), drive to destination (sometimes 2-3 days), unload (another 2-6 hours), and handle customer walkthroughs, paperwork, and payment collection at both ends. Loading and unloading time counts toward the 14-hour on-duty window but not the 11-hour driving limit, creating a planning puzzle that dispatchers and drivers routinely miscalculate. Drivers face a constant tension: the customer expects delivery on the promised date, but HOS math may make that impossible without a violation.

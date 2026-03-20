@@ -3,7 +3,7 @@
 **Industry:** [[alterations-tailoring|Alterations & Tailoring]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Every alterations shop posts a price list on the wall, but the actual price for any specific garment depends on fabric type, construction quality, lining, number of layers, and alteration complexity — factors that only the master tailor can evaluate, making pricing inconsistent when anyone else handles intake.
-**Tags:** #gradient-boosting #regression #tabular-ml
+**Tags:** #gradient-boosting #cnns #linear-regression #transfer-learning #feature-engineering #cross-validation #evaluation-metrics
 
 ## The Problem
 Alterations pricing is supposed to be simple: "Hem pants: $15. Take in waist: $20." In reality, hemming unlined cotton chinos takes 10 minutes and hemming fully-lined wool trousers with a blind-stitched cuff takes 45 minutes — yet both are "hem pants." The price list on the wall represents minimums for the simplest version of each alteration. The actual price depends on: fabric type (silk requires hand-sewing; leather requires special equipment), garment construction (lined vs. unlined, number of seam layers at the alteration point), alteration complexity (simple hem vs. hem with taper, take in waist at the center back vs. reconstructing side seams), and number of alterations interacting (shortening a jacket requires adjusting every horizontal detail — pockets, buttons, darts). Master tailors assess these factors instantly at intake and quote accordingly. When front desk staff or less experienced workers handle intake, they default to the wall price, either undercharging for complex work or, knowing the wall price is wrong, making uncomfortable calls to the tailor mid-appointment.

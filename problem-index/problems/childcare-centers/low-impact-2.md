@@ -3,7 +3,7 @@
 **Industry:** [[childcare-centers|Childcare Centers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Licensing inspectors arrive unannounced and review dozens of documentation categories — immunization records, fire drill logs, incident reports, background checks, training hours — and centers that maintain all of these correctly in real time don't exist.
-**Tags:** #llm #text-generation #nlp #compliance
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #compliance
 
 ## The Problem
 State licensing agencies conduct unannounced inspections that evaluate 50-150 discrete compliance items: current immunization records for every enrolled child (with state-specific vaccine schedules that change annually), signed medication administration authorizations, fire drill logs conducted and documented monthly, emergency evacuation plans posted in every room, staff background check renewals (typically every 2-5 years depending on state), CPR/First Aid certification currency, annual professional development hour tracking per teacher, allergen and dietary restriction lists posted in food prep areas, incident/accident report archives with parent signatures, and diaper-changing procedure signage. A single missing document — one child's updated immunization form, one teacher's expired CPR card — can generate a violation that triggers a corrective action plan, follow-up inspection, or public posting on the state's childcare provider database. Directors spend 3-6 hours per week maintaining, auditing, and organizing these records across binders, filing cabinets, email attachments, and multiple software systems.

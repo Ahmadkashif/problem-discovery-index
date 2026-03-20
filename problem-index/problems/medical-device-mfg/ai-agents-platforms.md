@@ -5,7 +5,7 @@
 ---
 
 ## 1. DHR Compilation Agent
-#ai-agent #compliance #data-integration
+#ai-agent #large-language-models #transformers #attention-mechanisms #data-integration #compliance
 
 **Concept:** An autonomous agent that assembles complete Device History Records by querying MES, ERP, LIMS, QMS, and sterilization monitoring systems for all records associated with a production lot — compiling them into the DHR structure, verifying completeness against device-specific requirements, and flagging missing records before the lot is released.
 **Inputs:** Production lot number; device master record (defining which record types are required for this device type); API connections to MES (batch records, in-process inspection), ERP (component traceability, labeling records), LIMS (test results), QMS (nonconformance reports, deviation records), sterilization monitoring (cycle records, BI results)
@@ -16,7 +16,7 @@
 ---
 
 ## 2. CAPA Investigation Agent
-#ai-agent #compliance #nlp
+#ai-agent #bert #large-language-models #transfer-learning #word-embeddings #feature-engineering #compliance
 
 **Concept:** An agent triggered by a new CAPA investigation that automatically gathers relevant data from across the quality system — correlating complaint clusters with production records, component lots, and supplier data — and generates a preliminary root cause hypothesis with supporting evidence for the quality engineer's review, reducing investigation time from weeks to days.
 **Inputs:** CAPA trigger (complaint cluster, nonconformance trend, audit finding); complaint narratives and metadata from QMS; production batch records from MES; component lot traceability from ERP; supplier incoming inspection data; historical CAPA records for similar failure modes
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Design History File Audit Readiness Agent
-#ai-agent #compliance
+#ai-agent #large-language-models #transformers #attention-mechanisms #compliance
 
 **Concept:** An agent that scans a device's Design History File (DHF) for completeness against FDA Design Controls requirements (21 CFR 820.30) — verifying that design inputs trace to design outputs, that verification and validation records exist for each design requirement, that risk management artifacts are linked, and that design reviews are documented — generating an audit readiness score and a gap report before an FDA inspection or internal audit.
 **Inputs:** DHF document index from QMS document control; design input requirements list; design output specifications; verification and validation test reports; risk management file (per ISO 14971); design review meeting records; design transfer documentation; design change records

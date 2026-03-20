@@ -3,7 +3,7 @@
 **Industry:** [[hair-salons-independent|Hair Salons (Independent)]]
 **Type:** Worker Life
 **One-liner:** New stylists spend 12-24 months building a client base, earning $20,000-$28,000 during that period while carrying $15,000-$30,000 in cosmetology school debt — a data-driven client matching and growth tracking system could compress the ramp to 6-12 months.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #linear-regression #probability-distributions #expectation-variance-covariance #worker-facing
 
 ## The Problem
 

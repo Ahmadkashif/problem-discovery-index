@@ -3,7 +3,7 @@
 **Industry:** [[security-guard-firms|Security Guard Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** HR platforms track employee records, but they can't manage the matrix of state-specific guard licensing, client-specific training requirements, and certification renewal timelines that determine who can work where.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #compliance
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #compliance
 
 ## The Problem
 Security guards require state-specific licenses (varying by armed/unarmed, with different training hours and renewal cycles), client-specific certifications (OSHA 10, CPR/AED, fire watch, hazmat awareness), and company training (use of force, report writing, customer service). A firm operating across 3 states with 200 guards tracks 1,000+ credential expirations across 15-20 different requirement types. A guard deployed to a post without required certifications creates immediate liability. HR staff spend 15-20 hours weekly on credential tracking, training scheduling, and compliance verification.

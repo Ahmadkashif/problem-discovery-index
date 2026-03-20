@@ -3,7 +3,7 @@
 **Industry:** [[mortgage-brokers|Mortgage Brokers]]
 **Type:** Worker Life Changing
 **One-liner:** Processors get their evenings back instead of spending them chasing borrowers for the same missing documents across 30 open files.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #worker-facing #automation
 
 ## The Problem
 After initial underwriting, every loan receives a list of 8-25 conditions that must be cleared before closing — items like updated bank statements, letters of explanation for large deposits, proof of insurance, HOA certifications, or corrected documents. Loan processors spend 40-60% of their day tracking which conditions are outstanding on which files, drafting borrower-specific requests explaining what's needed and why, following up when borrowers don't respond, and verifying that submitted documents actually satisfy the condition. A processor managing 25-40 active files sends 50-100 condition-related communications per day, many of them near-identical but requiring enough customization that templates don't work cleanly.

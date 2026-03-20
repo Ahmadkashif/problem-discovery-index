@@ -3,7 +3,7 @@
 **Industry:** [[mortgage-brokers|Mortgage Brokers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic OCR can read a paystub — but it can't calculate qualifying income from a self-employed borrower's three years of K-1s, depreciation schedules, and business bank statements the way an underwriter needs it.
-**Tags:** #cnn #bert #ocr #named-entity-recognition #nlp #computer-vision #automation
+**Tags:** #cnns #bert #transfer-learning #attention-mechanisms #word-embeddings #loss-functions #backpropagation #evaluation-metrics #automation
 
 ## The Problem
 Loan processors manually extract data from paystubs, W-2s, tax returns (1040s, K-1s, 1120S), bank statements, and asset documentation for every loan file. A typical file has 80-150 pages of documents. The processor must not only extract values but calculate qualifying income according to lender-specific rules — Fannie Mae's income calculation differs from a non-QM lender's, and self-employed borrowers require multi-year trending analysis that no generic OCR tool handles correctly.

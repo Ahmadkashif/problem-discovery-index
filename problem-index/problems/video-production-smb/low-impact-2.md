@@ -3,7 +3,7 @@
 **Industry:** [[video-production-smb|SMB Video Production]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Production companies stop risking copyright strikes and surprise licensing fees because every asset in every project is tracked from purchase through final delivery.
-**Tags:** #bert #text-classification #nlp #compliance
+**Tags:** #bert #transfer-learning #attention-mechanisms #word-embeddings #evaluation-metrics #entropy-cross-entropy-kl-divergence #loss-functions #gradient-descent #compliance
 
 ## The Problem
 A typical corporate video uses 5-15 stock footage clips, 1-3 music tracks, and assorted sound effects — each with different license terms (single-use, multi-use, platform-restricted, duration-limited, territory-restricted). Producers purchase assets from Shutterstock, Artgrid, Epidemic Sound, Musicbed, and a dozen other sources, then lose track of which license covers which deliverable. Six months later, the client wants to repurpose the video for a trade show booth, and nobody can confirm whether the music license permits public exhibition. One copyright claim on a client's YouTube channel can destroy the relationship.

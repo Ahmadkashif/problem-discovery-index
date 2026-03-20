@@ -3,7 +3,7 @@
 **Industry:** [[compliance-consulting|Compliance Consulting Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic document generation tools can assemble text but can't structure a compliance gap analysis — mapping each regulatory requirement to client evidence, assigning a compliance status, and generating a risk-scored finding with remediation priority — without deep regulatory domain knowledge.
-**Tags:** #llm #text-generation #nlp #automation #workflow-orchestration
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #automation #workflow-orchestration
 
 ## The Problem
 A gap analysis is the core deliverable of most compliance engagements: for each requirement in a regulatory framework (FDA 21 CFR, HIPAA, SOC 2, ISO 27001), the consultant assesses whether the client has a conforming control in place, documents the evidence reviewed, assigns a gap status (conforming / minor gap / major gap / absent), and writes a finding description with remediation guidance. The final report maps potentially hundreds of requirements to client evidence, and the writing is highly structured but must be accurate, precise, and calibrated to the client's specific situation. Writing this report manually takes 20-40 hours of consultant time per engagement.

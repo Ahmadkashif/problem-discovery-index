@@ -3,7 +3,7 @@
 **Industry:** [[software-dev-agencies|Software Development Agencies]]
 **Type:** Worker Life Changing
 **One-liner:** Developers get back 60-90 minutes per day currently lost to mentally reloading project context every time they switch between client codebases.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #optimization-fundamentals #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 Agency developers routinely work on 2-4 client projects per week, sometimes switching between projects within the same day. Each switch requires reloading the mental model: which repo, which branch, which tech stack, which coding conventions, which Jira board, which Slack channel, which client stakeholder to ping, what was decided in yesterday's standup. A developer moving from a React/TypeScript e-commerce project to a Python/Django healthcare project burns 20-30 minutes per transition just getting oriented. Multiply by 3-4 switches per day across a 15-person dev team, and the agency loses 200+ developer-hours per month to context reload — hours that are billed to clients but produce zero output.

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Customer Churn Prediction from Order Pattern Analysis
-#gradient-boosting #binary-classification #time-series-forecasting #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #probability-distributions #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Predict which restaurant accounts will significantly reduce or stop ordering within the next 30 days, using historical order behavior, so sales reps can intervene before the account is lost.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Cross-Sell Recommendation for Sales Reps
-#gradient-boosting #recommendation #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #matrix-decompositions #norms-and-inner-products #revenue-impact
 
 **Problem statement:** Identify which product categories each restaurant account is under-purchasing relative to comparable accounts, and generate specific cross-sell recommendations for the sales rep's next visit.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Demand Forecasting for Perishable Procurement
-#gradient-boosting #time-series-forecasting #tabular-ml
+#gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #expectation-variance-covariance
 
 **Problem statement:** Forecast aggregate customer demand for perishable product categories (proteins, seafood, produce) at the SKU-group level, 5-7 days ahead, to reduce spoilage and stockouts.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Delivery Route Optimization with Time Window Constraints
-#reinforcement-learning #regression #tabular-ml #automation
+#markov-decision-processes #dynamic-programming #optimization-fundamentals #gradient-boosting #feature-engineering #combinatorics-and-counting #evaluation-metrics #automation
 
 **Problem statement:** Optimize daily delivery routes across 40-80 stops per truck, respecting restaurant-specific delivery windows (most restaurants require delivery before 10 AM prep start or during a 2-hour afternoon window) and truck capacity constraints for mixed loads (frozen, refrigerated, dry).
 

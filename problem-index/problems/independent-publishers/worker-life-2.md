@@ -3,7 +3,7 @@
 **Industry:** [[independent-publishers|Independent Publishers]]
 **Type:** Worker Life Changing
 **One-liner:** Marketing coordinators stop guessing which $500 allocation across six channels will move the needle for each title, replaced by data-driven spend optimization that treats every dollar as if it were the last one.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #bias-variance-tradeoff #probability-distributions #worker-facing #revenue-impact
 
 ## The Problem
 Marketing coordinators at independent presses typically manage 15-30 active titles simultaneously with per-title budgets of $500-$3,000. For each title, they must allocate across BookBub ads, Amazon Advertising, Instagram/TikTok content, email newsletters, trade review copies (Kirkus, Publishers Weekly), and bookstore co-op placement. With no analytics infrastructure, they rely on anecdotal experience and publisher lore ("literary fiction does well on Instagram; thrillers need BookBub") to make allocation decisions. Post-campaign attribution is nearly impossible because sales data arrives weeks later through BookScan and distributor reports with no channel tagging.

@@ -3,7 +3,7 @@
 **Industry:** [[customs-brokers|Customs Brokers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic trade compliance databases list tariff exclusions, but don't proactively match a broker's import portfolio against newly-published exclusions, calculate the retroactive duty savings, and draft the exclusion application or refund claim for the broker's clients.
-**Tags:** #llm #text-classification #nlp #compliance #automation #revenue-impact
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #evaluation-metrics #compliance #automation #revenue-impact
 
 ## The Problem
 

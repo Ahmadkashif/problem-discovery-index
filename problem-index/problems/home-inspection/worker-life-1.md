@@ -3,7 +3,7 @@
 **Industry:** [[home-inspection|Home Inspection]]
 **Type:** Worker Life Changing
 **One-liner:** Home inspectors who can identify defects but aren't sure how to communicate their financial significance to an anxious buyer — is a failed water heater a $800 item or a $1,500 item? does this foundation crack need a $500 patch or a $15,000 underpinning? — get a repair cost estimate range for each deficiency that the inspector can include in the report.
-**Tags:** #regression #tabular-ml #automation #worker-facing
+**Tags:** #linear-regression #gradient-boosting #feature-engineering #evaluation-metrics #descriptive-statistics #automation #worker-facing
 
 ## The Problem
 

@@ -3,7 +3,7 @@
 **Industry:** [[pet-services|Pet Services]]
 **Type:** High Impact
 **One-liner:** Daycare facilities stop relying on a single attendant's gut read of 30 dogs to prevent fights — computer vision continuously monitors pack dynamics and flags escalation patterns 15-30 seconds before they become incidents.
-**Tags:** #cnn #multiclass-classification #computer-vision #tabular-ml #revenue-impact
+**Tags:** #cnns #object-detection #transfer-learning #loss-functions #evaluation-metrics #backpropagation #gradient-descent #feature-engineering #revenue-impact
 
 ## The Problem
 Dog daycare facilities manage groups of 15-40 dogs in open play areas, supervised by 1-2 attendants who must simultaneously track every dog's body language, arousal level, play style, and social interactions. An experienced attendant develops an intuitive sense for pack dynamics — they notice when a dog's play bow shifts to resource guarding posture, when a submissive dog is being cornered and showing whale eye, when two dogs are escalating from chase play to predatory drift. This pattern recognition happens subconsciously and is the difference between a facility with zero incidents per month and one with weekly fights.

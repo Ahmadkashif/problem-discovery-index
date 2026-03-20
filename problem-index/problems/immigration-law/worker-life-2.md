@@ -3,7 +3,7 @@
 **Industry:** [[immigration-law|Immigration Law Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Paralegals who receive 20-50 documents per client per case — government notices, passports, diplomas, employment records, tax documents — and manually read, classify, and file each one get an automated intake system that classifies and routes every incoming document without human review except for exceptions.
-**Tags:** #bert #text-classification #ocr #nlp #automation #worker-facing
+**Tags:** #bert #transfer-learning #loss-functions #evaluation-metrics #cross-validation #automation #worker-facing
 
 ## The Problem
 Immigration case files are document-intensive in a way that few legal practices match. A single employment-based green card case may involve: passport biographical pages, prior visa stamps, I-94 arrival/departure records, employer support letters, educational credentials and evaluations, tax returns, pay stubs, prior immigration approvals, and government-generated notices — all arriving at different times via email attachments, fax, and physical mail. Each document must be read, identified, matched to the correct case and case phase, and filed in the case management system. This intake and classification task consumes 20-30% of paralegal time and is a bottleneck for case readiness: cases cannot move forward until all required documents are confirmed received and filed.

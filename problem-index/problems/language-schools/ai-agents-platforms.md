@@ -5,7 +5,7 @@
 ---
 
 ## 1. Placement Assessment Agent
-#ai-agent #nlp #speech-processing #tacit-knowledge-ml
+#ai-agent #bert #lstms-and-grus #transfer-learning #attention-mechanisms #evaluation-metrics #tacit-knowledge-ml
 
 **Concept:** An autonomous placement agent that conducts the entire student intake assessment without a human tester. The agent presents a structured elicitation task via a web interface (picture description, prompted questions, written paragraph), processes the audio and text through the proficiency diagnosis model, generates a CEFR sub-band placement with diagnostic annotations (L1 interference patterns, fossilization flags, skill-by-skill breakdown), and produces a placement recommendation with a confidence score. When confidence is high (>0.90), the placement is auto-finalized; when confidence is low or the student's profile is unusual, the agent routes the case to a human tester with a pre-filled diagnostic summary that cuts their review time by 80%.
 **Inputs:** Student audio recording (60-120 seconds), written text sample (100-200 words), student metadata (L1, prior study history, target proficiency goal).
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Curriculum Pacing Agent
-#ai-agent #nlp #workflow-orchestration
+#ai-agent #bayesian-inference #large-language-models #transfer-learning #feature-engineering #workflow-orchestration
 
 **Concept:** A continuous-loop agent that monitors each student's progress across the four language skills (listening, speaking, reading, writing), compares actual progression against the school's curriculum map and CEFR can-do descriptors, and autonomously adjusts the student's homework and supplementary material queue. At the class level, the agent identifies when a section's proficiency spread has widened beyond a threshold and recommends mid-session regrouping or targeted small-group interventions. It generates weekly pacing reports for the program director showing which sections are on-track, which are ahead (and can absorb harder material), and which are falling behind (with specific skill bottlenecks identified).
 **Inputs:** LMS activity data (assignment scores, time-on-task, completion rates), periodic assessment results (quiz scores mapped to CEFR sub-bands), attendance records, instructor-entered progress notes.
@@ -27,7 +27,7 @@
 ---
 
 ## 3. SEVIS Compliance Agent
-#ai-agent #compliance #data-integration #llm #text-classification
+#ai-agent #large-language-models #bert #transfer-learning #attention-mechanisms #compliance #data-integration
 
 **Concept:** A compliance-focused agent that continuously monitors the school's student records against SEVP/SEVIS reporting requirements and autonomously manages the documentation pipeline. The agent ingests attendance data (from whatever source the school uses — SIS, spreadsheet, or manual entry), cross-references it against per-student SEVIS reporting deadlines, flags students approaching the 80% attendance threshold with escalating alerts (advisory at 85%, warning at 82%, critical at 80.5%), auto-populates SEVIS batch upload files for routine reporting events (enrollment verification, session completion, program extension), and drafts DSO action memos for non-routine events (early withdrawal, status termination, reinstatement recommendation) with LLM-assisted classification of the event type based on the student's case notes.
 **Inputs:** Student attendance records, enrollment status data, SEVIS reporting calendar, student case notes (free-text entries by advisors), document expiration dates (I-20, passport, visa stamp), school session calendar.

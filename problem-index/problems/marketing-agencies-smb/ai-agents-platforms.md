@@ -5,7 +5,7 @@
 ---
 
 ## 1. Client Reporting Narrative Agent
-#ai-agent #llm #text-generation #nlp #automation
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #entropy-cross-entropy-kl-divergence #automation
 
 **Concept:** An autonomous reporting agent that connects to an agency's ad platforms, analytics, email tools, and CRM via API, then generates monthly client reports with full narrative context — not just charts, but paragraphs explaining what happened, why metrics moved, and what the agency recommends doing next month. The agent cross-references each client's stated goals (stored in a goal document), the agency's recent campaign changes (pulled from platform change logs), and industry seasonal benchmarks to produce a first-draft report that reads like it was written by the AM who manages the account. The AM reviews and approves in 10-15 minutes instead of writing from scratch in 90 minutes.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Campaign Optimization Agent
-#ai-agent #ai-platform #gradient-boosting #reinforcement-learning #automation #revenue-impact
+#ai-agent #ai-platform #gradient-boosting #markov-decision-processes #policy-gradient-methods #feature-engineering #evaluation-metrics #automation #revenue-impact
 
 **Concept:** A cross-platform campaign management agent that monitors Google Ads, Meta Ads, and email campaigns in real-time, identifies underperformance against benchmarks, and executes or recommends budget reallocations, bid adjustments, audience changes, and creative rotations. Unlike platform-native automation (Google's Smart Bidding, Meta's Advantage+), this agent optimizes across channels toward a unified client goal — e.g., "maximize qualified leads under $50 CPA across all channels" — rather than optimizing each platform in isolation. The agent operates within guardrails set by the PPC specialist (maximum daily budget shift, required approval for changes above a threshold).
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. SOW and Proposal Generation Agent
-#ai-agent #llm #text-generation #nlp #workflow-orchestration
+#ai-agent #large-language-models #transformers #gradient-boosting #feature-engineering #transfer-learning #workflow-orchestration
 
 **Concept:** A proposal-generation agent that takes an inbound client brief (email, RFP document, or transcribed discovery call), decomposes it into a structured project scope, estimates hours per deliverable using the agency's historical time-tracking data, prices the engagement based on the agency's rate card and margin targets, and produces a formatted SOW document ready for the agency owner's review and the client's e-signature. The agent learns from each completed project — comparing estimated vs. actual hours — and improves its estimates over time, flagging deliverable types where the agency consistently under- or over-scopes.
 

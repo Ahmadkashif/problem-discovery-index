@@ -3,7 +3,7 @@
 **Industry:** [[collections-agencies|Collections Agencies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Skip tracers toggle between 3-5 data vendors manually; a unified resolution layer could merge, deduplicate, and confidence-score contact information across all sources in one query.
-**Tags:** #bert #named-entity-recognition #nlp #data-integration
+**Tags:** #bert #transformers #word-embeddings #transfer-learning #feature-engineering #evaluation-metrics #data-integration
 
 ## The Problem
 When a debtor's contact information is stale or missing, skip tracers query LexisNexis, TLO/TransUnion, credit bureau headers, social media scrapers, and public records databases — each with different interfaces, different data formats, and different strengths. A single skip trace can require 15-20 minutes of manual cross-referencing to reconcile conflicting addresses, phone numbers, and employer information. Agencies performing 500+ skip traces per day lose significant labor hours to this fragmentation.

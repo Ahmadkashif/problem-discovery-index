@@ -5,7 +5,7 @@
 ---
 
 ## 1. Load Selection Agent
-#ai-agent #tacit-knowledge-ml #revenue-impact
+#ai-agent #gradient-boosting #feature-engineering #large-language-models #optimization-fundamentals #tacit-knowledge-ml #revenue-impact
 
 **Concept:** An autonomous agent that monitors multiple load boards simultaneously (DAT, Truckstop.com, Uber Freight, direct shipper portals), scores every available load against the operator's real-time position, HOS status, fuel level, home-time preferences, and learned profitability model, then presents a ranked shortlist of 3-5 optimal loads with full cost breakdowns. The agent negotiates rate with brokers via automated counteroffer messaging, books the load upon operator approval, and dispatches route and fueling instructions to the truck's navigation system. Over time, the agent learns the operator's preferences — lane familiarity, shipper/receiver preferences, weekend availability, minimum rate thresholds — and requires less manual override.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Predictive Maintenance Alert Agent
-#ai-agent #tacit-knowledge-ml #automation
+#ai-agent #cnns #lstms-and-grus #transfer-learning #evaluation-metrics #tacit-knowledge-ml #automation
 
 **Concept:** A continuous monitoring agent that fuses OBD-II/J1939 telemetry, in-cab audio analysis, and maintenance history to detect component degradation before failure. The agent doesn't just alert — it acts: when it detects early-stage turbo bearing wear, it identifies the nearest authorized repair facility with parts in stock, checks the operator's schedule for a maintenance window that minimizes revenue loss, generates a repair authorization with estimated cost, and books the appointment. For non-urgent issues, it tracks degradation trends and schedules maintenance during planned home time. The agent maintains a complete digital maintenance record that satisfies DOT inspection requirements and supports resale value documentation.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Back-Office Administration Platform
-#ai-platform #automation #compliance
+#ai-platform #large-language-models #transformers #transfer-learning #automation #compliance
 
 **Concept:** A comprehensive AI-powered back-office platform that handles every non-driving task an owner-operator currently does manually: IFTA fuel tax calculation and filing, quarterly estimated tax payments, per-load P&L tracking, insurance certificate management, FMCSA authority renewals, drug testing compliance scheduling, invoice generation and accounts receivable follow-up, and annual DOT audit preparation. The platform ingests data passively from fuel cards, ELD systems, bank accounts, and load confirmations — the operator never enters data manually. An LLM-powered assistant answers questions ("Am I on track for quarterly taxes?" "When does my MC authority expire?" "Which broker owes me money over 30 days?") in natural language through voice while driving.
 

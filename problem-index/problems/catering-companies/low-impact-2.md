@@ -3,7 +3,7 @@
 **Industry:** [[catering-companies|Catering Companies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Allergen tracking tools exist for restaurants, but none handle the catering-specific challenge of managing dietary matrices across multiple simultaneous events with different menus, shared kitchen prep, and cross-contact risk from batch production.
-**Tags:** #bert #text-classification #nlp #compliance
+**Tags:** #bert #transfer-learning #word-embeddings #attention-mechanisms #evaluation-metrics #entropy-cross-entropy-kl-divergence #compliance
 
 ## The Problem
 A catering company running a multi-event day may have 15-30 distinct dietary restriction flags across events — gluten-free, dairy-free, nut allergy, shellfish allergy, vegan, kosher, halal, low-sodium, keto — each requiring menu-level accommodation and kitchen-level cross-contact prevention. The restriction information arrives in different formats: a corporate event planner sends a spreadsheet with employee names and restrictions, a wedding client mentions "three guests are celiac" in an email thread, a cocktail reception host says "make everything gluten-free" verbally during a tasting. The kitchen must consolidate these into a single production reality where the nut-free dessert for Event A is not prepped on the same surface used for the almond-crusted chicken for Event B, and the vegan entree for Event C does not share a warming pan with the butter-finished sauce for Event D.

@@ -3,7 +3,7 @@
 **Industry:** [[public-adjusters|Public Adjusters]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Contract analysis tools can parse legal documents, but they can't navigate the 200-page commercial property policy with its endorsements, sublimits, coinsurance clauses, and ordinance-or-law coverage extensions to identify every applicable coverage and calculate the maximum recoverable amount for a specific loss scenario.
-**Tags:** #bert #text-classification #nlp
+**Tags:** #bert #transfer-learning #attention-mechanisms #transformers #word-embeddings #loss-functions #evaluation-metrics #entropy-cross-entropy-kl-divergence #compliance
 
 ## The Problem
 Commercial property insurance policies are 100-300 pages of base policy language, endorsements, exclusions, sublimits, and special conditions. A single commercial loss may trigger 5-10 different coverage sections: building damage, business personal property, business income, extra expense, ordinance or law, debris removal, pollutant cleanup, and various sublimited coverages. Public adjusters handling commercial claims must read the entire policy, identify every applicable coverage, calculate sublimits and coinsurance implications, and ensure the claim is filed under every relevant section. Missing a coverage section means leaving money on the table — many commercial policyholders don't know they have ordinance-or-law coverage (which can add 20-30% to a claim) or business income coverage with extended period of indemnity. Experienced adjusters know which endorsements to look for; juniors often miss them.

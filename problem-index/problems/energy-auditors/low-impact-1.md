@@ -3,7 +3,7 @@
 **Industry:** [[energy-auditors|Energy Auditors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic document generation exists but cannot translate a single audit dataset into HERS, BPI 2400, and ASHRAE Level II reports without hours of manual reformatting.
-**Tags:** #llm #text-generation #nlp #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #automation
 
 ## The Problem
 A single residential or light-commercial audit produces data that must be packaged differently depending on the audience: a HERS Index report for real estate transactions, a BPI 2400-compliant report for weatherization programs, an ASHRAE Level I or II report for commercial building owners, and a homeowner-friendly summary for the sales process. Auditors spend 1-3 hours per audit reformatting the same underlying data into these different templates, adjusting language, including the right compliance statements, and ensuring measure descriptions match each standard's terminology.

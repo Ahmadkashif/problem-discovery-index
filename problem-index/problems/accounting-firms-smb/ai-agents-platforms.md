@@ -5,7 +5,7 @@
 ---
 
 ## 1. Client Document Chase Agent
-#ai-agent #automation #nlp
+#ai-agent #large-language-models #transformers #cnns #transfer-learning #automation
 
 **Concept:** An autonomous agent that manages the entire client document collection lifecycle during tax season. It maintains a per-client checklist of required documents (derived from prior-year return and known income sources), monitors incoming uploads and emails for document submissions, classifies received documents against the checklist, sends personalized follow-up messages through the client's preferred channel (email, text, portal notification) with escalating urgency, and updates the firm's workflow system when a client's file is complete and ready for preparation.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Bookkeeping Reconciliation Agent
-#ai-agent #automation #tabular-ml #data-integration
+#ai-agent #gradient-boosting #feature-engineering #evaluation-metrics #cross-validation #automation #data-integration
 
 **Concept:** An agent that performs monthly bookkeeping close for each client autonomously: downloads bank and credit card feeds, categorizes transactions using client-specific models, matches transactions to invoices and bills, identifies and flags reconciliation discrepancies, generates the monthly financial statements, and presents the bookkeeper with a focused exception report rather than a full transaction queue. The agent handles 80-90% of the monthly close workflow, leaving the bookkeeper to resolve only the genuinely ambiguous items.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Tax Preparation Workpaper Agent
-#ai-agent #automation #nlp #compliance
+#ai-agent #large-language-models #cnns #transformers #transfer-learning #automation #compliance
 
 **Concept:** An agent that assembles the complete workpaper file for each tax return by extracting data from classified source documents, populating tax prep software input screens, generating supporting schedules (depreciation, basis tracking, loss limitation), cross-referencing prior-year positions, and producing a review-ready workpaper package with flagged items requiring partner attention. The agent transforms the preparer's role from data assembly to analytical review.
 
@@ -50,7 +50,7 @@
 ---
 
 ## 4. Advisory Insight Agent
-#ai-agent #ai-platform #llm #text-generation #nlp #revenue-impact
+#ai-agent #ai-platform #large-language-models #transformers #attention-mechanisms #evaluation-metrics #entropy-cross-entropy-kl-divergence #revenue-impact
 
 **Concept:** A platform that continuously analyzes each client's financial data and generates proactive advisory insights — tax planning opportunities, cash flow warnings, profitability benchmarks, and regulatory changes affecting the client's industry — packaged as ready-to-send client communications. The agent transforms the firm from reactive (client asks a question, firm answers) to proactive (firm identifies the opportunity and reaches out), enabling the shift from compliance-only to advisory-led relationships.
 

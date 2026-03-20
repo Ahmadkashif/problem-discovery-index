@@ -3,7 +3,7 @@
 **Industry:** [[compliance-consulting|Compliance Consulting Firms]]
 **Type:** High Impact
 **One-liner:** A compliance consultant who currently monitors 6-12 regulatory frameworks manually — reading every Federal Register notice, FDA guidance document, and state agency update — gets an AI system that reads them first, classifies the impact on each active client engagement, and delivers a targeted briefing with specific client action recommendations within 24 hours of each regulatory change.
-**Tags:** #bert #text-classification #nlp #automation #tacit-knowledge-ml #revenue-impact
+**Tags:** #bert #transformers #transfer-learning #feature-engineering #loss-functions #entropy-cross-entropy-kl-divergence #gradient-descent #evaluation-metrics #tacit-knowledge-ml #automation #revenue-impact
 
 ## The Problem
 Regulatory change is continuous across every compliance domain. The FDA issues new guidance documents, warning letters, and rule changes; CMS updates billing and quality requirements quarterly; OSHA issues new standards and enforcement policy updates; state regulators add jurisdiction-specific overlays to federal requirements. A compliance consultant serving clients in multiple industries must monitor all of these simultaneously and translate each change into a specific client impact analysis: which clients are affected, how significantly, what specific control or policy update is required, and by when. Currently, this is done by reading the regulatory notice, applying domain expertise to assess impact, and drafting a client communication — a process that takes 2-4 hours per significant regulatory change and falls behind when multiple changes arrive simultaneously.

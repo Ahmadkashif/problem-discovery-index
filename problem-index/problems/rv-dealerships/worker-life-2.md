@@ -3,7 +3,7 @@
 **Industry:** [[rv-dealerships|RV Dealerships]]
 **Type:** Worker Life Changing
 **One-liner:** Sales consultants stop bluffing through walkthroughs of 150 unique units and start having instant access to every feature, spec, and known issue for the unit they're standing in front of.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #worker-facing
 
 ## The Problem
 An RV dealership lot holds 50-200 units, each unique — different floor plans, different option packages, different brands with different feature implementations. A customer walks onto the lot and points at a unit. The sales consultant must walk through that specific RV explaining features, demonstrating systems, answering questions about tow capacity, sleeping capacity, tank sizes, and comparing it to the unit three rows over. The consultant has seen this specific unit once during lot orientation, if at all. Faking knowledge destroys trust; admitting ignorance loses the sale.

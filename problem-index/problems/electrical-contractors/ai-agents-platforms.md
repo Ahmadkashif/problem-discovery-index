@@ -5,7 +5,7 @@
 ---
 
 ## 1. Electrical Panel Inspection AI Platform
-#ai-platform #cnn #computer-vision #tacit-knowledge-ml #compliance #revenue-impact
+#ai-platform #cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #tacit-knowledge-ml #compliance #revenue-impact
 
 **Concept:** A purpose-built platform for electrical panel inspection — targeting three distinct user groups: electrical contractors (residential and commercial service calls), home inspectors (pre-purchase inspections), and insurance underwriters (homeowners insurance risk assessment). The platform's core is a computer vision model trained to replicate master electrician panel assessment, accessible via mobile app photo upload and returning a structured inspection report in under 30 seconds.
 **Inputs:** Panel interior photos (3-5 images from different angles), panel label photo, building age and location (for jurisdiction-specific code context), user role (electrician / inspector / insurance assessor) for report format selection
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Electrical Field Service Intelligence Platform
-#ai-platform #tabular-ml #revenue-impact
+#ai-platform #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #revenue-impact
 
 **Concept:** An AI layer sitting on top of ServiceTitan (or direct replacement for smaller firms) that adds: fault diagnosis decision support for technicians, labor hour estimation from scope descriptions, NEC compliance checklists by job type and jurisdiction, and job profitability analytics — transforming field service data into operational intelligence.
 **Inputs:** Service call records from ServiceTitan API, job scope descriptions from dispatch, completed job actual hours for training the estimation model, jurisdiction data for NEC compliance checklist generation
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Apprentice Training and Knowledge Transfer Platform
-#ai-platform #llm #nlp #worker-facing
+#ai-platform #large-language-models #transformers #transfer-learning #word-embeddings #evaluation-metrics #worker-facing
 
 **Concept:** A mobile-first knowledge platform for the electrical trades that combines master electrician knowledge capture, apprentice just-in-time learning, and apprenticeship progress tracking — addressing the knowledge transfer crisis in the trade as master electricians retire without successors. The platform is used simultaneously by masters (to narrate and capture their expertise during work) and apprentices (to access that expertise in field context).
 **Inputs:** Master electrician voice narrations and annotations during field work, NEC codebook and electrical theory knowledge base, apprentice job history and work type records, NJATC/IEC competency standards
@@ -38,7 +38,7 @@
 ---
 
 ## 4. Electrical Estimation and Bid Intelligence Agent
-#ai-agent #gradient-boosting #tabular-ml #revenue-impact
+#ai-agent #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #revenue-impact
 
 **Concept:** An AI estimating agent that takes a job description from the dispatcher or salesperson, retrieves comparable historical jobs from the firm's database, generates a preliminary labor and material estimate, and routes it for estimator review — reducing the time from job inquiry to quote from 2 days to 2 hours for standard residential and light commercial work.
 **Inputs:** Job description (scope of work, building type, customer address and building age, access conditions), firm's historical job cost database, current material pricing from distributor API or manual entry, labor productivity model trained on firm-specific historical data

@@ -3,7 +3,7 @@
 **Industry:** [[moving-companies|Moving Companies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Damage claims are already handled by insurance software, but none of it understands moving-specific liability tiers, pre-existing vs. transit damage, or the photographic evidence workflows movers actually need.
-**Tags:** #cnn #object-detection #computer-vision #compliance
+**Tags:** #cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #compliance
 
 ## The Problem
 On roughly one in three long-distance moves, at least one item arrives with new damage — a scratch on a dresser, a cracked mirror, a dented appliance. The customer files a claim, the company must determine liability (full-value protection vs. released-value at $0.60/lb), document the damage with photos, assess whether the damage is pre-existing or transit-related, and either settle or dispute. This process takes 2-6 weeks, consumes 4-8 hours of administrative time per claim, and frequently ends in customer disputes that generate chargebacks or negative reviews regardless of outcome.

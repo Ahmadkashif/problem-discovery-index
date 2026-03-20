@@ -3,7 +3,7 @@
 **Industry:** [[oil-gas-field-services|Oil & Gas Field Services]]
 **Type:** Worker Life Changing
 **One-liner:** Field techs get predictable, fair schedules instead of constant last-minute route changes that destroy their personal time and add hundreds of unnecessary driving miles per week.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #optimization-fundamentals #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 A typical oilfield service company dispatches crews to wellsites scattered across a basin that can span 100+ miles in any direction. Scheduling is done by a dispatcher using a whiteboard or spreadsheet, assigning jobs based on who is available and roughly where they are. The result is chronic inefficiency: a tech drives 45 minutes past a wellsite that needs service to reach their assigned site, while another tech drives 45 minutes in the opposite direction to cover the skipped one. Schedules change constantly as emergency calls come in, and techs often learn about route changes mid-drive via radio or text. A field tech may drive 200-400 miles per day, with 30-40% of that mileage being avoidable. The unpredictability means techs cannot reliably tell their families when they will be home, and the excessive windshield time is physically exhausting and a leading cause of vehicle accidents.

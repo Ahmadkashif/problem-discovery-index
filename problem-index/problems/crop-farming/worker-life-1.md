@@ -3,7 +3,7 @@
 **Industry:** [[crop-farming|Crop Farming]]
 **Type:** Worker Life Changing
 **One-liner:** Equipment operators who run tractors, planters, combines, and sprayers for 14-18 hour days during planting and harvest windows — making critical decisions about speed, depth, overlap, and engagement while fighting exhaustion — face cognitive impairment comparable to legal intoxication after 16+ hours that degrades decision quality and creates safety risk on equipment weighing 20-40 tons.
-**Tags:** #lstm #anomaly-detection #signal-processing #worker-facing
+**Tags:** #lstms-and-grus #rnns #time-series-forecasting #loss-functions #backpropagation #evaluation-metrics #gradient-descent #probability-distributions #worker-facing
 
 ## The Problem
 Planting and harvest windows are biologically and weather-constrained — corn must be planted within a 2-3 week window, and harvest must occur before grain moisture drops too low or weather damage occurs. During these windows, equipment operators routinely work 14-18 hour days, 7 days a week, for 2-4 weeks straight. Modern GPS guidance automates steering, but the operator still makes continuous decisions: monitoring planting depth and population, watching for plugged rows, adjusting speed for changing soil conditions, managing header height and combine settings during harvest, and watching for hazards (ditches, power lines, other equipment). After 14+ hours, operators experience measurable cognitive impairment — reaction times slow, attention narrows, and the ability to detect subtle equipment problems (a plugged row unit, a failing bearing, an incorrect combine setting) degrades. Farm equipment accidents spike during planting and harvest, and operator fatigue is the primary contributing factor.

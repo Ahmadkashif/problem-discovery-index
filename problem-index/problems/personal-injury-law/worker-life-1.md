@@ -3,7 +3,7 @@
 **Industry:** [[personal-injury-law|Personal Injury Law Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Legal staff who currently spend weeks reading hundreds of pages of medical records to produce injury chronologies — the most cognitively demanding and time-consuming task in a PI office — get an AI-generated first draft in hours, focusing their effort on review and strategic interpretation rather than extraction.
-**Tags:** #bert #named-entity-recognition #nlp #worker-facing #automation
+**Tags:** #bert #transfer-learning #loss-functions #evaluation-metrics #feature-engineering #worker-facing #automation
 
 ## The Problem
 Medical records review falls almost entirely on paralegals and legal assistants in most PI practices. Reading 500-2,000 pages of records per case — including handwritten physician notes, hospital discharge summaries, physical therapy progress notes, and radiology reports — is exhausting work that requires sustained concentration over many hours. The task must be done carefully because missed findings (a pre-existing condition reference on page 847 of a hospital record) have real consequences for the case. Experienced medical records staff develop speed and pattern recognition over years, but the work never becomes truly efficient — every record set is different, every provider documents differently, and the key facts can be buried anywhere.

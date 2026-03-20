@@ -3,7 +3,7 @@
 **Industry:** [[compliance-consulting|Compliance Consulting Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Compliance consultants who spend 5-10 hours per week reading Federal Register notices, agency guidance updates, and industry association newsletters — trying to stay current across 4-6 regulatory frameworks — get a daily digest that surfaces only the changes relevant to their specific client portfolio, with a plain-language summary of each change's significance.
-**Tags:** #bert #text-classification #nlp #automation #worker-facing
+**Tags:** #bert #transformers #transfer-learning #feature-engineering #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #automation #worker-facing
 
 ## The Problem
 Staying current with regulatory changes is an existential professional requirement for compliance consultants — giving a client outdated guidance is a career-ending mistake. But the volume of regulatory publications across even a single domain is daunting: the FDA publishes dozens of guidance documents, warning letters, and Federal Register notices monthly; OSHA updates standards and enforcement policies regularly; state healthcare regulatory boards add jurisdiction-specific requirements; international standards bodies (ISO, IEC) revise standards on multi-year cycles. A consultant covering healthcare compliance, for example, must monitor FDA, CMS, OIG, OCR (HIPAA), DEA, and state departments of health simultaneously. Current practice is subscribing to agency email lists, scanning regulatory news aggregators, and reading everything — including documents not relevant to any active client.

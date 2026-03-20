@@ -3,7 +3,7 @@
 **Industry:** [[home-health-agencies|Home Health Agencies]]
 **Type:** Worker Life Changing
 **One-liner:** Home health nurses reclaim the 60-90 minutes per patient they spend completing OASIS assessments — the most dreaded documentation task in all of home health — and spend that time on actual patient care.
-**Tags:** #worker-facing #ml-nlp #ai-agent
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #bert #worker-facing #ai-agent
 
 ## The Problem
 The Outcome and Assessment Information Set (OASIS) is a federally mandated comprehensive assessment that home health clinicians must complete at admission, every 60 days (recertification), and at discharge. It contains 100+ questions covering functional status, clinical status, service utilization, and social determinants. Clinicians complete it on a laptop or tablet in the patient's home, often while also performing clinical care, educating the patient and family, and managing medications. A single OASIS assessment takes 45-90 minutes to complete accurately. Errors trigger claim denials, incorrect case-mix scoring (which determines reimbursement), and potential compliance violations.

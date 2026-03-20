@@ -3,7 +3,7 @@
 **Industry:** [[fleet-managers|Fleet Managers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Telematics platforms score driver behavior generically, but they can't create personalized coaching that accounts for route difficulty, vehicle type, and the specific behavioral patterns that cost each driver the most.
-**Tags:** #gradient-boosting #anomaly-detection #tabular-ml
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #descriptive-statistics
 
 ## The Problem
 Driver behavior directly impacts fuel costs (15-25% variance between best and worst drivers), maintenance costs (hard braking, rapid acceleration), safety risk (following distance, speed in turns), and vehicle lifespan. Telematics platforms generate behavior scores, but fleet managers receive a number (e.g., "Driver Safety Score: 72") without actionable specificity. A driver with a 72 might be speeding on highways or hard-braking in parking lots — the coaching needed is entirely different.

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Espresso Extraction Quality Assessment from Visual and Flow Analysis
-#cnn #regression #computer-vision #tacit-knowledge-ml
+#cnns #transfer-learning #loss-functions #evaluation-metrics #backpropagation #gradient-descent #linear-regression #matrix-algebra #optimization-fundamentals #tacit-knowledge-ml
 
 **Problem statement:** Experienced baristas evaluate espresso extraction quality by reading crema color (tiger-striping indicates proper extraction), flow rate (25-30 seconds for a double shot is the target window, but optimal varies by bean), stream thickness, and color progression from dark to blond. They adjust grind size, dose weight, and tamp pressure based on these visual cues — often before tasting. This tacit skill takes 6-12 months to develop and is the primary differentiator between a competent barista and a novice pulling sour or bitter shots.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Hourly Demand Forecasting for Staffing and Prep
-#gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #time-series-forecasting #evaluation-metrics #bias-variance-tradeoff #gradient-descent #revenue-impact
 
 **Problem statement:** Independent coffee shops need to predict customer traffic and transaction volume at 15-minute or hourly granularity to drive staffing decisions and food prep quantities. Current practice is purely manual — the owner remembers that "Mondays are busy" but cannot quantify the difference between a 7am Monday in January and a 7am Monday during spring break.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Perishable Waste Prediction and Order Optimization
-#gradient-boosting #time-series-forecasting #tabular-ml #automation
+#gradient-boosting #decision-trees #feature-engineering #time-series-forecasting #evaluation-metrics #optimization-fundamentals #bias-variance-tradeoff #gradient-descent #automation
 
 **Problem statement:** Coffee shops waste 15-25% of perishable inventory (milk, pastries, fresh food) due to imprecise ordering driven by gut feel. The ordering decision must balance waste cost against stockout cost, with the additional constraint that display case fullness drives pastry sales (a half-empty case depresses buying).
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Customer Lifetime Value Prediction and Churn Detection
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #descriptive-statistics #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Independent coffee shops have no visibility into which customers are their most valuable, which are at risk of churning, and what intervention (if any) would retain them. The owner knows their top 20 regulars by name but cannot identify the next 100 regulars who collectively represent more revenue.
 

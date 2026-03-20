@@ -3,7 +3,7 @@
 **Industry:** [[physical-therapy|Physical Therapy]]
 **Type:** High Impact
 **One-liner:** PT clinics never deliver a visit without valid authorization again — every patient's authorization status, remaining visits, and upcoming expiration is tracked automatically, and extension requests are triggered before limits are hit.
-**Tags:** #revenue-impact #compliance #ai-agent
+**Tags:** #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #revenue-impact #compliance #ai-agent
 
 ## The Problem
 Most insurance payers require prior authorization for physical therapy, typically approving 10-12 visits at a time. When those visits are used, the clinic must request a concurrent review (extension) with updated clinical documentation proving ongoing medical necessity. Tracking where each patient stands — how many authorized visits remain, when the authorization expires, whether an extension has been submitted — is a manual process spread across spreadsheets, EHR fields, and sticky notes. When tracking fails, the clinic delivers visits without valid authorization and eats the cost (typically $100-$200 per visit). A mid-size clinic with 200 active patients can lose $5,000-$15,000 monthly to authorization-related denials.

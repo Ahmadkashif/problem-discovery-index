@@ -3,7 +3,7 @@
 **Industry:** [[property-management|Property Management]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic ticketing and workflow tools exist but don't model the property management-specific urgency criteria — habitability requirements, emergency vs. non-emergency classification under fair housing, and the contractor dispatch priorities that experienced property managers apply by judgment.
-**Tags:** #llm #text-classification #nlp #automation #workflow-orchestration
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #evaluation-metrics #automation #workflow-orchestration
 
 ## The Problem
 

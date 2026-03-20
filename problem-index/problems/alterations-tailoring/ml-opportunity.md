@@ -5,8 +5,8 @@
 
 ---
 
-## 1. Fit Assessment from Garment-on-Body Photos (Primary Opportunity — Tacit Knowledge ML)
-#cnn #multiclass-classification #computer-vision #tacit-knowledge-ml
+## 1. Fit Assessment from Garment-on-Body Photos (Primary Opportunity -- Tacit Knowledge ML)
+#cnns #transfer-learning #semantic-segmentation #loss-functions #evaluation-metrics #backpropagation #gradient-descent #matrix-algebra #tacit-knowledge-ml
 
 **Problem statement:** A master tailor looks at a garment on a client's body for 15-30 seconds and identifies every fit issue — shoulder alignment, back width, chest ease, waist suppression, hip balance, trouser break, hemline level — along with the specific alterations required and the order in which they must be performed. This assessment considers the garment's construction (where seams are, how much allowance exists), the fabric's behavior (how it drapes, stretches, and responds to pressing), and the client's body asymmetries (most bodies are not symmetrical, and garments reveal this). A junior employee or front desk worker cannot perform this assessment at all, creating a bottleneck where only the master tailor can do intake. When the master tailor retires, the shop loses its ability to handle complex garments.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Alteration Time Estimation
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance
 
 **Problem statement:** Alteration time varies 5-10x for nominally identical tasks depending on garment construction and fabric. Accurate per-garment time estimation enables correct pricing, realistic scheduling, and fair piece-rate compensation.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Fabric Behavior Prediction
-#cnn #multiclass-classification #computer-vision
+#cnns #transfer-learning #loss-functions #evaluation-metrics #backpropagation #gradient-descent #feature-engineering
 
 **Problem statement:** How a fabric responds to alteration — whether it frays when cut, puckers when machine-sewn, stretches when pressed, or shows needle marks after basting — determines which alteration techniques are appropriate. Master tailors identify fabric behavior by touch and visual inspection. A classification model could identify fabric type and predict behavior from photos.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Customer Satisfaction Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 **Problem statement:** Some alteration outcomes predictably lead to customer dissatisfaction — work on cheap garments where the alteration cost exceeds the garment value, structurally limited alterations where the result will be a compromise, and expectation-reality gaps. Predicting dissatisfaction risk before accepting the job enables proactive expectation management.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Pricing Optimization by Market and Complexity
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #expectation-variance-covariance
 
 **Problem statement:** Alterations shops set prices based on tradition and local competition rather than actual cost-to-serve. Optimal pricing that reflects garment complexity, local market willingness-to-pay, and shop capacity utilization could increase revenue by 15-25% without losing volume.
 

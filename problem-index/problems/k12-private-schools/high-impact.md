@@ -3,7 +3,7 @@
 **Industry:** [[k12-private-schools|K-12 Private Schools]]
 **Type:** High Impact
 **One-liner:** The day after this is solved, a head of school knows by February which accepted families will actually enroll and which current families are at risk of leaving — turning enrollment season from a guessing game into a managed pipeline.
-**Tags:** #gradient-boosting #binary-classification #survival-analysis #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #survival-analysis #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #maximum-likelihood-estimation #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 Private schools accept more students than they have seats, hoping yield rates hold steady — but yield swings of even 5-10% create budget crises or overcrowded classrooms. Admissions directors rely on anecdotal signals (campus visit enthusiasm, speed of document submission, sibling enrollment) to guess which families will convert. Retention is equally opaque: a family that quietly tours a competitor in November withdraws in April, and the school scrambles to fill the seat from a depleted waitlist.

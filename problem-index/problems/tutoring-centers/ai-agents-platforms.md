@@ -1,7 +1,7 @@
 # AI Agents & Platform Opportunities — Tutoring Centers
 
 **Industry:** [[tutoring-centers|Tutoring Centers]]
-**Tags:** #ai-agent #ai-platform #llm #automation #revenue-impact #worker-facing
+**Tags:** #ai-agent #ai-platform #large-language-models #automation #revenue-impact #worker-facing
 
 ---
 

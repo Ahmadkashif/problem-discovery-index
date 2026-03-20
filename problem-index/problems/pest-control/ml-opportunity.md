@@ -6,7 +6,7 @@
 ---
 
 ## 1. Pest Species Identification and Infestation Severity from Visual Evidence
-#cnn #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #transfer-learning #loss-functions #evaluation-metrics #backpropagation #gradient-descent #feature-engineering #matrix-algebra #tacit-knowledge-ml
 
 **Problem statement:** Experienced pest control technicians identify species from evidence photos (droppings, damage patterns, tracks, body parts, nesting material) and assess infestation severity from distribution patterns — skills that take years to develop and that new technicians lack. A German cockroach dropping looks different from an American cockroach dropping; Norway rat gnaw marks differ from roof rat gnaw marks. The expert reads these signals instantly; the novice misidentifies 30-40% of the time, leading to wrong treatment selection.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Treatment Outcome Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 **Problem statement:** First-visit resolution rates vary 50-90% depending on species, severity, treatment approach, and building characteristics. Predicting whether a treatment plan will resolve the infestation enables treatment plan optimization.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Seasonal Pest Pressure Forecasting
-#gradient-boosting #time-series-forecasting #tabular-ml
+#gradient-boosting #time-series-forecasting #exponential-smoothing #feature-engineering #evaluation-metrics #descriptive-statistics
 
 **Problem statement:** Pest activity follows seasonal patterns modified by weather, construction activity, and population dynamics. Anticipating demand spikes (ant season, rodent fall migration) enables staffing and inventory preparation.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Entry Point Detection from Structural Photos
-#cnn #object-detection #computer-vision
+#cnns #object-detection #transfer-learning #loss-functions #evaluation-metrics #backpropagation #gradient-descent
 
 **Problem statement:** Identifying pest entry points — gaps around pipes, foundation cracks, soffit vents, door sweeps — is critical for exclusion work but requires structural knowledge that takes years to develop.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Customer-Level Service Optimization
-#gradient-boosting #regression #tabular-ml #recommendation
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff
 
 **Problem statement:** Recurring pest control service frequency (monthly, bi-monthly, quarterly) is set at contract signing and rarely adjusted. Some customers are over-serviced (paying for monthly when quarterly would suffice); others are under-serviced (quarterly visits between which infestations return).
 

@@ -5,7 +5,7 @@
 ---
 
 ## 1. Wellsite Monitoring Agent
-#ai-agent #anomaly-detection #signal-processing #tacit-knowledge-ml
+#ai-agent #lstms-and-grus #cnns #transfer-learning #evaluation-metrics #tacit-knowledge-ml
 
 **Concept:** An autonomous monitoring agent that continuously ingests SCADA telemetry, acoustic sensor data, and visual feeds from wellsite cameras to maintain a real-time health assessment of every piece of equipment on a lease. The agent operates 24/7, replacing the current paradigm where wells are only assessed when a pumper visits (often every 24-72 hours). When the agent detects degradation, it generates a work order with a specific diagnosis, estimated urgency, and recommended parts — not just a generic alarm. It learns from each confirmed diagnosis, building a well-specific baseline that accounts for the unique behavior of each installation.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Field Service Dispatch Agent
-#ai-agent #automation #workflow-orchestration
+#ai-agent #large-language-models #gradient-boosting #optimization-fundamentals #feature-engineering #automation #workflow-orchestration
 
 **Concept:** An AI dispatcher that replaces the human dispatcher's whiteboard with an autonomous scheduling and routing engine. The agent receives new service requests (from the Wellsite Monitoring Agent, from operator phone calls transcribed via speech-to-text, from scheduled maintenance calendars), matches them against available crew skills and locations, builds optimized daily routes, and dynamically re-sequences when priorities change. It communicates directly with field techs via mobile push notifications and handles routine back-and-forth ("Can you swap Tuesday's jobs?", "I need to leave early Friday") through a conversational interface. The human dispatcher shifts from manual scheduling to exception handling and customer relationship management.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Production Optimization Agent
-#ai-agent #ai-platform #time-series-forecasting #revenue-impact
+#ai-agent #ai-platform #gradient-boosting #lstms-and-grus #time-series-forecasting #feature-engineering #causal-inference #revenue-impact
 
 **Concept:** A platform-level agent that sits between SCADA, production accounting, and field operations to continuously optimize well performance. For each well, the agent maintains a dynamic model of expected production, compares it against actual output, diagnoses the cause of any shortfall (reservoir vs. equipment vs. operational), and prescribes the specific intervention — adjust pump speed, schedule a chemical treatment, recommend a workover, or change artificial lift method. It tracks the ROI of every intervention it recommends, building a feedback loop that improves its prescriptions over time. For multi-well pads and facilities, it optimizes across wells to maximize total facility throughput within infrastructure constraints (pipeline capacity, separator capacity, gas processing limits).
 

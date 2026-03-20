@@ -3,7 +3,7 @@
 **Industry:** [[food-trucks|Food Trucks]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic compliance calendars don't know that Harris County requires a separate mobile-food-unit decal renewed every 90 days while the City of Houston wants an annual health permit on a different cycle.
-**Tags:** #llm #text-classification #nlp #compliance
+**Tags:** #large-language-models #bert #transfer-learning #attention-mechanisms #word-embeddings #evaluation-metrics #compliance
 
 ## The Problem
 Food truck operators working across city and county lines juggle 3-8 overlapping permit types — health department licenses, fire marshal inspections, mobile vendor permits, commissary-use agreements, and special-event temporary permits — each with different renewal dates, fee amounts, inspection requirements, and application portals. Missing a single renewal can result in a same-day shutdown by an inspector, forfeiting $500-$1,500 in lost revenue plus a reinstatement fee.

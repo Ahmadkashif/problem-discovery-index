@@ -3,7 +3,7 @@
 **Industry:** [[cybersecurity-mssp|Cybersecurity MSSPs]]
 **Type:** High Impact
 **One-liner:** SOC analysts stop drowning in 500-1,000 daily alerts and focus only on the 2-5% that represent real threats, cutting mean-time-to-detect from hours to minutes.
-**Tags:** #gradient-boosting #bert #binary-classification #nlp #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #bert #transformers #feature-engineering #cross-validation #evaluation-metrics #word-embeddings #transfer-learning #bias-variance-tradeoff #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 An MSSP's SOC receives 500-1,000+ alerts per day across its client base from SIEM rules, EDR detections, and threat intel feeds. Over 95% are false positives — benign activity that matches a signature, misconfigured rules, or known-good behavior that hasn't been whitelisted yet. L1 analysts spend 5-15 minutes per alert pulling up context: checking the source IP against reputation feeds, reviewing the user's behavioral baseline, looking at the asset's criticality tag, reading the raw log payload, and cross-referencing recent similar alerts. An experienced L1 analyst develops an intuition that lets them dismiss noise in seconds — they recognize the "shape" of a false positive from the combination of alert source, severity mapping, time-of-day, client environment, and payload snippet — but this judgment lives entirely in their head and leaves when they do.

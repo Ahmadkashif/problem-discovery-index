@@ -3,7 +3,7 @@
 **Industry:** [[freight-brokerage|Freight Brokerage]]
 **Type:** Worker Life Changing
 **One-liner:** Freight brokers who call drivers once or twice during transit to confirm location and ETA — a task that takes 1-2 minutes per load per check-call, adding up to 45-90 minutes daily for a broker managing 20-30 active loads — get automated check-calls via carrier app or ELD integration with exceptions surfaced when a shipment is behind schedule.
-**Tags:** #automation #anomaly-detection #time-series-forecasting #worker-facing
+**Tags:** #logistic-regression #time-series-forecasting #feature-engineering #evaluation-metrics #change-point-detection #automation #worker-facing
 
 ## The Problem
 

@@ -3,7 +3,7 @@
 **Industry:** [[towing-companies|Towing Companies]]
 **Type:** Worker Life Changing
 **One-liner:** Dispatchers juggle police rotation calls with 8-minute SLAs, motor club calls with 30-minute windows, and direct customer calls simultaneously — a priority-aware queue system prevents the cognitive overload that leads to burnout and errors.
-**Tags:** #gradient-boosting #ranking #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #optimization-fundamentals #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 A towing company dispatcher on a busy shift manages 15–30 active calls simultaneously across three distinct priority channels: police/law enforcement rotation calls (highest urgency, strict response windows, penalties for non-response), motor club dispatches from AAA/Agero/Allstate (contractual SLA windows, rotation ranking at stake), and direct consumer calls (revenue-positive but no SLA enforcement). Each call has a different urgency profile, truck-type requirement, and geographic constraint. The dispatcher must mentally track which drivers are available, en route, or on-scene; estimate completion times for active jobs; and sequence incoming calls against available resources — all while answering phones, entering data into dispatch software, and communicating with drivers via radio. During peak periods (rush hour accidents, winter storms, holiday weekends), call volume can triple and the dispatcher's mental model breaks down, leading to missed SLA windows, double-dispatched trucks, and forgotten callbacks.

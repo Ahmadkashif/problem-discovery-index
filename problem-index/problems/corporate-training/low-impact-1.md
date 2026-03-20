@@ -3,7 +3,7 @@
 **Industry:** [[corporate-training|Corporate Training]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic AI writing tools can generate text, but they cannot conduct a structured knowledge extraction interview with a subject matter expert and produce a pedagogically sound course outline with assessments.
-**Tags:** #llm #text-generation #nlp #automation
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #automation
 
 ## The Problem
 Instructional designers spend 40–80 hours per course extracting knowledge from subject matter experts (SMEs) who are busy, impatient, and untrained in articulating what they know. The process involves scheduling multiple interview sessions, transcribing unstructured conversations, identifying the core concepts and decision frameworks buried in rambling explanations, sequencing them into a learning path, and writing assessment questions that test genuine understanding rather than recall. SMEs frequently skip steps they consider obvious, use jargon inconsistently, and contradict earlier statements — all of which the instructional designer must catch and resolve.

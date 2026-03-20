@@ -3,7 +3,7 @@
 **Industry:** [[corporate-training|Corporate Training]]
 **Type:** Worker Life Changing
 **One-liner:** LMS administrators stop manually enrolling 50–200 users per training cycle and hand-assembling completion reports for 10+ departments, reclaiming 15+ hours a week for system optimization and learner support.
-**Tags:** #llm #automation #nlp #worker-facing
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #automation #worker-facing
 
 ## The Problem
 LMS administrators at companies with 500–5,000 employees spend the bulk of their week on two repetitive tasks: bulk enrollment and report generation. Enrollment requests arrive via email, Slack, and ticketing systems in inconsistent formats — "add the entire West region sales team to the Q3 product launch track" requires the admin to cross-reference the HRIS for current roster, identify who already completed prerequisites, manually create enrollments in Cornerstone or Docebo, and send confirmation emails. Reporting is worse: each department head wants a different slice — completions by team, overdue by manager, hours by cost center — and the LMS's built-in reporting can't produce these views without the admin exporting raw CSV data, pivoting in Excel, reformatting for the audience, and emailing PDFs. A typical admin runs 15–30 custom reports per month, each taking 30–90 minutes.

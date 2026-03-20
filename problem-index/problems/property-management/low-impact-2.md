@@ -3,7 +3,7 @@
 **Industry:** [[property-management|Property Management]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic rental market data platforms provide area median rent but don't integrate the property-specific factors — unit condition, amenity set, comparable vacancy rates, and seasonal demand patterns — that determine optimal asking rent for a specific unit going vacant.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #survival-analysis #revenue-impact
 
 ## The Problem
 

@@ -1,13 +1,13 @@
 # ML Opportunities — Public Defenders
 
 **Industry:** [[public-defenders|Public Defenders]]
-**Tags:** #bert #gradient-boosting #llm #lstm #multiclass-classification #binary-classification #regression #text-classification #time-series-forecasting #nlp #tabular-ml #tacit-knowledge-ml #compliance #worker-facing
+**Tags:** #bert #gradient-boosting #large-language-models #lstms-and-grus #transfer-learning #feature-engineering #evaluation-metrics #cross-validation #attention-mechanisms #time-series-forecasting #tacit-knowledge-ml #compliance #worker-facing
 
 ---
 
 ## 1. Case Outcome Prediction from Case File Analysis (Primary Opportunity — Tacit Knowledge ML)
 
-#bert #gradient-boosting #multiclass-classification #nlp #tabular-ml #tacit-knowledge-ml
+#bert #gradient-boosting #transfer-learning #feature-engineering #cross-validation #evaluation-metrics #attention-mechanisms #word-embeddings #entropy-cross-entropy-kl-divergence #conditional-probability-and-bayes-theorem #tacit-knowledge-ml
 
 **Problem statement:** Experienced public defenders read a case file — police report, charges, criminal history, judge assignment, prosecutor assignment — and within minutes can predict the realistic outcome range (dismissal, reduced charge plea, full-charge plea, trial conviction, trial acquittal) with accuracy that takes 5-10 years of local practice to develop. This tacit knowledge — knowing that this combination of facts, this judge, and this prosecutor will likely produce outcome X — is the foundation of effective plea negotiation and case strategy, but it resides exclusively in the heads of senior defenders and is never systematically captured.
 
@@ -29,7 +29,7 @@
 
 ## 2. Bail and Pretrial Release Outcome Prediction
 
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #probability-distributions #bias-variance-tradeoff
 
 **Problem statement:** At arraignment, defenders argue for release conditions (ROR, supervised release, bail amount) with limited information about how the judge will decide. Better prediction of likely bail outcomes would enable defenders to prepare more targeted arguments and identify cases where judicial decisions are statistically anomalous.
 
@@ -51,7 +51,7 @@
 
 ## 3. Sentence Range Estimation by Judge and Charge
 
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #linear-regression #confidence-intervals #probability-distributions #expectation-variance-covariance
 
 **Problem statement:** Defenders advise clients on whether to accept plea offers by comparing the offer to the likely trial outcome. This comparison requires accurate knowledge of how the specific assigned judge sentences specific charge types — knowledge that takes years to develop and varies enormously between judges.
 
@@ -73,7 +73,7 @@
 
 ## 4. Case Timeline and Hearing Prediction
 
-#lstm #time-series-forecasting #tabular-ml
+#lstms-and-grus #rnns #time-series-forecasting #loss-functions #backpropagation #evaluation-metrics #gradient-descent #probability-distributions #sequences-and-series
 
 **Problem statement:** Defenders cannot predict when their cases will reach critical milestones (trial date, plea hearing, motion hearing), making workload planning impossible and forcing reactive rather than strategic case management.
 
@@ -95,7 +95,7 @@
 
 ## 5. Investigator Resource Allocation Optimization
 
-#gradient-boosting #binary-classification #tabular-ml #regression
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #causal-inference #conditional-probability-and-bayes-theorem #probability-distributions #bias-variance-tradeoff
 
 **Problem statement:** PD offices have 1 investigator for every 10-20 attorneys, meaning fewer than 5% of cases receive investigation. Determining which cases would most benefit from investigation is a critical resource allocation decision currently made on attorney request (squeaky wheel) rather than evidence-based triage.
 

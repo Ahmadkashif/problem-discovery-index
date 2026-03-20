@@ -6,7 +6,7 @@
 ---
 
 ## 1. Technical Skill Authenticity Scoring (Tacit Knowledge)
-#transformer #bert #ranking #nlp #tabular-ml #tacit-knowledge-ml
+#bert #transformers #attention-mechanisms #word-embeddings #gradient-boosting #feature-engineering #evaluation-metrics #transfer-learning #cross-validation #tacit-knowledge-ml
 
 **Problem statement:** Experienced technical recruiters can scan a resume and GitHub profile in under 60 seconds and detect whether a candidate genuinely possesses claimed skills or is inflating titles, listing forked-but-untouched repos, and padding buzzwords. This tacit judgment — developed over years of screening thousands of candidates and correlating resume claims with actual interview and placement outcomes — needs to be captured in a model that junior recruiters can rely on from day one.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Placement Success Prediction
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** IT staffing firms need to predict, at the point of candidate submission, whether a placement will succeed — defined as the contractor completing the full contract term with positive client feedback — or fail early (contractor quits, is terminated, or client downgrades the engagement).
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Real-Time Rate Optimization
-#gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #time-series-forecasting #cross-validation #evaluation-metrics #bias-variance-tradeoff #confidence-intervals #revenue-impact
 
 **Problem statement:** IT staffing firms need to price contractor rates at the intersection of technology stack, seniority, geography, clearance level, and contract structure — a combinatorial space where historical data is sparse and market conditions shift quarterly.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Client Churn and Contract Non-Renewal Prediction
-#gradient-boosting #binary-classification #tabular-ml #data-integration
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #survival-analysis #conditional-probability-and-bayes-theorem #data-integration
 
 **Problem statement:** Account managers need early warning when a client relationship is deteriorating or a contract is unlikely to be renewed, so they can intervene before the business is lost.
 

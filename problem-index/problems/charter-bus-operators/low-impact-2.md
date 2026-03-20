@@ -3,7 +3,7 @@
 **Industry:** [[charter-bus-operators|Charter Bus Operators]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Event ticketing and group travel platforms exist everywhere — but none handle the specific chaos of charter bus manifests where passenger counts change daily, pickup locations multiply, and the operator needs a real-time headcount to assign the right bus.
-**Tags:** #llm #named-entity-recognition #nlp #workflow-orchestration
+**Tags:** #large-language-models #bert #transformers #attention-mechanisms #word-embeddings #transfer-learning #workflow-orchestration
 
 ## The Problem
 A typical charter booking starts as a single contact (wedding planner, school administrator, corporate event coordinator) who provides an estimated headcount. Between booking and departure, that headcount changes 3-8 times as individual passengers confirm, cancel, or request different pickup points. The operator needs an accurate manifest for DOT compliance (passenger lists are required for interstate travel), for assigning the correctly-sized bus, and for planning multi-stop pickups. Today this information flows through email chains, text messages, and phone calls — the dispatcher manually updates a spreadsheet that is outdated within hours of being created.

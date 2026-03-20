@@ -3,7 +3,7 @@
 **Industry:** [[funeral-homes|Funeral Homes]]
 **Type:** Worker Life Changing
 **One-liner:** Funeral directors stop sleeping next to a pager because intelligent call triage and automated first-response protocols handle 70% of after-hours death calls without waking the on-call director.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #worker-facing
 
 ## The Problem
 Death doesn't follow business hours — 40-50% of deaths occur between 6 PM and 6 AM, and funeral homes must respond to first calls (notification of death) within 30-60 minutes. In small and mid-size funeral homes (1-3 directors), this means one person is effectively on call 24/7/365, including weekends and holidays. A first call triggers a chain of immediate actions: dispatching a transport vehicle, coordinating with the hospice or hospital, confirming legal authority to take custody of the remains, collecting preliminary information for the death certificate, and scheduling the family arrangement conference. Directors report that the on-call burden — not the grief exposure — is the primary driver of career dissatisfaction. Sleep disruption is chronic: directors average 2-3 nighttime calls per week, each requiring 60-90 minutes of active response.

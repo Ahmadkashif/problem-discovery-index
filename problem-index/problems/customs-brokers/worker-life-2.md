@@ -3,7 +3,7 @@
 **Industry:** [[customs-brokers|Customs Brokers]]
 **Type:** Worker Life Changing
 **One-liner:** Customs brokers who have years of entry data for their major clients but never generate a comprehensive duty spend analysis — showing the client their total duty spend by HTS chapter, their top 10 duty-intensive products, and the specific programs (USMCA, CAFTA, GSP) they're eligible for but not using — get that analysis auto-generated quarterly.
-**Tags:** #tabular-ml #automation #worker-facing #revenue-impact
+**Tags:** #descriptive-statistics #feature-engineering #arithmetic-and-basic-algebra #automation #worker-facing #revenue-impact
 
 ## The Problem
 

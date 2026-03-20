@@ -3,7 +3,7 @@
 **Industry:** [[metal-fabrication|Metal Fabrication]]
 **Type:** High Impact
 **One-liner:** Certified welding inspectors who evaluate weld surface appearance for AWS D1.1 acceptance criteria — reading porosity, undercut, overlap, and surface cracking from visual examination — perform a judgment task that takes years to develop and is a production bottleneck in every shop that can't afford enough qualified inspectors to keep pace with welder output.
-**Tags:** #cnn #object-detection #multiclass-classification #computer-vision #tacit-knowledge-ml #compliance #revenue-impact
+**Tags:** #cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #matrix-algebra #gradient-descent #optimization-fundamentals #tacit-knowledge-ml #compliance #revenue-impact
 
 ## The Problem
 

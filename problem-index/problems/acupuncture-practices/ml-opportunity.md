@@ -6,7 +6,7 @@
 ---
 
 ## 1. Traditional Diagnostic Pattern Recognition from Tongue and Pulse Assessment
-#cnn #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #backpropagation #gradient-descent #cross-validation #activation-functions #bias-variance-tradeoff #tacit-knowledge-ml
 
 **Problem statement:** TCM diagnosis relies on tongue observation (color, coating, shape, moisture, cracks, sublingual veins) and pulse palpation (28 classical pulse types across 6 positions — 3 per wrist at superficial, middle, and deep levels). An experienced practitioner looks at a tongue and immediately identifies patterns: a pale, swollen tongue with teethmarks and a thick white coating signals Spleen Qi Deficiency with Dampness. A red tongue with no coating and cracks signals Yin Deficiency with Heat. These assessments require 5-10 years of clinical experience to perform reliably, and even experienced practitioners disagree — inter-rater reliability on tongue diagnosis is estimated at only 0.55-0.65 kappa.
 
@@ -22,7 +22,7 @@ This tacit knowledge is especially challenging because: (1) the diagnostic categ
 ---
 
 ## 2. Treatment Outcome Prediction by TCM Pattern and Point Protocol
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #linear-regression #probability-distributions #expectation-variance-covariance #bias-variance-tradeoff
 
 **Problem statement:** Acupuncturists select from thousands of possible acupoint combinations for each patient. While classical formulas provide guidelines, practitioners modify selections based on individual presentation. No systematic evidence connects specific point protocols to measurable outcomes for specific TCM patterns.
 
@@ -36,7 +36,7 @@ This tacit knowledge is especially challenging because: (1) the diagnostic categ
 ---
 
 ## 3. Patient Retention and Dropout Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #survival-analysis #conditional-probability-and-bayes-theorem #probability-distributions
 
 **Problem statement:** 40-50% of acupuncture patients drop out before completing their recommended treatment course. Many drop after 1-3 visits before meaningful clinical improvement is expected. Predicting dropout risk would enable proactive engagement and expectation-setting.
 
@@ -50,7 +50,7 @@ This tacit knowledge is especially challenging because: (1) the diagnostic categ
 ---
 
 ## 4. Insurance Claim Denial Prediction
-#gradient-boosting #binary-classification #tabular-ml #compliance
+#gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #entropy-cross-entropy-kl-divergence #compliance
 
 **Problem statement:** Acupuncture claims are denied at 20-30% rates — higher than most medical specialties. Denials are concentrated around medical necessity documentation, visit limit exceedance, and ICD-10 code selection. Predicting denial before submission would enable documentation correction.
 
@@ -64,7 +64,7 @@ This tacit knowledge is especially challenging because: (1) the diagnostic categ
 ---
 
 ## 5. Herb-Drug Interaction Detection
-#bert #binary-classification #nlp #tabular-ml
+#bert #transfer-learning #attention-mechanisms #feature-engineering #evaluation-metrics #cross-validation #conditional-probability-and-bayes-theorem #entropy-cross-entropy-kl-divergence
 
 **Problem statement:** Chinese herbs have pharmacological effects that can interact with Western medications. Current interaction databases are incomplete, and most practitioners rely on memory and limited reference texts. A comprehensive interaction detection system would prevent adverse events.
 

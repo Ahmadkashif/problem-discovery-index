@@ -3,7 +3,7 @@
 **Industry:** [[contract-manufacturing|Contract Manufacturing]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic computer vision models can detect anomalies in images, but don't know a specific part's acceptance criteria — which surface conditions are cosmetic defects vs. acceptable variation vs. functional defects, as defined in the OEM's workmanship standard for that specific part number — the product-specific classification logic that makes automated inspection useful rather than a source of false rejects.
-**Tags:** #cnn #object-detection #multiclass-classification #computer-vision #anomaly-detection #compliance
+**Tags:** #cnns #object-detection #transfer-learning #loss-functions #backpropagation #gradient-descent #evaluation-metrics #matrix-algebra #compliance
 
 ## The Problem
 

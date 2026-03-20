@@ -3,7 +3,7 @@
 **Industry:** [[independent-insurance-agents|Independent Insurance Agents]]
 **Type:** High Impact
 **One-liner:** Producers stop spending 30-60 minutes per commercial account guessing which carriers will write the risk and instead get ranked carrier recommendations in seconds.
-**Tags:** #gradient-boosting #ranking #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 When a commercial lines prospect walks in — a restaurant needing GL/liquor liability, a contractor needing a wrap-up program, a manufacturer needing product liability — the producer must mentally cross-reference the risk profile against appetite guides from 15-30 appointed carriers. These appetite guides are PDF documents updated quarterly (at best), and the real appetite is shaped by underwriter relationships, recent loss experience in the carrier's book, and soft-market vs. hard-market dynamics that no document captures. Experienced producers develop an intuition for "Carrier X is hungry for this class right now" that takes 5-10 years to build; newer producers waste submissions on carriers that will decline, costing days of turnaround time and losing the prospect to a faster-moving agency.

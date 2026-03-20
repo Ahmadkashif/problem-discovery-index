@@ -3,7 +3,7 @@
 **Industry:** [[vocational-schools|Vocational Schools]]
 **Type:** Worker Life Changing
 **One-liner:** Career services coordinators stop cold-calling 50-100 employers per week and instead focus on the relationships most likely to place students.
-**Tags:** #gradient-boosting #ranking #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #probability-distributions #worker-facing
 
 ## The Problem
 A typical vocational school career services coordinator is responsible for placing 100-300 graduates per year across 5-10 trade programs. Their primary tool is the phone: calling employers to ask about openings, following up on placed graduates to verify retention (required for accreditation), and chasing alumni who haven't reported employment status. A single coordinator makes 50-100 outbound calls per week, maintains a personal spreadsheet of 200-500 employer contacts, and tracks placement status for each graduate manually. Hit rates on cold outreach are 10-15% — most calls go to voicemail or reach employers who aren't currently hiring. The coordinator has no systematic way to know which employers are most likely to be hiring right now or which students are the best fit for which employers.

@@ -3,7 +3,7 @@
 **Industry:** [[acupuncture-practices|Acupuncture Practices]]
 **Type:** Worker Life Changing
 **One-liner:** Acupuncturists stop running on a treadmill of 18-25 back-to-back patient sessions with zero recovery time — because intelligent scheduling builds micro-breaks, treatment complexity variation, and energetic recovery periods into their day automatically.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #optimization-fundamentals #cross-validation #probability-distributions #expectation-variance-covariance #worker-facing
 
 ## The Problem
 A full-time acupuncturist sees 18-25 patients per day in a community or high-volume practice, with sessions every 30-45 minutes. Each session requires focused diagnostic assessment (pulse and tongue reading demand concentration and sensitivity), physical needle insertion (precise manual dexterity for 10-30 needles per patient), emotional presence (patients frequently process emotional content during treatment), and room turnover (cleaning, setup, chart documentation). The practitioner moves from room to room without breaks, often skipping lunch to fit in extra patients. Unlike other healthcare providers, acupuncturists in TCM tradition also consider their own qi (energy) state as clinically relevant — treating severely depleted or emotionally distressed patients is understood to be draining for the practitioner. There is no scheduling intelligence: complex new patient intakes are booked adjacent to other complex cases, high-acuity patients cluster randomly, and the practitioner's energy state is never considered.

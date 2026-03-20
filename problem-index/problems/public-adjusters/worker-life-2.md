@@ -3,7 +3,7 @@
 **Industry:** [[public-adjusters|Public Adjusters]]
 **Type:** Worker Life Changing
 **One-liner:** Public adjusters stop living in perpetual financial anxiety because predictive settlement timeline modeling and portfolio-level cash flow forecasting replace the current reality of not knowing when — or if — any of their active cases will pay.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #time-series-forecasting #probability-distributions #expectation-variance-covariance #worker-facing
 
 ## The Problem
 Public adjusters work exclusively on contingency: they receive no payment until the insurance carrier settles the claim, which takes 3-18 months depending on claim complexity and carrier cooperation. During that time, the adjuster funds all operating costs — inspections, mileage, Xactimate subscriptions, subcontractor engineers and moisture testing, office overhead — out of pocket. A public adjuster with 30 active cases may have $50,000-$150,000 in expected fees but zero current receivables. Settlement timing is unpredictable: a carrier may settle a $200,000 claim in 6 weeks or drag it through 12 months of supplementation and appraisal. The adjuster cannot forecast when cash will arrive.

@@ -3,7 +3,7 @@
 **Industry:** [[gyms-independent|Independent Gyms]]
 **Type:** Worker Life Changing
 **One-liner:** Instructors get predictable teaching hours and fair class assignments instead of a schedule that shifts weekly based on owner guesswork.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #time-series-forecasting #probability-distributions #worker-facing
 
 ## The Problem
 Group fitness instructors at independent gyms — overwhelmingly 1099 contractors — face chronic schedule instability. Classes get added, moved, or cancelled with days of notice based on the owner's perception of demand. An instructor teaching six classes per week can drop to three if a new format is tested in their time slot or if summer attendance dips. Because pay is per-class ($25-75/session), income swings 30-50% month-to-month. Instructors who teach at multiple studios to hedge their income end up with fragmented schedules, long commutes between locations, and zero benefits.

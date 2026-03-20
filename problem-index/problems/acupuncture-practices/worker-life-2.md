@@ -3,7 +3,7 @@
 **Industry:** [[acupuncture-practices|Acupuncture Practices]]
 **Type:** Worker Life Changing
 **One-liner:** Solo acupuncturists stop spending 15-20 hours per week on scheduling, billing, marketing, bookkeeping, and supply ordering — because an integrated management system handles the business of running a practice so the practitioner can focus on clinical care.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #evaluation-metrics #gradient-boosting #feature-engineering #worker-facing #automation
 
 ## The Problem
 75%+ of acupuncturists practice solo, meaning every non-clinical function falls on the practitioner: answering phone calls and emails between patients, managing the online schedule, processing insurance claims, following up on denied claims, posting to social media, maintaining the website, ordering supplies and herbs, balancing the books, filing quarterly taxes, managing the lease, maintaining HIPAA compliance, completing continuing education requirements, and renewing licenses. These tasks consume 15-20 hours per week — effectively a half-time administrative job on top of 30-35 hours of clinical care. Hiring a front desk person ($30K-$40K/year) is financially untenable when the practice grosses $120K-$180K. The result: administrative tasks are done poorly, late, or not at all. Insurance claims are submitted days late. Social media goes quiet for weeks. Bookkeeping piles up until tax season creates a crisis.

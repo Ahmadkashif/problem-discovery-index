@@ -3,7 +3,7 @@
 **Industry:** [[home-inspection|Home Inspection]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic voice-to-text and LLM writing tools exist but don't understand InterNACHI/ASHI report standards, the distinction between deficient and safety-hazard severity levels, or the specific language patterns that real estate agents and buyers expect in a professional inspection report.
-**Tags:** #llm #text-generation #nlp #automation #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #evaluation-metrics #automation #worker-facing
 
 ## The Problem
 

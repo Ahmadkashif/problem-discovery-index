@@ -3,7 +3,7 @@
 **Industry:** [[grant-writers|Grant Writers]]
 **Type:** Worker Life
 **One-liner:** Grant writers oscillate between 80-hour deadline weeks and empty pipelines because federal funding cycles create predictable but unmanageable surges — a workload forecasting and pipeline balancing system could smooth the cycles and prevent burnout.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing #time-series-forecasting
+**Tags:** #gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #exponential-smoothing #probability-distributions #worker-facing
 
 ## The Problem
 

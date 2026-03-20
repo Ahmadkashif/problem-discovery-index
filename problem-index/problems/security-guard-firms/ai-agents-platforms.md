@@ -5,7 +5,7 @@
 ---
 
 ## 1. Automated Scheduling and Callout Agent
-#ai-agent #workflow-orchestration #automation #revenue-impact
+#ai-agent #gradient-boosting #feature-engineering #optimization-fundamentals #workflow-orchestration #automation #revenue-impact
 
 **Concept:** An AI agent that manages the complete guard scheduling lifecycle: initial shift assignment optimized for reliability and constraint satisfaction, real-time no-show detection via GPS check-in monitoring, automated backup callout with intelligent guard selection (proximity, qualification, reliability, overtime status), client notification, and post-incident documentation. The agent handles routine scheduling events (no-shows, late arrivals, early departure requests) autonomously, escalating to the ops manager only when automated resolution fails. It learns from each event to improve guard reliability predictions.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Incident Intelligence and Client Reporting Agent
-#ai-agent #nlp #llm #compliance
+#ai-agent #large-language-models #bert #transformers #attention-mechanisms #word-embeddings #compliance
 
 **Concept:** An AI agent that transforms raw guard incident reports into structured security intelligence. It standardizes report quality (extracting key details from inconsistent narratives, requesting clarification for incomplete reports), identifies patterns across incidents (time, location, type, suspect descriptions), generates weekly and monthly intelligence briefs for clients with trend analysis and proactive recommendations, and benchmarks site security metrics against similar properties. Turns the security firm from a "body shop" into a security intelligence provider.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Site Assessment and Proposal Agent
-#ai-agent #computer-vision #tacit-knowledge-ml
+#ai-agent #cnns #transfer-learning #feature-engineering #evaluation-metrics #tacit-knowledge-ml
 
 **Concept:** An AI agent that guides the site assessment process for new client proposals. The account manager walks the site with a mobile app, photographing key areas while the agent prompts for coverage-relevant details (entry points, sight lines, patrol paths, high-value areas). The agent analyzes the layout, references similar site deployments, and generates a staffing recommendation with post positions, patrol routes, and guard qualifications. Output is a client-ready proposal with site map, coverage plan, and pricing — generated in hours instead of days.
 

@@ -3,7 +3,7 @@
 **Industry:** [[grant-writers|Grant Writers]]
 **Type:** Worker Life
 **One-liner:** Grant writers face 75-90% rejection rates on work that takes weeks to produce, creating a unique form of professional demoralization where effort rarely connects to outcome — structured feedback loops and outcome attribution would restore agency and reduce burnout.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #evaluation-metrics #descriptive-statistics #entropy-cross-entropy-kl-divergence #worker-facing
 
 ## The Problem
 

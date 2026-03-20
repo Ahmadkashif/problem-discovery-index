@@ -3,7 +3,7 @@
 **Industry:** [[last-mile-delivery|Last-Mile Delivery]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic fleet telematics platforms flag speeding and hard braking events but don't diagnose which driver behaviors are causing delivery inefficiency (address search time, inefficient vehicle loading pattern) vs. which are safety concerns requiring coaching.
-**Tags:** #gradient-boosting #multiclass-classification #tabular-ml #signal-processing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #bias-variance-tradeoff
 
 ## The Problem
 

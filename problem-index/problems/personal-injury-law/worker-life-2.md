@@ -3,7 +3,7 @@
 **Industry:** [[personal-injury-law|Personal Injury Law Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Paralegals who manually calculate and document the settlement distribution worksheet — attorney fee, case expenses, each lien payment, and net-to-client — across 20-30 settled cases per month get an automated calculation engine that produces the disbursement sheet and all supporting documentation in minutes.
-**Tags:** #automation #tabular-ml #compliance #worker-facing
+**Tags:** #arithmetic-and-basic-algebra #feature-engineering #automation #compliance #worker-facing
 
 ## The Problem
 After a PI case settles, the settlement funds arrive in the firm's trust account and must be disbursed in a specific sequence: case expenses reimbursed, attorney contingency fee calculated, all liens paid, and the balance distributed to the client. The settlement disbursement sheet is a formal accounting document that must be accurate to the penny, signed by the client, and retained in the file. Preparing it requires: retrieving the total case expenses from the case management system (with every receipt), calculating the attorney fee on the net settlement (or gross, depending on the fee agreement), resolving each lien and calculating the payment amount for each, and computing the client's net recovery. When something doesn't reconcile, tracing the discrepancy through the trust ledger, expense records, and lien correspondence takes additional time.

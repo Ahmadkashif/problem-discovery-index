@@ -3,7 +3,7 @@
 **Industry:** [[software-dev-agencies|Software Development Agencies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Requirements already have docs tools — but none track the delta between what was agreed and what the client now wants, in agency billing terms.
-**Tags:** #llm #text-generation #nlp #workflow-orchestration
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #workflow-orchestration
 
 ## The Problem
 Agencies receive requirements in wildly inconsistent formats — email threads, Figma comments, Loom videos, Google Docs with inline comments, Slack messages. When the client says "can we also add X," that change request lives in a Slack thread that nobody links back to the SOW. Three weeks later, the developer has built X, the PM forgot to log it as out-of-scope, and the agency eats the cost. The gap is not capturing requirements — it is tracking requirement drift against the contractual baseline in real time.

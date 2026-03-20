@@ -3,7 +3,7 @@
 **Industry:** [[last-mile-delivery|Last-Mile Delivery]]
 **Type:** Worker Life Changing
 **One-liner:** Delivery drivers who waste 2-4 minutes per problem address searching for apartment unit doors, intercom codes, or back entrance routes — knowledge that experienced drivers on that route have but new drivers lack — get that address-specific knowledge surfaced in their routing app before they arrive.
-**Tags:** #automation #nlp #recommendation #worker-facing
+**Tags:** #large-language-models #word-embeddings #feature-engineering #automation #worker-facing
 
 ## The Problem
 

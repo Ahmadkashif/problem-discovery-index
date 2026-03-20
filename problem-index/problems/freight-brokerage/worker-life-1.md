@@ -3,7 +3,7 @@
 **Industry:** [[freight-brokerage|Freight Brokerage]]
 **Type:** Worker Life Changing
 **One-liner:** Freight brokers who spend 30-60 minutes per load making calls and sending emails to carriers before finding coverage get that outreach automated — the system contacts the right carriers in the right order, collects rates, and surfaces the best option for broker review without the broker touching a phone.
-**Tags:** #automation #workflow-orchestration #recommendation #worker-facing
+**Tags:** #gradient-boosting #feature-engineering #evaluation-metrics #optimization-fundamentals #automation #workflow-orchestration #worker-facing
 
 ## The Problem
 

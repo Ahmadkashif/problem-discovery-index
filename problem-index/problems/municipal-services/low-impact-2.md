@@ -3,7 +3,7 @@
 **Industry:** [[municipal-services|Municipal Services]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Permitting software exists but cannot read a plan set and check it against the local amendment to the International Building Code — so plan reviewers spend weeks on tasks a well-configured LLM could pre-screen in minutes.
-**Tags:** #llm #text-generation #nlp #compliance #automation
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #compliance #automation
 
 ## The Problem
 Building permit applications arrive as a stack of documents: site plans, structural drawings, energy calculations, contractor licenses, and narrative descriptions. A plan reviewer must verify each submission against the municipality's adopted building code (typically IBC/IRC with local amendments), zoning ordinance, fire code, ADA requirements, and stormwater management rules. A single residential permit may require checking 30-50 code provisions. Commercial permits can involve 200+. Reviewers are chronically backlogged — median permit review time in US municipalities is 4-8 weeks, and some jurisdictions exceed 6 months, directly stalling construction and economic development.

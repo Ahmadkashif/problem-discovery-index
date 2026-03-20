@@ -3,7 +3,7 @@
 **Industry:** [[it-staffing-firms|IT Staffing Firms]]
 **Type:** Worker Life Changing
 **One-liner:** Technical recruiters stop drowning in technology jargon they half-understand and get a contextual learning system that teaches them what each skill actually means in practice.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #worker-facing
 
 ## The Problem
 Technical recruiters are expected to screen candidates across dozens of technology stacks — Kubernetes, Terraform, React, Kafka, Snowflake, dbt — but most recruiters have no engineering background. They learn through osmosis: overhearing delivery managers, reading job descriptions, and getting corrected by candidates. A recruiter who doesn't understand the difference between "used Docker in a CI pipeline" and "architected a multi-cluster Kubernetes deployment" cannot meaningfully assess candidate seniority. This knowledge gap takes 12-18 months to close, during which the recruiter submits poorly matched candidates and loses confidence in client conversations.

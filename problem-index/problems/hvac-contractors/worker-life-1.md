@@ -3,7 +3,7 @@
 **Industry:** [[hvac-contractors|HVAC Contractors]]
 **Type:** Worker Life Changing
 **One-liner:** HVAC technicians sizing replacement equipment who should perform a Manual J load calculation — the ACCA standard for determining correct system tonnage — but instead use rule-of-thumb methods (400-500 sq ft per ton) that produce oversized equipment, poor dehumidification, and comfort complaints get a mobile load calculation tool that produces a defensible Manual J result from house characteristics in 10 minutes.
-**Tags:** #automation #tabular-ml #compliance #worker-facing
+**Tags:** #arithmetic-and-basic-algebra #automation #compliance #worker-facing
 
 ## The Problem
 

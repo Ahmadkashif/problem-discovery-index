@@ -3,7 +3,7 @@
 **Industry:** [[med-spas|Med Spas]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic inventory management can track stock levels, but it doesn't know that a reconstituted Botox vial expires in 24 hours, that half-used Juvederm syringes must be tracked per patient for their next visit, that Sculptra requires 72-hour advance reconstitution, or that a single expired vial of Radiesse represents $350 in waste.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml
+**Tags:** #gradient-boosting #decision-trees #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #exponential-smoothing #probability-distributions #expectation-variance-covariance
 
 ## The Problem
 Med spa inventory management is uniquely complex because of three factors that generic inventory systems don't address. First, time-sensitivity: Botox and Dysport must be reconstituted before use and expire within 24 hours (Botox) or 4 hours (Dysport) — so reconstitution must be precisely timed to patient schedules, and any last-minute cancellation after reconstitution means waste. Second, partial-use tracking: dermal filler syringes are partially used during treatment, and the remaining product is stored labeled for the specific patient's next visit (FDA and state regulations govern this practice) — creating a secondary inventory of patient-specific partial products. Third, high unit costs: a single vial of Sculptra costs $400+, Juvederm Voluma is $500+ per syringe, and even Botox at $600-$800 per 100-unit vial means every waste event is significant.

@@ -3,7 +3,7 @@
 **Industry:** [[contract-manufacturing|Contract Manufacturing]]
 **Type:** High Impact
 **One-liner:** Contract manufacturers running new programs at initial production rates who don't know which process parameter combinations will produce acceptable yield until they've already generated scrap get a predictive model that identifies the parameter window most likely to achieve target yield before production runs — protecting margin on fixed-price programs where scrap cost is the CM's problem.
-**Tags:** #gradient-boosting #gaussian-process #regression #tabular-ml #anomaly-detection #revenue-impact
+**Tags:** #gradient-boosting #gaussian-processes #linear-regression #bayesian-optimization #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #maximum-likelihood-estimation #revenue-impact
 
 ## The Problem
 

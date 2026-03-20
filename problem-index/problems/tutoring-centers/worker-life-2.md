@@ -3,7 +3,7 @@
 **Industry:** [[tutoring-centers|Tutoring Centers]]
 **Type:** Worker Life
 **One-liner:** Center directors fielding 15-25 parent inquiry calls per week must diagnose the parent's specific concern, map it to a credible plan, and close the enrollment — a consultative sales skill that separates 45% conversion directors from 18% conversion directors, and determines whether the center survives financially.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #worker-facing #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #worker-facing #revenue-impact
 
 ## The Problem
 

@@ -3,7 +3,7 @@
 **Industry:** [[towing-companies|Towing Companies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic invoicing tools cannot handle the matrix of motor club rate tables, documentation requirements, and dispute workflows that differ across AAA, Agero, Allstate, and twenty other payers.
-**Tags:** #bert #named-entity-recognition #nlp #automation #data-integration
+**Tags:** #bert #transformers #attention-mechanisms #word-embeddings #transfer-learning #feature-engineering #large-language-models #automation #data-integration
 
 ## The Problem
 A mid-size towing company bills 8–15 different motor clubs and insurance programs, each with its own rate schedule, mileage calculations (loaded vs. unloaded miles, hookup fees, storage per-diems), required documentation (photos, police report numbers, VIN verification), and submission portals. Billing staff manually cross-reference each completed job ticket against the correct payer's rate table, reformat documentation to match submission requirements, and track reimbursement timelines that range from 7 to 90 days. Discrepancies between what was billed and what was paid often go uncontested because the billing clerk lacks time to dispute $15–$40 underpayments across hundreds of monthly invoices — but these add up to $2,000–$5,000/month in leaked revenue.

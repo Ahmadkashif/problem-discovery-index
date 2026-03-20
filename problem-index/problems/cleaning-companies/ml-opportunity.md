@@ -6,7 +6,7 @@
 ---
 
 ## 1. Facility Cleaning Time Estimation from Walkthrough Assessment
-#gradient-boosting #regression #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #tacit-knowledge-ml
 
 **Problem statement:** Experienced commercial cleaning estimators walk a facility and intuitively know the labor hours required — reading floor type, traffic patterns, fixture density, window count, and specialty requirements in a way that produces estimates within 5-10% of actual labor needs. New estimators relying on square footage alone miss by 20-40%. This tacit knowledge — the ability to "see" labor hours in a space — is the most commercially valuable skill in the cleaning business.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Post-Cleaning Quality Assessment from Photos
-#cnn #binary-classification #computer-vision
+#cnns #logistic-regression #transfer-learning #loss-functions #evaluation-metrics #backpropagation #gradient-descent
 
 **Problem statement:** Quality inspection is subjective and inconsistent when done by humans. A computer vision system that grades cleaning quality from standardized post-cleaning photos would enable consistent, scalable quality monitoring.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Client Churn Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 **Problem statement:** Commercial cleaning contracts are typically month-to-month or annual. Clients rarely complain before canceling — they simply solicit competitive bids and switch. Early warning of churn risk enables proactive retention.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Crew Performance and Efficiency Modeling
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance #regularization
 
 **Problem statement:** Crew cleaning speed and quality vary significantly, but separating skill differences from site difficulty differences requires modeling both simultaneously.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Dynamic Route Optimization for Multi-Schedule Operations
-#reinforcement-learning #regression #tabular-ml #workflow-orchestration
+#markov-decision-processes #dynamic-programming #optimization-fundamentals #gradient-descent #evaluation-metrics #feature-engineering #workflow-orchestration
 
 **Problem statement:** Assigning 50-200 client sites with varying schedules (daily, 3x/week, weekly) to crews while minimizing drive time and balancing workloads is a combinatorial problem that companies solve manually.
 

@@ -1,13 +1,13 @@
 # ML Opportunities — Tutoring Centers
 
 **Industry:** [[tutoring-centers|Tutoring Centers]]
-**Tags:** #bayesian-network #gradient-boosting #llm #reinforcement-learning #multiclass-classification #binary-classification #regression #text-generation #tabular-ml #nlp #tacit-knowledge-ml #revenue-impact #worker-facing
+**Tags:** #bayesian-inference #gradient-boosting #large-language-models #markov-decision-processes #feature-engineering #evaluation-metrics #tacit-knowledge-ml #revenue-impact #worker-facing
 
 ---
 
 ## 1. Learning Gap Diagnosis from Student Response Patterns (Tacit Knowledge ML)
 
-#bayesian-network #gradient-boosting #multiclass-classification #tabular-ml #tacit-knowledge-ml
+#bayesian-inference #conditional-probability-and-bayes-theorem #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #probability-distributions #tacit-knowledge-ml
 
 **Problem statement:** Experienced tutors diagnose root-cause learning gaps by reading *how* a student answers — error types, hesitation timing, scratch work structure, attempt sequences — not just whether the answer is correct. This diagnostic reasoning is tacit: experts perform it automatically but cannot transfer it to new tutors through written rules. A model that captures these diagnostic signatures would make every tutor diagnostically effective from day one.
 
@@ -22,7 +22,7 @@
 
 ## 2. Session Outcome Prediction
 
-#gradient-boosting #binary-classification #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff
 
 **Problem statement:** Predicting whether a given tutoring session will produce measurable skill gain allows centers to identify ineffective sessions early and adjust — changing tutor assignment, modifying curriculum pacing, or flagging students who have plateaued and need diagnostic reassessment.
 
@@ -37,7 +37,7 @@
 
 ## 3. Tutor-Student Match Optimization
 
-#gradient-boosting #reinforcement-learning #regression #tabular-ml
+#gradient-boosting #markov-decision-processes #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff
 
 **Problem statement:** Which tutor-student pairing produces the best learning outcomes? Current matching is done by availability and subject qualification, ignoring teaching style, personality compatibility, and tutor diagnostic strengths that significantly affect learning velocity.
 
@@ -52,7 +52,7 @@
 
 ## 4. Enrollment Conversion Prediction
 
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #revenue-impact
 
 **Problem statement:** Predicting which inquiry calls will convert to enrollment — and which call characteristics drive conversion — enables center directors to prioritize high-probability leads, adjust their approach for different parent profiles, and identify specific conversion weaknesses for coaching.
 

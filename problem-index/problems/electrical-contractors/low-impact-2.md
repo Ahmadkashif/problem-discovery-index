@@ -3,7 +3,7 @@
 **Industry:** [[electrical-contractors|Electrical Contractors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic estimating tools handle material takeoffs but not the labor productivity rates that are specific to installation type, building construction type, access difficulty, and local crew experience — the variables an experienced electrical estimator encodes from years of project data.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 Electrical labor estimating requires knowing how long it takes to install a circuit breaker in an accessible panel vs. a panel in a finished basement with limited access; to pull wire through an open wood-frame wall vs. an existing finished wall vs. a conduit system in a concrete commercial building; to install a light fixture on a flat ceiling vs. a vaulted ceiling at 20 feet. These productivity rates — measured in units of work per labor hour — are what separate accurate electrical estimating from guesswork. Experienced electricians have internalized these rates from years of field work and project tracking. When they write a bid, they know that roughing-in a circuit in new wood-frame residential takes 1.2 hours per circuit under normal conditions, and they adjust for the specific job's access conditions. Junior estimators, tasked with pricing a bid without that internalized rate knowledge, use generic NECA labor unit tables that often don't account for the specific job conditions accurately.

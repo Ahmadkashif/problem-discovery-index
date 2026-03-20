@@ -3,7 +3,7 @@
 **Industry:** [[podcasting-networks|Podcasting Networks]]
 **Type:** Worker Life Changing
 **One-liner:** Producers get back 15-20 hours per week currently spent on mechanical editing, transcription cleanup, and show notes writing — time they can redirect to creative development and talent coaching.
-**Tags:** #llm #speech-recognition #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing
 
 ## The Problem
 A podcast producer managing 3-5 weekly shows spends 3-5 hours per episode on post-production tasks that are skilled but repetitive: trimming dead air and filler words, leveling audio between speakers, generating accurate transcripts, writing SEO-optimized show notes with timestamps, pulling quotable clips for social media, and drafting episode descriptions. For a producer handling 4 shows, that is 12-20 hours per week on tasks that follow predictable patterns but still require human judgment on what to cut, what to highlight, and how to frame the episode for discovery.

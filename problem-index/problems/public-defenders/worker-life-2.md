@@ -3,7 +3,7 @@
 **Industry:** [[public-defenders|Public Defenders]]
 **Type:** Worker Life
 **One-liner:** Public defenders absorb the accumulated trauma of hundreds of clients annually — abuse histories, mental health crises, family separation, and the violence of incarceration itself — without the clinical support structures available to therapists and social workers who handle similar exposure.
-**Tags:** #llm #text-generation #nlp #worker-facing #anomaly-detection #tabular-ml
+**Tags:** #large-language-models #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #change-point-detection #descriptive-statistics #probability-distributions #worker-facing
 
 ## The Problem
 

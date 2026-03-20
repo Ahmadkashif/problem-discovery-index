@@ -5,7 +5,7 @@
 ---
 
 ## 1. Season Setup Autopilot
-#ai-agent #workflow-orchestration #automation
+#ai-agent #gradient-boosting #optimization-fundamentals #feature-engineering #large-language-models #workflow-orchestration #automation
 
 **Concept:** An AI agent that takes registration data, field inventory, coach availability, and league rules as inputs, then autonomously generates a complete season plan: balanced teams, full schedule, referee assignments, and field allocations. The agent handles the constraint-satisfaction problem that currently takes committees 40-60 hours, presenting a draft plan for human review and adjustment within hours of registration closing.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Coach Communication Copilot
-#ai-agent #llm #text-generation #worker-facing
+#ai-agent #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing
 
 **Concept:** An AI agent embedded in team communication that monitors parent messages, auto-responds to routine inquiries (practice times, field directions, equipment lists, rainout policies), drafts responses to sensitive topics (playing time concerns, behavioral issues) for coach review, and generates weekly team updates from practice notes and game results. The agent learns each coach's communication style and organization's policies.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Sponsorship Revenue Agent
-#ai-agent #revenue-impact #automation
+#ai-agent #large-language-models #gradient-boosting #feature-engineering #attention-mechanisms #revenue-impact #automation
 
 **Concept:** An AI agent that manages the full sponsorship lifecycle for youth sports organizations: identifies local businesses likely to sponsor based on proximity and industry, generates personalized outreach, tracks responses and follow-ups, manages deliverables (banner placement, program ads, social media mentions), and triggers renewal campaigns. Turns sponsorship from a relationship-dependent board member task into a systematic revenue operation.
 
@@ -41,7 +41,7 @@
 ---
 
 ## 4. Player Development Tracking Platform
-#ai-platform #computer-vision #tabular-ml
+#ai-platform #cnns #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #object-detection
 
 **Concept:** A platform that tracks individual player development across seasons using a combination of structured evaluations, game statistics, and optional video analysis. Provides parents with development reports showing progress, coaches with roster-level skill distribution views, and organizations with program quality metrics. Replaces the current "trust the coach's memory" approach with longitudinal data.
 

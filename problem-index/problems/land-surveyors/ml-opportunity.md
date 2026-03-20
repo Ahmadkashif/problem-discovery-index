@@ -1,13 +1,13 @@
 # ML Opportunities — Land Surveyors
 
 **Industry:** [[land-surveyors|Land Surveyors]]
-**Tags:** #bert #cnn #gradient-boosting #lstm #llm #multiclass-classification #regression #binary-classification #semantic-segmentation #ocr #anomaly-detection #text-classification #nlp #computer-vision #tabular-ml #signal-processing #tacit-knowledge-ml #revenue-impact #compliance
+**Tags:** #bert #cnns #gradient-boosting #lstms-and-grus #large-language-models #transfer-learning #feature-engineering #evaluation-metrics #semantic-segmentation #loss-functions #attention-mechanisms #cross-validation #tacit-knowledge-ml #revenue-impact #compliance
 
 ---
 
 ## 1. Monument and Boundary Evidence Detection from Historical Documents and Field Reconnaissance (Primary Opportunity — Tacit Knowledge ML)
 
-#bert #cnn #multiclass-classification #nlp #computer-vision #tacit-knowledge-ml
+#bert #cnns #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #attention-mechanisms #backpropagation #gradient-descent #semantic-segmentation #cross-validation #tacit-knowledge-ml
 
 **Problem statement:** Senior surveyors identify boundary evidence — iron pins beneath soil, stone remnants indicating historical monuments, tree lines following old fence rows, deed language patterns indicating specific eras and conventions — through pattern recognition built over decades of local practice. This tacit knowledge is the profession's most critical capability and is being permanently lost as 3,000-4,000 surveyors retire annually. Junior surveyors miss evidence that seniors would catch, leading to 2-3 additional field trips per complex boundary survey and, in worst cases, incorrect boundary determinations.
 
@@ -29,7 +29,7 @@
 
 ## 2. Survey Time and Cost Estimation
 
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #linear-regression #confidence-intervals #probability-distributions #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Survey firms estimate project costs based on the PLS's experience with similar projects, but estimates are frequently wrong — underestimates lose money, overestimates lose bids. The variables that drive actual field time (terrain difficulty, vegetation density, monument recovery probability, deed complexity) are assessable from available data but not systematically modeled.
 
@@ -51,7 +51,7 @@
 
 ## 3. Deed Language Interpretation and Legal Description Generation
 
-#bert #llm #ocr #text-classification #nlp
+#bert #large-language-models #transfer-learning #attention-mechanisms #word-embeddings #evaluation-metrics #loss-functions #entropy-cross-entropy-kl-divergence #cross-validation
 
 **Problem statement:** Reading and interpreting deed language is one of the most time-consuming aspects of boundary survey preparation. A complex chain of title may include 5-15 deeds spanning 100+ years, written in evolving legal conventions and sometimes handwritten. Extracting the structured boundary description (bearings, distances, monuments, adjoiners) from these documents takes 1-4 hours per survey.
 
@@ -73,7 +73,7 @@
 
 ## 4. Point Cloud to Survey Plat Automation
 
-#cnn #semantic-segmentation #computer-vision #gradient-boosting #regression #tabular-ml
+#cnns #semantic-segmentation #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #backpropagation #gradient-descent #cross-validation
 
 **Problem statement:** LiDAR scanners and drone photogrammetry generate point clouds with millions of points, but extracting survey-relevant features (ground surface, structures, utilities, vegetation boundaries) and producing deliverables (topographic maps, cross-sections, volume calculations) still requires 8-20 hours of manual processing per project.
 
@@ -95,7 +95,7 @@
 
 ## 5. Boundary Dispute Risk Prediction
 
-#gradient-boosting #binary-classification #tabular-ml #nlp
+#gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bert #conditional-probability-and-bayes-theorem #probability-distributions
 
 **Problem statement:** Surveyors occasionally deliver boundary determinations that trigger disputes between adjacent landowners — creating professional liability exposure, costly litigation, and client dissatisfaction. Identifying high-dispute-risk surveys before delivery would allow the surveyor to take additional precautions (more thorough research, adjoiner notification, additional monument documentation).
 

@@ -3,7 +3,7 @@
 **Industry:** [[cloud-infrastructure-consultants|Cloud Infrastructure Consultants]]
 **Type:** Worker Life Changing
 **One-liner:** Engineers stop dreading handoffs and escalations because every client environment has living documentation that updates itself when the infrastructure changes.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing
 
 ## The Problem
 Every client environment managed by a cloud consulting firm should have current documentation: network topology diagrams, service dependency maps, access control matrices, runbooks for common incidents, and architecture decision records. In practice, documentation is written once during initial setup, becomes stale within 2-4 weeks as Terraform changes are applied, and is effectively useless within 3 months. When an engineer is paged at 2 AM for a client environment they have never touched, they face a Confluence page last updated 8 months ago, a Terraform state file with 400 resources, and no clear map of what depends on what. They spend 30-60 minutes just orienting themselves before they can begin troubleshooting.

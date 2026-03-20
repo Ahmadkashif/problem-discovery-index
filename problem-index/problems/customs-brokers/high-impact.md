@@ -3,7 +3,7 @@
 **Industry:** [[customs-brokers|Customs Brokers]]
 **Type:** High Impact
 **One-liner:** Licensed customs brokers who classify imported products by reading the product description and cross-referencing the Harmonized Tariff Schedule hierarchy — a classification judgment that takes 5-20 minutes per novel product and can be disputed by CBP — get an ML model that predicts the most likely HTS codes from the product description, reducing classification time and providing a defensible starting point for review.
-**Tags:** #transformer #bert #text-classification #nlp #compliance #revenue-impact
+**Tags:** #transformers #bert #transfer-learning #attention-mechanisms #word-embeddings #loss-functions #backpropagation #evaluation-metrics #compliance #revenue-impact
 
 ## The Problem
 

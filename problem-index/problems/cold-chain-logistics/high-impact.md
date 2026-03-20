@@ -3,7 +3,7 @@
 **Industry:** [[cold-chain-logistics|Cold Chain Logistics]]
 **Type:** High Impact
 **One-liner:** Cold chain operators who respond to temperature alarms only after a threshold breach — when product is already compromised and a regulatory excursion event is recorded — get a predictive model that identifies shipments trending toward excursion 30-90 minutes before breach, enabling driver intervention or pre-positioning of alternate cold storage before damage occurs.
-**Tags:** #lstm #time-series-forecasting #anomaly-detection #signal-processing #tabular-ml #revenue-impact #compliance
+**Tags:** #lstms-and-grus #time-series-forecasting #change-point-detection #backpropagation #gradient-descent #loss-functions #feature-engineering #evaluation-metrics #revenue-impact #compliance
 
 ## The Problem
 

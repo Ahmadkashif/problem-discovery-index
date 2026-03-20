@@ -6,7 +6,7 @@
 ---
 
 ## 1. Hidden Damage Identification from Visible Loss Patterns (Primary Opportunity — Tacit Knowledge ML)
-#cnn #gradient-boosting #regression #computer-vision #tabular-ml #tacit-knowledge-ml
+#cnns #gradient-boosting #transfer-learning #object-detection #feature-engineering #evaluation-metrics #loss-functions #backpropagation #gradient-descent #cross-validation #tacit-knowledge-ml
 
 **Problem statement:** An experienced public adjuster walks through a fire-damaged home and sees charred kitchen cabinets — but immediately knows to check the adjacent walls for heat-compromised electrical wiring, the HVAC ducts for smoke particulate contamination, the attic insulation above the kitchen for heat damage, and the opposite side of the shared wall for smoke migration. They see a water stain on a first-floor ceiling and know the second-floor bathroom supply line, the subfloor, and the insulation between floors are likely compromised. This "visible damage → hidden damage" inference is the single most valuable skill in public adjusting — it's the difference between a $50,000 recovery and a $150,000 recovery on the same loss. Junior adjusters and catastrophe-deployed temporary inspectors lack this pattern recognition, documenting only what's visible and missing 30-50% of the legitimate claim value.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Claim Value Estimation at Intake
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #linear-regression #probability-distributions #expectation-variance-covariance #confidence-intervals
 
 **Problem statement:** When a potential client calls, the public adjuster must quickly estimate the likely claim value to decide whether to take the case on contingency. Currently, this is done by asking the client to describe the damage and making a rough mental estimate — experienced adjusters are within 30% of actual; inexperienced ones are off by 50-100%.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Settlement Timeline Prediction
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #survival-analysis #time-series-forecasting #probability-distributions #expectation-variance-covariance
 
 **Problem statement:** Settlement timelines range from 4 weeks to 18+ months depending on carrier, claim complexity, and negotiation dynamics. Predicting timeline enables cash flow forecasting and case prioritization.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Policy Coverage Gap Detection
-#bert #text-classification #nlp
+#bert #transfer-learning #attention-mechanisms #transformers #word-embeddings #loss-functions #evaluation-metrics #entropy-cross-entropy-kl-divergence #conditional-probability-and-bayes-theorem
 
 **Problem statement:** Commercial policies contain coverage sections and endorsements that public adjusters commonly miss — ordinance or law coverage, equipment breakdown, business income with extended period of indemnity, newly acquired property. Automatically analyzing the policy to flag all applicable coverages for a given loss type would increase recoveries and reduce missed-coverage risk.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Carrier Negotiation Strategy Optimization
-#gradient-boosting #recommendation #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #expectation-variance-covariance #probability-distributions
 
 **Problem statement:** Different insurance carriers respond to different negotiation strategies — some settle quickly when presented with thorough documentation, others delay systematically until appraisal is invoked, and some have specific triggers (dollar thresholds, line item categories) that escalate the claim to senior adjusters with more settlement authority. Experienced public adjusters know each carrier's patterns; juniors negotiate blindly.
 

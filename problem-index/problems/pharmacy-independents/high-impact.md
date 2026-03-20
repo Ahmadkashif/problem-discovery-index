@@ -3,7 +3,7 @@
 **Industry:** [[pharmacy-independents|Independent Pharmacies]]
 **Type:** High Impact
 **One-liner:** A pharmacy that can predict its DIR fee exposure by prescription, plan, and quarter — before filling — can make informed decisions about which PBM contracts to accept, which drugs to stock, and when to counsel patients toward cash-pay alternatives that are actually cheaper for the pharmacy.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #expectation-variance-covariance #revenue-impact
 
 ## The Problem
 DIR fees are the most financially destructive and operationally confusing problem in independent pharmacy today. A pharmacy fills a brand-name prescription, receives an initial reimbursement that appears profitable, and then months later receives a reconciliation statement from the PBM clawing back 6-15% of that reimbursement based on performance metrics the pharmacy has limited control over (patient adherence rates, star ratings, network tiers). The cumulative impact of DIR fees has turned entire PBM network contracts from profitable to loss-generating for many independent pharmacies — but the fees come retroactively, making it impossible to see the problem in real time. Pharmacies are effectively filling prescriptions at an unknown final margin.

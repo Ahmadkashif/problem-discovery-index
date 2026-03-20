@@ -3,7 +3,7 @@
 **Industry:** [[engineering-consultants|Engineering Consultants]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic compliance platforms cover IBC and ASCE 7 national standards but miss the thousands of local jurisdiction amendments that actually govern permit approval.
-**Tags:** #bert #text-classification #nlp #compliance
+**Tags:** #bert #transformers #transfer-learning #feature-engineering #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #compliance
 
 ## The Problem
 Every engineering design must comply with building codes, but the applicable code is never just the International Building Code or ASCE 7 — it is the locally adopted version with jurisdiction-specific amendments covering seismic coefficients, wind speed maps, stormwater detention requirements, fire separation distances, and ADA pathway widths. A structural engineer designing a mixed-use building in Austin, TX operates under a different effective code than one doing the same work in Denver, CO, even though both nominally reference IBC 2021. Engineers currently check compliance by manually cross-referencing local amendment PDFs, municipal ordinances, and zoning overlays against their design calculations.

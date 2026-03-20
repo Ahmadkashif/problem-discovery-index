@@ -3,7 +3,7 @@
 **Industry:** [[tattoo-studios|Tattoo Studios]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic compliance tools can track documents, but they don't know that a tattoo studio needs autoclave spore testing logs, sharps disposal manifests, bloodborne pathogen training records, and ink manufacturer safety data sheets — all in the format the health inspector expects.
-**Tags:** #llm #text-generation #nlp #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #compliance
 
 ## The Problem
 Tattoo studios face health department inspections that verify sterilization protocols (autoclave spore test results, equipment cleaning logs), bloodborne pathogen training for all artists, sharps disposal documentation (manifests from licensed disposal companies), ink and pigment safety data sheets (SDS), client consent and medical history forms, and facility cleanliness standards. Requirements vary by state and municipality. Most studios maintain these records on paper — autoclave logs in a binder, training certificates in a folder, consent forms in a filing cabinet. A single missing document during inspection can result in fines, temporary closure, or license revocation.

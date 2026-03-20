@@ -3,7 +3,7 @@
 **Industry:** [[tutoring-centers|Tutoring Centers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic scheduling tools handle appointment booking but can't optimize for the tutoring-specific constraint set — tutor subject qualifications, student-tutor continuity preferences, room capacity by session type, sibling coordination, and the revenue impact of schedule gaps that leave tutors idle between sessions.
-**Tags:** #reinforcement-learning #regression #tabular-ml #workflow-orchestration
+**Tags:** #markov-decision-processes #dynamic-programming #linear-regression #optimization-fundamentals #lagrange-multipliers #convex-optimization #workflow-orchestration
 
 ## The Problem
 

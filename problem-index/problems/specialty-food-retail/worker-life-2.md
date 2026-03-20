@@ -3,7 +3,7 @@
 **Industry:** [[specialty-food-retail|Specialty Food Retail]]
 **Type:** Worker Life Changing
 **One-liner:** Store owners reclaim 10–15 hours per week from vendor coordination by consolidating ordering, invoicing, and delivery tracking into a single workflow.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing #workflow-orchestration
+**Tags:** #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #time-series-forecasting #descriptive-statistics #worker-facing #workflow-orchestration
 
 ## The Problem
 Unlike chain grocers that route 80% of purchasing through 2–3 major distributors, a specialty food store owner manages direct relationships with 30–50 small and artisan vendors. Each vendor has a different order minimum ($150 here, 2-case minimum there), a different ordering method (email, phone call, text message, a PDF form), a different delivery schedule (Tuesday/Thursday, first Monday of the month, "whenever the batch is ready"), and a different invoicing format (handwritten, QuickBooks, Stripe invoice, Net-30 check). The owner spends 10–15 hours per week just on purchasing logistics: remembering which vendor to call on which day, tracking what was ordered versus what arrived, reconciling 40+ invoices per month against deliveries, and chasing vendors whose shipments are late or short.

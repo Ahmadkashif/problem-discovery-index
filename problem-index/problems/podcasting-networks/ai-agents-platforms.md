@@ -5,7 +5,7 @@
 ---
 
 ## 1. Show Notes & Post-Production Agent
-#ai-agent #llm #speech-recognition #text-generation #nlp #worker-facing #automation
+#ai-agent #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing #automation
 
 **Concept:** An autonomous post-production agent that ingests raw episode audio and produces publication-ready assets without producer intervention for routine episodes. The agent transcribes with speaker diarization, removes filler words and dead air according to the producer's learned style preferences, generates timestamped show notes with chapter markers, writes an SEO-optimized episode description, and extracts 3-5 clip-worthy segments with auto-generated social captions. For shows with established patterns, the agent publishes directly to the hosting platform; for new or sensitive episodes, it queues a review for the producer.
 **Inputs:** Raw episode audio (uploaded or pulled from recording platform like Riverside/Zencastr), show-level style guide (built from the producer's historical edits over 5-10 episodes), episode metadata (guest name, topic).
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Sponsor Matching & Outreach Agent
-#ai-agent #gradient-boosting #recommendation #tabular-ml #revenue-impact #automation
+#ai-agent #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #logistic-regression #revenue-impact #automation
 
 **Concept:** An autonomous sales development agent that continuously monitors the podcast advertising ecosystem, identifies sponsors entering or expanding their podcast spend, matches them against the network's show catalog using content-brand alignment scoring, and drafts personalized outreach emails with show-specific pitch decks. The agent tracks sponsor responses, schedules follow-ups, and escalates warm leads to human sales reps with a complete interaction history. It replaces the 20-30 hours/week that reps currently spend on research and cold outreach.
 **Inputs:** Network show catalog with audience data and available inventory, Magellan AI / Podscribe competitive intelligence feeds (which brands are advertising on which shows), sponsor CRM data (past interactions, deal history), brand website and social media signals (new product launches, campaign themes).
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Audience Growth & Programming Platform
-#ai-platform #gradient-boosting #time-series-forecasting #tabular-ml #data-integration #revenue-impact
+#ai-platform #gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #probability-distributions #data-integration #revenue-impact
 
 **Concept:** A network-level analytics and decision platform that replaces the patchwork of Chartable dashboards, spreadsheet models, and gut-feel programming decisions. The platform ingests data from all hosting platforms, ad servers, social channels, and review sites to provide: (a) 3-6 month audience trajectory forecasts per show, (b) cross-promo optimization recommendations (which show pairs to cross-promote, and in which direction), (c) catalog health scoring (which shows are growing, plateauing, or declining relative to their category), and (d) scenario modeling (what happens to network-level revenue if we sunset Show X and launch Show Y). Network executives use it as their primary programming decision tool.
 **Inputs:** Hosting platform APIs (Megaphone, Simplecast, Libsyn) for download data, Chartable/Podtrac for attribution, Apple Podcasts and Spotify APIs for chart and review data, social media APIs for mention velocity, ad server data for revenue per show, network's internal cost data per show.

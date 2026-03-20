@@ -5,7 +5,7 @@
 ---
 
 ## 1. Treatment Recommendation Agent
-#ai-agent #computer-vision #recommendation #revenue-impact
+#ai-agent #cnns #transfer-learning #gradient-boosting #feature-engineering #loss-functions #evaluation-metrics #backpropagation #revenue-impact
 
 **Concept:** An AI agent that functions as a pre-consultation facial analysis and treatment planning assistant. When a patient checks in, front desk staff capture standardized photos using a calibrated photo station (controlled lighting, positioning guide, color reference). The agent analyzes the photos, scores aging by facial zone, identifies priority treatment areas based on the patient's stated goals, and generates a structured consultation brief displayed on a tablet in the treatment room. The injector reviews the pre-analyzed assessment, applies their clinical judgment, and develops a treatment plan with the agent's analysis as a starting point — not starting from a blank assessment of every face. For returning patients, the agent compares current photos to prior visits, shows treatment response by zone, and suggests next-phase treatments based on the original treatment plan trajectory.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Client Lifecycle and Retention Agent
-#ai-agent #ai-platform #tabular-ml
+#ai-agent #ai-platform #gradient-boosting #feature-engineering #evaluation-metrics #cross-validation #survival-analysis #probability-distributions
 
 **Concept:** An AI agent that manages the patient relationship lifecycle from first inquiry through long-term retention. The agent scores new leads by conversion likelihood and personalizes follow-up sequences. After the first visit, it predicts LTV and segments the patient into a retention track: high-value patients receive proactive treatment scheduling suggestions and exclusive event invitations; mid-value patients receive targeted education content about treatments that match their profile; at-risk patients (predicted to lapse) receive re-engagement outreach timed to their typical treatment interval. The agent manages membership optimization — identifying which patients would financially benefit from membership and triggering personalized comparison presentations. It handles birthday and milestone messaging, treatment anniversary reminders, and referral program management.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Inventory and Operations Management Agent
-#ai-agent #workflow-orchestration
+#ai-agent #gradient-boosting #time-series-forecasting #feature-engineering #evaluation-metrics #optimization-fundamentals #workflow-orchestration
 
 **Concept:** An AI agent that optimizes injectable inventory, reconstitution timing, and operational scheduling. The agent forecasts daily product demand from the appointment schedule (adjusting for cancellation probability), triggers reconstitution preparation at the optimal time (Botox 2-4 hours before first appointment, Sculptra 72 hours before), manages partial-use filler tracking (alerting when a patient with stored product is due for rebooking), optimizes ordering to capture manufacturer rebate thresholds (Allé, ASPIRE programs), and manages expiration date tracking with proactive scheduling of appropriate patients to use soon-expiring product. The agent integrates with supply ordering systems to place restock orders automatically when inventory triggers are hit.
 

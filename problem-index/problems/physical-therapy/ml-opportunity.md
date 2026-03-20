@@ -6,7 +6,7 @@
 ---
 
 ## 1. Authorization Denial Risk Prediction
-#ml-classification #revenue-impact #quick-win
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #revenue-impact #quick-win
 
 **Problem statement:** Given a concurrent review request's attributes (payer, diagnosis, visits completed, functional progress, documentation quality), predict the probability of denial — allowing clinics to strengthen weak requests before submission and prioritize high-risk cases for extra documentation.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Home Exercise Adherence Estimation from Functional Progress
-#ml-time-series #worker-facing
+#linear-regression #time-series-forecasting #evaluation-metrics #descriptive-statistics #expectation-variance-covariance #worker-facing
 
 **Problem statement:** Given a patient's functional outcome trajectory (scores at each visit), visit frequency, and prescribed HEP complexity, estimate likely adherence to the home exercise program — distinguishing between "treatment isn't working" and "patient isn't doing the exercises."
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Medical Necessity Language Generation
-#ml-nlp #worker-facing #compliance
+#large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #evaluation-metrics #worker-facing #compliance
 
 **Problem statement:** Given a PT's clinical documentation (objective measurements, functional assessments, interventions), generate payer-appropriate medical necessity justification language that satisfies audit requirements — eliminating the need for the PT to manually craft compliance language.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Outcome Measure Auto-Selection and Scheduling
-#ml-recommendation #compliance #quick-win
+#decision-trees #feature-engineering #evaluation-metrics #compliance #quick-win
 
 **Problem statement:** Given a patient's diagnosis, body region, treatment plan, and payer requirements, automatically select the appropriate outcome measure(s) and schedule administration at clinically appropriate intervals.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. PTA Supervision Compliance Prediction
-#ml-classification #compliance #automation
+#decision-trees #feature-engineering #optimization-fundamentals #compliance #automation
 
 **Problem statement:** Given a PTA's caseload, scheduled visits, supervising PT's schedule, and payer-specific supervision rules, predict supervision compliance gaps 1 week in advance — flagging patients who will exceed their supervision visit threshold before the next scheduled PT visit.
 

@@ -3,7 +3,7 @@
 **Industry:** [[alterations-tailoring|Alterations & Tailoring]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Project management tools exist for every other workflow, but none handle the alterations shop's unique reality — 50-200 active garments hanging on a rack with paper tickets, due dates in the tailor's memory, and no system to track which garment is at which stage (intake → marking → sewing → pressing → pickup) or notify the customer when it's ready.
-**Tags:** #gradient-boosting #regression #tabular-ml #workflow-orchestration
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #workflow-orchestration
 
 ## The Problem
 An active alterations shop has 50-200 garments in various stages of completion at any given time. Each garment has a paper ticket pinned to it listing the customer name, requested alterations, due date, and price. The garments hang on a rack in roughly chronological order by due date. The tailor works through the rack based on due dates, adjusting priority when walk-in customers request rush service. There is no system to track which garments are in progress, which are waiting for second fittings, which are completed and awaiting pickup, or which are overdue. Customer inquiries ("Is my dress ready?") require the tailor to physically walk to the rack and check — interrupting active sewing. Rush orders get lost in the middle of the rack. Garments left for 30+ days without pickup accumulate, consuming rack space and creating awkward conversations.

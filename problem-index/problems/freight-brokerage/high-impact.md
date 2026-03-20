@@ -3,7 +3,7 @@
 **Industry:** [[freight-brokerage|Freight Brokerage]]
 **Type:** High Impact
 **One-liner:** Freight brokers who price loads on a lane by gut feel — using last week's rate they saw plus a margin — get a model that prices each load based on current market conditions, carrier capacity in the lane, day-of-week demand patterns, and the shipper's service sensitivity to generate the price that maximizes expected margin without losing the load.
-**Tags:** #gradient-boosting #regression #time-series-forecasting #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #time-series-forecasting #gradient-descent #bias-variance-tradeoff #entropy-cross-entropy-kl-divergence #revenue-impact
 
 ## The Problem
 

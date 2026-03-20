@@ -3,7 +3,7 @@
 **Industry:** [[vocational-schools|Vocational Schools]]
 **Type:** Worker Life Changing
 **One-liner:** Trade instructors get freed from hours of rubric paperwork and gain a consistent, defensible record of what their students can actually do with their hands.
-**Tags:** #cnn #multiclass-classification #computer-vision #worker-facing #tacit-knowledge-ml
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #optimization-fundamentals #worker-facing #tacit-knowledge-ml
 
 ## The Problem
 A welding instructor watches 20 students perform a 6G pipe weld and must grade each one on bead consistency, penetration, undercut, porosity, and body positioning — filling out a multi-page rubric for each student, often from memory after the session because stopping to document interrupts the teaching flow. An electrical instructor evaluates panel wiring by visual inspection, checking termination tightness, wire routing, labeling compliance, and code adherence across 15 student stations. These assessments happen 3-5 times per week per cohort. Instructors — who became teachers because they love the trade, not paperwork — spend 8-12 hours per week on assessment documentation. Worse, the assessments are subjective: two instructors grading the same weld will disagree 30-40% of the time on sub-criteria, creating inconsistency that accreditors and employers notice.

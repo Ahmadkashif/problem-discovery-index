@@ -3,7 +3,7 @@
 **Industry:** [[coffee-shops-independent|Independent Coffee Shops]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic inventory tools count shelf-stable goods fine but cannot tell you whether to order 4 or 6 gallons of whole milk for Wednesday when it's supposed to rain.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml #automation
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #time-series-forecasting #evaluation-metrics #bias-variance-tradeoff #optimization-fundamentals #gradient-descent #automation
 
 ## The Problem
 Independent coffee shops carry 15-30 perishable SKUs — milk varieties (whole, oat, almond, coconut), baked goods (croissants, muffins, scones), fresh fruit, sandwich ingredients — each with a 2-5 day shelf life. Ordering happens daily or every-other-day through Sysco, US Foods, or local bakery partners, and the decision is almost always made by the owner or shift lead from gut feel. Over-order and you dump $50-$150 of expired product per day; under-order and you 86 the oat milk latte at 10am, losing a $6 ticket and annoying a loyal customer.

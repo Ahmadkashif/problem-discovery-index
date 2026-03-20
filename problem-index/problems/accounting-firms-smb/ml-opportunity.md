@@ -6,7 +6,7 @@
 ---
 
 ## 1. Document Classification and Data Extraction from Client Tax Documents
-#bert #cnn #ocr #named-entity-recognition #nlp #computer-vision #automation
+#bert #cnns #transfer-learning #attention-mechanisms #word-embeddings #loss-functions #backpropagation #evaluation-metrics #gradient-descent #automation
 
 **Problem statement:** Classify incoming client documents by type (W-2, 1099-NEC, 1099-INT, 1099-DIV, K-1, mortgage interest statement, property tax bill, charitable receipt, etc.) from their visual layout and text content, then extract structured fields specific to each document type with position-aware accuracy.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Transaction Auto-Categorization with Client-Specific Learning
-#gradient-boosting #multiclass-classification #tabular-ml #data-integration
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #entropy-cross-entropy-kl-divergence #gradient-descent #bias-variance-tradeoff #data-integration
 
 **Problem statement:** Categorize bank and credit card transactions into the correct chart of accounts category for each specific client, learning from that client's historical categorization patterns, vendor relationships, and industry context to exceed the 60-70% accuracy of generic bank-rule matching.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Anomaly Detection in Client Books for Review Preparation
-#isolation-forest #gradient-boosting #anomaly-detection #tabular-ml #compliance
+#gradient-boosting #dbscan #feature-engineering #evaluation-metrics #descriptive-statistics #hypothesis-testing #probability-distributions #cross-validation #compliance
 
 **Problem statement:** Identify transactions and account balances that are likely errors, fraud, or unusual activity requiring reviewer attention during monthly close or annual review, reducing the time senior accountants spend scanning trial balances and transaction reports.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Client Engagement Risk Scoring
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #gradient-descent #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Predict which clients are likely to churn, become unprofitable, or create malpractice exposure in the next 12 months, enabling proactive partner intervention before revenue is lost or risk materializes.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Tax Return Error Detection
-#gradient-boosting #random-forest #binary-classification #tabular-ml #compliance
+#gradient-boosting #random-forests #decision-trees #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #bias-variance-tradeoff #compliance
 
 **Problem statement:** Identify likely errors in prepared tax returns before partner review by comparing return values against statistical norms for the client's profile, prior-year returns, and IRS audit selection criteria, catching mistakes that the preparer missed and reducing reviewer time.
 

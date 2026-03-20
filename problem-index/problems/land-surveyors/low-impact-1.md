@@ -3,7 +3,7 @@
 **Industry:** [[land-surveyors|Land Surveyors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Converting raw field data (GNSS observations, total station shots, point clouds) into finished deliverables (survey plats, legal descriptions, topographic maps) requires 4-8 hours of manual CAD work per project — generic point cloud and CAD tools don't understand survey-specific conventions, legal description formatting, or jurisdictional plat standards.
-**Tags:** #gradient-boosting #regression #tabular-ml #automation #cnn #semantic-segmentation #computer-vision
+**Tags:** #cnns #gradient-boosting #semantic-segmentation #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #backpropagation #cross-validation #automation
 
 ## The Problem
 

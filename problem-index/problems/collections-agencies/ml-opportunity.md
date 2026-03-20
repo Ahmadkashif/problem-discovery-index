@@ -6,7 +6,7 @@
 ---
 
 ## 1. Call Outcome Prediction from Early Conversation Signals
-#gradient-boosting #bert #binary-classification #nlp #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #bert #transformers #feature-engineering #cross-validation #evaluation-metrics #word-embeddings #loss-functions #bias-variance-tradeoff #tacit-knowledge-ml
 
 **Problem statement:** Experienced collection agents develop an intuitive sense within the first 30 seconds of a call — based on tone, word choice, hesitation patterns, and greeting style — whether the debtor will engage meaningfully or resist. This tacit judgment determines how aggressively the agent negotiates, whether to pivot to a payment plan early, or whether to cut the call short and move on. New agents lack this instinct and waste 3-5 minutes on calls that a veteran would have redirected in 30 seconds.
 
@@ -25,7 +25,7 @@
 ---
 
 ## 2. Optimal Contact Time Prediction
-#gradient-boosting #regression #time-series-forecasting #tabular-ml #revenue-impact
+#gradient-boosting #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #conditional-probability-and-bayes-theorem #revenue-impact
 
 **Problem statement:** Agencies dial accounts at times determined by campaign schedules and dialer pacing, not by individual debtor reachability patterns. The probability of reaching a specific debtor varies dramatically by day-of-week and time-of-day, and these patterns are debtor-specific (a night-shift worker is unreachable at 10 AM; a retiree is unreachable after 8 PM).
 
@@ -44,7 +44,7 @@
 ---
 
 ## 3. Settlement Amount Optimization
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #gradient-descent #revenue-impact
 
 **Problem statement:** When a debtor is willing to settle for less than the full balance, the agent must decide what settlement percentage to offer. Too high and the debtor walks away; too low and the agency leaves money on the table. Currently this is guided by static rules (e.g., "offer 40% on accounts over 180 days") that ignore debtor-specific willingness-to-pay signals.
 
@@ -63,7 +63,7 @@
 ---
 
 ## 4. Right-Party Contact Scoring from Phone Number Portfolios
-#gradient-boosting #binary-classification #tabular-ml #data-integration
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #data-integration
 
 **Problem statement:** Each debtor account may have 5-15 associated phone numbers from skip tracing vendors, credit headers, and prior collection attempts. Agents or dialers must choose which number to try first, and the wrong choice wastes one of the limited daily contact attempts allowed under Reg F (7 attempts per 7-day period per phone number).
 

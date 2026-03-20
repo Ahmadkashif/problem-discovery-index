@@ -5,7 +5,7 @@
 ---
 
 ## 1. NPI Process Setup Agent
-#ai-agent #automation #revenue-impact
+#ai-agent #gaussian-processes #bayesian-optimization #gradient-boosting #feature-engineering #evaluation-metrics #automation #revenue-impact
 
 **Concept:** An agent triggered when a new customer program enters NPI that analyzes the BOM's thermal characteristics, component package types, and board layout to recommend initial SMT process parameters — reflow profile, stencil aperture modifications, placement machine settings — based on historical programs with similar characteristics, giving the process engineer a data-driven starting point instead of an experience-based guess.
 **Inputs:** BOM file (component list with package types, manufacturer part numbers, thermal ratings); board Gerber/ODB++ files (layout, layer stack, copper weight); customer quality requirements (IPC class, specific inspection criteria); historical NPI program database (BOM characteristics → final stable process parameters → yield trajectory)
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Component Shortage Mitigation Agent
-#ai-agent #data-integration #automation
+#ai-agent #large-language-models #transformers #bert #word-embeddings #feature-engineering #data-integration #automation
 
 **Concept:** An agent that continuously monitors component supply chain data — distributor inventory levels, manufacturer lead time changes, allocation announcements, and end-of-life notices — and when a shortage threat is detected for a component on an active or upcoming program, automatically searches the AVL for approved alternatives, validates form-fit-function equivalence, and generates a draft Engineering Change Order (ECO) for the customer's approval.
 **Inputs:** Active BOM library (all components across all active programs); distributor API feeds (DigiKey, Mouser, Arrow, Avnet — real-time inventory and lead time); component lifecycle data (SiliconExpert, IHS — EOL notices, allocation alerts); facility AVL; customer-specific approved component lists; component datasheet parametric data for equivalence analysis
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Production Floor Quality Dashboard Agent
-#ai-agent #automation
+#ai-agent #gradient-boosting #time-series-forecasting #change-point-detection #feature-engineering #descriptive-statistics #automation
 
 **Concept:** A continuous monitoring agent that aggregates SPC data from SPI, pick-and-place, AOI, and test systems across all SMT lines, identifies process drift and yield anomalies in real-time, and generates shift-end quality summaries with root cause attribution for yield losses — replacing the manual data compilation that quality engineers currently perform.
 **Inputs:** SPI (Solder Paste Inspection) volume and offset data from Koh Young or equivalent; placement machine accuracy logs; AOI defect data by defect type and board location; ICT/FCT pass/fail rates by test step; reflow profile adherence data; component lot traceability per board

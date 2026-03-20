@@ -5,7 +5,7 @@
 ---
 
 ## 1. Alert Triage Agent
-#ai-agent #automation #binary-classification #tacit-knowledge-ml
+#ai-agent #gradient-boosting #bert #feature-engineering #evaluation-metrics #transfer-learning #tacit-knowledge-ml #automation
 
 **Concept:** An autonomous agent that sits between the SIEM/EDR output and the analyst queue, performing L1-equivalent triage on every incoming alert. It ingests the alert with full context (metadata, payload, client baseline, historical dispositions for similar alerts), classifies it as true positive, false positive, or uncertain, and takes action accordingly — auto-closing confirmed noise with audit-trail documentation, promoting confirmed threats directly to L2 with a pre-built investigation card, and routing uncertain cases to L1 with its analysis and confidence score attached. The agent continuously learns from analyst overrides, building per-client and per-rule-type accuracy over time.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Compliance Report Generation Agent
-#ai-agent #llm #text-generation #compliance
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #compliance
 
 **Concept:** An agent that autonomously produces audit-ready compliance reports for SOC 2 Type II, HIPAA, PCI-DSS, and other frameworks by pulling evidence from each client's actual security tool stack, mapping it to framework controls, and generating narrative summaries in the prose style that the client's specific auditor expects. The agent handles the full pipeline: evidence collection (querying SIEM for log retention proof, EDR for endpoint coverage stats, vulnerability scanner for patch compliance), control mapping (linking each evidence artifact to the relevant framework requirement), gap identification (flagging controls without sufficient evidence), and narrative generation (writing the "how we meet this control" text with client-specific terminology and policy references).
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Incident Response Playbook Execution Agent
-#ai-agent #llm #automation #workflow-orchestration
+#ai-agent #large-language-models #transformers #transfer-learning #attention-mechanisms #automation #workflow-orchestration
 
 **Concept:** An agent that takes a confirmed security incident (post-triage), identifies the appropriate response playbook based on incident type and client environment, and executes each containment, eradication, and recovery step via API — isolating endpoints through EDR, blocking malicious IPs/domains at the firewall, disabling compromised accounts in Active Directory/Azure AD, pulling forensic artifacts for evidence preservation, enriching IOCs through threat intelligence lookups, and compiling a timestamped incident report. The agent presents completed actions to the security engineer for review and approval before client notification, and handles the client communication draft (incident summary, impact assessment, remediation steps taken, recommendations).
 

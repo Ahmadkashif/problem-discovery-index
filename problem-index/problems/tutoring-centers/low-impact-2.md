@@ -3,7 +3,7 @@
 **Industry:** [[tutoring-centers|Tutoring Centers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic report card templates exist, but parents paying $300-$600/month for tutoring receive vague narrative updates ("Johnny is doing great in math!") because no tool translates granular session-level performance data into the specific, evidence-based progress visualization that justifies continued enrollment.
-**Tags:** #llm #text-generation #nlp #automation
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #automation
 
 ## The Problem
 

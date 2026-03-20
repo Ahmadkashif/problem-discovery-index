@@ -6,7 +6,7 @@
 ---
 
 ## 1. Intake Routing Agent
-#ai-agent #quick-win #worker-facing
+#gradient-boosting #feature-engineering #evaluation-metrics #ai-agent #quick-win #worker-facing
 
 **What it does:** An AI agent that handles the patient intake funnel — from initial inquiry through scheduled first appointment. It pre-screens patients via a conversational web form or SMS, checks insurance eligibility in real-time, matches against clinician availability/specialties/credentialing, and presents the intake coordinator with 2-3 ranked clinician recommendations.
 
@@ -18,7 +18,7 @@
 ---
 
 ## 2. Documentation Co-Pilot Agent
-#ai-agent #worker-facing #ml-nlp
+#large-language-models #transformers #attention-mechanisms #transfer-learning #ai-agent #worker-facing
 
 **What it does:** A session-aware agent that assists therapists with progress note generation. After each session, the therapist provides a 2-3 minute verbal debrief. The agent transcribes, structures the content into the required note format (DAP/BIRP), applies medical necessity language appropriate for the patient's payer, and flags any clinical risk signals for cross-provider visibility. The therapist reviews and signs.
 
@@ -42,7 +42,7 @@
 ---
 
 ## 4. Outcome-Driven Treatment Intelligence Platform
-#ai-platform #data-integration #compliance
+#change-point-detection #time-series-forecasting #evaluation-metrics #ai-platform #data-integration #compliance
 
 **What it does:** A clinical intelligence platform that unifies outcome measurement, treatment progress, and cross-provider data into a single dashboard. It auto-administers the right outcome measures at the right intervals, tracks scores over time per patient, alerts clinicians to deterioration, generates payer-required quality reports, and surfaces aggregate practice-level insights (which treatment modalities produce the best outcomes for which diagnoses).
 
@@ -54,7 +54,7 @@
 ---
 
 ## 5. Cross-Provider Clinical Sync Agent
-#ai-agent #data-integration #compliance
+#bert #transfer-learning #ai-agent #data-integration #compliance
 
 **What it does:** An agent that monitors all documentation across providers treating the same patient (therapist notes, prescriber notes, assessment scores) and generates a real-time patient status summary visible to all treating clinicians. It extracts clinical signals from unstructured notes while respecting 42 CFR Part 2 and psychotherapy note protections — surfacing derived signals (mood trending down, medication concern mentioned, risk factor identified) without exposing raw session content.
 

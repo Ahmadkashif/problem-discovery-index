@@ -6,7 +6,7 @@
 ---
 
 ## 1. Delinquency Escalation Prediction at First Missed Payment
-#gradient-boosting #binary-classification #survival-analysis #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #survival-analysis #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #probability-distributions #revenue-impact
 
 **Problem statement:** Predict which late accounts will escalate to chronic delinquency (90+ days past due) from payment history and account characteristics at the first missed payment, enabling early proactive intervention.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. CC&R Violation Detection from Community Inspection Photos
-#cnn #object-detection #computer-vision #compliance
+#cnns #object-detection #transfer-learning #loss-functions #backpropagation #gradient-descent #evaluation-metrics #compliance
 
 **Problem statement:** Detect CC&R violations from community inspection photos — parking violations, unapproved exterior modifications, landscaping violations — mapped to the specific community's violation taxonomy.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Resident Inquiry Intent Classification and Auto-Response
-#llm #text-classification #text-generation #nlp #quick-win
+#large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #evaluation-metrics #quick-win
 
 **Problem statement:** Classify resident inquiries by type and generate appropriate responses for routine questions, reducing the manager's daily communication burden.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Vendor Performance Scoring for Work Order Routing
-#gradient-boosting #binary-classification #tabular-ml #quick-win
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #quick-win
 
 **Problem statement:** Score vendors by performance history (callback rate, invoice accuracy, response time, resident satisfaction) to improve work order routing and vendor selection.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Capital Reserve Funding Adequacy Forecasting
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #linear-regression #time-series-forecasting #feature-engineering #sequences-and-series #arithmetic-and-basic-algebra #confidence-intervals
 
 **Problem statement:** Model reserve fund adequacy scenarios under different assessment increase rates and cost inflation assumptions, flagging communities at risk of underfunding before a reserve crisis.
 

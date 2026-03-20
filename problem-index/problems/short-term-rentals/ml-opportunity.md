@@ -6,7 +6,7 @@
 ---
 
 ## 1. Per-Property Reinforcement Learning Pricing Agent
-#reinforcement-learning #time-series-forecasting #tabular-ml #revenue-impact
+#markov-decision-processes #policy-gradient-methods #temporal-difference-learning #time-series-forecasting #gradient-boosting #feature-engineering #optimization-fundamentals #expectation-variance-covariance #revenue-impact
 
 **Problem statement:** Learn the optimal pricing policy for a specific STR property from its own booking conversion history and local demand signals, outperforming generalized rule-based dynamic pricing tools that don't personalize to per-property booking behavior.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Problem Booking Classification from Booking Signals
-#gradient-boosting #binary-classification #nlp #tabular-ml
+#gradient-boosting #logistic-regression #word-embeddings #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 **Problem statement:** Classify incoming bookings by risk of property damage or rule violation from booking pattern features and initial guest message content.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Guest Review Score Prediction from Listing and Property Features
-#gradient-boosting #regression #tabular-ml #quick-win
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #descriptive-statistics #quick-win
 
 **Problem statement:** Predict a property's expected review score distribution (cleanliness, location, value, check-in, accuracy) from listing and property features, enabling targeted investments in the categories most likely to improve the overall rating.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Turnover Scheduling Optimization
-#gradient-boosting #tabular-ml #workflow-orchestration #quick-win
+#gradient-boosting #feature-engineering #optimization-fundamentals #combinatorics-and-counting #evaluation-metrics #workflow-orchestration #quick-win
 
 **Problem statement:** Optimize cleaner assignment and scheduling for daily STR turnovers given cleaner availability, property-cleaner familiarity, time windows between checkout and check-in, and travel time between properties.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Listing Copy and Photo Optimization
-#llm #regression #nlp #recommendation
+#large-language-models #linear-regression #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #word-embeddings
 
 **Problem statement:** Identify specific listing improvements (photo reordering, headline rewrite, amenity completeness gaps) that are predicted to improve search ranking and booking conversion for a specific property.
 

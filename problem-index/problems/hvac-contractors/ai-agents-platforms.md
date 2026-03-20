@@ -1,7 +1,7 @@
 # AI Agents and Platforms — HVAC Contractors
 
 **Industry:** [[hvac-contractors|HVAC Contractors]]
-**Tags:** #ai-agent #ai-platform #automation #workflow-orchestration #revenue-impact
+**Tags:** #ai-agent #ai-platform #gradient-boosting #lstms-and-grus #decision-trees #feature-engineering #time-series-forecasting #evaluation-metrics #automation #workflow-orchestration #revenue-impact
 
 ---
 

@@ -3,7 +3,7 @@
 **Industry:** [[dental-practices|Dental Practices]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Dental practices use 3-4 separate imaging software systems that don't talk to each other or to the practice management system, creating a fragmented visual record that wastes clinical time and hinders treatment planning.
-**Tags:** #data-integration #ml-computer-vision
+**Tags:** #cnns #object-detection #semantic-segmentation #transfer-learning #data-integration
 
 ## The Problem
 A modern dental practice uses intraoral cameras, digital X-ray sensors (periapical and bitewing), panoramic radiographs, and increasingly cone beam CT (CBCT) scanners. Each imaging device typically comes with its own proprietary software for capture, viewing, and annotation. When the dentist is treatment planning, they need to pull up images from multiple applications — flipping between Dexis for X-rays, Planmeca Romexis for the CBCT, and the intraoral camera software — rather than seeing a unified image timeline for the patient.

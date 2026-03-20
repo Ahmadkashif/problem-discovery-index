@@ -3,7 +3,7 @@
 **Industry:** [[food-distributors|Food Distributors]]
 **Type:** Worker Life Changing
 **One-liner:** Selectors get intelligent pick-path routing and realistic productivity targets that account for cold exposure, so they stop choosing between their joints and their paycheck.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #gradient-descent #worker-facing
 
 ## The Problem
 Warehouse selectors at food distributors pick orders in refrigerated (34F) and frozen (-10F) environments for 8-10 hour shifts, typically under piece-rate or cases-per-hour incentive structures. The standard target — 150-200 cases/hour — is set uniformly regardless of product mix (a 50-lb case of frozen meat vs. a 5-lb case of herbs), zone temperature, or travel distance within the warehouse. Selectors who fall below target lose incentive pay; selectors who push to meet target in frozen zones sustain repetitive strain injuries at 3x the rate of dry-warehouse workers. OSHA recordable injury rates in cold-storage food distribution run 5-7 per 100 workers annually, roughly double the warehouse industry average. Turnover among selectors exceeds 60% per year at many facilities.

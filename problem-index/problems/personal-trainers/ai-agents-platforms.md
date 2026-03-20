@@ -5,7 +5,7 @@
 ---
 
 ## 1. Program Design Agent
-#ai-agent #llm #gradient-boosting #tabular-ml #automation
+#ai-agent #large-language-models #gradient-boosting #decision-trees #feature-engineering #attention-mechanisms #evaluation-metrics #automation
 
 **Concept:** An AI agent that generates complete, periodized training programs based on a client intake form, the trainer's programming philosophy (uploaded as example programs or described in natural language), and ongoing performance data. The agent doesn't replace the trainer's programming decisions — it produces a first draft that reflects the trainer's style and the client's profile, which the trainer reviews and modifies in 3-5 minutes instead of building from scratch in 25-40 minutes. As the trainer edits, the agent learns their preferences and future drafts converge toward the trainer's style.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Client Engagement & Retention Agent
-#ai-agent #llm #gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#ai-agent #large-language-models #gradient-boosting #decision-trees #logistic-regression #feature-engineering #evaluation-metrics #attention-mechanisms #revenue-impact
 
 **Concept:** An autonomous agent that monitors client engagement signals (session attendance, message responsiveness, workout log completion, payment patterns) and takes proactive action to prevent dropout. The agent sends personalized check-in messages in the trainer's voice, celebrates milestones, gently re-engages clients who miss sessions, and escalates to the trainer only when human intervention is genuinely needed (e.g., client expresses frustration, reports injury, or shows strong dropout signals). It maintains the illusion of the trainer's constant attention across 20-40 clients simultaneously.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Business Operations & Admin Agent
-#ai-agent #llm #text-generation #nlp #worker-facing #automation #workflow-orchestration
+#ai-agent #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing #automation #workflow-orchestration
 
 **Concept:** A unified admin agent that handles the entire non-training operational surface of a personal training business: session notes from voice memos, invoice generation and payment chasing, schedule optimization, social media content creation from training clips, expense tracking for tax prep, and lead qualification from website/Instagram inquiries. The agent operates across the trainer's existing tools (Google Calendar, Venmo/Stripe, Instagram, email) rather than requiring migration to a new platform.
 

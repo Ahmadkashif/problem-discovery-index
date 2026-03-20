@@ -3,7 +3,7 @@
 **Industry:** [[property-management|Property Management]]
 **Type:** Worker Life Changing
 **One-liner:** Property managers who receive 50-100 emails and texts per day from tenants — questions about lease terms, maintenance status, payment plans, renewal inquiries — and spend 3-5 hours per day drafting individual responses get an AI drafting assistant that generates appropriate responses from the tenant's message and the property record, requiring only review and send.
-**Tags:** #llm #text-generation #nlp #automation #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #evaluation-metrics #automation #worker-facing
 
 ## The Problem
 

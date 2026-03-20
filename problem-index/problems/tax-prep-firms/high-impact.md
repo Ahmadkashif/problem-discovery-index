@@ -3,7 +3,7 @@
 **Industry:** [[tax-prep-firms|Tax Prep Firms]]
 **Type:** High Impact
 **One-liner:** Preparers stop spending 30-40% of their peak season manually sorting, chasing, and keying data from client documents into tax software.
-**Tags:** #bert #cnn #ocr #named-entity-recognition #nlp #computer-vision #automation #revenue-impact
+**Tags:** #cnns #bert #transformers #transfer-learning #word-embeddings #loss-functions #evaluation-metrics #backpropagation #gradient-descent #automation #revenue-impact
 
 ## The Problem
 During January-April, tax preparers receive client documents in every conceivable format: photographed W-2s, emailed PDFs of 1099s, scanned K-1 bundles, hand-delivered envelopes of receipts, and portal uploads with cryptic filenames. The preparer must identify each document type, extract the relevant fields (employer EIN, Box 1 wages, Box 12 codes, 1099-INT payer names, K-1 partnership allocations), reconcile them against the prior year return, chase missing documents via email and phone, and manually key values into the tax software. For a firm processing 2,000 returns in a season, this intake labor consumes roughly 3,000-4,000 preparer-hours — the equivalent of two full-time employees doing nothing but data entry for four months.

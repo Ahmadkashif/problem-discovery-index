@@ -3,7 +3,7 @@
 **Industry:** [[cold-chain-logistics|Cold Chain Logistics]]
 **Type:** Worker Life
 **One-liner:** Cold chain dispatchers managing 50+ active loads need a real-time risk dashboard that surfaces the 3-5 loads requiring attention right now — based on temperature trajectory, ambient forecast, reefer unit history, and time-to-delivery — rather than monitoring every load equally across a monitoring platform designed for compliance documentation.
-**Tags:** #gradient-boosting #ranking #tabular-ml #automation #worker-facing
+**Tags:** #gradient-boosting #feature-engineering #evaluation-metrics #time-series-forecasting #descriptive-statistics #automation #worker-facing
 
 ## The Problem
 

@@ -5,7 +5,7 @@
 ---
 
 ## 1. Quote Generation Agent
-#ai-agent #automation #revenue-impact
+#ai-agent #large-language-models #transformers #gradient-boosting #feature-engineering #automation #revenue-impact
 
 **Concept:** An agent triggered by an incoming RFQ (request for quote) — received by email, web form, or customer portal — that extracts the job specification from the customer's description, maps it to production parameters (press selection, imposition, finishing operations), queries the shop's historical job cost database for similar jobs, and generates a draft quote with itemized cost breakdown for the estimator's review and adjustment.
 **Inputs:** Customer RFQ (email text, attached specification, or web form data); job specification extracted from RFQ (quantity, size, substrate, colors, finishing, delivery date); historical job database (specifications and actual costs); current substrate pricing from paper distributor; press and finishing equipment availability
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Press Scheduling Agent
-#ai-agent #workflow-orchestration
+#ai-agent #optimization-fundamentals #combinatorics-and-counting #gradient-boosting #feature-engineering #workflow-orchestration
 
 **Concept:** An agent that optimizes the daily and weekly press and bindery schedule — sequencing jobs across presses and finishing equipment to minimize total makeready time (by grouping jobs with similar substrates, ink configurations, and finishing requirements), meet delivery deadlines, and balance workload across shifts.
 **Inputs:** Active job queue (jobs with specifications, quantities, due dates, current production status); equipment availability (press schedule, finishing equipment capacity, maintenance windows); substrate and ink inventory; crew assignments per shift; historical makeready times by job transition type (how long does it take to change from Job A to Job B on this press?)
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Customer Reorder Prediction Agent
-#ai-agent #revenue-impact
+#ai-agent #time-series-forecasting #gradient-boosting #feature-engineering #large-language-models #revenue-impact
 
 **Concept:** An agent that monitors customer order history, identifies recurring job patterns (business cards reordered every 6 months, annual reports produced every March, promotional flyers after trade shows), and proactively reaches out to customers approaching their predicted reorder window — generating a reminder with the previous job specifications, any pricing changes, and a one-click reorder option.
 **Inputs:** Customer order history (job specifications, dates, quantities, pricing); customer contact information; calendar events (trade shows, annual report cycles, seasonal promotions); industry-specific reorder patterns

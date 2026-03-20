@@ -5,7 +5,7 @@
 ---
 
 ## 1. Lender Matching Agent
-#ai-agent #gradient-boosting #ranking #tabular-ml #tacit-knowledge-ml #revenue-impact
+#ai-agent #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #tacit-knowledge-ml #revenue-impact
 
 **Concept:** An autonomous agent that monitors the brokerage's active pipeline and continuously re-evaluates lender fit for each loan as borrower data changes, lender rate sheets update, and market conditions shift. When a new lender becomes a better match — or the current lender's appetite signals risk — the agent alerts the loan officer with a specific recommendation and rationale. It replaces the morning ritual of manually scanning rate sheets and mentally matching them to open files.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Condition Clearing Agent
-#ai-agent #llm #text-generation #nlp #automation #worker-facing
+#ai-agent #large-language-models #transfer-learning #attention-mechanisms #transformers #automation #worker-facing
 
 **Concept:** An agent that reads underwriting condition lists from lender responses, generates borrower-facing plain-language requests with specific instructions and examples for each condition, tracks submission status, performs basic verification (date range checks, name matching, document completeness), and autonomously follows up on a configurable schedule. The processor supervises rather than executes — reviewing the agent's draft communications and verifying its document assessments.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Rate Monitor & Lock Advisor Agent
-#ai-agent #lstm #time-series-forecasting #tabular-ml #revenue-impact
+#ai-agent #lstms-and-grus #time-series-forecasting #rnns #backpropagation #gradient-descent #revenue-impact
 
 **Concept:** A persistent agent that monitors MBS pricing, economic indicators, and Fed commentary in real-time, maintains a short-term rate direction model, and issues per-loan lock/float recommendations for every active loan in the pipeline each morning. When intraday rate movements cross a significance threshold, the agent sends an urgent alert recommending immediate locks on specific loans. It replaces the loan officer's habit of checking MBS Live and guessing.
 

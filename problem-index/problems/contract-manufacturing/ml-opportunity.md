@@ -1,7 +1,7 @@
 # ML Opportunities — Contract Manufacturing
 
 **Industry:** [[contract-manufacturing|Contract Manufacturing]]
-**Tags:** #gradient-boosting #gaussian-process #cnn #regression #anomaly-detection #tabular-ml #computer-vision #nlp #revenue-impact #compliance
+**Tags:** #gradient-boosting #gaussian-processes #cnns #linear-regression #bayesian-optimization #feature-engineering #cross-validation #evaluation-metrics #loss-functions #backpropagation #revenue-impact #compliance
 
 ---
 

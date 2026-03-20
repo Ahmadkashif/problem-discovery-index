@@ -3,7 +3,7 @@
 **Industry:** [[auto-dealers-independent|Independent Auto Dealers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Title transfers and registration filings follow different rules in every state and county — generic document tools can't navigate DMV-specific forms, causing deal-funding delays and compliance violations.
-**Tags:** #llm #named-entity-recognition #nlp #compliance #automation
+**Tags:** #large-language-models #bert #transformers #word-embeddings #transfer-learning #evaluation-metrics #compliance #automation
 
 ## The Problem
 Every vehicle sale requires a title transfer, registration filing, and often a lien release or lien recording — paperwork that varies by state, county, and sometimes municipality. A Texas dealer handles title work through their county tax assessor with one set of forms; a Pennsylvania dealer submits through PennDOT with entirely different requirements. Dealers who buy across state lines at auction face incoming title issues (branded titles, open liens, missing signatures) that require state-specific resolution processes. A single documentation error can delay funding from the floorplan lender by 2-3 weeks, tying up $15,000-30,000 per deal in working capital.

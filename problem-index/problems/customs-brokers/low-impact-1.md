@@ -3,7 +3,7 @@
 **Industry:** [[customs-brokers|Customs Brokers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic OCR and document parsing tools extract text from invoices but don't understand the customs-specific data fields needed for entry preparation — shipper/consignee parties, country of origin, marks and numbers, tariff value basis — or handle the multi-format, multi-language invoice variations common in import shipments.
-**Tags:** #llm #ocr #named-entity-recognition #nlp #automation
+**Tags:** #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #feature-engineering #evaluation-metrics #automation
 
 ## The Problem
 

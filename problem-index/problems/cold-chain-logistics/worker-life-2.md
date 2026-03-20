@@ -3,7 +3,7 @@
 **Industry:** [[cold-chain-logistics|Cold Chain Logistics]]
 **Type:** Worker Life
 **One-liner:** Cold chain planners scheduling loads must know how long a reefer unit will take to reach setpoint temperature before loading — a number that varies with ambient temperature, unit age, unit model, and setpoint — but currently estimate from fixed tables that don't account for unit-specific performance degradation.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing #automation
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #confidence-intervals #worker-facing #automation
 
 ## The Problem
 

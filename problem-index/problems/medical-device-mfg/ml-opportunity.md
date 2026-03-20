@@ -6,7 +6,7 @@
 ---
 
 ## 1. Visual Cosmetic and Functional Defect Detection on Finished Devices
-#cnn #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #transfer-learning #object-detection #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #optimization-fundamentals #tacit-knowledge-ml
 
 **Problem statement:** Experienced quality inspectors who examine finished medical devices under magnification develop a calibrated visual judgment for surface defects (scratches, burrs, flash, particulate, discoloration) that takes 1-2 years to develop and degrades with fatigue over a shift. A CNN-based first-pass screening system can handle the 85% of units that are clearly acceptable or clearly rejectable, routing only genuinely borderline cases to human inspection.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Complaint-to-Root-Cause Clustering and Correlation
-#bert #text-classification #gradient-boosting #nlp #tabular-ml #compliance
+#bert #gradient-boosting #transfer-learning #word-embeddings #feature-engineering #cross-validation #evaluation-metrics #entropy-cross-entropy-kl-divergence #conditional-probability-and-bayes-theorem #compliance
 
 **Problem statement:** Medical device complaint narratives — written by customer service representatives with inconsistent terminology — need to be clustered by failure mode, and each failure mode cluster needs to be correlated with production parameters, component lots, and supplier data to surface root cause hypotheses that quality engineers currently identify through manual cross-referencing across 4-6 systems.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Process Parameter Yield Optimization
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #bias-variance-tradeoff #optimization-fundamentals
 
 **Problem statement:** Manufacturing yield on precision processes (injection molding, CNC machining, ultrasonic welding, adhesive bonding) varies with process parameters that are set within validated ranges but where the optimal setpoint within that range depends on material lot properties, environmental conditions, and tool wear state. Experienced process engineers adjust parameters empirically; this knowledge leaves with the engineer.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Supplier Risk Scoring from Incoming Inspection Trends
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #expectation-variance-covariance #bias-variance-tradeoff
 
 **Problem statement:** Incoming component quality varies by supplier and lot. Quality engineers review supplier performance quarterly using manual scorecards; by the time a declining supplier trend is identified, multiple lots of substandard components have entered production, causing downstream yield losses or field complaints. A predictive model scoring each incoming lot based on supplier history, COA data, and trending detects quality drift proactively.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Post-Market Surveillance Signal Detection
-#isolation-forest #anomaly-detection #tabular-ml #compliance
+#change-point-detection #time-series-forecasting #gradient-boosting #evaluation-metrics #feature-engineering #descriptive-statistics #hypothesis-testing #probability-distributions #compliance
 
 **Problem statement:** FDA expects medical device manufacturers to monitor post-market complaint and adverse event data for emerging safety signals — patterns that indicate a previously unknown risk. Current practice is manual periodic review of complaint trending reports. An anomaly detection system that continuously monitors complaint volume, type distribution, and severity patterns can identify emerging signals weeks before they would surface in periodic manual review.
 

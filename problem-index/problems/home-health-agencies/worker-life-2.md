@@ -3,7 +3,7 @@
 **Industry:** [[home-health-agencies|Home Health Agencies]]
 **Type:** Worker Life Changing
 **One-liner:** Home health clinicians stop practicing in a vacuum — gaining real-time access to peer support, clinical guidance, and professional connection that hospital-based nurses take for granted.
-**Tags:** #worker-facing #ai-platform #quick-win
+**Tags:** #large-language-models #word-embeddings #transfer-learning #worker-facing #ai-platform #quick-win
 
 ## The Problem
 Home health clinicians work alone in patients' homes, 8-12 hours a day, with no colleagues nearby. When they encounter an unfamiliar wound presentation, a medication interaction question, or a patient who is clinically deteriorating, their options are: call the office and hope someone knowledgeable answers, text a colleague who may or may not respond, or make their best judgment alone. There's no equivalent of walking down the hospital hallway to ask a more experienced nurse. Clinical supervision happens in scheduled meetings, not in the moment of need. New clinicians are particularly vulnerable — they're expected to function independently after a brief orientation period.

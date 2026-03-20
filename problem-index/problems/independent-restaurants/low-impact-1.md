@@ -3,7 +3,7 @@
 **Industry:** [[independent-restaurants|Independent Restaurants]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Casual independents that are 70% walk-in and 30% reservation need table management that handles both flows without the cost or rigidity of OpenTable.
-**Tags:** #reinforcement-learning #regression #tabular-ml #workflow-orchestration
+**Tags:** #markov-decision-processes #dynamic-programming #linear-regression #optimization-fundamentals #gradient-boosting #feature-engineering #workflow-orchestration
 
 ## The Problem
 Most independent restaurants outside the fine-dining segment operate with a mix of walk-ins and reservations, yet the available table management tools were designed for one mode or the other. Walk-in-heavy restaurants (neighborhood bistros, ethnic restaurants, family spots) use a paper wait list or a basic iPad app that cannot handle the reservation component. Reservation-heavy tools like OpenTable charge $1-$2.50 per seated cover and are designed for a demand profile that assumes most tables are pre-booked — they perform poorly when 60-70% of covers walk in unpredictably. The host is left mentally juggling reservation holds, walk-in queue position, table turn estimates, and party size Tetris with no decision support.

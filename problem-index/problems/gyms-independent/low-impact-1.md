@@ -3,7 +3,7 @@
 **Industry:** [[gyms-independent|Independent Gyms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic scheduling tools treat yoga and HIIT the same way — independent gyms need demand-aware scheduling that accounts for seasonal swings, instructor draw, and room constraints unique to fitness.
-**Tags:** #gradient-boosting #regression #tabular-ml #workflow-orchestration
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #probability-distributions #bias-variance-tradeoff #workflow-orchestration
 
 ## The Problem
 Independent gym owners spend 3-5 hours per week manually adjusting group fitness schedules, trying to balance instructor availability, room capacity, equipment needs, and fluctuating member demand. A spin class that fills 25 bikes in January drops to 8 riders by March; a new barre instructor draws a crowd that outgrows the studio within weeks. Owners rely on gut feel and stale attendance spreadsheets to decide when to add, move, or cut classes, leading to either empty rooms that cost instructor wages or overbooked sessions that turn members away.

@@ -3,7 +3,7 @@
 **Industry:** [[language-schools|Language Schools]]
 **Type:** Worker Life Changing
 **One-liner:** Student advisors and DSOs stop drowning in repetitive enrollment forms, I-20 requests, and SEVIS data entry so they can actually advise students.
-**Tags:** #llm #text-generation #nlp #worker-facing #compliance
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #worker-facing #compliance
 
 ## The Problem
 Student advisors at language schools — many of whom also serve as DSOs (Designated School Officials) — spend the majority of their working hours on document processing rather than student support. During a typical enrollment cycle, each new international student requires: an application review, financial documentation verification, I-20 creation in SEVIS, an admissions letter, a pre-arrival orientation packet, and a housing questionnaire follow-up. Each continuing student requires: session-to-session re-enrollment paperwork, attendance compliance checks, program extension requests (if applicable), and any change-of-status filings. A school with 150 students and 6 session starts per year processes over 1,000 individual document transactions annually, almost entirely by hand. Advisors toggle between email, SEVIS, the school's SIS, Excel spreadsheets, and physical file folders — re-entering the same student data across 3-5 systems.

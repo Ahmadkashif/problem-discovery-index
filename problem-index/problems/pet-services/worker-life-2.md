@@ -3,7 +3,7 @@
 **Industry:** [[pet-services|Pet Services]]
 **Type:** Worker Life Changing
 **One-liner:** Groomers stop developing carpal tunnel and shoulder injuries by age 35 because ergonomic monitoring and intelligent scheduling distribute physical load across the day rather than stacking the hardest grooms back-to-back.
-**Tags:** #cnn #pose-estimation #computer-vision #worker-facing
+**Tags:** #cnns #transfer-learning #loss-functions #evaluation-metrics #backpropagation #gradient-descent #optimization-fundamentals #worker-facing
 
 ## The Problem
 Professional pet groomers perform 6-10 full grooms per day, each requiring 60-120 minutes of continuous physical effort: lifting 30-80 lb dogs onto tables, restraining squirming animals with one hand while operating clippers/scissors with the other, bending over grooming tables at awkward angles, and maintaining precision hand control for hours. The ergonomic profile is extreme — sustained overhead reaching (drying and scissoring the topline of large dogs), repetitive wrist flexion (clipping, scissoring), static standing on concrete floors for 8-10 hours, and forceful gripping against resistant animals. Carpal tunnel syndrome, rotator cuff injuries, lower back pain, and plantar fasciitis are endemic — most groomers report chronic pain by year 5, and career-ending injuries commonly occur by year 10-15.

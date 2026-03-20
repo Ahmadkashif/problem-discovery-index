@@ -3,7 +3,7 @@
 **Industry:** [[med-spas|Med Spas]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic compliance tools track training records and policy documents, but they don't know that Texas requires the medical director to review every treatment plan within 72 hours, that California prohibits RNs from injecting dermal filler without an NP or PA on-site, or that storing before/after photos in Dropbox violates HIPAA — and that a single violation can trigger a state medical board investigation that shutters the practice.
-**Tags:** #llm #text-generation #nlp #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #evaluation-metrics #entropy-cross-entropy-kl-divergence #compliance
 
 ## The Problem
 Med spas operate in a regulatory gray zone that varies dramatically by state. Core compliance requirements include: physician oversight (some states require on-site medical director presence during treatments, others allow remote supervision with chart review within 24-72 hours), scope of practice (which procedures RNs, NPs, PAs, and aestheticians can perform varies by state — some states allow RNs to inject neurotoxins but not fillers, others prohibit RN injection entirely), informed consent (must be procedure-specific, signed before each treatment, and include specific disclosures required by state law), HIPAA for photos (before/after photos are medical records — storing them in marketing platforms, texting them to patients, or posting on social media without proper consent violates HIPAA), and advertising regulations (some states prohibit "before and after" advertising for certain procedures).

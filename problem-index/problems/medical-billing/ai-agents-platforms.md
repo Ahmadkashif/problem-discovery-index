@@ -6,7 +6,7 @@
 ---
 
 ## 1. Pre-Submission Claim Scrubbing Agent
-#ai-agent #revenue-impact #compliance
+#gradient-boosting #feature-engineering #evaluation-metrics #ai-agent #revenue-impact #compliance
 
 **What it does:** An agent that intercepts every claim before submission, runs it against a continuously updated denial prediction model and payer-specific rule engine, and either auto-fixes correctable issues (missing modifier, incorrect POS code) or routes the claim to a human with a specific diagnosis and recommended fix. It learns from every denial that gets past it to improve its rules.
 
@@ -18,7 +18,7 @@
 ---
 
 ## 2. AR Follow-Up Agent
-#ai-agent #worker-facing #automation
+#bert #transfer-learning #ai-agent #worker-facing #automation
 
 **What it does:** An autonomous agent that handles the first tier of AR follow-up. It checks claim status via electronic 276/277 transactions and payer portals, categorizes the result (paid and needs posting, pending with estimated date, denied with reason, no record found), and routes each claim to the appropriate next step. For denied claims, it pre-writes the resolution (resubmission with correction, appeal with supporting docs, patient billing). The human AR specialist handles only the complex cases that require judgment or phone calls.
 
@@ -30,7 +30,7 @@
 ---
 
 ## 3. Payer Intelligence Platform
-#ai-platform #compliance #data-integration
+#large-language-models #bert #ai-platform #compliance #data-integration
 
 **What it does:** A platform that aggregates payer rule changes, denial patterns, reimbursement trends, and policy updates into a unified intelligence layer for the billing company. It monitors payer bulletins and policy feeds, extracts structured rule changes, maps them to affected clients, tracks denial rates by payer/code/reason over time, and generates actionable alerts ("Blue Cross IL changed modifier policy for ortho codes — update your scrubbing rules by April 1, affects 3 of your clients").
 
@@ -42,7 +42,7 @@
 ---
 
 ## 4. Coder Workspace & Context Platform
-#ai-platform #worker-facing #ml-nlp
+#large-language-models #bert #transfer-learning #feature-engineering #ai-platform #worker-facing
 
 **What it does:** A coding workspace that batches work by specialty and client, presents relevant context (client preferences, payer rules, applicable LCDs/NCDs, provider's recent coding history), and provides AI-assisted coding suggestions. When the coder opens a chart, the platform pre-suggests CPT/ICD codes based on the documentation, highlights documentation gaps that would support a higher code, and flags compliance risks. Reduces context-switching by organizing work into specialty-focused sessions.
 
@@ -54,7 +54,7 @@
 ---
 
 ## 5. Payment Reconciliation & Contract Compliance Agent
-#ai-agent #revenue-impact #automation
+#logistic-regression #feature-engineering #evaluation-metrics #ai-agent #revenue-impact #automation
 
 **What it does:** An agent that processes incoming ERAs, validates payments against contracted rates, auto-posts correct payments, flags underpayments with the specific contract term being violated, identifies secondary billing triggers, and calculates accurate patient responsibility. For each ERA batch, it produces a reconciled summary: X claims auto-posted, Y underpayments flagged ($Z at stake), W items need human review.
 

@@ -3,7 +3,7 @@
 **Industry:** [[auto-dealers-independent|Independent Auto Dealers]]
 **Type:** Worker Life Changing
 **One-liner:** Sales associates stop drowning in unqualified leads and start spending their energy on buyers who are actually ready to purchase.
-**Tags:** #gradient-boosting #ranking #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 A sales associate at an independent dealership handles 30-50 active leads at any given time, arriving from web form submissions, Facebook Marketplace inquiries, phone calls, walk-ins, third-party lead providers (TrueCar, CarGurus), and text messages. There is no system telling them which leads are hot and which are tire-kickers. The associate's morning starts with a stack of overnight web leads, a handful of voicemails, and a CRM (if they even use one) showing 40 "follow up today" tasks with no differentiation between the buyer who has been pre-approved and is ready to come in and the person who submitted the same inquiry to 15 dealerships. The result: associates burn 3-4 hours daily on calls and texts that go nowhere while genuinely ready buyers wait 6-12 hours for a response and buy elsewhere.

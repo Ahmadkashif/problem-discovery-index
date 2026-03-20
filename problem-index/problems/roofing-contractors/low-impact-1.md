@@ -3,7 +3,7 @@
 **Industry:** [[roofing-contractors|Roofing Contractors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic document generation tools exist but don't understand Xactimate's line-item taxonomy, insurance adjuster argumentation patterns, or the specific language required to justify storm damage line items that adjusters routinely contest.
-**Tags:** #llm #text-generation #nlp #automation #revenue-impact
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #evaluation-metrics #automation #revenue-impact
 
 ## The Problem
 

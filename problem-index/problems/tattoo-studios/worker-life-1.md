@@ -3,7 +3,7 @@
 **Industry:** [[tattoo-studios|Tattoo Studios]]
 **Type:** Worker Life Changing
 **One-liner:** Tattoo artists stop ending their careers at 40 with destroyed wrists and shoulders because real-time strain monitoring tells them when to take breaks before damage accumulates.
-**Tags:** #lstm #anomaly-detection #signal-processing #worker-facing
+**Tags:** #lstms-and-grus #rnns #loss-functions #evaluation-metrics #gradient-descent #probability-distributions #worker-facing
 
 ## The Problem
 Tattoo artists work in sustained precision positions for 4-8 hours per session — gripping a machine, maintaining wrist angle, supporting arm weight, and making controlled micro-movements across thousands of repetitions. The ergonomic profile is among the worst of any profession: sustained static posture combined with repetitive fine motor control under visual concentration. Carpal tunnel, tendinitis, thoracic outlet syndrome, and shoulder impingement are endemic — most experienced artists work through chronic pain. Career-ending injury typically occurs between age 35-45 for artists who started young.

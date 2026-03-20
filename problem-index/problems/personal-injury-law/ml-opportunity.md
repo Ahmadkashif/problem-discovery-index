@@ -6,7 +6,7 @@
 ---
 
 ## 1. Case Settlement Value Prediction by Injury Type, Jurisdiction, and Insurer
-#gradient-boosting #regression #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #tacit-knowledge-ml
 
 **Problem statement:** Experienced PI attorneys have internalized settlement value patterns across hundreds of cases — integrating injury severity, jurisdiction, the specific insurer and their known negotiating behavior, liability clarity, client presentation, and opposing counsel — into an intuitive case value estimate that junior associates and paralegals cannot reproduce. This tacit valuation judgment can be formalized as a regression model trained on the firm's historical settled case data.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Medical Record Clinical Entity Extraction and Injury Timeline Construction
-#bert #named-entity-recognition #nlp
+#bert #transfer-learning #loss-functions #evaluation-metrics #cross-validation
 
 **Problem statement:** Given a set of medical records (OCR-extracted text from hospital, clinic, PT, and specialist notes), extract structured clinical entities — diagnoses, procedures, medications, body regions, functional status reports, pain scores, provider identities — and assemble them into a chronological injury timeline linked to the accident date.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Insurer Negotiation Pattern Analysis and Settlement Timing Optimization
-#gradient-boosting #time-series-forecasting #tabular-ml
+#gradient-boosting #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics
 
 **Problem statement:** PI attorneys who have worked against the same insurers over years develop intuition about when to push for more vs. accept — which insurers make their best offer early vs. which require litigation filing to move significantly, and how time-since-demand affects offer progression. Formalize this into a negotiation trajectory model that recommends optimal timing for counter-demands and litigation filing decisions.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Case Intake Screening and Liability Assessment
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics
 
 **Problem statement:** Predict the likelihood that a new intake case (auto accident, slip-and-fall, product liability) will generate a positive case value sufficient to justify taking it on contingency — using the intake questionnaire data and case characteristics available at initial consultation before medical records are obtained.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Pre-Existing Condition and Causation Challenge Detection
-#bert #text-classification #nlp #compliance
+#bert #transfer-learning #loss-functions #evaluation-metrics #cross-validation #feature-engineering #compliance
 
 **Problem statement:** Automatically identify all references in medical records to prior treatment of the same body regions as the claimed injury — the pre-existing condition evidence the defense will use to apportion damages — and flag them with source context for attorney review during case evaluation.
 

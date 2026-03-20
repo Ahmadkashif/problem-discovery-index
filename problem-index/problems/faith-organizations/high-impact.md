@@ -3,7 +3,7 @@
 **Industry:** [[faith-organizations|Faith Organizations]]
 **Type:** High Impact
 **One-liner:** New attendees stop disappearing silently — staff get actionable alerts before a family drifts past the point of return.
-**Tags:** #gradient-boosting #survival-analysis #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #survival-analysis #decision-trees #feature-engineering #evaluation-metrics #maximum-likelihood-estimation #probability-distributions #expectation-variance-covariance #cross-validation #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Faith organizations lose 30-40% of new attendees within the first six months, and most never realize it until the family is already gone. Experienced pastors develop an intuitive sense for who is drifting — they notice a family switching from the 9 AM to the 11 AM service, then attending biweekly, then stopping small-group participation, then reducing their giving from weekly to monthly. These subtle, multi-signal patterns are invisible to anyone who hasn't spent years reading the room. When congregations grow past 150-200 members, even the most attentive pastor can't track every household, and the tacit pattern recognition that kept a small church tight-knit breaks down completely.

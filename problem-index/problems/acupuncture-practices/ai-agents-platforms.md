@@ -5,7 +5,7 @@
 ---
 
 ## 1. Intake and Documentation Agent
-#ai-agent #llm #nlp
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #entropy-cross-entropy-kl-divergence #evaluation-metrics
 
 **Concept:** An AI agent that manages the complete documentation workflow for acupuncture visits. Before the appointment, the agent sends the patient a TCM-oriented intake questionnaire (covering the ten questions of TCM in patient-friendly language) and collects current medication lists. During the visit, the agent processes the practitioner's spoken clinical findings (tongue and pulse observations, palpation findings, diagnostic impression) and generates a dual-framework clinical note: TCM pattern diagnosis with treatment rationale AND biomedical SOAP note with ICD-10 mapping for insurance. The agent auto-selects optimal CPT codes based on treatment rendered and generates medical necessity language calibrated to the patient's visit number and carrier requirements.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Treatment Protocol and Clinical Decision Support Agent
-#ai-agent #recommendation #tabular-ml
+#ai-agent #gradient-boosting #feature-engineering #evaluation-metrics #large-language-models #conditional-probability-and-bayes-theorem
 
 **Concept:** An AI agent that supports clinical decision-making by analyzing the patient's TCM pattern diagnosis and suggesting point protocol options based on classical formula principles and outcome evidence. When the practitioner inputs their diagnostic assessment, the agent presents: classical point prescriptions for the identified pattern, common modifications based on secondary patterns, contraindicated points (pregnancy, certain conditions), herb-drug interaction alerts if herbal formulas are being considered, and outcome data from similar cases in the practice (if available). The agent does not make diagnostic decisions — it provides evidence-organized reference material that saves the practitioner from mental recall of thousands of possible acupoint combinations.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Solo Practice Management Agent
-#ai-agent #ai-platform #automation #worker-facing
+#ai-agent #ai-platform #large-language-models #gradient-boosting #feature-engineering #evaluation-metrics #automation #worker-facing
 
 **Concept:** An AI agent that serves as the virtual office manager for solo acupuncture practices. The agent handles: scheduling (online booking, confirmation, waitlist management, intelligent sequencing for practitioner sustainability), billing (claim submission, denial tracking, payment posting, patient statement generation), patient communication (appointment reminders, post-visit instructions, birthday/holiday messages, recall for lapsed patients), supply management (needle and herb inventory tracking, automated reordering from preferred suppliers), basic bookkeeping (transaction categorization, expense tracking, quarterly tax estimate preparation), and social media (posting from approved content templates, responding to booking inquiries on social platforms).
 

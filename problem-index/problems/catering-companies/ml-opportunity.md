@@ -6,7 +6,7 @@
 ---
 
 ## 1. Event Prep Quantity Prediction (Tacit Knowledge ML)
-#gradient-boosting #regression #tabular-ml #tacit-knowledge-ml #revenue-impact
+#gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Experienced catering chefs instinctively adjust prep quantities based on factors they cannot fully articulate — they "know" that a 200-person outdoor summer wedding with a cocktail hour and passed appetizers will consume 30% more protein per head than the standard recipe yield suggests, that corporate lunches with a 150-person guaranteed count will have 8-12% no-shows while social events overshoot by 5-8%, that a venue with a long cocktail hour drives appetizer consumption up and entree consumption down, and that certain menu combinations (heavy starch appetizers before a protein entree) reduce entree consumption by 10-15%. This knowledge develops over hundreds of events and lives entirely in the chef's head. When the chef is absent, the sous chef either over-preps (waste) or under-preps (running out mid-service, the cardinal sin of catering).
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Event Profitability Prediction at Proposal Stage
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #revenue-impact
 
 **Problem statement:** Catering companies commit to event pricing weeks before execution, but true profitability depends on variables that are estimated at proposal time and only known at completion — actual food costs (commodity prices shift, substitutions are made), actual labor hours (a 200-person plated dinner requires more service staff than a 200-person buffet, but how many more depends on venue layout, table count, and service style details that are finalized later), rental costs, and waste. Experienced sales managers carry mental models of event profitability by type, but these models are uncalibrated and biased toward memorable losses.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Seasonal Demand Forecasting and Capacity Planning
-#gradient-boosting #time-series-forecasting #tabular-ml #automation
+#gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance #automation
 
 **Problem statement:** Catering demand is highly seasonal and lumpy — wedding season (May-October), corporate holiday season (November-December), and gala/fundraiser clusters create peaks that require staffing, procurement, and equipment rental decisions weeks in advance. Most caterers staff and purchase reactively, leading to over-staffing in slow weeks and frantic hiring of day-of temp staff during peak weeks.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Client Lifetime Value and Rebooking Prediction
-#gradient-boosting #binary-classification #regression #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #revenue-impact
 
 **Problem statement:** Catering client rebooking rates vary dramatically by segment — corporate clients who book quarterly town halls are worth 10-20x a one-time wedding client, but the signals that predict rebooking (satisfaction, relationship quality, event type recurrence) are not systematically captured or analyzed. Sales managers invest equal follow-up effort across all past clients rather than prioritizing high-LTV accounts.
 

@@ -3,7 +3,7 @@
 **Industry:** [[livestock-operations|Livestock Operations]]
 **Type:** High Impact
 **One-liner:** Experienced pen riders detect bovine respiratory disease 24-48 hours before clinical signs by reading subtle behavioral shifts — reduced bunk visits, altered gait, group separation — and encoding that tacit pattern recognition into computer vision and sensor fusion models would cut the $900M annual BRD cost by 30-50% while solving the critical shortage of skilled livestock observers.
-**Tags:** #cnn #lstm #anomaly-detection #computer-vision #signal-processing #tacit-knowledge-ml #revenue-impact
+**Tags:** #cnns #lstms-and-grus #rnns #loss-functions #backpropagation #evaluation-metrics #gradient-descent #time-series-forecasting #probability-distributions #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Bovine respiratory disease (BRD) is the single largest cause of morbidity and mortality in feedlot cattle, responsible for 70-80% of all feedlot illness and costing the US beef industry $900M+ annually in treatment, reduced performance, and death loss. The standard detection method is pen riding: a skilled cowboy on horseback rides slowly through pens of 150-300 head, visually scanning each animal for signs of illness. An experienced rider develops an internalized detection model over 3-5 years — they notice an animal that visited the feed bunk only twice instead of five times, a steer whose gait has a subtle hitch suggesting joint pain, a heifer standing alone at the back of the pen when she was previously a middle-of-group animal. These signals precede clinical symptoms (fever >104°F, nasal discharge, labored breathing) by 24-48 hours.

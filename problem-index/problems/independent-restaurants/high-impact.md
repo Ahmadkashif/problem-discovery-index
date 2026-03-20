@@ -3,7 +3,7 @@
 **Industry:** [[independent-restaurants|Independent Restaurants]]
 **Type:** High Impact
 **One-liner:** Every dish on the menu gets a real-time contribution margin, and the owner finally knows which items are making money and which are quietly bleeding the business.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact #data-integration
+**Tags:** #gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #revenue-impact #data-integration
 
 ## The Problem
 Most independent restaurants operate with a 3-7% net margin, and food cost (28-35% of revenue) is the single largest controllable expense — yet the vast majority of owners have no item-level profitability data. They know what they paid Sysco last month in aggregate, but they cannot tell you the actual landed cost of their chicken parmesan including waste, over-portioning, and ingredient price fluctuations. Menu pricing is set by gut feel, competitor comparison, or a simple multiplier applied to a recipe cost that was calculated once and never updated. The result is menus where 30-40% of items are underwater or barely breaking even, subsidized by a handful of high-margin dishes the owner may not even recognize as their profit drivers.

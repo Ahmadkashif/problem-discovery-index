@@ -3,7 +3,7 @@
 **Industry:** [[language-schools|Language Schools]]
 **Type:** High Impact
 **One-liner:** Every new student gets a consistent, detailed proficiency diagnosis in minutes instead of waiting days for a scarce human tester — enrollment velocity doubles and misplacement drops to near zero.
-**Tags:** #bert #lstm #multiclass-classification #nlp #speech-processing #tacit-knowledge-ml #revenue-impact
+**Tags:** #bert #lstms-and-grus #transfer-learning #attention-mechanisms #word-embeddings #loss-functions #backpropagation #evaluation-metrics #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Language schools place incoming students into proficiency levels (typically CEFR A1-C2 or ACTFL Novice-Superior) through oral interviews and written samples scored by experienced testers. These testers have developed an intuitive diagnostic ability: they hear a student speak for 30 seconds and can identify not just the proficiency band but the student's L1 interference patterns, specific grammatical fossilizations (errors that have become permanent habits), and whether an error is developmental (will self-correct with more input) vs. fossilized (requires targeted corrective intervention). This tacit skill takes years to develop, and most schools have only one or two people who can do it reliably. The result is a placement bottleneck that delays enrollment by days, caps intake during peak registration periods, and produces inconsistent placements when less experienced staff fill in.

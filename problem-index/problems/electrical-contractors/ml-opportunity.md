@@ -6,7 +6,7 @@
 ---
 
 ## 1. Electrical Panel Hazard Classification from Photographs
-#cnn #object-detection #multiclass-classification #computer-vision #tacit-knowledge-ml #compliance
+#cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #matrix-algebra #gradient-descent #feature-engineering #tacit-knowledge-ml #compliance
 
 **Problem statement:** Replicate the experienced master electrician's visual panel assessment — panel manufacturer and recall identification, double-tapped breaker detection, heat/arc damage detection, wire gauge mismatch assessment, and code violation identification — as a multi-label classification model operating on photographs of panel interiors and labels.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Electrical Fault Symptom-to-Diagnosis Mapping
-#gradient-boosting #multiclass-classification #tabular-ml #tacit-knowledge-ml #quick-win
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #tacit-knowledge-ml #quick-win
 
 **Problem statement:** Given a structured description of an electrical fault's symptoms (circuit type, symptom type, when symptom occurs, what changes make it better or worse, building age and wiring type), predict the top 3 most likely root causes — replicating the diagnostic pattern recognition that experienced electricians develop from years of service call experience.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Electrical Job Labor Hour Prediction from Scope Description
-#gradient-boosting #regression #tabular-ml #quick-win
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #quick-win
 
 **Problem statement:** Predict the labor hours required for a residential or commercial electrical job from the scope description, building type, access conditions, and comparable historical jobs — calibrated to the specific firm's crew productivity rather than industry-average NECA tables.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Electrical Service Load Calculation and Upgrade Recommendation
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #arithmetic-and-basic-algebra #revenue-impact
 
 **Problem statement:** Given a residential property's panel capacity, current known loads (HVAC, water heater, electric vehicle charger, appliances), and planned additions, calculate the required service capacity upgrade and recommend the appropriate panel size and service entrance upgrade scope — a calculation experienced electricians do manually from NEC Article 220 load calculations.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Apprentice Knowledge Gap Assessment and Learning Path Generation
-#bert #text-classification #nlp #worker-facing
+#bert #transformers #transfer-learning #loss-functions #evaluation-metrics #entropy-cross-entropy-kl-divergence #feature-engineering #worker-facing
 
 **Problem statement:** Given an apprentice's service call history and documented work types, identify knowledge and skill gaps relative to their apprenticeship year requirements — and generate a personalized learning priority list with specific on-the-job practice opportunities to close each gap.
 

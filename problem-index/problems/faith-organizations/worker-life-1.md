@@ -3,7 +3,7 @@
 **Industry:** [[faith-organizations|Faith Organizations]]
 **Type:** Worker Life Changing
 **One-liner:** Pastors reclaim 10-15 hours per week currently consumed by counseling sessions they're not trained to handle, reducing the #1 driver of clergy burnout.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing
 
 ## The Problem
 Senior pastors at congregations of 200+ typically carry 30-60 active counseling relationships spanning marriage crises, grief, addiction, financial distress, mental health episodes, and family conflict. Most have a Master of Divinity, not a counseling license, yet members expect pastoral availability for every life crisis. A pastor may spend Monday morning debriefing a suicide attempt, Monday afternoon in premarital counseling, and Monday evening with a couple considering divorce — then repeat the cycle all week while also writing sermons, managing staff, and attending board meetings. The Barna Group reports that 42% of pastors have seriously considered quitting, with emotional exhaustion as the top reason.

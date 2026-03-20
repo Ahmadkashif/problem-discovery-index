@@ -3,7 +3,7 @@
 **Industry:** [[nonprofits-social-services|Social Services Nonprofits]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Grant writers stop rewriting the same outcome data in twelve different narrative formats for twelve different funders every quarter.
-**Tags:** #llm #text-generation #nlp #compliance #workflow-orchestration
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #compliance #workflow-orchestration
 
 ## The Problem
 A mid-size social services nonprofit holds 8-15 active grants simultaneously, each with its own reporting cadence (monthly, quarterly, semi-annual, annual), its own narrative format, its own outcome definitions, and its own submission portal. Grant writers and program directors spend 15-25 hours per report cycle pulling data from case management systems, reformatting it into funder-specific templates, writing narrative sections that contextualize the numbers, and uploading to portals that don't accept bulk imports. A single organization might produce 40-60 distinct grant reports per year, most of which describe the same programs using slightly different language and metrics.

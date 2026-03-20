@@ -3,7 +3,7 @@
 **Industry:** [[coffee-shops-independent|Independent Coffee Shops]]
 **Type:** High Impact
 **One-liner:** The day after this is solved, an owner stops losing $200/day to overstaffing slow afternoons and $400/day to understaffing Monday morning rushes.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact #quick-win
+**Tags:** #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #time-series-forecasting #bias-variance-tradeoff #probability-distributions #expectation-variance-covariance #gradient-descent #revenue-impact #quick-win
 
 ## The Problem
 Independent coffee shop owners build weekly schedules from memory and habit — "last Tuesday was busy, so this Tuesday probably will be too." They cannot account for weather shifts, local event calendars, school schedules, construction detours, or the compounding effect of a new competitor opening two blocks away. The result is chronic misallocation: three baristas standing idle at 2pm Thursday, one barista drowning at 7:45am Monday with a line out the door. Overstaffing bleeds margin on an already thin-margin product; understaffing bleeds customers permanently, because a 12-minute wait for a latte sends them to the Starbucks drive-through and they may never come back.

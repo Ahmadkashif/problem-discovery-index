@@ -3,7 +3,7 @@
 **Industry:** [[marketing-agencies-smb|SMB Marketing Agencies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic PM tools track tasks once scoped, but can't estimate that a "rebrand package" for a 3-location dental practice will take 47 hours across design, copy, and web — so agencies underbid by 20-30% and absorb the margin hit.
-**Tags:** #gradient-boosting #regression #tabular-ml #workflow-orchestration
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #expectation-variance-covariance #workflow-orchestration
 
 ## The Problem
 When a prospective client sends a brief — "We need a new website, SEO, and social media management" — the agency owner or strategist has to decompose that into specific deliverables, estimate hours per deliverable, assign appropriate team members, price the engagement, and generate a statement of work. This process takes 3-8 hours per proposal and relies almost entirely on the estimator's memory of similar past projects. Agencies that track time (fewer than half do consistently) have historical data but never analyze it systematically. The result is chronic under-scoping: 60% of agency owners report that scope creep is their top profitability problem, and the average agency operates at 10-15% net margins when 25-30% should be achievable.

@@ -3,7 +3,7 @@
 **Industry:** [[insurance-tpa|Insurance Third-Party Administrators (TPAs)]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Credentialing verification platforms exist for health systems, but TPAs managing workers' comp and group health need to maintain preferred provider directories that factor in cost-effectiveness, treatment outcomes, return-to-work speed, and geographic coverage — not just license status and malpractice history.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #descriptive-statistics #bias-variance-tradeoff #expectation-variance-covariance
 
 ## The Problem
 TPAs that manage workers' compensation and group health claims maintain provider networks — directories of physicians, specialists, physical therapists, and facilities that claimants are directed to. Network quality directly impacts claim costs: a workers' comp claimant directed to a high-quality occupational medicine provider returns to work 2-3 weeks faster than one who sees a general practitioner unfamiliar with occupational injury protocols. But TPAs evaluate providers on credentialing status (license valid, malpractice coverage adequate) rather than performance (treatment outcomes, cost per episode, return-to-work timelines, claim duration). Credentialing is a compliance checkbox; performance evaluation is what actually controls claim costs.

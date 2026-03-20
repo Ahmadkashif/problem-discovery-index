@@ -3,7 +3,7 @@
 **Industry:** [[mortgage-brokers|Mortgage Brokers]]
 **Type:** High Impact
 **One-liner:** Every broker's most valuable asset — knowing which lender says yes at the best terms for a given borrower — becomes a system instead of tribal knowledge.
-**Tags:** #gradient-boosting #ranking #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #probability-distributions #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 An experienced mortgage broker with 30-50 wholesale lender relationships can look at a borrower's file — credit score, DTI, employment type, property type, loan amount, documentation quirks — and intuitively rank which 3-4 lenders will approve fastest at the best rate. This knowledge takes 5-10 years to develop, is never written down, and walks out the door when that loan officer leaves. Junior loan officers submit to the wrong lenders, triggering denials, re-submissions, and 2-3 week delays that kill deals and destroy borrower trust.

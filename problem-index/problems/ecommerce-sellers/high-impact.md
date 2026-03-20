@@ -3,7 +3,7 @@
 **Industry:** [[ecommerce-sellers|E-Commerce Sellers]]
 **Type:** High Impact
 **One-liner:** Sellers finally know which of their 500 SKUs actually make money after every fee, ad dollar, return, and storage charge is allocated — and kill the losers within days instead of months.
-**Tags:** #gradient-boosting #regression #tabular-ml #data-integration #revenue-impact
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #gradient-descent #data-integration #revenue-impact
 
 ## The Problem
 A mid-size e-commerce seller running 200-500 SKUs across Amazon, Shopify, and Walmart cannot answer the basic question: "Which products are profitable?" Revenue is visible, but true profit requires combining COGS (which changes with each supplier PO), marketplace fees (Amazon referral fees, FBA pick-and-pack, storage, Shopify transaction fees), advertising cost allocated per SKU (not per campaign), return rates with associated restocking and shipping costs, and inbound freight amortized across units. Most sellers discover a product was unprofitable only after 3-6 months of selling it, by which time they've reordered inventory twice.

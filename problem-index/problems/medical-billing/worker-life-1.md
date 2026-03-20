@@ -3,7 +3,7 @@
 **Industry:** [[medical-billing|Medical Billing]]
 **Type:** Worker Life Changing
 **One-liner:** AR follow-up specialists stop spending 6 hours a day on hold with insurance companies, reclaiming their time for analysis and resolution work that actually requires human judgment.
-**Tags:** #worker-facing #automation #ai-agent
+**Tags:** #bert #transfer-learning #worker-facing #automation #ai-agent
 
 ## The Problem
 Accounts receivable follow-up is the core operational task in medical billing: when a claim isn't paid within 30-45 days, someone must investigate and resolve it. For most claims, this means calling the insurance company — navigating an IVR system, waiting on hold for 10-30 minutes, speaking with a representative who reads from a script, getting a claim status or denial reason, documenting the outcome, and moving to the next claim. An AR specialist makes 30-50 calls per day and spends 60-70% of their time on hold or navigating phone systems. The actual problem-solving — understanding why the claim was denied and determining the correct resolution — takes 3-5 minutes per claim. Everything else is overhead.

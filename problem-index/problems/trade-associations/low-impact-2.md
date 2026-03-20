@@ -3,7 +3,7 @@
 **Industry:** [[trade-associations|Trade Associations]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic legislative tracking tools exist but don't understand which bills matter to a specific industry's members or how to translate regulatory language into actionable member alerts.
-**Tags:** #bert #text-classification #nlp #compliance
+**Tags:** #bert #transfer-learning #attention-mechanisms #transformers #word-embeddings #evaluation-metrics #entropy-cross-entropy-kl-divergence #loss-functions #compliance
 
 ## The Problem
 Government affairs staff at trade associations manually monitor federal and state legislative databases (congress.gov, state legislature sites, regulatory dockets) to identify bills, amendments, and proposed rules relevant to their industry. A mid-size association might need to track activity across 20-30 state legislatures plus federal agencies, with hundreds of new bills filed weekly during session. Staff read bill text, assess relevance, determine member impact by jurisdiction, draft alerts, and coordinate advocacy responses. Missing a relevant bill until it reaches committee markup or floor vote means the association's advocacy window has already closed.

@@ -3,7 +3,7 @@
 **Industry:** [[cleaning-companies|Cleaning Companies]]
 **Type:** Worker Life Changing
 **One-liner:** Supervisors stop driving 200+ miles per week visiting sites to verify cleaning quality and start reviewing AI-assessed post-cleaning photos from every site, every night.
-**Tags:** #cnn #binary-classification #computer-vision #worker-facing
+**Tags:** #cnns #logistic-regression #transfer-learning #loss-functions #evaluation-metrics #backpropagation #gradient-descent #worker-facing
 
 ## The Problem
 Quality control supervisors at commercial cleaning companies physically visit 5-15 sites per week to verify cleaning quality — driving between locations after hours, often until midnight, to inspect work performed by evening crews. A supervisor covering 40 sites can physically inspect each one monthly at best, leaving 75% of cleaning events unmonitored. The driving is unpaid or underpaid, the hours are brutal (6pm-midnight, 5 nights a week), and the supervisor can only catch problems after the fact.

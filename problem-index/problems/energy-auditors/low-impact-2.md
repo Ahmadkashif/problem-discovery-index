@@ -3,7 +3,7 @@
 **Industry:** [[energy-auditors|Energy Auditors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Rebate databases exist but cannot automatically match a specific building's conditions and proposed measures to the exact incentives it qualifies for across overlapping federal, state, utility, and municipal programs.
-**Tags:** #bert #text-classification #nlp #data-integration
+**Tags:** #bert #transformers #attention-mechanisms #word-embeddings #transfer-learning #feature-engineering #large-language-models #data-integration
 
 ## The Problem
 Energy auditors must identify which rebates and incentives apply to each specific retrofit recommendation — IRA tax credits, state energy office programs, utility demand-side management incentives, municipal weatherization grants, and income-qualified programs all have different eligibility criteria, measure specifications, and application deadlines. An auditor proposing attic insulation, air sealing, and a heat pump for a specific home in a specific utility territory might qualify for 4-6 overlapping programs, each with different paperwork. Missing an applicable incentive costs the homeowner money and reduces the auditor's close rate; claiming an inapplicable one wastes time on rejected applications.

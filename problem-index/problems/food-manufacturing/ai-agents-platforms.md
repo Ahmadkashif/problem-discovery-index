@@ -5,7 +5,7 @@
 ---
 
 ## 1. HACCP Documentation Agent
-#ai-agent #compliance #automation
+#ai-agent #large-language-models #attention-mechanisms #transformers #evaluation-metrics #compliance #automation
 
 **Concept:** An autonomous agent that monitors CCP data streams from MES, detects deviations against the plant's HACCP plan critical limits, and generates corrective action records, deviation logs, and verification summaries without human drafting — the HACCP coordinator reviews and approves rather than writes from scratch.
 **Inputs:** CCP monitoring data from MES (time-temperature logs, metal detector pass/fail, pH readings, Brix measurements); the plant's HACCP plan (CCP definitions, critical limits, corrective action procedures); sanitation monitoring data (ATP readings, allergen swab results); environmental monitoring results
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Production Scheduling Agent with Allergen Sequencing
-#ai-agent #automation #compliance
+#ai-agent #optimization-fundamentals #combinatorics-and-counting #graph-theory #automation #compliance
 
 **Concept:** A scheduling agent that optimizes production line sequencing accounting for allergen changeover requirements, sanitation time, due dates, and line-specific capabilities — generating a schedule that minimizes total changeover cost while keeping allergen cross-contact risk below the plant's acceptable threshold.
 **Inputs:** Production orders with product specifications, allergen profiles, quantities, and due dates; line capability constraints (which products can run on which lines); allergen changeover matrix (which allergen transitions require full sanitation vs. dry clean vs. rinse); sanitation time estimates by changeover type; current production status from MES
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Supplier Quality Alert Agent
-#ai-agent #compliance #revenue-impact
+#ai-agent #gradient-boosting #feature-engineering #evaluation-metrics #compliance #revenue-impact
 
 **Concept:** An agent that monitors incoming ingredient lot data against historical supplier performance, flags lots with elevated risk of quality problems, and triggers enhanced receiving inspection or process parameter adjustments before the lot enters production — catching supplier quality drift before it causes downstream batch failures.
 **Inputs:** Incoming lot COA data (moisture, protein, fat, microbial counts, color, particle size); historical supplier lot performance database; downstream batch outcomes linked to specific ingredient lots; supplier audit history and corrective action status; seasonal and market condition indicators (commodity price spikes often correlate with quality substitution)
@@ -38,7 +38,7 @@
 ---
 
 ## 4. Recall Traceability Agent
-#ai-agent #compliance
+#ai-agent #graph-theory #data-integration #compliance
 
 **Concept:** An agent that, when triggered by a quality alert on a specific ingredient lot or production batch, traces the affected material forward through production runs, finished goods inventory, and distribution records to identify the full scope of potentially affected product — generating a recall impact assessment in minutes rather than the 24-72 hours that manual traceability exercises typically require.
 **Inputs:** Ingredient lot receiving records (ERP); production batch records with ingredient lot linkage (MES); finished goods inventory by lot (WMS); distribution/shipping records by lot (ERP/TMS); customer order history linked to shipped lots

@@ -6,7 +6,7 @@
 ---
 
 ## 1. RFE Approval Likelihood Prediction by Field Office and Adjudicator Patterns
-#gradient-boosting #binary-classification #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #tacit-knowledge-ml
 
 **Problem statement:** Experienced immigration attorneys have internalized which arguments succeed with which USCIS field offices, which evidence formats adjudicators favor for specific visa categories, and how approval rates shift with regulatory and policy changes. This institutional pattern recognition can be formalized as a model that predicts RFE approval probability based on case type, field office, petition characteristics, and the current regulatory environment — enabling attorneys to calibrate response strategy to the specific adjudicator context.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. USCIS Case Status Semantic Classification and Workflow Routing
-#bert #text-classification #nlp #automation
+#bert #transfer-learning #loss-functions #evaluation-metrics #cross-validation #automation
 
 **Problem statement:** Automatically classify USCIS case status messages — which are free-text strings on the USCIS portal — into structured event types that trigger specific downstream workflows in the case management system, eliminating manual interpretation of status changes by case managers.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Immigration Document Completeness and Discrepancy Detection
-#bert #named-entity-recognition #nlp #compliance
+#bert #transfer-learning #loss-functions #evaluation-metrics #cross-validation #compliance
 
 **Problem statement:** Given a set of immigration documents submitted for a petition (passport bio page, educational credentials, employment letters, prior approvals), extract key entities from each document and flag: missing required documents, inconsistencies in name spelling or biographical information across documents, and dates or qualifications that don't support the petition's legal argument.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Case Processing Time Prediction by Visa Category and Service Center
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #confidence-intervals
 
 **Problem statement:** Predict the expected USCIS processing time for a new petition given visa category, service center assignment, petitioner company profile, and current USCIS processing time trends — enabling accurate client timeline counseling and proactive case strategy adjustments.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Client Churn and Case Abandonment Prediction
-#gradient-boosting #survival-analysis #tabular-ml
+#gradient-boosting #survival-analysis #feature-engineering #cross-validation #evaluation-metrics #probability-distributions
 
 **Problem statement:** Predict which immigration clients are at risk of abandoning their case — withdrawing the petition, switching to another firm, or simply going unresponsive during a critical document collection phase — enabling targeted intervention before a fee-generating case is lost.
 

@@ -3,7 +3,7 @@
 **Industry:** [[printing-shops|Printing Shops]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** PDF preflight and correction tools like Enfocus Pitstop and Markzware FlightCheck can detect and fix many file errors, but they don't understand the production context — whether a file needs bleed added for a specific trimmed product, whether the color space is appropriate for the target press and substrate, or whether the image resolution is adequate for the specific viewing distance and print process — decisions that prepress technicians currently make manually for every incoming file.
-**Tags:** #cnn #binary-classification #computer-vision #automation
+**Tags:** #cnns #transfer-learning #loss-functions #evaluation-metrics #backpropagation #gradient-descent #optimization-fundamentals #automation
 
 ## The Problem
 Every print job begins with a customer-supplied file — typically a PDF — that must be prepared for production: verifying correct dimensions and bleed, converting color spaces (RGB to CMYK, spot color matching), checking image resolution, applying trapping (overlap between adjacent colors to prevent white gaps from registration variation), and creating the imposition layout (arranging pages on the press sheet). Customers submit files with errors 40-60% of the time: missing bleed, RGB images, low-resolution graphics, incorrect dimensions, fonts not embedded, transparency issues. A prepress technician reviews each file, identifies errors, either fixes them or sends the file back to the customer, and then prepares the production-ready version. For a shop processing 30-50 jobs per day, this file preparation step consumes 1-3 hours of skilled prepress time.

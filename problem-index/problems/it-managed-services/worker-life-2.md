@@ -3,7 +3,7 @@
 **Industry:** [[it-managed-services|IT Managed Services]]
 **Type:** Worker Life Changing
 **One-liner:** Service managers spend 4-6 hours every week wrestling PSA data into client-facing SLA reports and internal utilization dashboards, time that should go to coaching technicians and improving service delivery.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #entropy-cross-entropy-kl-divergence #evaluation-metrics #worker-facing #automation
 
 ## The Problem
 Service managers at MSPs are responsible for weekly and monthly reporting: SLA compliance by client, technician utilization rates, ticket backlog aging, escalation trends, and time entry accuracy. The raw data lives in the PSA (ConnectWise Manage, Autotask, HaloPSA), but extracting it requires navigating clunky report builders, exporting to Excel, cleaning up miscategorized time entries, cross-referencing against SLA thresholds per agreement, and formatting it into both internal dashboards and client-facing PDF reports. A service manager overseeing 8-12 technicians and 30-50 client agreements spends 4-6 hours per week on this reporting cycle — nearly a full day of their five-day workweek consumed by data janitoring rather than management.

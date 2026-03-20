@@ -3,7 +3,7 @@
 **Industry:** [[rv-dealerships|RV Dealerships]]
 **Type:** Worker Life Changing
 **One-liner:** RV technicians stop drowning in repair manuals for systems they see once a year and start having instant access to the specific procedure for this brand's water heater or that manufacturer's slide-out mechanism.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #worker-facing
 
 ## The Problem
 An RV service technician must be competent across automotive systems (engine, drivetrain, brakes), residential plumbing (freshwater, gray water, black water, water heater), residential electrical (12V DC, 120V AC, solar, inverter, converter), LP gas systems (furnace, stove, water heater, refrigerator), and appliance repair (refrigerator, microwave, washer/dryer, air conditioner). Each RV manufacturer uses different component brands and configurations. A tech might see a Dometic refrigerator once, a Norcold the next, and an Everchill after that — each with different repair procedures. The cognitive load is immense, and repair information is scattered across dozens of manufacturer websites, forums, and paper manuals.

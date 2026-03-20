@@ -3,7 +3,7 @@
 **Industry:** [[funeral-homes|Funeral Homes]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic AI writing tools can produce text, but they don't know how to capture a life story from a grieving family's fragmented recollections, match the tone conventions of obituary writing, or format output for newspaper submission, funeral program printing, and online memorial platforms simultaneously.
-**Tags:** #llm #text-generation #nlp
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #evaluation-metrics
 
 ## The Problem
 Every death requires an obituary — and families expect the funeral home to produce it. Directors spend 30-60 minutes per case interviewing families for biographical details, then another 30-45 minutes writing or editing the obituary. Families are emotionally fragile and provide information non-linearly: a daughter mentions her father's military service, then jumps to his favorite fishing spot, then remembers his job at the mill. The director must organize these fragments into a coherent, respectful life narrative that also includes the required factual elements (survivors, predeceased, service details, charitable donation instructions). Beyond the obituary, the funeral home produces printed programs, prayer cards, thank-you notes, slideshow scripts, and online memorial pages — all requiring consistent tone and accurate biographical content.

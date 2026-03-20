@@ -3,7 +3,7 @@
 **Industry:** [[medical-supply-retail|Medical Supply Retail]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Standard route optimization tools treat every delivery stop as equivalent, but delivering a bariatric hospital bed to a third-floor walkup requires a two-person crew, a stair-climbing dolly, and 45 minutes on-site — while dropping off a box of wound care supplies takes 5 minutes at the front door — and no delivery scheduling platform accounts for these patient-specific access and setup variables.
-**Tags:** #gradient-boosting #regression #tabular-ml #workflow-orchestration
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #workflow-orchestration
 
 ## The Problem
 DME delivery is not standard parcel delivery. Equipment ranges from a 2-pound bag of CPAP supplies (doorstep drop) to a 400-pound bariatric bed (requires disassembly, room-by-room navigation, reassembly, and patient fitting). Patient homes present access challenges that standard logistics tools ignore: narrow hallways, stairs without elevators, hoarding conditions, rural addresses with unpaved access roads, and patients who cannot open the door and require a caregiver to be present. Delivery windows must accommodate patients who may have home health aide schedules, dialysis appointments, or limited mobility that makes certain times of day impossible. Current scheduling is done manually by dispatchers who hold all of this contextual knowledge in their heads or in free-text notes attached to each order — and when the dispatcher is out sick, deliveries go sideways.

@@ -3,7 +3,7 @@
 **Industry:** [[medical-billing|Medical Billing]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Payment posting from electronic remittance advices is automated in theory, but in practice every ERA requires manual review because contractual adjustments, secondary billing triggers, and patient responsibility calculations don't reconcile cleanly.
-**Tags:** #automation #revenue-impact #data-integration
+**Tags:** #logistic-regression #feature-engineering #descriptive-statistics #evaluation-metrics #automation #revenue-impact #data-integration
 
 ## The Problem
 When payers send Electronic Remittance Advices (ERAs), the billing system auto-posts payments against claims. But auto-posting frequently fails or produces incorrect results: contractual adjustments don't match the practice's fee schedule contracts, secondary insurance triggers aren't fired correctly, patient responsibility amounts don't account for already-collected copays, and bundled payments need to be allocated across component claims. For a billing company managing 20+ clients with different fee schedules and payer contracts, the reconciliation requires client-specific knowledge that generic auto-posting can't handle.

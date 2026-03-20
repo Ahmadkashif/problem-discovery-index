@@ -6,7 +6,7 @@
 ---
 
 ## 1. Auction Vehicle Assessment — Predicting Reconditioning Cost and Days-to-Sale from Walkaround
-#gradient-boosting #regression #tabular-ml #computer-vision #tacit-knowledge-ml
+#gradient-boosting #cnns #transfer-learning #feature-engineering #cross-validation #evaluation-metrics #loss-functions #backpropagation #gradient-descent #tacit-knowledge-ml
 
 **Problem statement:** Experienced used car buyers at auction develop an instinct for a vehicle's true condition and market desirability from a 30-60 second walkaround — they read paint condition, tire wear patterns, interior wear, odor, engine sound, and body panel gaps and *know* whether a car needs $500 or $5,000 in reconditioning, and whether it will sell in 15 days or sit for 90. A veteran buyer can walk a lane of 200 cars and pick the 10 that will be profitable. A new buyer overpays on cars that need hidden mechanical work and sits on inventory that doesn't match local demand. This appraisal intuition is the single most valuable skill in independent auto dealing.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Auction Vehicle Pricing and Market Days Supply Prediction
-#gradient-boosting #regression #time-series-forecasting #tabular-ml #revenue-impact
+#gradient-boosting #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #gradient-descent #revenue-impact
 
 **Problem statement:** Given a vehicle at auction (VIN-decoded specs, mileage, condition report, auction location), predict the optimal maximum bid that preserves target gross margin after reconditioning, and forecast market days supply — how many days the vehicle will take to retail in the dealer's specific zip code and price segment.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Lead Scoring and Conversion Prediction
-#gradient-boosting #binary-classification #tabular-ml #worker-facing
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #worker-facing
 
 **Problem statement:** Given an incoming sales lead (source, inquiry content, customer behavior signals), predict the probability that the lead converts to a vehicle purchase within 14 days, enabling sales associates to prioritize outreach by conversion likelihood.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Vehicle Reconditioning Cost Estimation from Inspection Data
-#random-forest #regression #tabular-ml #revenue-impact
+#random-forests #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #revenue-impact
 
 **Problem statement:** Given a vehicle's condition report from auction (or a dealer-side inspection checklist), predict total reconditioning cost to retail-ready condition, enabling more accurate max-bid calculations at auction and faster recon workflow planning.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Optimal Listing Price Prediction by Marketplace
-#gradient-boosting #regression #tabular-ml #revenue-impact #automation
+#gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #gradient-descent #bias-variance-tradeoff #revenue-impact #automation
 
 **Problem statement:** For a given vehicle on a dealer's lot, predict the listing price on each marketplace (CarGurus, Cars.com, Autotrader, Facebook Marketplace) that maximizes the probability of sale within the dealer's target days-on-lot while preserving margin, accounting for each platform's competitive pricing dynamics and audience demographics.
 

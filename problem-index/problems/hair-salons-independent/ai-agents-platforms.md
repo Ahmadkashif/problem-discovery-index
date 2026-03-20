@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Hair Salons (Independent)
 
 **Industry:** [[hair-salons-independent|Hair Salons (Independent)]]
-**Tags:** #ai-agent #ai-platform #llm #gradient-boosting #cnn #text-generation #binary-classification #regression #tabular-ml #computer-vision #nlp #revenue-impact
+**Tags:** #ai-agent #ai-platform #large-language-models #gradient-boosting #cnns #transfer-learning #feature-engineering #evaluation-metrics #cross-validation #loss-functions #survival-analysis #revenue-impact
 
 ---
 

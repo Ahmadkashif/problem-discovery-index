@@ -3,7 +3,7 @@
 **Industry:** [[real-estate-appraisers|Real Estate Appraisers]]
 **Type:** Worker Life Changing
 **One-liner:** Appraisers who write the same neighborhood and market conditions commentary for every appraisal in their coverage area — the required USPAP sections describing supply/demand balance, marketing time, price trends, and neighborhood characteristics — get that section auto-generated from the current MLS data for the subject's submarket, updated to reflect current market conditions.
-**Tags:** #llm #text-generation #tabular-ml #automation #worker-facing
+**Tags:** #large-language-models #attention-mechanisms #transformers #transfer-learning #descriptive-statistics #automation #worker-facing
 
 ## The Problem
 

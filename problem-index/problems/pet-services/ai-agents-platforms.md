@@ -5,7 +5,7 @@
 ---
 
 ## 1. Pet Behavior Assessment Agent
-#ai-agent #computer-vision #tacit-knowledge-ml
+#ai-agent #cnns #object-detection #transfer-learning #evaluation-metrics #tacit-knowledge-ml
 
 **Concept:** An AI agent that continuously monitors daycare play areas via existing camera infrastructure, tracks individual dogs using re-identification, classifies real-time body language (play bows, whale eye, stiff posture, resource guarding, mounting, cornering), and alerts attendants via smartwatch or earpiece when escalation patterns are detected. The agent maintains a behavioral profile for every dog that visits, updating it after each session with observed triggers, play partners, arousal patterns, and incident involvement. During temperament tests, the agent provides a real-time assessment overlay, scoring the dog's responses against the facility's historical baseline.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Scheduling and Capacity Optimization Agent
-#ai-agent #workflow-orchestration #automation
+#ai-agent #gradient-boosting #feature-engineering #optimization-fundamentals #workflow-orchestration #automation
 
 **Concept:** An AI agent that manages multi-service facility scheduling as an integrated system rather than independent booking calendars. The agent considers physical resource constraints (kennel runs shared between boarding staging and grooming), staff allocation across concurrent services, grooming time predictions based on specific dog profiles, and seasonal demand patterns. When a booking is requested, the agent evaluates facility-wide impact — whether accepting a boarding dog that needs grooming will cascade into groomer overtime — and suggests optimal scheduling. The agent proactively manages capacity by adjusting pricing during peak periods, sending availability notifications during slow periods, and recommending staffing adjustments based on booked demand.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Client Communication and Engagement Agent
-#ai-agent #llm #text-generation #automation
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #automation
 
 **Concept:** An AI agent that handles the high-volume, repetitive client communication that consumes 15-20 hours per week of front desk and manager time. The agent manages booking confirmations, vaccination record reminders (with deadline enforcement), post-visit report card generation with behavioral observations and photos, review solicitation timed to positive experiences, reactivation outreach for lapsing clients, and seasonal promotion campaigns. The agent communicates in the facility's voice and can handle multi-turn conversations about services, pricing, and policies — escalating to staff only for complex inquiries or complaints.
 

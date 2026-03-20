@@ -3,7 +3,7 @@
 **Industry:** [[medical-billing|Medical Billing]]
 **Type:** Worker Life Changing
 **One-liner:** Medical coders stop mentally context-switching between 5-10 different medical specialties, payer rule sets, and client preferences every hour — gaining the focus and flow state that accurate coding demands.
-**Tags:** #worker-facing #ml-nlp #workflow-orchestration
+**Tags:** #large-language-models #bert #transfer-learning #feature-engineering #worker-facing #workflow-orchestration
 
 ## The Problem
 At a multi-client billing company, a medical coder might review a cardiology operative report at 9am, a dermatology office visit at 9:15am, an orthopedic surgery at 9:30am, and a mental health intake at 9:45am — each from a different provider client with different documentation styles, payer mixes, and coding preferences. Every switch requires reloading a different mental model: cardiology has specific catheterization coding rules, dermatology has destruction/excision complexity, orthopedic surgery has laterality and approach modifiers, and mental health has time-based coding. The coder must also remember client-specific preferences ("Dr. Smith wants the highest-supported code; Dr. Jones wants conservative coding to avoid audits").

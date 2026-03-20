@@ -3,7 +3,7 @@
 **Industry:** [[med-spas|Med Spas]]
 **Type:** High Impact
 **One-liner:** Med spas stop leaving $200-$500 per patient visit on the table because injectors can recommend optimal treatment combinations based on facial analysis and outcome data from thousands of similar patients — not just the 3-4 treatments they personally prefer.
-**Tags:** #cnn #gradient-boosting #recommendation #computer-vision #tabular-ml #revenue-impact
+**Tags:** #cnns #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #backpropagation #gradient-descent #cross-validation #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 When a patient walks into a med spa consultation, the injector must assess their facial anatomy (bone structure, fat pad distribution, skin quality, muscle dynamics), understand their aesthetic goals ("I want to look refreshed" vs. "I want to look younger" vs. "I want to look like this Instagram photo"), consider their treatment history, budget, and pain tolerance, and recommend a treatment plan that may include neurotoxins (Botox, Dysport, Xeomin), dermal fillers (multiple types with different viscosities for different facial zones), laser treatments (BBL, Halo, Fraxel), radiofrequency (Morpheus8, Thermage), and topical treatments (chemical peels, microneedling, PRP).

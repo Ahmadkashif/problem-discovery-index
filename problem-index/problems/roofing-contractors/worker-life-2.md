@@ -3,7 +3,7 @@
 **Industry:** [[roofing-contractors|Roofing Contractors]]
 **Type:** Worker Life Changing
 **One-liner:** Roofing sales reps who canvas neighborhoods after a hail event — knocking doors without knowing which streets had hail damage severe enough to warrant a claim, or which neighborhoods have homes aged enough to be replacement candidates — get a ranked canvas route generated from weather hail data, aerial imagery condition scoring, and property age data before they leave the office.
-**Tags:** #gradient-boosting #ranking #tabular-ml #automation #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #probability-distributions #automation #worker-facing
 
 ## The Problem
 

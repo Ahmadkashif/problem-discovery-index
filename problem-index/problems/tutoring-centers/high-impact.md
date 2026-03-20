@@ -3,7 +3,7 @@
 **Industry:** [[tutoring-centers|Tutoring Centers]]
 **Type:** High Impact
 **One-liner:** Experienced tutors diagnose the *why* behind a student's errors — reading hesitation patterns, scratch work structure, and error types to identify the precise prerequisite gap buried 2-3 grade levels back — a diagnostic skill that takes years to develop, determines whether remediation actually works, and walks out the door with every tutor who leaves.
-**Tags:** #gradient-boosting #bayesian-network #multiclass-classification #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #bayesian-inference #conditional-probability-and-bayes-theorem #probability-distributions #feature-engineering #evaluation-metrics #decision-trees #cross-validation #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 

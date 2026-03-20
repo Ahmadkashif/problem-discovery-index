@@ -3,7 +3,7 @@
 **Industry:** [[it-managed-services|IT Managed Services]]
 **Type:** High Impact
 **One-liner:** 60-70% of MSP tickets are L1 issues that could be resolved without a human technician, and automating them transforms the entire service delivery margin.
-**Tags:** #llm #bert #text-classification #nlp #automation #revenue-impact
+**Tags:** #large-language-models #bert #transformers #attention-mechanisms #word-embeddings #transfer-learning #evaluation-metrics #loss-functions #automation #revenue-impact
 
 ## The Problem
 MSP help desks receive a relentless stream of tickets — password resets, printer connectivity, VPN configuration, basic Office 365 issues — that consume L1 technician hours at scale. A 500-endpoint MSP may process 800-1,200 tickets per month, with the majority being repetitive L1 issues that follow predictable resolution paths. Technicians spend their days on these low-skill tasks instead of the L2/L3 work that actually prevents client churn. The result: bloated labor costs, slower SLA response times, and technician burnout that drives 30-40% annual turnover at the L1 level.

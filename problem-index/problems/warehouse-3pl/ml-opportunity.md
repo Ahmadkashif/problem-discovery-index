@@ -6,7 +6,7 @@
 ---
 
 ## 1. SKU Slotting Optimization via Demand-Weighted Layout
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #linear-regression #optimization-fundamentals #k-means-clustering #feature-engineering #combinatorics-and-counting #evaluation-metrics #revenue-impact
 
 **Problem statement:** Continuously recommend slot assignment changes to minimize picker travel distance as SKU velocity and co-occurrence patterns evolve.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Inventory Discrepancy Risk Scoring
-#gradient-boosting #binary-classification #anomaly-detection #tabular-ml #quick-win
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #descriptive-statistics #quick-win
 
 **Problem statement:** Score inventory locations by discrepancy probability to direct cycle count labor to highest-risk locations first.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Daily Labor Demand Forecasting
-#gradient-boosting #time-series-forecasting #tabular-ml
+#gradient-boosting #linear-regression #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics
 
 **Problem statement:** Forecast warehouse labor demand (headcount per function per shift) from inbound order files and historical productivity, enabling accurate staffing decisions 24-48 hours in advance.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Damage Classification from Receiving Photos
-#cnn #multiclass-classification #computer-vision #compliance #quick-win
+#cnns #transfer-learning #loss-functions #backpropagation #gradient-descent #evaluation-metrics #compliance #quick-win
 
 **Problem statement:** Classify inbound shipment damage type from receiving photos to automate exception documentation and carrier claim evidence preparation.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Order Wave Batching Optimization
-#gradient-boosting #tabular-ml #workflow-orchestration
+#k-means-clustering #optimization-fundamentals #combinatorics-and-counting #feature-engineering #graph-theory #workflow-orchestration
 
 **Problem statement:** Optimize order batching for pick waves to minimize warehouse travel distance while maintaining shipping cut-off time requirements.
 

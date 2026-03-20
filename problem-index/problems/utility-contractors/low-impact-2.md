@@ -3,7 +3,7 @@
 **Industry:** [[utility-contractors|Utility Contractors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic document management systems store PHMSA records but don't understand the federal pipeline safety regulation structure — which records must be retained for which assets, what inspection frequencies are required by regulation, and when a compliance gap creates reportable incident risk.
-**Tags:** #llm #text-classification #nlp #compliance #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #evaluation-metrics #compliance #automation
 
 ## The Problem
 

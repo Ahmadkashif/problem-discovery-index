@@ -3,7 +3,7 @@
 **Industry:** [[non-emergency-medical-transport|Non-Emergency Medical Transport]]
 **Type:** Worker Life Changing
 **One-liner:** Dispatchers stop playing a frantic mental chess game every time a patient no-shows, and instead get a system that instantly recommends the best reroute for every affected vehicle.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #optimization-fundamentals #bias-variance-tradeoff #worker-facing
 
 ## The Problem
 NEMT patient no-show rates run 15-20% industry-wide. Every no-show triggers a cascade: the assigned driver is now ahead of schedule with a gap, other patients on shared rides may be affected, and there may be an add-on trip request that could fill the slot — but only if the dispatcher can identify the match within minutes. Dispatchers managing 20-50 active vehicles juggle this mentally, flipping between GPS screens, trip boards, and phone calls to drivers, trying to minimize wasted miles while keeping every other patient's appointment window intact. On a heavy day, dispatchers handle 30-50 no-show/cancellation events and must re-sequence routes under time pressure while simultaneously answering incoming trip requests and driver calls. The cognitive load is extreme — dispatchers describe the job as "air traffic control without the radar."

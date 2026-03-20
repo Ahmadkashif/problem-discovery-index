@@ -3,7 +3,7 @@
 **Industry:** [[home-health-agencies|Home Health Agencies]]
 **Type:** High Impact
 **One-liner:** Field clinicians are automatically routed through optimized daily schedules that balance patient acuity, visit windows, clinician skills, and drive time — eliminating the scheduling coordinator bottleneck that currently burns 3-4 hours of manual puzzle-solving every morning.
-**Tags:** #ml-optimization #revenue-impact #ai-agent
+**Tags:** #optimization-fundamentals #gradient-descent #convex-optimization #numerical-methods #gradient-boosting #feature-engineering #evaluation-metrics #revenue-impact #ai-agent
 
 ## The Problem
 Home health scheduling coordinators build daily visit schedules for 20-80 field clinicians across a geographic territory, matching each patient's ordered visit frequency, clinician certification requirements (wound care, IV therapy, pediatric), continuity-of-care preferences (patients do better with the same nurse), payer-mandated visit windows, and real-time disruptions (patient cancellations, clinician call-outs, hospital admissions). Most do this manually using the EHR's basic calendar view supplemented by spreadsheets and institutional knowledge. The result: suboptimal routes that waste 60-90 minutes of drive time per clinician per day, missed visits that trigger compliance violations, and coordinators who are the single point of failure for the entire operation.

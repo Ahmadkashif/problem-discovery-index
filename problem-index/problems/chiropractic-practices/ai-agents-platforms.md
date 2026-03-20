@@ -5,7 +5,7 @@
 ---
 
 ## 1. Postural Assessment and Clinical Decision Support Agent
-#ai-agent #computer-vision #tacit-knowledge-ml
+#ai-agent #cnns #transfer-learning #gradient-boosting #feature-engineering #loss-functions #evaluation-metrics #tacit-knowledge-ml
 
 **Concept:** An AI agent integrated into the exam room workflow that processes standardized patient photos to identify postural deviations, compensatory chain patterns, and biomechanical relationships. During the initial exam, the DC positions the patient on a marked floor location, captures 4 standardized views, and within 30 seconds receives a visual overlay showing detected deviations, predicted compensatory chains, and comparison to the patient's prior assessments. The agent generates objective postural findings formatted for the SOAP note and insurance documentation, converting subjective visual assessment into measurable data points. Over time, the agent correlates postural findings with treatment outcomes, enabling evidence-based treatment planning.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. SOAP Note Generation Agent
-#ai-agent #llm #nlp #worker-facing
+#ai-agent #large-language-models #transformers #attention-mechanisms #transfer-learning #entropy-cross-entropy-kl-divergence #evaluation-metrics #worker-facing
 
 **Concept:** An ambient documentation agent that listens to the chiropractic encounter (patient subjective report, DC's verbal examination narrative, adjustment description) and generates a compliant SOAP note in the DC's EHR format. The agent understands chiropractic terminology (subluxation levels, technique names, motion palpation findings, orthopedic test names), auto-varies documentation language between visits to avoid audit-triggering template similarity, and calibrates medical necessity language to the patient's visit count and carrier requirements. The DC reviews each note in under 30 seconds on a tablet before the next patient enters.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Treatment Plan Optimization and Case Management Agent
-#ai-agent #ai-platform #tabular-ml
+#ai-agent #ai-platform #gradient-boosting #feature-engineering #evaluation-metrics #cross-validation #survival-analysis #descriptive-statistics
 
 **Concept:** An AI agent that monitors patient progress against expected recovery curves and proactively alerts the DC when intervention is needed. At each visit, the agent analyzes the patient's outcome measures, attendance patterns, and clinical findings against a population-level model of expected recovery for their condition, demographics, and presentation severity. When a patient falls below expected progress, the agent recommends specific interventions: re-examination, technique modification, referral for imaging, or referral to a specialist. For insurance management, the agent predicts denial risk for upcoming claims and suggests documentation enhancements. For practice management, the agent identifies patients at risk of dropout and suggests engagement strategies.
 

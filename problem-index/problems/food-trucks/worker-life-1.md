@@ -3,7 +3,7 @@
 **Industry:** [[food-trucks|Food Trucks]]
 **Type:** Worker Life Changing
 **One-liner:** The owner-operator gets back 2-3 hours every evening currently spent on bookkeeping, inventory counts, and social media instead of resting before another 14-hour day.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #worker-facing #automation
 
 ## The Problem
 A typical food truck owner-operator works a 14-16 hour day: 4 AM commissary prep, 10 AM drive to location, 11 AM-3 PM lunch service, 4-7 PM dinner service or second location, then cleaning, restocking, and 2-3 hours of administrative tasks — reconciling POS sales with cash, updating inventory spreadsheets, posting tomorrow's location on Instagram/Twitter/TikTok, responding to catering inquiries, and filing weekly sales-tax reports. These back-office tasks happen after 10+ hours of physical labor, leading to errors, missed posts, and chronic sleep deprivation.

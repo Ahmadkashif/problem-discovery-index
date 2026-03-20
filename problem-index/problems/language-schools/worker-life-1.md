@@ -3,7 +3,7 @@
 **Industry:** [[language-schools|Language Schools]]
 **Type:** Worker Life Changing
 **One-liner:** Instructors get back evenings and weekends currently consumed by building differentiated materials for classes where proficiency levels span two or more CEFR bands.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #worker-facing
 
 ## The Problem
 A typical language school instructor teaches 4-6 class sections per week, each containing 8-15 students whose actual proficiency ranges from strong A2 to weak B2 despite being nominally placed in a "B1" group. For every lesson, the instructor must prepare tiered versions of reading passages (simplified for lower students, extended for higher), scaffold writing prompts at multiple complexity levels, select listening materials with appropriate speech rate and vocabulary density, and design pair/group activities that create productive interaction across levels rather than frustration. This differentiation work is done manually — copying, editing, reformatting — and adds 1-2 hours of prep per teaching hour. Most instructors are part-time hourly employees; this prep time is often unpaid or compensated at a fraction of the teaching rate.

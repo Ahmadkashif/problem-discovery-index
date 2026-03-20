@@ -3,7 +3,7 @@
 **Industry:** [[non-emergency-medical-transport|Non-Emergency Medical Transport]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic billing automation exists — but none of it understands Medicaid trip authorization matching, state-specific documentation rules, or the broker reconciliation workflow that causes 20-30% of claims to require manual rework.
-**Tags:** #llm #named-entity-recognition #nlp #compliance #automation
+**Tags:** #large-language-models #bert #transformers #attention-mechanisms #word-embeddings #transfer-learning #compliance #automation
 
 ## The Problem
 Every completed NEMT trip must be matched to a Medicaid authorization, documented with exact pickup/dropoff times, odometer readings, driver and patient signatures, and submitted through broker-specific portals or state Medicaid EDI systems. Billing specialists spend 3-5 minutes per trip verifying documentation completeness, cross-referencing authorization numbers, and correcting discrepancies between GPS logs and driver-reported times. A 200-trip-per-day operator dedicates 2-3 full-time staff to this process, and 20-30% of initial submissions are denied or pended for missing fields, mismatched authorization codes, or documentation gaps — each requiring 15-30 minutes of rework and resubmission.

@@ -5,7 +5,7 @@
 ---
 
 ## 1. Member Engagement Agent
-#ai-agent #revenue-impact #tacit-knowledge-ml
+#ai-agent #gradient-boosting #survival-analysis #decision-trees #feature-engineering #evaluation-metrics #large-language-models #tacit-knowledge-ml #revenue-impact
 
 **Concept:** An autonomous agent that monitors member behavior patterns daily, identifies at-risk members using the churn prediction model, and executes personalized retention interventions without owner involvement. The agent sends tailored messages (text, email, push notification) with specific calls-to-action — a free PT session for a member whose visit frequency dropped, a class recommendation for someone stuck in a cardio-only routine, a check-in call prompt to front desk for a high-value member showing early disengagement signals. It closes the loop by tracking whether interventions change behavior and adjusts its strategy per member.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Class Scheduling Optimization Agent
-#ai-agent #workflow-orchestration
+#ai-agent #gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #optimization-fundamentals #workflow-orchestration
 
 **Concept:** An agent that continuously optimizes the group fitness schedule by forecasting demand, matching instructors to time slots based on historical draw, and automatically proposing schedule changes with projected attendance impact. It handles the full scheduling workflow: proposes additions/cuts with data justification, negotiates instructor availability via automated messaging, manages waitlists for oversubscribed classes, and suggests pop-up classes when demand signals spike (e.g., a local corporate wellness partnership brings 15 new members who all prefer 7am classes).
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Lead Conversion Platform
-#ai-platform #revenue-impact
+#ai-platform #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #large-language-models #revenue-impact
 
 **Concept:** A vertical CRM platform purpose-built for gym trial-to-member conversion that replaces generic CRM workflows with fitness-specific lead scoring, automated multi-touch follow-up sequences, and real-time coaching for front desk staff during prospect interactions. The platform ingests trial visit behavior (areas used, classes attended, questions asked), scores conversion likelihood, and orchestrates a follow-up sequence calibrated to the prospect's engagement level — from automated nurture emails for low-probability leads to same-day phone call prompts for high-probability prospects.
 

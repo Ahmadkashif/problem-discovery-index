@@ -3,7 +3,7 @@
 **Industry:** [[staffing-agencies|Staffing Agencies]]
 **Type:** High Impact
 **One-liner:** Recruiters stop burning 4+ hours daily on keyword searches that miss 80% of viable candidates because the ATS can finally understand that "forklift operator with 3 years warehouse experience" and "material handler — distribution center, certified reach truck" describe the same person.
-**Tags:** #transformer #ranking #nlp #revenue-impact #automation
+**Tags:** #transformers #attention-mechanisms #word-embeddings #transfer-learning #norms-and-inner-products #evaluation-metrics #gradient-descent #loss-functions #revenue-impact #automation
 
 ## The Problem
 A typical staffing recruiter handles 15–25 open requisitions simultaneously and spends 40–60% of their working day searching the ATS for candidates who might fit. The search is keyword-based: the recruiter types "CNC machinist" and gets back everyone whose resume contains that exact string, missing the candidate who wrote "computer numerical control operator" or "Haas lathe technician." Firms with databases of 50,000–200,000 candidate records routinely surface less than 5% of viable matches for a given req. The result is slower fill times, lost job orders to competitors, and recruiters burning out on repetitive search-and-scroll work instead of selling and relationship-building.

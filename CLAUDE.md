@@ -468,6 +468,53 @@ Industries marked `← HIGH tacit knowledge ML potential` must have a tacit know
 
 ---
 
+## Learning Plans — `problem-index/plans/`
+
+The vault also supports **learning plans** — project-based learning paths generated from the problem index. When a user asks "I want to learn {topic}" (e.g., "linear regression", "anomaly detection", "computer vision"), generate a plan:
+
+### Plan Structure
+
+Each plan is a directory under `problem-index/plans/{tag-id}/` with exactly 7 files:
+
+```
+problem-index/plans/{tag-id}/
+├── _overview.md          ← plan overview, prerequisites, 3-project table
+├── foundations.md        ← core theory, intuition, math, pitfalls
+├── project-1.md          ← beginner project (real vault problem)
+├── project-2.md          ← intermediate project (real vault problem)
+├── project-3.md          ← advanced project (real vault problem)
+├── deployment-guide.md   ← how to take these to production
+└── resources.md          ← libraries, papers, datasets, community
+```
+
+### Plan Generation Workflow
+
+1. Map the user's topic to tag(s) in the taxonomy (Tier 1, 2, or 3)
+2. Grep `problem-index/problems/` for all files containing the target tag
+3. Prioritize `ml-opportunity.md` entries (they have precise ML task definitions with input/target/metric)
+4. Select exactly **3 problems** with progressive difficulty (beginner → intermediate → advanced), no two from the same industry
+5. If fewer than 3 exact matches, expand to co-occurring tags and frame those as "build {technique} as baseline, compare to the recommended approach"
+6. Write all 7 files following the templates below
+7. Update `problem-index/plans/_plans-index.md` with the new plan entry
+
+### Project File Requirements
+
+Each `project-{N}.md` must include:
+- Wiki-link to the source problem file in the vault
+- **Concrete dataset recommendations** — specific public datasets (Kaggle, UCI, etc.) with URLs, plus synthetic data generation options
+- **4-phase implementation walkthrough:** Exploration → Baseline → Primary Model → Iteration
+- **Evaluation criteria** with metric from the source `ml-opportunity.md`, plus beginner/good/excellent thresholds
+
+### Key Rules
+
+- Plans only ADD files under `plans/` — no existing vault files are modified
+- Wiki-links go from plan → vault (not reverse)
+- Exactly 3 projects per plan (beginner, intermediate, advanced) — completable in 2-3 weeks
+- No two projects from the same industry
+- `_plans-index.md` is updated after every plan generation
+
+---
+
 ## Environment Notes
 
 - No package.json, no node_modules, no TypeScript compilation needed.

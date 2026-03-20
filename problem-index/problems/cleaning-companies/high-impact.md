@@ -3,7 +3,7 @@
 **Industry:** [[cleaning-companies|Cleaning Companies]]
 **Type:** High Impact
 **One-liner:** Cleaning companies stop losing contracts to underbidding competitors or destroying margins on overbid jobs — because the estimator's walkthrough intuition is now backed by data.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 When a commercial cleaning company bids on a new contract — an office building, medical facility, school, or warehouse — the estimator walks the facility and produces a labor hour estimate that becomes the basis for pricing. An experienced estimator reads floor type (carpet vs. VCT vs. polished concrete), traffic patterns (lobby vs. back office), fixture density (restroom count, kitchen areas), window count, and special requirements (medical-grade disinfection, data center dust control) to produce an estimate within 5-10% of actual labor needs. A new estimator guessing from square footage alone misses by 20-40%, leading to either margin destruction (underbid) or lost contracts (overbid). The average commercial cleaning contract is $50K-$500K annually — a 15% estimating error on a $200K contract is $30K/year in lost margin.

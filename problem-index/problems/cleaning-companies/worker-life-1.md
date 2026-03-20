@@ -3,7 +3,7 @@
 **Industry:** [[cleaning-companies|Cleaning Companies]]
 **Type:** Worker Life Changing
 **One-liner:** Cleaners get real-time feedback on ergonomic risk and chemical exposure before repetitive strain injuries and respiratory damage force them out of the profession.
-**Tags:** #cnn #pose-estimation #computer-vision #worker-facing
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #worker-facing
 
 ## The Problem
 Commercial and residential cleaners perform physically demanding, repetitive work: mopping, vacuuming, scrubbing, lifting, and reaching for 4-8 hours per shift. The injury rate in cleaning is 2x the national average for all occupations, with back injuries, carpal tunnel, and shoulder strain being the most common. Chemical exposure is a compounding risk — mixing cleaning agents incorrectly (the classic bleach + ammonia) or using industrial-strength products without adequate ventilation causes respiratory damage that accumulates over years.

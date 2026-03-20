@@ -3,7 +3,7 @@
 **Industry:** [[childcare-centers|Childcare Centers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** A single family's monthly invoice can involve a state subsidy, an employer FSA, a sibling discount, a part-time schedule adjustment, and a late-pickup surcharge — and the center's billing software handles maybe two of those correctly.
-**Tags:** #gradient-boosting #regression #tabular-ml #workflow-orchestration
+**Tags:** #gradient-boosting #linear-regression #decision-trees #feature-engineering #time-series-forecasting #descriptive-statistics #workflow-orchestration
 
 ## The Problem
 Childcare billing is far more complex than standard recurring invoicing. A single family's charges may combine: a base tuition rate that varies by age group and schedule type (full-time, part-time, drop-in); a state childcare subsidy (CCDF vouchers) that reimburses at a different rate than tuition, pays on a different cadence, and requires separate attendance documentation; an employer-sponsored dependent care FSA with its own reimbursement rules; sibling discounts (often 5-15% on the second child); and ad-hoc charges like late pickup fees ($1-5/minute), registration fees, and supply fees. Directors or bookkeepers spend 8-15 hours per month reconciling these layered payment sources, chasing subsidy reimbursements from state agencies, and manually calculating parent copays.

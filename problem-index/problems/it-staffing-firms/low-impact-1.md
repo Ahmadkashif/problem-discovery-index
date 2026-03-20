@@ -3,7 +3,7 @@
 **Industry:** [[it-staffing-firms|IT Staffing Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic salary benchmarking tools exist but cannot tell a recruiter what to charge for a Senior DevOps engineer with AWS GovCloud clearance in the DC metro area next quarter.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #time-series-forecasting #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #revenue-impact
 
 ## The Problem
 IT staffing firms price contractor rates using a combination of historical placements, gut feel, and static annual surveys from Staffing Industry Analysts or Robert Half. When a client requests a quote for a niche skill combination (e.g., Terraform + Azure + healthcare compliance), the account manager typically calls around internally, checks last quarter's placements, and guesses. Underpricing by even $5/hour on a 12-month contract loses the firm $10,400 in gross margin; overpricing loses the deal entirely.

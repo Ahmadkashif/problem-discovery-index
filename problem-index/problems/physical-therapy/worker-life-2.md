@@ -3,7 +3,7 @@
 **Industry:** [[physical-therapy|Physical Therapy]]
 **Type:** Worker Life Changing
 **One-liner:** Physical therapist assistants and their supervising PTs stop playing a stressful compliance guessing game about supervision ratios and co-signature requirements, gaining clarity on exactly which visits need direct supervision.
-**Tags:** #compliance #automation #worker-facing
+**Tags:** #decision-trees #feature-engineering #compliance #automation #worker-facing
 
 ## The Problem
 Physical therapist assistants (PTAs) provide a significant portion of direct patient care in PT clinics, but they must practice under the supervision of a licensed PT. Supervision requirements vary by state (some require the PT to be on-site, others allow general supervision), by payer (Medicare requires the PT to see the patient every 10th visit or 30 days, whichever comes first), and by patient status (evaluation and re-evaluation must be done by the PT). Tracking which PTA patients need a PT supervision visit, when it's due, and ensuring the right PT is scheduled to be on-site when required is a daily compliance puzzle that falls on the clinic director or front-desk scheduler.

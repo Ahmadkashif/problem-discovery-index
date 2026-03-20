@@ -6,7 +6,7 @@
 ---
 
 ## 1. Client Panic-Sell Risk Scoring from Communication Pattern Changes
-#gradient-boosting #bert #anomaly-detection #nlp #tabular-ml #tacit-knowledge-ml #revenue-impact
+#gradient-boosting #bert #decision-trees #feature-engineering #evaluation-metrics #word-embeddings #attention-mechanisms #transfer-learning #probability-distributions #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Experienced advisors detect impending client panic from subtle shifts in communication behavior — email frequency spikes, tone changes, off-schedule calls, specific anxiety phrases — but this pattern recognition is non-transferable and disappears when the advisor leaves. The goal is to replicate this tacit judgment as a daily risk score per client.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Portfolio Drift Detection and Rebalancing Priority Scoring
-#gradient-boosting #time-series-forecasting #tabular-ml #automation
+#gradient-boosting #decision-trees #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance #automation
 
 **Problem statement:** RIA portfolios drift from target allocations continuously, but not all drift is equally urgent. A 2% overweight in large-cap growth during a broad rally is less actionable than a 2% overweight in a concentrated sector position during elevated volatility. Advisors mentally prioritize which accounts to rebalance first, but this prioritization is inconsistent and time-consuming across a 200+ client book.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Client Retention and Churn Prediction
-#gradient-boosting #logistic-regression #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** RIA client attrition is often invisible until the transfer paperwork arrives. Clients who are dissatisfied or being recruited by competitors exhibit behavioral changes 3-12 months before departing — reduced engagement, fewer referrals, declining assets (withdrawals framed as "spending needs"), and decreased responsiveness to advisor outreach. Identifying at-risk clients early enough to intervene could retain $50K-200K in annual revenue per saved relationship.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Prospect Conversion Scoring for Pipeline Prioritization
-#logistic-regression #gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#logistic-regression #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #revenue-impact
 
 **Problem statement:** RIA advisors receive prospect inquiries from multiple channels — referrals, website forms, seminar attendees, COI (centers of influence) introductions — but treat all prospects with equal effort. In reality, conversion rates vary dramatically: a $2M referral from an existing client converts at 60%+, while a website form-fill with $200K in assets converts at under 10%. Advisors waste hours on low-probability prospects while high-probability ones wait.
 

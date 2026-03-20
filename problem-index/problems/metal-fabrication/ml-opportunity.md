@@ -1,7 +1,7 @@
 # ML Opportunities — Metal Fabrication
 
 **Industry:** [[metal-fabrication|Metal Fabrication]]
-**Tags:** #cnn #gradient-boosting #gaussian-process #object-detection #multiclass-classification #regression #computer-vision #tabular-ml #tacit-knowledge-ml #revenue-impact #compliance
+**Tags:** #cnns #gradient-boosting #gaussian-processes #object-detection #transfer-learning #linear-regression #loss-functions #backpropagation #feature-engineering #evaluation-metrics #tacit-knowledge-ml #revenue-impact #compliance
 
 ---
 

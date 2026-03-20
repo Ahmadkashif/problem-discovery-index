@@ -3,7 +3,7 @@
 **Industry:** [[cybersecurity-mssp|Cybersecurity MSSPs]]
 **Type:** Worker Life Changing
 **One-liner:** Security engineers stop being human SOAR platforms — copying IOCs between consoles, running the same containment steps for the hundredth phishing incident, and manually updating tickets with timestamps they already know.
-**Tags:** #llm #automation #nlp #worker-facing #workflow-orchestration
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #worker-facing #workflow-orchestration
 
 ## The Problem
 When an alert escalates to incident response, security engineers execute predefined playbooks: isolate the endpoint via EDR, block the source IP at the firewall, disable the compromised user account in Active Directory, pull forensic artifacts, query threat intel for IOC enrichment, update the ticket with each action and timestamp, and notify the client. For common incident types — phishing with credential compromise, malware download, brute force attempt — these playbooks are well-documented and nearly identical every time. Yet engineers execute them manually, alt-tabbing between 4-6 tool consoles, copying IOCs from one interface to another, and writing the same incident narrative with slightly different IPs and usernames. A single phishing response playbook takes 45-90 minutes of manual execution, and an engineer might run 3-5 per day.

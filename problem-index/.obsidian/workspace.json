@@ -4,73 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f72b7cb8f1f23aeb",
+        "id": "7bda92a778072750",
         "type": "tabs",
         "children": [
           {
-            "id": "cb4011e140044ecf",
+            "id": "c9d3792198c4b501",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
-            }
-          },
-          {
-            "id": "5e90df7062697307",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "problems/tutoring-centers/worker-life-1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "worker-life-1"
-            }
-          },
-          {
-            "id": "fa94b1a77e34ecc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "problems/tutoring-centers/low-impact-1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "low-impact-1"
-            }
-          },
-          {
-            "id": "75dfe7c3e129dfac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "problems/tutoring-centers/high-impact.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "high-impact"
-            }
-          },
-          {
-            "id": "04a57b6956d3d383",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "problems/dental-practices/high-impact.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "high-impact"
             }
           }
         ]
@@ -232,42 +176,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "cb4011e140044ecf",
+  "active": "c9d3792198c4b501",
   "lastOpenFiles": [
+    "niches/_bookmark.md",
+    "industries/ecommerce-sellers.md",
+    "niches",
+    "metadata/tags.md",
+    "metadata/ml-roadmap.md",
+    "metadata/math-topics.md",
+    "metadata",
+    "plans/_plans-index.md",
+    "plans",
+    "problems/ecommerce-sellers/ml-opportunity.md",
+    "industries/dental-practices.md",
+    "industries/cybersecurity-mssp.md",
+    "industries/customs-brokers.md",
+    "industries/crop-farming.md",
+    "industries/cold-chain-logistics.md",
+    "problems/cold-chain-logistics/worker-life-1.md",
+    "problems/cold-chain-logistics/low-impact-2.md",
+    "problems/cold-chain-logistics/low-impact-1.md",
+    "problems/cold-chain-logistics/high-impact.md",
+    "problems/electrical-contractors/ml-opportunity.md",
+    "problems/electrical-contractors/ai-agents-platforms.md",
+    "industries/accounting-firms-smb.md",
+    "industries/independent-publishers.md",
+    "problems/independent-publishers/high-impact.md",
     "problems/gyms-independent",
     "problems/news-media-local",
     "problems/nonprofits-social-services/low-impact-1.md",
     "problems/trade-associations/high-impact.md",
     "industries/podcasting-networks.md",
-    "industries/independent-publishers.md",
     "problems/video-production-smb",
     "problems/faith-organizations/high-impact.md",
     "industries/municipal-services.md",
-    "problems/nonprofits-social-services/high-impact.md",
     "problems/podcasting-networks",
-    "industries/trade-associations.md",
     "problems/independent-publishers",
-    "industries/faith-organizations.md",
     "problems/municipal-services",
-    "industries/nonprofits-social-services.md",
-    "problems/trade-associations",
-    "problems/faith-organizations",
-    "problems/nonprofits-social-services",
-    "industries/tutoring-centers.md",
-    "problems/tutoring-centers/worker-life-1.md",
-    "problems/tutoring-centers/low-impact-1.md",
-    "problems/dental-practices/high-impact.md",
-    "problems/tutoring-centers/high-impact.md",
-    "industries/medical-supply-retail.md",
-    "problems/medical-supply-retail/ai-agents-platforms.md",
-    "problems/medical-supply-retail/low-impact-1.md",
-    "problems/medical-supply-retail/high-impact.md",
-    "problems/small-law-firms/worker-life-1.md",
-    "problems/small-law-firms/low-impact-2.md",
-    "problems/small-law-firms/low-impact-1.md",
-    "problems/small-law-firms/high-impact.md",
-    "problems/small-law-firms",
-    "problems/medical-billing/ai-agents-platforms.md",
-    "problems/medical-billing/ml-opportunity.md"
+    "problems/trade-associations"
   ]
 }

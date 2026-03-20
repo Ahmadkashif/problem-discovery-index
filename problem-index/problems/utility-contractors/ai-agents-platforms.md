@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Utility Contractors
 
 **Industry:** [[utility-contractors|Utility Contractors]]
-**Tags:** #ai-agent #ai-platform #automation #workflow-orchestration #compliance
+**Tags:** #ai-agent #ai-platform #cnns #gradient-boosting #object-detection #transfer-learning #feature-engineering #evaluation-metrics #automation #workflow-orchestration #compliance
 
 ---
 

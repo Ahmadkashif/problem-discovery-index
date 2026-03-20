@@ -3,7 +3,7 @@
 **Industry:** [[alterations-tailoring|Alterations & Tailoring]]
 **Type:** Worker Life Changing
 **One-liner:** Tailors stop having five difficult conversations per day about why their $30 H&M dress can't be made to fit like a $3,000 bespoke gown — because visual AI-assisted intake shows the customer exactly what's possible, what's not, and why, before the tailor has to be the bearer of bad news.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #worker-facing
 
 ## The Problem
 Alterations customers frequently arrive with expectations that are structurally impossible or economically irrational. Common scenarios: a customer brings a $40 polyester dress and requests alterations that would cost $120 and still not achieve the desired result because the garment's construction doesn't support the changes. A bride wants her mother's 1985 wedding dress converted to a 2025 silhouette — requiring the dress to be essentially rebuilt. A customer wants a suit jacket "made smaller" without understanding that reducing more than one size requires pattern reconstruction, not just seam adjustment. The tailor must navigate these conversations with diplomacy, explaining garment construction limitations to people who have no frame of reference for why "just make it tighter" is a 4-hour job on a lined blazer but a 20-minute job on a cotton sundress.

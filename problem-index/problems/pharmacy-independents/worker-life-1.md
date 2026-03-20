@@ -3,7 +3,7 @@
 **Industry:** [[pharmacy-independents|Independent Pharmacies]]
 **Type:** Worker Life Changing
 **One-liner:** Pharmacists who currently override 90%+ of drug interaction alerts because they're clinically insignificant get a ranked, contextualized alert system where the 10% that actually matter are visually prominent and the rest are suppressed or summarized — so the real warnings get acted on instead of habituated past.
-**Tags:** #gradient-boosting #ranking #tabular-ml #worker-facing #compliance
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #worker-facing #compliance
 
 ## The Problem
 Every pharmacy management system generates drug-drug interaction (DDI) and drug-disease interaction alerts at dispensing. The problem is alert fatigue: PMS systems flag every coded interaction without clinical contextualization, generating 50-100+ alerts per pharmacist shift, of which 90-95% are either clinically insignificant for this patient's specific profile or duplicates of alerts the pharmacist has reviewed and accepted before. The result is that pharmacists have learned to habitually click "override" on interaction alerts without reading them — a dangerous cognitive shortcut that occasionally causes a serious interaction to be dismissed alongside hundreds of minor ones. The severity rating system in most PMS databases (DRUG A — DRUG B — contraindicated) is static and not calibrated to individual patient context (age, renal function, the specific dose combination, whether the prescribers are aware of each other's prescriptions).

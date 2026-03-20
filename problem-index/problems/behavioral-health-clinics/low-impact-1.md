@@ -3,7 +3,7 @@
 **Industry:** [[behavioral-health-clinics|Behavioral Health Clinics]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Standardized outcome measures (PHQ-9, GAD-7, PCL-5) are well-established tools, but administering them at the right intervals and connecting scores to treatment decisions is still a manual clipboard exercise in most behavioral health clinics.
-**Tags:** #automation #compliance #quick-win #ml-time-series
+**Tags:** #change-point-detection #time-series-forecasting #evaluation-metrics #descriptive-statistics #hypothesis-testing #automation #compliance #quick-win
 
 ## The Problem
 Payers and accrediting bodies increasingly require outcome measurement — administering validated screening tools at intake, regular intervals, and discharge. In practice, front-desk staff hand patients a paper form or iPad with a generic survey app, someone manually enters scores into the EHR, and clinicians check scores inconsistently. The result: outcome data exists but isn't reliably tied to treatment plan reviews or used to flag patients who are deteriorating.

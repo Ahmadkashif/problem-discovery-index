@@ -3,7 +3,7 @@
 **Industry:** [[hotels-boutique|Boutique Hotels]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic direct-booking tools exist but don't account for the boutique hotel's unique position — they need channel-mix optimization that tells them exactly when an OTA listing is worth the 18-22% commission and when to redirect spend toward direct acquisition.
-**Tags:** #gradient-boosting #causal-inference #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #causal-inference #decision-trees #feature-engineering #hypothesis-testing #conditional-probability-and-bayes-theorem #evaluation-metrics #revenue-impact
 
 ## The Problem
 Boutique hotels pay Booking.com and Expedia 15-25% commission per reservation, with the blended OTA share typically reaching 60-70% of total bookings. The operator knows they should drive more direct bookings but lacks the analytical framework to determine which OTA spend is truly incremental (guests who would never have found the hotel otherwise) versus cannibalistic (guests who would have booked direct but found the OTA listing first). Blanket strategies — "lower your OTA allocation" or "invest in Google Ads" — ignore the property-specific dynamics: a beachfront boutique in Savannah has fundamentally different channel economics than a design hotel in Portland.

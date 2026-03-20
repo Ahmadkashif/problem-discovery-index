@@ -3,7 +3,7 @@
 **Industry:** [[solar-installers|Solar Installers]]
 **Type:** High Impact
 **One-liner:** Solar designers who manually position panels in Aurora Solar to optimize around shade from trees, chimneys, and roof geometry — a design task that takes 45-90 minutes per site and requires significant experience to optimize correctly — get that layout optimization automated by an ML model that analyzes the roof's shade pattern and returns the optimal panel placement and production estimate in minutes.
-**Tags:** #cnn #regression #computer-vision #tabular-ml #revenue-impact
+**Tags:** #cnns #linear-regression #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #optimization-fundamentals #feature-engineering #revenue-impact
 
 ## The Problem
 

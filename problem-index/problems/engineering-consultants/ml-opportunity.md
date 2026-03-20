@@ -6,7 +6,7 @@
 ---
 
 ## 1. Project Scope Creep Detection from Communication Patterns
-#gradient-boosting #binary-classification #tabular-ml #nlp #tacit-knowledge-ml
+#gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #bert #word-embeddings #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #gradient-descent #tacit-knowledge-ml
 
 **Problem statement:** Experienced PEs and project managers develop an instinct for when a project is heading toward scope creep — they read the pattern of client emails increasing in frequency, the "one more thing" requests that individually seem small, the design review meetings that keep reopening settled decisions. A senior PM knows two weeks into a project whether the scope is going to hold or blow up. Junior PMs don't recognize the pattern until the budget is already spent. This intuition from running hundreds of projects is the most valuable tacit knowledge in engineering consulting, and it can be encoded into a model that flags at-risk projects from communication and meeting metadata.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Project Budget Burn Rate Anomaly Detection
-#gradient-boosting #anomaly-detection #regression #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #time-series-forecasting #bias-variance-tradeoff #gradient-descent #revenue-impact
 
 **Problem statement:** Detect projects whose labor burn rate is deviating from expected trajectories early enough for PMs to intervene with scope renegotiation or change orders, rather than discovering margin loss at project closeout.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. RFP Win Probability Prediction
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #maximum-likelihood-estimation #conditional-probability-and-bayes-theorem #revenue-impact
 
 **Problem statement:** Predict the probability of winning an RFP based on firm qualifications, past relationship with the client, project characteristics, and competitive landscape, enabling principals to allocate pursuit effort to the highest-probability opportunities.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Resource Utilization Forecasting
-#linear-regression #time-series-forecasting #tabular-ml #automation
+#linear-regression #time-series-forecasting #exponential-smoothing #feature-engineering #evaluation-metrics #expectation-variance-covariance #probability-distributions #automation
 
 **Problem statement:** Forecast staff utilization rates 4-8 weeks ahead by discipline, enabling principals to identify underutilization before it erodes margins and overutilization before it causes burnout and missed deadlines.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Drawing Review Automated Markup Detection
-#cnn #object-detection #computer-vision #automation
+#cnns #object-detection #transfer-learning #loss-functions #backpropagation #evaluation-metrics #matrix-algebra #gradient-descent #automation
 
 **Problem statement:** Detect and classify markups, redlines, and revision clouds on engineering drawing PDFs to automate the review-response cycle, replacing manual scanning of 200+ sheet drawing sets for reviewer comments.
 

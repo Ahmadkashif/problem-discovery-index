@@ -3,7 +3,7 @@
 **Industry:** [[painting-contractors|Painting Contractors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic area measurement tools exist but don't handle the painting-specific deductions (windows, doors, trim vs. field), substrate-specific spread rate adjustments, and two-coat vs. one-coat calculations that determine accurate material quantities for a residential painting quote.
-**Tags:** #computer-vision #regression #multimodal #automation
+**Tags:** #cnns #linear-regression #transfer-learning #loss-functions #evaluation-metrics #feature-engineering #automation
 
 ## The Problem
 

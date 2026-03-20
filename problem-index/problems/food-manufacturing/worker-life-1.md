@@ -3,7 +3,7 @@
 **Industry:** [[food-manufacturing|Food Manufacturing]]
 **Type:** Worker Life Changing
 **One-liner:** Sanitation crew members who clean production lines between runs — documenting every surface cleaned, chemical concentration used, contact time observed, rinse verification, and ATP or allergen swab result — spend 30-45 minutes per shift filling out paper forms or basic tablet entries instead of focusing on the cleaning work itself.
-**Tags:** #llm #text-generation #nlp #worker-facing #compliance
+**Tags:** #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #worker-facing #compliance
 
 ## The Problem
 Sanitation is the most physically demanding and least appreciated job in a food plant. Crews work overnight shifts cleaning production equipment to FDA and HACCP standards — disassembling filling heads, scrubbing conveyor belts, foaming and rinsing processing surfaces, and verifying cleaning effectiveness with ATP bioluminescence swabs or allergen protein tests. Every step must be documented: which equipment was cleaned, which chemical was used at what concentration, how long the contact time was, whether the rinse was verified, and what the ATP or allergen swab reading was. A typical sanitation shift involves 15-30 individual cleaning tasks, each requiring a documentation entry. Sanitation workers — who are often the lowest-paid employees in the plant — spend 30-45 minutes per shift on this documentation, working with wet gloved hands on paper forms or basic tablets that don't accommodate the physical reality of the job.

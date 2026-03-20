@@ -3,7 +3,7 @@
 **Industry:** [[urgent-care|Urgent Care Centers]]
 **Type:** Worker Life Changing
 **One-liner:** Urgent care physicians who currently spend 35-40% of their clinical time on documentation after the patient has left get that time back — charts close during the visit, not at 10pm at home.
-**Tags:** #llm #speech-recognition #seq2seq #nlp #worker-facing
+**Tags:** #large-language-models #transformers #seq2seq #attention-mechanisms #transfer-learning #loss-functions #worker-facing
 
 ## The Problem
 An urgent care physician seeing 30-40 patients per shift generates a chart for every one. Each chart requires a chief complaint, history of present illness, review of systems, physical exam findings, medical decision-making narrative, diagnosis, and discharge plan. Documentation is cognitively demanding even when the visit is clinically straightforward — the physician must mentally context-switch from patient care to documentation, recall details accurately, and use specific language that satisfies both clinical standards and payer requirements for medical necessity. This adds 3-5 minutes per chart, which accumulates to 1.5-3.5 hours of documentation time per shift. Most urgent care physicians complete a significant portion of this after their shift ends.

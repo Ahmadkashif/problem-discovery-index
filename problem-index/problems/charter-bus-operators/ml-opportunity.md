@@ -6,7 +6,7 @@
 ---
 
 ## 1. Dispatcher Trip-Assignment Intelligence (Tacit Knowledge Capture)
-#gradient-boosting #regression #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #optimization-fundamentals #tacit-knowledge-ml
 
 **Problem statement:** Experienced charter dispatchers read a trip request — "55 seniors, 3-day wine country tour, pickup Napa, stops in Sonoma and Healdsburg, return via SF" — and immediately know which driver and which bus to assign. They factor in the driver's patience with elderly groups, the bus's suspension quality for winding roads, the driver's familiarity with Napa Valley parking restrictions, and whether the 2012 MCI has the luggage bay capacity for walkers and wheelchairs. This matching decision is made in seconds by a veteran dispatcher but takes a new dispatcher hours of trial-and-error and phone calls. The goal is to capture this tacit assignment logic in a model that recommends driver-bus-trip combinations ranked by predicted trip satisfaction and operational efficiency.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Predictive Maintenance from Telematics & Inspection Data
-#random-forest #binary-classification #tabular-ml #automation
+#random-forests #decision-trees #feature-engineering #cross-validation #evaluation-metrics #logistic-regression #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #automation
 
 **Problem statement:** Charter buses operate on irregular schedules with high mileage variance — a motorcoach might sit idle for 5 days then run 2,000 miles in 3 days. Standard mileage-based maintenance intervals miss the stress patterns unique to charter operations (mountain passes, frequent stops, extended idling at venues). The goal is to predict component failure risk windows so maintenance can be scheduled during idle periods rather than discovered during pre-trip inspections or, worse, on the road.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Seasonal Demand Forecasting for Fleet & Staffing Planning
-#gradient-boosting #time-series-forecasting #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #time-series-forecasting #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #revenue-impact
 
 **Problem statement:** Charter bus demand is highly seasonal and event-driven — wedding season (May-October), school field trips (March-June, September-November), holiday travel (November-December), and sports seasons create overlapping demand waves. Operators make fleet acquisition and driver hiring decisions 3-6 months in advance but lack the forecasting tools to predict demand beyond gut feel and last year's calendar. Overcommitting leads to idle assets; undercommitting leads to turned-away bookings worth $3,000-$15,000 each.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Driver-Trip Compatibility Matching
-#gradient-boosting #ranking #tabular-ml #worker-facing
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #optimization-fundamentals #bias-variance-tradeoff #worker-facing
 
 **Problem statement:** Not all drivers perform equally well on all trip types. A driver who excels at corporate airport shuttles (punctual, professional, minimal interaction) may struggle with a 3-day senior tour (patience, flexibility, social engagement, luggage assistance). Currently, dispatchers make these matches based on personal knowledge of each driver — when the dispatcher is unavailable or leaves, the matching quality drops immediately and customer complaints spike.
 

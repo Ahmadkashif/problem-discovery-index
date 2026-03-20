@@ -3,7 +3,7 @@
 **Industry:** [[alterations-tailoring|Alterations & Tailoring]]
 **Type:** High Impact
 **One-liner:** The master tailor's 30-second visual scan of a garment on a body — reading fabric drape, seam stress, ease distribution, body asymmetry, and hemline fall to diagnose every fit issue and prescribe the correct alteration sequence — becomes a computer vision system that preserves this vanishing expertise and enables consistent fit assessment across all staff.
-**Tags:** #cnn #multiclass-classification #computer-vision #tacit-knowledge-ml #revenue-impact
+**Tags:** #cnns #transfer-learning #loss-functions #evaluation-metrics #backpropagation #gradient-descent #matrix-algebra #semantic-segmentation #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 When a customer puts on a garment and stands before a master tailor, the tailor performs a visual assessment that takes 15-30 seconds but encodes decades of pattern recognition. They see that the left shoulder seam sits 1cm forward (indicating the client's left shoulder is more rounded), that the jacket back has horizontal stress lines below the collar (the client's upper back is broader than the pattern assumes), that the trouser front shows diagonal pull lines from hip to knee (the client's hips are rotated slightly), and that the hemline dips 2cm longer on the right side (the client's right leg is slightly shorter). From these visual signals — which the client cannot see and the tailor processes subconsciously — the tailor prescribes a specific sequence of alterations: take in the left shoulder seam, let out the back across the shoulder blades, rotate the trouser front pattern, and level the hem to the shorter leg.

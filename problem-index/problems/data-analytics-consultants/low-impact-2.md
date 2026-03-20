@@ -3,7 +3,7 @@
 **Industry:** [[data-analytics-consultants|Data Analytics Consultants]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Data lineage and documentation tools exist but none auto-generate the handoff documentation that consulting engagements require — the "here's what we built, here's where the data comes from, here's what will break" package that clients need to maintain the work after the consultants leave.
-**Tags:** #llm #text-generation #nlp #data-integration
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #data-integration
 
 ## The Problem
 Every analytics consulting engagement ends with a handoff: the consultant's work — queries, transformations, dashboards, models — must be documented well enough that the client's internal team can maintain, modify, and debug it. In practice, this documentation is written hastily in the final week of an engagement, often by an analyst who is already mentally on the next project. Critical details are omitted: why a particular join condition was chosen, which columns required manual cleaning and what the cleaning rules were, which upstream data sources are fragile and how to detect when they break. When the client's team encounters an issue six months later, they have no recourse except to call the consulting firm back (at a new engagement rate).

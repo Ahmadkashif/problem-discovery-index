@@ -5,7 +5,7 @@
 ---
 
 ## 1. Enrollment Yield Agent
-#ai-agent #revenue-impact #tabular-ml
+#ai-agent #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #large-language-models #revenue-impact
 
 **Concept:** An autonomous enrollment management agent that monitors the admissions pipeline from inquiry through enrollment contract signing, continuously updating yield probabilities for every family and triggering personalized outreach sequences. When yield probability drops for a high-fit family (e.g., they haven't opened the last two emails), the agent drafts a tailored touchpoint for the admissions director — a suggested phone call script referencing the family's specific interests (athletics, STEM program, arts) gleaned from their application and visit notes. The agent also recommends optimal acceptance list sizes based on real-time yield forecasts, replacing the static over-acceptance ratios schools have used for decades.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Parent Communication Agent
-#ai-agent #nlp #automation
+#ai-agent #large-language-models #transformers #attention-mechanisms #word-embeddings #evaluation-metrics #automation
 
 **Concept:** A family-facing communication agent that aggregates all school-to-parent messages across channels (email, app notifications, SMS, LMS alerts), deduplicates them, tags each by child and urgency, and delivers a single personalized digest per family. For action-required items (permission slips, re-enrollment forms, payment deadlines), the agent sends targeted reminders with direct links. For informational items, it generates concise summaries. The agent also handles inbound parent inquiries — routing questions to the right staff member, auto-answering FAQs (school hours, dress code, lunch menu), and drafting responses for teachers to review rather than write from scratch.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Student Support Alert Agent
-#ai-agent #tabular-ml #worker-facing
+#ai-agent #gradient-boosting #lstms-and-grus #feature-engineering #evaluation-metrics #worker-facing
 
 **Concept:** A counselor-facing agent that continuously monitors student behavioral signals across SIS, LMS, and teacher micro-observations to identify students who may need academic, social-emotional, or family support intervention. Unlike a static dashboard, the agent proactively generates contextualized alerts: "Sarah Chen's assignment completion rate dropped from 95% to 60% over the last 3 weeks, her LMS login frequency halved, and her English teacher noted 'seems withdrawn' in this week's pulse check. Recommend counselor check-in." The agent maintains a longitudinal student profile that counselors can review before meetings, reducing prep time and ensuring no signals are missed across the school's fragmented data systems.
 

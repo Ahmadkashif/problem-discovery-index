@@ -3,7 +3,7 @@
 **Industry:** [[medical-device-mfg|Medical Device Manufacturing]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Device History Records — the complete production documentation package that FDA requires for every manufactured lot — are assembled by quality technicians who manually pull records from MES, ERP, LIMS, and quality systems and compile them into a single document, a 2-4 hour task per lot that generic document management cannot automate because it doesn't understand the DHR structure or the cross-system record linkages.
-**Tags:** #llm #named-entity-recognition #nlp #data-integration #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #word-embeddings #feature-engineering #evaluation-metrics #data-integration #compliance
 
 ## The Problem
 21 CFR Part 820.184 requires a Device History Record for each batch or lot of finished medical devices, containing: production dates, quantities, acceptance records, component traceability, labeling records, and any deviations or nonconformances. In practice, this means pulling production batch records from MES, component lot traceability from ERP, inspection and test results from QMS or LIMS, sterilization records from sterilization monitoring systems, labeling verification records, and any deviation or nonconformance reports associated with the lot. A quality technician assembles this package manually — logging into 4-6 systems, locating records by lot number, exporting or printing each record, and compiling them into the DHR folder. For a device manufacturer releasing 20-50 lots per week, this represents 40-200 hours per week of skilled quality technician time spent on document assembly rather than quality analysis.

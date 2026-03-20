@@ -5,7 +5,7 @@
 ---
 
 ## 1. Automated Inventory Replenishment Agent
-#ai-agent #automation #time-series-forecasting #revenue-impact
+#ai-agent #time-series-forecasting #gradient-boosting #large-language-models #feature-engineering #automation #revenue-impact
 
 **Concept:** An autonomous purchasing agent that generates daily supplier purchase orders by combining demand forecasts, current inventory positions, supplier lead times, shelf life constraints, and minimum order quantities. The agent operates in a human-on-the-loop mode: it produces recommended POs each evening for buyer review by 6 AM, auto-submitting orders that fall within pre-approved confidence thresholds and escalating high-uncertainty items (new products, demand anomalies, supplier disruptions) to the buyer with contextualized explanations.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Spoilage Prevention and Rotation Agent
-#ai-agent #automation #anomaly-detection #revenue-impact
+#ai-agent #time-series-forecasting #evaluation-metrics #feature-engineering #probability-distributions #automation #revenue-impact
 
 **Concept:** A real-time warehouse monitoring agent that tracks inventory age, temperature zone conditions, and pick patterns to prevent spoilage before it happens. The agent continuously monitors FIFO compliance (detecting when newer product is being picked ahead of older stock), flags lots approaching their sell-by threshold with enough lead time to trigger markdown pricing or donation, and alerts warehouse managers when temperature excursions in specific zones threaten product integrity.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Credit and Dispute Resolution Agent
-#ai-agent #automation #nlp #data-integration
+#ai-agent #large-language-models #bert #cnns #transfer-learning #automation #data-integration
 
 **Concept:** An agent that autonomously processes delivery credits from initiation to final resolution, replacing the current manual chain of driver credit memo, sales rep review, AP adjustment, and supplier chargeback. When a driver or customer initiates a credit (via photo documentation, voice note, or manual entry), the agent classifies the root cause (warehouse mispick, supplier quality, transit damage, customer error), determines the correct credit amount using contractual pricing rules, issues the credit to the customer account, and — when the root cause is supplier-attributable — generates and submits a supplier chargeback with supporting documentation.
 

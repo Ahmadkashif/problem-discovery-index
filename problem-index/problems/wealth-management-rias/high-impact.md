@@ -3,7 +3,7 @@
 **Industry:** [[wealth-management-rias|Wealth Management RIAs]]
 **Type:** High Impact
 **One-liner:** Advisors can sense when a client is about to panic-sell before the client says it explicitly — this tacit skill can be captured and scaled across every client relationship in the firm.
-**Tags:** #gradient-boosting #bert #anomaly-detection #nlp #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #bert #decision-trees #feature-engineering #evaluation-metrics #word-embeddings #attention-mechanisms #transfer-learning #probability-distributions #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Experienced RIA advisors develop a sixth sense for client anxiety. They notice subtle shifts — emails that get shorter and more frequent, calls at unusual hours, specific phrases like "I just want to be safe" or "my neighbor moved to cash," tone changes in voicemails, or sudden requests for account balance checks after years of ignoring them. This pattern recognition prevents billions in AUM loss industry-wide, but it is entirely non-transferable: it lives in individual advisor heads, cannot be taught to junior advisors, and vanishes when an advisor retires or leaves the firm.

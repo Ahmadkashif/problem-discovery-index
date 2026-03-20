@@ -3,7 +3,7 @@
 **Industry:** [[hr-consultants|HR Consultants]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic salary surveys tell you what "a marketing manager" earns nationally — not what a 35-person HVAC company in suburban Phoenix should offer to stop losing technicians to competitors.
-**Tags:** #gradient-boosting #regression #tabular-ml #data-integration
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #expectation-variance-covariance #data-integration
 
 ## The Problem
 HR consultants advise SMB clients on competitive compensation and benefits packages during annual reviews, new hire offers, and retention crises. The consultant needs to answer: "Is this client's health plan competitive for their industry, geography, and size? Should they add dental? Is their PTO policy driving attrition?" Answering these questions currently requires manual synthesis from BLS data (lagging 12-18 months), Glassdoor and Payscale (self-reported, skewed toward tech), benefits broker quotes (one carrier at a time), and the consultant's own pattern recognition across their client base.

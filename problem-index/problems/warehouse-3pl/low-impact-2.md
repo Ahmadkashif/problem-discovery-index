@@ -3,7 +3,7 @@
 **Industry:** [[warehouse-3pl|Warehouse & 3PL]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic workforce management tools project labor need from historical averages, but don't model the specific inbound volume forecast, pick wave profile, and productivity variation by day-of-week and season that determines how many pickers, packers, and receivers each shift actually needs.
-**Tags:** #gradient-boosting #time-series-forecasting #tabular-ml #automation
+**Tags:** #gradient-boosting #linear-regression #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #automation
 
 ## The Problem
 

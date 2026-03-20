@@ -5,7 +5,7 @@
 ---
 
 ## 1. Damage Documentation Agent
-#ai-agent #computer-vision #tacit-knowledge-ml #revenue-impact
+#ai-agent #cnns #transfer-learning #object-detection #feature-engineering #loss-functions #backpropagation #tacit-knowledge-ml #revenue-impact
 
 **Concept:** An AI agent that accompanies the public adjuster during property inspections via smartphone. As the adjuster photographs visible damage, the agent: classifies the damage type and severity in real-time, generates an inspection checklist of probable hidden damage based on the visible patterns and construction type, tracks which areas of the property have been documented and which remain uninspected, auto-generates Xactimate-compatible line item suggestions for each documented damage element (including commonly missed items like general contractor overhead and profit, code upgrades, and content cleaning), and produces a structured inspection report with photos organized by room and damage category. After the inspection, the agent compares the documentation against its hidden damage predictions and flags gaps.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Policy Coverage Analysis Agent
-#ai-agent #nlp #bert #compliance
+#ai-agent #bert #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #compliance
 
 **Concept:** An AI agent that ingests a policyholder's insurance policy (uploaded as PDF), parses all coverage sections and endorsements, and generates a coverage analysis memo tailored to the specific loss. For each coverage section, the agent: determines applicability to the reported loss, calculates coverage limits and sublimits, identifies deductible and coinsurance implications, flags commonly missed coverages (ordinance or law, debris removal, business income extensions), and highlights potentially adverse exclusions the carrier may invoke with counter-argument suggestions. The agent produces a structured memo that the public adjuster uses to build the claim filing strategy, ensuring no applicable coverage is missed.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Claim Valuation and Negotiation Agent
-#ai-agent #tabular-ml #revenue-impact #automation
+#ai-agent #gradient-boosting #feature-engineering #time-series-forecasting #evaluation-metrics #probability-distributions #revenue-impact #automation
 
 **Concept:** An AI agent that manages the financial lifecycle of each claim: estimating total claim value at intake, tracking actual documented value against the estimate as inspection proceeds, predicting settlement timeline by carrier, recommending negotiation strategies based on carrier-specific patterns, drafting carrier correspondence (demand letters, supplement submissions, appraisal invocations), and forecasting firm-wide cash flow from the active case portfolio. The agent enables the public adjuster to make data-driven decisions at every stage — which claims to take, when to supplement, when to invoke appraisal, and when to accept an offer.
 

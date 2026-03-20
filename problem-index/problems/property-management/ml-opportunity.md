@@ -6,7 +6,7 @@
 ---
 
 ## 1. Tenant Churn Prediction and Renewal Scoring
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #conditional-probability-and-bayes-theorem #revenue-impact
 
 **Problem statement:** Predict which tenants are unlikely to renew at their upcoming lease expiration, 90-120 days in advance, to enable proactive retention outreach before the non-renewal decision is finalized.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Maintenance Request Urgency Classification
-#gradient-boosting #multiclass-classification #nlp #tabular-ml #quick-win
+#gradient-boosting #large-language-models #decision-trees #feature-engineering #cross-validation #evaluation-metrics #entropy-cross-entropy-kl-divergence #quick-win
 
 **Problem statement:** Classify incoming tenant maintenance requests by urgency tier (emergency/24hr, urgent/72hr, routine/scheduled) and category (HVAC, plumbing, electrical, appliance, cosmetic) to enable automated triage and dispatch routing.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Tenant Quality Scoring from Application Data
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #conditional-probability-and-bayes-theorem #revenue-impact
 
 **Problem statement:** Score rental applicants on tenancy outcome probability (pays on time, renews lease, leaves unit in good condition) from application data to supplement formal credit and background screening.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Rental Pricing Optimization
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #linear-regression #survival-analysis #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Estimate optimal asking rent for a vacant unit given current comparable listings, unit characteristics, and seasonal demand patterns to maximize rent yield while minimizing days-to-fill.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Move-Out Damage Assessment from Inspection Photos
-#cnn #multiclass-classification #computer-vision
+#cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering
 
 **Problem statement:** Classify move-out inspection photos by damage type and severity to automate itemized damage descriptions and cost estimates for security deposit accounting letters.
 

@@ -3,7 +3,7 @@
 **Industry:** [[specialty-food-retail|Specialty Food Retail]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Buyers at independent specialty stores discover new artisan products through a curated marketplace instead of relying on trade shows and distributor rep visits.
-**Tags:** #bert #recommendation #nlp #data-integration
+**Tags:** #bert #transformers #word-embeddings #transfer-learning #feature-engineering #evaluation-metrics #data-integration
 
 ## The Problem
 Specialty food retailers differentiate on curation — carrying unique products customers cannot find at Whole Foods or Trader Joe's. But discovering those products is inefficient: buyers attend 2–4 trade shows per year (Fancy Food Show, Natural Products Expo), rely on cold emails from small producers, or hear about new items from peers. There is no searchable, filterable catalog of artisan and specialty food producers that matches a store's existing assortment profile, customer demographics, and price point positioning. A cheese shop owner in Portland has no systematic way to find a new small-batch gouda producer in Wisconsin whose flavor profile and price tier fit their store.

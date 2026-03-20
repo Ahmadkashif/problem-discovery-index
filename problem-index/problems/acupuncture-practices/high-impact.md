@@ -3,7 +3,7 @@
 **Industry:** [[acupuncture-practices|Acupuncture Practices]]
 **Type:** High Impact
 **One-liner:** Acupuncturists stop spending 15-20 minutes per patient on intake review and documentation that bridges two medical paradigms — because a system translates between the patient's biomedical language ("I have anxiety and digestive issues") and the TCM framework ("Liver Qi Stagnation invading Spleen") while generating insurance-compliant notes in both languages simultaneously.
-**Tags:** #llm #text-generation #nlp #revenue-impact
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #word-embeddings #revenue-impact
 
 ## The Problem
 Acupuncture documentation must serve two incompatible masters. The clinical assessment follows Traditional Chinese Medicine diagnostic reasoning: the practitioner observes the tongue (color, coating, shape, moisture), palpates the pulse at three positions on each wrist (28 classical pulse types including wiry, slippery, thin, choppy, flooding), asks systematic questions (ten questions of TCM covering sleep, digestion, temperature preference, emotional state, menstruation, urination, etc.), and synthesizes these findings into a TCM pattern diagnosis that drives point selection. But insurance documentation requires ICD-10 codes, biomedical diagnosis language, and treatment notes formatted around CPT codes 97810-97814 that describe "acupuncture with electrical stimulation" in biomedical terms.

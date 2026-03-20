@@ -3,7 +3,7 @@
 **Industry:** [[landscaping|Landscaping]]
 **Type:** Worker Life Changing
 **One-liner:** Irrigation service technicians who diagnose system faults by running each zone and observing head coverage, pressure, and surface patterns — a diagnosis that takes 45-60 minutes on an unfamiliar system — get a guided fault identification workflow that captures observations zone-by-zone and returns a structured repair list and parts list before they leave the walkthrough.
-**Tags:** #automation #multimodal #worker-facing #llm
+**Tags:** #large-language-models #transformers #transfer-learning #automation #worker-facing
 
 ## The Problem
 

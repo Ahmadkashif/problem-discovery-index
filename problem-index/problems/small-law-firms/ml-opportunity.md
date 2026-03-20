@@ -6,7 +6,7 @@
 ---
 
 ## 1. Attorney Work Pattern Recognition for Automatic Time Entry Generation
-#transformer #multiclass-classification #nlp #tacit-knowledge-ml #revenue-impact
+#transformers #attention-mechanisms #loss-functions #cross-validation #evaluation-metrics #feature-engineering #backpropagation #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Experienced billing attorneys have internalized a mental model of which activities are billable, at what rate, and how to describe them in billing narratives that satisfy client bill review. This judgment pattern — what gets billed, how it's described, what rate applies — is tacit and varies by attorney but follows learnable patterns. An ML model trained on an attorney's confirmed billing history can learn their specific billing style and apply it to unseen activities with the correct matter classification and billing narrative.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Matter Profitability Prediction and Scope Creep Detection
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Predict which matters are at risk of running over their fee estimate (flat-fee and capped-fee matters) or which are becoming unprofitable (hourly matters with rate compression), using the time entry velocity and task completion patterns from the first 30% of the matter's lifecycle — enabling early scope discussions with clients before the matter is already unprofitable.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Client Collection Risk Scoring
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics
 
 **Problem statement:** Predict at matter intake which new clients are at elevated risk of non-payment or partial payment — based on intake characteristics, engagement terms, and comparisons to historical client payment patterns — enabling proactive measures (larger retainer, more frequent billing cycle, early payment discussion) before AR issues develop.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Legal Research Quality and Coverage Assessment
-#bert #text-classification #nlp
+#bert #transfer-learning #loss-functions #evaluation-metrics #large-language-models
 
 **Problem statement:** Given a legal research memo or brief, assess whether the research is likely complete — identifying potentially relevant legal concepts, jurisdictions, or case law categories that are not addressed in the current draft and flagging them for further research before the brief is finalized.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Client Churn and Referral Value Prediction
-#gradient-boosting #survival-analysis #tabular-ml
+#gradient-boosting #survival-analysis #feature-engineering #cross-validation #evaluation-metrics #probability-distributions
 
 **Problem statement:** Predict which existing clients are at risk of not returning for future matters (churn risk) and which clients have the highest probability of generating referrals to new clients — enabling targeted relationship investment decisions by the attorney.
 

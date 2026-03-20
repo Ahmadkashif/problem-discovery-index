@@ -6,7 +6,7 @@
 ---
 
 ## 1. Cloud Spend Anomaly & Waste Detection (Tacit Knowledge Capture)
-#gradient-boosting #anomaly-detection #regression #tabular-ml #tacit-knowledge-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #change-point-detection #linear-regression #cross-validation #bias-variance-tradeoff #probability-distributions #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Senior cloud architects can scan a cloud bill and immediately identify misconfigured, oversized, or redundant resources — a skill that takes 3-5 years of hands-on experience to develop and cannot be fully articulated as rules. The goal is to capture this expert pattern recognition into a model that flags waste and recommends right-sizing actions with the same contextual awareness as the best human reviewers.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Cloud Capacity Forecasting & Auto-Scaling Optimization
-#lstm #time-series-forecasting #tabular-ml #revenue-impact
+#lstms-and-grus #rnns #time-series-forecasting #backpropagation #gradient-descent #loss-functions #optimizers #probability-distributions #expectation-variance-covariance #revenue-impact
 
 **Problem statement:** Cloud consultants set auto-scaling policies and capacity reservations based on historical patterns and client-provided growth estimates, but workload patterns are non-stationary — seasonal traffic, marketing campaigns, product launches, and organic growth create demand curves that static scaling rules handle poorly, leading to either over-provisioning (waste) or under-provisioning (outages).
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Security Misconfiguration Detection & Prioritization
-#gradient-boosting #binary-classification #tabular-ml #compliance
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #cross-validation #bias-variance-tradeoff #conditional-probability-and-bayes-theorem #compliance
 
 **Problem statement:** Cloud environments accumulate security misconfigurations over time — overly permissive IAM policies, unencrypted data stores, public-facing resources that should be private, stale access keys. CSPM tools flag all of them equally, producing alert fatigue. The actual risk of a misconfiguration depends on context: a public S3 bucket containing static website assets is benign; one containing customer PII is critical.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Client Infrastructure Health Scoring
-#random-forest #regression #tabular-ml #data-integration
+#random-forests #decision-trees #feature-engineering #evaluation-metrics #linear-regression #cross-validation #bias-variance-tradeoff #descriptive-statistics #data-integration
 
 **Problem statement:** Cloud consultants need a single, defensible "health score" for each client environment to prioritize engineering attention, justify engagements to client leadership, and track improvement over time. Today, this assessment is subjective — a senior architect's gut feeling based on their last interaction with the environment — and inconsistent across the firm.
 

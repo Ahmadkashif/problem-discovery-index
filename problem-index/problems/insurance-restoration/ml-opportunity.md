@@ -6,7 +6,7 @@
 ---
 
 ## 1. Moisture Migration Prediction from Visible Damage and Construction Type
-#cnn #gradient-boosting #regression #computer-vision #tabular-ml #tacit-knowledge-ml
+#cnns #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #backpropagation #gradient-descent #cross-validation #bias-variance-tradeoff #tacit-knowledge-ml
 
 **Problem statement:** Experienced restoration technicians predict where water has migrated behind walls and under floors based on visible damage patterns, construction type, elapsed time, and environmental conditions. This tacit knowledge — reading visible cues to predict invisible moisture extent — determines scope accuracy, which directly controls job profitability. Technicians without this skill underscope (causing mold and re-mobilization) or overscope (triggering carrier audits).
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Drying Time Prediction by Job Configuration
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #linear-regression #time-series-forecasting #probability-distributions #bias-variance-tradeoff
 
 **Problem statement:** Knowing when a water-damaged structure will reach target dryness determines equipment rental duration, job timeline, and clearance testing scheduling. Currently estimated by experience, with 30-40% of jobs requiring extended drying beyond initial estimates.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Job Cost Estimation Accuracy
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #linear-regression #regularization #expectation-variance-covariance #bias-variance-tradeoff
 
 **Problem statement:** Initial Xactimate estimates frequently deviate 20-40% from final job cost due to scope changes, supplements, and unforeseen conditions. Predicting the likely final cost from initial scope would improve cash flow planning and carrier negotiation.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Equipment Utilization Optimization
-#gradient-boosting #regression #tabular-ml #reinforcement-learning
+#gradient-boosting #feature-engineering #evaluation-metrics #optimization-fundamentals #markov-decision-processes #dynamic-programming #cross-validation #probability-distributions #expectation-variance-covariance
 
 **Problem statement:** Restoration companies manage 200-500 pieces of drying equipment across 15-40 concurrent jobs, making constant allocation trade-offs without real-time drying progress data. Optimal equipment allocation would reduce idle time and prevent both premature removal (causing drying failures) and over-deployment (wasting capacity).
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Carrier Compliance Score Prediction
-#gradient-boosting #regression #tabular-ml #compliance
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #time-series-forecasting #descriptive-statistics #expectation-variance-covariance #compliance
 
 **Problem statement:** Carrier preferred vendor programs evaluate restoration companies on quarterly scorecards with metrics including response time, documentation quality, estimate accuracy, and customer satisfaction. Predicting end-of-quarter scores mid-quarter would enable proactive remediation before thresholds are breached.
 

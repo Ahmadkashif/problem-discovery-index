@@ -3,7 +3,7 @@
 **Industry:** [[veterinary-practices|Veterinary Practices]]
 **Type:** High Impact
 **One-liner:** A general practice vet who can get an AI second-opinion on a radiograph in 30 seconds — flagging orthopedic abnormalities, masses, cardiac silhouette enlargement, and interstitial lung patterns — can stop the cases that need a specialist before they become emergencies, without paying $60/study and waiting 48 hours.
-**Tags:** #cnn #object-detection #semantic-segmentation #computer-vision #tacit-knowledge-ml #revenue-impact
+**Tags:** #cnns #object-detection #semantic-segmentation #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Radiograph interpretation is the most consequential routine diagnostic skill gap between a general practice vet and a specialist. An experienced veterinary radiologist can identify subtle orthopedic pathology, early pulmonary changes, hepatomegaly, or a mass effect that a general practitioner's eye misses or underconfidently dismisses. At most independent practices, the decision is: send every ambiguous film to teleradiology ($30-80, 24-72hr turnaround) or make a clinical judgment call with the information at hand. Both options are unsatisfying — the cost and latency of teleradiology means it's used selectively rather than routinely, and clinical judgment calls on ambiguous films lead to missed diagnoses. This is the classic tacit knowledge problem: specialist radiologists have internalized pattern recognition for pathological findings that generalists simply haven't had enough volume to develop.

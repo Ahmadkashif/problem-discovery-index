@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Metal Fabrication
 
 **Industry:** [[metal-fabrication|Metal Fabrication]]
-**Tags:** #ai-agent #ai-platform #automation #compliance #revenue-impact #tacit-knowledge-ml
+**Tags:** #ai-agent #ai-platform #cnns #gradient-boosting #gaussian-processes #feature-engineering #automation #compliance #revenue-impact #tacit-knowledge-ml
 
 ---
 

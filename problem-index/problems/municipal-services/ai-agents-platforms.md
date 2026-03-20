@@ -5,7 +5,7 @@
 ---
 
 ## 1. Infrastructure Prioritization Agent
-#ai-agent #tacit-knowledge-ml #computer-vision #tabular-ml
+#ai-agent #cnns #gradient-boosting #transfer-learning #object-detection #feature-engineering #backpropagation #tacit-knowledge-ml
 
 **Concept:** An autonomous infrastructure assessment agent that continuously ingests street-level imagery from municipal fleet vehicles (garbage trucks, utility trucks, supervisor vehicles), scores every visible asset (pavement, curbs, sidewalks, signs, trees, drainage structures) for condition and deterioration trajectory, and generates a dynamically updated capital improvement priority queue. The agent runs nightly batch processing on new imagery, cross-references against the asset management database, and pushes alerts when an asset crosses a failure-risk threshold — effectively giving every municipality a 24/7 infrastructure monitoring system that learns from the judgment patterns of its best supervisors.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Citizen Request Agent
-#ai-agent #nlp #workflow-orchestration
+#ai-agent #large-language-models #bert #attention-mechanisms #word-embeddings #evaluation-metrics #workflow-orchestration
 
 **Concept:** A front-line AI agent that handles citizen service requests end-to-end: receives requests via phone (voice), web chat, email, or mobile app; classifies the issue using a municipality-specific taxonomy; checks for duplicate/related active requests; estimates response time based on current crew workload and geographic queue; provides the citizen with a real-time status tracker; and dispatches directly to the appropriate crew with all context attached. For routine requests (pothole, streetlight out, missed trash pickup), the agent handles the full lifecycle without human intervention. For ambiguous or safety-critical requests, it escalates to a human dispatcher with a pre-filled case file.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Permit Processing Agent
-#ai-agent #llm #compliance #automation
+#ai-agent #large-language-models #attention-mechanisms #transformers #transfer-learning #entropy-cross-entropy-kl-divergence #compliance #automation
 
 **Concept:** An AI agent that pre-screens building permit applications against the municipality's adopted codes (IBC/IRC with local amendments, zoning ordinance, fire code, ADA, stormwater). The agent reads uploaded plan sets (architectural drawings, site plans, energy calculations), extracts key dimensional and specification data using document AI, checks each extracted value against the applicable code provision, and generates a compliance report identifying (a) items that pass, (b) items that fail with the specific code citation, and (c) items where the plans are ambiguous and require human reviewer judgment. The agent does not approve or deny — it prepares a structured review package that reduces the human reviewer's task from "read everything and check everything" to "review the flagged items and make judgment calls."
 

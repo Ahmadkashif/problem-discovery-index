@@ -3,7 +3,7 @@
 **Industry:** [[news-media-local|Local News Media]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** CRM tools generate generic sales proposals, but local news ad sales requires audience-intelligence proposals that connect a specific advertiser's customer profile to the outlet's readership demographics, content verticals, and sponsorship opportunities.
-**Tags:** #llm #text-generation #nlp #revenue-impact
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #revenue-impact
 
 ## The Problem
 Local news ad sales reps pitch 10–20 local businesses per week, each needing a custom proposal that shows why the outlet's audience matches the advertiser's customer base. Reps spend 45–90 minutes per proposal pulling Chartbeat/GA data, building audience profiles, selecting content verticals for sponsorship, and writing narrative justification. Most proposals are still built in PowerPoint with copy-pasted screenshots. The result is that reps make fewer pitches, and the proposals they do make are inconsistent in quality — a strong rep closes 30% while a weak rep closes 8%, largely because of proposal quality.

@@ -3,7 +3,7 @@
 **Industry:** [[food-distributors|Food Distributors]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic AP automation chokes on catch-weight pricing, grade adjustments, and promotional allowances — the three things that make every food distribution invoice uniquely complex.
-**Tags:** #bert #named-entity-recognition #nlp #automation #data-integration
+**Tags:** #bert #transformers #word-embeddings #transfer-learning #attention-mechanisms #feature-engineering #evaluation-metrics #automation #data-integration
 
 ## The Problem
 A mid-size food distributor processes 2,000-5,000 supplier invoices per week, and 30-50% of them have line-item discrepancies that require manual resolution. The root cause is industry-specific pricing complexity: catch-weight items (meat, cheese, produce) are ordered by the case but invoiced by the pound at receiving weight, so every line has an expected variance that must be compared against tolerance thresholds. Grade adjustments occur when produce arrives as US #2 instead of US #1, triggering a price reduction that the supplier may or may not have applied. Promotional allowances (off-invoice deductions, bill-backs, volume rebates) create credits that span multiple invoices and must be tracked against promotional calendars. AP clerks spend 15-25 hours per week manually matching invoices to POs and receiving records, chasing $50K-$200K in weekly discrepancies.

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Campaign Creative Fatigue Detection Before Performance Drops
-#gradient-boosting #change-point-detection #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #change-point-detection #decision-trees #feature-engineering #cross-validation #evaluation-metrics #time-series-forecasting #hypothesis-testing #descriptive-statistics #tacit-knowledge-ml
 
 **Problem statement:** Experienced PPC and media buyers develop an intuition for when a creative is "getting tired" — they notice subtle shifts in engagement patterns (CTR plateau, frequency creep, cost-per-click drift) 3-5 days before the metrics clearly show decline. Junior media buyers wait until ROAS drops and the client complains. This early detection instinct, built from running thousands of campaigns, is the difference between proactive optimization and reactive firefighting. The goal is to encode this tacit pattern recognition into a model that flags creative fatigue onset before it becomes visible in top-line performance metrics.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Multi-Channel Attribution Modeling for Low-Volume Advertisers
-#gradient-boosting #causal-inference #tabular-ml #revenue-impact
+#gradient-boosting #causal-inference #decision-trees #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #hypothesis-testing #revenue-impact
 
 **Problem statement:** SMB clients with 50-500 monthly conversions across Google Ads, Meta, email, and organic channels need a statistically valid attribution model that works with sparse data, replacing last-click platform reporting that double-counts conversions and misleads budget allocation.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Client Churn Prediction from Engagement and Performance Signals
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #gradient-descent #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Agencies lose 25-40% of clients annually, often with little warning. By the time a client expresses dissatisfaction, the decision to leave is already made. Predicting churn 60-90 days in advance from behavioral and performance signals enables proactive retention interventions.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Content Performance Prediction Before Publication
-#gradient-boosting #regression #tabular-ml #nlp #automation
+#gradient-boosting #bert #decision-trees #feature-engineering #cross-validation #evaluation-metrics #word-embeddings #transfer-learning #automation
 
 **Problem statement:** Agencies produce 50-200 pieces of content per month (blog posts, social posts, email campaigns, ad copy) without a reliable way to predict which will perform well, leading to uniform effort allocation across high- and low-potential content.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Ad Creative Performance Scoring and Variant Recommendation
-#cnn #gradient-boosting #multiclass-classification #computer-vision #tabular-ml #automation
+#cnns #gradient-boosting #transfer-learning #loss-functions #backpropagation #evaluation-metrics #cross-validation #feature-engineering #gradient-descent #automation
 
 **Problem statement:** PPC specialists create 5-15 ad variants per campaign (headlines, descriptions, images) and rely on platform A/B testing that takes 2-4 weeks to converge. Pre-scoring creative elements before launch would reduce wasted spend on underperforming variants and accelerate time-to-winning-ad.
 

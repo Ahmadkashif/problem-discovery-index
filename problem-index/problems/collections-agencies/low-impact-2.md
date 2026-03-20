@@ -3,7 +3,7 @@
 **Industry:** [[collections-agencies|Collections Agencies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic script builders exist but none dynamically adjust collection scripts for the 50+ state-level FDCPA variations, Reg F requirements, and client-specific restrictions in real time.
-**Tags:** #llm #text-generation #nlp #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #word-embeddings #transfer-learning #evaluation-metrics #compliance
 
 ## The Problem
 Collection agents must follow different disclosure requirements, call frequency limits, and communication restrictions depending on the debtor's state of residence, the debt type (medical, credit card, student loan), and the creditor's specific compliance mandates. A collector working accounts across 15 states in a single shift must mentally track dozens of rule variations — New York's required mini-Miranda language differs from California's, Texas has unique time-barred debt disclosures, and medical debt in several states now requires additional notices. Compliance officers manually maintain script libraries that run to hundreds of pages, and agents routinely get written up for using the wrong state's disclosure.

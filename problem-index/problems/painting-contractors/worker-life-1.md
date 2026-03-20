@@ -3,7 +3,7 @@
 **Industry:** [[painting-contractors|Painting Contractors]]
 **Type:** Worker Life Changing
 **One-liner:** Painters who take progress photos throughout a multi-day job — primer applied, first coat done, trim completed — and then have to organize and send a daily update to the customer get that update generated and sent automatically from the photos, with no manual writing required.
-**Tags:** #llm #automation #multimodal #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #evaluation-metrics #automation #worker-facing
 
 ## The Problem
 

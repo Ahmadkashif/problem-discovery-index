@@ -3,7 +3,7 @@
 **Industry:** [[it-staffing-firms|IT Staffing Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic onboarding checklists exist but cannot navigate the unique security policies, VPN configurations, and toolchain access procedures of each client's IT environment.
-**Tags:** #llm #text-generation #nlp #workflow-orchestration
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #workflow-orchestration
 
 ## The Problem
 When a contractor is placed at a new client, they face a 1-3 week dead zone before becoming productive. Each client has different security requirements (background check vendors, badge access systems), different development environments (AWS vs. Azure vs. on-prem), different VPN and MFA configurations, and different toolchain stacks (Jira vs. Azure DevOps, GitHub vs. GitLab). Delivery managers manually assemble onboarding instructions from past placements at the same client, often discovering that procedures have changed since the last contractor started. The staffing firm bills during this ramp-up period but delivers minimal value, straining client relationships.

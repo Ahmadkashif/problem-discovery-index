@@ -3,7 +3,7 @@
 **Industry:** [[cloud-infrastructure-consultants|Cloud Infrastructure Consultants]]
 **Type:** High Impact
 **One-liner:** Clients stop overspending 30-40% on cloud bills because the system spots waste, misconfiguration, and oversizing the way a senior architect does — instantly and across every account.
-**Tags:** #gradient-boosting #anomaly-detection #regression #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #change-point-detection #linear-regression #bias-variance-tradeoff #probability-distributions #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Cloud consulting clients routinely overspend 30-40% on AWS, Azure, and GCP due to unattached EBS volumes, oversized RDS instances, idle NAT gateways, forgotten dev/staging environments left running, and reserved instance mismatches. Today, identifying this waste depends on senior cloud architects who can glance at a $50K/month bill and immediately know which line items are wrong — they see a db.r5.4xlarge running at 8% CPU utilization and know it should be a db.r5.large, or they spot a NAT gateway processing 2TB/month of S3 traffic that should be routed through a VPC endpoint. This tacit pattern recognition takes 3-5 years of hands-on cloud operations to develop, and most consulting firms have only 2-3 people who can do it reliably. The remaining engineers run generic tools that produce hundreds of recommendations with no prioritization, most of which clients ignore.

@@ -5,7 +5,7 @@
 ---
 
 ## 1. Multi-Jurisdiction Compliance Monitoring Agent
-#ai-agent #compliance #nlp
+#ai-agent #bert #transformers #word-embeddings #evaluation-metrics #compliance
 
 **Concept:** An autonomous agent that continuously monitors federal, state, and local employment law sources, classifies changes by obligation type, maps each change to affected clients in the consultant's portfolio, drafts client-specific compliance action items (policy updates, posting changes, training requirements), and queues them for consultant review. The agent maintains a living compliance calendar per client and escalates approaching deadlines without consultant intervention.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Client Handbook Generation and Lifecycle Agent
-#ai-agent #compliance #text-generation
+#ai-agent #large-language-models #transformers #attention-mechanisms #word-embeddings #compliance
 
 **Concept:** An agent that generates complete, jurisdiction-compliant employee handbooks from a structured client intake form, then autonomously maintains each handbook as a living document — detecting when legal changes, client growth (headcount threshold crossings), or policy decisions require updates, drafting revised sections, and routing them for consultant approval. The agent tracks version history, manages employee acknowledgment workflows, and produces comparison diffs for consultant review.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Benefits Benchmarking and Recommendation Platform
-#ai-platform #data-integration #tabular-ml
+#ai-platform #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #data-integration
 
 **Concept:** A vertical data platform that aggregates anonymized benefits and compensation data across HR consulting firms' client portfolios, producing real-time benchmarks segmented by industry, geography, company size, and role category. The platform enables consultants to generate client-specific benchmarking reports in minutes, run "what-if" scenarios on plan changes, and model the retention and cost impact of benefits modifications. Participating firms contribute anonymized data and receive enriched benchmarks in return — a data cooperative model.
 

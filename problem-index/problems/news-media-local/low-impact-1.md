@@ -3,7 +3,7 @@
 **Industry:** [[news-media-local|Local News Media]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic summarization tools exist but cannot adapt a 1,200-word local news article into a newsletter lead, a social caption, an Apple News brief, and an app push notification while preserving local voice, sourcing standards, and AP style.
-**Tags:** #llm #text-generation #nlp #automation
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #automation
 
 ## The Problem
 A single local news story must appear in 4–6 formats: the full web article, a newsletter excerpt (150 words with a hook), a Facebook post (50 words with engagement framing), a Twitter/X post (280 characters), an Apple News summary, and a mobile push notification (90 characters). Digital producers manually rewrite each version, spending 15–25 minutes per story across platforms. A newsroom publishing 15–30 stories per day burns 4–12 producer-hours daily on reformatting — time that produces zero original journalism.

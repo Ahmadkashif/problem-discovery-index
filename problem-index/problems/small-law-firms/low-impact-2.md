@@ -3,7 +3,7 @@
 **Industry:** [[small-law-firms|Small Law Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** General LLM tools can draft professional emails, but client communications from a law firm need to be drafted in the attorney's specific voice, reflect the matter's current posture and pending actions, and comply with professional responsibility rules about what can and cannot be communicated to a client.
-**Tags:** #llm #text-generation #nlp #automation #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #automation #worker-facing
 
 ## The Problem
 Small firm attorneys spend 20-30% of their working time on client communication — status update emails, explaining developments in the matter, requesting documents or information from the client, relaying opposing counsel's positions, and answering questions that require some research before responding. Most of this communication is substantively similar from matter to matter (here's where we are, here's what happened, here's what you need to do, here's what we're doing next) but requires personalization to the specific client relationship and matter context. Writing a good client status email from scratch takes 8-15 minutes; an attorney billing at $350/hour loses $50-90 in revenue time on each one, or accepts that the email will be rushed and possibly unclear.

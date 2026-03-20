@@ -6,7 +6,7 @@
 ---
 
 ## 1. Clinical Risk Signal Extraction from Therapy Notes
-#ml-nlp #quick-win #compliance
+#bert #transfer-learning #feature-engineering #loss-functions #evaluation-metrics #conditional-probability-and-bayes-theorem #quick-win #compliance
 
 **Problem statement:** Given unstructured therapy progress notes (DAP/BIRP format), extract structured clinical signals — suicide risk mentions, medication side effects, mood trajectory, and substance use indicators — to surface cross-provider alerts without exposing raw notes.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. PHQ-9 / GAD-7 Score Change Anomaly Detection
-#ml-time-series #quick-win #worker-facing
+#change-point-detection #time-series-forecasting #descriptive-statistics #hypothesis-testing #evaluation-metrics #probability-distributions #quick-win #worker-facing
 
 **Problem statement:** Given a patient's outcome measure scores over time (PHQ-9, GAD-7, PCL-5), detect clinically significant deterioration that should trigger a supervisor review or care plan adjustment.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Patient-Clinician Match Prediction
-#ml-recommendation #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #revenue-impact
 
 **Problem statement:** Given a new patient's intake information (presenting concern, insurance, preferences, demographics) and a clinic's clinician roster (specialties, availability, caseload, license type, payer credentialing), predict the best clinician match that maximizes treatment retention (patient stays in treatment past session 3).
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Progress Note Auto-Structuring
-#ml-nlp #worker-facing #quick-win
+#large-language-models #transformers #transfer-learning #attention-mechanisms #loss-functions #evaluation-metrics #worker-facing #quick-win
 
 **Problem statement:** Given a therapist's brief post-session voice dictation (2-3 minutes of unstructured narration), generate a structured progress note in the clinic's required format (DAP or BIRP) with appropriate medical necessity language.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Credentialing Timeline Prediction
-#ml-classification #automation
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #automation
 
 **Problem statement:** Given a credentialing application's attributes (payer, state, license type, completeness of submitted documents), predict the expected processing time and flag applications at risk of delay.
 

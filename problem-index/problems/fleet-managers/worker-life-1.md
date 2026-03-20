@@ -3,7 +3,7 @@
 **Industry:** [[fleet-managers|Fleet Managers]]
 **Type:** Worker Life Changing
 **One-liner:** Fleet coordinators stop spending their mornings in a frantic puzzle of matching vehicles to drivers to routes, and start managing exceptions to an optimized plan.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing #workflow-orchestration
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #optimization-fundamentals #evaluation-metrics #worker-facing #workflow-orchestration
 
 ## The Problem
 Fleet coordinators start each day with a constraint-satisfaction problem: assign available vehicles to available drivers for scheduled routes, considering vehicle type requirements (box truck vs. cargo van vs. pickup), driver certifications (CDL class, hazmat, endorsements), customer-specific requirements, vehicle maintenance status, and driver-vehicle familiarity. When a vehicle is down for maintenance or a driver calls in sick, the cascade of reassignments can take 30-60 minutes and results in suboptimal matches that increase risk and cost.

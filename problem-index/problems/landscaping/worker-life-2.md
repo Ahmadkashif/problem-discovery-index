@@ -3,7 +3,7 @@
 **Industry:** [[landscaping|Landscaping]]
 **Type:** Worker Life Changing
 **One-liner:** Account managers at landscaping firms who manually review their customer list each spring to identify renewal candidates and upsell opportunities — a review that's usually done by memory rather than data — get an automatically-generated priority list showing which customers are renewal risks and which are ready for a service upgrade.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #revenue-impact #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #conditional-probability-and-bayes-theorem #revenue-impact #worker-facing
 
 ## The Problem
 

@@ -3,7 +3,7 @@
 **Industry:** [[event-planning|Event Planning]]
 **Type:** Worker Life Changing
 **One-liner:** Planners stop sacrificing every weekend and most evenings to event execution, and start having the capacity and scheduling flexibility to have a personal life.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #worker-facing
 
 ## The Problem
 Events happen on weekends and evenings — that's when people celebrate. A full-time planner managing 20-40 events per year works 35-45 weekends annually, plus evening site visits, vendor meetings, and client consultations during the week. The work is front-loaded before each event (12-16 hour days in the week leading up) and concentrated during execution (14-18 hour event days). The result is a professional life that's structurally incompatible with personal relationships, family time, and rest.

@@ -3,7 +3,7 @@
 **Industry:** [[independent-restaurants|Independent Restaurants]]
 **Type:** Worker Life Changing
 **One-liner:** Servers gain visibility into their actual earning patterns and schedule fairness, replacing the anxiety of not knowing whether next week pays rent.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #confidence-intervals #worker-facing
 
 ## The Problem
 Servers in independent restaurants earn $2.13-$5.00/hour base wage (depending on state) with the vast majority of income — 70-85% — coming from tips that vary wildly by shift, section assignment, day of week, weather, and local events. A server might earn $250 on a Friday dinner shift and $45 on a Tuesday lunch, but schedule assignments are controlled by a manager using a paper schedule or a basic app like HotSchedules with no transparency about how shifts are distributed. High-earning shifts (Friday/Saturday dinner) are informally hoarded by senior servers or manager favorites, creating resentment and turnover among newer staff. The server has no historical data on their own earning patterns, cannot forecast weekly income with any reliability, and has no evidence-based way to challenge unfair schedule distribution. This income unpredictability makes budgeting, childcare planning, and second-job coordination nearly impossible.

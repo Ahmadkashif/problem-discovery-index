@@ -3,7 +3,7 @@
 **Industry:** [[public-defenders|Public Defenders]]
 **Type:** Worker Life
 **One-liner:** Public defenders experience a specific form of moral injury — knowing their clients deserve better representation but being structurally unable to provide it — leading to 3-5 year average tenure and a permanent loss of experienced advocates from the criminal justice system.
-**Tags:** #llm #text-generation #nlp #worker-facing #gradient-boosting #tabular-ml
+**Tags:** #large-language-models #gradient-boosting #transformers #feature-engineering #evaluation-metrics #transfer-learning #attention-mechanisms #descriptive-statistics #worker-facing
 
 ## The Problem
 

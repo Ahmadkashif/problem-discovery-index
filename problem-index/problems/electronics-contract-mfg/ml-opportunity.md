@@ -6,7 +6,7 @@
 ---
 
 ## 1. Solder Joint Quality Classification from AOI Images
-#cnn #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #cross-validation #matrix-algebra #optimization-fundamentals #tacit-knowledge-ml
 
 **Problem statement:** AOI (Automated Optical Inspection) systems flag solder joints as potential defects, but experienced AOI operators know that 30-60% of flags are false calls — the system triggers on joints that an experienced inspector recognizes as acceptable based on visual patterns the AOI algorithm doesn't understand. These operators develop a calibrated eye for the visual signatures of acceptable vs. genuinely defective joints that reduces false call rate and prevents unnecessary rework on boards that are actually good.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Reflow Profile Optimization for New BOMs
-#gaussian-process #regression #tabular-ml
+#gaussian-processes #bayesian-optimization #kernel-methods #feature-engineering #evaluation-metrics #probability-distributions #expectation-variance-covariance #maximum-likelihood-estimation
 
 **Problem statement:** Selecting the optimal reflow profile for a new PCBA requires understanding how the BOM's thermal mass distribution, component thermal sensitivities, and board characteristics interact with the reflow oven's zone temperatures. Experienced process engineers estimate starting profiles from intuition; a model trained on historical BOM-to-profile mappings can predict optimal starting parameters with uncertainty estimates.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Component Placement Defect Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #gradient-descent
 
 **Problem statement:** Certain component/pad/feeder combinations produce higher defect rates than others due to interactions between component packaging (tape pocket shape, cover tape peel characteristics), placement machine nozzle selection, feeder condition, and pad geometry. Predicting which placements on a new program are high-risk enables targeted AOI attention and proactive process parameter adjustment.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Incoming Component Counterfeit Detection
-#cnn #binary-classification #computer-vision #compliance
+#cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #cross-validation #optimization-fundamentals #compliance
 
 **Problem statement:** Counterfeit electronic components — remarked, recycled, or cloned parts — enter the supply chain through unauthorized distributors and brokers. Visual and dimensional inspection by trained receiving inspectors can detect many counterfeits, but the assessment requires experience with the visual characteristics of genuine components from each manufacturer. A vision model trained on known-genuine reference images can flag suspect incoming components before they enter production.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Test Yield Root Cause Attribution
-#gradient-boosting #multiclass-classification #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #entropy-cross-entropy-kl-divergence #bias-variance-tradeoff #gradient-descent
 
 **Problem statement:** When ICT or FCT yield drops on a production program, the test engineer must identify whether the root cause is a component issue (specific lot), a process issue (reflow, placement, solder paste), or a test fixture/program issue (intermittent contact, marginal test limit). Attributing yield loss to the correct root cause currently requires manual cross-referencing of test failure patterns with process and component lot data.
 

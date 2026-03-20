@@ -3,7 +3,7 @@
 **Industry:** [[trade-associations|Trade Associations]]
 **Type:** Worker Life Changing
 **One-liner:** A two-person communications team stops drowning in content variants and gets back the capacity to do strategic messaging work.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #worker-facing
 
 ## The Problem
 Trade association communications staff — typically 1-3 people — must produce weekly newsletters, policy briefs, social media posts, advocacy alerts, event promotions, press releases, and member spotlights for an audience that spans wildly different segments: Fortune 500 corporate members, mid-market companies, sole proprietors, student/early-career members, and retired/emeritus members. Each segment cares about different issues, reads at different levels of technical depth, and engages on different channels. A policy brief about new EPA regulations needs one version for the C-suite audience (business impact framing), another for technical members (compliance detail), and a third for the general newsletter (plain-language summary). Communications staff manually rewrite and adapt each piece 3-5 times.

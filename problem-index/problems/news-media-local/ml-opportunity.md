@@ -6,7 +6,7 @@
 ---
 
 ## 1. Story Engagement Prediction From Pitch Text (Tacit Editorial Judgment)
-#bert #gradient-boosting #regression #nlp #tabular-ml #tacit-knowledge-ml
+#bert #gradient-boosting #transfer-learning #attention-mechanisms #word-embeddings #linear-regression #feature-engineering #evaluation-metrics #loss-functions #gradient-descent #tacit-knowledge-ml
 
 **Problem statement:** Experienced editors intuitively predict which story pitches will drive subscriptions, deep engagement, and community sharing — integrating topic relevance, emotional framing, exclusivity, and timing signals they cannot fully articulate. This tacit judgment must be captured in a model that predicts multi-dimensional engagement from pitch-stage inputs.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Subscriber Churn Prediction and Intervention Targeting
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #cross-validation #bias-variance-tradeoff #probability-distributions #revenue-impact
 
 **Problem statement:** Local news digital subscribers cancel at 30–50% annual rates, but cancellation patterns are predictable from engagement decay signals. Identifying at-risk subscribers 2–4 weeks before cancellation enables targeted retention interventions (personalized content recommendations, re-engagement emails, discount offers).
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Ad Yield Optimization Across Placement and Content Context
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #bert #word-embeddings #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Local news outlets sell ad inventory across multiple placements (homepage banner, section sponsorship, newsletter insertion, in-article mid-roll) at static CPM rates that do not reflect the actual engagement value of different content contexts. A model that predicts ad performance by placement-content combination enables dynamic pricing and inventory packaging that maximizes yield.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Content Recommendation for Subscriber Retention
-#bert #gradient-boosting #recommendation #nlp #tabular-ml
+#bert #gradient-boosting #transfer-learning #attention-mechanisms #word-embeddings #feature-engineering #evaluation-metrics #cross-validation #loss-functions #gradient-descent
 
 **Problem statement:** Local news subscribers who read 3+ articles per week retain at 2–3x the rate of those reading 1 or fewer, but most outlets serve generic "latest stories" or "most popular" recommendations that do not account for individual reader interests, reading history, or the specific retention-driving content types for each subscriber segment.
 

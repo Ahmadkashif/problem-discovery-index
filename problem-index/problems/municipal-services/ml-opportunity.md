@@ -6,7 +6,7 @@
 ---
 
 ## 1. Infrastructure Failure Prediction from Tacit Expert Knowledge
-#cnn #gradient-boosting #anomaly-detection #computer-vision #tabular-ml #tacit-knowledge-ml
+#cnns #gradient-boosting #transfer-learning #feature-engineering #evaluation-metrics #object-detection #loss-functions #backpropagation #gradient-descent #matrix-algebra #tacit-knowledge-ml
 
 **Problem statement:** Senior public works supervisors have internalized 20-30 years of pattern recognition — they can visually assess pavement crack morphology, audibly evaluate hydrant flow rates, and visually predict tree failure risk in ways they cannot fully articulate or transfer to new hires. This tacit knowledge must be captured as training signal for models that fuse street-level imagery with asset management data to predict infrastructure failure timelines.
 
@@ -25,7 +25,7 @@
 ---
 
 ## 2. 311 Request Classification and Priority Scoring
-#bert #text-classification #nlp #workflow-orchestration
+#bert #transfer-learning #attention-mechanisms #word-embeddings #evaluation-metrics #loss-functions #entropy-cross-entropy-kl-divergence #gradient-descent #workflow-orchestration
 
 **Problem statement:** Citizen service requests arrive as unstructured text (call transcripts, web form narratives, emails) with unreliable self-categorization. Requests must be classified into the correct department and assigned a priority score that reflects urgency, safety risk, and operational efficiency.
 
@@ -44,7 +44,7 @@
 ---
 
 ## 3. Water Main Break Prediction
-#gradient-boosting #time-series-forecasting #anomaly-detection #tabular-ml
+#gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #probability-distributions #change-point-detection #bias-variance-tradeoff
 
 **Problem statement:** Water main breaks cost US municipalities $2.6B annually in emergency repairs and cause cascading damage (road collapse, property flooding, boil-water advisories). Most municipalities replace mains reactively after failure rather than proactively based on risk, because the failure models that exist (age-based, material-based) are too coarse to prioritize the 5% of pipes that will actually fail next year out of a network where 30% are past nominal lifespan.
 
@@ -63,7 +63,7 @@
 ---
 
 ## 4. Proactive Code Violation Prediction
-#gradient-boosting #binary-classification #tabular-ml #data-integration
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #cross-validation #bias-variance-tradeoff #probability-distributions #data-integration
 
 **Problem statement:** Code enforcement is entirely complaint-driven in most municipalities — violations are discovered only when a neighbor calls. By the time a complaint triggers an inspection, a property may have accumulated $50,000+ in remediation needs (structural, environmental, health). Predicting which properties are likely to develop code violations before complaints arrive enables proactive outreach and early intervention.
 

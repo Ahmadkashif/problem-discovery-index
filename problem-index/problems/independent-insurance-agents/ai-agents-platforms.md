@@ -5,7 +5,7 @@
 ---
 
 ## 1. Submission Routing Agent
-#ai-agent #automation #data-integration #revenue-impact
+#ai-agent #large-language-models #bert #gradient-boosting #feature-engineering #evaluation-metrics #data-integration #revenue-impact
 
 **Concept:** An autonomous agent that takes a completed ACORD application (PDF, AMS export, or structured form input), identifies the optimal 3-5 carriers for the risk using appetite prediction, auto-fills each carrier's submission portal or API endpoint, submits the application with required supplemental documents, and tracks quote status across all carriers — returning a unified comparison to the producer when quotes arrive. The agent handles the entire commercial lines submission pipeline from completed application to carrier quote comparison.
 **Inputs:** Completed ACORD application data, agency carrier appointments and commission schedules, historical submission outcome data, carrier portal credentials, supplemental documents (loss runs, financials, safety programs)
@@ -16,7 +16,7 @@
 ---
 
 ## 2. Renewal Review Agent
-#ai-agent #automation #tabular-ml #revenue-impact
+#ai-agent #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #automation #revenue-impact
 
 **Concept:** A continuously running agent that monitors the agency's entire book of business, identifies renewals requiring proactive intervention 120-150 days before expiration, and generates a re-marketing brief for each flagged account. The brief includes rate trend analysis, carrier appetite shifts, competitive alternatives, and a recommended action (renew in place, re-market to specific carriers, or schedule client coverage review). The agent prioritizes accounts by revenue impact and retention risk, creating a daily work queue for account managers.
 **Inputs:** AMS policy data (expiration dates, premium history, carrier, coverage lines), carrier rate filing data, historical renewal outcomes (rate changes, non-renewals, re-marketing results), client communication logs, market intelligence feeds (carrier financial ratings, appetite announcements)
@@ -27,7 +27,7 @@
 ---
 
 ## 3. Certificate Issuance Agent
-#ai-agent #automation #nlp #worker-facing
+#ai-agent #large-language-models #bert #transformers #word-embeddings #evaluation-metrics #worker-facing #automation
 
 **Concept:** An end-to-end agent that monitors incoming certificate requests (parsing email, client portal submissions, and phone transcripts), extracts certificate holder requirements (name, address, additional insured status, waiver of subrogation, primary/non-contributory language), validates requirements against the client's existing policy endorsements, generates the ACORD 25/28 certificate, and delivers it directly to the requester — routing to a CSR only when the request requires a coverage change or endorsement not already on the policy.
 **Inputs:** Incoming certificate request (email body, attachment, portal form, or phone transcript), AMS policy data (coverage details, endorsements, certificate holder history), carrier endorsement libraries, agency certificate issuance rules and approval workflows

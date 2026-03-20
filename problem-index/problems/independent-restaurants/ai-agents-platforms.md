@@ -5,7 +5,7 @@
 ---
 
 ## 1. Menu Engineering Agent
-#ai-agent #revenue-impact #data-integration
+#ai-agent #gradient-boosting #feature-engineering #large-language-models #revenue-impact #data-integration
 
 **Concept:** An autonomous agent that continuously monitors ingredient costs (from invoice OCR and distributor price feeds), POS sales mix, and per-dish contribution margins, then generates weekly menu optimization recommendations — which items to promote via server talking points or menu placement, which to reprice, which to reformulate with cheaper substitutions that maintain quality, and which to remove entirely. The agent runs a contribution margin simulation before recommending any change, showing the projected P&L impact of each action. It also monitors competitor menus (scraped from DoorDash, Yelp, and restaurant websites) to flag pricing outliers where the restaurant is significantly above or below the local market for comparable dishes.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Prep Forecasting Agent
-#ai-agent #automation #data-integration
+#ai-agent #gradient-boosting #time-series-forecasting #feature-engineering #automation #data-integration
 
 **Concept:** An agent that runs nightly after the POS closes, pulls the next 3 days' demand forecast (menu item volumes by service period), decomposes each item into ingredient and prep requirements via the recipe database, checks current inventory levels (manual count input or integration with inventory system), and generates a prep list for the morning crew — specifying exactly what to prep, in what quantity, and in what priority order based on shelf life and service time. The agent also generates a purchase order recommendation for the next distributor delivery, flagging items where current stock plus incoming delivery will not cover forecasted demand. When demand forecasts shift intraday (e.g., a large reservation books for tomorrow), the agent pushes an updated prep alert to the sous chef's phone.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Staff Scheduling Agent
-#ai-agent #workflow-orchestration #worker-facing
+#ai-agent #gradient-boosting #optimization-fundamentals #large-language-models #workflow-orchestration #worker-facing
 
 **Concept:** An agent that builds the weekly staff schedule autonomously, optimizing for three competing objectives: (1) labor cost stays within the restaurant's target percentage of projected revenue, (2) every shift has adequate coverage by role (servers, cooks, bussers, bartenders) based on demand forecasts, and (3) schedule fairness — high-earning shifts (Friday/Saturday dinner) are distributed equitably across eligible staff over rolling 4-week windows, eliminating the favoritism that drives server turnover. The agent respects hard constraints (employee availability, overtime limits, minimum rest between shifts) and soft preferences (preferred days off, station preferences for cooks). It publishes the schedule to 7shifts, Homebase, or HotSchedules via API, and handles swap requests by evaluating whether the swap maintains coverage and fairness constraints before auto-approving or escalating to the manager.
 
@@ -50,7 +50,7 @@
 ---
 
 ## 4. Review Response and Operational Intelligence Agent
-#ai-agent #nlp #quick-win
+#ai-agent #bert #large-language-models #transfer-learning #attention-mechanisms #quick-win
 
 **Concept:** An agent that monitors Yelp, Google Reviews, and TripAdvisor in real time, classifies each review by operational category (food quality, service speed, ambiance, cleanliness, value, specific menu items, wait time), generates a draft response personalized to the review's content and tone (apologetic for complaints, grateful for praise, specific rather than generic), and presents the draft to the owner for one-tap approval or light editing before posting. Beyond individual responses, the agent produces a weekly "Operational Pulse" report that trends review sentiment by category, flags emerging issues (e.g., "service speed complaints increased 40% in the last 2 weeks, concentrated on Saturday dinner shifts"), and correlates sentiment shifts with operational changes (new menu items, staff changes, seasonal transitions). The agent also benchmarks the restaurant's sentiment trends against anonymized aggregate data from other restaurants in the same cuisine/price segment.
 

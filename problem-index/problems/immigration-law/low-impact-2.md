@@ -3,7 +3,7 @@
 **Industry:** [[immigration-law|Immigration Law Firms]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic web monitoring tools can detect page changes but can't interpret immigration status language semantically — distinguishing "case received" from "case transferred to NBC" from "response to RFE received" in a way that triggers the right next workflow step.
-**Tags:** #bert #text-classification #nlp #automation #workflow-orchestration
+**Tags:** #bert #transfer-learning #loss-functions #evaluation-metrics #cross-validation #automation #workflow-orchestration
 
 ## The Problem
 Immigration case status lives across multiple government portals: USCIS Case Status Online (USCIS.gov), the National Visa Center (NVC) case tracking system, the Consular Electronic Application Center (CEAC) for visa cases, PIMS (Petitions Information Management Service) for consular processing cases. Case status updates appear on these portals with no proactive notification to the attorney — someone at the firm must check the portal, recognize a status change, interpret what it means for the case timeline, notify the client, and determine the next action. A firm managing 500 active cases is checking 500 case URLs manually across multiple government systems, often daily.

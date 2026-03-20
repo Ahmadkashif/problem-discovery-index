@@ -3,7 +3,7 @@
 **Industry:** [[roofing-contractors|Roofing Contractors]]
 **Type:** Worker Life Changing
 **One-liner:** Roofing crews who take 80–150 photos per job across inspection, installation progress, and completion documentation — and then spend 20-30 minutes organizing them into labeled folders by phase and roof zone — get that organization done automatically from the photo metadata and visual content.
-**Tags:** #cnn #multiclass-classification #computer-vision #automation #worker-facing
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #feature-engineering #automation #worker-facing
 
 ## The Problem
 

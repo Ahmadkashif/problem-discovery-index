@@ -3,7 +3,7 @@
 **Industry:** [[it-staffing-firms|IT Staffing Firms]]
 **Type:** High Impact
 **One-liner:** Recruiters stop guessing whether a candidate can actually code at the level their resume claims — the system flags inflated titles, copied GitHub projects, and buzzword-only experience before the first interview.
-**Tags:** #transformer #bert #ranking #nlp #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #bert #transformers #attention-mechanisms #word-embeddings #gradient-boosting #feature-engineering #evaluation-metrics #transfer-learning #cross-validation #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Senior technical recruiters develop an intuition for reading resumes and GitHub profiles that lets them detect skill inflation within seconds — they notice when a "Lead Architect" only has boilerplate commits, when a "10 years of Kubernetes" claim predates the technology's release, or when listed projects are forked-and-untouched repos. This tacit judgment takes 2-3 years of daily screening to develop, and most firms have only 1-2 recruiters who possess it. Every junior recruiter who lacks this pattern recognition submits candidates who fail client technical screens, burning the firm's credibility and wasting 4-8 hours of interview coordination per bad submission.

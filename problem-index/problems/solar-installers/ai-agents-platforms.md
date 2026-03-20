@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Solar Installers
 
 **Industry:** [[solar-installers|Solar Installers]]
-**Tags:** #ai-agent #ai-platform #automation #workflow-orchestration #revenue-impact
+**Tags:** #ai-agent #ai-platform #cnns #gradient-boosting #time-series-forecasting #transfer-learning #feature-engineering #evaluation-metrics #automation #workflow-orchestration #revenue-impact
 
 ---
 

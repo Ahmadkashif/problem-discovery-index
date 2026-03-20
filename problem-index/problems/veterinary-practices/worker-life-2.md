@@ -3,7 +3,7 @@
 **Industry:** [[veterinary-practices|Veterinary Practices]]
 **Type:** Worker Life Changing
 **One-liner:** Veterinary technicians who currently spend 30-60 minutes per day manually calling clients for follow-ups, prescription refills, lab result communications, and overdue vaccination recalls get that time back — with AI handling the routine communication loop and escalating only when a human response is required.
-**Tags:** #llm #text-generation #automation #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #automation #worker-facing
 
 ## The Problem
 A vet tech at a busy practice manages a continuous stream of client communication that has nothing to do with patient care: calling owners to report that their pet's lab results are back and normal, reminding clients that their dog is overdue for a rabies booster, following up on whether the cat's antibiotic course improved the presenting symptoms, asking if the post-surgical patient is eating and mobile. This communication is important — it drives patient outcomes, compliance, and client retention — but it is almost entirely templated and doesn't require a clinical decision. Yet it's done manually by the most clinical members of the support team because the practice management system has no automation layer.

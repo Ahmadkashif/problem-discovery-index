@@ -6,7 +6,7 @@
 ---
 
 ## 1. Hidden Damage Prediction from Exterior Collision Photos
-#cnn #regression #computer-vision #tacit-knowledge-ml
+#cnns #linear-regression #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #tacit-knowledge-ml
 
 **Problem statement:** Experienced collision estimators look at external damage and predict hidden damage behind panels — they've internalized how force propagates through vehicle-specific crush structures over thousands of teardowns. This tacit knowledge means their initial estimates capture 80-90% of actual damage, while new estimators miss 30-50%, triggering costly supplement cycles.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Repair Time and Cycle Time Prediction
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff
 
 **Problem statement:** Cycle time is the #1 DRP scorecard metric, but predicting it requires understanding parts availability, supplement probability, paint booth capacity, and technician workload simultaneously.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Parts Availability and Delivery Prediction
-#gradient-boosting #time-series-forecasting #tabular-ml
+#gradient-boosting #time-series-forecasting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #expectation-variance-covariance
 
 **Problem statement:** Parts delays cause 30-40% of cycle time extensions. Parts managers order based on listed availability, which is often inaccurate — parts show "in stock" but arrive 3-5 days late.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Supplement Amount Prediction for Insurance Negotiations
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff
 
 **Problem statement:** Shops know supplements are coming but can't predict the amount, leading to poor cash flow planning and production scheduling. Insurers use supplement uncertainty as leverage.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Paint Color Match Prediction
-#cnn #regression #computer-vision #tacit-knowledge-ml
+#cnns #linear-regression #transfer-learning #loss-functions #evaluation-metrics #gradient-descent #backpropagation #tacit-knowledge-ml
 
 **Problem statement:** Matching paint on a repaired panel to the existing vehicle finish requires accounting for paint oxidation, sun exposure patterns, clear coat condition, and the specific spray technique. Experienced painters adjust formulas by eye; new painters rely on manufacturer codes that rarely match perfectly on vehicles over 3 years old.
 

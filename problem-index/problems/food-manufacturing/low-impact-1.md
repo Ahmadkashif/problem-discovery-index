@@ -3,7 +3,7 @@
 **Industry:** [[food-manufacturing|Food Manufacturing]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Food safety documentation under FSMA and HACCP is already managed by generic quality management systems, but none of them understand the specific structure of HACCP plans, CCP monitoring logic, or FDA audit trail requirements well enough to automate the documentation workflow that currently consumes 2-4 hours of supervisor time per shift.
-**Tags:** #llm #text-classification #nlp #compliance #automation
+**Tags:** #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #evaluation-metrics #compliance #automation
 
 ## The Problem
 Every food manufacturer operating under FDA jurisdiction must maintain a HACCP plan identifying Critical Control Points (CCPs), monitoring procedures, corrective actions, and verification activities. The documentation burden is enormous: CCP monitoring logs (time-temperature records, metal detector checks, pH readings) must be recorded at defined frequencies, corrective action records must be generated whenever a CCP deviation occurs, and the entire system must be verified periodically with documentation that demonstrates the plan is working. HACCP coordinators and shift supervisors spend 2-4 hours per shift reviewing monitoring logs, cross-referencing CCP limits, documenting deviations, and preparing verification summaries — work that is procedural but requires understanding of HACCP terminology and FDA expectations.

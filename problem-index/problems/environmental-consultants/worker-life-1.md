@@ -3,7 +3,7 @@
 **Industry:** [[environmental-consultants|Environmental Consultants]]
 **Type:** Worker Life Changing
 **One-liner:** Field technicians get back 30-45 minutes per site visit currently lost to handwriting chain-of-custody forms, field notes, and sample logs in adverse conditions — rain, heat, PPE gloves, confined spaces.
-**Tags:** #llm #speech-recognition #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #rnns #lstms-and-grus #word-embeddings #evaluation-metrics #worker-facing
 
 ## The Problem
 An environmental field technician collecting groundwater or soil samples must document every action in real time: well purge parameters (pH, conductivity, turbidity, dissolved oxygen readings at timed intervals), sample container types and preservatives, collection times to the minute, field observations (odors, sheens, discoloration), weather conditions, and chain-of-custody details for each sample bottle. This documentation happens while wearing nitrile gloves (often doubled), sometimes in Tyvek suits, frequently in rain or 100-degree heat, and occasionally in confined spaces or on active construction sites. Technicians fill out paper forms or struggle with tablet touchscreens through gloves, generating 3-8 pages of handwritten documentation per site visit that must later be transcribed into digital format. Illegible handwriting, smudged ink from wet conditions, and transcription errors are constant quality issues that can invalidate sample results.

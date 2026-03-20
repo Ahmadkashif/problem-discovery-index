@@ -3,7 +3,7 @@
 **Industry:** [[greenhouse-horticulture|Greenhouse Horticulture]]
 **Type:** Worker Life Changing
 **One-liner:** Greenhouse workers spend hours daily manually checking drip emitters, substrate moisture, and runoff EC/pH across thousands of irrigation stations, making adjustments that an anomaly detection system could flag automatically.
-**Tags:** #lstm #anomaly-detection #signal-processing #worker-facing
+**Tags:** #lstms-and-grus #rnns #time-series-forecasting #loss-functions #backpropagation #evaluation-metrics #gradient-descent #probability-distributions #worker-facing
 
 ## The Problem
 In a modern greenhouse, irrigation is delivered through drip stakes or ebb-and-flood benches with fertigation (fertilizer mixed into irrigation water). A 5-acre operation may have 3,000-10,000 individual drip stations across dozens of irrigation zones. Workers walk the greenhouse daily checking for clogged emitters (which cause dry-down and plant stress within hours), measuring substrate moisture by hand-feel or portable probe, and collecting runoff samples to test EC (electrical conductivity, indicating fertilizer concentration) and pH. Each zone may need different irrigation frequency, volume, and fertilizer recipe depending on crop type, growth stage, substrate type, and weather. Adjustments are made by changing timer schedules and dosatron settings — a process that takes 2-3 hours daily and requires understanding the interaction between irrigation volume, substrate moisture retention, and plant uptake rate.

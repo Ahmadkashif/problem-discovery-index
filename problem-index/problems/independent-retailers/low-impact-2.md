@@ -3,7 +3,7 @@
 **Industry:** [[independent-retailers|Independent Retailers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Finding, comparing, and ordering from 20-50 wholesale vendors is a manual slog that generic B2B marketplaces only partially solve.
-**Tags:** #bert #recommendation #nlp #data-integration
+**Tags:** #bert #transformers #word-embeddings #transfer-learning #evaluation-metrics #feature-engineering #data-integration
 
 ## The Problem
 A typical independent retailer sources from 20-50 vendors across different product categories. Discovering new vendors happens at trade shows (2-3 per year), through sales rep cold calls, or by word-of-mouth from other store owners. Placing orders involves logging into multiple vendor portals, emailing PDF order forms, or calling reps during business hours. There's no unified view of what's available, what the MOQs are, what the margin looks like, or which vendors deliver reliably. An owner spending 5-8 hours per week on purchasing is doing comparison shopping across incompatible catalogs with no way to search "show me all ceramic mugs under $8 wholesale with MOQ under 24."

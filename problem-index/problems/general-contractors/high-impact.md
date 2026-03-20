@@ -3,7 +3,7 @@
 **Industry:** [[general-contractors|General Contractors]]
 **Type:** High Impact
 **One-liner:** An experienced estimator who can eyeball a floor plan and get within 10-15% of final cost before any itemized takeoff — a judgment built from hundreds of projects — gets that capability embedded in a model that any estimator on the team can invoke in 5 minutes instead of 3 days of preparation.
-**Tags:** #cnn #regression #computer-vision #multimodal #tacit-knowledge-ml #revenue-impact
+**Tags:** #cnns #linear-regression #transfer-learning #loss-functions #backpropagation #evaluation-metrics #matrix-algebra #gradient-descent #optimization-fundamentals #feature-engineering #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 Construction estimating has two phases: preliminary (ballpark) estimates used for bid/no-bid decisions and early owner conversations, and detailed estimates (takeoffs) used for formal bids and contracts. The preliminary estimate is where experienced estimators earn their salary — they process an architectural drawing set and apply accumulated cost pattern knowledge (structural system type, mechanical complexity, building envelope, site access, local labor market, current material costs) to produce a reliable order-of-magnitude number in hours rather than weeks. Junior estimators cannot do this without supervision because the cost pattern recognition requires processing hundreds of variables simultaneously — variables that an experienced estimator has internalized as intuition. The result: preliminary estimates can only be produced by the firm's senior estimators, creating a bottleneck that limits bid volume and forces go/no-go decisions based on incomplete data.

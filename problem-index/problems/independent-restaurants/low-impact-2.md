@@ -3,7 +3,7 @@
 **Industry:** [[independent-restaurants|Independent Restaurants]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Restaurants already have delivery through DoorDash and Uber Eats — they just have no idea which orders are profitable, which are losing money, and how to price the delivery menu differently to stop the bleed.
-**Tags:** #gradient-boosting #regression #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #revenue-impact
 
 ## The Problem
 Independent restaurants sign up for DoorDash, Uber Eats, and Grubhub because their competitors are listed and they fear losing volume. But the commission structures — 15% on pickup, 20-30% on delivery — eat directly into already-thin margins. A $25 chicken entree that yields a 68% gross margin in-house drops to 38-48% gross margin after platform commissions, and that is before factoring in the incremental packaging cost ($0.50-$1.50 per order), the kitchen disruption of managing a parallel order stream during peak hours, and the refund/chargeback exposure that platforms resolve in the customer's favor by default. Most owners treat delivery revenue as undifferentiated topline and have no per-order margin visibility, so they cannot distinguish the profitable delivery items from the ones that cost money to fulfill.

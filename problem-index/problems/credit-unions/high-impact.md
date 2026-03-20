@@ -3,7 +3,7 @@
 **Industry:** [[credit-unions|Credit Unions]]
 **Type:** High Impact
 **One-liner:** Veteran credit union loan officers who have watched hundreds of loan lifecycles in a specific community have internalized behavioral default signals — deposit pattern erosion, seasonal income irregularity, consolidation frequency — that outperform bureau scores for their member base, but this judgment retires when they do.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 

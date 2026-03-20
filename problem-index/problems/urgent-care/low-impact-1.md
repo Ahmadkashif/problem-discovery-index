@@ -3,7 +3,7 @@
 **Industry:** [[urgent-care|Urgent Care Centers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic insurance verification APIs exist but aren't integrated into urgent care check-in workflows in a way that resolves the payer-specific edge cases (copay tiers, urgent-care-specific benefit structures) that cause billing errors downstream.
-**Tags:** #automation #data-integration #compliance #tabular-ml
+**Tags:** #decision-trees #feature-engineering #evaluation-metrics #automation #data-integration #compliance
 
 ## The Problem
 Front desk staff at urgent care centers spend 3-8 minutes per patient manually verifying insurance coverage — calling payer lines, logging into separate payer portals, or using clearinghouse tools that return ambiguous eligibility responses. The specific sticking points are not raw eligibility (does the patient have coverage?) but benefit-level details: whether the patient's plan categorizes the visit as urgent care vs. emergency (dramatically different cost-sharing), what the exact copay is for that benefit category on that specific plan, and whether any prior authorization is required for on-site imaging. Getting this wrong at check-in leads to undercollected copays, billing disputes, and write-offs weeks later.

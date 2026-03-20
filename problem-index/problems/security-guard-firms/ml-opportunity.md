@@ -6,7 +6,7 @@
 ---
 
 ## 1. Site Security Assessment from Walkthrough Evaluation
-#gradient-boosting #cnn #regression #computer-vision #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #cnns #linear-regression #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #tacit-knowledge-ml
 
 **Problem statement:** Experienced operations managers walk a new client site and intuitively assess security requirements — identifying coverage gaps, vulnerable entry points, sight-line limitations, patrol route needs, and optimal guard post positions. This tacit assessment determines staffing proposals and pricing. Junior account managers lack this skill and either under-staff (creating security gaps) or over-staff (pricing themselves out of the contract). The experienced ops manager reads a site the way an architect reads a building — understanding how people flow through the space and where control points and vulnerabilities exist.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Guard No-Show Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 **Problem statement:** 10-20% of shifts experience no-shows, but the risk isn't uniformly distributed. Certain combinations of guard, shift type, day, site, and conditions predict no-shows with significant accuracy.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Incident Pattern Analysis and Risk Prediction
-#bert #text-classification #nlp #gradient-boosting #time-series-forecasting #tabular-ml
+#bert #transformers #attention-mechanisms #word-embeddings #gradient-boosting #time-series-forecasting #feature-engineering #evaluation-metrics
 
 **Problem statement:** Incident reports contain valuable intelligence about security risks, but the unstructured text and inconsistent quality make pattern detection impossible at scale.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Guard-Site Match Optimization
-#gradient-boosting #regression #tabular-ml #recommendation
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #expectation-variance-covariance
 
 **Problem statement:** Some guards perform well at certain types of sites but poorly at others — a guard excellent at corporate lobby work may struggle at construction site security. Matching guards to sites based on performance patterns, not just availability, improves quality and reduces turnover.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Guard Attrition and Retention Prediction
-#gradient-boosting #survival-analysis #tabular-ml
+#gradient-boosting #survival-analysis #feature-engineering #maximum-likelihood-estimation #evaluation-metrics #probability-distributions #conditional-probability-and-bayes-theorem
 
 **Problem statement:** With 100-300% annual turnover, predicting which guards are at risk of leaving — and when — enables targeted retention interventions for the highest-value guards.
 

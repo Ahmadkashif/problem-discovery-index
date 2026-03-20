@@ -6,7 +6,7 @@
 ---
 
 ## 1. Member Renewal Prediction from Tacit Engagement Signals
-#gradient-boosting #survival-analysis #tabular-ml #tacit-knowledge-ml #revenue-impact
+#gradient-boosting #survival-analysis #decision-trees #feature-engineering #evaluation-metrics #maximum-likelihood-estimation #probability-distributions #expectation-variance-covariance #cross-validation #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Experienced executive directors intuitively predict which members will lapse by reading patterns across event attendance, committee participation, email engagement, and informal interactions — but this knowledge is locked in one person's head and doesn't scale. The ML task is to capture and operationalize this tacit judgment as a survival model that predicts member-level lapse probability over a rolling 12-month horizon.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Event Attendance Prediction and Session Optimization
-#gradient-boosting #regression #tabular-ml #recommendation
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #probability-distributions #optimization-fundamentals
 
 **Problem statement:** Association event planners build multi-track conference agendas using intuition and prior-year attendance, frequently under- or over-allocating room capacity and scheduling competing sessions that cannibalize each other's audiences. A predictive model could forecast per-session attendance and recommend optimal scheduling.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Content Engagement Prediction Across Member Segments
-#gradient-boosting #binary-classification #tabular-ml #nlp #recommendation
+#gradient-boosting #decision-trees #bert #word-embeddings #feature-engineering #evaluation-metrics #cross-validation #logistic-regression #entropy-cross-entropy-kl-divergence
 
 **Problem statement:** Communications teams produce content without systematic feedback on what drives engagement for which member segments. A model that predicts per-segment engagement (open, click, share, action) for a given content piece would allow pre-publication optimization and segment-targeted distribution.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Advocacy Impact Scoring for Legislative Priorities
-#bert #text-classification #nlp #compliance #ranking
+#bert #transfer-learning #attention-mechanisms #word-embeddings #evaluation-metrics #loss-functions #entropy-cross-entropy-kl-divergence #gradient-descent #compliance
 
 **Problem statement:** Government affairs staff must assess which of hundreds of tracked bills pose the greatest threat or opportunity to the association's members, but relevance assessment is manual and time-consuming. An ML system could classify bill relevance, predict legislative advancement probability, and score potential member impact to prioritize advocacy effort.
 

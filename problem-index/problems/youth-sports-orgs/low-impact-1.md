@@ -3,7 +3,7 @@
 **Industry:** [[youth-sports-orgs|Youth Sports Organizations]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic scheduling tools can assign players to teams, but they can't balance competitive fairness using the subjective skill assessments that actually determine game quality.
-**Tags:** #gradient-boosting #regression #tabular-ml
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #optimization-fundamentals #probability-distributions
 
 ## The Problem
 House leagues need balanced teams so games are competitive and fun. Current practice: a few board members sit in a room with paper cards, sorting 150 kids into 12 teams based on memory, coach evaluations, and friend requests. Travel clubs need tryout-based tiering that's defensible to angry parents. Both processes are manual, politically fraught, and produce inconsistent results.

@@ -5,7 +5,7 @@
 ---
 
 ## 1. Commercial Bid Estimation Agent
-#ai-agent #tacit-knowledge-ml #revenue-impact
+#ai-agent #gradient-boosting #feature-engineering #evaluation-metrics #tacit-knowledge-ml #revenue-impact
 
 **Concept:** An AI agent that assists estimators during facility walkthroughs by guiding them through a standardized assessment protocol, collecting structured data (photos, measurements, fixture counts), and generating a labor hour estimate with confidence intervals based on comparable completed contracts. The agent explains its estimate ("this medical office requires 30% more labor than a standard office due to exam room disinfection requirements and biohazard waste handling — based on 47 similar facilities in our data") and highlights risk factors that might cause the actual to differ from the estimate.
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Remote Quality Verification Agent
-#ai-agent #computer-vision #automation
+#ai-agent #cnns #transfer-learning #evaluation-metrics #loss-functions #automation
 
 **Concept:** An AI agent that monitors cleaning quality across all client sites by analyzing post-cleaning photos taken by crews at standardized checkpoints. The agent grades each area (pass/fail with specific deficiencies), tracks quality trends by site and crew, alerts supervisors to declining quality before clients notice, and generates quality reports for client meetings. Supervisors shift from driving to every site to reviewing exception reports and making targeted visits.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Workforce and Route Optimization Platform
-#ai-platform #workflow-orchestration #automation
+#ai-platform #optimization-fundamentals #feature-engineering #gradient-boosting #evaluation-metrics #workflow-orchestration #automation
 
 **Concept:** A platform that optimizes the entire operational layer of a commercial cleaning company: crew scheduling and assignment, multi-day route optimization across variable-schedule sites, workload balancing, callout replacement, and capacity forecasting. The platform takes the company's client portfolio and workforce as inputs and produces optimized weekly plans, with dynamic rerouting when changes occur. It forecasts when the company needs to hire (or can take on new contracts) based on utilization trends.
 

@@ -3,7 +3,7 @@
 **Industry:** [[short-term-rentals|Short-Term Rentals]]
 **Type:** Worker Life Changing
 **One-liner:** STR property managers who manually text cleaners every morning with that day's checkout/checkin schedule — a task that takes 20-40 minutes of coordination per day across a multi-property portfolio — get automated turnover dispatch based on the booking calendar, with linen logistics and issue reporting built in.
-**Tags:** #automation #workflow-orchestration #worker-facing #llm
+**Tags:** #large-language-models #attention-mechanisms #transformers #optimization-fundamentals #automation #workflow-orchestration #worker-facing
 
 ## The Problem
 

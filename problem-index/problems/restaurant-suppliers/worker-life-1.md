@@ -3,7 +3,7 @@
 **Industry:** [[restaurant-suppliers|Restaurant Suppliers]]
 **Type:** Worker Life Changing
 **One-liner:** Reps get back 5-8 hours per week currently spent driving to accounts that don't need a visit while missing the ones that do.
-**Tags:** #gradient-boosting #ranking #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #gradient-descent #worker-facing
 
 ## The Problem
 A typical restaurant supply sales rep drives 200-300 miles per week visiting 15-25 accounts across a metro area. Every Monday morning, they decide which accounts to visit based on habit, personal relationship, and whoever called last week. There is no data-driven input: a rep may drive 45 minutes to visit a loyal $2,000/week account that would have ordered anyway, while skipping a $5,000/week account showing early signs of reduced ordering. Route planning is done mentally or with a basic Google Maps multi-stop — there is no integration with account health, order recency, or margin data.

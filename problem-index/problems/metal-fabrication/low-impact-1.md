@@ -3,7 +3,7 @@
 **Industry:** [[metal-fabrication|Metal Fabrication]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic ML regression models can predict costs from structured inputs, but don't understand fabrication drawing features — weld joint accessibility, distortion risk from asymmetric heat input, the difference between a weld that looks simple and one requiring multiple passes and repositioning — the geometric reasoning that separates experienced fabrication estimators from a spreadsheet.
-**Tags:** #gradient-boosting #regression #bert #nlp #computer-vision #tabular-ml #automation
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #confidence-intervals #automation
 
 ## The Problem
 

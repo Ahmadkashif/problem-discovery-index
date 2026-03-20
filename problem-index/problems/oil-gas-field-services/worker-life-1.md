@@ -3,7 +3,7 @@
 **Industry:** [[oil-gas-field-services|Oil & Gas Field Services]]
 **Type:** Worker Life Changing
 **One-liner:** Field techs working alone at remote wellsites get real-time hazard detection and automatic emergency alerts, replacing the current system where nobody knows something is wrong until they fail to check in hours later.
-**Tags:** #cnn #binary-classification #computer-vision #worker-facing
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #object-detection #matrix-algebra #worker-facing
 
 ## The Problem
 Oilfield service technicians frequently work alone at remote wellsites — some 30+ miles from the nearest town, often with no cell coverage. Hazards include H2S gas exposure (lethal at 100+ ppm, and it deadens the sense of smell at high concentrations), high-pressure line failures, mechanical entanglement with moving equipment, slips on icy catwalks, and heat exhaustion. Current safety protocols rely on check-in calls every 2-4 hours; if a tech misses a check-in, it can take another 1-2 hours before anyone drives out to investigate. In an H2S exposure scenario, that delay is fatal. Techs carry personal gas monitors, but these only alarm locally — if the tech is incapacitated, nobody hears it.

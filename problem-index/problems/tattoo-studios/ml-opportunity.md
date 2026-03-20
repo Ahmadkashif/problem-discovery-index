@@ -6,7 +6,7 @@
 ---
 
 ## 1. Tattoo Healing and Aging Prediction from Design Parameters
-#cnn #regression #computer-vision #tacit-knowledge-ml
+#cnns #linear-regression #transfer-learning #loss-functions #evaluation-metrics #gradient-descent #backpropagation #tacit-knowledge-ml
 
 **Problem statement:** Experienced tattoo artists look at a design concept, consider the client's skin type, body placement, and design characteristics (line weight, color saturation, detail density), and know how the tattoo will look in 5-10 years. They know that fine lines on inner biceps spread differently than on calves, that certain colors fade faster on certain skin tones, that heavily saturated areas in high-friction zones will blur. This tacit knowledge — predicting a tattoo's future appearance from its current parameters — drives design decisions that clients can't evaluate, leading to regret when artists without this knowledge execute technically correct but long-term problematic work.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. No-Show and Cancellation Risk Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 **Problem statement:** 15-25% of tattoo appointments result in no-shows or last-minute cancellations, disproportionately affecting large custom sessions that are hardest to refill.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Design Complexity and Session Time Estimation
-#cnn #gradient-boosting #regression #computer-vision #tabular-ml
+#cnns #gradient-boosting #linear-regression #transfer-learning #feature-engineering #evaluation-metrics #loss-functions #gradient-descent
 
 **Problem statement:** Estimating how long a custom design will take — both design time and tattoo time — varies wildly by artist experience. Accurate estimates enable fair pricing and schedule planning.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Instagram Content Performance Prediction
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #expectation-variance-covariance
 
 **Problem statement:** Artists post content intuitively but don't know which types of posts drive bookings vs. vanity engagement. Predicting booking impact per post type would optimize the time investment.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Ergonomic Risk Assessment from Session Patterns
-#lstm #anomaly-detection #signal-processing
+#lstms-and-grus #rnns #loss-functions #evaluation-metrics #gradient-descent #probability-distributions #descriptive-statistics
 
 **Problem statement:** Cumulative strain from sustained precision tattooing causes career-ending injuries. Detecting early warning signs of strain accumulation from session patterns could enable preventive intervention.
 

@@ -3,7 +3,7 @@
 **Industry:** [[chiropractic-practices|Chiropractic Practices]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic medical billing tools can submit claims, but they don't know that chiropractic CPT code 98941 (3-4 spinal regions) requires documentation of specific subluxation levels, that most carriers limit chiropractic visits to 12-24 per year, or that the medical necessity language for visit 13 must be dramatically different from visit 1 — and getting it wrong means a denial that costs $75-$150 in lost revenue plus 30 minutes of appeal time.
-**Tags:** #llm #text-generation #nlp #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #compliance
 
 ## The Problem
 Chiropractic insurance billing is uniquely adversarial. Carriers impose visit limits (typically 12-24 visits per plan year), require pre-authorization for extended treatment plans, and deny claims at rates 2-3x higher than general medical claims. Each visit requires documentation of specific subluxation findings (by spinal level), functional limitations, treatment rendered (by CPT code), and measurable progress toward treatment goals. The documentation language that justifies visit 3 is fundamentally different from what justifies visit 15 — early visits emphasize acute findings and pain reduction, while later visits must demonstrate ongoing functional improvement and medical necessity for continued care. Most DCs are not trained in insurance documentation strategy, resulting in denial rates of 15-25% that could be reduced to 5-8% with proper language.

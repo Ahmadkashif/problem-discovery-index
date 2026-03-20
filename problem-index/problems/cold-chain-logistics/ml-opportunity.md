@@ -1,7 +1,7 @@
 # ML Opportunities — Cold Chain Logistics
 
 **Industry:** [[cold-chain-logistics|Cold Chain Logistics]]
-**Tags:** #lstm #gradient-boosting #anomaly-detection #time-series-forecasting #tabular-ml #signal-processing #compliance #revenue-impact
+**Tags:** #lstms-and-grus #gradient-boosting #time-series-forecasting #change-point-detection #feature-engineering #backpropagation #loss-functions #evaluation-metrics #optimization-fundamentals #compliance #revenue-impact
 
 ---
 

@@ -1,7 +1,7 @@
 # AI Agents and Platforms — Cold Chain Logistics
 
 **Industry:** [[cold-chain-logistics|Cold Chain Logistics]]
-**Tags:** #ai-agent #ai-platform #compliance #automation #revenue-impact
+**Tags:** #ai-agent #ai-platform #lstms-and-grus #gradient-boosting #large-language-models #time-series-forecasting #compliance #automation #revenue-impact
 
 ---
 

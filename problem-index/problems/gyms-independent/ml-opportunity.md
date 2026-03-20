@@ -6,7 +6,7 @@
 ---
 
 ## 1. Member Dropout Prediction from Early Usage Patterns (Tacit Knowledge ML)
-#gradient-boosting #survival-analysis #tabular-ml #tacit-knowledge-ml #revenue-impact
+#gradient-boosting #survival-analysis #decision-trees #feature-engineering #evaluation-metrics #maximum-likelihood-estimation #probability-distributions #expectation-variance-covariance #cross-validation #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Experienced gym staff can watch a new member's first few sessions and intuit whether they'll churn within 90 days — reading signals like equipment exploration breadth, workout consistency, social engagement with staff, and time-of-day patterns. This tacit judgment needs to be captured as a predictive model that operates on check-in and behavioral data at scale.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Class Attendance Forecasting for Schedule Optimization
-#gradient-boosting #regression #tabular-ml #workflow-orchestration
+#gradient-boosting #decision-trees #linear-regression #feature-engineering #evaluation-metrics #cross-validation #probability-distributions #bias-variance-tradeoff #workflow-orchestration
 
 **Problem statement:** Predict per-class attendance 4-6 weeks in advance to enable data-driven schedule adjustments, instructor assignment, and capacity planning.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Trial Visitor Lead Scoring
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #cross-validation #probability-distributions #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Score trial visitors on their likelihood of converting to a paid membership within 14 days, enabling prioritized and personalized follow-up by front desk staff.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Equipment Maintenance Prediction
-#gradient-boosting #binary-classification #tabular-ml #automation
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #logistic-regression #cross-validation #time-series-forecasting #probability-distributions #automation
 
 **Problem statement:** Predict which cardio and strength machines will require maintenance or fail within the next 30 days, enabling preventive service scheduling and reducing peak-hour equipment outages.
 

@@ -3,7 +3,7 @@
 **Industry:** [[behavioral-health-clinics|Behavioral Health Clinics]]
 **Type:** High Impact
 **One-liner:** Every clinician in a multi-provider behavioral health clinic sees the complete patient picture — psychiatric meds, therapy progress, crisis history, and social determinants — in one view, eliminating the dangerous information gaps that lead to contradictory treatment plans.
-**Tags:** #data-integration #compliance #ml-nlp
+**Tags:** #bert #transfer-learning #feature-engineering #loss-functions #evaluation-metrics #entropy-cross-entropy-kl-divergence #data-integration #compliance
 
 ## The Problem
 When a patient sees both a therapist and a prescriber at the same clinic, their information lives in different corners of the EHR — or in entirely different systems. The therapist documents session notes in a narrative format focused on psychosocial themes; the prescriber documents in a structured medical format focused on symptoms and medication response. Neither sees the other's critical context in real-time. This fragmentation leads to prescribers adjusting medications without knowing the patient disclosed suicidal ideation to their therapist two days ago, or therapists pushing exposure therapy unaware the prescriber just changed an anxiolytic.

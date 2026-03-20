@@ -3,7 +3,7 @@
 **Industry:** [[insurance-restoration|Insurance Restoration]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic project management tools track tasks and deadlines, but they don't know that State Farm's preferred vendor program requires a 2-hour response time acknowledgment, specific Xactimate line-item formatting, and a customer satisfaction score above 4.5 — and that falling below threshold for two consecutive quarters means losing 40% of your revenue.
-**Tags:** #gradient-boosting #regression #tabular-ml #compliance
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #descriptive-statistics #expectation-variance-covariance #compliance
 
 ## The Problem
 Restoration companies depend on carrier preferred vendor programs (State Farm, Allstate, USAA, Liberty Mutual, Travelers) for 50-80% of their job volume. Each carrier has different compliance requirements: response time SLAs (acknowledge within 1-2 hours, on-site within 4-24 hours), documentation standards (photo quantity and format, moisture reading frequency, daily updates), Xactimate estimating rules (approved line items, pricing databases, supplement formatting), and customer satisfaction thresholds. A mid-size restoration company may participate in 5-8 carrier programs simultaneously, each with different scorecards and reporting periods. Falling below threshold on any single metric can trigger probation, reduced referral volume, or program termination.

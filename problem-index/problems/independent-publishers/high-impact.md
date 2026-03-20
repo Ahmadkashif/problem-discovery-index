@@ -3,7 +3,7 @@
 **Industry:** [[independent-publishers|Independent Publishers]]
 **Type:** High Impact
 **One-liner:** Acquisitions editors can predict a manuscript's market trajectory from five pages of prose — encoding that tacit literary-commercial judgment into a model transforms how independent publishers allocate their most constrained resource: acquisition slots.
-**Tags:** #bert #transformer #regression #nlp #tabular-ml #tacit-knowledge-ml #revenue-impact
+**Tags:** #bert #transformers #transfer-learning #attention-mechanisms #word-embeddings #linear-regression #feature-engineering #evaluation-metrics #loss-functions #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 An experienced acquisitions editor reads the first five pages of a submission and forms a reliable intuition about whether the manuscript has commercial potential — assessing voice quality, narrative momentum, prose rhythm, and market positioning simultaneously. This pattern recognition is built across thousands of evaluated manuscripts and hundreds of tracked outcomes, yet the editor cannot fully articulate the decision rules. Independent publishers receive 2,000-10,000 submissions annually but can only acquire 15-40 titles, meaning 99%+ of editorial reading time is spent on manuscripts that will be rejected, while the small number of acquisitions carry outsized financial risk because each title represents a significant fraction of annual revenue.

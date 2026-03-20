@@ -3,7 +3,7 @@
 **Industry:** [[engineering-consultants|Engineering Consultants]]
 **Type:** Worker Life Changing
 **One-liner:** EITs reclaim time from repetitive drafting tasks and actually learn engineering judgment instead of becoming expensive copy machines.
-**Tags:** #cnn #automation #computer-vision #worker-facing
+**Tags:** #cnns #object-detection #transfer-learning #loss-functions #backpropagation #gradient-descent #evaluation-metrics #worker-facing #automation
 
 ## The Problem
 Engineers-in-Training spend 60-70% of their working hours on repetitive CAD production — drawing detail sheets, placing standard annotations, updating title blocks, adjusting viewport scales, and copying typical details from past projects into new drawing sets. A civil EIT producing a grading plan may spend 8 hours placing spot elevations, contour labels, and drainage arrows that follow the same placement logic on every project. Structural EITs redraw standard connection details that differ only in member sizes and bolt patterns. This work is necessary but formulaic, and it crowds out the design thinking and engineering judgment development that the EIT role is supposed to provide.

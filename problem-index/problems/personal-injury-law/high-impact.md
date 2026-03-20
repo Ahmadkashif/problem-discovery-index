@@ -3,7 +3,7 @@
 **Industry:** [[personal-injury-law|Personal Injury Law Firms]]
 **Type:** High Impact
 **One-liner:** A paralegal who currently spends 20-40 hours reading, paginating, and chronologizing medical records for a complex PI case gets a structured injury timeline, pre-existing condition flags, and causation gap analysis in under an hour — then spends their time evaluating the output rather than producing it.
-**Tags:** #bert #named-entity-recognition #text-classification #nlp #revenue-impact
+**Tags:** #bert #transfer-learning #loss-functions #evaluation-metrics #cross-validation #feature-engineering #revenue-impact
 
 ## The Problem
 Medical record review is the foundational task of a personal injury case — without a complete, accurate chronology of the client's injuries, treatments, providers, and pre-existing conditions, neither case valuation nor demand letter writing is possible. For a complex auto accident case with hospitalization, surgery, and 18 months of follow-up care, records may span 500-2,000 pages across 10-15 providers. A paralegal reads every page: identifying the relevant clinical events (emergency diagnosis, surgical procedures, prescribed medications, therapy outcomes, pain scores, disability ratings), noting dates, flagging gaps in treatment that the defense will argue indicate the client had recovered, identifying any pre-existing conditions to the same body region that will be used to apportion damages, and building a chronology document that the attorney will use for the demand letter and eventually for trial preparation. This process takes 20-40 hours per complex case and is the primary bottleneck between intake and case evaluation.

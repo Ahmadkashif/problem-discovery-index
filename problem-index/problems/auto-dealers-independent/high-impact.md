@@ -3,7 +3,7 @@
 **Industry:** [[auto-dealers-independent|Independent Auto Dealers]]
 **Type:** High Impact
 **One-liner:** Dealers stop overpaying at auction and stop sitting on cars that won't move, reclaiming $500-1,500 per unit in margin that currently bleeds out through bad buys and slow turns.
-**Tags:** #gradient-boosting #regression #time-series-forecasting #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #probability-distributions #revenue-impact
 
 ## The Problem
 Independent dealers acquire 80% or more of their inventory through wholesale auctions (Manheim, ADESA, local lanes, online simulcast). A dealer principal with a 200-unit lot makes 400-600 buy decisions per year, each one a bet on what a specific VIN will retail for in their local market and how many days it will take. Overpaying by $500 per car — easily done when auction energy runs high and comparable data is stale — destroys $100K+ in annual gross profit. Equally damaging is buying cars with 60+ day market supplies that sit on the lot accruing $35-50/day in floorplan interest while depreciating. The best dealers develop an intuition for local demand patterns, but that intuition doesn't scale and disappears when the owner steps away.

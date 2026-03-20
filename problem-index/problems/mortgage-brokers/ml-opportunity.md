@@ -6,7 +6,7 @@
 ---
 
 ## 1. Lender Approval Prediction & Ranking (Tacit Knowledge Capture)
-#gradient-boosting #ranking #tabular-ml #tacit-knowledge-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #probability-distributions #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Experienced mortgage brokers intuitively match borrower profiles to the right wholesale lender from a panel of 30-50 options, weighing credit nuances, lender overlays, current appetite, and turn times in a judgment that takes years to develop and cannot be articulated as rules. This tacit expertise must be captured as a ranking model.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Borrower Fall-Through Prediction
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** 20-35% of mortgage applications that reach processing stage fall through before closing — borrowers find a better rate, fail to provide documents, lose qualification due to job changes, or simply go dark. Brokers invest 10-20 hours of processor time per file before discovering it won't close.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Rate Lock Timing Optimization
-#lstm #time-series-forecasting #tabular-ml #revenue-impact
+#lstms-and-grus #time-series-forecasting #rnns #backpropagation #gradient-descent #loss-functions #evaluation-metrics #expectation-variance-covariance #revenue-impact
 
 **Problem statement:** Brokers must decide daily whether to lock or float each loan in their pipeline. The decision depends on rate direction forecasts, days to expected closing, borrower rate sensitivity, and lock expiration costs — but brokers currently decide by gut.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Referral Source ROI Prediction
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #linear-regression #decision-trees #feature-engineering #cross-validation #evaluation-metrics #descriptive-statistics #revenue-impact
 
 **Problem statement:** Mortgage brokers spend 15-30% of revenue on referral relationships (real estate agents, financial planners, builders, past clients) but have no systematic way to predict which referral sources will produce closed loans vs. unqualified leads. Marketing spend is allocated by relationship warmth, not data.
 

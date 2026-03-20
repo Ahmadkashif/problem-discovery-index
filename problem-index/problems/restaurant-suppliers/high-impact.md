@@ -3,7 +3,7 @@
 **Industry:** [[restaurant-suppliers|Restaurant Suppliers]]
 **Type:** High Impact
 **One-liner:** Every lost restaurant account is $8K-$25K in annual revenue that walked to a competitor because nobody noticed the order frequency dropping.
-**Tags:** #gradient-boosting #binary-classification #time-series-forecasting #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #time-series-forecasting #feature-engineering #cross-validation #evaluation-metrics #gradient-descent #probability-distributions #bias-variance-tradeoff #revenue-impact
 
 ## The Problem
 Independent restaurant suppliers lose 5-12% of accounts annually, and most churn is invisible until the account stops ordering entirely. A typical rep manages 100+ accounts and cannot mentally track whether Tony's Pizzeria shifted from 3 orders/week to 1 order/week over the last month. By the time the rep notices, the chef has already established a relationship with a competing distributor. At a $20M independent distributor, 5% churn represents $1M in lost annual revenue — most of which was preventable if flagged 4-6 weeks earlier.

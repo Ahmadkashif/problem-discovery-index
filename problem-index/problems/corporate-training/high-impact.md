@@ -3,7 +3,7 @@
 **Industry:** [[corporate-training|Corporate Training]]
 **Type:** High Impact
 **One-liner:** L&D departments can finally prove — with statistical rigor — which training programs drive measurable business performance improvements, ending decades of "trust us, it works."
-**Tags:** #gradient-boosting #causal-inference #tabular-ml #revenue-impact #data-integration
+**Tags:** #gradient-boosting #causal-inference #decision-trees #feature-engineering #evaluation-metrics #hypothesis-testing #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact #data-integration
 
 ## The Problem
 Corporate training departments spend $1,200–$1,800 per employee annually on programs they cannot prove work. When a sales team completes a negotiation skills course and quota attainment rises 8% the following quarter, L&D cannot isolate the training effect from seasonal trends, new product launches, territory changes, or management turnover. The result is that training budgets are among the first line items cut in downturns — not because training doesn't work, but because no one can demonstrate that it does. L&D leaders present completion rates and learner satisfaction scores to CFOs who want causal evidence of business impact.

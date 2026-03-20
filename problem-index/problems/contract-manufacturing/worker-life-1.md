@@ -3,7 +3,7 @@
 **Industry:** [[contract-manufacturing|Contract Manufacturing]]
 **Type:** Worker Life
 **One-liner:** Process engineers responding to SPC out-of-control alarms need rapid triage — which alarms require immediate process intervention, which can wait for end-of-shift review, and what the most likely root cause is — rather than individually investigating every alarm as it fires during high-volume production.
-**Tags:** #gradient-boosting #multiclass-classification #tabular-ml #automation #worker-facing
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #automation #worker-facing
 
 ## The Problem
 

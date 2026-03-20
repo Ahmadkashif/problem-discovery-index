@@ -6,7 +6,7 @@
 ---
 
 ## 1. Patient Mobility and Trip Time Assessment from Profile Data
-#gradient-boosting #regression #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #probability-distributions #tacit-knowledge-ml
 
 **Problem statement:** Experienced NEMT dispatchers read a patient's name, address, facility destination, appointment type, and any prior trip notes — then instantly estimate the correct vehicle type, required equipment, expected load/unload time, and total trip duration. This judgment integrates dozens of implicit signals: a dialysis patient at a specific clinic means a wheelchair and 12-minute load time because that building has no ramp and uses a side entrance; a patient listed as "ambulatory" but going to an oncology center likely needs extra time because chemo fatigue slows them; a bariatric patient at a second-floor walk-up means a stretcher crew. New dispatchers lack this internalized knowledge and consistently under-estimate trip times by 20-40%, causing cascading late arrivals across entire routes.
 
@@ -25,7 +25,7 @@
 ---
 
 ## 2. Patient No-Show Prediction
-#gradient-boosting #binary-classification #tabular-ml
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff
 
 **Problem statement:** 15-20% of scheduled NEMT trips result in patient no-shows, wasting driver time, creating route gaps, and stressing dispatchers who must re-sequence on the fly. Predicting which patients are likely to no-show allows proactive overbooking, pre-positioned backup routes, and targeted patient reminder outreach.
 
@@ -44,7 +44,7 @@
 ---
 
 ## 3. Trip Duration Prediction by Patient, Facility, and Conditions
-#gradient-boosting #regression #tabular-ml
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #confidence-intervals #bias-variance-tradeoff #gradient-descent
 
 **Problem statement:** Route optimization engines require accurate trip duration estimates, but NEMT trip times are far more variable than standard logistics due to patient-specific factors (mobility level, cognitive state, equipment needs), facility-specific factors (parking, entrance accessibility, elevator wait times), and condition-specific factors (weather affecting wheelchair loading, traffic patterns near hospital campuses at shift change). Current systems use static time estimates that are wrong by 20-40% on individual trips.
 
@@ -63,7 +63,7 @@
 ---
 
 ## 4. Reinforcement Learning Route Optimizer with Dynamic Re-Planning
-#reinforcement-learning #regression #tabular-ml #workflow-orchestration
+#markov-decision-processes #dynamic-programming #policy-gradient-methods #gradient-boosting #evaluation-metrics #optimization-fundamentals #expectation-variance-covariance #workflow-orchestration
 
 **Problem statement:** Given a set of trip requests with predicted durations, vehicle fleet with heterogeneous capabilities, and hard constraints (appointment windows, mobility compatibility, Medicaid shared-ride rules, maximum detour limits), find the route assignment that maximizes on-time performance and fleet utilization — and re-optimize in real time as no-shows, cancellations, and add-ons arrive throughout the day.
 

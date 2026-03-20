@@ -3,7 +3,7 @@
 **Industry:** [[property-management|Property Management]]
 **Type:** High Impact
 **One-liner:** Property managers who rely on tenant renewal decisions made at the lease expiration date — with no early warning of which tenants are at risk of non-renewal — get a 90-day renewal probability score for every upcoming lease expiration, enabling proactive engagement that reduces vacancy turnover costs.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #conditional-probability-and-bayes-theorem #probability-distributions #revenue-impact
 
 ## The Problem
 

@@ -6,7 +6,7 @@
 ---
 
 ## 1. Hands-On Skill Proficiency Assessment from Performance Observation
-#cnn #multiclass-classification #computer-vision #tacit-knowledge-ml
+#cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #optimization-fundamentals #tacit-knowledge-ml
 
 **Problem statement:** Experienced trade instructors watch a student perform a task — welding a joint, wiring a panel, bending conduit, cutting tile — and know within seconds whether the work is job-ready. This judgment integrates visual cues (bead consistency, wire routing symmetry, cut straightness), body mechanics (hand steadiness, posture, tool angle), and process adherence (sequence of operations, safety compliance) into a holistic assessment the instructor cannot fully articulate. The goal is to capture this tacit evaluation in a vision model that provides consistent, explainable competency scores.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Student Completion Risk Prediction
-#gradient-boosting #binary-classification #tabular-ml #quick-win
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #bias-variance-tradeoff #gradient-descent #quick-win
 
 **Problem statement:** Vocational programs have 30-50% dropout rates, with most attrition occurring in the first 6 weeks. Schools need early warning to intervene with tutoring, schedule adjustments, or financial aid counseling before a student disappears.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Employer-Student Match Scoring
-#gradient-boosting #ranking #tabular-ml #data-integration
+#gradient-boosting #decision-trees #feature-engineering #cross-validation #evaluation-metrics #bias-variance-tradeoff #gradient-descent #data-integration
 
 **Problem statement:** Career services coordinators match graduates to employers based on geography and program completion — missing fit signals like specific skill strengths, employer culture, shift preferences, transportation access, and historical retention patterns. The result is poor matches that don't stick: 20-30% of placements fail within 90 days.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Curriculum Effectiveness Analysis from Placement Outcomes
-#bert #text-classification #regression #nlp #tabular-ml
+#bert #transfer-learning #word-embeddings #attention-mechanisms #linear-regression #feature-engineering #evaluation-metrics #entropy-cross-entropy-kl-divergence
 
 **Problem statement:** Program directors cannot answer "which curriculum changes actually improved employment outcomes?" because there's no structured link between specific course content, student competency development, and post-graduation placement success. Curriculum changes are made based on anecdote and evaluated by vibes.
 

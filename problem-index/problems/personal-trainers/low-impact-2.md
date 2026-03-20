@@ -3,7 +3,7 @@
 **Industry:** [[personal-trainers|Personal Trainers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Trainers want to help clients with nutrition but risk scope-of-practice violations; existing nutrition apps know nothing about training context or legal boundaries.
-**Tags:** #llm #text-generation #nlp #compliance
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #word-embeddings #entropy-cross-entropy-kl-divergence #compliance
 
 ## The Problem
 Clients constantly ask their trainer for nutrition advice — meal plans, supplement recommendations, calorie targets, macro splits. Trainers without a registered dietitian (RD) credential cannot legally prescribe meal plans or provide medical nutrition therapy in most US states, but the line between "general nutrition education" (permitted) and "individualized dietary counseling" (restricted) is blurry. Most trainers either avoid the topic entirely (losing a major value-add) or wing it with generic advice that may cross legal boundaries, especially when working with clients who have diabetes, eating disorders, or food allergies.

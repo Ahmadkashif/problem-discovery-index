@@ -3,7 +3,7 @@
 **Industry:** [[catering-companies|Catering Companies]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Proposal-to-BEO conversion and kitchen production planning already exist in catering software, but none translate a sales proposal into a sequenced kitchen production plan that accounts for multi-event days, shared prep windows, and equipment constraints.
-**Tags:** #llm #text-generation #nlp #workflow-orchestration
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #workflow-orchestration
 
 ## The Problem
 When a catering sales manager closes a deal, the proposal — guest count, menu selections, service style, dietary notes, venue details, timeline — must be translated into a Banquet Event Order (BEO) and then into a kitchen production plan: what gets prepped when, which station handles which items, how prep overlaps across events sharing the same kitchen on the same day. At a busy caterer running 3-5 events per day, the executive chef or kitchen manager manually builds production plans by reading through each BEO, mentally sequencing prep tasks by cook time, cold hold limits, equipment availability, and staff skill assignments. This translation from sales document to kitchen production schedule takes 45-90 minutes per event day and is repeated weekly.

@@ -3,7 +3,7 @@
 **Industry:** [[independent-restaurants|Independent Restaurants]]
 **Type:** Worker Life Changing
 **One-liner:** Line cooks get back the ability to sustain a career past 35 without destroying their bodies, their relationships, or their mental health.
-**Tags:** #lstm #anomaly-detection #signal-processing #worker-facing
+**Tags:** #lstms-and-grus #rnns #backpropagation #gradient-descent #loss-functions #evaluation-metrics #time-series-forecasting #descriptive-statistics #worker-facing
 
 ## The Problem
 Line cooks in independent restaurants routinely work 10-14 hour shifts in environments exceeding 100-110°F at the station, performing repetitive motions (chopping, plating, sauteing) that cause chronic wrist, shoulder, and lower back injuries. The work culture normalizes verbal abuse, unpredictable schedule changes, and working through injuries because calling out means the line is short and the remaining cooks absorb the load. There is no systematic monitoring of physical workload, heat exposure, or shift intensity — a cook might work five consecutive 12-hour shifts on the saute station during a busy week with no one tracking cumulative fatigue. Industry turnover exceeds 75% annually, and the average line cook career lasts 5-8 years before physical breakdown or burnout forces a pivot to lower-paying work or leaving food service entirely.

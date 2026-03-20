@@ -6,7 +6,7 @@
 ---
 
 ## 1. Data Quality Issue Prediction from Dataset Characteristics
-#isolation-forest #gradient-boosting #anomaly-detection #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #feature-engineering #evaluation-metrics #cross-validation #descriptive-statistics #probability-distributions #bias-variance-tradeoff #hypothesis-testing #tacit-knowledge-ml
 
 **Problem statement:** Senior analytics consultants can glance at a new dataset — its column names, data types, null rates, value distributions, table relationships — and predict with high accuracy where data quality issues will surface, which joins will produce unexpected results, and which columns encode undocumented business logic. This tacit knowledge, built across hundreds of engagements, is the single most valuable and least transferable skill in the profession. The goal is to train a model that replicates this expert assessment by learning from historical data profiling sessions and the issues they ultimately uncovered.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Analysis Approach Recommendation Engine
-#gradient-boosting #transformer #multiclass-classification #tabular-ml #nlp
+#gradient-boosting #transformers #bert #feature-engineering #cross-validation #evaluation-metrics #word-embeddings #transfer-learning #attention-mechanisms
 
 **Problem statement:** Given a client's business question (natural language), their available data assets (schema + profiles), and the engagement constraints (timeline, budget, analyst skill set), predict which analytical approach will yield actionable results — e.g., cohort analysis vs. regression modeling vs. A/B test design vs. simple descriptive dashboards. Senior consultants make this call in the scoping phase; juniors often choose an approach that is either too ambitious for the data quality or too simplistic for the business question.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Project Effort Estimation from Data Characteristics
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #confidence-intervals #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Analytics consulting firms systematically underestimate or overestimate project effort, leading to either margin erosion (underestimation) or lost bids (overestimation). The goal is to predict total engagement hours from pre-engagement signals: the client's data complexity (number of sources, schema messiness, data volume), the analytical deliverables requested, and the team composition. Currently, principals estimate effort based on personal experience and heuristics like "data cleaning is always 2x what you think."
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Client Engagement Health Scoring
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Consulting engagements go off-track gradually — scope creep accumulates, client responsiveness declines, deliverable feedback cycles lengthen — but these signals are only noticed by the engagement lead (if they are paying attention) and typically only after the damage is done. The goal is a real-time health score for each active engagement that predicts the probability of a negative outcome (budget overrun, timeline slip, client dissatisfaction, non-renewal) from behavioral and operational signals.
 

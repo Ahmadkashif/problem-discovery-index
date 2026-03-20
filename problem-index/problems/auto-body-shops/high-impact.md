@@ -3,7 +3,7 @@
 **Industry:** [[auto-body-shops|Auto Body Shops]]
 **Type:** High Impact
 **One-liner:** Every estimate accounts for what's behind the panel before the panel comes off — because experienced estimators already know, and now the model does too.
-**Tags:** #cnn #regression #computer-vision #tacit-knowledge-ml #revenue-impact
+**Tags:** #cnns #linear-regression #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #matrix-algebra #tacit-knowledge-ml #revenue-impact
 
 ## The Problem
 When a car arrives with front-end collision damage, an experienced estimator looks at the external deformation pattern — the depth of crush, the direction of impact, the way the bumper cover folded, the gap misalignment between panels — and mentally predicts what's damaged behind the visible surface. They know that a 15mph offset frontal impact on a 2019 Camry typically bends the radiator support, cracks the condenser, and tweaks the upper rail — even before touching the vehicle. This tacit knowledge developed over thousands of teardowns means their initial estimates are 80-90% accurate. A new estimator writes for what they can see, missing 30-50% of actual damage, triggering supplements that delay repairs by 3-7 days.

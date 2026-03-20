@@ -3,7 +3,7 @@
 **Industry:** [[engineering-consultants|Engineering Consultants]]
 **Type:** High Impact
 **One-liner:** Firms stop discovering they lost money on a project only after the final invoice goes out.
-**Tags:** #gradient-boosting #regression #anomaly-detection #tabular-ml #revenue-impact
+**Tags:** #gradient-boosting #feature-engineering #evaluation-metrics #time-series-forecasting #cross-validation #probability-distributions #bias-variance-tradeoff #gradient-descent #revenue-impact
 
 ## The Problem
 Engineering firms quote fixed fees based on estimated hours per discipline, then track actual hours in timesheet systems that nobody reviews until month-end billing — or worse, project closeout. Scope creep is the primary margin killer: a client asks the structural engineer to "just check one more load case" or the civil team to "add an alternate stormwater layout," and the PM agrees without logging a change order. Across a portfolio of 20-50 active projects, a 15-person firm can silently lose $200K-$500K annually in unbilled scope expansion.

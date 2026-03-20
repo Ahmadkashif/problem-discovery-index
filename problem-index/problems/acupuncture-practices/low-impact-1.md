@@ -3,7 +3,7 @@
 **Industry:** [[acupuncture-practices|Acupuncture Practices]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Medical billing software can submit claims, but it doesn't know that acupuncture CPT 97810 (initial 15 minutes without electrical stimulation) can only be billed once per session, that 97811 is the add-on for each additional 15 minutes, that most carriers cap at 20-26 visits per year, or that California and New York have fundamentally different scope-of-practice rules affecting billable services.
-**Tags:** #llm #text-generation #nlp #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #compliance
 
 ## The Problem
 Acupuncture insurance billing sits at the intersection of a rapidly expanding coverage mandate (39 states plus DC now require some form of acupuncture coverage) and a profession that historically operated on cash-pay. Most acupuncturists received minimal billing training in school. The CPT code set is small (97810-97814) but nuanced: 97810 is initial needling without electrical stimulation (one unit per session), 97811 is each additional 15 minutes without stimulation, 97813/97814 are the equivalents with electrical stimulation. Many practitioners underbill by using only 97810 when the session length and technique qualify for additional units. Carrier-specific rules vary wildly: some require referral from an MD, some accept self-referral; some cover only specific ICD-10 diagnoses (chronic low back pain under the ACA mandate), some cover broadly; visit limits range from 12 to 52 per year.

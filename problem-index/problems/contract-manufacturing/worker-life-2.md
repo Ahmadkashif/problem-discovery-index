@@ -3,7 +3,7 @@
 **Industry:** [[contract-manufacturing|Contract Manufacturing]]
 **Type:** Worker Life
 **One-liner:** Manufacturing engineers generating quotes for new programs spend 2-4 days building cost models from first principles for each bid — when the CM already has years of actual cost performance data on similar programs that could generate a data-driven cost estimate in minutes.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing #revenue-impact
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #confidence-intervals #bias-variance-tradeoff #worker-facing #revenue-impact
 
 ## The Problem
 

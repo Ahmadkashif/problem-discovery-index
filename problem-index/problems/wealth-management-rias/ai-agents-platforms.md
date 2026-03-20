@@ -5,7 +5,7 @@
 ---
 
 ## 1. Client Communication Monitor Agent
-#ai-agent #nlp #revenue-impact #tacit-knowledge-ml
+#ai-agent #bert #word-embeddings #attention-mechanisms #feature-engineering #evaluation-metrics #tacit-knowledge-ml #revenue-impact
 
 **Concept:** An always-on agent that continuously monitors all client communication channels — email, CRM notes, call logs, text messages — and surfaces behavioral anomalies in real time. Unlike a batch scoring model, this agent maintains a running behavioral baseline per client, detects deviations within hours, and autonomously drafts a recommended advisor response with contextual talking points tailored to the specific anxiety signals detected. It escalates high-confidence panic-risk alerts via push notification to the advisor's phone.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Meeting Prep & Follow-Up Agent
-#ai-agent #data-integration #automation #worker-facing
+#ai-agent #large-language-models #attention-mechanisms #transformers #data-integration #automation #worker-facing
 
 **Concept:** An autonomous agent triggered by calendar events that assembles a complete client briefing document by pulling from 4-6 systems (portfolio management, financial planning, CRM, custodian, document vault), synthesizing the data into a structured one-page brief, and — after the meeting — listening to the meeting transcript to auto-generate follow-up action items, updated CRM notes, and client-facing summary emails. The agent handles the full meeting lifecycle: prep, documentation, and follow-through.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Compliance Audit Preparation Agent
-#ai-agent #compliance #automation #nlp
+#ai-agent #large-language-models #bert #transfer-learning #attention-mechanisms #compliance #automation
 
 **Concept:** A compliance-focused agent that continuously maintains "exam readiness" by monitoring the firm's document corpus against a dynamic regulatory requirements matrix. Rather than scrambling to assemble documentation when an SEC or state exam is announced, this agent keeps a live audit-readiness dashboard, identifies documentation gaps as they emerge, auto-generates required disclosures and policy updates when regulations change, and pre-assembles exam response packages that can be delivered within 48 hours of an exam notification letter.
 

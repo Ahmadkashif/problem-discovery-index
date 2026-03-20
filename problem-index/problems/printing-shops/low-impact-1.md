@@ -3,7 +3,7 @@
 **Industry:** [[printing-shops|Printing Shops]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Enterprise print MIS platforms like EFI Pace and Avanti Slingshot provide comprehensive job tracking, estimating, and scheduling — but they cost $30,000-$100,000+ to implement and are designed for shops with 50+ employees, leaving the majority of commercial print shops (5-25 employees) running on QuickBooks, spreadsheets, and whiteboards because no affordable MIS understands print-specific workflows like press sheets, impositions, and finishing operations.
-**Tags:** #llm #text-generation #nlp #workflow-orchestration
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #feature-engineering #workflow-orchestration
 
 ## The Problem
 A small commercial print shop running 50-200 jobs per month needs to track each job through a production workflow: prepress (file receipt, preflight, proofing, plate-making or digital RIP), press (scheduling on the appropriate press, makeready, production run), finishing (cutting, folding, binding, coating, packaging), and shipping. Each stage has dependencies (can't print before plates are ready, can't bind before printing is complete) and resource constraints (the folder can only run one job at a time). Small shops track this workflow on whiteboards, in spreadsheets, or in the owner's head — leading to missed deadlines, jobs sitting idle between stages, and the owner spending 1-2 hours daily managing production status rather than selling or producing.

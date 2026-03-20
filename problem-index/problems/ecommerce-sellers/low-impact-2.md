@@ -3,7 +3,7 @@
 **Industry:** [[ecommerce-sellers|E-Commerce Sellers]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Amazon's ad console handles one campaign at a time; sellers managing 100+ campaigns across 500 SKUs need algorithmic bid management that understands profit margins, not just ACOS.
-**Tags:** #gradient-boosting #regression #tabular-ml #automation
+**Tags:** #gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #gradient-descent #bias-variance-tradeoff #automation
 
 ## The Problem
 A seller with 300 SKUs on Amazon typically runs 150-400 PPC campaigns (Sponsored Products, Sponsored Brands, Sponsored Display) with thousands of keyword targets. Amazon's ad console provides campaign-level metrics but no way to optimize across the entire portfolio simultaneously. The key metric sellers care about — true profit after ad spend — requires combining PPC data with COGS, FBA fees, and return rates, which Amazon's console doesn't do. PPC managers spend 2-4 hours daily adjusting bids manually, often making changes based on insufficient data (a keyword with 50 clicks isn't statistically significant for conversion rate estimation).

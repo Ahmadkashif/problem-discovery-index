@@ -3,7 +3,7 @@
 **Industry:** [[ecommerce-sellers|E-Commerce Sellers]]
 **Type:** Worker Life Changing
 **One-liner:** Sellers and their small CS teams stop drowning in 50-200 daily messages across Amazon, Shopify, email, and social — getting hours back each day through intelligent auto-response and triage.
-**Tags:** #llm #text-generation #nlp #worker-facing #automation
+**Tags:** #large-language-models #transformers #attention-mechanisms #word-embeddings #transfer-learning #evaluation-metrics #worker-facing #automation
 
 ## The Problem
 A mid-size e-commerce seller (doing $1M-$10M annually) receives customer inquiries from Amazon Buyer-Seller Messaging, Shopify inbox, email, Instagram DMs, and Facebook Messenger. Amazon mandates a 24-hour response SLA — missing it damages account health metrics. Messages range from "where is my order" (60% of volume, answerable from tracking data) to product-specific questions requiring actual product knowledge, to return/refund requests requiring policy decisions. Sellers either handle this themselves (2-3 hours/day) or hire 1-2 part-time CS reps who lack product expertise and escalate constantly.

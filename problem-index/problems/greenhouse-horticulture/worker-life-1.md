@@ -3,7 +3,7 @@
 **Industry:** [[greenhouse-horticulture|Greenhouse Horticulture]]
 **Type:** Worker Life Changing
 **One-liner:** IPM scouts spend 4-6 hours daily walking greenhouse ranges inspecting plants one by one for pests and diseases that an experienced scout spots in seconds but a new hire misses entirely.
-**Tags:** #cnn #multiclass-classification #computer-vision #worker-facing #tacit-knowledge-ml
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #evaluation-metrics #gradient-descent #cross-validation #optimization-fundamentals #worker-facing #tacit-knowledge-ml
 
 ## The Problem
 Integrated Pest Management (IPM) scouts are responsible for walking every greenhouse section weekly, flipping leaves, checking growing tips, and inspecting root zones for signs of thrips, whitefly, fungus gnats, spider mites, botrytis, powdery mildew, pythium, and dozens of other pests and diseases. In a 5-acre greenhouse, this means physically inspecting thousands of plants per day. An experienced scout can spot the silvery stippling of thrips damage or the early webbing of spider mites from several feet away — a skill that takes 2-3 years to develop. New scouts miss early infestations that become expensive outbreaks, while experienced scouts burn out from the repetitive physical labor of bending, lifting, and walking concrete floors for hours.

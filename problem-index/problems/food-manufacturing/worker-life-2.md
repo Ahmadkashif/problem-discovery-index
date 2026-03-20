@@ -3,7 +3,7 @@
 **Industry:** [[food-manufacturing|Food Manufacturing]]
 **Type:** Worker Life Changing
 **One-liner:** Line inspectors who stand at a fixed station for 8-hour shifts performing continuous visual assessment of product passing at high speed develop chronic neck, shoulder, and eye strain from the static posture and repetitive focal-distance locking that the job demands.
-**Tags:** #cnn #binary-classification #computer-vision #worker-facing
+**Tags:** #cnns #transfer-learning #loss-functions #backpropagation #gradient-descent #evaluation-metrics #worker-facing
 
 ## The Problem
 Manual quality inspection on a food production line is one of the most ergonomically punishing jobs in manufacturing. The inspector stands at a fixed position on the line, eyes locked at a consistent focal distance (18-36 inches), scanning product moving at 100-400 units per minute. The task requires sustained visual attention with minimal body movement — the inspector cannot look away, stretch, or shift focus without missing product. Over an 8-hour shift, this produces chronic neck strain (from fixed head position), shoulder tension (from static arm positioning when rejecting product), and eye fatigue (from sustained close-focus tracking of moving objects under fluorescent or LED lighting). OSHA data shows repetitive strain injuries in food manufacturing inspection roles at 2-3x the rate of other production floor positions. Turnover in inspection positions runs 40-60% annually because workers transfer to other roles or leave the plant entirely to escape the physical toll.

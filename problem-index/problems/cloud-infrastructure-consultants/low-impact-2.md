@@ -3,7 +3,7 @@
 **Industry:** [[cloud-infrastructure-consultants|Cloud Infrastructure Consultants]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic CSPM tools flag thousands of findings across CIS, SOC 2, and HIPAA benchmarks but cannot prioritize by client risk context or map findings to the specific remediation steps the consulting firm uses.
-**Tags:** #gradient-boosting #binary-classification #tabular-ml #compliance
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #logistic-regression #bias-variance-tradeoff #probability-distributions #compliance
 
 ## The Problem
 Cloud consultants managing client environments for regulated industries (healthcare, finance, government) must continuously validate compliance posture against CIS benchmarks, SOC 2 controls, HIPAA requirements, and PCI DSS standards. A typical client environment generates 500-2,000 compliance findings across AWS Config, Azure Policy, and GCP Security Command Center. Engineers spend 6-10 hours per client per month triaging these findings — determining which are true risks, which are accepted exceptions, and which are false positives from the tool not understanding the architecture context (e.g., a public-facing ALB flagged as a "publicly accessible resource" violation when it is intentionally public).

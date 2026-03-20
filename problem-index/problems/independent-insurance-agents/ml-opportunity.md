@@ -6,7 +6,7 @@
 ---
 
 ## 1. Carrier Appetite Prediction for Commercial Lines Submissions
-#gradient-boosting #ranking #tabular-ml #tacit-knowledge-ml #revenue-impact
+#gradient-boosting #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #gradient-descent #tacit-knowledge-ml #revenue-impact
 
 **Problem statement:** Experienced producers carry a mental model of which carriers are actively writing which classes of commercial business in which geographies — knowledge built from years of submissions, declinations, and underwriter conversations. This tacit knowledge determines whether a submission gets quoted in 3 days or declined after 2 weeks of waiting. The goal is to capture and encode this expertise into a model that ranks carriers by likelihood of quoting competitively for a given risk profile.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Client Retention Risk Scoring
-#gradient-boosting #binary-classification #tabular-ml #revenue-impact
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #revenue-impact
 
 **Problem statement:** Agencies lose 8-15% of their book annually to competitor agencies, direct carriers, or insurtechs, but the signals of impending departure — rate shopping, reduced communication, competitor quote requests — are scattered across emails, phone notes, and AMS activity logs. A model that identifies at-risk accounts 90-120 days before renewal enables proactive retention outreach.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Cross-Sell Opportunity Scoring
-#gradient-boosting #binary-classification #tabular-ml #recommendation #revenue-impact
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #maximum-likelihood-estimation #revenue-impact
 
 **Problem statement:** The average independent agency client holds 1.4 policies with the agency despite needing 3-5 coverage types. Producers lack a systematic way to identify which clients are most likely to purchase additional lines (umbrella, cyber, EPLI, inland marine) based on their existing coverage profile and business characteristics.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Claim Frequency Prediction for Risk Consulting
-#gradient-boosting #regression #tabular-ml #revenue-impact
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #probability-distributions #expectation-variance-covariance #revenue-impact
 
 **Problem statement:** Forward-thinking agencies are building risk consulting practices — advising commercial clients on loss prevention to reduce premiums and strengthen carrier relationships. But identifying which clients would benefit most from risk consulting (i.e., which are likely to experience above-average claim frequency) requires actuarial-level analysis that small agencies cannot perform manually.
 

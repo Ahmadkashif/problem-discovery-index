@@ -3,7 +3,7 @@
 **Industry:** [[metal-fabrication|Metal Fabrication]]
 **Type:** Worker Life
 **One-liner:** CNC operators and estimators who track material utilization manually — logging remnant sizes in notebooks or spreadsheets, estimating nesting efficiency after the fact — need automated remnant inventory and nesting outcome tracking that identifies which job types systematically waste material and which remnant pieces can be reused on upcoming jobs.
-**Tags:** #gradient-boosting #regression #tabular-ml #worker-facing #automation #revenue-impact
+**Tags:** #gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #worker-facing #automation #revenue-impact
 
 ## The Problem
 

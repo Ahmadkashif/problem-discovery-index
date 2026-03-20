@@ -3,7 +3,7 @@
 **Industry:** [[physical-therapy|Physical Therapy]]
 **Type:** Worker Life Changing
 **One-liner:** Physical therapists stop spending 45-60 minutes per day crafting notes that satisfy insurance auditors, and instead document care naturally — with the medical necessity language generated from their clinical data.
-**Tags:** #worker-facing #ml-nlp #compliance
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #loss-functions #worker-facing #compliance
 
 ## The Problem
 PT documentation must serve two masters: clinical communication (what happened in the visit, what changed, what's the plan) and payer compliance (proving medical necessity to justify continued treatment). Payers audit PT notes looking for specific language patterns: measurable functional deficits, skilled interventions (not just "exercises"), progress toward specific goals, and justification for continued treatment. PTs are trained as clinicians, not documentation compliance experts, and spend 15-20 minutes per patient note trying to include the right language while also capturing clinical substance. Notes that are clinically excellent but miss payer-required language get denied; notes that satisfy payers but lack clinical detail are useless for continuity of care.

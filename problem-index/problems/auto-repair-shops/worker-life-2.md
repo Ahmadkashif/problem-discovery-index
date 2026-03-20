@@ -3,7 +3,7 @@
 **Industry:** [[auto-repair-shops|Auto Repair Shops]]
 **Type:** Worker Life Changing
 **One-liner:** Service advisors stop spending 60% of their day on phone calls and text messages, and start spending it on the consultative work that actually builds customer relationships.
-**Tags:** #llm #text-generation #nlp #worker-facing
+**Tags:** #large-language-models #transformers #attention-mechanisms #transfer-learning #word-embeddings #evaluation-metrics #worker-facing
 
 ## The Problem
 A service advisor at a busy shop manages 15-25 active repair orders simultaneously. Each requires multiple customer touchpoints: initial write-up, diagnosis update, repair authorization, parts delay notification, completion call, and follow-up. That's 60-125 communications per day — mostly phone calls and texts that take 3-5 minutes each. Advisors are simultaneously checking in new vehicles, writing estimates, and handling walk-in questions. The result is a constant state of interruption that prevents deep engagement with any single customer.

@@ -5,7 +5,7 @@
 ---
 
 ## 1. Training ROI Agent
-#ai-agent #causal-inference #data-integration #revenue-impact
+#ai-agent #causal-inference #gradient-boosting #hypothesis-testing #conditional-probability-and-bayes-theorem #data-integration #revenue-impact
 
 **Concept:** An autonomous agent that continuously monitors training program outcomes by connecting LMS completion data to business performance systems (CRM, ERP, HRIS) and produces causal impact estimates without requiring L&D staff to define analyses or run reports. The agent identifies natural experiments within the organization — departments that rolled out training at different times, employees who completed training early vs. late due to scheduling — and exploits these variations to estimate causal effects using difference-in-differences and synthetic control methods. It proactively surfaces findings: "The Q2 sales methodology training caused a statistically significant 6.2% increase in win rate (95% CI: 2.1%–10.3%) for the cohort that completed it, after controlling for territory quality and tenure."
 
@@ -17,7 +17,7 @@
 ---
 
 ## 2. Content Update Agent
-#ai-agent #llm #nlp #automation #worker-facing
+#ai-agent #large-language-models #transfer-learning #attention-mechanisms #word-embeddings #automation #worker-facing
 
 **Concept:** An always-on agent that monitors source-of-truth documents — product documentation repos, policy wikis, regulatory feeds, internal knowledge bases — and automatically detects when changes affect existing training content. When a product team pushes an update to a feature that appears in 6 different training modules, the agent identifies every affected slide, script paragraph, screenshot description, and assessment question across the catalog, generates draft updates with tracked changes, and queues them for instructional designer review in a single approval workflow. For text and narration scripts, updates are applied automatically upon approval. For screenshots and video segments, the agent generates reshoot task cards with exact timestamps and updated visual specifications.
 
@@ -29,7 +29,7 @@
 ---
 
 ## 3. Learner Path Agent
-#ai-agent #ai-platform #recommendation #ranking #data-integration #worker-facing
+#ai-agent #ai-platform #gradient-boosting #decision-trees #feature-engineering #large-language-models #data-integration #worker-facing
 
 **Concept:** A personalized learning concierge agent that each employee interacts with via chat (Slack, Teams, or LMS-embedded) to get dynamically generated learning paths aligned to their career goals, current skill gaps, and upcoming role requirements. Unlike static curriculum assignments by job title, the agent continuously updates recommendations based on assessment performance, manager feedback, peer benchmarking, and internal job posting requirements. An employee preparing for a promotion to engineering manager asks the agent for a plan; it analyzes the competency gap between their current role profile and the target role, identifies which skills are already covered by their training history, and builds a sequenced path of courses, mentorship pairings, and stretch assignments — pulling from both internal catalog and external platforms (LinkedIn Learning, Coursera for Business).
 

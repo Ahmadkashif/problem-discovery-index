@@ -5,7 +5,7 @@
 ---
 
 ## 1. Inventory Replenishment Agent
-#ai-agent #automation #revenue-impact
+#ai-agent #gradient-boosting #time-series-forecasting #feature-engineering #evaluation-metrics #automation #revenue-impact
 
 **Concept:** An autonomous agent that monitors POS inventory levels in real time, generates purchase orders when stock drops below model-predicted reorder points, and submits orders directly to vendor portals or wholesale marketplaces. The agent handles the full reorder cycle: detecting the need, selecting the vendor (based on price, lead time, and past reliability), drafting the PO, and routing it for one-click owner approval. For trusted vendors and routine SKUs, the owner can set it to fully autonomous mode — the agent orders without asking.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Local Marketing Autopilot Agent
-#ai-agent #automation #revenue-impact
+#ai-agent #large-language-models #causal-inference #feature-engineering #evaluation-metrics #automation #revenue-impact
 
 **Concept:** An agent that runs a store's entire local marketing operation: generates social media posts from product photos and sales data, schedules and publishes them, creates and manages hyperlocal ad campaigns (Meta, Google, Nextdoor), sends personalized SMS/email campaigns to customer segments, and continuously optimizes spend allocation based on measured foot traffic and POS-attributed sales lift. The owner sets a monthly budget and brand guidelines; the agent does the rest.
 
@@ -35,7 +35,7 @@
 ---
 
 ## 3. Customer Engagement and Clienteling Agent
-#ai-agent #ai-platform #worker-facing
+#ai-agent #ai-platform #large-language-models #transformers #word-embeddings #evaluation-metrics #worker-facing
 
 **Concept:** A customer-facing and associate-facing agent that provides personalized product recommendations, answers product questions, and manages post-purchase follow-up. For customers: an SMS/web chat interface that responds to questions ("Do you have the blue version of that vase I bought last month?"), sends personalized restock reminders, and shares new arrival notifications based on purchase history. For associates: a real-time knowledge assistant that surfaces product details, cross-sell suggestions, and customer purchase history when an associate scans a product or identifies a returning customer.
 

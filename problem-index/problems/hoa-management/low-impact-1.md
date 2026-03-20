@@ -3,7 +3,7 @@
 **Industry:** [[hoa-management|HOA Management]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic object detection models can identify objects in photos, but don't know a specific community's CC&Rs — which vehicle types are prohibited, what fence color is required, which landscaping modifications need approval — the rules that vary community by community and define what counts as a violation.
-**Tags:** #cnn #object-detection #computer-vision #compliance #automation
+**Tags:** #cnns #object-detection #transfer-learning #loss-functions #backpropagation #gradient-descent #evaluation-metrics #compliance #automation
 
 ## The Problem
 

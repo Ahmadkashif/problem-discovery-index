@@ -3,7 +3,7 @@
 **Industry:** [[commercial-real-estate|Commercial Real Estate]]
 **Type:** Worker Life Changing
 **One-liner:** CRE brokers who spend 15-25 hours assembling an investment property offering memorandum — compiling financial summaries, market comparables, property description, and investment highlights into a formatted PDF — get the OM generated from the property data inputs in 2-3 hours of review rather than 15-25 hours of assembly.
-**Tags:** #llm #text-generation #nlp #automation #worker-facing
+**Tags:** #large-language-models #attention-mechanisms #transformers #transfer-learning #word-embeddings #automation #worker-facing
 
 ## The Problem
 

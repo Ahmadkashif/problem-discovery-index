@@ -3,7 +3,7 @@
 **Industry:** [[insurance-restoration|Insurance Restoration]]
 **Type:** Worker Life Changing
 **One-liner:** Restoration technicians stop walking into Category 3 water losses, mold-contaminated spaces, and asbestos-containing materials without real-time hazard assessment — because a system tells them what PPE they need before they enter, not after they've been exposed.
-**Tags:** #cnn #binary-classification #computer-vision #worker-facing
+**Tags:** #cnns #transfer-learning #object-detection #loss-functions #backpropagation #evaluation-metrics #gradient-descent #activation-functions #worker-facing
 
 ## The Problem
 Restoration technicians routinely enter environments with invisible hazards. A sewage backup (Category 3) requires full-face respirators, Tyvek suits, and decontamination protocols — but the water source isn't always obvious on arrival, especially when clean water and sewage have mixed. Mold behind walls releases spores when drywall is cut, and technicians may begin demo with dust masks before discovering extensive mold contamination requiring HEPA respirators. Pre-1980 buildings may contain asbestos in floor tiles, pipe insulation, popcorn ceilings, or joint compound — disturbed during demo without prior testing. Lead paint in pre-1978 homes creates dust during demolition. Technicians average 3-5 different job environments per day, each with different hazard profiles, and PPE decisions are made quickly on-site with limited information.

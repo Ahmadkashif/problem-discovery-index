@@ -3,7 +3,7 @@
 **Industry:** [[credit-unions|Credit Unions]]
 **Type:** Worker Life Changing
 **One-liner:** Loan officers spend 45-90 minutes per exception loan writing narrative justifications that explain why a non-standard approval is sound — time reclaimed when an LLM drafts the underwriting memo from structured inputs the officer already has in their head.
-**Tags:** #llm #text-generation #nlp #worker-facing #compliance
+**Tags:** #large-language-models #transfer-learning #attention-mechanisms #transformers #entropy-cross-entropy-kl-divergence #worker-facing #compliance
 
 ## The Problem
 

@@ -3,7 +3,7 @@
 **Industry:** [[hr-consultants|HR Consultants]]
 **Type:** Worker Life Changing
 **One-liner:** Payroll admins stop living in fear of the mis-keyed deduction or wrong tax jurisdiction that triggers a correction cascade across three platforms.
-**Tags:** #gradient-boosting #anomaly-detection #tabular-ml #worker-facing
+**Tags:** #gradient-boosting #feature-engineering #evaluation-metrics #descriptive-statistics #probability-distributions #expectation-variance-covariance #cross-validation #worker-facing
 
 ## The Problem
 Payroll administrators at HR consulting firms process payroll for 20-40 clients on different platforms — Gusto for some, ADP Run for others, Paychex Flex for the rest — each with different interfaces, different pay schedules (weekly, biweekly, semi-monthly, monthly), different tax jurisdictions, and different deduction configurations. Every pay cycle, the admin manually enters or verifies hours, commission overrides, new hire additions, termination final pays, garnishment calculations, and benefits deductions. A single error — applying the wrong state unemployment rate, missing a mid-cycle address change that shifts tax jurisdiction, or double-deducting a 401(k) contribution — triggers a correction chain: amended payroll, revised tax filings, employee communication, and potentially a state agency notice. Admins process 300-500 individual paychecks per cycle across all clients.

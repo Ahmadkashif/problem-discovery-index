@@ -3,7 +3,7 @@
 **Industry:** [[pet-services|Pet Services]]
 **Type:** Low Impact (Customisation Opportunity)
 **One-liner:** Generic booking tools can schedule appointments, but they can't manage the interdependencies between daycare capacity, boarding check-ins, grooming appointments, and walk schedules — where a grooming appointment occupying a kennel space reduces boarding capacity, and a reactive dog in daycare changes which time slots are available for temperament tests.
-**Tags:** #gradient-boosting #regression #tabular-ml #workflow-orchestration
+**Tags:** #gradient-boosting #decision-trees #linear-regression #feature-engineering #cross-validation #evaluation-metrics #workflow-orchestration
 
 ## The Problem
 Multi-service pet facilities offer daycare, boarding, grooming, and sometimes walking/training — all sharing the same physical space, staff, and kennel runs. A boarding dog that also gets a bath occupies a grooming slot. A daycare group at capacity means new temperament tests must wait. A groomer running behind on a matted doodle delays the next three appointments and ties up a kennel space. Scheduling these interdependent services manually leads to constant conflicts: double-booked kennel runs, groomers waiting for daycare dogs to be pulled from play, boarding check-ins backed up because the front desk is processing grooming clients. Peak periods (Friday afternoon boarding check-in + Saturday morning grooming rush) create chaos.

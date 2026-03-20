@@ -3,7 +3,7 @@
 **Industry:** [[solar-installers|Solar Installers]]
 **Type:** Worker Life Changing
 **One-liner:** Solar site surveyors who photograph roof conditions, measure setbacks, document electrical panel specs, and assess structural suitability in a 45-60 minute site visit — then spend another 30-45 minutes writing up the survey report — get the survey report auto-generated from their photos and measurements, ready for the design team before the surveyor drives away.
-**Tags:** #llm #multimodal #automation #worker-facing #ocr
+**Tags:** #large-language-models #transformers #transfer-learning #attention-mechanisms #evaluation-metrics #automation #worker-facing
 
 ## The Problem
 

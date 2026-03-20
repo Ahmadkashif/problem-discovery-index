@@ -6,7 +6,7 @@
 ---
 
 ## 1. Employee Flight Risk Detection from Behavioral Signals
-#gradient-boosting #survival-analysis #tabular-ml #tacit-knowledge-ml
+#gradient-boosting #survival-analysis #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #maximum-likelihood-estimation #bias-variance-tradeoff #tacit-knowledge-ml
 
 **Problem statement:** Experienced HR consultants and managers develop an instinct for which employees are about to leave — they read subtle behavioral patterns: disengagement in meetings, PTO usage changes, LinkedIn profile updates, reduced initiative on new projects, shift in communication tone. An experienced HR consultant visiting a client site can walk through the office and identify 2-3 flight risks that the client's management hasn't noticed. This pattern recognition, built from observing hundreds of employee departures across dozens of client companies, is the most valuable retention intelligence an HR consultant provides. The goal is to capture and operationalize this tacit expertise into a model that continuously monitors behavioral signals across a consultant's entire client portfolio.
 
@@ -20,7 +20,7 @@
 ---
 
 ## 2. Employment Law Change Detection and Client Impact Classification
-#bert #text-classification #nlp #compliance #revenue-impact
+#bert #transformers #transfer-learning #word-embeddings #loss-functions #entropy-cross-entropy-kl-divergence #evaluation-metrics #compliance #revenue-impact
 
 **Problem statement:** Automatically ingest legislative, regulatory, and agency guidance updates from federal, state, and municipal sources, classify each as actionable vs. informational, extract the specific obligations (effective dates, headcount thresholds, industry applicability, required employer actions), and match them to affected clients in the consultant's portfolio.
 
@@ -34,7 +34,7 @@
 ---
 
 ## 3. Employee Turnover Risk Prediction for Client Workforces
-#gradient-boosting #binary-classification #tabular-ml #data-integration
+#gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #conditional-probability-and-bayes-theorem #bias-variance-tradeoff #data-integration
 
 **Problem statement:** Predict which employees across a consultant's client portfolio are at elevated risk of voluntary turnover in the next 90 days, enabling proactive retention interventions rather than reactive backfills.
 
@@ -48,7 +48,7 @@
 ---
 
 ## 4. Benefits Plan Optimization for SMB Clients
-#gradient-boosting #regression #tabular-ml #data-integration
+#gradient-boosting #linear-regression #feature-engineering #cross-validation #evaluation-metrics #optimization-fundamentals #expectation-variance-covariance #data-integration
 
 **Problem statement:** Given a client's workforce demographics, industry, geography, budget constraints, and current plan structure, recommend the benefits package configuration (health plan tier, dental/vision inclusion, retirement match rate, PTO policy) that maximizes employee satisfaction-adjusted retention while staying within budget.
 
@@ -62,7 +62,7 @@
 ---
 
 ## 5. Payroll Error Anomaly Detection Across Multi-Client Portfolios
-#gradient-boosting #anomaly-detection #tabular-ml #worker-facing
+#gradient-boosting #feature-engineering #evaluation-metrics #descriptive-statistics #probability-distributions #cross-validation #bias-variance-tradeoff #worker-facing
 
 **Problem statement:** Flag probable payroll errors before submission by detecting anomalous pay amounts, deduction configurations, and tax calculations relative to each employee's historical pattern and their client's payroll rules.
 
