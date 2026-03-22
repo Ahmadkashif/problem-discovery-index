@@ -1,0 +1,22 @@
+# Solar/EV/Storage Electrical Design Calculator
+
+**Niche:** [[niches/electrical-contractors/solar-ev-integration/profile|Solar & EV Integration]]
+**Industry:** [[industries/electrical-contractors|Electrical Contractors]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A system that takes a home's existing electrical panel configuration, desired solar array size, EV charger specification, and battery storage capacity, and produces a complete NEC-compliant electrical design — including whether the existing panel needs upgrading, conductor sizing, disconnect requirements, and permit-ready line diagrams.
+**Tags:** #gradient-boosting #feature-engineering #compliance #automation #evaluation-metrics #data-integration #workflow-orchestration
+
+## The Problem
+When a homeowner wants solar panels, an EV charger, and a battery storage system, the electrician must solve a multi-constraint design problem: Does the existing 200A panel have capacity for all three systems per NEC 220 load calculations? Does the solar backfeed comply with the 120% rule (NEC 705.12), or does the panel need a line-side tap or upgrade to 400A service? What conductor sizes are required for the PV system (NEC 690), the EV circuit (NEC 625), and the battery system (NEC 706)? Where should disconnects be placed, and what are their ratings? These calculations interact — adding solar backfeed affects the panel's available capacity for the EV charger, and battery storage changes the load calculation entirely. An experienced solar electrician does these calculations in 1-2 hours; an electrician new to solar/EV takes 4-8 hours and frequently makes errors that are caught during permit review, adding 2-4 weeks of delay.
+
+## Why Nobody Has Built This
+Solar design tools (Aurora, Helioscope) are owned by the solar industry and optimize for panel placement and string sizing — the electrical integration is downstream and outside their scope. Electrical design tools (ConEst, Accubid) are built for commercial construction takeoff, not residential system design. The NEC code sections involved (220, 625, 690, 705, 706) interact in ways that require domain expertise to correctly interpret — for example, the 120% rule applies to the panel's bus bar rating, not the main breaker rating, a distinction that trips up even experienced electricians. Building a reliable calculator requires encoding these NEC interactions correctly, which means the development team needs both software engineers and a master electrician who specializes in solar/EV work.
+
+## What to Build
+A web and mobile design tool where the electrician inputs: (1) existing panel data — manufacturer, bus bar rating, main breaker size, number of spaces, current load schedule (or a photo of the panel directory for OCR extraction); (2) proposed solar system — inverter type and size, string configuration; (3) proposed EV charger — make, model, circuit amperage; (4) proposed battery storage — manufacturer, capacity, charge/discharge rate. The system runs NEC 220 load calculations, applies the 120% rule (NEC 705.12), sizes all conductors per NEC 310 with appropriate derating, specifies disconnect requirements, and outputs: (a) a go/no-go on the existing panel with specific reasons; (b) if no-go, recommended panel upgrade specification; (c) complete conductor and conduit schedule; (d) single-line diagram suitable for permit submission; (e) bill of materials with common distributor part numbers. A gradient-boosted model trained on historical permit review outcomes predicts which design choices are most likely to trigger permit reviewer questions, highlighting them for the electrician's attention.
+
+## Target Customer
+Electricians and electrical contractors entering the solar/EV installation market — particularly traditional residential electricians who understand panels and wiring but are learning NEC 690/625/706 for the first time. Also solar installation companies that subcontract electrical work and want to verify their electrical designs before the electrician arrives.
+
+## Impact If Built
+Reduces solar/EV electrical design time from 4-8 hours (for new entrants) to 30-60 minutes with higher accuracy. Eliminates 60-70% of permit revision requests caused by NEC calculation errors, reducing project timelines by 2-4 weeks. Enables 2-3x more electricians to confidently enter the solar/EV market, expanding the installer base to meet demand.

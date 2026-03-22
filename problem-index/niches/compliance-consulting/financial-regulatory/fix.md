@@ -1,0 +1,22 @@
+# SAR Filing Narrative Consistency and Completeness
+
+**Niche:** [[niches/compliance-consulting/financial-regulatory/profile|Financial Regulatory Compliance]]
+**Industry:** [[industries/compliance-consulting|Compliance Consulting]]
+**Type:** Fix (Pain Point)
+**One-liner:** SAR narratives are the most scrutinized output of a BSA program — bank examiners read them line by line — but narrative quality varies wildly across analysts and consultants, with no standardized quality check before filing.
+**Tags:** #large-language-models #attention-mechanisms #compliance #worker-facing #automation
+
+## The Problem
+Every Suspicious Activity Report filed with FinCEN includes a narrative section — a free-text explanation of what suspicious activity was observed, what investigation was conducted, and why the activity warrants reporting. Examiners from the OCC, FDIC, and state regulators evaluate SAR narrative quality as a key indicator of BSA program effectiveness. A well-written narrative includes: the five Ws (who, what, when, where, why), specific transaction details with dates and amounts, a description of the investigation steps taken, the reason the activity is suspicious (tied to a specific typology), and any law enforcement referral. A poorly written narrative — vague, missing transaction details, failing to articulate the suspicion clearly — triggers examiner criticism and can result in BSA program deficiency findings. Community banks filing 10-30 SARs per month have multiple analysts writing narratives, each with different writing styles, levels of detail, and understanding of examiner expectations. Compliance consultants review these narratives before filing but catch quality issues inconsistently, especially under volume pressure.
+
+## Why It's Still Broken
+SAR narrative writing is a skill that takes 2-3 years to develop. New BSA analysts produce narratives that are either too vague ("suspicious transaction activity was noted") or too detailed (copying entire transaction histories without analysis). There is no industry-standard quality rubric — examiners evaluate narratives subjectively based on their experience. Compliance consultants develop their own quality standards but apply them inconsistently across clients and over time. FinCEN provides general guidance but not a scoring framework. The result is that narrative quality is checked by human review — a senior analyst or consultant reads each narrative before filing — which is time-consuming and subject to reviewer fatigue (reading 20 SAR narratives in a row degrades attention).
+
+## What a Fix Looks Like
+A narrative quality checker that runs before SAR filing and evaluates each narrative against a structured completeness rubric: Are all five Ws present? Are specific transaction details included (dates, amounts, account numbers)? Is the suspicious activity tied to a recognized typology? Is the investigation methodology described? Are related SARs cross-referenced? The checker uses a large language model fine-tuned on high-quality SAR narratives (sourced from the consulting firm's own historical filings rated by senior consultants) to score completeness, flag missing elements, and suggest specific improvements. It does not write the narrative — the analyst retains authorship — but it catches the gaps that human reviewers miss under volume pressure. The system also ensures consistency: if the firm's standard is to always include transaction velocity analysis for structuring SARs, the checker flags narratives that omit this element.
+
+## Who Feels the Pain
+The BSA analyst writing 5-10 SAR narratives per week who receives inconsistent feedback on quality, the senior consultant reviewing narratives across 15 bank clients who can't maintain attention quality across 50+ reviews per month, and the compliance firm principal whose reputation depends on SAR quality that they can no longer personally verify at scale.
+
+## Impact If Fixed
+Reduces SAR narrative review time from 15-20 minutes per narrative to 5-8 minutes by pre-screening for completeness and consistency issues. Eliminates the most common examiner criticisms — missing transaction details, vague suspicion articulation, and inconsistent formatting — which account for 60-70% of BSA program examination findings related to SAR quality. For a consulting firm managing 15 bank clients filing a combined 200-300 SARs per month, this recovers 40-60 hours of senior review time monthly.

@@ -1,0 +1,22 @@
+# Teleradiology Turnaround for Urgent Cases
+
+**Niche:** [[niches/veterinary-practices/diagnostic-imaging/profile|Diagnostic Imaging]]
+**Industry:** [[industries/veterinary-practices|Veterinary Practices]]
+**Type:** Fix (Pain Point)
+**One-liner:** Urgent radiograph cases — suspected foreign body, pneumothorax, fracture — wait 24+ hours in the same teleradiology queue as routine wellness X-rays because no triage system differentiates urgency, forcing vets to either act on uncertain self-reads or delay treatment while waiting for specialist interpretation.
+**Tags:** #gradient-boosting #cnns #transfer-learning #feature-engineering #evaluation-metrics #worker-facing #revenue-impact
+
+## The Problem
+Teleradiology services process veterinary radiographs in the order received, with routine turnaround times of 24-72 hours. "STAT" reads are available for an additional fee ($50-100+ surcharge), but many vets hesitate to request STAT because they're not sure whether their case truly warrants it — they don't want to cry wolf. The result is that a dog with a suspected GDV (gastric dilatation-volvulus, a life-threatening emergency) sits in the same queue as a wellness radiograph for an asymptomatic senior cat. By the time the specialist read arrives, the vet has either performed emergency surgery based on their own assessment (appropriate for GDV) or waited to act on a case that could have been managed hours earlier with specialist guidance. For non-emergency but time-sensitive cases — a limping dog that might have a fracture, a cat with labored breathing that might have pleural effusion — the 24-hour delay means the owner goes home, worries overnight, and sometimes seeks emergency care at a 24-hour hospital (at 3-5x the cost) rather than waiting.
+
+## Why It's Still Broken
+Teleradiology companies are staffed by a limited number of board-certified veterinary radiologists (estimated 500-700 in the US), and demand exceeds capacity. During peak hours (weekday afternoons when GP practices are generating the most studies), turnaround times stretch to 48-72 hours. Adding a triage layer requires either hiring more radiologists (expensive, talent-constrained) or developing AI-assisted pre-screening that identifies urgent cases and routes them to the front of the queue. An AI triage model using a CNN pre-screen could classify each incoming study as "critical" (findings suggesting emergency — GDV, pneumothorax, displaced fracture), "urgent" (findings suggesting time-sensitive pathology — effusion, mass, non-displaced fracture), or "routine" (normal or non-urgent findings) — allowing radiologists to prioritize their reading queue without the submitting vet needing to make the urgency call.
+
+## What a Fix Looks Like
+An AI triage layer integrated into the teleradiology submission pipeline that pre-screens every incoming radiograph and assigns an urgency score. Critical cases are immediately routed to the next available radiologist with an AI-generated preliminary finding summary ("CNN screening suggests GDV pattern — rotate stomach, gas distension, displaced pylorus"). Urgent cases are prioritized for 2-4 hour turnaround. Routine cases follow standard 24-hour processing. The submitting vet receives immediate notification of the triage classification ("Your study has been classified as URGENT — estimated specialist read in 2-3 hours") along with the AI screening findings, giving them preliminary decision support while they wait. The CNN triage model is trained on 200,000+ teleradiology studies with radiologist-confirmed diagnoses and urgency classifications, using transfer learning from veterinary imaging models.
+
+## Who Feels the Pain
+The GP vet who submits an urgent radiograph at 2 PM and doesn't receive the specialist read until the next morning, forcing them to either act on uncertain self-interpretation or tell the owner to come back tomorrow. The pet owner who spends an anxious night waiting for results that a triaged system could have delivered in 2-4 hours.
+
+## Impact If Fixed
+Reduces turnaround for urgent cases from 24-72 hours to 2-4 hours without requiring additional radiologist hiring (the same radiologists read the same volume, just in a smarter order). Reduces emergency hospital transfers for cases that could have been managed at the GP practice with timely specialist guidance — estimated 5-10% of after-hours emergency visits originate from delayed GP diagnostic results. Improves clinical outcomes for time-sensitive conditions by enabling earlier intervention.

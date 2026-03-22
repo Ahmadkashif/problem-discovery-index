@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7bda92a778072750",
+        "id": "f669849be1ebbece",
         "type": "tabs",
         "children": [
           {
-            "id": "c9d3792198c4b501",
+            "id": "d7c545f5d6c08664",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -70,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,43 +177,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "c9d3792198c4b501",
+  "active": "d7c545f5d6c08664",
   "lastOpenFiles": [
-    "niches/_bookmark.md",
-    "industries/ecommerce-sellers.md",
-    "niches",
-    "metadata/tags.md",
-    "metadata/ml-roadmap.md",
-    "metadata/math-topics.md",
-    "metadata",
-    "plans/_plans-index.md",
-    "plans",
-    "problems/ecommerce-sellers/ml-opportunity.md",
     "industries/dental-practices.md",
-    "industries/cybersecurity-mssp.md",
-    "industries/customs-brokers.md",
-    "industries/crop-farming.md",
-    "industries/cold-chain-logistics.md",
-    "problems/cold-chain-logistics/worker-life-1.md",
-    "problems/cold-chain-logistics/low-impact-2.md",
-    "problems/cold-chain-logistics/low-impact-1.md",
-    "problems/cold-chain-logistics/high-impact.md",
-    "problems/electrical-contractors/ml-opportunity.md",
-    "problems/electrical-contractors/ai-agents-platforms.md",
-    "industries/accounting-firms-smb.md",
-    "industries/independent-publishers.md",
-    "problems/independent-publishers/high-impact.md",
-    "problems/gyms-independent",
-    "problems/news-media-local",
-    "problems/nonprofits-social-services/low-impact-1.md",
-    "problems/trade-associations/high-impact.md",
-    "industries/podcasting-networks.md",
-    "problems/video-production-smb",
-    "problems/faith-organizations/high-impact.md",
-    "industries/municipal-services.md",
-    "problems/podcasting-networks",
-    "problems/independent-publishers",
-    "problems/municipal-services",
-    "problems/trade-associations"
+    "industries/ecommerce-sellers.md",
+    "niches/small-law-firms/billing-collections-management/fix.md",
+    "niches/small-law-firms/billing-collections-management/buy.md",
+    "niches/small-law-firms/billing-collections-management/build.md",
+    "niches/small-law-firms/billing-collections-management/profile.md",
+    "niches/small-law-firms/client-intake-conversion/fix.md",
+    "niches/small-law-firms/client-intake-conversion/buy.md",
+    "niches/small-law-firms/client-intake-conversion/build.md",
+    "niches/small-law-firms/client-intake-conversion/profile.md",
+    "niches/estate-planning/trust-administration-funding/fix.md",
+    "niches/estate-planning/trust-administration-funding/buy.md",
+    "niches/estate-planning/trust-administration-funding/build.md",
+    "niches/estate-planning/trust-administration-funding/profile.md",
+    "niches/estate-planning/document-assembly/fix.md",
+    "niches/small-law-firms/immigration-boutiques/fix.md",
+    "niches/estate-planning/document-assembly/buy.md",
+    "niches/personal-injury-law/demand-letter-settlement/fix.md",
+    "niches/small-law-firms/immigration-boutiques/buy.md",
+    "niches/estate-planning/document-assembly/build.md",
+    "niches/small-law-firms/immigration-boutiques/build.md",
+    "niches/personal-injury-law/demand-letter-settlement/buy.md",
+    "niches/estate-planning/document-assembly/profile.md",
+    "niches/immigration-law/form-preparation-filing/fix.md",
+    "niches/personal-injury-law/demand-letter-settlement/build.md",
+    "niches/small-law-firms/immigration-boutiques/profile.md",
+    "niches/small-law-firms/small-litigation-firms",
+    "niches/small-law-firms/real-estate-closing-attorneys",
+    "niches/small-law-firms/immigration-boutiques",
+    "niches/small-law-firms/general-practice-solo",
+    "niches/small-law-firms/family-law-practices",
+    "niches/small-law-firms/criminal-defense-solo",
+    "niches/small-law-firms/client-intake-conversion",
+    "niches/small-law-firms/billing-collections-management",
+    "niches/small-law-firms",
+    "niches/estate-planning/trust-administration-funding"
   ]
 }

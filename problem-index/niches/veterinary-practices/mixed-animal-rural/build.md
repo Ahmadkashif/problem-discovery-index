@@ -1,0 +1,22 @@
+# Mixed-Practice Drug Inventory with Food Animal Withdrawal Period Tracking
+
+**Niche:** [[niches/veterinary-practices/mixed-animal-rural/profile|Mixed Animal Rural]]
+**Industry:** [[industries/veterinary-practices|Veterinary Practices]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A drug inventory management system that handles both companion animal pharmaceuticals and food animal drugs in a single platform, automatically calculating and tracking FDA-mandated withdrawal periods so treated livestock don't enter the food supply before residues clear.
+**Tags:** #decision-trees #feature-engineering #compliance #data-integration #automation #worker-facing
+
+## The Problem
+Mixed animal veterinarians maintain two fundamentally different drug inventories under one roof. Companion animal drugs (carprofen for dog arthritis, methimazole for cat hyperthyroidism) are dispensed in small quantities with no food safety regulations. Food animal drugs (penicillin, oxytetracycline, ceftiofur) are purchased in bulk, administered to cattle/swine/goats, and carry FDA-mandated withdrawal periods — the number of days after treatment before the animal's meat, milk, or eggs can legally enter the food supply. A single error in withdrawal period tracking can result in drug residues in the food supply, triggering FDA enforcement action, practice liability, and potential criminal charges. Rural vets currently track withdrawal periods on paper — writing the drug name, dose, administration date, and calculated withdrawal date on a farm's treatment sheet and relying on the farmer to hold the animal from slaughter until the date passes.
+
+## Why Nobody Has Built This
+Companion animal PMS platforms have no concept of withdrawal periods because dogs and cats don't enter the food supply. Livestock management software (CattleMax, CowSense) tracks herd health but is designed for farmers, not veterinarians — it doesn't integrate with the practice's drug inventory or invoicing system. Building a unified solution requires: (1) a comprehensive drug database that includes both companion animal and food animal formulations with species-specific withdrawal periods (which vary by drug, dose, route of administration, and species), (2) integration with practice drug inventory (tracking dispensing quantities for both small-quantity companion dispensing and bulk livestock treatment), and (3) automatic generation of withdrawal period documentation that the vet can leave with the farmer — a legally required record. The market is small (~4,000-6,000 mixed practices in the US) but there is zero competition.
+
+## What to Build
+A drug inventory and dispensing platform designed for mixed practices. Core capabilities: (1) unified drug inventory tracking across companion and food animal formularies, with automatic reorder points for both small-bottle companion drugs and bulk livestock drugs, (2) species-aware dispensing — when the vet selects a drug and species, the system displays the correct dose range, route options, and (for food animals) withdrawal period, (3) automatic withdrawal period calculation and documentation — after treating a food animal, the system generates a treatment record with the calculated safe-to-slaughter/safe-to-milk date, printable as a farm copy, (4) FARAD (Food Animal Residue Avoidance Databank) integration for extra-label drug use withdrawal period estimates, (5) DEA controlled substance logging for drugs like ketamine and butorphanol that cross both companion and food animal use. Decision-tree logic routes dispensing workflows based on species classification (companion vs. food-producing) to ensure the correct regulatory requirements are applied.
+
+## Target Customer
+Mixed animal rural veterinarians currently tracking food animal withdrawal periods on paper and managing drug inventory across two separate systems (or not managing it at all), willing to pay $99-179/month for a unified platform that reduces compliance risk.
+
+## Impact If Built
+Eliminates the leading regulatory compliance risk for mixed practices — incorrect withdrawal period calculation — which can result in FDA warning letters, practice closure, and personal liability. Reduces drug inventory carrying cost by 10-15% through unified tracking and automated reorder. Saves 20-30 minutes per day in drug dispensing documentation by auto-generating the treatment records that currently require manual calculation and handwriting.

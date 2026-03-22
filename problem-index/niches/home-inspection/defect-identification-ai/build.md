@@ -1,0 +1,22 @@
+# AI Defect Detection from Inspection Photos
+
+**Niche:** [[niches/home-inspection/defect-identification-ai/profile|Defect Identification AI]]
+**Industry:** [[industries/home-inspection|Home Inspection]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A computer vision system that analyzes every photo taken during a home inspection — detecting cracks, water stains, electrical hazards, plumbing defects, and structural concerns — and flags findings the inspector may have photographed but not identified, serving as an AI "second set of eyes" that catches the 10-20% of material defects human inspectors miss.
+**Tags:** #object-detection #semantic-segmentation #tacit-knowledge-ml #compliance #automation #cnns
+
+## The Problem
+Home inspectors take 100-300 photos during a typical inspection. Many of these photos capture defects the inspector intended to document. But some photos — particularly wide-angle shots of rooms, attics, and crawlspaces — contain defects in the background that the inspector didn't notice during the 2-3 second photo review: a double-tapped breaker visible in the corner of a panel photo, a water stain on a ceiling visible behind the HVAC equipment being photographed, a foundation crack visible in a crawlspace photo focused on plumbing. These are defects the inspector was physically close enough to see but didn't identify because their attention was directed elsewhere. The liability implication is severe: the photo proves the inspector was present and could have seen the defect, making it harder to defend a "not visible" or "not accessible" claim.
+
+## Why Nobody Has Built This
+Home inspection photos are challenging for computer vision: they're taken with smartphones in poor lighting (basements, attics, crawlspaces), from varying angles, often through obstructions (insulation, ductwork, stored items), and cover an enormous diversity of building materials, ages, and styles. Training data requires expert annotation of defects in real inspection photos — not staged or idealized images. The annotation must be performed by experienced inspectors who can identify subtle defects (a wire gauge mismatch visible through cable jacket color, a slightly deflected beam, a heat-damaged outlet cover). The false positive cost is high: flagging 50 non-defects per inspection would overwhelm the inspector and destroy trust in the system. The target is high precision with moderate recall — better to catch 50% of missed defects with 90% precision than to catch 90% with 50% precision.
+
+## What to Build
+A post-inspection photo analysis pipeline where all inspection photos are batch-processed after the on-site inspection. The CV system: (1) classifies each photo by building system context (electrical panel, foundation wall, roof surface, attic insulation, plumbing connections, etc.); (2) detects defects within each photo using system-specific object detection models — the electrical model looks for double-tapped breakers, Federal Pacific labels, missing knockouts, and improper wiring; the foundation model looks for cracks by pattern and width; the roofing model looks for missing/damaged shingles, flashing failures, and moss/algae growth; (3) flags detected defects with bounding boxes and classification labels, comparing against the inspector's report to identify findings that appear in photos but not in the narrative; and (4) presents flagged items for inspector review — "Possible double-tapped breaker detected in photo #47 — this finding does not appear in your electrical section. Review?" The inspector confirms or dismisses each flag before finalizing the report.
+
+## Target Customer
+Every home inspector concerned about missed-defect liability — essentially the entire industry. The most receptive early adopters: new inspectors (highest miss rates), inspectors with recent claims (heightened awareness of liability), and multi-inspector firms (where quality variation across inspectors is a brand risk).
+
+## Impact If Built
+Catches 30-50% of defects that human inspectors miss, reducing the industry's $50M+ annual liability claim cost. Provides documented evidence that the inspector used AI-assisted quality control, potentially reducing E&O insurance premiums. Improves report completeness and buyer protection. Could be priced at $5-10 per inspection or $100-200/month subscription, generating $25M-50M in addressable revenue across the 25,000 US inspectors.

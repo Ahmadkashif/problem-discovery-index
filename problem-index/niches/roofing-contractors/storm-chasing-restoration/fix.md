@@ -1,0 +1,22 @@
+# Permit Compliance Across Unfamiliar Jurisdictions
+
+**Niche:** [[niches/roofing-contractors/storm-chasing-restoration/profile|Storm Chasing & Restoration]]
+**Industry:** [[industries/roofing-contractors|Roofing Contractors]]
+**Type:** Fix (Pain Point)
+**One-liner:** Storm chasers deploy to 3-8 new markets per year, each with different contractor licensing requirements, permit processes, solicitation ordinances, and cooling-off period rules — and getting any of them wrong means fines, job shutdowns, or criminal charges in jurisdictions they've never worked in before.
+**Tags:** #large-language-models #transformers #automation #compliance #workflow-orchestration #quick-win
+
+## The Problem
+A storm chasing roofing company deploying from Texas to Colorado after a hailstorm faces a compliance maze: Colorado requires state contractor registration, individual municipalities require separate business licenses, some counties mandate specific permit applications for each roof replacement, and post-2019 Colorado law (SB 19-108) requires specific disclosure language in storm-damage repair contracts, a 72-hour cooling-off period for door-to-door solicited contracts, and prohibits assignment-of-benefits clauses that many storm chasers rely on. Violating these requirements carries $5,000-25,000 fines per occurrence. The next deployment might be to Kansas, where the rules are entirely different — no state contractor license, but individual cities (Wichita, Topeka, Overland Park) each have their own permit and solicitation requirements. A typical storm chaser enters 3-8 new jurisdictions per year, each with 5-15 distinct regulatory requirements they need to identify, understand, and comply with within 48-72 hours of arrival.
+
+## Why It's Still Broken
+Regulatory information is fragmented across state contractor licensing boards, county building departments, municipal code enforcement offices, and state attorney general consumer protection divisions. No centralized database of roofing-specific contractor requirements exists across jurisdictions. Requirements change frequently — especially after major storms, when municipalities often enact emergency ordinances restricting solicitation. Storm chasers currently rely on three compliance methods: calling the local building department (which may not answer for days post-storm), asking other storm chasers who've worked the market before (unreliable), or hiring a local permit runner ($500-2,000 per market) who may or may not catch all requirements. The consequence of non-compliance is asymmetric: a $50K-200K roofing job can be shut down mid-installation for a $100 permit that wasn't pulled, and the homeowner's insurance company may refuse to pay on an unpermitted installation.
+
+## What a Fix Looks Like
+A jurisdiction compliance database and workflow engine purpose-built for storm-chasing roofing contractors. The system maintains a structured database of roofing contractor requirements by state, county, and municipality — covering licensing, permits, solicitation rules, contract language requirements, cooling-off periods, and assignment-of-benefits restrictions. When a contractor selects a deployment market, the system generates a compliance checklist specific to that jurisdiction with application links, fee schedules, required documentation, and processing timelines. An LLM-powered monitoring layer tracks regulatory changes by scraping municipal code updates, state legislative databases, and building department announcements, flagging new requirements that affect active or planned deployments. Contract templates auto-adapt to jurisdiction-specific required language.
+
+## Who Feels the Pain
+Storm chaser owners who personally carry liability for non-compliance in unfamiliar jurisdictions. Office managers trying to research permit requirements in 3-5 new cities simultaneously during the chaos of a post-storm deployment. Sales reps who knock doors and sign contracts without knowing whether the contract language meets local consumer protection requirements, creating voidable contracts.
+
+## Impact If Fixed
+Eliminates $5K-25K per-occurrence fines that currently hit 15-20% of storm chasing deployments. Reduces deployment compliance setup from 3-5 days of research and applications to same-day generation of jurisdiction-specific compliance packages. Prevents job shutdowns for permit violations that currently affect 5-10% of storm-chasing installations, protecting $50K-200K in revenue per occurrence.

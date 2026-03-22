@@ -1,0 +1,22 @@
+# Multi-Property Plumbing Equipment Lifecycle and Predictive Maintenance Platform
+
+**Niche:** [[niches/plumbing-contractors/property-management-plumbing/profile|Property Management Plumbing]]
+**Industry:** [[industries/plumbing-contractors|Plumbing Contractors]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A platform that tracks every plumbing asset across a property portfolio — water heaters, backflow preventers, shut-off valves, water softeners, sump pumps — with age-based failure prediction and automated preventive maintenance scheduling, replacing reactive emergency calls with planned service visits.
+**Tags:** #gradient-boosting #time-series-forecasting #feature-engineering #evaluation-metrics #cross-validation #automation #revenue-impact
+
+## The Problem
+A property management company overseeing 200 residential units has approximately 200 water heaters, 200+ shut-off valves, 50-100 toilets approaching replacement age, 10-30 backflow preventers, and various sump pumps, water softeners, and pressure regulators — none of which are tracked in any system. When a water heater fails at 11 PM on a Saturday, it's an emergency call at premium rates, plus water damage remediation that costs 5-10x more than a planned replacement. The property manager knows this is avoidable — if they knew which water heaters were approaching end-of-life, they could schedule replacements during business hours at standard rates. But tracking 200+ water heaters across 200 units manually is impossible. The data exists nowhere: installation dates are buried in old work orders (if they were ever recorded), equipment age is estimated by visual inspection, and replacement planning is purely reactive.
+
+## Why Nobody Has Built This
+Property management software companies (Yardi, AppFolio) view plumbing as a generic maintenance category — a work order for "leaky faucet" is processed identically to "broken window." Building plumbing-specific equipment tracking requires: (1) a comprehensive initial audit to catalog every plumbing asset in the portfolio (equipment type, manufacturer, model, installation date, condition), (2) equipment lifecycle models for each asset class (water heaters: 8-12 years, shut-off valves: 15-25 years, backflow preventers: 10-15 years), and (3) failure prediction that accounts for local water quality (hard water accelerates water heater failure), usage intensity (multi-family vs. single-family), and maintenance history. The initial audit is the hard part — someone has to physically inventory every unit, which costs $50-100 per unit for a 200-unit portfolio. This upfront cost deters both property managers and software companies.
+
+## What to Build
+A platform shared between the property management company and their plumbing contractor that: (1) manages a plumbing asset registry for the portfolio — every water heater, backflow preventer, sump pump, and major fixture with installation date, manufacturer, model, and condition rating, (2) runs a gradient-boosted failure prediction model that estimates remaining useful life for each asset based on equipment class, age, water quality (from water utility reports), maintenance history, and historical failure data from similar assets, (3) generates a rolling 12-month preventive maintenance and replacement schedule, prioritized by failure risk and grouped by property for efficient truck rolls, (4) integrates with the property management company's work order system (Yardi, AppFolio API) to auto-create maintenance work orders, and (5) provides a portfolio dashboard showing total annual plumbing cost projection, emergency vs. planned service ratio, and deferred maintenance backlog. The initial asset audit is performed by the plumbing contractor during a portfolio walkthrough (a paid engagement), with data entry via mobile app.
+
+## Target Customer
+Property management companies managing 100-1,000+ residential or commercial units with annual plumbing spend of $50K-500K, currently operating in reactive mode where 60-70% of plumbing service is emergency calls.
+
+## Impact If Built
+Shifts the emergency-to-planned service ratio from 60:40 to 20:80, reducing total plumbing costs by 25-40%. Emergency water heater failures with associated water damage cost $2,000-8,000 per incident; planned replacements cost $800-1,500. For a 200-unit portfolio experiencing 15-20 emergency plumbing events per year, the savings are $30K-80K annually. The plumbing contractor benefits from predictable, scheduled work replacing volatile emergency revenue.

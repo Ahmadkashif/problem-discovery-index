@@ -1,0 +1,22 @@
+# Interconnection Queue Delays
+
+**Niche:** [[niches/solar-installers/permitting-interconnection/profile|Permitting & Interconnection]]
+**Industry:** [[industries/solar-installers|Solar Installers]]
+**Type:** Fix (Pain Point)
+**One-liner:** Utility interconnection applications take 4-12 weeks to process — during which the solar system is installed but cannot be turned on — and installers have no visibility into queue position, application status, or escalation paths, creating a black hole between installation and the customer's first kWh of solar production.
+**Tags:** #automation #workflow-orchestration #data-integration #worker-facing #revenue-impact
+
+## The Problem
+After a solar system is physically installed and passes the building inspection, it cannot be energized until the utility grants Permission to Operate (PTO). This requires the utility to: review the interconnection application, verify the system meets their technical requirements, install or reconfigure the meter, and issue formal PTO. This process takes 4-12 weeks at most utilities, with some (notably in fast-growing solar markets) running 16+ week queues. During the waiting period, the customer has a solar system on their roof that produces nothing — they're still paying their full utility bill, and their loan payments may have started. The installer has no visibility into the utility's queue: they submitted the application and now wait. Status inquiries require calling the utility's interconnection department, waiting on hold 30-60 minutes, and often getting "it's in the queue, we'll notify you when it's approved." There is no escalation path for delayed applications. No tracking system shows queue position. No analytics predict processing time.
+
+## Why It's Still Broken
+Utilities process interconnection applications through internal engineering review workflows that were designed for a few hundred applications per year, not the thousands they now receive. They have little incentive to accelerate processing — solar interconnection is a cost center for utilities, not a revenue generator. State PUCs in some states (California, New York, Massachusetts) have mandated interconnection processing timelines, but enforcement is weak. Installers are individually powerless to pressure utilities — each installer has a few dozen applications in the queue, giving them no leverage. Industry associations lobby for faster processing but the systemic change is slow.
+
+## What a Fix Looks Like
+An interconnection tracking and management platform that: (1) submits interconnection applications to utilities through their portals (automating the form completion and document upload) and captures the application reference number; (2) monitors application status through utility portal scraping, automated check-in emails, or API integration where available; (3) tracks processing time by utility, flagging applications that exceed the state-mandated timeline or the utility's published processing commitment; (4) generates escalation correspondence — automated but professional letters to the utility's interconnection manager, citing specific timeline commitments and requesting expedited processing; (5) aggregates processing time data across all installer customers to create a public utility interconnection scorecard — naming the fastest and slowest utilities, creating reputational pressure for improvement; and (6) provides the installer with an estimated PTO date based on historical processing times for that utility and system size category.
+
+## Who Feels the Pain
+Customers with installed solar systems generating zero savings while waiting for PTO — paying both their utility bill and their solar loan payment simultaneously. Installers who bear the customer's frustration and field daily "when will my system be turned on?" calls. Solar companies whose cash flow depends on PTO milestones — many financing structures pay the installer upon PTO, creating a direct revenue delay.
+
+## Impact If Fixed
+Gives installers visibility into interconnection status, reducing customer management time by 30-50% during the post-installation period. Creates reputational pressure on slow utilities through published processing time data. Automates escalation for delayed applications, recovering 1-4 weeks of PTO timeline in 30-40% of delayed cases. Reduces customer frustration during the PTO wait by providing estimated timelines and status updates. Could be priced at $10-20 per application, generating $2M-5M in addressable revenue across the US solar industry.

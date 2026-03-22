@@ -1,0 +1,22 @@
+# IAQ Assessment and Remediation Recommendation Engine
+
+**Niche:** [[niches/hvac-contractors/indoor-air-quality/profile|Indoor Air Quality]]
+**Industry:** [[industries/hvac-contractors|HVAC Contractors]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A system that ingests IAQ test data (PM2.5, CO2, VOCs, humidity, mold spore counts), building characteristics, and occupant complaints, then generates prioritized remediation recommendations with cost estimates and expected outcome improvements — replacing the expert interpretation step that currently bottlenecks every IAQ assessment.
+**Tags:** #gradient-boosting #data-integration #revenue-impact
+
+## The Problem
+IAQ assessment is a two-phase workflow: test and interpret. The testing phase is increasingly commoditized — deploy sensors, collect 24-72 hours of data, retrieve. The interpretation phase is where experienced IAQ consultants earn their value: a reading of 1,200 ppm CO2 in a conference room means the ventilation rate is below ASHRAE 62.1 minimums, but the remediation depends on the HVAC system type (can the existing AHU deliver more outdoor air, or does the room need a dedicated ERV?), the building envelope (is the space too leaky for increased ventilation to be efficient?), and the occupancy pattern (is this a constant 1,200 or a spike during afternoon meetings?). An experienced consultant reads the data in context and recommends the right intervention. A less experienced consultant sees "high CO2" and recommends a $15,000 ERV installation when a $200 damper adjustment would solve it. The interpretation step is a classification problem: given test results + building characteristics + HVAC system type, classify the remediation pathway and rank interventions by cost-effectiveness.
+
+## Why Nobody Has Built This
+Three barriers. First, the recommendation space is large and context-dependent: the same test results in a 1970s home with no mechanical ventilation require different remediation than in a 2020 home with an ERV. Mapping test results to recommendations requires encoding building science knowledge that currently lives in experienced consultants' heads. Second, the outcome data problem: to train a recommendation model, you need to know which recommendations actually solved the IAQ problem. Post-remediation retesting data is rarely collected — the consultant recommends, the customer implements (or partially implements), and follow-up testing happens in fewer than 20% of cases. Third, the regulatory fragmentation: EPA guidelines, ASHRAE standards, state health department requirements, and local building codes all influence what constitutes "acceptable" IAQ and what remediation is required vs. recommended.
+
+## What to Build
+An IAQ recommendation platform with three components. Data ingestion: import test data from common IAQ instruments (TSI, Kanomax, Temtop) via CSV/API, plus building profile entry (age, construction type, HVAC system type, ventilation method, envelope tightness if known). Analysis engine: compare readings against applicable standards (EPA, ASHRAE 62.1/62.2, WHO), identify exceedances, and contextualize — is this a chronic issue or a transient spike? Which contaminant is the primary concern? Recommendation engine: a gradient-boosted classifier trained on expert-labeled case data that takes the test results + building profile as input and outputs ranked remediation options with estimated cost, installation complexity, and expected IAQ improvement. Initial training data from 500-1,000 expert-reviewed IAQ cases with known outcomes — sourced through partnerships with IAQ consulting firms and ASHRAE committee members.
+
+## Target Customer
+IAQ testing and remediation companies with 2-10 consultants, HVAC contractors adding IAQ services to their offerings, and home performance/energy audit companies expanding into IAQ. These companies need to scale their assessment capacity beyond the bottleneck of having 1-2 experienced consultants who can interpret results.
+
+## Impact If Built
+Enables junior IAQ technicians to deliver expert-quality assessments, increasing assessment capacity 3-5x per company without adding senior consultants. Reduces over-recommendation of expensive remediation by 30-50%, improving customer trust and conversion rates. Creates a standardized, evidence-based assessment framework that differentiates professional IAQ companies from "sell a filtration system" operators.

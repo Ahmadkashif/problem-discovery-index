@@ -1,0 +1,22 @@
+# Coating Specification Compliance Tracker
+
+**Niche:** [[niches/painting-contractors/specialty-industrial/profile|Specialty & Industrial Coatings]]
+**Industry:** [[industries/painting-contractors|Painting Contractors]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A field documentation platform that ingests coating specifications, connects to on-site environmental sensors and DFT gauges, and produces a real-time compliance dashboard showing whether every surface meets every specification parameter — replacing the paper-based QC process that is the primary bottleneck in industrial coating work.
+**Tags:** #bert #compliance #data-integration #automation #dbscan
+
+## The Problem
+Industrial coating projects require documented proof that every specification parameter was met for every coated surface. A typical tank lining project requires: surface preparation verification (blast profile readings every 100 sq ft, soluble salt testing, visual cleanliness assessment per SSPC standard), environmental documentation (ambient temperature, surface temperature, dew point, relative humidity — logged continuously during application), application parameters (wet film thickness during application, dry film thickness per coat after cure), and inter-coat timing (recoat window compliance — many coatings must be recoated within 24-72 hours or require re-preparation). An inspector on a moderately complex industrial coating project generates 200-500 individual readings per day, recorded on paper forms, later transcribed to spreadsheets, and compiled into a closeout package. This documentation process accounts for 15-25% of total project labor hours. Errors in documentation — a missed reading, an out-of-spec condition that wasn't caught — can result in warranty claim denial by the coating manufacturer or specification violation penalties from the facility owner.
+
+## Why Nobody Has Built This
+The specification parsing problem is the first barrier: coating specs are written in dense paragraph form with cross-references to SSPC, NACE, and manufacturer standards, and vary significantly between projects. Converting "all steel surfaces shall be prepared per SSPC-SP 10 with a 2-3 mil angular anchor profile measured per ASTM D4417 Method C" into structured compliance criteria requires domain-specific NLP. The hardware integration challenge is the second barrier: environmental data comes from sling psychrometers or digital environmental gauges, surface profile from replica tape or digital profile gauges, and DFT from magnetic or eddy current gauges — each a different device with different output formats (some Bluetooth-capable, most not). Building a system that ingests data from all these sources in a field environment (no reliable WiFi, extreme temperatures, confined spaces) is a systems integration challenge.
+
+## What to Build
+A mobile-first platform with three layers. First, a specification parser: upload the project coating spec (PDF/Word), and NLP extracts structured requirements per surface type — prep standard, profile range, environmental limits, product/coat system, DFT requirements, recoat windows. Second, a field data capture interface: inspectors log readings via Bluetooth-connected gauges (PosiTector, Elcometer) where available, or manual entry where not, with the system checking each reading against spec requirements in real-time and alerting immediately when a parameter is out of range. Third, a compliance dashboard and closeout package generator: real-time project status by surface showing spec compliance percentage, and one-click generation of the documentation package (surface prep reports, environmental logs, DFT reports, holiday test results, cure logs) that currently takes 20-40 hours to compile per project.
+
+## Target Customer
+Industrial coating contractors (NACE/SSPC-certified companies) doing 10+ specification-governed projects per year with $1-20M in annual revenue. Facility owners with internal coating inspection teams. Third-party coating inspection firms that provide QC services to facility owners.
+
+## Impact If Built
+Reduces documentation labor by 60-70%, saving 50-100 hours per major project ($5K-15K in labor cost). Eliminates specification violations by catching out-of-spec conditions in real-time before coating application proceeds. Reduces closeout package compilation from 20-40 hours to 2-4 hours per project. Protects against warranty claim denial by providing a complete, auditable compliance trail.

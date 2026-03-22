@@ -1,0 +1,22 @@
+# Patient Abandonment Tracking and Recovery for PA-Delayed Prescriptions
+
+**Niche:** [[niches/pharmacy-independents/prior-authorization-automation/profile|Prior Authorization Automation]]
+**Industry:** [[industries/pharmacy-independents|Independent Pharmacies]]
+**Type:** Fix (Pain Point)
+**One-liner:** 30% of prescriptions requiring prior authorization are never picked up because the process takes 48-72 hours and no one proactively notifies the patient of status updates or offers alternatives — the prescription sits in limbo and the patient either suffers without medication or goes to a competitor.
+**Tags:** #logistic-regression #feature-engineering #evaluation-metrics #revenue-impact #worker-facing #automation
+
+## The Problem
+When a prescription requires prior authorization, the patient is told "we'll call you when it's ready" and walks out. Over the next 48-72 hours, the pharmacy processes the PA: collecting clinical data from the prescriber, submitting to the PBM, waiting for a determination. During this time, the patient receives no status updates — they don't know if the PA was submitted, if the prescriber responded, or if the PBM approved it. If the PA is denied, the patient may not learn this for days. Research consistently shows that 29-40% of prescriptions requiring PA are abandoned — the patient never returns to pick up the medication. For a pharmacy handling 10 PAs per day, that's 3-4 lost prescriptions daily — representing not just the immediate revenue loss ($30-100 per prescription) but the lifetime value loss if the patient shifts their entire prescription business to a competitor. No pharmacy systematically tracks which PA-delayed prescriptions are abandoned, which patients are at highest risk of abandonment, or what intervention (proactive status update, therapeutic alternative offer, prescriber contact) would recover the prescription.
+
+## Why It's Still Broken
+PMS systems track prescription status (waiting for PA, PA approved, PA denied) but don't flag prescriptions at risk of abandonment or trigger patient outreach based on PA status changes. CoverMyMeds tracks PA submission status but has no patient communication layer — it's a pharmacy-to-PBM tool, not a pharmacy-to-patient tool. Patient communication platforms (Weave, RxLocal) handle refill reminders and pickup notifications but don't integrate with PA status workflows. The pharmacist or technician who initiated the PA may not remember to call the patient when the PA resolves — especially if the outcome arrives during a different shift. Patient abandonment is an invisible loss: the pharmacy never knows how many patients it lost because PAs took too long, because the data is never analyzed.
+
+## What a Fix Looks Like
+A PA-aware patient communication and abandonment recovery system that: (1) automatically sends patients status updates at key PA milestones — "Your prior authorization has been submitted," "We're waiting for your doctor to respond," "Your PA has been approved, your medication is ready for pickup," (2) uses a logistic regression model trained on historical PA data to predict abandonment risk per prescription (features: PA duration, patient age, medication criticality, previous pickup behavior, insurance type, time of day), (3) triggers proactive intervention for high-risk prescriptions — pharmacist phone call offering a formulary alternative, text message with estimated ready date, or notification of partial fill availability, (4) tracks abandonment rates by PBM, PA type, and patient segment — giving the pharmacy actionable data on which PBM contracts cause the most patient loss, and (5) generates a monthly "lost revenue" report quantifying prescriptions abandoned due to PA delays.
+
+## Who Feels the Pain
+The patient who waits days without knowing if their medication will be approved, the pharmacist who loses 3-4 prescriptions daily to abandonment without visibility into the problem, and the pharmacy owner who loses $30,000-100,000/year in prescription revenue and unmeasured patient lifetime value to a process failure that nobody tracks.
+
+## Impact If Fixed
+Recovering even half of abandoned PA prescriptions (from 30% abandonment to 15%) recovers 1.5-2 prescriptions per day per pharmacy — approximately $15,000-40,000/year in direct revenue plus retained patient lifetime value. Proactive status communication improves patient satisfaction and loyalty, reducing competitive switching. Abandonment analytics by PBM give the pharmacy data to advocate for contract changes through their PSAO.

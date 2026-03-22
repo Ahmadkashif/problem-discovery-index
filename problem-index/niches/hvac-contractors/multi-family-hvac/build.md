@@ -1,0 +1,22 @@
+# Multi-Unit HVAC Equipment Lifecycle Tracker
+
+**Niche:** [[niches/hvac-contractors/multi-family-hvac/profile|Multi-Family HVAC]]
+**Industry:** [[industries/hvac-contractors|HVAC Contractors]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A portfolio-level HVAC asset management platform that tracks every piece of equipment across a multi-family property portfolio — model, age, maintenance history, repair costs, remaining useful life — and forecasts replacement timing and capital expenditure budgets, replacing the spreadsheet-and-guesswork approach that causes property managers to overspend on repairs for equipment they should have replaced years ago.
+**Tags:** #gradient-boosting #survival-analysis #time-series-forecasting #data-integration #revenue-impact
+
+## The Problem
+A property management company overseeing 2,000 apartment units has approximately 2,000 individual HVAC systems — and no systematic way to track them. Equipment records are scattered: the installer may have left a warranty card 12 years ago (now lost), the property manager has work order history in AppFolio (searchable by unit but not aggregated by equipment characteristics), and the HVAC contractor has service records in ServiceTitan (searchable by address but not by individual unit equipment). Nobody has a unified view that shows: "Building C, Units 301-320 all have Goodman GSX13 units installed in 2012 — average repair cost per unit has increased from $200/year to $950/year over the last 3 years, exceeding the replacement threshold of $600/year. Batch replacement of 20 units at $3,200/unit ($64,000 total) would save $14,000/year in avoided repairs and reduce tenant complaint calls by 60% for these units."
+
+## Why Nobody Has Built This
+Three barriers. First, the data is fragmented across three systems that don't talk to each other: property management (AppFolio/Yardi — knows units and tenants), HVAC service (ServiceTitan — knows service calls and repairs), and equipment manufacturers (warranty databases — knows model, serial, install date). Integrating these requires API connections and a data model that maps unit → equipment → service history. Second, the survival analysis challenge: predicting when a specific HVAC unit will reach end-of-economic-life requires failure rate curves by manufacturer/model/climate/usage pattern, and this data exists only in aggregate industry statistics (DOE reports, ASHRAE life expectancy tables), not in a granular, model-specific format. Third, the buyer identity problem: should the property manager buy this tool (to manage their HVAC capital budget) or should the HVAC contractor buy it (to proactively sell batch replacements)? The value accrues to both parties but neither has historically been willing to pay for asset management software for a single equipment category.
+
+## What to Build
+A multi-family HVAC asset management platform with four modules. Equipment inventory: asset tag every unit's HVAC equipment during the next maintenance visit (QR code on equipment, linked to a digital record with model, serial, install date, refrigerant type, tonnage). Service history aggregation: pull work order data from AppFolio/Yardi and service data from ServiceTitan to build a per-equipment repair history with cumulative costs. Lifecycle prediction: a survival analysis model (gradient-boosted) trained on equipment age, model reliability data, repair frequency, cumulative repair cost, and climate zone to predict remaining useful life and optimal replacement timing. Capital planning: aggregate lifecycle predictions across the portfolio to produce a 1-5 year HVAC capital expenditure forecast, showing which units should be replaced this year, next year, and in 3-5 years, with budget estimates and batch replacement opportunities.
+
+## Target Customer
+Property management companies overseeing 500-10,000+ apartment units, and HVAC contractors with multi-family service contracts who want to proactively sell batch replacement projects rather than reactively responding to emergency service calls.
+
+## Impact If Built
+Reduces multi-family HVAC repair spending by 20-35% through timely replacement of equipment past its economic useful life — saving $200-700K annually for a 2,000-unit portfolio. Generates batch replacement project sales of $50K-200K per property for the HVAC contractor, replacing unprofitable emergency repair calls. Reduces tenant HVAC complaint calls by 30-50% through proactive replacement of failing equipment.

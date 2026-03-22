@@ -1,0 +1,22 @@
+# Proposal Follow-Up Tracking
+
+**Niche:** [[niches/landscaping/estimating-proposal-generation/profile|Estimating & Proposal Generation]]
+**Industry:** [[industries/landscaping|Landscaping]]
+**Type:** Fix (Pain Point)
+**One-liner:** Landscaping companies send 15-30 proposals per week and 40% never receive a response — the prospect doesn't say yes or no, they simply go silent, and the estimator has no system to track, follow up, or learn from the pattern of ghosted proposals.
+**Tags:** #gradient-boosting #revenue-impact #automation #logistic-regression
+
+## The Problem
+A landscaping company's sales pipeline is a list of sent proposals with unknown status. The estimator sends a proposal via email or text, and then... waits. Industry data shows that 40-50% of landscaping proposals receive no response — the homeowner or property manager doesn't accept, doesn't reject, just goes silent. Of the silent proposals, 20-30% would have converted with a single follow-up within 48-72 hours (the prospect was interested but got busy or was comparing quotes). But follow-up is inconsistent: the estimator has no systematic way to track which proposals are pending, which have aged past the follow-up window, or which are worth pursuing versus writing off. They rely on memory, sticky notes, or scrolling through sent emails to reconstruct the pipeline. The result: 15-25% of achievable revenue is lost to lack of follow-up on proposals that the company invested 1-3 hours each in producing.
+
+## Why It's Still Broken
+Landscaping estimating tools (LMN, Aspire) generate proposals but don't track their post-send lifecycle — once the PDF is sent, the tool's involvement ends. CRM tools (HubSpot, Salesforce) track deal pipelines beautifully but are not integrated with landscaping estimating workflows and are perceived as overkill for a 10-person landscaping company. The estimator's workflow is: check email for responses, try to remember who they need to call, make 2-3 follow-up calls between site visits, forget about 5-8 pending proposals until they're too stale to recover. No tool connects proposal engagement data (did the prospect open the email? View the PDF? How long did they spend on it?) to follow-up recommendations (call now — they viewed the proposal 3 times) or provides win/loss analytics (proposals over $500/month close at 18%, proposals under $300/month close at 42% — adjust pricing strategy accordingly).
+
+## What a Fix Looks Like
+A proposal tracking and follow-up system integrated with the estimating workflow. When a proposal is sent (via email, text, or portal link), the system tracks: delivery confirmation, open status, time spent viewing (via tracked PDF or web-based proposal), and whether the prospect responded. Automated follow-up: if no response in 48 hours, send a pre-written follow-up text ("Hi [Name], wanted to make sure you received our proposal for your property at [Address]. Happy to answer any questions or adjust the scope."). If no response after two follow-ups, tag as "cold" and add to a monthly re-engagement list. A gradient-boosted classification model trained on historical proposal outcomes predicts close probability based on property characteristics (size, location, service type), proposal amount, response speed, engagement signals (opened, viewed, clicked), and competitive factors (season — spring proposals close faster because demand is high). The estimator's dashboard shows proposals ranked by predicted close probability, directing follow-up effort toward the most convertible prospects. Win/loss analytics identify pricing sweet spots, most competitive service tiers, and seasonal conversion patterns.
+
+## Who Feels the Pain
+Estimators who invest 1-3 hours per proposal and then lose track of whether the prospect responded, company owners who see a 25-35% close rate on proposals and suspect it could be 40-50% with better follow-up, and salespeople who lack data to improve their pricing and presentation approach because no tool tracks what wins and what loses.
+
+## Impact If Fixed
+Increases proposal close rate from 25-35% to 40-50% through systematic follow-up and engagement tracking — for a company producing 20 proposals per week at $200/month average, this converts 3-4 additional clients per week, worth $7K-10K in annual recurring revenue per converted client. Provides win/loss analytics that enable pricing optimization and competitive positioning.

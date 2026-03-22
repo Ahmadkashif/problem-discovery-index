@@ -1,0 +1,22 @@
+# Custody-Aware Parent Communication Platform
+
+**Niche:** [[niches/dental-practices/pediatric-dental/profile|Pediatric Dental Specialists]]
+**Industry:** [[industries/dental-practices|Dental Practices]]
+**Type:** Fix (Pain Point)
+**One-liner:** Treatment plans for minors need parental approval, post-op instructions must reach the right parent, and appointment reminders must go to the custodial parent — but dental software doesn't model custody arrangements, divorced-parent communication preferences, or guardian authorization hierarchies.
+**Tags:** #workflow-orchestration #compliance #automation #worker-facing #quick-win
+
+## The Problem
+In pediatric dentistry, the patient cannot consent to their own treatment — a parent or legal guardian must authorize. For intact families, this is straightforward. For divorced or separated families (affecting ~40% of US children), it becomes a minefield. Who can authorize treatment? In joint legal custody, either parent can consent — but the practice may not know the custody arrangement. In sole legal custody, only the custodial parent can consent — and the non-custodial parent may bring the child to the appointment and request treatment the custodial parent hasn't authorized. Treatment plans need to be communicated to both parents (who may not communicate with each other). Post-operative instructions must reach whoever is caring for the child that day (which parent has physical custody this week?). Appointment reminders must go to the parent responsible for transportation on that specific day. Currently, front desk staff manage these complexities through sticky notes on patient charts, informal notes in the PMS, and personal memory of each family's situation. When staff turns over, this knowledge disappears.
+
+## Why It's Still Broken
+Dental PMS systems model a patient with one "responsible party" (guarantor) and one set of contact information. They don't model: multiple guardians with different contact preferences, custody-based authorization rules (who can consent to what), communication routing by custody schedule (Parent A has the child M-W, Parent B has Th-F and alternating weekends), or split billing (Parent A's insurance covers preventive, Parent B covers restorative per the divorce decree). Adding a second guardian record is technically possible in most PMS systems, but there's no workflow logic attached — both parents get the same reminder, or only one parent gets any communication. Patient communication platforms (Weave, RevenueWell) send messages to the "primary contact" and have no concept of custody-based routing. The fix requires modeling the family structure, not just the patient record.
+
+## What a Fix Looks Like
+A parent communication layer for pediatric dental practices that includes: (1) a family profile with multiple guardians, each with their own contact preferences, insurance information, and authorization level (full consent, limited consent, no consent — per custody agreement on file), (2) custody-aware communication routing that sends appointment reminders and post-op instructions to the parent who has physical custody on the relevant date (imported from a shared custody calendar or manually configured), (3) treatment plan distribution to all authorized guardians with individual consent tracking (both parents see the plan and either can approve, or only the designated parent can approve — per custody configuration), (4) split billing support where different insurance applies based on which parent is the guarantor for which procedure types, and (5) a conflict flag that alerts staff when a non-authorized person attempts to consent to treatment. The system doesn't replace legal judgment — it surfaces the custody configuration so staff can follow it consistently.
+
+## Who Feels the Pain
+Front desk staff who navigate custody minefields daily (one wrong communication can escalate into a parental conflict played out in the waiting room), pediatric dentists who risk performing treatment without proper consent due to custody confusion, and parents who miss critical post-operative instructions because they were sent to the other parent.
+
+## Impact If Fixed
+Eliminates consent confusion for the ~40% of pediatric patients with divorced or separated parents, reduces unauthorized-treatment liability risk, saves front desk staff 30-60 minutes daily in custody-related communication management, and ensures post-op instructions reach the caregiving parent — reducing post-operative complications from missed care instructions.

@@ -1,0 +1,22 @@
+# AI Preliminary Cost Estimator from Plan Images
+
+**Niche:** [[niches/general-contractors/estimating-bidding/profile|Estimating & Bidding Operations]]
+**Industry:** [[industries/general-contractors|General Contractors]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** An estimator uploads architectural drawings and gets a preliminary cost estimate by CSI division in 15 minutes — replicating the experienced estimator's ability to "eyeball" a project cost before investing 40-80 hours in a detailed takeoff.
+**Tags:** #cnns #object-detection #gradient-boosting #tacit-knowledge-ml #feature-engineering #revenue-impact
+
+## The Problem
+When a GC receives an invitation to bid, the first question is: "What's this project going to cost, roughly?" An experienced estimator can flip through architectural drawings for 30 minutes and produce a preliminary cost range that's within 15-20% of the final detailed estimate. They do this by recognizing patterns: building type, quality level, structural system, mechanical complexity, site conditions — and mapping those to internalized cost-per-square-foot models refined over hundreds of past projects. Junior estimators can't do this — they need 40-80 hours of detailed takeoff and pricing to produce the same answer. This means either senior estimators are consumed by preliminary reviews (when they should be doing detailed estimates on committed bids), or the firm invests full estimation effort on projects they'll later determine aren't worth bidding.
+
+## Why Nobody Has Built This
+Three technical barriers: (1) extracting building characteristics from architectural drawings requires computer vision that understands construction documents — identifying building systems (steel frame vs. wood frame vs. concrete), finish quality levels (VCT vs. hardwood vs. polished concrete), and mechanical complexity from plan sheets in PDF format; (2) mapping extracted characteristics to cost models requires historical project data from many completed projects with actual costs by CSI division, which individual GCs have but don't share; (3) the "preliminary estimate" that experienced estimators produce is tacit knowledge — they can't fully articulate the rules they use because the rules are pattern-matched from experience, not codified in formulas. Building an ML model to replicate this requires capturing expert estimators' assessments alongside the plan characteristics they evaluated, creating a labeled dataset of plan-features-to-cost mappings.
+
+## What to Build
+A multimodal AI estimating tool that: (1) accepts architectural drawing sets in PDF format; (2) uses computer vision to extract building characteristics — gross square footage, building type, number of stories, structural system, exterior envelope type, interior finish quality indicators, mechanical system indicators, and site complexity; (3) applies a cost model trained on historical completed projects to produce a preliminary cost estimate broken down by CSI division (site work, concrete, structural steel, exterior envelope, interior finishes, mechanical, electrical, plumbing); (4) presents the estimate with confidence intervals and comparable projects from the historical database; (5) learns from the estimator's feedback when the detailed estimate is completed — comparing the preliminary estimate to the actual takeoff result to improve the model. The system is not replacing the detailed estimate; it's producing the "experienced estimator's gut check" that currently requires a senior person's time or doesn't happen at all.
+
+## Target Customer
+GCs and pre-construction firms ($5M-$200M annual revenue) that bid on 50-200+ projects per year and win 10-20%. The primary user is the chief estimator or pre-construction VP who currently reviews every incoming opportunity manually. The tool pays for itself if it saves 20 hours of detailed estimation on projects that a preliminary check would have revealed as outside the firm's competitive range.
+
+## Impact If Built
+Reduces the estimation investment on non-competitive bids by 60-80% by identifying projects outside the firm's cost range before committing to full takeoff. Democratizes the senior estimator's gut-check ability, allowing junior estimators to perform preliminary assessments. For a GC bidding 100 projects/year and winning 15, the tool saves 1,700-3,400 hours of wasted estimation effort (at $75-100/hour for estimator time, that's $125K-$340K annually in recovered capacity).

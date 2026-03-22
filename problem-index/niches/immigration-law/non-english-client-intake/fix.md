@@ -1,0 +1,22 @@
+# USCIS Interview Preparation in Client's Language
+
+**Niche:** [[niches/immigration-law/non-english-client-intake/profile|Non-English Client Intake]]
+**Industry:** [[industries/immigration-law|Immigration Law]]
+**Type:** Fix (Pain Point)
+**One-liner:** USCIS interviews are conducted in English through an interpreter, but attorneys prepare clients for these interviews in ad-hoc bilingual sessions with no structured preparation materials in the client's language — resulting in confused clients who give inconsistent answers that trigger denials.
+**Tags:** #large-language-models #transformers #automation #worker-facing #compliance
+
+## The Problem
+Many immigration applications (I-485 adjustment, N-400 naturalization, I-751 removal of conditions, asylum) require an in-person USCIS interview. The interview is conducted in English (with a USCIS-provided interpreter if requested). The client must answer questions about their application, personal history, and immigration history accurately and consistently with their written application. Attorneys prepare clients through "mock interview" sessions — the attorney asks the client anticipated questions and coaches them on how to answer. For non-English-speaking clients, these preparation sessions require a bilingual attorney or interpreter, take 1-3 hours, and are conducted verbally with no written preparation materials the client can review afterward. The client goes home and tries to remember the coaching from memory. At the actual interview (often weeks later), the client is nervous, the interpreter may use different phrasing than the attorney used during preparation, and the client gives an answer that conflicts with their application — not because they're lying, but because the question was phrased differently and they didn't understand the nuance. Inconsistent answers are the #1 reason for I-485 interview failures that could have been prevented.
+
+## Why It's Still Broken
+Interview preparation materials for USCIS interviews do exist — in English. Question lists, study guides (especially for the N-400 civics test), and practice questions are available online. But these are not useful for a client who doesn't read English. Translating generic preparation materials is insufficient because the preparation must be case-specific — the client needs to review their own application in their own language and understand what they said on each form, so they can answer consistently. No tool generates case-specific interview preparation materials in the client's language based on the actual application that was filed.
+
+## What a Fix Looks Like
+An interview preparation system with three components: (1) case-specific question generator — based on the application type and the client's specific answers, generate the likely interview questions in both English and the client's language (e.g., "The officer will ask: 'Have you ever been arrested?' You answered 'No' on your application. If you have never been arrested, your answer is: 'No, I have never been arrested.'"), (2) application summary in client's language — a plain-language summary of everything the client stated on their application, generated from the filed forms, in the client's language, so they can review it before the interview and identify any errors, (3) practice mode — an LLM-powered mock interview experience (text or voice) that asks anticipated questions in the client's language, evaluates the client's responses for consistency with the filed application, and flags potential inconsistencies for attorney review. The client can practice on their phone at home, multiple times, before the actual interview.
+
+## Who Feels the Pain
+Clients who fail USCIS interviews because they gave inconsistent answers due to language confusion — leading to requests for additional evidence, interview re-scheduling (adding months), or outright denials. Attorneys who spend 2-3 hours per client on preparation sessions that don't stick because the client can't review written materials afterward.
+
+## Impact If Fixed
+Reduces interview preparation time from 2-3 hours (in-person bilingual session) to 1 hour (attorney review of flagged items) plus client self-study. Reduces interview inconsistency-related issues by 30-50% by giving clients case-specific preparation materials they can review repeatedly in their own language. For a firm preparing 10 clients per month for USCIS interviews, this saves 15-20 hours of billable attorney time and meaningfully improves interview outcomes.

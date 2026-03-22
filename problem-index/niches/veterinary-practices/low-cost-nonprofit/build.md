@@ -1,0 +1,22 @@
+# High-Volume Surgical Clinic Workflow Platform
+
+**Niche:** [[niches/veterinary-practices/low-cost-nonprofit/profile|Low-Cost & Nonprofit Clinics]]
+**Industry:** [[industries/veterinary-practices|Veterinary Practices]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A workflow platform designed for high-volume spay/neuter clinics that tracks 30-50 animals simultaneously through pre-op, anesthesia, surgery, recovery, and discharge — replacing the whiteboard-and-paper system that every high-volume clinic currently uses.
+**Tags:** #workflow-orchestration #automation #data-integration #worker-facing
+
+## The Problem
+A high-volume spay/neuter clinic operates like a surgical assembly line. On a typical day, 30-50 animals arrive between 7-8 AM, are processed through intake (weight, species, sex, pre-surgical exam), assigned to a surgeon rotation (3-4 surgeons each performing 8-15 surgeries), moved through anesthesia induction, surgery, and recovery, and discharged to owners between 3-5 PM. At any given moment, the clinic must know: which animals are in pre-op, which are under anesthesia, which surgeon has each animal, which are in recovery and how long they've been there, and which are ready for discharge. Currently, this is managed with a whiteboard, paper surgery logs, and verbal communication. When the whiteboard gets erased prematurely, when a paper log goes missing, or when a volunteer forgets to update a patient's status, animals can be lost in the workflow — a recovery animal that hasn't been checked in 30 minutes, a discharged animal whose owner hasn't been called.
+
+## Why Nobody Has Built This
+Standard veterinary PMS platforms are designed for individual patient appointments — one patient in one exam room with one vet for a 20-30 minute slot. The concept of tracking 40 simultaneous patients moving through 5 workflow stages with 3-4 surgeons and 8-10 support staff does not exist in any veterinary software. Building this requires: (1) a real-time patient tracking interface (think airport departure board — visual, glanceable, updated in real time), (2) role-specific views (the surgeon needs to see their queue, the anesthesia tech needs to see induction timing, the recovery staff needs to see post-op monitoring intervals), and (3) integration with surgical outcome tracking for grant reporting. The market is small (estimated 500-800 high-volume clinics in the US) and price-sensitive (nonprofit budgets), which discourages commercial software development. But the operational impact per clinic is massive.
+
+## What to Build
+A tablet-based workflow platform that replaces the whiteboard and paper surgery log. Core features: (1) morning intake — scan or manually enter each animal, capturing species, sex, weight, pre-surgical exam findings, and owner contact information, (2) real-time surgical board — a dashboard showing every animal's current workflow stage (pre-op, induction, surgery, recovery, discharge) with time-in-stage counters and color-coded alerts for overdue transitions (e.g., an animal in recovery for more than 45 minutes without a status update), (3) surgeon queue management — assign animals to surgeon rotations and track per-surgeon throughput and complication rates, (4) anesthesia logging — timestamp-based anesthesia records that capture drug, dose, and monitoring vitals at configurable intervals, (5) discharge workflow — trigger client notification when the animal is recovery-complete, generate post-surgical care instructions, and record pickup. Designed for shared tablets mounted at each station (intake, surgery, recovery, discharge) and operable with one gloved hand.
+
+## Target Customer
+Executive directors and head veterinarians at high-volume spay/neuter clinics performing 20+ surgeries per day, currently managing surgical flow with whiteboards and paper logs, willing to pay $149-249/month for a platform that prevents lost patients and provides the surgical outcome data their grants require.
+
+## Impact If Built
+Eliminates the leading operational risk in high-volume clinics — losing track of a patient in the workflow — which can result in missed recovery monitoring, delayed discharge, and in rare cases, patient harm. Increases surgical throughput by 10-15% by reducing time wasted on verbal status checks and whiteboard updates. Generates structured surgical outcome data (complication rates, surgery times, recovery times) automatically, eliminating hours of manual data compilation for grant reports.

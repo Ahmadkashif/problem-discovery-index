@@ -1,0 +1,22 @@
+# Well/Septic Inspection Protocol and Report Generator
+
+**Niche:** [[niches/home-inspection/rural-inspectors/profile|Rural Inspectors]]
+**Industry:** [[industries/home-inspection|Home Inspection]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A structured inspection and reporting tool for private well and septic systems that guides the inspector through state-specific evaluation protocols, interprets water quality lab results, assesses septic system condition based on observable indicators, and produces a client-facing report that explains findings in homebuyer-friendly language — replacing the free-form notes and generic language that most inspectors use for systems they aren't deeply trained on.
+**Tags:** #gradient-boosting #compliance #automation #worker-facing
+
+## The Problem
+Twenty percent of US homes use private wells and septic systems, but home inspector training programs focus 95% of their curriculum on municipal water and sewer. A rural inspector must evaluate: well flow rate (measured with a drawdown test — how many gallons per minute the well produces), water quality (bacteria, nitrates, pH, hardness, iron, manganese, arsenic — varies by state requirement), well construction (casing condition, wellhead protection, separation distances from septic and fuel tanks), septic system type (conventional, aerobic, mound, drip, holding tank), septic system condition (effluent level, scum/sludge layer depth, distribution box condition, drain field surface evidence). Most inspectors know enough to run the flow test and collect water samples, but interpreting results and assessing septic condition requires knowledge they don't have. A well producing 3 GPM is adequate for a 2-person household but insufficient for a 4-bedroom home — does the inspector know the flow rate adequacy standard for the state? Septic sludge at 40% of tank depth means the system needs pumping within 6 months — does the inspector know the threshold?
+
+## Why Nobody Has Built This
+Well and septic regulations vary by state and often by county. Pennsylvania requires well flow testing but has no statewide water quality testing mandate. Virginia mandates specific water quality parameters. North Carolina has county-level well and septic requirements. Building a comprehensive protocol requires aggregating regulations from 50 states and thousands of counties. The interpretation component — telling the homebuyer what a 2.5 GPM flow rate or 12 mg/L nitrate result means for their household — requires combining regulatory thresholds with practical usage context. The market (rural inspectors represent perhaps 4,000-5,000 of 25,000 total inspectors) has been too small for software companies to prioritize.
+
+## What to Build
+A well/septic inspection module with three components. First, state/county-aware protocol: input the property address, and the system generates the applicable well and septic evaluation checklist — which water quality parameters to test, minimum flow rate standards, septic inspection requirements, and separation distance requirements based on the jurisdiction. Second, result interpretation: input lab results (bacteria, nitrates, metals, pH) and flow test data, and the system classifies each parameter as pass/marginal/fail with context ("Nitrate at 8.2 mg/L is within the EPA MCL of 10 mg/L but trending toward the action level — recommend annual monitoring and check for fertilizer or septic sources within 100 feet"). Third, septic condition assessment: a structured form where the inspector enters observable indicators (effluent level, sludge depth, odor, surface evidence, distribution box condition) and the system classifies system status (functioning normally, needs pumping, needs repair, needs replacement) with estimated remaining useful life.
+
+## Target Customer
+Rural home inspectors in states with significant private well and septic inventory — Pennsylvania, Virginia, North Carolina, Michigan, Wisconsin, and the rural portions of most states. Inspectors who currently decline well/septic evaluation or perform it inadequately due to lack of structured protocols.
+
+## Impact If Built
+Enables 3,000-5,000 rural inspectors to offer comprehensive well/septic evaluation as a premium service ($200-400 add-on). Reduces well/septic interpretation errors that currently lead to buyers purchasing homes with inadequate water supply or failing septic systems. Creates a defensible, jurisdiction-specific evaluation record that reduces inspector liability for well/septic assessment.

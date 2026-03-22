@@ -1,0 +1,22 @@
+# BH-Specific Denial Prevention Engine
+
+**Niche:** [[niches/medical-billing/behavioral-health-billing/profile|Behavioral Health Billing]]
+**Industry:** [[industries/medical-billing|Medical Billing]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A denial prevention platform purpose-built for behavioral health billing that understands psychotherapy documentation requirements, carve-out network rules, authorization cadences, and 42 CFR Part 2 constraints — catching BH-specific denial triggers before claims are submitted.
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #cross-validation #tacit-knowledge-ml #compliance #automation #revenue-impact #data-integration
+
+## The Problem
+Behavioral health claims are denied at rates 20-30% higher than medical claims, and the root causes are BH-specific. The most common: (1) Medical necessity documentation insufficient — payers require specific clinical language in psychotherapy notes (functional impairment descriptions, treatment goal progress, symptom severity ratings) that therapists often omit because their clinical training emphasizes narrative documentation. (2) Authorization gaps — BH services require ongoing authorization with clinical reviews at defined intervals (every 6-8 sessions for many payers), and a single missed reauthorization window denies all subsequent sessions until reauthorized. (3) Carve-out network mismatches — a provider credentialed with Anthem medical may not be credentialed with Optum Behavioral Health (Anthem's BH carve-out), causing "out of network" denials even when the patient shows an Anthem card. (4) Time-based code selection errors — choosing 90837 (53+ minutes) vs. 90834 (38-52 minutes) based on session duration requires precise time tracking that many therapists estimate rather than record.
+
+## Why Nobody Has Built This
+BH billing expertise is rare — most billing companies and RCM vendors focus on medical/surgical billing where volume and revenue per claim are higher. The BH billing market is fragmented across thousands of small group practices, solo therapists, and SUD treatment centers, none of whom individually represent significant software revenue. The regulatory complexity (42 CFR Part 2, state-specific telehealth rules, carve-out network structures) requires domain expertise that general RCM engineers don't have. BH-specific EHRs (TherapyNotes, SimplePractice) focus on clinical documentation and leave billing as a secondary feature with minimal intelligence. The result is that BH billing is the least automated segment of the medical billing industry.
+
+## What to Build
+A SaaS platform for BH billing operations that prevents denials before submission. Core capabilities: (1) Documentation adequacy checker — scans psychotherapy notes (via EHR integration) for the clinical language elements required by each payer's medical necessity criteria, flagging sessions where documentation is insufficient for the billed code before the claim is generated. Uses a gradient-boosted classifier trained on approved vs. denied BH claims with documentation features. (2) Authorization timeline manager — tracks session counts against authorization limits per patient per payer, alerting the practice 2-3 sessions before reauthorization is needed, with pre-populated reauthorization request forms. (3) Carve-out network validator — maintains a database of which payers carve out BH to which administrators, cross-referencing provider credentialing status to catch network mismatches at eligibility verification. (4) Time-based code selector — integrates with session scheduling to suggest the correct time-based CPT code based on actual session start/end times recorded in the EHR.
+
+## Target Customer
+BH billing companies, group therapy practices with internal billing staff, and SUD treatment centers processing 500-5,000 BH claims per month, experiencing denial rates above 12% and spending significant staff time on authorization management and medical necessity appeals.
+
+## Impact If Built
+Reduces BH claim denial rate from 12-18% to 4-6% by preventing the four most common BH-specific denial triggers. For a BH billing operation processing 3,000 claims/month at $120 average reimbursement, reducing denials from 15% to 5% recovers $36,000/month in accelerated collections. Authorization gap prevention alone eliminates the most costly BH denial type — a missed reauthorization can result in 6-10 sessions denied retroactively, representing $720-1,200 per patient episode.

@@ -1,0 +1,22 @@
+# Exterior Paint Condition Assessment from Drone/Photos
+
+**Niche:** [[niches/painting-contractors/residential-exterior/profile|Residential Exterior Painting]]
+**Industry:** [[industries/painting-contractors|Painting Contractors]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A system that analyzes drone or smartphone photos of a home's exterior to classify surface conditions — peeling, chalking, bare wood, failed caulk, wood rot, mildew — and quantify the percentage of each surface requiring prep, converting the most subjective part of exterior estimating into a measurable, repeatable assessment.
+**Tags:** #semantic-segmentation #object-detection #tacit-knowledge-ml #revenue-impact #automation #cnns
+
+## The Problem
+The profitability of every exterior painting job depends on accurately estimating prep work, which accounts for 40-60% of labor hours. An experienced exterior painter walks the perimeter of a home and mentally classifies every surface: this siding section is peeling and needs scraping (2 hours), that fascia board has wood rot and needs replacement (subcontract to carpenter), the south-facing wall is chalking and needs chemical wash before primer, the caulk around these 12 windows has failed and needs removal and re-application (3 hours). This assessment is pure tacit knowledge — experienced estimators develop a calibrated sense of how much prep time a surface condition implies, disaggregated by substrate type (wood lap siding vs. T1-11 vs. hardboard vs. stucco vs. fiber cement). Junior estimators systematically underestimate prep on challenging exteriors (old homes with multiple paint layers, south/west exposures with UV damage, homes near the coast with salt-air degradation) because they haven't seen enough surfaces to calibrate their judgment. The result: prep underestimates cause 60-70% of exterior painting project losses.
+
+## Why Nobody Has Built This
+Training data for exterior surface condition classification requires thousands of annotated photos of siding, trim, and fascia at close range, labeled with condition category and severity by experienced exterior painters. The intra-rater reliability problem is significant: the same painter may rate a surface as "moderate peeling" on Monday and "heavy peeling" on Wednesday depending on comparison context. Inter-rater agreement on prep time estimates for the same surface varies by 30-50% between experienced painters. The visual diversity is extreme — wood lap siding peels differently than T1-11, stucco chalking looks different from hardboard chalking, and mildew patterns vary by climate zone. Drone imagery adds altitude, angle, and resolution variability. Existing CV systems for building inspection (facade assessment for commercial buildings) focus on structural defects, not paintability.
+
+## What to Build
+A mobile/drone capture system where the estimator photographs all four elevations of the home (8-16 photos for ground-level, or a drone orbit for aerial capture), and a CNN-based pipeline performs: (1) semantic segmentation of surface types (wood siding, trim, fascia, soffit, doors, shutters, foundation, stucco, brick, fiber cement), (2) condition classification per segment (good/fair/poor/failed on a rubric including peeling severity, chalking severity, caulk condition, wood integrity, mildew coverage), and (3) prep time estimation per segment based on condition class and surface type, calibrated against the contractor's historical labor data. Output is a visual condition map overlaid on the home photos plus a prep scope breakdown that feeds directly into PaintScout or the contractor's estimating spreadsheet.
+
+## Target Customer
+Exterior painting companies doing 50+ exterior repaints per year, especially those operating in climate zones with severe UV or moisture exposure (Southeast, Pacific Northwest, coastal areas) where prep variability is highest. Companies in the $750K-5M range where a single badly estimated prep scope can erase a month's profit.
+
+## Impact If Built
+Reduces prep estimation error from 30-50% variance to under 15%, saving $2,000-5,000 per project in avoided overruns on a $10,000 exterior job. Increases estimating capacity by 40-50% by replacing the 30-45 minute perimeter walk-and-assess with a 10-minute photo capture. Worth $150K-400K annually in margin protection and recovered revenue for a mid-size exterior painting company.

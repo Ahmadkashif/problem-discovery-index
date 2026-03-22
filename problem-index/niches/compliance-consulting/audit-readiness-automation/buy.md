@@ -1,0 +1,22 @@
+# Multi-Framework Evidence Collection by Extending Vanta's Architecture
+
+**Niche:** [[niches/compliance-consulting/audit-readiness-automation/profile|Audit Readiness & Evidence Automation]]
+**Industry:** [[industries/compliance-consulting|Compliance Consulting]]
+**Type:** Buy & Customize (Vertical Adaptation)
+**One-liner:** Vanta automates evidence collection for SOC2 and ISO from ~200 cloud and SaaS integrations — extending this architecture to HIPAA (with EHR integrations), EPA (with environmental monitoring system integrations), and OSHA (with safety management system integrations) would bring automated evidence collection to the 80% of compliance work that Vanta doesn't currently cover.
+**Tags:** #data-integration #workflow-orchestration #compliance #automation #ai-platform #quick-win
+
+## The Problem
+Vanta has demonstrated that automated evidence collection transforms compliance from a periodic, labor-intensive project into a continuous, low-effort operation. For SOC2 compliance, Vanta connects to AWS, Azure, GCP, Okta, GitHub, Jira, and 200+ other tools, automatically pulling evidence (access logs, configuration settings, vulnerability scan results) and mapping it to SOC2 control requirements. The result: a live compliance dashboard where the compliance manager can see at any time whether controls are met, what evidence supports each control, and where gaps exist. This is a 10x improvement over manual evidence collection. But Vanta's integration library is focused on cloud and SaaS infrastructure — the tools that technology companies use. Healthcare facilities use Epic, Cerner, and athenahealth. Manufacturing facilities use environmental monitoring systems and safety management platforms. Financial institutions use core banking systems and transaction monitoring tools. None of these have Vanta integrations, so compliance consulting in these domains remains manual.
+
+## What Already Exists
+Vanta covers SOC2 Type I/II, ISO 27001, HIPAA (limited — mostly IT infrastructure controls, not EHR-specific), PCI DSS, and GDPR with ~200 integrations focused on cloud, SaaS, and IT infrastructure. Drata offers similar coverage with a different integration library. Hyperproof provides a GRC platform with manual evidence management and some automated collection. AuditBoard serves enterprise internal audit with evidence tracking. None offer API-based evidence collection from healthcare, environmental, financial, or manufacturing-specific systems.
+
+## The Customization Gap
+Extending Vanta's architecture to non-tech compliance domains requires three investments: (1) integration development — building connectors for the 20-30 most common systems in each compliance domain: EHR platforms (Epic, Cerner, athenahealth, eClinicalWorks) for HIPAA, core banking systems (Jack Henry, Fiserv, FIS) for BSA/AML, environmental monitoring platforms for EPA compliance, and safety management systems for OSHA compliance, (2) framework mapping — defining which data from each system satisfies which control requirement for each compliance framework (HIPAA has 54 implementation specifications, OSHA has industry-specific standards, EPA has permit-specific requirements), and (3) consultant-facing multi-tenancy — Vanta is designed for a company to monitor its own compliance; the adaptation needs a consultant-facing view where one firm monitors compliance across 20 clients, each with different systems and frameworks. The underlying architecture — API-based data collection, automated control testing, evidence timestamping, continuous monitoring with drift detection — transfers directly to non-tech compliance domains.
+
+## Target Customer
+Compliance consulting firms that already use Vanta or Drata for their technology clients and want the same automated evidence collection for healthcare, environmental, and financial compliance clients, and Vanta/Drata themselves as they consider expanding beyond SOC2/ISO into a broader compliance platform.
+
+## Impact If Solved
+Brings automated evidence collection to the 80% of compliance consulting labor that isn't covered by current tools. For a multi-domain compliance firm, this means evidence collection for HIPAA, EPA, and OSHA engagements drops from 60-100 hours per client per audit cycle to 15-30 hours — matching the efficiency their SOC2 engagements already achieve through Vanta. The consulting firm's capacity doubles without hiring, and the move from periodic to continuous evidence collection improves compliance outcomes for every client.

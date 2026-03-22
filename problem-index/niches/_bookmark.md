@@ -8,19 +8,18 @@
 
 ## Completed
 
-_(none yet)_
+**Batch 1 (4 industries, 32 niches, 132 files):** behavioral-health-clinics, home-health-agencies, dental-practices, physical-therapy
+**Batch 2 (4 industries, 32 niches, 132 files):** medical-billing, urgent-care, veterinary-practices, pharmacy-independents
+**Batch 3 (4 industries, 32 niches, 132 files):** immigration-law, personal-injury-law, estate-planning, small-law-firms
+**Batch 4 (4 industries, 32 niches, 132 files):** compliance-consulting, general-contractors, electrical-contractors, plumbing-contractors
+**Batch 5 (4 industries, 32 niches, 132 files):** roofing-contractors, hvac-contractors, landscaping, painting-contractors
+**Batch 6 (4 industries, 32 niches, 132 files):** home-inspection, solar-installers, utility-contractors, property-management
 
 ## In Progress
 
-**Batch 1:** behavioral-health-clinics, home-health-agencies, dental-practices, physical-therapy
+_(none)_
 
 ## Queue
-
-- Batch 2: medical-billing, urgent-care, veterinary-practices, pharmacy-independents
-- Batch 3: immigration-law, personal-injury-law, estate-planning, small-law-firms
-- Batch 4: compliance-consulting, general-contractors, electrical-contractors, plumbing-contractors
-- Batch 5: roofing-contractors, hvac-contractors, landscaping, painting-contractors
-- Batch 6: home-inspection, solar-installers, utility-contractors, property-management
 - Batch 7: commercial-real-estate, short-term-rentals, real-estate-appraisers, hoa-management
 - Batch 8: freight-brokerage, last-mile-delivery, warehouse-3pl, customs-brokers
 - Batch 9: cold-chain-logistics, contract-manufacturing, metal-fabrication, food-manufacturing

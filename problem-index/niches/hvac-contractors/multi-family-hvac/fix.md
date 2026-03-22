@@ -1,0 +1,22 @@
+# Tenant Comfort Complaint Resolution Tracking
+
+**Niche:** [[niches/hvac-contractors/multi-family-hvac/profile|Multi-Family HVAC]]
+**Industry:** [[industries/hvac-contractors|HVAC Contractors]]
+**Type:** Fix (Pain Point)
+**One-liner:** Property managers can't tell the difference between a one-time HVAC complaint and a chronic comfort problem — tenants in Unit 504 have called 6 times about "too hot" in the last year, each treated as a separate work order, with no one connecting the dots that the real problem is inadequate ductwork design, not a failing AC unit.
+**Tags:** #gradient-boosting #worker-facing #data-integration #logistic-regression
+
+## The Problem
+Multi-family HVAC complaints are treated as discrete events: tenant calls, work order created, HVAC tech dispatched, problem "fixed," work order closed. But many HVAC complaints are chronic — the same unit, the same complaint, recurring every few weeks or every season. A tenant complaining that their unit is too hot every summer may have: an undersized AC unit, inadequate supply ductwork, excessive solar gain from west-facing windows with no window treatments, or a combination. The HVAC contractor dispatched to a "not cooling" work order checks the AC unit, finds it running within spec, and reports "system operating normally" — but the tenant is still uncomfortable. The property manager sees "resolved" work orders but doesn't connect 6 complaints over 12 months as a pattern requiring a different intervention (ductwork modification, window film, supplemental mini-split) than the individual work order responses can address.
+
+## Why It's Still Broken
+Property management systems track work orders individually, not as patterns. AppFolio shows that Unit 504 had 6 HVAC work orders this year, but the property manager has to manually review each one to see that they're all "too hot" complaints, all in summer months, and all resolved as "system operating normally." No automated pattern detection connects recurring complaints by unit, complaint type, season, and resolution. The HVAC contractor treats each dispatch as an independent call because that's how they're paid — there's no incentive to investigate the underlying pattern, and no mechanism to communicate "this unit has a chronic ductwork design problem" to the property manager in a way that triggers capital improvement rather than another service call.
+
+## What a Fix Looks Like
+A complaint pattern analysis module that sits on top of work order data and identifies chronic HVAC comfort issues. The system: (1) Groups work orders by unit, complaint type (hot, cold, noisy, humidity, air quality), and time period; (2) Flags units with recurring complaints (3+ similar complaints in 12 months) as "chronic comfort issues" requiring investigation beyond standard service calls; (3) Analyzes complaint patterns across the building to identify systemic issues — if all south-facing units on the top floor complain of heat every summer, the problem is building envelope/orientation, not individual equipment failure; (4) Generates a recommended action plan: "Unit 504 — 6 hot complaints in 12 months, system operating normally on each visit. Recommended: ductwork assessment ($350) to verify adequate supply airflow. If ductwork inadequate, estimate for duct modification or supplemental ductless mini-split." A gradient-boosted classifier trained on complaint history, unit characteristics (floor, orientation, square footage, equipment specs), and resolution outcomes predicts which new complaints are likely to become chronic and recommends proactive investigation on first occurrence.
+
+## Who Feels the Pain
+Property managers who spend disproportionate time managing HVAC complaints from the same units month after month, tenants whose comfort problems are never actually resolved because each work order treats the symptom rather than the cause, and HVAC contractors who are dispatched repeatedly to units where the equipment is functioning correctly but the building design is the problem.
+
+## Impact If Fixed
+Reduces chronic HVAC complaint volume by 40-60% through root cause identification and resolution, saving 2-5 hours per week of property manager time on complaint management. Eliminates 30-50% of repeat HVAC service dispatches ($150-300 each) to units with chronic issues, saving $10K-50K annually per multi-family property. Improves tenant retention by resolving the comfort issues that drive lease non-renewals — HVAC comfort is consistently a top-3 factor in tenant satisfaction surveys.

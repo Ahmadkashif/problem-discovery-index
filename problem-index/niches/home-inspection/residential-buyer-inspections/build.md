@@ -1,0 +1,22 @@
+# AI Defect Severity Scoring from Inspection Photos
+
+**Niche:** [[niches/home-inspection/residential-buyer-inspections/profile|Residential Buyer Inspections]]
+**Industry:** [[industries/home-inspection|Home Inspection]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A computer vision system that analyzes inspection photos to classify defect type, estimate severity, and recommend action — transforming the most judgment-intensive part of home inspection from a skill that takes 3,000+ inspections to develop into an AI-augmented assessment available to every inspector from their first day.
+**Tags:** #object-detection #tacit-knowledge-ml #revenue-impact #automation #cnns #gradient-boosting
+
+## The Problem
+Every home inspection produces 100-300 photos of defects, conditions, and system components. The critical judgment for each photo is: what type of defect is this, how severe is it, and what should the buyer do about it? An experienced inspector photographs a foundation crack and immediately classifies it: "horizontal crack at the mortar joint, 3/16 inch wide, with lateral displacement — this indicates active hydrostatic pressure and requires a structural engineer evaluation before purchase." A new inspector photographs the same crack and writes: "crack observed in foundation wall — recommend further evaluation." The experienced inspector's classification conveys actionable information that drives the buyer's decision; the new inspector's vague statement provides no guidance and exposes the inspector to liability for failure to adequately describe a potentially significant defect. The severity assessment gap between experienced and new inspectors exists across every defect category: electrical panel hazards, plumbing corrosion, roofing deterioration, HVAC failure indicators, and moisture intrusion signs.
+
+## Why Nobody Has Built This
+Training data for defect severity scoring requires thousands of labeled inspection photos with expert annotations: defect type (crack pattern, electrical hazard type, plumbing issue type), severity (cosmetic/monitor/repair/safety hazard/structural), and recommended action. The labeling challenge is severe — experienced inspectors disagree on severity 25-35% of the time, particularly for "gray area" conditions (is this crack active or dormant? is this electrical panel a fire hazard or just outdated?). The visual diversity is extreme: the same defect type looks different depending on building material, age, lighting, and photographic quality. And the liability implications mean the model must be highly reliable — a false negative (classifying a structural crack as cosmetic) creates potential lawsuit exposure for both the inspector and the AI provider.
+
+## What to Build
+A photo analysis module that processes each inspection photo through three stages: (1) defect detection — a CNN identifies what the photo shows (foundation crack, rusty pipe, double-tapped breaker, missing shingle, etc.) with confidence score; (2) severity classification — a second model classifies severity based on defect type, visible characteristics (crack width, crack pattern, extent of corrosion, etc.), and context (location in the structure, relation to other observed defects); (3) narrative generation — an LLM generates a technically accurate description of the defect using standards-compliant language (ASHI Standards of Practice) that the inspector can review, edit, and insert into the report. The system presents findings as "AI-suggested" assessments that the inspector confirms or overrides — it augments judgment rather than replacing it. Over time, the model learns from inspector overrides to calibrate severity thresholds.
+
+## Target Customer
+New home inspectors in their first 1-3 years (5,000-8,000 inspectors in training or early career) who have technical knowledge from coursework but lack the pattern recognition from thousands of inspections. Secondary market: experienced inspectors who want a "second set of eyes" to reduce missed defects and liability exposure.
+
+## Impact If Built
+Accelerates new inspector competency from 3-5 years (1,000-2,000 inspections) to 6-12 months by providing expert-level defect assessment from day one. Reduces missed defects by 30-50%, decreasing the inspection industry's $50M+ annual liability claims. Improves report quality and consistency, increasing referral rates for inspectors who deliver more informative, better-organized reports.

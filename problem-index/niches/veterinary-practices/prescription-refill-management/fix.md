@@ -1,0 +1,22 @@
+# Pharmacy Revenue Leakage to Online Retailers
+
+**Niche:** [[niches/veterinary-practices/prescription-refill-management/profile|Prescription Refill Management]]
+**Industry:** [[industries/veterinary-practices|Veterinary Practices]]
+**Type:** Fix (Pain Point)
+**One-liner:** Practices lose $5K-15K per month in pharmacy revenue because clients order chronic medications from Chewy — and the practice has no automated refill system, no competitive pricing, and no convenience layer to compete with a 2-click online reorder experience.
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #revenue-impact #automation #tacit-knowledge-ml
+
+## The Problem
+When a dog owner needs to refill their pet's monthly heartworm prevention or arthritis medication, they face a choice: call the vet's office during business hours, wait on hold, request the refill, drive to the clinic to pick it up, and pay $45 — or open the Chewy app at 10 PM, tap "reorder," and receive it in 2 days for $32. The practice cannot compete on convenience or price, so they lose the sale. This revenue leakage is accelerating: Chewy's veterinary pharmacy revenue grew 40%+ year-over-year through 2024-2025. The most insidious aspect is that the practice doesn't know which clients have switched to online pharmacies until the refill requests stop — there is no alert, no client communication, no retention effort. Experienced vet techs develop a feel for which clients are price-shopping ("Mrs. Chen always asks about the price before refilling — she'll switch to Chewy within 3 months") but this pattern recognition is not captured or acted upon systematically.
+
+## Why It's Still Broken
+Practices are fighting a battle on three fronts simultaneously and losing on all three: (1) convenience — online pharmacies offer 24/7 ordering, auto-refill subscriptions, and home delivery, while practices require phone calls during business hours and in-person pickup, (2) price — online pharmacies buy at scale and operate with lower overhead, passing savings to consumers on the highest-volume medications, (3) awareness — practices don't know they've lost a client's pharmacy business until months later when they notice the patient hasn't requested a refill. No PMS tracks "expected refill date" and alerts when a refill doesn't arrive on schedule. The practice has the data to identify at-risk pharmacy clients (clients who have requested written prescriptions, clients who ask about prices, clients whose refill intervals have gotten longer) but no tool surfaces these signals or triggers retention interventions.
+
+## What a Fix Looks Like
+A pharmacy retention platform with three layers: (1) convenience — an online refill portal (branded to the practice) where clients can request refills 24/7, opt into auto-refill subscriptions, and choose pickup or home delivery (via practice-arranged shipping at cost), (2) competitive pricing — integration with a pricing intelligence feed that identifies the 10-20 highest-volume medications where the practice is significantly underpriced vs. online pharmacies, with automated price-match recommendations, (3) churn prediction — a gradient-boosted model trained on client behavior (refill request frequency, price inquiries, written prescription requests, refill interval lengthening) that identifies clients likely to switch to online pharmacies and triggers targeted retention outreach (loyalty pricing, convenience upgrades, auto-refill enrollment). Experienced vet techs' tacit knowledge of which client behaviors predict pharmacy switching is captured as training features. The system proactively contacts at-risk clients before they leave, not after.
+
+## Who Feels the Pain
+The practice owner watching $60K-180K/year in pharmacy revenue disappear to Chewy and 1-800-PetMeds with no way to identify at-risk clients or compete on convenience, and the vet tech who processes refill requests manually while knowing that the online pharmacy experience is effortless by comparison.
+
+## Impact If Fixed
+Retains 30-50% of pharmacy revenue currently leaking to online retailers by competing on convenience and targeted pricing — $25K-90K/year recovered for a typical practice. Proactive churn prediction identifies at-risk pharmacy clients 2-3 months before they switch, enabling retention interventions that are 5x more effective than re-acquisition efforts. Auto-refill subscriptions improve medication compliance, which improves patient outcomes for chronic conditions.

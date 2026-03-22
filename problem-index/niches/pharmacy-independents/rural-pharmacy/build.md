@@ -1,0 +1,22 @@
+# Rural Pharmacy Demand Forecasting with Delivery-Constrained Inventory Optimization
+
+**Niche:** [[niches/pharmacy-independents/rural-pharmacy/profile|Rural Pharmacy]]
+**Industry:** [[industries/pharmacy-independents|Independent Pharmacies]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A demand forecasting system that predicts per-NDC medication needs across a broad rural formulary and generates optimized wholesaler orders accounting for 2-3x/week delivery schedules — eliminating the stockouts that send patients on 40-mile round trips to the next pharmacy.
+**Tags:** #gradient-boosting #time-series-forecasting #feature-engineering #optimization-fundamentals #evaluation-metrics #tacit-knowledge-ml #revenue-impact
+
+## The Problem
+Rural pharmacists stock 2,000-4,000 unique NDCs to serve a diverse patient population that cannot easily go elsewhere. With wholesaler deliveries arriving only 2-3 times per week, every order decision must anticipate 2-4 days of demand — but per-NDC dispensing volumes are low (many drugs dispensed only 1-3 times per month), making demand inherently noisy. Experienced rural pharmacists develop tacit forecasting knowledge: they know that flu season increases antibiotic demand by late October, that the local factory's open enrollment shifts insurance formularies in January, that specific patients refill on predictable cycles, and that a single new prescriber moving to town can create demand spikes for their preferred drugs. This demand intuition takes 3-5 years to develop and is the primary barrier to a new pharmacist successfully taking over a rural practice. Meanwhile, the standard PMS reorder logic — fixed par levels with no delivery-frequency awareness — generates orders that either arrive too late (stockout) or accumulate excess inventory that ties up scarce working capital.
+
+## Why Nobody Has Built This
+Rural pharmacy inventory optimization is a small market ($500M-1B in total pharmacy revenue across ~2,500 locations) with high workflow complexity. Per-NDC demand volumes are too low for standard time-series models to work reliably without pooling data across locations — but each rural pharmacy's formulary and patient mix is unique, limiting the value of cross-pharmacy aggregation. The delivery constraint adds a stochastic scheduling dimension: the optimal order quantity depends not just on predicted demand but on when the next delivery arrives, what's already on hand, and what the cost of a stockout is (for a rural pharmacy, stockout cost is existential — the patient may never come back). Most inventory optimization vendors target urban pharmacies with daily delivery and high per-NDC volumes where simpler models work fine.
+
+## What to Build
+A demand forecasting engine designed for low-volume, high-breadth rural pharmacy inventories that: (1) uses gradient-boosted models with pharmacy-specific features (patient refill cycles, seasonal patterns, prescriber formulary preferences, insurance enrollment periods) to predict per-NDC demand over the next delivery cycle, (2) incorporates delivery schedule constraints to calculate optimal order quantities that minimize both stockout probability and excess inventory, (3) flags NDCs approaching critical-low inventory before the next delivery window with emergency order recommendations (transfer from nearby pharmacy, same-day wholesaler add-on), and (4) captures the tacit demand knowledge of experienced rural pharmacists as structured features — seasonal adjustments, prescriber behavior patterns, community events that affect demand — so this institutional knowledge persists through pharmacist transitions. The system learns from each pharmacy's dispensing history, with a cold-start module that bootstraps from demographic and prescriber data for new installations.
+
+## Target Customer
+Sole-pharmacist rural practices filling 50-150 Rx/day with 2-3x/week wholesaler delivery, experiencing 5-15 stockouts per week that force patients to drive 20+ miles or wait days for their medications.
+
+## Impact If Built
+Reduces stockout frequency by 50-70%, retaining 3-8 patients per week who would otherwise drive to a competitor. Reduces excess inventory by 20-30%, freeing $3,000-8,000 in working capital. Captures the demand forecasting intuition of experienced rural pharmacists, reducing the 3-5 year learning curve for new pharmacists to under 6 months — critical for rural pharmacy succession planning.

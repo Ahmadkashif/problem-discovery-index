@@ -1,0 +1,22 @@
+# Guided Billing Workflow for Non-Expert Staff
+
+**Niche:** [[niches/medical-billing/in-house-billing-departments/profile|In-House Billing Departments]]
+**Industry:** [[industries/medical-billing|Medical Billing]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** An expert system that sits on top of the practice's EHR billing module and tells non-specialist staff exactly what to do next — translating denial codes into plain-English instructions, prioritizing the AR worklist by recovery probability, and generating step-by-step correction guides.
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #evaluation-metrics #tacit-knowledge-ml #worker-facing #automation #workflow-orchestration
+
+## The Problem
+In-house billing staff at small-to-mid-sized practices are generalists doing specialist work. The front-desk coordinator who handles billing also answers phones, checks in patients, verifies insurance, and manages the schedule. When a claim is denied, they see a CARC code (CO-16, CO-4, PR-1) that means nothing to them without billing training. The PM system presents a list of denied claims with codes and dollar amounts but no guidance on what went wrong or what to do about it. The staff member's options are: (1) Google the denial code and try to figure out the correction (30-45 minutes per denial), (2) call the payer and wait on hold for 20-40 minutes to ask what went wrong, or (3) write off the charge. Most choose option 3 for claims under $200, leading to systematic revenue leakage. Practices with in-house billing departments have AR over 90 days averaging 15-25% versus 5-8% at professional billing companies — the gap is entirely due to expertise, not effort.
+
+## Why Nobody Has Built This
+EHR vendors (athenaHealth, eClinicalWorks, DrChrono) include billing modules but design them for users with billing knowledge. Adding a guidance layer would require EHR vendors to build denial intelligence, payer-specific correction logic, and workflow prioritization — capabilities outside their core competency and not justified by the revenue from their billing module alone. Third-party billing tools (Waystar, Availity) target billing companies and assume professional users. The in-house billing department is a market segment that falls between two buyer categories: too small for enterprise RCM vendors, too embedded in clinical operations for standalone billing tools. Building for this user means designing for someone who spends 2-3 hours/day on billing and 5-6 hours/day on other practice operations.
+
+## What to Build
+A web application that connects to the practice's EHR/PM via API and overlays a guided workflow on top of the existing billing module. Core features: (1) Denial translator — receives denial codes and generates a plain-English explanation of what went wrong, with the specific fields that need correction highlighted. (2) Smart worklist — prioritizes denied and aged claims by expected recovery value (a logistic regression model predicting appeal success probability × claim value), so staff work the highest-ROI items first. (3) Step-by-step correction guides — for each denial type and payer combination, provides a clickable workflow: "Step 1: Verify the ICD-10 code matches the procedure. Step 2: Check that modifier 25 is present for separate E/M. Step 3: Resubmit with corrected fields." (4) Escalation alerts — flags claims that exceed a complexity threshold and recommends outsourcing to a billing specialist rather than attempting in-house resolution. The system captures the expertise of professional billers in software accessible to generalist staff.
+
+## Target Customer
+Practice managers and office administrators at 1-5 physician practices handling billing in-house with non-specialist staff, currently experiencing denial rates above 10% and AR over 90 days exceeding 15%, willing to pay $200-400/month for a tool that makes their existing staff effective at billing without requiring certification or extensive training.
+
+## Impact If Built
+Reduces in-house billing department denial write-off rates from 30-40% of denied claims to 10-15% by making corrections accessible to non-expert staff. For a 3-physician practice billing $2M annually with a 10% denial rate ($200K denied), reducing write-offs from 35% to 12% recovers $46,000/year in previously abandoned revenue. Staff time per denial resolution drops from 30-45 minutes to 5-10 minutes with guided workflows.

@@ -1,0 +1,22 @@
+# Multi-Unit Electrical Compliance Tracker
+
+**Niche:** [[niches/electrical-contractors/multi-family-property-management/profile|Multi-Family Property Management Electrical]]
+**Industry:** [[industries/electrical-contractors|Electrical Contractors]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A system that tracks electrical code compliance status across hundreds of apartment units — GFCI protection, AFCI protection, smoke/CO detector status, panel condition, wiring type — with inspection schedules, jurisdiction-specific requirements, and tenant notification templates, replacing the spreadsheet-and-memory approach that creates liability exposure for property managers and building owners.
+**Tags:** #gradient-boosting #feature-engineering #compliance #automation #data-integration #workflow-orchestration #evaluation-metrics
+
+## The Problem
+A property management company overseeing 500 apartment units across 5 buildings has no centralized view of electrical compliance status. Building A (1972) has aluminum branch wiring in 40 units — 15 have been remediated with COPALUM connectors, 25 have not. Building B (1985) has original 100A panels in all 80 units — 30 have been upgraded during renovations, 50 have not. Building C (2001) needs AFCI breakers in bedrooms per the jurisdiction's adopted NEC cycle — how many units have them? Nobody knows. This information is scattered across inspection reports from different electricians over 20 years, property management work orders, and renovation project files. When a fire occurs in a unit with known aluminum wiring that was never remediated, the liability exposure is catastrophic. When a building inspector asks for electrical compliance documentation, the property manager scrambles to assemble records from multiple sources.
+
+## Why Nobody Has Built This
+The market is a two-sided coordination problem: the property manager owns the compliance obligation but doesn't understand electrical code, and the electrician understands electrical code but doesn't have a building-level compliance management tool. Building the tracker requires modeling jurisdiction-specific code requirements (which NEC cycle is adopted, which local amendments apply, what the retrofit trigger rules are — some jurisdictions require GFCI upgrades at unit turnover, others only at renovation), which vary across the 20,000+ US jurisdictions. The data entry burden is also significant — someone has to perform the initial baseline assessment of every unit, which is a substantial upfront investment before the tool provides ongoing value.
+
+## What to Build
+A building-level electrical compliance management platform with three user roles: (1) property manager — views compliance dashboards per building and unit, generates inspection schedules, sends tenant access notifications, tracks work orders for remediation; (2) electrician — performs unit inspections using a mobile checklist (GFCI test, AFCI test, smoke/CO detector test, panel inspection, wiring type identification, outlet grounding test), records findings per unit, flags deficiencies with photos and NEC references; (3) building owner — views portfolio-wide compliance risk scores, prioritizes capital expenditure for electrical upgrades. The system models jurisdiction-specific requirements: "In this jurisdiction, GFCI protection is required in kitchens and bathrooms per NEC 210.8, AFCI protection is required in bedrooms per NEC 210.12, and aluminum wiring remediation is recommended per CPSC guidelines." A gradient-boosted risk model scores each unit's electrical risk based on building age, wiring type, panel manufacturer, inspection history, and deficiency count, prioritizing inspections for the highest-risk units.
+
+## Target Customer
+Property management companies managing 200+ multi-family units, particularly those with older buildings (pre-1980) where electrical code compliance is a significant liability concern. Also electrical contractors who want to sell recurring compliance inspection contracts to property managers.
+
+## Impact If Built
+Provides the first-ever portfolio-wide view of electrical compliance status, reducing liability exposure from unknown deficiencies. Enables proactive remediation budgeting — property managers can plan $50K/year in electrical upgrades instead of reacting to $200K emergency projects after an incident. Creates a recurring revenue stream for electrical contractors: annual compliance inspections at $50-100/unit generate $10K-50K per building per year.

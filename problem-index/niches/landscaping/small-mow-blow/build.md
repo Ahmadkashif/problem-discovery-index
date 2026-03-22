@@ -1,0 +1,22 @@
+# Solo Landscaper Business-in-a-Box
+
+**Niche:** [[niches/landscaping/small-mow-blow/profile|Small Mow & Blow]]
+**Industry:** [[industries/landscaping|Landscaping]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A single mobile app that handles scheduling, route optimization, invoicing, payment collection, and client communication for a solo landscaper with 20-40 residential clients — simple enough to set up in 15 minutes, cheap enough at $15-25/month, and designed for someone who manages their business from the truck cab between properties.
+**Tags:** #automation #workflow-orchestration #quick-win #worker-facing #revenue-impact
+
+## The Problem
+A solo landscaper's business management stack is their personal phone: client list in Contacts, schedule in Calendar, invoicing via Venmo/Zelle requests or handwritten invoices, route in their head, expenses tracked nowhere, and tax records assembled in a panic every April. This "system" works until it doesn't — which happens at 25-30 clients, when the operator starts forgetting service dates, losing track of who has paid, double-booking rain makeups, and spending Sunday evenings texting clients individually about schedule changes. The operator's options are to stay small (limiting income to $50K-70K), hire and scale (requiring a jump to Jobber-level tooling and employer obligations), or keep growing solo with an increasingly fragile management system that eventually drops a ball badly enough to lose clients. The tools that exist for this market segment are either too complex (Jobber — built for crews), too expensive ($50-250/month against $4K-8K/month revenue), or too limited (Yardbook — no payment processing, no route optimization, poor mobile UX).
+
+## Why Nobody Has Built This
+The unit economics are challenging: solo operators generate $40K-120K in annual revenue and are extremely price-sensitive, making $15-25/month the ceiling for software spend. Building a full scheduling-routing-invoicing-payment-communication platform for $15-25/month requires either extreme simplicity (fewer features = lower development and support costs) or scale (millions of users at low ARPU). The market is also hard to reach: solo landscapers don't attend industry trade shows, don't read industry publications, and don't respond to B2B marketing — they discover tools through YouTube, Facebook groups, and word of mouth at equipment dealers. Jobber and Housecall Pro have deliberately moved upmarket (higher ARPU with multi-employee companies) rather than competing for the solo segment. The onboarding challenge is real: any tool that requires more than 15 minutes to set up and start using will be abandoned by operators who work 50-60 hours per week in the field.
+
+## What to Build
+A mobile-first (phone-only, no desktop required) business management app designed for the solo landscaper workflow. Setup: import client contacts from phone, drop pins on a map to set property locations, set service frequency per client (weekly, biweekly, monthly), and the app generates optimized daily routes automatically. Daily operation: the operator opens the app in the morning, sees today's route with turn-by-turn navigation, taps "start" at each property, taps "done" when finished (auto-logging time), and the app sends the client an automated "service completed" text with an optional before/after photo. Invoicing: monthly invoices auto-generate based on completed services and send via text with a payment link (Stripe, Square, or Venmo integration). Late payment: automated reminder texts at 3, 7, and 14 days past due. Weather: when rain is forecast, the app identifies affected routes and sends automated reschedule notifications to clients. End of year: generates a revenue report and expense summary formatted for Schedule C tax filing. Price: $15-25/month with 2.9% payment processing.
+
+## Target Customer
+Solo landscapers and two-person crews with 15-50 residential clients, generating $40K-120K in annual revenue, currently managing their business from a personal phone with no dedicated business software.
+
+## Impact If Built
+Saves 3-5 hours per week on scheduling, invoicing, and client communication — time the operator either works additional properties (adding $200-500/week in revenue) or reclaims as personal time. Reduces late payments by 40-60% through automated reminders and easy payment links. Eliminates the Sunday-evening schedule-planning session that solo operators universally describe as the worst part of running the business.

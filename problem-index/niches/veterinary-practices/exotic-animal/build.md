@@ -1,0 +1,22 @@
+# Exotic Species Clinical Reference & Drug Dosing Platform
+
+**Niche:** [[niches/veterinary-practices/exotic-animal/profile|Exotic Animal]]
+**Industry:** [[industries/veterinary-practices|Veterinary Practices]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A clinical decision support platform with species-specific drug formularies, diagnostic reference ranges, and treatment protocols for 100+ exotic species — replacing the dog-eared textbook and personal spreadsheet that every exotic vet currently relies on.
+**Tags:** #large-language-models #gradient-boosting #feature-engineering #tacit-knowledge-ml #data-integration #worker-facing
+
+## The Problem
+When an exotic vet needs to dose meloxicam for a green iguana, they cannot look it up in their PMS — they pull Carpenter's Exotic Animal Formulary off the shelf (a 900-page textbook), flip to the reptile section, find the drug, check the dose range, calculate based on the animal's weight in grams, and mentally verify the route of administration and frequency. This process takes 2-5 minutes per drug per species, and for a complex case involving 3-4 medications, the vet spends 10-20 minutes on drug dosing alone. For species not well-represented in the formulary (hedgehogs, sugar gliders, axolotls), the vet relies on personal experience, colleague consultation, or published case reports — tacit knowledge accumulated over years that new exotic practitioners cannot access.
+
+## Why Nobody Has Built This
+Three problems make this genuinely difficult: (1) the knowledge base is fragmented and partially unpublished — exotic drug dosing data comes from a mix of peer-reviewed studies (small sample sizes, often extrapolated from related species), formulary textbooks (updated every 5-7 years), conference proceedings, and individual practitioner experience (tacit knowledge that has never been formally documented), (2) species diversity is enormous — there are meaningful pharmacokinetic differences between a ball python and a corn snake, let alone between reptiles and birds, requiring species-specific (not just class-level) dosing data, and (3) the market is small — an estimated 3,000-5,000 vets see exotic patients regularly, making VC-scale investment unlikely. However, the per-user willingness to pay is high ($50-100/month) because the alternative is significant time loss and clinical uncertainty.
+
+## What to Build
+A cloud-based clinical reference platform accessible on phone, tablet, or desktop during appointments. Core features: (1) species-specific drug formulary covering 100+ exotic species with dose ranges, routes, frequencies, contraindications, and literature citations — searchable by species and drug name, with weight-based dose calculator, (2) diagnostic reference ranges for common bloodwork panels by species (published ranges where available, practitioner-contributed ranges where not), (3) species-specific medical record templates with anatomy-appropriate physical exam findings (e.g., coelomic palpation for reptiles instead of abdominal palpation, keel score for birds instead of body condition score), (4) a practitioner-contributed knowledge base where experienced exotic vets can share treatment protocols, case outcomes, and dosing experience — capturing tacit knowledge in a structured format that can be searched and verified. A gradient-boosted model trained on contributed case outcomes could eventually surface treatment recommendations ranked by species-specific efficacy, but the initial product is a curated reference tool.
+
+## Target Customer
+Veterinarians who see exotic patients (estimated 3,000-5,000 in the US), from dedicated exotic practices to companion animal GPs who accept the occasional rabbit or bearded dragon, willing to pay $50-100/month for a tool that replaces the textbook-flipping ritual and reduces clinical uncertainty.
+
+## Impact If Built
+Reduces per-case drug dosing time from 10-20 minutes to under 2 minutes. Reduces dosing errors for exotic species, which are currently estimated at 5-10% of cases due to manual calculation and species confusion. Captures tacit knowledge from experienced exotic practitioners into a searchable, verifiable format — creating a knowledge resource that currently exists only in the heads of a few hundred specialists. Enables companion animal GPs to confidently see common exotic species (rabbits, guinea pigs, bearded dragons) instead of turning them away.

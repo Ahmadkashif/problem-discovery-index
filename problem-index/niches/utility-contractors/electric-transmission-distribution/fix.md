@@ -1,0 +1,22 @@
+# Outage Restoration Crew Dispatch Optimization
+
+**Niche:** [[niches/utility-contractors/electric-transmission-distribution/profile|Electric Transmission & Distribution]]
+**Industry:** [[industries/utility-contractors|Utility Contractors]]
+**Type:** Fix (Pain Point)
+**One-liner:** During major storms, dispatch managers coordinate dozens of line crews responding to hundreds of outage locations using paper maps, radio communication, and personal judgment — a process that extends restoration times by 20-40% compared to optimized routing and prioritization.
+**Tags:** #reinforcement-learning #workflow-orchestration #automation #worker-facing #gradient-boosting
+
+## The Problem
+A major storm can produce 50-500 outage locations across a utility's service territory in a few hours. Each outage has different characteristics: a downed conductor (immediate public safety hazard, highest priority), a broken pole (requires pole replacement crew with specialized equipment, 4-8 hour repair), a blown fuse (15-minute repair by any line crew), or vegetation on a conductor (requires trim crew before line crew can restore). The dispatch manager must: identify all outage locations (from SCADA, customer calls, and AMI meter data), classify each by type and priority, match crews to outages by skill and equipment requirements, route crews to minimize travel time between outages, and dynamically re-route as new outages are reported and existing outages are cleared. During a major storm, this is a chaotic process managed by 2-3 dispatch managers on phones and radios, making sequential decisions without visibility into the full optimization landscape. The result: crews drive past outages assigned to other crews, high-priority public safety hazards wait while crews restore lower-priority outages nearby, and restoration time is 20-40% longer than optimal.
+
+## Why It's Still Broken
+Outage management systems (OMS) from vendors like Oracle, ABB, and Schneider Electric handle outage detection and customer notification but don't optimize crew dispatch. Dispatch is considered a "human judgment" function because it involves real-time decisions under uncertainty — new outages arrive continuously, crew availability changes as repairs take longer or shorter than expected, and road conditions (flooded roads, downed trees blocking access) change the routing landscape. Traditional optimization algorithms struggle with this level of real-time uncertainty. Dispatch managers develop institutional knowledge over years of storm response — they know which roads flood, which areas have underground vs. overhead lines, and which crews work fastest on which types of repairs.
+
+## What a Fix Looks Like
+A storm restoration dispatch optimizer that: (1) ingests real-time outage data from OMS/SCADA, AMI meter data, and customer reports; (2) classifies each outage by probable cause and estimated repair time using historical outage data and current weather conditions; (3) prioritizes by a weighted score combining public safety risk (downed wires = highest), customer count affected, critical facilities impacted (hospitals, shelters, water treatment), and restoration time (quick-fix outages that restore many customers per crew-hour); (4) assigns crews to outages matching skill/equipment requirements, optimizing for minimum total restoration time (not minimum individual outage time); (5) routes crews accounting for real-time road conditions, crew location tracking, and estimated time to completion at current assignment; and (6) dynamically re-optimizes as conditions change — new outages arrive, crews complete repairs faster or slower than estimated, and road conditions update.
+
+## Who Feels the Pain
+Dispatch managers who manage major storm restoration for 12-16 hour shifts under extreme cognitive load, making hundreds of sequential decisions that could be better optimized. Line crews who drive past outages to reach their assigned location, knowing the routing is inefficient. Utility customers who wait hours for restoration while crews are deployed suboptimally.
+
+## Impact If Fixed
+Reduces storm restoration time by 20-30% through optimized dispatch and routing, restoring power to thousands of customers hours earlier. Reduces crew overtime costs during major storms by 15-25% through more efficient routing. Decreases dispatch manager cognitive load, reducing the decision errors that occur during 12+ hour storm shifts. Worth $5M-20M per major storm event in reduced restoration costs and avoided customer penalty payments for large utilities.

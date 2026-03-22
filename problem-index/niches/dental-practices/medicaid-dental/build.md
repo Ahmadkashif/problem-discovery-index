@@ -1,0 +1,22 @@
+# Medicaid-Optimized Dental Practice Management Module
+
+**Niche:** [[niches/dental-practices/medicaid-dental/profile|Medicaid Dental Providers]]
+**Industry:** [[industries/dental-practices|Dental Practices]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** A module that handles Medicaid-specific dental workflows — auto-checking prior auth requirements before scheduling, applying state-specific fee schedules and coverage rules, tracking FQHC UDS reporting metrics, and managing the higher volume of claim denials unique to Medicaid — because no dental PMS adapts its workflow to the Medicaid reality.
+**Tags:** #gradient-boosting #decision-trees #feature-engineering #evaluation-metrics #cross-validation #data-integration #compliance #automation #workflow-orchestration
+
+## The Problem
+A dental practice accepting Medicaid must navigate a parallel administrative universe that sits alongside (and conflicts with) the commercial insurance workflow their PMS was designed for. Before scheduling a crown for a Medicaid patient, front desk staff must: check if the procedure requires prior authorization in this state (rules vary by state and by managed care organization), verify the patient's Medicaid eligibility is still active (Medicaid enrollment can change monthly), confirm the procedure is covered under the patient's specific plan (some states carve dental out of managed care, some don't), check frequency limitations (many states limit posterior crowns to once per tooth per 10 years), and submit the prior auth request with required documentation (radiographs, clinical narrative, sometimes photos). This chain takes 15-30 minutes per procedure and is performed manually by staff navigating state and MCO portals. If any step is missed, the claim denies — and at $300-500 per Medicaid crown reimbursement, the practice can't absorb frequent denials.
+
+## Why Nobody Has Built This
+Medicaid dental rules are state-specific — 50 states plus DC, each with different covered procedure lists, prior auth requirements, fee schedules, and documentation rules. Some states run dental Medicaid through the state agency directly; others contract with managed care organizations (each with their own rules). Building a comprehensive Medicaid rules engine requires maintaining 50+ rulesets that change annually. The market (Medicaid dental providers) has lower willingness to pay than commercial practices because their reimbursement rates are already compressed. And the integration challenge is significant — the module needs to sit inside or alongside the existing PMS, not replace it. The combination of high complexity, moderate market size, and price-sensitive buyers has kept commercial dental software vendors focused on the more lucrative commercial insurance market.
+
+## What to Build
+A Medicaid workflow layer that integrates with Dentrix, Open Dental, or Eaglesoft and intervenes at three critical points. At scheduling: auto-check whether the planned procedure requires prior auth for this patient's Medicaid plan, flag missing eligibility or expired enrollment, and surface frequency limitations before the appointment is booked. At documentation: prompt the clinician for the specific documentation elements required by the payer (e.g., "This state's Medicaid requires a periapical radiograph AND clinical narrative for D2751 — attach now"), using a decision-tree model trained on each state's documentation requirements. At billing: validate the claim against the state-specific coverage rules before submission, auto-correct common coding errors (wrong tooth surface designation, missing CDT modifiers), and calculate expected reimbursement using current fee schedules. The system maintains a continuously-updated Medicaid rules database organized by state and MCO, reducing the staff knowledge burden from "memorize 200 rules" to "follow the system's prompts."
+
+## Target Customer
+Dental practices where Medicaid represents 30%+ of patient volume — including FQHCs, community health centers, and private practices in underserved areas — currently employing 1-2 dedicated billing staff to manage Medicaid-specific workflows that consume 15-25 hours per week.
+
+## Impact If Built
+Reduces Medicaid claim denial rates from 18-22% to 5-8% (matching commercial denial rates), recovers $50K-150K/year in previously denied revenue per practice, and reduces front-desk time on prior auth and eligibility from 15-25 hours/week to 3-5 hours/week. For FQHCs, automated UDS metric tracking eliminates 40-60 hours of annual reporting labor.

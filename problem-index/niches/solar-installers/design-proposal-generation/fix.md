@@ -1,0 +1,22 @@
+# Proposal Accuracy — Projected Savings That Don't Materialize
+
+**Niche:** [[niches/solar-installers/design-proposal-generation/profile|Design & Proposal Generation]]
+**Industry:** [[industries/solar-installers|Solar Installers]]
+**Type:** Fix (Pain Point)
+**One-liner:** Solar proposals promise specific dollar savings over 25 years, but 30-40% of customers find their actual savings are 15-30% less than projected — because proposals use idealized production models, static rate assumptions, and best-case scenarios that don't survive contact with real-world conditions, creating the solar industry's biggest reputation problem.
+**Tags:** #time-series-forecasting #revenue-impact #data-integration #compliance #gradient-boosting
+
+## The Problem
+Solar proposals are sales documents, not engineering analyses. The typical proposal chain: Aurora calculates production using TMY (Typical Meteorological Year) weather data, which represents average conditions over 30 years — but any specific year can deviate 10-15% from TMY. The savings calculation uses the customer's current utility rate with a fixed annual escalation (3-4%), ignoring rate structure changes, NEM policy transitions, and TOU rate introductions. The system is often sized to maximize the roof (more panels = bigger sale) rather than to optimize the customer's economics. Equipment degradation (0.5-0.7% per year panel degradation) is sometimes omitted. Soiling losses (2-5% depending on geography) are underestimated. Inverter clipping losses (if the DC-to-AC ratio exceeds 1.2) are not always modeled. The cumulative effect: the proposal shows $45K in 25-year savings, but realistic modeling would show $32K — a 30% overstatement that the customer discovers gradually over the first 2-3 years of ownership, leading to distrust, negative reviews, and regulatory complaints.
+
+## Why It's Still Broken
+Solar sales compensation is commission-based — reps earn 5-10% of the contract price. Larger systems and rosier projections close more sales and generate higher commissions. There's no financial incentive for the sales rep to present conservative projections. Design tools like Aurora allow conservative modeling but default to assumptions that produce attractive numbers. No tool compares proposal projections against actual customer outcomes to create an accuracy feedback loop — the sales team never learns whether their proposals were accurate. Regulatory enforcement of proposal accuracy varies by state: some states (California, Massachusetts) have truth-in-advertising requirements, but enforcement is complaint-driven and after-the-fact.
+
+## What a Fix Looks Like
+A proposal accuracy system with two components. First, a reality-check module that runs before the proposal is delivered: compare the proposal's production and savings projections against a conservative baseline (weather-adjusted P50 production, current rate with no escalation as a floor scenario, explicit degradation and soiling losses), and flag any proposal where the optimistic projection exceeds the conservative baseline by more than 20%. The sales rep sees: "Your proposal shows $45K in savings. The conservative estimate is $32K. Presenting the optimistic number creates customer satisfaction risk." Second, a post-installation accuracy tracker: compare actual production and savings against the proposal's projections for every installed system, aggregating by sales rep and design team to identify systematic over-projection patterns. Sales reps whose proposals consistently overstate savings by 20%+ are flagged for recalibration training.
+
+## Who Feels the Pain
+Customers who financed solar based on projected savings that don't materialize — they're paying a $200/month loan for a system saving only $120/month, not the $180/month the proposal showed. Sales reps who face angry customers and negative reviews from projections they presented in good faith using default tool assumptions. Solar company owners whose reputation and BBB rating suffer from systematic over-projection.
+
+## Impact If Fixed
+Brings proposal accuracy within 10% of actual outcomes, dramatically reducing customer dissatisfaction. Creates a feedback loop that improves projection accuracy over time. Reduces BBB complaints and negative reviews — the #1 reputation issue for solar companies. Could reduce state regulatory scrutiny by demonstrating proactive accuracy management. Worth millions in protected brand value and reduced customer acquisition cost (negative reviews increase CAC by 15-25%).

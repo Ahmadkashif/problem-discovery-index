@@ -1,0 +1,22 @@
+# Intelligent Exercise Recommendation Engine
+
+**Niche:** [[niches/physical-therapy/hep-compliance/profile|Home Exercise Program (HEP) Delivery & Compliance]]
+**Industry:** [[industries/physical-therapy|Physical Therapy]]
+**Type:** Fix (Pain Point)
+**One-liner:** PTs stop spending 10-15 minutes per patient browsing a 500-exercise library — intelligent recommendations based on diagnosis, surgical protocol, functional level, and available equipment reduce HEP prescription time to 2 minutes while improving program quality.
+**Tags:** #gradient-boosting #random-forests #feature-engineering #evaluation-metrics #tacit-knowledge-ml #automation #worker-facing
+
+## The Problem
+Prescribing a home exercise program requires the PT to: identify 5-8 appropriate exercises from a library of 500+ options, select the right difficulty level for the patient's current functional status, specify sets, reps, and frequency for each exercise, consider what equipment the patient has access to at home (resistance bands? dumbbells? none?), and match exercises to the surgical protocol timeline (if post-operative). In practice, most PTs default to the same 15-20 exercises they know well rather than selecting the optimal exercises for each patient — because browsing the library takes too long and they're already behind on documentation. Experienced PTs have built mental exercise libraries organized by condition and progression stage through years of practice; newer PTs lack this tacit knowledge and either prescribe generic programs or spend excessive time searching for appropriate exercises.
+
+## Why It's Still Broken
+MedBridge and PhysiTrack organize exercises by body region and exercise type — useful for browsing but not for clinical decision support. They don't know the patient's diagnosis, surgical history, current functional limitations, treatment goals, or home equipment. They show all exercises for "shoulder" rather than recommending the 5 best exercises for "post-rotator cuff repair, week 3, limited to resistance bands at home, with current passive ROM of 120 degrees flexion." This clinical context exists in the EMR (diagnosis, surgical date, ROM measurements, equipment notes) but isn't connected to the exercise recommendation engine. Building a recommendation system requires training on PT clinical decision-making patterns — which exercises experienced PTs select for specific conditions and patient profiles — but no labeled dataset of expert HEP prescriptions linked to patient characteristics exists.
+
+## What a Fix Looks Like
+An exercise recommendation engine that ingests patient context from the EMR (diagnosis, surgical date and protocol if applicable, current functional measurements, treatment goals, home equipment) and recommends a ranked list of exercises with suggested parameters (sets, reps, frequency, progressions). The PT reviews the recommended program, adjusts as needed, and assigns in 2-3 minutes rather than 10-15. The engine learns from PT behavior — when a PT consistently replaces a recommended exercise with a different one for patients with a specific profile, the engine adjusts future recommendations. Over time, it captures the tacit knowledge of experienced PTs (which exercise progressions work best for which patient profiles) and makes it available to newer therapists. Protocol-aware recommendations handle post-surgical timelines automatically: "Week 3 post-ACL reconstruction, progress to closed-chain exercises per standard protocol."
+
+## Who Feels the Pain
+PTs who spend 10-15 minutes per patient on exercise prescription — 30-60 minutes daily across a typical caseload — instead of investing that time in direct patient care or leaving work on time. Newer PTs who lack the mental exercise library that experienced therapists have built over years, resulting in less optimal exercise selection and longer prescription time. Patients who receive generic, non-personalized exercise programs because their therapist didn't have time to select the optimal exercises.
+
+## Impact If Fixed
+Reduces exercise prescription time from 10-15 minutes to 2-3 minutes per patient — recovering 30-60 minutes of clinician time daily. Improves HEP quality by matching exercises to patient-specific context rather than defaulting to the PT's familiar 20 exercises. Captures and distributes tacit clinical knowledge from experienced PTs to newer therapists, raising the quality floor across the practice.
