@@ -2,8 +2,8 @@
 
 ## Where We Are
 
-- **100 / 118 industries complete** (Batches 1-25)
-- **~3300 niche files** written
+- **118 / 118 industries complete** (Batches 1-30) — FEATURE COMPLETE
+- **~3,894 niche files** written
 - **Last updated:** 2026-03-23
 - **Authoritative state:** `problem-index/niches/_bookmark.md`
 
@@ -36,18 +36,12 @@
 | 23 | municipal-services, independent-publishers, podcasting-networks, video-production-smb | 132 |
 | 24 | news-media-local, gyms-independent, personal-trainers, youth-sports-orgs | 132 |
 | 25 | auto-repair-shops, auto-body-shops, fleet-managers, rv-dealerships | 132 |
+| 26 | cleaning-companies, pest-control, security-guard-firms, event-planning | 132 |
+| 27 | tattoo-studios, funeral-homes, pet-services, alterations-tailoring | 132 |
+| 28 | insurance-tpa, public-adjusters, insurance-restoration, chiropractic-practices | 132 |
+| 29 | acupuncture-practices, med-spas, hair-salons-independent, grant-writers | 132 |
+| 30 | public-defenders, land-surveyors | 66 |
 
-### Upcoming Batches
+## STATUS: COMPLETE
 
-- **Batch 26:** cleaning-companies, pest-control, security-guard-firms, event-planning
-- **Batch 27:** tattoo-studios, funeral-homes, pet-services, alterations-tailoring
-- Batches 28-30: see `problem-index/niches/_bookmark.md` for full queue
-
-## YOUR NEXT ACTION
-
-1. Read `problem-index/niches/_bookmark.md` — confirm Batch 26 is next
-2. For each of the 4 industries in Batch 26:
-   a. Write `_overview.md` with 8-niche table (2 per axis)
-   b. For each niche: write `profile.md`, `build.md`, `buy.md`, `fix.md`
-3. Update `_bookmark.md` — move Batch 26 to Completed, set Batch 27 as next
-4. **Output: 132 files (4 industries × 33 files)**
+All 118 industries have been processed through niche discovery. No remaining batches.

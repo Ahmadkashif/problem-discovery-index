@@ -33,14 +33,12 @@
 **Batch 23 (4 industries, 32 niches, 132 files):** municipal-services, independent-publishers, podcasting-networks, video-production-smb
 **Batch 24 (4 industries, 32 niches, 132 files):** news-media-local, gyms-independent, personal-trainers, youth-sports-orgs
 **Batch 25 (4 industries, 32 niches, 132 files):** auto-repair-shops, auto-body-shops, fleet-managers, rv-dealerships
+**Batch 26 (4 industries, 32 niches, 132 files):** cleaning-companies, pest-control, security-guard-firms, event-planning
+**Batch 27 (4 industries, 32 niches, 132 files):** tattoo-studios, funeral-homes, pet-services, alterations-tailoring
+**Batch 28 (4 industries, 32 niches, 132 files):** insurance-tpa, public-adjusters, insurance-restoration, chiropractic-practices
+**Batch 29 (4 industries, 32 niches, 132 files):** acupuncture-practices, med-spas, hair-salons-independent, grant-writers
+**Batch 30 (2 industries, 16 niches, 66 files):** public-defenders, land-surveyors
 
-## In Progress
+## COMPLETE
 
-_(none)_
-
-## Queue
-- Batch 26: cleaning-companies, pest-control, security-guard-firms, event-planning
-- Batch 27: tattoo-studios, funeral-homes, pet-services, alterations-tailoring
-- Batch 28: insurance-tpa, public-adjusters, insurance-restoration, chiropractic-practices
-- Batch 29: acupuncture-practices, med-spas, hair-salons-independent, grant-writers
-- Batch 30: public-defenders, land-surveyors
+All 118 industries processed. 30 batches, 944 niches, ~3,894 files.
