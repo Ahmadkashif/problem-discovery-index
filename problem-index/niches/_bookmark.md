@@ -18,27 +18,27 @@
 **Batch 8 (4 industries, 32 niches, 132 files):** freight-brokerage, last-mile-delivery, warehouse-3pl, customs-brokers
 **Batch 9 (4 industries, 32 niches, 132 files):** cold-chain-logistics, contract-manufacturing, metal-fabrication, food-manufacturing
 **Batch 10 (4 industries, 32 niches, 132 files):** medical-device-mfg, electronics-contract-mfg, printing-shops, crop-farming
+**Batch 11 (4 industries, 32 niches, 132 files):** livestock-operations, greenhouse-horticulture, food-distributors, restaurant-suppliers
+**Batch 12 (4 industries, 32 niches, 132 files):** accounting-firms-smb, staffing-agencies, it-managed-services, marketing-agencies-smb
+**Batch 13 (4 industries, 32 niches, 132 files):** engineering-consultants, environmental-consultants, hr-consultants, independent-retailers
+**Batch 14 (4 industries, 32 niches, 132 files):** ecommerce-sellers, auto-dealers-independent, specialty-food-retail, medical-supply-retail
+**Batch 15 (4 industries, 32 niches, 132 files):** independent-insurance-agents, collections-agencies, k12-private-schools, tax-prep-firms
+**Batch 16 (4 industries, 32 niches, 132 files):** vocational-schools, credit-unions, tutoring-centers, mortgage-brokers
+**Batch 17 (4 industries, 32 niches, 132 files):** wealth-management-rias, corporate-training, language-schools, childcare-centers
+**Batch 18 (4 industries, 32 niches, 132 files):** independent-restaurants, catering-companies, hotels-boutique, food-trucks
+**Batch 19 (4 industries, 32 niches, 132 files):** coffee-shops-independent, owner-operator-trucking, towing-companies, moving-companies
+**Batch 20 (4 industries, 32 niches, 132 files):** charter-bus-operators, non-emergency-medical-transport, energy-auditors, oil-gas-field-services
+**Batch 21 (4 industries, 32 niches, 132 files):** it-staffing-firms, software-dev-agencies, cybersecurity-mssp, data-analytics-consultants
+**Batch 22 (4 industries, 32 niches, 132 files):** cloud-infrastructure-consultants, nonprofits-social-services, faith-organizations, trade-associations
+**Batch 23 (4 industries, 32 niches, 132 files):** municipal-services, independent-publishers, podcasting-networks, video-production-smb
+**Batch 24 (4 industries, 32 niches, 132 files):** news-media-local, gyms-independent, personal-trainers, youth-sports-orgs
+**Batch 25 (4 industries, 32 niches, 132 files):** auto-repair-shops, auto-body-shops, fleet-managers, rv-dealerships
 
 ## In Progress
 
 _(none)_
 
 ## Queue
-- Batch 11: livestock-operations, greenhouse-horticulture, food-distributors, restaurant-suppliers
-- Batch 12: accounting-firms-smb, staffing-agencies, it-managed-services, marketing-agencies-smb
-- Batch 13: engineering-consultants, environmental-consultants, hr-consultants, independent-retailers
-- Batch 14: ecommerce-sellers, auto-dealers-independent, specialty-food-retail, medical-supply-retail
-- Batch 15: independent-insurance-agents, collections-agencies, k12-private-schools, tax-prep-firms
-- Batch 16: vocational-schools, credit-unions, tutoring-centers, mortgage-brokers
-- Batch 17: wealth-management-rias, corporate-training, language-schools, childcare-centers
-- Batch 18: independent-restaurants, catering-companies, hotels-boutique, food-trucks
-- Batch 19: coffee-shops-independent, owner-operator-trucking, towing-companies, moving-companies
-- Batch 20: charter-bus-operators, non-emergency-medical-transport, energy-auditors, oil-gas-field-services
-- Batch 21: it-staffing-firms, software-dev-agencies, cybersecurity-mssp, data-analytics-consultants
-- Batch 22: cloud-infrastructure-consultants, nonprofits-social-services, faith-organizations, trade-associations
-- Batch 23: municipal-services, independent-publishers, podcasting-networks, video-production-smb
-- Batch 24: news-media-local, gyms-independent, personal-trainers, youth-sports-orgs
-- Batch 25: auto-repair-shops, auto-body-shops, fleet-managers, rv-dealerships
 - Batch 26: cleaning-companies, pest-control, security-guard-firms, event-planning
 - Batch 27: tattoo-studios, funeral-homes, pet-services, alterations-tailoring
 - Batch 28: insurance-tpa, public-adjusters, insurance-restoration, chiropractic-practices
