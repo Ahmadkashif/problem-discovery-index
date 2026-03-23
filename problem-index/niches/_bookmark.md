@@ -14,16 +14,16 @@
 **Batch 4 (4 industries, 32 niches, 132 files):** compliance-consulting, general-contractors, electrical-contractors, plumbing-contractors
 **Batch 5 (4 industries, 32 niches, 132 files):** roofing-contractors, hvac-contractors, landscaping, painting-contractors
 **Batch 6 (4 industries, 32 niches, 132 files):** home-inspection, solar-installers, utility-contractors, property-management
+**Batch 7 (4 industries, 32 niches, 132 files):** commercial-real-estate, short-term-rentals, real-estate-appraisers, hoa-management
+**Batch 8 (4 industries, 32 niches, 132 files):** freight-brokerage, last-mile-delivery, warehouse-3pl, customs-brokers
+**Batch 9 (4 industries, 32 niches, 132 files):** cold-chain-logistics, contract-manufacturing, metal-fabrication, food-manufacturing
+**Batch 10 (4 industries, 32 niches, 132 files):** medical-device-mfg, electronics-contract-mfg, printing-shops, crop-farming
 
 ## In Progress
 
 _(none)_
 
 ## Queue
-- Batch 7: commercial-real-estate, short-term-rentals, real-estate-appraisers, hoa-management
-- Batch 8: freight-brokerage, last-mile-delivery, warehouse-3pl, customs-brokers
-- Batch 9: cold-chain-logistics, contract-manufacturing, metal-fabrication, food-manufacturing
-- Batch 10: medical-device-mfg, electronics-contract-mfg, printing-shops, crop-farming
 - Batch 11: livestock-operations, greenhouse-horticulture, food-distributors, restaurant-suppliers
 - Batch 12: accounting-firms-smb, staffing-agencies, it-managed-services, marketing-agencies-smb
 - Batch 13: engineering-consultants, environmental-consultants, hr-consultants, independent-retailers

@@ -4,6 +4,28 @@ This is the primary instruction file for any Claude Code agent working on this p
 
 ---
 
+## Agent Onboarding — `_context/`
+
+**New agents: read `_context/` first.** It contains everything you need to understand the project, resume work, and generate output correctly — without re-reading this entire file or the conversation history.
+
+```
+_context/
+├── features/                    ← what each feature is, current progress, how to think, how to evaluate
+│   ├── industry-indexing/       ← COMPLETE (118/118 industries)
+│   ├── problem-identification/  ← COMPLETE (826 problem files)
+│   ├── niche-discovery/         ← IN PROGRESS (24/118 industries, batches 1-6)
+│   └── learning-plans/          ← NOT STARTED
+└── formats/                     ← canonical tag rules, wiki-link patterns, all file templates, output standards
+    ├── tags.md
+    ├── wiki-links.md
+    ├── file-templates.md
+    └── output-standards.md
+```
+
+Each feature directory has 4 files: `feature.md` (what/why), `session.md` (where are we), `thinking-pattern.md` (how to reason), `evals.md` (how to verify quality).
+
+---
+
 ## What This Project Builds
 
 A structured Obsidian knowledge graph of industry problems worth solving, with a specific focus on **machine learning opportunities** embedded in each industry. The graph lives in `problem-index/` which is already configured as an Obsidian vault (`.obsidian/` folder present — do not modify it).
