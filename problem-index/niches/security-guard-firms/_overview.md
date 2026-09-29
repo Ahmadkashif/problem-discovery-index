@@ -30,3 +30,51 @@ Commercial property and event security represent the revenue core — together t
 - [[niches/security-guard-firms/school-campus/profile|🟣 School & Campus Security]]
 - [[niches/security-guard-firms/shift-optimization/profile|⚡ Guard Scheduling & Shift Optimization]]
 - [[niches/security-guard-firms/compliance-licensing/profile|⚡ Compliance & Licensing Automation]]
+
+
+---
+
+## Pass 2 — Insight-Layer Discovery
+
+Second, orthogonal sweep. Pass 1 searched across the operator layer and found firms of 1-15 people; research functions do not exist at that altitude. This pass sweeps seven positions in the value chain — aggregator/rollup, payer & intermediary, data & benchmark vendors, association research arms, specialist advisory & valuation, regulatory bodies, and suppliers selling into the industry — looking for a dedicated insight function of 10+ people whose analytical output is the billable deliverable. Full method in `_direction.md`.
+
+| # | Pocket | Position | Insight Function | Score | Verdict |
+|---|---|---|---|---|---|
+| 9 | Background Screening Providers | Data vendor | 300-2,000 | 55 | ↔ Cross-referenced |
+| 10 | Crime Risk Data & Forecasting Providers | Data vendor | 50-200 | 48 | Below threshold |
+| 11 | Security Risk & Threat Assessment Consulting | Specialist advisory | 100-800 | 45 | ⚠️ Kill switch |
+| 12 | Negligent Security Litigation Support | Specialist advisory | 20-100 | 43 | ⚠️ Kill switch |
+| 13 | Contract Security Rollup Corporate Analytics | Aggregator/rollup | 200-1,000 | 41 | Below threshold |
+| 14 | Alarm Monitoring Central Station Analytics | Supplier | 200-1,000 | 41 | Below threshold |
+| 15 | Video Analytics & Security Technology Vendors | Supplier | 200-1,000 | 39 | ⚠️ Kill switch |
+| 16 | Security Contractor Liability Underwriting | Payer & intermediary | 60-300 | 37 | Below threshold |
+| 17 | Guard Force Management Platform Analytics | Supplier | 60-300 | 36 | ⚠️ Kill switch |
+| 18 | Security Officer Training & Certification | Supplier | 30-150 | 36 | Below threshold |
+| 19 | Security Industry Standards & Association Research | Association research arm | 20-80 | 34 | Below threshold |
+| 20 | State Security Licensing & Regulatory Boards | Regulatory | 10-60 | 31 | ⚠️ Kill switch |
+| 21 | Executive Protection & Private Intelligence | Specialist advisory | 5-40 | — | ✗ Fails gate |
+
+## Why These Pockets
+
+No qualifiers. The only pocket above 50 is background screening, already indexed under HR consultants — which is fitting, since in an industry with turnover this high the screening bureau processes more decisions about the workforce than anyone else does.
+
+The near miss is crime risk data at 48, and it is worth recording carefully because the shape is unusual. The score is entirely the invoice: an address-level crime risk number that determines where security is deployed, what a property pays for insurance, and — decisively — whether a crime was foreseeable when the negligent security lawsuit arrives. It is attacked in court by opposing experts constantly. And the firm has never published how its forecasts performed against crime subsequently reported at the same addresses, which is directly observable and would settle the argument permanently in its favour or against it. What holds it below threshold is scale: a few dozen to a couple of hundred people in a market of that size.
+
+Beneath that, this industry is a catalogue of high-consequence judgments made without base rates. Behavioural threat assessment — deciding whether a specific person is going to hurt someone — is among the highest-stakes calls anywhere in this index, made using structured professional judgment instruments, with neither the base rates nor the outcomes ever assembled, because assessments are confidential per client. Negligent security experts are the only party who formally adjudicates whether security was adequate, and what they learn about what juries accept never leaves them.
+
+And the data that would answer the industry's own operational questions sits with parties using it for something else. The consolidators hold post-level scheduling, attrition and incident records across hundreds of thousands of officers — the largest record anywhere of what makes a security officer stay — and use it to fill shifts. The central stations hold hundreds of millions of alarm events with verification outcome attached, in an industry whose defining fact is a false alarm rate above ninety per cent. The guard management platforms hold millions of officer-written incident reports and treat them as billing evidence. The liability underwriters hold claims joined to post type, training and armed status. And state-mandated training has never been evaluated against whether trained officers perform differently, which those same claims and incident records could answer.
+
+## Niches — Pass 2
+- [[niches/security-guard-firms/background-screening-crossref/profile|🔍 Background Screening Providers]]
+- [[niches/security-guard-firms/crime-risk-data-providers/profile|🔍 Crime Risk Data & Forecasting Providers]]
+- [[niches/security-guard-firms/security-risk-consulting/profile|🔍 Security Risk & Threat Assessment Consulting]]
+- [[niches/security-guard-firms/negligent-security-litigation-support/profile|🔍 Negligent Security Litigation Support]]
+- [[niches/security-guard-firms/security-rollup-corporate-analytics/profile|🔍 Contract Security Rollup Corporate Analytics]]
+- [[niches/security-guard-firms/alarm-monitoring-analytics/profile|🔍 Alarm Monitoring Central Station Analytics]]
+- [[niches/security-guard-firms/video-analytics-vendors/profile|🔍 Video Analytics & Security Technology Vendors]]
+- [[niches/security-guard-firms/security-liability-underwriting/profile|🔍 Security Contractor Liability Underwriting]]
+- [[niches/security-guard-firms/guard-force-management-software/profile|🔍 Guard Force Management Platform Analytics]]
+- [[niches/security-guard-firms/guard-training-certification/profile|🔍 Security Officer Training & Certification Providers]]
+- [[niches/security-guard-firms/security-standards-association-research/profile|🔍 Security Industry Standards & Association Research]]
+- [[niches/security-guard-firms/state-security-licensing-boards/profile|🔍 State Security Licensing & Regulatory Boards]]
+- [[niches/security-guard-firms/executive-protection-intelligence/profile|🔍 Executive Protection & Private Intelligence]]

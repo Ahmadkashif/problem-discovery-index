@@ -30,3 +30,50 @@ Immigration law is not a single practice — it fragments along case type (famil
 - [[niches/immigration-law/non-english-client-intake/profile|🟣 Non-English Client Intake]]
 - [[niches/immigration-law/case-status-tracking/profile|⚡ Case Status Tracking]]
 - [[niches/immigration-law/form-preparation-filing/profile|⚡ Form Preparation & Filing]]
+
+---
+
+## Pass 2 — Insight-Layer Discovery
+
+Second, orthogonal sweep. Pass 1 searched across the operator layer and found firms of 1-15 people; research functions do not exist at that altitude. This pass sweeps seven positions in the value chain — aggregator/rollup, payer & intermediary, data & benchmark vendors, association research arms, specialist advisory & valuation, regulatory bodies, and suppliers selling into the industry — looking for a dedicated insight function of 10+ people whose analytical output is the billable deliverable. Full method in `_direction.md`.
+
+| # | Pocket | Position | Insight Function | Score | Verdict |
+|---|---|---|---|---|---|
+| 9 | Corporate Immigration Practice Groups | Aggregator/rollup | 200-1,500 | 53 | ⚠️ Kill switch |
+| 10 | Immigration Legal Research Publishers | Data vendor | 50-250 | **51** | ✅ Indexed |
+| 11 | Foreign Credential Evaluation Services | Supplier | 60-300 | **51** | ✅ Indexed |
+| 12 | Employer Immigration Platforms | Payer & intermediary | 50-300 | 50 | ⚠️ Kill switch |
+| 13 | USCIS Adjudication & Administrative Appeals | Regulatory | 2,000-10,000 | 49 | ⚠️ Kill switch |
+| 14 | Immigration Bar Association Research | Association research arm | 40-150 | 46 | Below threshold |
+| 15 | Corporate Immigration Compliance Auditing | Specialist advisory | 20-100 | 46 | ⚠️ Kill switch |
+| 16 | Country Conditions Expert Research | Specialist advisory | 10-50 | 44 | ⚠️ Kill switch |
+| 17 | EB-5 Economic Impact Analysis | Specialist advisory | 10-50 | 42 | Below threshold |
+| 18 | Prevailing Wage & Labour Condition Data | Data vendor | 10-50 | 41 | Below threshold |
+| 19 | Immigration Case Management Platform Data | Supplier | 15-60 | 41 | ⚠️ Kill switch |
+| 20 | Immigration Court FOIA Data Projects | Data vendor | 10-40 | 38 | Below threshold |
+| 21 | Solo & Boutique Immigration Practices | Specialist advisory | 1-15 | — | ✗ Fails gate |
+
+## Why These Pockets
+
+Pass 1 identifies the industry's most valuable asset in one sentence: experienced attorneys develop highly specific pattern recognition about which arguments succeed with which USCIS field offices and adjudicators, and it lives in individual heads. This sweep's finding is that every party positioned to turn that into a shared asset is walled off from doing so.
+
+The corporate immigration firms score highest in the industry at 53 — hundreds of thousands of filings a year with recorded outcomes, real knowledge management functions, statutory deadlines throughout — and their outcome corpus sits inside privileged client files. The employer platforms reach 50 and inherit the same wall through their affiliated counsel. The case management vendors hold the only aggregated outcome corpus outside the agency and cannot touch it, because the underlying files belong to the firms and are privileged. And USCIS itself holds the definitive answer — every petition, every RFE, every decision by officer and service centre — and is a federal agency that does not disclose at that granularity. Four positions, one answer, entirely unreachable.
+
+What qualified are the two pockets whose material is public or their own. Immigration research publishers occupy a gap Pass 1 names explicitly: the general legal research platforms cover case law and not the USCIS policy manual and AAO decision landscape that immigration practice actually turns on. They publish into it as annotated prose over a corpus that is far more structured than the product treats it — AAO decisions have grounds, standards, evidence categories and dispositions, and nobody can ask what evidence has satisfied this ground. That matters commercially as well as practically: a subscription whose value is expert prose over a public corpus is directly exposed to general models reading the same corpus, and the structured linked layer is the defensible position.
+
+Credential evaluators are the sleeper. Their equivalency report decides whether an H-1B beneficiary qualifies for a specialty occupation, and the work is enormously repetitive — a few hundred institutions account for most of it, and the same degree programme recurs constantly — yet each report is produced as an individual analysis because institution recognition research is embedded in the reports it was written for rather than maintained as a reference. Their verification step is the sharper problem: authenticating a transcript from an institution that does not answer correspondence, with no template and no security features, using analyst familiarity that exists in whoever has seen the most documents from that country.
+
+## Niches — Pass 2
+- [[niches/immigration-law/immigration-legal-research-publishers/profile|🔍 Immigration Legal Research Publishers]]
+- [[niches/immigration-law/credential-evaluation-services/profile|🔍 Foreign Credential Evaluation Services]]
+- [[niches/immigration-law/corporate-immigration-law-firms/profile|🔍 Corporate Immigration Practice Groups]]
+- [[niches/immigration-law/employer-immigration-platforms/profile|🔍 Employer Immigration Platforms]]
+- [[niches/immigration-law/uscis-adjudication-appeals/profile|🔍 USCIS Adjudication & Administrative Appeals]]
+- [[niches/immigration-law/immigration-bar-association-research/profile|🔍 Immigration Bar Association Research]]
+- [[niches/immigration-law/corporate-immigration-compliance-audit/profile|🔍 Corporate Immigration Compliance Auditing]]
+- [[niches/immigration-law/country-conditions-expert-research/profile|🔍 Country Conditions Expert Research]]
+- [[niches/immigration-law/eb5-economic-impact-analysis/profile|🔍 EB-5 Economic Impact Analysis]]
+- [[niches/immigration-law/prevailing-wage-data-vendors/profile|🔍 Prevailing Wage & Labour Condition Data]]
+- [[niches/immigration-law/immigration-case-management-data/profile|🔍 Immigration Case Management Platform Data]]
+- [[niches/immigration-law/immigration-court-foia-data/profile|🔍 Immigration Court FOIA Data Projects]]
+- [[niches/immigration-law/solo-immigration-practices/profile|🔍 Solo & Boutique Immigration Practices]]

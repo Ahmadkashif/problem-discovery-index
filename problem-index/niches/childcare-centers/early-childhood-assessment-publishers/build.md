@@ -1,0 +1,22 @@
+# The Observation Corpus as a Measurement Instrument on Itself
+
+**Niche:** [[niches/childcare-centers/early-childhood-assessment-publishers/profile|Early Childhood Assessment Publishers]]
+**Industry:** [[industries/childcare-centers|Childcare Centers]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** The publisher holds developmental observations on millions of children across years and states, uses them to produce checkpoint reports, and never turns them back on the progressions themselves to ask whether the sequence is right.
+**Tags:** #bayesian-inference #probability-distributions #survival-analysis #hidden-markov-models #dimensionality-reduction #evaluation-metrics #cross-validation #confidence-intervals #feature-engineering #data-integration #revenue-impact
+
+## The Problem
+A developmental progression is a strong empirical claim: that children acquire these skills in roughly this order, that this band of behaviour corresponds to this age range, that a child here is on track and a child there is not. The progressions were built from the developmental literature and expert judgment, validated once at publication on a sample far smaller than the operating base, and then held fixed for years while the system collected observations on millions of children. Those observations are used to generate reports for teachers, administrators, and state accountability systems — outputs pointed away from the instrument. Nobody points them back. Whether the ordering holds, whether an item is placed at the right age band, whether a progression behaves differently for multilingual learners or across programme types, are all answerable from data already in the system and are answered instead by the next commissioned validity study.
+
+## Why Nobody Has Built This
+The data is child-level educational data governed by FERPA and a growing patchwork of state student privacy law, and the terms under which it may be used for research vary by state contract and by district agreement. No publisher has systematically mapped which portion of its corpus is available for instrument research, so the safe default has been to use it only for the reporting it was collected for. There is also a professional caution with real force: revising a progression changes what "on track" means, which has consequences for children's placement and for state accountability, so the bar for change is properly high — and that high bar has been mistaken for a reason not to gather the evidence.
+
+## What to Build
+An instrument research layer over the observation corpus, with a governance model that makes it usable. Every observation carries its jurisdiction, contract terms, and permitted-use classification, so any analysis can state which portion of the corpus it is entitled to draw on — that layer is the precondition for everything else and it does not exist today. On that base, the corpus becomes an instrument for evaluating the instrument: item ordering tested against observed acquisition sequences at scale, age band placement checked against the actual distribution of when skills appear, differential functioning examined across language background, programme type, and region, and progression coherence tested where the theoretical sequence and the observed one disagree. Teacher rating behaviour is modelled explicitly rather than treated as noise, because a large share of variation in observational assessment is rater rather than child — which is itself one of the most valuable findings available and is currently invisible. Outputs are evidence for a revision decision, not automatic changes, because changing what "on track" means is properly a governed act.
+
+## Target Customer
+VPs of research and chief academic officers at assessment publishers running 50-200 researchers, and the state early learning administrators who set policy on these progressions and currently have no independent evidence for them.
+
+## Impact If Built
+Replaces periodic commissioned validity studies with continuous validity evidence drawn from the operating base, which is both cheaper and vastly stronger. It also positions the publisher for the question that is coming from every state accountability system: on what evidence do these developmental expectations rest. A publisher able to answer with millions of observations rather than a decade-old standardization sample is in a different position from one that cannot.

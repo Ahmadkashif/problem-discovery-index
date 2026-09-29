@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f669849be1ebbece",
+        "id": "116d1aca9b2679e4",
         "type": "tabs",
         "children": [
           {
-            "id": "d7c545f5d6c08664",
+            "id": "c52978686822e0c1",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#revenue-impact",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "232424ecd21a2a6c",
@@ -177,43 +178,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "d7c545f5d6c08664",
+  "active": "c52978686822e0c1",
   "lastOpenFiles": [
-    "niches/customs-brokers/agricultural-perishable-imports/profile.md",
-    "niches/customs-brokers/agricultural-perishable-imports/build.md",
-    "niches/contract-manufacturing/quality-inspection-automation/profile.md",
-    "industries/contract-manufacturing.md",
-    "niches/crop-farming/variable-rate-prescription-management/profile.md",
-    "niches/crop-farming/variable-rate-prescription-management/fix.md",
-    "niches/crop-farming/variable-rate-prescription-management/buy.md",
-    "niches/crop-farming/variable-rate-prescription-management/build.md",
-    "niches/crop-farming/tribal-land-farming-operations/profile.md",
-    "niches/crop-farming/tribal-land-farming-operations/fix.md",
-    "niches/crop-farming/tribal-land-farming-operations/buy.md",
-    "niches/crop-farming/tribal-land-farming-operations/build.md",
-    "niches/crop-farming/specialty-crop-growers/profile.md",
-    "niches/crop-farming/specialty-crop-growers/fix.md",
-    "niches/crop-farming/specialty-crop-growers/buy.md",
-    "niches/crop-farming/specialty-crop-growers/build.md",
-    "niches/crop-farming/organic-transition-farms/profile.md",
-    "niches/crop-farming/organic-transition-farms/fix.md",
-    "niches/crop-farming/organic-transition-farms/buy.md",
-    "niches/crop-farming/organic-transition-farms/build.md",
-    "niches/crop-farming/large-scale-row-crop-operations/profile.md",
-    "niches/crop-farming/large-scale-row-crop-operations/fix.md",
-    "niches/crop-farming/large-scale-row-crop-operations/buy.md",
-    "niches/crop-farming/large-scale-row-crop-operations/build.md",
-    "niches/crop-farming/dryland-wheat-operations/profile.md",
-    "niches/crop-farming/dryland-wheat-operations/fix.md",
-    "niches/crop-farming/variable-rate-prescription-management",
-    "niches/crop-farming/tribal-land-farming-operations",
-    "niches/crop-farming/specialty-crop-growers",
-    "niches/crop-farming/organic-transition-farms",
-    "niches/crop-farming/large-scale-row-crop-operations",
-    "niches/crop-farming/dryland-wheat-operations",
-    "niches/crop-farming/crop-insurance-compliance",
-    "niches/crop-farming/beginning-farmers-first-generation",
-    "niches/crop-farming",
-    "niches/printing-shops/wide-format-signage-shops"
+    "lineage/vector-search-vendors.md",
+    "lineage/synthetic-data-providers.md",
+    "lineage/llm-application-tooling.md",
+    "lineage/data-labeling-services.md",
+    "lineage/ai-red-teaming-firms.md",
+    "lineage/ai-inference-providers.md",
+    "lineage/ai-agent-platforms.md",
+    "lineage/ai-model-evaluation-firms.md",
+    "lineage/virtual-assistant-services.md",
+    "lineage/telehealth-platforms.md",
+    "lineage/personal-trainers.md",
+    "lineage/remote-work-infrastructure.md",
+    "lineage/esports-organizations.md",
+    "lineage/virtual-economy-operators.md",
+    "lineage/online-tutoring-platforms.md",
+    "lineage/tattoo-studios.md",
+    "lineage/live-commerce-platforms.md",
+    "lineage/podcasting-networks.md",
+    "lineage/online-course-platforms.md",
+    "lineage/membership-community-platforms.md",
+    "lineage/trust-safety-tooling-vendors.md",
+    "lineage/newsletter-media.md",
+    "lineage/ugc-video-platforms.md",
+    "lineage/influencer-marketing-platforms.md",
+    "lineage/creator-talent-agencies.md",
+    "lineage/creator-businesses.md",
+    "series/_state/failures.txt",
+    "history/food-distributors.md.tmp.88716.3323e79578bb",
+    "series/_state/tier1.txt",
+    "series/_state/verify-phase3.sh",
+    "origins/process-manufacturing",
+    "origins/railroads",
+    "origins/electric-utilities",
+    "origins/ad-holding-companies",
+    "origins/pharma-rd-cros",
+    "origins/online-travel-agencies"
   ]
 }

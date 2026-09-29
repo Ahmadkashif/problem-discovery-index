@@ -30,3 +30,52 @@ Parish/diocesan schools and independent day schools represent the two dominant s
 - [[niches/k12-private-schools/learning-difference-schools/profile|🟣 Learning Difference & Special Needs Schools]]
 - [[niches/k12-private-schools/report-card-narrative-generation/profile|⚡ Report Card Narrative Generation]]
 - [[niches/k12-private-schools/tuition-billing-aid-automation/profile|⚡ Tuition Billing & Financial Aid Optimization]]
+
+---
+
+## Pass 2 — Insight-Layer Discovery
+
+Second, orthogonal sweep. Pass 1 searched across the operator layer and found firms of 1-15 people; research functions do not exist at that altitude. This pass sweeps seven positions in the value chain — aggregator/rollup, payer & intermediary, data & benchmark vendors, association research arms, specialist advisory & valuation, regulatory bodies, and suppliers selling into the industry — looking for a dedicated insight function of 10+ people whose analytical output is the billable deliverable. Full method in `_direction.md`.
+
+| # | Pocket | Position | Insight Function | Score | Verdict |
+|---|---|---|---|---|---|
+| 9 | Financial Aid Need Assessment Services | Payer & intermediary | 100-600 | **53** | ✅ Indexed |
+| 10 | Admission Testing Organizations | Data vendor | 60-250 | **51** | ✅ Indexed |
+| 11 | Adaptive Assessment Publishers | Supplier | 150-700 | **51** | ✅ Indexed |
+| 12 | Donor Wealth Screening Providers | Supplier | 50-250 | 49 | ↔ Cross-referenced |
+| 13 | Enrolment Management Consultancies | Specialist advisory | 15-70 | 45 | Below threshold |
+| 14 | School Information System Vendor Data | Supplier | 50-250 | 43 | ⚠️ Kill switch |
+| 15 | Private School Accreditation Bodies | Regulatory | 20-100 | 42 | Below threshold |
+| 16 | School Facilities & Master Planning | Specialist advisory | 15-70 | 40 | Below threshold |
+| 17 | Independent School Benchmarking | Data vendor | 10-40 | 40 | Below threshold |
+| 18 | Tuition Refund Insurance Underwriting | Payer & intermediary | 15-60 | 37 | Below threshold |
+| 19 | Curriculum & Programme Standards Organizations | Association research arm | 30-150 | 34 | Below threshold |
+| 20 | School System Central Office Analytics | Aggregator/rollup | 10-50 | 34 | Below threshold |
+| 21 | Independent Educational Consultants | Specialist advisory | 1-5 | — | ✗ Fails gate |
+
+## Why These Pockets
+
+Three pockets qualified, and all three sit on the same structural feature: education runs on measurement, and the organizations that produce those measurements are large, methodologically serious, and have never checked their instruments against what happened afterwards.
+
+Need assessment services compute what a family can be expected to contribute, and the school's aid award — the largest lever it has against the enrolment problem Pass 1 calls existential — rests on that number. The methodology is a fairness instrument refined by committee over decades and it is unvalidated. Whether families rated as able to pay $18,000 actually enrol at that price, persist, and keep up with payments is answerable inside the same business, because these companies also run the tuition billing. The loop is closable in one organization and it is not closed.
+
+Admission testing has the same shape one layer over. The test exists to make applicants from hundreds of incomparable sending schools comparable, and the organization measures the instrument exhaustively — reliability, item functioning, differential functioning — while the outcome question is answered by occasional voluntary validity studies. Member schools hold the grades and retention for every student they admitted using scores those same organizations produced. In a period when test-optional policies keep spreading, an instrument that cannot demonstrate incremental predictive value is exactly the kind that gets dropped.
+
+Adaptive assessment publishers hold the largest learning measurement corpus in existence and publish growth norms that are descriptive averages — what students like this did, under whatever instruction they received — while schools use them as targets. A large share of measured growth is regression to the mean and measurement error, and schools routinely act on both as if they were signal.
+
+Below them the industry is thin and the pattern is familiar: the SIS vendors hold inquiry-to-enrolment funnels and first-year attrition across thousands of schools, which is exactly what Pass 1 says admissions directors predict on gut feel, and sell administrative software.
+
+## Niches — Pass 2
+- [[niches/k12-private-schools/financial-aid-need-assessment/profile|🔍 Financial Aid Need Assessment Services]]
+- [[niches/k12-private-schools/admission-testing-organizations/profile|🔍 Admission Testing Organizations]]
+- [[niches/k12-private-schools/adaptive-assessment-publishers/profile|🔍 Adaptive Assessment Publishers]]
+- [[niches/k12-private-schools/donor-wealth-screening-crossref/profile|🔍 Donor Wealth Screening Providers]]
+- [[niches/k12-private-schools/enrollment-management-consultancies/profile|🔍 Enrolment Management Consultancies]]
+- [[niches/k12-private-schools/school-sis-crm-vendor-data/profile|🔍 School Information System Vendor Data]]
+- [[niches/k12-private-schools/private-school-accreditation/profile|🔍 Private School Accreditation Bodies]]
+- [[niches/k12-private-schools/school-architecture-facilities-planning/profile|🔍 School Facilities & Master Planning]]
+- [[niches/k12-private-schools/independent-school-benchmarking/profile|🔍 Independent School Benchmarking]]
+- [[niches/k12-private-schools/school-tuition-insurance-underwriting/profile|🔍 Tuition Refund Insurance Underwriting]]
+- [[niches/k12-private-schools/curriculum-standards-organizations/profile|🔍 Curriculum & Programme Standards Organizations]]
+- [[niches/k12-private-schools/diocesan-school-system-analytics/profile|🔍 School System Central Office Analytics]]
+- [[niches/k12-private-schools/educational-consultants-placement/profile|🔍 Independent Educational Consultants]]

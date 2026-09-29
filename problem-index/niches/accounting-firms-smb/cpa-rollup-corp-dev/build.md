@@ -1,0 +1,21 @@
+# Practice Diligence Engine with Portfolio-Relative Benchmarking
+**Niche:** [[niches/accounting-firms-smb/cpa-rollup-corp-dev/profile|CPA Rollup Platform Corporate Development]]
+**Industry:** [[industries/accounting-firms-smb|SMB Accounting Firms]]
+**Type:** Build (Greenfield Opportunity)
+**One-liner:** An engine that ingests a target firm's practice management export and returns a full diligence picture positioned against every firm the platform already owns — so the question stops being "are these numbers good" and becomes "are these numbers good relative to the thirty we have already integrated."
+**Tags:** #gradient-boosting #logistic-regression #feature-engineering #cross-validation #evaluation-metrics #data-integration #tacit-knowledge-ml #revenue-impact
+
+## The Problem
+Every practice acquisition is diligenced against the same fifteen questions, and every one is answered by rebuilding the analysis from scratch. An analyst receives an export from whatever practice management system the target runs, maps its chart of accounts and service codes by hand into the platform's model, and produces the client concentration, realization, and partner dependency analysis that anchors the bid. This takes one to three weeks per target, against a pipeline of 100-300 targets a year. Because each model is bespoke, the platform's accumulated experience is not available at the moment of decision: nobody can say that the target's 34% realization on advisory work is the worst in the portfolio, or that firms with this partner age distribution have historically lost 40% of revenue in year two, because assembling that comparison means reopening thirty old models built to thirty different shapes.
+
+## Why Nobody Has Built This
+M&A diligence software exists for generic deal management but assumes the target's data is unstructured and adversarially produced, which is the normal case. Accounting firm targets are the unusual exception — their operating data is highly structured, lives in one of a handful of practice management systems, and describes exactly the economics the buyer cares about. Nobody built for this because the buyer class is new: PE consolidation of accounting is recent enough that platforms have been running on the corp dev team's spreadsheet skill, and the pain only becomes acute once the portfolio is large enough that relative comparison beats absolute analysis. The mapping problem is also genuinely hard — service codes and chart of accounts are firm-specific, and normalizing them is the work that makes everything downstream possible.
+
+## What to Build
+An ingestion and normalization layer for the major practice management systems that maps a target's chart of accounts, service codes, staff roles, and time records into a common schema — learning from each mapping the analyst corrects, so the thirtieth firm maps largely automatically. On top of it, a diligence engine that computes the standard battery (client concentration and churn, revenue quality by service line, realization and write-off distribution, staff leverage, partner revenue dependency and age profile, seasonality of cash) and presents every metric as a percentile against the platform's own portfolio at the same point in its lifecycle. Models trained on the platform's completed acquisitions then predict the outcomes that determine deal value: expected partner retention, revenue attrition through year two, and time to integration on the common tech stack. The output is a diligence pack that is comparable across targets by construction rather than by an analyst's effort to make it so.
+
+## Target Customer
+Heads of corporate development at PE-backed accounting platforms running an active acquisition pipeline, and the integration leads who inherit the resulting firms.
+
+## Impact If Built
+Cuts diligence cycle time from weeks to days, which directly increases how many targets a fixed team can evaluate and therefore how selective the platform can be. More importantly it converts the portfolio into an analytical asset — every prior acquisition improves the accuracy of the next valuation, a compounding advantage that a competing platform cannot buy. Attrition and retention forecasts move the bid itself, which is where the money is.

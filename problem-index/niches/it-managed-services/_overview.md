@@ -30,3 +30,50 @@ IT managed services fragment along business model (break/fix transitioning to ma
 - [[niches/it-managed-services/non-english-businesses/profile|🟣 MSPs Serving Non-English-Speaking Businesses]]
 - [[niches/it-managed-services/l1-ticket-automation/profile|⚡ L1 Ticket Triage and Automated Resolution]]
 - [[niches/it-managed-services/billing-reconciliation/profile|⚡ Client Billing Reconciliation and Contract Compliance]]
+
+---
+
+## Pass 2 — Insight-Layer Discovery
+
+Second, orthogonal sweep. Pass 1 searched across the operator layer and found firms of 1-15 people; research functions do not exist at that altitude. This pass sweeps seven positions in the value chain — aggregator/rollup, payer & intermediary, data & benchmark vendors, association research arms, specialist advisory & valuation, regulatory bodies, and suppliers selling into the industry — looking for a dedicated insight function of 10+ people whose analytical output is the billable deliverable. Full method in `_direction.md`.
+
+| # | Pocket | Position | Insight Function | Score | Verdict |
+|---|---|---|---|---|---|
+| 9 | Software Licensing & Audit Defence Practices | Specialist advisory | 50-500 | **51** | ✅ Indexed |
+| 10 | Publisher Licence Compliance Programmes | Regulatory | 100-800 | 49 | ⚠️ Kill switch |
+| 11 | Technology Due Diligence Practices | Specialist advisory | 30-200 | 46 | ⚠️ Kill switch |
+| 12 | Software Pricing & Catalogue Data | Data vendor | 60-300 | 46 | Below threshold |
+| 13 | MSP Profitability Benchmarking | Data vendor | 20-80 | 45 | Below threshold |
+| 14 | RMM & PSA Vendor Data Teams | Supplier | 100-500 | 45 | ⚠️ Kill switch |
+| 15 | Technology Distribution Analytics | Supplier | 100-500 | 45 | Below threshold |
+| 16 | Technology Solutions Distributors | Payer & intermediary | 40-200 | 43 | Below threshold |
+| 17 | SMB Cyber Insurance Underwriting | Payer & intermediary | 50-250 | 42 | Below threshold |
+| 18 | IT Channel Association Research | Association research arm | 30-120 | 37 | Below threshold |
+| 19 | MSP Rollup Corporate Development | Aggregator/rollup | 15-60 | 36 | Below threshold |
+| 20 | IT Documentation Platform Data | Supplier | 10-40 | 34 | ⚠️ Kill switch |
+| 21 | MSP M&A Brokerage | Specialist advisory | 3-12 | — | ✗ Fails gate |
+
+## Why These Pockets
+
+The security half of this value chain was swept under cybersecurity MSSPs and its strong pockets — threat intelligence, detection content, security ratings — are indexed there. What managed services adds on its own is licensing.
+
+Software licensing exposure is the one place in IT services where a written analysis is the invoice, the clock is externally imposed and short, and the numbers are enormous. A publisher issues an audit notice, the client has weeks, and the finding routinely runs into seven or eight figures. The practices that defend it hold an accumulated entitlement rule corpus — how each publisher's metrics actually work, which clauses have been enforced, which positions survived — and compute effective licence positions in spreadsheets, one client at a time. The rules are more formalizable than the profession believes: processor factor tables, partitioning conditions, and named user counting are executable rules over a deployment topology, and the genuinely contested points are a small fraction that a system should surface rather than bury.
+
+The industry's structural finding is on the other side of that engagement. The publishers' own licence compliance organizations hold every deployment record and the outcome of every audit ever run — the complete answer to what the advisory layer spends its existence reconstructing — inside a function that is a revenue centre for the publisher and buys nothing it does not build.
+
+Elsewhere the pattern is the usual one, with one notable instance. The RMM and PSA vendors hold ticket text, resolution history, and alert streams across tens of thousands of MSPs and millions of endpoints — precisely the corpus that would resolve the 60-70% L1 ticket volume and the alert fatigue Pass 1 names as the industry's two core bottlenecks — and sell the tooling that generates it. And cyber insurers hold the only empirical evidence about which security controls actually prevent losses, and use it to price a policy.
+
+## Niches — Pass 2
+- [[niches/it-managed-services/software-licensing-audit-defence/profile|🔍 Software Licensing & Audit Defence Practices]]
+- [[niches/it-managed-services/publisher-license-compliance-programs/profile|🔍 Publisher Licence Compliance Programmes]]
+- [[niches/it-managed-services/it-due-diligence-practices/profile|🔍 Technology Due Diligence Practices]]
+- [[niches/it-managed-services/software-pricing-catalog-data/profile|🔍 Software Pricing & Catalogue Data]]
+- [[niches/it-managed-services/msp-profitability-benchmarking/profile|🔍 MSP Profitability Benchmarking]]
+- [[niches/it-managed-services/rmm-psa-vendor-data-teams/profile|🔍 RMM & PSA Vendor Data Teams]]
+- [[niches/it-managed-services/technology-distribution-analytics/profile|🔍 Technology Distribution Analytics]]
+- [[niches/it-managed-services/technology-solutions-distributors/profile|🔍 Technology Solutions Distributors]]
+- [[niches/it-managed-services/cyber-insurance-smb-underwriting/profile|🔍 SMB Cyber Insurance Underwriting]]
+- [[niches/it-managed-services/it-channel-association-research/profile|🔍 IT Channel Association Research]]
+- [[niches/it-managed-services/msp-rollup-corporate-development/profile|🔍 MSP Rollup Corporate Development]]
+- [[niches/it-managed-services/it-documentation-platform-data/profile|🔍 IT Documentation Platform Data]]
+- [[niches/it-managed-services/msp-ma-brokerage/profile|🔍 MSP M&A Brokerage]]

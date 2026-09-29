@@ -30,3 +30,51 @@ Wealth management RIAs fragment along client life-stage (accumulation vs. distri
 - [[niches/wealth-management-rias/military-veteran-advisory/profile|🟣 Military & Federal Employee Advisory]]
 - [[niches/wealth-management-rias/ria-compliance-operations/profile|⚡ RIA Compliance & Regulatory Operations]]
 - [[niches/wealth-management-rias/client-onboarding-ops/profile|⚡ Client Onboarding & Account Operations]]
+
+
+---
+
+## Pass 2 — Insight-Layer Discovery
+
+Second, orthogonal sweep. Pass 1 searched across the operator layer and found firms of 1-15 people; research functions do not exist at that altitude. This pass sweeps seven positions in the value chain — aggregator/rollup, payer & intermediary, data & benchmark vendors, association research arms, specialist advisory & valuation, regulatory bodies, and suppliers selling into the industry — looking for a dedicated insight function of 10+ people whose analytical output is the billable deliverable. Full method in `_direction.md`.
+
+| # | Pocket | Position | Insight Function | Score | Verdict |
+|---|---|---|---|---|---|
+| 9 | Investment Research & Fund Data Providers | Data vendor | 1,000-5,000 | **56** | ✅ Indexed |
+| 10 | RIA Compliance Consulting & Examination Support | Specialist advisory | 200-1,000 | 48 | Below threshold |
+| 11 | Third-Party Manager Research & Due Diligence | Specialist advisory | 100-600 | 47 | ⚠️ Kill switch |
+| 12 | RIA M&A & Practice Valuation Advisory | Specialist advisory | 60-300 | 45 | Below threshold |
+| 13 | Securities Regulators & Examination Programmes | Regulatory | 500-3,000 | 44 | ⚠️ Kill switch |
+| 14 | Custodian Platform Analytics | Payer & intermediary | 500-3,000 | 43 | ⚠️ Kill switch |
+| 15 | Regulatory Filing & Adviser Data Vendors | Data vendor | 60-300 | 43 | Below threshold |
+| 16 | Insurance & Annuity Product Analytics | Payer & intermediary | 60-300 | 42 | Below threshold |
+| 17 | Portfolio Management & Reporting Platform Analytics | Supplier | 200-1,000 | 41 | ⚠️ Kill switch |
+| 18 | Financial Planning Software & Capital Market Assumptions | Supplier | 100-600 | 41 | Below threshold |
+| 19 | Financial Planning Standards & Certification Bodies | Regulatory | 60-250 | 40 | Below threshold |
+| 20 | Advisory Practice Benchmarking | Data vendor | 50-250 | 40 | Below threshold |
+| 21 | RIA Aggregator Corporate Analytics | Aggregator/rollup | 100-500 | 38 | Below threshold |
+
+## Why These Pockets
+
+One qualifier, and it is among the strongest pockets in the entire index. Investment research and fund data providers define the map of the investable universe: they classify every fund and strategy, set the categories that determine peer groups and percentile ranks, compute the risk statistics on every fact sheet, and publish the ratings advisers build recommended lists from. Decades of holdings-level history with survivorship-corrected performance, a classification taxonomy nobody else maintains, and a rating record going back forty years — with no client confidences, no material non-public information, and no privilege anywhere in the business.
+
+The defect is that the forecast has been graded by everybody except the forecaster. Every rated fund's subsequent performance is recorded daily in the firm's own database; the academic literature on whether ratings predict anything is substantial and unflattering; and no vendor maintains a standing, methodologically serious accounting of its own analytical output by grade, category, horizon, regime and analyst. The categories themselves are the same story one level down: whether a category actually groups funds that behave alike is directly measurable, it determines every percentile rank in the product, and it is settled by committee.
+
+Underneath, the classification that all of it rests on is inferred from holdings that arrive quarterly and late and from prospectus language written to preserve latitude — while returns-based style analysis, which is decades old and needs no holdings at all, is the obvious complement nobody has fused into a confidence-weighted, drift-aware assignment. And the qualitative research, which is the part a competitor cannot replicate from public data, ships as a medal: no structured record of what drove the grade, how factors were weighted, or — the single most valuable missing field — what observable event would change it.
+
+Elsewhere the industry repeats this index's most common shape with unusual clarity, because in wealth management almost everything is scoreable and almost nothing is scored. Manager research teams hold hire and fire decisions with subsequent performance attached and rarely report their own hit rate. Financial planning software produces the probability-of-success number that anchors every retirement conversation in the country, from long-horizon capital market assumptions nobody grades, in plans nobody revisits. Compliance consultants hold examination findings across hundreds of firms — what examiners in each region actually cite — and deliver it as one consultant's recollection. And the custodians hold the most complete picture of independent advisory economics that exists and publish an annual benchmarking study drawn from a survey.
+
+## Niches — Pass 2
+- [[niches/wealth-management-rias/investment-research-fund-data/profile|🔍 Investment Research & Fund Data Providers]]
+- [[niches/wealth-management-rias/ria-compliance-consulting/profile|🔍 RIA Compliance Consulting & Examination Support]]
+- [[niches/wealth-management-rias/manager-research-due-diligence/profile|🔍 Third-Party Manager Research & Due Diligence]]
+- [[niches/wealth-management-rias/ria-ma-valuation-advisory/profile|🔍 RIA M&A & Practice Valuation Advisory]]
+- [[niches/wealth-management-rias/securities-regulators-examination/profile|🔍 Securities Regulators & Examination Programmes]]
+- [[niches/wealth-management-rias/custodian-platform-analytics/profile|🔍 Custodian Platform Analytics]]
+- [[niches/wealth-management-rias/regulatory-filing-data-vendors/profile|🔍 Regulatory Filing & Adviser Data Vendors]]
+- [[niches/wealth-management-rias/insurance-annuity-product-analytics/profile|🔍 Insurance & Annuity Product Analytics]]
+- [[niches/wealth-management-rias/portfolio-reporting-software-analytics/profile|🔍 Portfolio Management & Reporting Platform Analytics]]
+- [[niches/wealth-management-rias/financial-planning-assumptions/profile|🔍 Financial Planning Software & Capital Market Assumptions]]
+- [[niches/wealth-management-rias/financial-planning-standards-bodies/profile|🔍 Financial Planning Standards & Certification Bodies]]
+- [[niches/wealth-management-rias/practice-management-benchmarking/profile|🔍 Advisory Practice Benchmarking]]
+- [[niches/wealth-management-rias/ria-aggregator-analytics/profile|🔍 RIA Aggregator Corporate Analytics]]

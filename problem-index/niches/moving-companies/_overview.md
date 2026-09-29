@@ -30,3 +30,48 @@ Moving companies fragment along distance (local vs. interstate), customer type (
 - [[niches/moving-companies/apartment-complex-partnerships/profile|🟣 Apartment Complex & Property Management Partnerships]]
 - [[niches/moving-companies/damage-claims-documentation/profile|⚡ Damage Claims Documentation & Resolution]]
 - [[niches/moving-companies/estimation-crew-scheduling/profile|⚡ Move Estimation & Crew Scheduling Optimization]]
+
+---
+
+## Pass 2 — Insight-Layer Discovery
+
+Second, orthogonal sweep. Pass 1 searched across the operator layer and found firms of 1-15 people; research functions do not exist at that altitude. This pass sweeps seven positions in the value chain — aggregator/rollup, payer & intermediary, data & benchmark vendors, association research arms, specialist advisory & valuation, regulatory bodies, and suppliers selling into the industry — looking for a dedicated insight function of 10+ people whose analytical output is the billable deliverable. Full method in `_direction.md`.
+
+| # | Pocket | Position | Insight Function | Score | Verdict |
+|---|---|---|---|---|---|
+| 9 | Commercial Driver Risk Data | Supplier | 100-500 | 56 | ↔ Cross-referenced |
+| 10 | Relocation Management Companies | Payer & intermediary | 100-600 | 46 | ⚠️ Kill switch |
+| 11 | Van Line Corporate Analytics | Aggregator/rollup | 50-250 | 46 | Below threshold |
+| 12 | Household Goods Claims Adjusting | Payer & intermediary | 40-200 | 44 | ⚠️ Kill switch |
+| 13 | Moving Lead Generation Platforms | Supplier | 20-100 | 43 | Below threshold |
+| 14 | Relocation Cost Data Providers | Data vendor | 15-70 | 43 | Below threshold |
+| 15 | Self-Storage Market Data | Data vendor | 30-150 | 42 | Below threshold |
+| 16 | Corporate Relocation Policy Consulting | Specialist advisory | 15-70 | 40 | Below threshold |
+| 17 | Moving Company Insurance Underwriting | Payer & intermediary | 20-80 | 37 | Below threshold |
+| 18 | Movers Association Research | Association research arm | 5-25 | 35 | Below threshold |
+| 19 | Household Goods Carrier Enforcement | Regulatory | 100-600 | 35 | ⚠️ Kill switch |
+| 20 | Moving Software Vendor Data | Supplier | 10-40 | 34 | ⚠️ Kill switch |
+| 21 | Moving Business Brokerage | Specialist advisory | 2-8 | — | ✗ Fails gate |
+
+## Why These Pockets
+
+**No pocket qualified.** The industry's one strong adjacent position — commercial driver risk data — is already indexed under charter bus operators at 56 and logged here as a cross-reference. Everything native to moving falls well short, and the reason is that a $20 billion industry with almost no digital adoption has not accumulated the data that an insight layer would need.
+
+The near misses are all the same shape. Van lines set the tariffs their agent networks quote from and hold shipment weight, cost, damage, and service outcomes across hundreds of agents and decades — including the estimate-versus-actual weight data that is the industry's central pricing problem — and earn a share of the freight rather than selling the analysis. Relocation management companies hold the only cross-employer view of what a move actually costs and report it one client at a time under that client's data agreement. Claims adjusters hold the record of which packing methods, crews, and lanes actually damage goods, and deliver it as individual settlements to the carrier that hired them.
+
+The gap that would matter most is the one nobody is positioned to fill. Pass 1 records that estimators survey homes in person and most operators run on spreadsheets and whiteboards; the moving software vendors hold estimated-versus-actual weight, hours, and cost for the minority of operators who use them, behind a ten-person product team, in a market where most of the industry is not a customer.
+
+## Niches — Pass 2
+- [[niches/moving-companies/driver-risk-crossref/profile|🔍 Commercial Driver Risk Data]]
+- [[niches/moving-companies/relocation-management-companies/profile|🔍 Relocation Management Companies]]
+- [[niches/moving-companies/van-line-corporate-analytics/profile|🔍 Van Line Corporate Analytics]]
+- [[niches/moving-companies/household-goods-claims-adjusting/profile|🔍 Household Goods Claims Adjusting]]
+- [[niches/moving-companies/moving-lead-generation-platforms/profile|🔍 Moving Lead Generation Platforms]]
+- [[niches/moving-companies/relocation-cost-data-providers/profile|🔍 Relocation Cost Data Providers]]
+- [[niches/moving-companies/storage-facility-market-data/profile|🔍 Self-Storage Market Data]]
+- [[niches/moving-companies/corporate-relocation-policy-consulting/profile|🔍 Corporate Relocation Policy Consulting]]
+- [[niches/moving-companies/moving-insurance-underwriting/profile|🔍 Moving Company Insurance Underwriting]]
+- [[niches/moving-companies/movers-association-research/profile|🔍 Movers Association Research]]
+- [[niches/moving-companies/fmcsa-household-goods-enforcement/profile|🔍 Household Goods Carrier Enforcement]]
+- [[niches/moving-companies/moving-software-vendor-data/profile|🔍 Moving Software Vendor Data]]
+- [[niches/moving-companies/moving-business-brokerage/profile|🔍 Moving Business Brokerage]]

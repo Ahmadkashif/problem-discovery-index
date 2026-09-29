@@ -30,3 +30,51 @@ Termite and general residential represent the revenue backbone — together they
 - [[niches/pest-control/food-safety-pest/profile|🟣 Food Safety & Restaurant Pest Services]]
 - [[niches/pest-control/infestation-diagnosis/profile|⚡ Infestation Diagnosis Automation]]
 - [[niches/pest-control/route-treatment-optimization/profile|⚡ Route & Treatment Optimization]]
+
+
+---
+
+## Pass 2 — Insight-Layer Discovery
+
+Second, orthogonal sweep. Pass 1 searched across the operator layer and found firms of 1-15 people; research functions do not exist at that altitude. This pass sweeps seven positions in the value chain — aggregator/rollup, payer & intermediary, data & benchmark vendors, association research arms, specialist advisory & valuation, regulatory bodies, and suppliers selling into the industry — looking for a dedicated insight function of 10+ people whose analytical output is the billable deliverable. Full method in `_direction.md`.
+
+| # | Pocket | Position | Insight Function | Score | Verdict |
+|---|---|---|---|---|---|
+| 9 | Pesticide Registration & Regulatory Affairs Consulting | Specialist advisory | 50-400 | **51** | ✅ Indexed |
+| 10 | Termite Warranty & Damage Repair Underwriting | Payer & intermediary | 100-500 | 44 | Below threshold |
+| 11 | GLP Efficacy & Toxicology Contract Laboratories | Supplier | 200-1,500 | 43 | ⚠️ Kill switch |
+| 12 | State Pesticide Regulatory Agencies | Regulatory | 100-600 | 41 | ⚠️ Kill switch |
+| 13 | Pesticide Manufacturer Discovery & Field Development | Supplier | 500-3,000 | 40 | Below threshold |
+| 14 | Pest Control Field Service Platform Analytics | Supplier | 60-300 | 39 | Below threshold |
+| 15 | Pest Control Rollup Corporate Analytics | Aggregator/rollup | 100-500 | 39 | Below threshold |
+| 16 | Fumigation & Quarantine Treatment Certification | Regulatory | 30-150 | 39 | ⚠️ Kill switch |
+| 17 | Public Health Vector Surveillance | Regulatory | 100-800 | 39 | ⚠️ Kill switch |
+| 18 | Pest Control Lead Generation & Marketplaces | Aggregator/rollup | 200-1,000 | 38 | Below threshold |
+| 19 | Pest Management Association Research | Association research arm | 10-25 | 27 | Below threshold |
+| 20 | Entomology Diagnostic & Identification Services | Specialist advisory | 3-15 | — | ✗ Fails gate |
+| 21 | Pest Control Franchise System Analytics | Aggregator/rollup | 5-25 | — | ✗ Fails gate |
+
+## Why These Pockets
+
+One pocket qualified, and it sits at the top of the chain rather than anywhere near a technician. Nothing sprayed in this $22B industry exists commercially until somebody has got it registered, and the consultancies that do that work are a genuine insight business: the deliverable is a strategy and a dossier, the clock is statutory — PRIA decision deadlines, registration review cycles, data call-ins with fixed response windows, fifty separate state renewals — and the accumulated knowledge of which arguments the agency has accepted from whom is real, proprietary, and unpublished.
+
+It is also the third instance of the regulatory affairs shape in this index, after food label compliance and medical device submissions. The three are not the same business — different statutes, different science, different firms — but the pattern is now clear enough to name: wherever a federal agency must approve a product before it can be sold, a consultancy grows up that sells accumulated precedent about that agency's behaviour, and in every case the precedent lives in senior people's heads rather than in a model.
+
+The defects follow the same three-part shape. Thirty years of submissions and the agency's own enormous public docket of reasoning — registration review decisions, risk assessments, response-to-comment files — would support a model of what data requirements apply to which chemistry and use pattern, which is the highest-value question at the start of every engagement and is currently answered by analogy to remembered products. The fifty-state renewal and label-cascade layer is run on spreadsheets, where a missed date makes a client's product illegal to sell. And the strategy call itself, which is why the client chose this firm, lives in four principals in an ageing profession with no pipeline behind it.
+
+The rest of the industry is instructive for what it holds and does not use. Termite warranty underwriters own the only long-run record of which treatments actually held, by construction type, soil and region — the empirical answer to the industry's central technical question — and use it to price a bond. Field service platforms hold millions of visits recording what pest was found, what was applied, and whether the customer called back; Pass 1 identifies exactly that diagnosis-to-resolution link as the skill separating a one-visit fix from a five-visit one, and the software uses the data for routing. Four of the thirteen pockets sit behind government procurement, and the GLP laboratories are walled by sponsor data ownership study by study.
+
+## Niches — Pass 2
+- [[niches/pest-control/pesticide-registration-regulatory-affairs/profile|🔍 Pesticide Registration & Regulatory Affairs Consulting]]
+- [[niches/pest-control/termite-warranty-underwriting/profile|🔍 Termite Warranty & Damage Repair Underwriting]]
+- [[niches/pest-control/glp-efficacy-toxicology-cros/profile|🔍 GLP Efficacy & Toxicology Contract Laboratories]]
+- [[niches/pest-control/state-pesticide-regulatory-agencies/profile|🔍 State Pesticide Regulatory Agencies]]
+- [[niches/pest-control/pesticide-manufacturer-rd/profile|🔍 Pesticide Manufacturer Discovery & Field Development]]
+- [[niches/pest-control/field-service-platform-analytics/profile|🔍 Pest Control Field Service Platform Analytics]]
+- [[niches/pest-control/pest-rollup-corporate-analytics/profile|🔍 Pest Control Rollup Corporate Analytics]]
+- [[niches/pest-control/fumigation-quarantine-certification/profile|🔍 Fumigation & Quarantine Treatment Certification]]
+- [[niches/pest-control/public-health-vector-surveillance/profile|🔍 Public Health Vector Surveillance]]
+- [[niches/pest-control/pest-lead-generation-marketplaces/profile|🔍 Pest Control Lead Generation & Marketplaces]]
+- [[niches/pest-control/pest-association-research/profile|🔍 Pest Management Association Research]]
+- [[niches/pest-control/entomology-diagnostic-services/profile|🔍 Entomology Diagnostic & Identification Services]]
+- [[niches/pest-control/pest-franchise-system-analytics/profile|🔍 Pest Control Franchise System Analytics]]

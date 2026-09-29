@@ -30,3 +30,50 @@ HOA management fragments along community type (master-planned subdivision vs. hi
 - [[niches/hoa-management/mixed-use-urban-associations/profile|🟣 Mixed-Use Urban Associations]]
 - [[niches/hoa-management/violation-enforcement-operations/profile|⚡ Violation Enforcement Operations]]
 - [[niches/hoa-management/reserve-study-and-capital-planning/profile|⚡ Reserve Study & Capital Planning]]
+
+---
+
+## Pass 2 — Insight-Layer Discovery
+
+Second, orthogonal sweep. Pass 1 searched across the operator layer and found firms of 1-15 people; research functions do not exist at that altitude. This pass sweeps seven positions in the value chain — aggregator/rollup, payer & intermediary, data & benchmark vendors, association research arms, specialist advisory & valuation, regulatory bodies, and suppliers selling into the industry — looking for a dedicated insight function of 10+ people whose analytical output is the billable deliverable. Full method in `_direction.md`.
+
+| # | Pocket | Position | Insight Function | Score | Verdict |
+|---|---|---|---|---|---|
+| 9 | Condominium Project Review Services | Payer & intermediary | 50-300 | **51** | ✅ Indexed |
+| 10 | Reserve Study Firms | Specialist advisory | 20-150 | **51** | ✅ Indexed |
+| 11 | Community Association Insurance Underwriting | Supplier | 40-200 | 48 | Below threshold |
+| 12 | HOA Collections & Lien Enforcement Firms | Payer & intermediary | 30-200 | 47 | ⚠️ Kill switch |
+| 13 | Resale Certificate & Document Services | Data vendor | 50-300 | 47 | Below threshold |
+| 14 | Milestone Structural Inspection Engineering | Specialist advisory | 15-80 | 46 | ⚠️ Kill switch |
+| 15 | Construction Defect Forensic Engineering | Specialist advisory | 20-100 | 44 | ⚠️ Kill switch |
+| 16 | Community Association Banking | Payer & intermediary | 20-80 | 42 | Below threshold |
+| 17 | HOA Platform Data Teams | Supplier | 20-80 | 41 | ⚠️ Kill switch |
+| 18 | National Management Platform Analytics | Aggregator/rollup | 20-80 | 41 | Below threshold |
+| 19 | Community Association Research Foundation | Association research arm | 5-20 | 38 | Below threshold |
+| 20 | State Condominium & HOA Regulators | Regulatory | 15-80 | 32 | ⚠️ Kill switch |
+| 21 | HOA Management Company Brokerage | Specialist advisory | 2-8 | — | ✗ Fails gate |
+
+## Why These Pockets
+
+Two pockets qualified, and both were reshaped by the same event. Surfside turned condominium project condition from a paperwork question into a financing and statutory one: the agencies tightened project eligibility to include deferred maintenance and structural condition, several states mandated milestone inspections and structural integrity reserve studies, and the insurance market repriced. An industry whose analytical layer had been essentially clerical acquired real analytical stakes in about eighteen months.
+
+Project review firms render the eligibility determination that decides whether a conventional mortgage can be made on a condominium. Doing that at volume for years has produced the only assembled record of the financial and physical condition of the US condominium stock — refreshed every time a unit comes up for financing — and the firm's memory of each project is one word plus an expiry date. The corpus has never been queried as a body, the outcomes are observable in the firm's own later reviews, and the same 300-unit tower gets reviewed from an empty screen fifty times a year.
+
+Reserve study firms have the longer archive and the clearer defect. A study is a life prediction repeated a hundred times, and each remaining-life estimate comes from a published national table — while the firm has inspected thousands of communities repeatedly across decades and frequently knows the year each component was actually replaced and what it cost. That is a survival dataset with real covariates, stored as a shelf of PDFs. Statutory mandates have pulled price-competing entrants into this market, and the thirty-year archive is the only durable advantage an established firm has.
+
+Below them the industry follows the usual pattern with one sharp exception. The collections law firms hold delinquency-to-recovery outcomes across tens of thousands of accounts — which would answer exactly the payment-pattern judgment Pass 1 identifies as core manager expertise — behind attorney work product and FDCPA exposure on any automated decision affecting a consumer debtor. Two walls, both real.
+
+## Niches — Pass 2
+- [[niches/hoa-management/condo-project-review-services/profile|🔍 Condominium Project Review Services]]
+- [[niches/hoa-management/reserve-study-firms/profile|🔍 Reserve Study Firms]]
+- [[niches/hoa-management/community-association-insurance-underwriting/profile|🔍 Community Association Insurance Underwriting]]
+- [[niches/hoa-management/hoa-collections-law-firms/profile|🔍 HOA Collections & Lien Enforcement Firms]]
+- [[niches/hoa-management/resale-certificate-document-services/profile|🔍 Resale Certificate & Association Document Services]]
+- [[niches/hoa-management/milestone-structural-inspection-engineering/profile|🔍 Milestone Structural Inspection Engineering]]
+- [[niches/hoa-management/construction-defect-forensic-engineering/profile|🔍 Construction Defect Forensic Engineering]]
+- [[niches/hoa-management/community-association-banking/profile|🔍 Community Association Banking]]
+- [[niches/hoa-management/hoa-platform-data-teams/profile|🔍 HOA Platform Data Teams]]
+- [[niches/hoa-management/national-management-platform-analytics/profile|🔍 National Management Platform Analytics]]
+- [[niches/hoa-management/community-association-research-foundation/profile|🔍 Community Association Research Foundation]]
+- [[niches/hoa-management/state-condo-regulators/profile|🔍 State Condominium & HOA Regulators]]
+- [[niches/hoa-management/hoa-brokerage-ma-advisory/profile|🔍 HOA Management Company Brokerage]]

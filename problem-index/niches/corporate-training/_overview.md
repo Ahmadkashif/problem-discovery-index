@@ -30,3 +30,51 @@ Corporate training fragments along content domain (sales vs. compliance vs. tech
 - [[niches/corporate-training/remote-distributed-teams/profile|🟣 Remote & Distributed Team Training]]
 - [[niches/corporate-training/onboarding-automation/profile|⚡ Employee Onboarding Automation]]
 - [[niches/corporate-training/assessment-grading-ops/profile|⚡ Assessment & Certification Grading Operations]]
+
+
+---
+
+## Pass 2 — Insight-Layer Discovery
+
+Second, orthogonal sweep. Pass 1 searched across the operator layer and found L&D teams and training vendors; research functions do not exist at that altitude. This pass sweeps seven positions in the value chain — aggregator/rollup, payer & intermediary, data & benchmark vendors, association research arms, specialist advisory & valuation, regulatory bodies, and suppliers selling into the industry — looking for a dedicated insight function of 10+ people whose analytical output is the billable deliverable. Full method in `_direction.md`.
+
+| # | Pocket | Position | Insight Function | Score | Verdict |
+|---|---|---|---|---|---|
+| 9 | Labour Market & Skills Taxonomy Data Providers | Data vendor | 200-800 | **54** | ✅ Indexed |
+| 10 | Talent Assessment Publishers | Data vendor | 100-400 | **52** | ✅ Indexed |
+| 11 | Instructional Design & Content Development Studios | Supplier | 30-200 | 46 | ⚠️ Kill switch |
+| 12 | Learning & Development Benchmark Research Firms | Data vendor | 20-80 | 45 | Below threshold |
+| 13 | Learning Content Library Platforms | Aggregator/rollup | 100-500 | 43 | Below threshold |
+| 14 | Education Benefit Administrators | Payer & intermediary | 20-100 | 43 | Below threshold |
+| 15 | HR & Talent Association Research | Association research arm | 50-150 | 42 | Below threshold |
+| 16 | Learning Platform Analytics Teams | Supplier | 20-100 | 41 | Below threshold |
+| 17 | Continuing Education Accreditation Bodies | Regulatory | 10-50 | 40 | Below threshold |
+| 18 | Learning Evaluation Consultancies | Specialist advisory | 10-40 | 40 | ⚠️ Kill switch |
+| 19 | Simulation & Practice Technology Vendors | Supplier | 15-60 | 36 | Below threshold |
+| 20 | Corporate University Learning Research | Aggregator/rollup | 15-60 | 34 | Below threshold |
+| 21 | Training Company Rollup Corporate Development | Aggregator/rollup | 3-10 | — | ✗ Fails gate |
+
+## Why These Pockets
+
+The Pass 1 analysis identifies the industry's defining problem as an inability to draw a credible line from training investment to a measurable outcome. The sweep confirms it from the other direction: neither qualifier is a training business. Both sell measurement of people, and both sit beside the L&D function rather than inside it.
+
+Labour market data providers parse hundreds of millions of postings and profiles into a skills ontology and sell the analytics that tell an employer what capability to build. The ontology is the product and it is maintained by hand against a vocabulary that changes faster than the taxonomy does, with no measurement of how much employer language it currently resolves — a metric computable today from unresolved text the firm already holds. The second gap is subtler and more damaging: taxonomy revisions cause the archive to be reprocessed, so a client's five-year trend line reflects both market movement and every classification decision made in between, indistinguishably.
+
+Talent assessment publishers sell instruments whose entire legal and commercial basis is validity evidence, accumulated across decades of studies that sit as individual client reports and have never been pooled. Meanwhile their platforms process millions of administrations against norm groups collected years ago and never check whether those norms still describe who is applying — which in a selection context means candidates advanced or rejected on a comparison that may no longer hold.
+
+Eleven pockets logged without qualifying, and two are worth stating for the contrast. Learning platform analytics teams hold the only data that could answer whether corporate training works — consumption joined to role, tenure, and sometimes performance, across millions of employees — and it funds a software subscription. Learning evaluation consultancies exist specifically to answer that question, are the purest insight-as-invoice shape in the industry, and carry a kill switch because every study depends on performance data the client owns.
+
+## Niches — Pass 2
+- [[niches/corporate-training/labor-market-skills-data/profile|🔍 Labour Market & Skills Taxonomy Data Providers]]
+- [[niches/corporate-training/talent-assessment-publishers/profile|🔍 Talent Assessment Publishers]]
+- [[niches/corporate-training/instructional-design-studios/profile|🔍 Instructional Design & Content Development Studios]]
+- [[niches/corporate-training/ld-benchmark-research-firms/profile|🔍 Learning & Development Benchmark Research Firms]]
+- [[niches/corporate-training/content-library-platforms/profile|🔍 Learning Content Library Platforms]]
+- [[niches/corporate-training/education-benefit-administrators/profile|🔍 Education Benefit Administrators]]
+- [[niches/corporate-training/hr-association-research/profile|🔍 HR & Talent Association Research]]
+- [[niches/corporate-training/lms-learning-analytics-teams/profile|🔍 Learning Platform Analytics Teams]]
+- [[niches/corporate-training/ce-accreditation-bodies/profile|🔍 Continuing Education Accreditation Bodies]]
+- [[niches/corporate-training/learning-evaluation-consultancies/profile|🔍 Learning Evaluation Consultancies]]
+- [[niches/corporate-training/simulation-technology-vendors/profile|🔍 Simulation & Practice Technology Vendors]]
+- [[niches/corporate-training/corporate-university-research/profile|🔍 Corporate University Learning Research]]
+- [[niches/corporate-training/training-rollup-corp-dev/profile|🔍 Training Company Rollup Corporate Development]]

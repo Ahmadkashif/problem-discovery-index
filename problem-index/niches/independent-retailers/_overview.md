@@ -30,3 +30,50 @@ Independent retail fragments along merchandise category (gifts vs. apparel vs. h
 - [[niches/independent-retailers/youth-campus-retail/profile|🟣 Youth & Campus-Adjacent Retail]]
 - [[niches/independent-retailers/pos-inventory-reconciliation/profile|⚡ POS-to-Inventory Reconciliation]]
 - [[niches/independent-retailers/vendor-reorder-automation/profile|⚡ Vendor Reorder Automation]]
+
+---
+
+## Pass 2 — Insight-Layer Discovery
+
+Second, orthogonal sweep. Pass 1 searched across the operator layer and found firms of 1-15 people; research functions do not exist at that altitude. This pass sweeps seven positions in the value chain — aggregator/rollup, payer & intermediary, data & benchmark vendors, association research arms, specialist advisory & valuation, regulatory bodies, and suppliers selling into the industry — looking for a dedicated insight function of 10+ people whose analytical output is the billable deliverable. Full method in `_direction.md`.
+
+| # | Pocket | Position | Insight Function | Score | Verdict |
+|---|---|---|---|---|---|
+| 9 | Commercial Credit Bureaus | Payer & intermediary | 500-3,000 | **56** | ✅ Indexed |
+| 10 | Retail Measurement Services | Data vendor | 100-1,000 | 54 | ↔ Cross-referenced |
+| 11 | Retail Cooperative Buying Groups | Aggregator/rollup | 100-500 | 48 | ⚠️ Kill switch |
+| 12 | Retail Crime Intelligence | Regulatory | 30-200 | 46 | ⚠️ Kill switch |
+| 13 | Merchandising Service Organizations | Supplier | 200-1,000 | 45 | ⚠️ Kill switch |
+| 14 | Retail POS Platform Analytics | Supplier | 100-800 | 45 | ⚠️ Kill switch |
+| 15 | Retail Leasing Market Research | Specialist advisory | 30-150 | 45 | Below threshold |
+| 16 | Trade Credit Insurance Underwriting | Payer & intermediary | 50-300 | 42 | Below threshold |
+| 17 | Wholesale Trade Show Operators | Supplier | 20-100 | 41 | Below threshold |
+| 18 | Retail Association Research | Association research arm | 15-60 | 40 | Below threshold |
+| 19 | Hyperlocal Retail Marketing Agencies | Supplier | 15-60 | 36 | Below threshold |
+| 20 | Weights, Measures & Consumer Protection | Regulatory | 10-60 | 32 | ⚠️ Kill switch |
+| 21 | Retail Store Brokerage | Specialist advisory | 2-8 | — | ✗ Fails gate |
+
+## Why These Pockets
+
+The retail insight layer has already been swept from the e-commerce and food distribution sides, and the syndicated measurement, marketplace intelligence, and product content pockets are indexed there. What independent retail adds is the credit layer, and it is the strongest thing in the industry by a wide margin.
+
+Every one of the dozens of wholesale relationships Pass 1 describes an independent retailer maintaining is opened on the strength of a commercial credit file. The bureaus that produce those files collect trade payment experience from thousands of suppliers under reciprocity, resolve it against a business identity graph covering millions of establishments, and sell the score — an unreplicable network, a real external clock, and the analysis unambiguously as the invoice.
+
+The defect falls precisely on this industry. Commercial scores are built from trade lines, and independent retailers buy from small wholesale reps who report to nobody, so the file is thin: two or three trade lines and a firmographic size estimate that is often wrong by a factor. The score computed on it carries the same apparent confidence as one built on forty trade lines, and a supplier declining terms cannot distinguish a bad record from no record. Performance by file depth is never published — the aggregate metric is dominated by the well-covered population and hides its own worst region — and the penalty lands as reduced inventory purchasing power on businesses running at 2-5% net margin. Fintech lenders underwriting small business on transaction data have shown the thin file is workable, which makes this defensive as well as commercial.
+
+Below it, two positions come close and are held back by the same thing. The buying co-ops hold point-of-sale data from thousands of independent stores — the only assembled view of what independent retail actually sells, and the closest anyone comes to solving the inventory problem Pass 1 calls the largest cash-flow lever — and bundle the analysis into a wholesale margin. The POS platforms hold the same signal at larger scale and ship it as a module Pass 1 says most of their customers never open.
+
+## Niches — Pass 2
+- [[niches/independent-retailers/commercial-credit-bureaus/profile|🔍 Commercial Credit Bureaus]]
+- [[niches/independent-retailers/retail-measurement-crossref/profile|🔍 Retail Measurement Services]]
+- [[niches/independent-retailers/retail-cooperative-buying-groups/profile|🔍 Retail Cooperative Buying Groups]]
+- [[niches/independent-retailers/retail-crime-intelligence/profile|🔍 Retail Crime Intelligence]]
+- [[niches/independent-retailers/merchandising-service-organizations/profile|🔍 Merchandising Service Organizations]]
+- [[niches/independent-retailers/retail-pos-platform-analytics/profile|🔍 Retail POS Platform Analytics]]
+- [[niches/independent-retailers/retail-leasing-market-research/profile|🔍 Retail Leasing Market Research]]
+- [[niches/independent-retailers/trade-credit-insurance-underwriting/profile|🔍 Trade Credit Insurance Underwriting]]
+- [[niches/independent-retailers/wholesale-trade-show-operators/profile|🔍 Wholesale Trade Show Operators]]
+- [[niches/independent-retailers/retail-association-research/profile|🔍 Retail Association Research]]
+- [[niches/independent-retailers/local-marketing-agencies-retail/profile|🔍 Hyperlocal Retail Marketing Agencies]]
+- [[niches/independent-retailers/weights-measures-consumer-protection/profile|🔍 Weights, Measures & Retail Consumer Protection]]
+- [[niches/independent-retailers/retail-store-brokerage/profile|🔍 Retail Store Brokerage]]
