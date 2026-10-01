@@ -1,0 +1,27 @@
+# Asset Managers
+
+## Profile
+**Category:** Capital Markets & Investment Research
+**Market Size:** ~$128T global assets under management at end-2024 (BCG estimate) and ~$39T in US-registered funds (ICI, end-2024); US asset management revenue is an estimate in the ~$200B+ range, under steady fee compression as passive products take flows from active ones
+**Tech Maturity:** High in the book of record, low in the research floor — order management, compliance and risk run on Aladdin, Charles River, SimCorp or Bloomberg AIM, while the research that justifies every active position lives in analyst notes, Excel models and email, captured unevenly in a research management system (FactSet RMS, Bipsync, SS&C Tamale) if at all.
+**Workforce:** Buy-side equity and credit analysts, portfolio managers, investment risk analysts, stewardship and ESG analysts, portfolio specialists and investment writers, RFP and consultant-relations teams, client reporting and fund reporting staff, investment compliance officers, data and quant teams
+
+## Key Pain Themes
+An active long-only manager sells one thing: the claim that its research produces better portfolios than an index fund charging a few basis points. The research floor that backs that claim is a few dozen to a few hundred analysts who meet management teams, read filings, build models, and pass recommendations to portfolio managers — and the institution records almost none of it in a form that can be audited, reused or graded. The analyst's read of a CFO who is sandbagging guidance, the credit analyst's sense that a covenant package is weaker than the headline, the reason the PM declined to act on a recommendation: all of it is held in individual heads and dispersed notes, and it leaves when the analyst does.
+
+The second half of the industry is the evidence it must produce for other people on their deadlines. Consultants and institutional prospects send RFPs and due diligence questionnaires that ask the same two hundred questions in a slightly different order. Consultant databases (eVestment, Mercer's GIMD and others) must be refreshed every quarter or the strategy drops out of manager searches. Fund boards need 15(c) materials. The SEC's tailored shareholder reports, Form N-PORT and the expanded Form N-PX vote disclosure each impose their own calendar. Stewardship teams vote at thousands of meetings in a proxy season compressed into roughly ten weeks. Portfolio specialists write quarterly commentary for every strategy and vehicle within days of quarter-end. None of this is the investment decision, and all of it is how the investment decision is sold and defended.
+
+## Current Tech Landscape
+The investment book of record is well served: Aladdin, Charles River IMS, SimCorp and SS&C platforms handle orders, positions, pre-trade compliance and performance; MSCI Barra, Axioma and Bloomberg PORT supply risk; FactSet and Bloomberg supply data. Research management systems exist but adoption is partial and the notes in them are unstructured. Proxy voting runs through ISS and Glass Lewis platforms with custom policies layered on top. RFP teams use Loopio, Responsive or Qvidian as answer libraries; fund document production runs through DFIN, Broadridge and Workiva. Generative AI has entered as research assistants (AlphaSense, Bloomberg's and FactSet's own tools) that summarise external documents; almost none of it is pointed at the firm's own research record, which is the asset a competitor cannot buy.
+
+## Problems
+- [[problems/asset-managers/high-impact|🔴 High Impact: The Analyst's Judgment That Leaves With the Analyst]]
+- [[problems/asset-managers/low-impact-1|🟡 Low Impact: RFP, DDQ and Consultant Database Responses]]
+- [[problems/asset-managers/low-impact-2|🟡 Low Impact: Shareholder Report and Fund Document Production]]
+- [[problems/asset-managers/worker-life-1|🟢 Worker Life: The Portfolio Specialist at Quarter-End]]
+- [[problems/asset-managers/worker-life-2|🟢 Worker Life: The Stewardship Analyst in Proxy Season]]
+- [[problems/asset-managers/ml-opportunity|🧠 ML Opportunities]]
+- [[problems/asset-managers/ai-agents-platforms|🤖 AI Agents & Platforms]]
+
+## Analysis
+Active asset management is a research business that keeps poor research records. Every recommendation an analyst makes, every action or non-action a portfolio manager takes on it, and every subsequent price move is observable — the outcome table assembles itself in the performance system daily — but the recommendation side is scattered across notes, emails and model files, so the join is almost never made. The firm can tell a consultant its strategy's three-year information ratio and cannot tell itself which analysts' calls the PMs should weight more heavily, or which kinds of management meeting actually changed a view. Meanwhile a large share of non-investment headcount is spent re-producing the same facts for third parties on third-party clocks: RFPs, consultant databases, fund documents, board materials, vote disclosures, commentary. That is the shape of a research-workflow automation opportunity: a proprietary corpus the firm owns outright, a repeatable deliverable produced at volume, and deadlines it does not set. The constraint that keeps it hard is equally specific — any system touching the research floor must respect information barriers and material non-public information policies, and must earn the trust of PMs who are paid for judgment and are sceptical of anything that claims to grade it.

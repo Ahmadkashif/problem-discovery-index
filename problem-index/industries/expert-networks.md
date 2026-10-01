@@ -1,0 +1,27 @@
+# Expert Networks
+
+## Profile
+**Category:** Capital Markets & Investment Research
+**Market Size:** ~$2.5–3.8B global revenue across expert-call brokerage, transcript libraries and expert surveys (estimates vary by source; industry trackers put it near ~$2.5B in 2024 with high-single-digit growth). GLG, AlphaSights, Third Bridge and Guidepoint are the largest players, with Coleman, Dialectica, Atheneum, NewtonX, Arbolus and Capvision behind them, and AlphaSense (which acquired Tegus in 2024 for ~$930M) and In Practise on the transcript-library side
+**Tech Maturity:** Medium — the client-facing surfaces (portals, scheduling, transcript search) are modern, but the core work of finding the right person, deciding whether they actually know the answer and clearing them for compliance is done by large teams of junior associates reading LinkedIn profiles, cold-messaging former employees and transcribing screening answers into a CRM.
+**Workforce:** Associates and project managers (recruiters) who source and screen experts, client-service leads, compliance analysts, transcript editors and content analysts, survey programmers, and — on the client side — buy-side analysts, private equity associates and consultants who consume the calls
+
+## Key Pain Themes
+The product is a one-hour conversation with someone who has done the job the client is trying to understand, and the industry's whole cost base sits in getting that person on the phone within a day. A hedge fund analyst sends a request at 7pm asking for a former procurement director at a mid-size distributor who chose between two specific software vendors; by the next morning an associate has messaged eighty people, received fifteen replies, run each through a three-question screener and forwarded six profiles. Two of the six turn out on the call not to have touched the decision. The client pays for the call anyway or disputes it, and the network learns nothing it records about why the screener passed someone who did not know.
+
+Compliance runs alongside every call: the expert must not be a current employee of the subject company, must not be bound by a confidentiality obligation they would breach, must not be a government official in a restricted role, and must not pass material non-public information. The insider-trading prosecutions of 2010–2013 that ran through expert-network relationships set the shape of every compliance programme since, and the mechanism is still mostly attestation forms and a chaperone listening to a sample of calls. On the client side, a research team running thirty calls through a diligence sprint ends up with thirty sets of notes or transcripts and no way to reconcile who said what, which statements disagreed, and which turned out to be right.
+
+## Current Tech Landscape
+Networks run proprietary CRMs and expert databases holding hundreds of thousands to millions of profiles, scheduling tools, and call-recording and transcription pipelines; several now offer LLM-generated call summaries. Transcript libraries (AlphaSense/Tegus, Third Bridge Forum, In Practise, the networks' own libraries) sell searchable archives of compliance-reviewed calls on subscription. Clients manage multiple networks through procurement platforms such as Inex One or internal spreadsheets, and route approvals through their own compliance teams. The gap is that every one of these systems records the call and none records whether the expert was the right one or whether what they said proved true.
+
+## Problems
+- [[problems/expert-networks/high-impact|🔴 High Impact: The Screener Passes the Wrong Expert]]
+- [[problems/expert-networks/low-impact-1|🟡 Low Impact: MNPI Screening by Attestation and Sample]]
+- [[problems/expert-networks/low-impact-2|🟡 Low Impact: Transcript Anonymisation and Entity Tagging]]
+- [[problems/expert-networks/worker-life-1|🟢 Worker Life: The Associate Messaging Eighty Strangers Before Breakfast]]
+- [[problems/expert-networks/worker-life-2|🟢 Worker Life: The Analyst With Thirty Calls and No Synthesis]]
+- [[problems/expert-networks/ml-opportunity|🧠 ML Opportunities]]
+- [[problems/expert-networks/ai-agents-platforms|🤖 AI Agents & Platforms]]
+
+## Analysis
+An expert network sells a prediction — this person will be able to answer your question — and observes the outcome of that prediction within an hour of making it. The client rates the call, cuts it short, asks for a refund, books the same expert again, or never mentions them; the transcript records exactly what the expert knew. That is a labelled record of matching quality assembling itself at a volume of hundreds of thousands of calls a year per large network, and it is almost never joined back to the screening decision that produced the call. The judgement that makes a senior project manager good at this — reading a profile and sensing that a "VP Operations" title at that company meant plant management, not procurement — is the industry's most valuable asset and is held entirely in people who leave within two or three years. The second untapped record is the transcript corpus itself: hundreds of thousands of first-hand claims about industries, products and companies, each timestamped, most of them checkable against what later became public, and none of them ever checked. For research teams in finance, expert calls are the most labour-intensive primary-research input they buy, and both the sourcing side and the consumption side are dominated by manual reading, reconciling and re-asking.

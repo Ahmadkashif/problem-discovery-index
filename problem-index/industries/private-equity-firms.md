@@ -1,0 +1,29 @@
+# Private Equity Firms
+
+## Profile
+**Category:** Capital Markets & Investment Research
+**Market Size:** ~$30B estimated annual US management fee revenue across lower-middle and middle-market buyout and growth equity sponsors — several thousand active US firms, with US middle-market fundraising alone at ~$95B in 2025 per PitchBook's middle-market reporting
+**Tech Maturity:** Medium — the deal team lives in Excel, PowerPoint and Outlook on top of a deal CRM (Intapp DealCloud, Affinity, Salesforce), a data subscription (PitchBook, Capital IQ, Grata, SourceScrub), a virtual data room (Datasite, Intralinks, Firmex) and a portfolio monitoring tool (S&P iLEVEL, Chronograph, Cobalt, Allvue). Each layer is competent; the firm's own judgement — why it passed, what it believed at IC, what actually happened — is stored nowhere any of them can read.
+**Workforce:** Partners and managing directors, principals and vice presidents, associates and analysts, business development and sourcing professionals, operating partners and value creation teams, CFO and fund finance staff, investor relations, compliance officers, and the portfolio company CFOs who feed the reporting machine
+
+## Key Pain Themes
+A mid-market sponsor reviews somewhere between several hundred and a couple of thousand opportunities a year — teasers, CIMs, banker calls, founder conversations — and closes a handful. Almost all of the firm's analytical labour is spent on deals it does not do, and the judgement that kills them in the first hour is the most valuable and least recorded skill in the building: a partner reads a CIM, says "customer concentration is worse than they're showing" or "this is a margin peak", and the deal is logged as `Passed — Valuation` in the CRM. Three years later the company has traded to someone else and its outcome is visible in PitchBook, and nobody ever checks whether the pass was right.
+
+The deals that proceed hit a fixed clock: an exclusivity period of four to eight weeks under an LOI, during which the firm coordinates quality-of-earnings, commercial, legal, insurance, IT and environmental diligence providers, rebuilds the model on every new data room drop, and writes an investment committee memo that is largely a re-assembly of the last one. After close the work turns into monthly reporting packages from portfolio company CFOs in a dozen incompatible formats, quarterly fair-value marks, LP reports in the ILPA template, and due diligence questionnaires from every LP in the next fundraise asking the same hundred questions differently.
+
+## Current Tech Landscape
+Sourcing runs on PitchBook, Capital IQ, Grata, SourceScrub and Inven, plus the CRM's relationship intelligence and an Outlook sync. Diligence runs in Datasite or Intralinks with AlphaSense, Tegus and expert networks alongside, and increasingly with LLM research tools such as Hebbia and Rogo reading the data room. Post-close, iLEVEL, Chronograph and Cobalt collect KPIs, fund administrators (SS&C, Citco, Alter Domus) produce capital account statements, and the LP portal is a document drop. The stack has coverage at every step and memory at none: the CIM, the model, the IC memo, the pass reason and the realised outcome live in five systems that were never designed to be joined.
+
+## Problems
+- [[problems/private-equity-firms/high-impact|🔴 High Impact: The Pass Decision Nobody Grades]]
+- [[problems/private-equity-firms/low-impact-1|🟡 Low Impact: IC Memo Assembly From the Data Room]]
+- [[problems/private-equity-firms/low-impact-2|🟡 Low Impact: Portfolio Company Reporting Normalisation]]
+- [[problems/private-equity-firms/worker-life-1|🟢 Worker Life: The Associate Rebuilding the Model at Midnight]]
+- [[problems/private-equity-firms/worker-life-2|🟢 Worker Life: The Portfolio Company CFO Answering the Sponsor]]
+- [[problems/private-equity-firms/ml-opportunity|🧠 ML Opportunities]]
+- [[problems/private-equity-firms/ai-agents-platforms|🤖 AI Agents & Platforms]]
+
+## Analysis
+A private equity firm is a research organisation whose output is a small number of very large bets, and its research is unusually well-graded by the world: every deal it pursued has a realised multiple, and every deal it passed on eventually trades, refinances or fails in public view. The industry nevertheless runs almost entirely on unrecorded judgement. Screening calls are made in a partner's head and logged as a dropdown; IC memos are written as prose and never re-read against outcomes; value creation plans are drafted at close and never reconciled to which initiative actually moved EBITDA. The research workflow — sourcing, screening, diligence, memo, monitoring, LP reporting — is repeatable in shape and bespoke only in its inputs, which is exactly the profile where automation pays, and the firm already owns the corpus (CIMs, models, memos, monthly packages) that would train it.
+
+Two structural cautions apply. First, much of that corpus is not fully the firm's own: CIMs and data room contents arrive under NDA and are often subject to return-or-destroy clauses on deals not pursued, so a "deal memory" product must be designed around what the firm may retain. Second, the insight layer above the sponsors — quarterly valuation advisory, commercial due diligence consultancies — is where research is actually the invoice, and that is where Pass 2 finds its qualifiers. The rollup platforms these firms own are already mapped elsewhere in the vault, for example [[niches/hvac-contractors/home-services-rollup-analytics/profile|Home Services Rollup Analytics]], [[niches/it-managed-services/msp-rollup-corporate-development/profile|MSP Rollup Corporate Development]] and [[niches/behavioral-health-clinics/behavioral-mso-analytics/profile|Behavioral MSO Analytics]], and their acquisition analytics are scored there rather than here. Private equity is a prior deployment of the engine and carries no scoring weight; it is assessed here on its merits only.

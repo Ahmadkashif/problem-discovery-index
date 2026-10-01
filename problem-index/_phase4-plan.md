@@ -1,6 +1,6 @@
 # Phase 4 — Capital Markets & Investment Research
 
-**Status:** plan drafted 2026-10-01 · awaiting owner approval · nothing built
+**Status:** ✅ Stages A, B and C complete for all 7 core industries (2026-10-02). 503 files, `PHASE4-VERIFY-CLEAN`. Stage E (merge into shared registers) not run.
 **Branch:** `phase4/capital-markets-research`. Never committed to `main` directly.
 **Standing run order:** this file. A fresh agent is launched with *"Read `_phase4-plan.md` and execute it."*
 
@@ -45,24 +45,21 @@ Each is research-heavy and finance-facing, but none was shown missing by the dia
 
 ## 4. Stages
 
-Same layer order as Phase 2: **Stage A → Stage B → Stage C**, plus a pilot first and a merge gate at the end. **The owner reviews at every gate.**
+Same layer order as Phase 2: **Stage A → Stage B → Stage C**. **No approval gates** (owner instruction, 2026-10-02): every stage runs through, and the verifier is the gate. The owner reviews the finished build. Stage E (merging into shared registers) is the only step held back, because it edits existing files.
 
 | Stage | What | Per industry | Files (7 core) | Threading | Gate |
 |---|---|---|---|---|---|
 | **0** | Setup: write `_state/phase4/verify.sh` (wraps `verify-stageb.sh` and the parity checks, scoped to Phase 4 slugs, no hard-coded paths), lock slugs | — | 1–2 | single | — |
-| **P** | **Pilot.** Run A + B + C end to end on **one** industry (`hedge-funds`) | ~65–75 | ~70 | single | **Owner reviews the pilot.** Go, revise template use, or stop |
-| **A** | `industries/<slug>.md` + `problems/<slug>/` (7 files) for the remaining 6 | 8 | 48 | 2 threads OK (disjoint slugs) | Owner skims the hubs |
-| **B** | Niche layer: `_overview.md` + 8 level-1 niches × 4 files + contested sub-niches × 4, under the `_phase2-plan.md` §2 filter | ~41 | ~246 | **single thread** | Owner reviews `## Filter Notes` per industry |
-| **C** | Pass 2 insight-layer sweep (`_direction.md` method): ≥10 pockets per industry, gate, rubric, `build/buy/fix` only for ≥50/60 with no kill switch. Qualifiers go to `_scorecard-index-phase4.md` | ~13–25 | ~90–150 | **single thread** | Owner reviews the Phase 4 scorecard |
+| **A** | `industries/<slug>.md` + `problems/<slug>/` (7 files) for the remaining 6 | 8 | 48 | parallel, one builder per slug | verifier |
+| **B** | Niche layer: `_overview.md` + 8 level-1 niches × 4 files + contested sub-niches × 4, under the `_phase2-plan.md` §2 filter | ~41 | ~246 | same builder, after A | verifier |
+| **C** | Pass 2 insight-layer sweep (`_direction.md` method): ≥10 pockets per industry, gate, rubric, `build/buy/fix` only for ≥50/60 with no kill switch. Qualifiers go to `_scorecard-index-phase4.md` | ~13–25 | ~90–150 | same builder, after B | verifier |
 | **E** | **Merge gate.** List exactly which shared registers would change (rows appended or regenerated: `_bookmark.md`, `niches/_bookmark.md`, `_scorecard-index.md` via `reindex.py`, `series/_eras.md` wave assignment) and apply them **only on explicit approval**, as a separate commit | — | diff only | single | **Owner approves or declines the merge** |
 
 **Rough total for the 7 core industries:** ~450–520 new files. Adding the optional 4 brings it to ~750–800.
 
-### Batching inside stages
+### Execution
 
-- **A:** one batch of 6, done in a single session.
-- **B:** batches of 2 industries, with the cursor and the verifier run **after every industry**, so an interrupted run loses at most one.
-- **C:** batches of 3, with the same per-industry close-out.
+There is one builder per industry, and each runs A → B → C for its own slug only. Running them in parallel is safe because each builder writes only `industries/<slug>.md`, `problems/<slug>/` and `niches/<slug>/`, all disjoint. Shared Phase 4 state (this cursor and `_scorecard-index-phase4.md`) is written by the coordinating session alone, after the builders finish.
 
 ## 5. Per-industry method
 
@@ -92,11 +89,26 @@ The steps are the same as `_phase2-plan.md` §5. Only the bookkeeping changes:
 
 *(Append-only. Defects or contradictions found in existing files go here, not into those files.)*
 
+**2026-10-02, reported by the Stage A–C builders (none fixed):**
+- Vault `CLAUDE.md` gives `ai-agents-platforms.md` fields as *What it does / Who uses it / Decisions / Why an agent / Compounding value*. Every Phase 2 file uses *Concept / Inputs / Outputs / Why now / Market*. Phase 4 follows Phase 2.
+- Vault `CLAUDE.md` says the vault "is not a git repository"; it is one.
+- 137 existing `ml-opportunity.md` files (including the `neobanks` reference) have no `#tacit-knowledge-ml` entry, against the repo-level rule. All Phase 4 files carry one, listed first.
+- `problems/neobanks/ai-agents-platforms.md` has no `**Derived from:**` line.
+- The `_direction.md` §7 verification block and `_state/verify.sh` / `verify-stageb.sh` hard-code `/Users/mac/...`.
+- Repo-level `../CLAUDE.md` lists deprecated tags (`#cnn`, `#llm`, `#nlp`…) and repeats queue items 7–35.
+- Pass 2 qualifiers in `wealth-management-rias` carry no `**Contested on:**` line, although `_phase2-plan.md` §2 says the filter applies to pockets. Some Phase 4 qualifiers carry it and some don't.
+
+**Cross-industry scoring disagreements inside Phase 4:** see `_scorecard-index-phase4.md` § Cross-industry overlaps. There are six pockets (QoE, distressed credit intelligence, ESG ratings, index methodology, estimates/consensus, portfolio valuation) where parallel builders scored the same population under two industries. Reconcile them before Stage E.
+
+**Unverified claims:** each builder web-checked 1–5 headline figures. All market sizes, niche shares and insight-function headcounts are estimates written with "~". Recalled-but-unchecked facts are listed per industry in the build reports. Fact-check anything before it is used in published content.
+
 ---
 
 ## CURSOR
 
-**Stage:** — awaiting owner approval of this plan (incl. the §3 optional-industry decision)
-**Completed:** 0 / 7
-**Next:** Stage 0 → Pilot (`hedge-funds`)
-**Verifier:** `bash _state/phase4/verify.sh` (not yet written)
+**Stage:** A+B+C ✅ complete. Next would be Stage E (merge), held back because it edits existing files
+**Stage 0:** ✅ `_state/phase4/verify.sh` written and calibrated against `neobanks`, `payment-fraud-vendors` and `wealth-management-rias`
+**Completed:** 7 / 7: hedge-funds (75 files, 3 qualifiers) · asset-managers (71, 2) · sell-side-equity-research (67, 1) · private-equity-firms (71, 2) · investment-banking-boutiques (74, 3) · financial-data-vendors (81, 3) · expert-networks (64, 1)
+**Qualifiers:** 15, in `_scorecard-index-phase4.md`
+**Optional 4:** not included, since the gap diagnostic didn't prove them
+**Verifier:** `bash _state/phase4/verify.sh`
