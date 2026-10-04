@@ -35,7 +35,7 @@ That order goes from broad reach to trust to "this person sees things I don't". 
 
 ### Video script
 
-> **[0–5s, cold open]** Every bank said AI would be doing the analyst's job by now. So why is a research team still copying numbers into Excel before the market opens?
+> **[0–5s, cold open]** We were told AI would be doing the analyst's job by now. So why is a research team still copying numbers into Excel before the market opens?
 >
 > **[5–20s, the turn]** Because AI fixed the easy part. Getting the numbers was never the problem. You can already buy them clean, structured, linked to the filing.
 >
@@ -50,7 +50,7 @@ That order goes from broad reach to trust to "this person sees things I don't". 
 
 ### LinkedIn version
 
-> Every bank said AI would be doing the analyst's job by now.
+> We were told AI would be doing the analyst's job by now.
 >
 > Walk into a research team on earnings morning. Someone is still typing numbers into a spreadsheet before the open.
 >
