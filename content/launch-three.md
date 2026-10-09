@@ -79,6 +79,39 @@ That order goes from broad reach to trust to "this person sees things I don't". 
   - that AI "failed"
 - **Keep it fair.** Say "AI fixed the wrong part", not "AI doesn't work".
 
+### Explainer: what it says, why we think it delivers value, how it works
+
+*Added 2026-10-09 at the owner's request.*
+
+**What it says.** It starts from a belief the audience already holds: AI was supposed to take over analyst work. Then it answers why it hasn't. AI fixed the easy part, because getting clean numbers was never the slow step. Three things are still slow:
+
+1. **The last mile into *your* model:** your layout, your adjustments, your segment splits.
+2. **Permission:** every expert call and dataset waits for compliance clearance.
+3. **Judgement:** the senior analyst's read (e.g. which CFO always sandbags guidance) is never written down, so there is nothing for AI to learn from.
+
+It closes on one repeatable line (*"AI automated the parts of research that were already fast"*) and one Monday action: on the next earnings morning, log where every 15 minutes goes.
+
+**How confident we are, split into three layers.**
+
+| Layer | Confidence | Basis |
+|---|---|---|
+| **Packaging (will it get clicked?)** | **Fairly high** | Copies the shape of *"AI Was Supposed To Take Your Job. Why Hasn't It?"* (~12k views/day, 3.1% like rate, top decile on both dials in the 1,712-video corpus). **Caveat:** that is general AI YouTube, not finance professionals on LinkedIn. The shape should transfer; the numbers won't. |
+| **Substance (are the three claims true?)** | **Reasonable, not measured** | Daloopa, Canalyst, Capital IQ and FactSet sell clean fundamentals, which supports "getting the numbers isn't the problem". Their existence also shows that manual model-filling is a recognised pain. Pre-clearing expert calls with compliance is standard buy-side practice. Judgement leaving with analysts is a common complaint. These are strong arguments, **not statistics**, and the vault is AI-written analysis, not practitioner interviews. That is why the script avoids invented figures ("80% of the day"). |
+| **Value (will people save and share it?)** | **Unproven until posted** | Test it on saves, shares and comment length, not likes. Clicks without saves means it slid into bait: strengthen the Monday action. Saves without clicks means the title is too insider: swap to title B or C. |
+
+**How it works, mechanically.**
+- **Cold open:** states the belief, then contradicts it with a concrete scene (copying numbers before the open).
+- **The turn:** "AI fixed the easy part."
+- **The mechanism:** three named bottlenecks, each with a picture the viewer recognises.
+- **The payoff:** the repeatable line.
+- **The Monday action.**
+
+**How it serves the commercial goal.** The time log is a manual version of research workflow discovery: find where the time really goes, then automate it. Viewers reach the product's premise themselves, so there is never a pitch. It also opens the three-piece run (why AI hasn't fixed research → the compliance bottleneck → the answer key nobody checks).
+
+**Edit made during review.** The opener changed from "Every bank said…" to "We were told…". "Every bank" couldn't be sourced, and in a piece about getting things right, that is the line a finance reader would pick apart.
+
+**Cheapest confidence boost before posting.** Show the script to 2–3 people on research teams and ask: "Are these really your slowest steps?"
+
 ---
 
 ## 2. The Research Bottleneck Nobody Talks About
@@ -215,3 +248,39 @@ That order goes from broad reach to trust to "this person sees things I don't". 
   - the forecast log is capture-and-grade
   
   You never pitch. The audience arrives already understanding why the product exists.
+
+---
+
+## Context and work log
+
+*This is the record of how this file came to exist, so a fresh session or a teammate can pick it up cold.*
+
+**Owner's goal.** The owner is a content marketing strategist building a personal brand that lines up commercially with their employer, a company selling **workflow automation to research teams in finance**. The target audience is people on finance research teams who want to automate their own research workflows. Monetisation and the separate book project (an *Americana*-style history of how business decisions shaped tech) are out of scope here.
+
+**Standing rules from the owner.**
+- Never edit existing vault source material; build additively.
+- Work only on a branch (`phase4/capital-markets-research`), never on `main`.
+- Push every commit, but don't open PRs unless asked.
+- Don't stop at a plan to wait for approval. Execute, then present.
+
+**How we got here (2026-10-01 → 2026-10-09).**
+
+1. **Vault check.** The vault (`problem-index/`, 250 industries) had strong finance-adjacent coverage (wealth managers, credit unions, alt-data brokers) but **no core finance research industries**. FactSet, expert networks and earnings calls each appeared 0 times.
+2. **Gap closed: Phase 4.** Plan in `problem-index/_phase4-plan.md`. Seven industries were built additively: hedge funds, asset managers, sell-side equity research, PE firms, IB boutiques, financial data vendors and expert networks.
+   - Each has a hub, 7 problem files, an 8-niche layer and a Pass 2 research-team sweep.
+   - 503 files in total, passing `_state/phase4/verify.sh`.
+   - 15 qualifying research-team pockets are in `problem-index/_scorecard-index-phase4.md`. Six cross-industry scoring overlaps are logged there and not yet reconciled.
+   - Shared vault indexes are untouched (Stage E merge not run).
+3. **First content attempt: rejected.** `content/finance-research-workflows.md` and `content/top-5-video-scripts.md` were called **"not usable at all"**. The substance was sound, but the packaging was insider-vocabulary, long and unclickable (the "gem" quadrant: valuable, nobody clicks).
+4. **Learned from data.** A separate session collected 1,712 AI YouTube videos (`research-facility/research/ai-youtube-video-titles/`). The analysis is in `content/what-gets-clicked.md`, with the script in `content/_analysis/what-gets-clicked.py`.
+   - Clicks (views/day) and value (like rate) are uncorrelated (ρ = −0.06).
+   - The sweet spot is **one click lever + one value promise in ≤ 50 characters**.
+   - Bait is authority + fear with no takeaway. "Dead" content is a topic label.
+5. **This file.** Three polished pieces built on those rules, plus the piece-1 explainer above.
+
+**Open items.**
+- Pre-test piece 1 with 2–3 research-team practitioners.
+- Post the pieces and measure saves, shares and comment length.
+- The two experiment-based titles in `what-gets-clicked.md` (#3, #8) need the experiments actually run before publishing.
+- Fact-check list: `content/finance-research-workflows.md` § "Before publishing".
+- Vault: reconcile the six Phase 4 scoring overlaps before any Stage E merge.
