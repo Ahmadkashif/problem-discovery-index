@@ -1,0 +1,265 @@
+<title>Pivots</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a stack of "decision cards", one per moment in history. Each card is a desk in a given year: what you have, what's wrong, what you could do. Choosing opens the record. Same type system as Frozen Arguments. */
+:root {
+  --paper: #f3f5f1;
+  --card: #fbfcfa;
+  --ink: #1a221e;
+  --muted: #5b6862;
+  --rule: #d3d9d2;
+  --ledger: #2d6a4c;
+  --ledger-soft: #e2ece5;
+  --warn: #8a5a1c;
+  --warn-soft: #f4ead9;
+  --display: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --body: "Literata", "Iowan Old Style", Georgia, serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #121614; --card: #171c19; --ink: #e2e7e2; --muted: #9aa69f; --rule: #2b332f;
+    --ledger: #85c2a2; --ledger-soft: #1c2a23; --warn: #d9a45e; --warn-soft: #2a2218; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #121614; --card: #171c19; --ink: #e2e7e2; --muted: #9aa69f; --rule: #2b332f;
+  --ledger: #85c2a2; --ledger-soft: #1c2a23; --warn: #d9a45e; --warn-soft: #2a2218; color-scheme: dark;
+}
+body { background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 1.05rem; line-height: 1.65; padding-inline: 18px; padding-block: 0 4rem; }
+.wrap { max-width: 44rem; margin: 0 auto; }
+header { padding-block: 4rem 2.5rem; }
+.eyebrow { font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ledger); }
+h1 { font-family: var(--display); font-weight: 400; font-size: clamp(3.2rem, 10vw, 5.5rem); line-height: 0.95; margin: 0.5rem 0 1rem; }
+.intro { font-size: 1.15rem; max-width: 36rem; margin: 0 0 1.25rem; text-wrap: pretty; }
+.how { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: 0.75rem; margin-top: 1.75rem; }
+.how div { border-top: 2px solid var(--ledger); padding-top: 0.5rem; font-size: 0.9rem; color: var(--muted); min-width: 0; }
+.how b { display: block; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); font-weight: 500; }
+
+.pivot { background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 1.75rem 1.5rem; margin-bottom: 2.25rem; }
+@media (max-width: 30rem) { .pivot { padding: 1.25rem 1rem; } }
+.stamp { display: flex; align-items: baseline; gap: 0.9rem; flex-wrap: wrap; }
+.year { font-family: var(--mono); font-size: 2.4rem; font-weight: 500; letter-spacing: -0.02em; color: var(--ledger); line-height: 1; }
+.pnum { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.role { font-family: var(--display); font-size: clamp(1.7rem, 5vw, 2.2rem); line-height: 1.1; margin: 0.6rem 0 1rem; text-wrap: balance; font-weight: 400; }
+.lbl { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin: 1.25rem 0 0.35rem; }
+.desk { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.desk li { font-family: var(--mono); font-size: 0.8rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.15rem 0.5rem; background: var(--paper); }
+.pivot p { margin: 0 0 0.9rem; }
+.ask { font-family: var(--display); font-size: 1.45rem; line-height: 1.25; margin: 1.25rem 0 0.75rem; }
+.options { display: grid; gap: 0.55rem; }
+.opt { display: grid; grid-template-columns: 2rem 1fr; gap: 0.6rem; align-items: start; text-align: left; width: 100%; font: inherit; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 5px; padding: 0.7rem 0.85rem; cursor: pointer; }
+.opt:hover { border-color: var(--ledger); }
+.opt:focus-visible { outline: 2px solid var(--ledger); outline-offset: 2px; }
+.opt .k { font-family: var(--mono); font-weight: 500; color: var(--ledger); }
+.opt[aria-pressed="true"] { border-color: var(--ledger); background: var(--ledger-soft); }
+.opt.won { border-color: var(--ledger); }
+.opt.won::after { content: "What won"; grid-column: 2; font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ledger); }
+.skip { margin-top: 0.75rem; font-family: var(--mono); font-size: 0.75rem; background: none; border: none; color: var(--muted); text-decoration: underline; cursor: pointer; padding: 0; }
+.skip:focus-visible { outline: 2px solid var(--ledger); }
+
+.reveal { margin-top: 1.5rem; border-top: 1px solid var(--rule); padding-top: 1.25rem; }
+.verdict { background: var(--ledger-soft); border-radius: 4px; padding: 0.85rem 1rem; margin-bottom: 1rem; }
+.verdict.miss { background: var(--warn-soft); }
+.verdict .vl { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ledger); }
+.verdict.miss .vl { color: var(--warn); }
+.verdict p { margin: 0.25rem 0 0; }
+.reveal h3 { font-family: var(--display); font-weight: 400; font-size: 1.45rem; margin: 1.25rem 0 0.4rem; }
+.losers { padding-left: 1.2rem; margin: 0; }
+.losers li { margin-bottom: 0.45rem; }
+.mind { border-left: 3px solid var(--ledger); padding-left: 1rem; font-style: italic; }
+.sure { font-size: 0.9rem; color: var(--muted); border-top: 1px dashed var(--rule); padding-top: 0.6rem; margin-top: 1rem; }
+.sure b { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--warn); font-weight: 500; margin-right: 0.3rem; }
+.keep { margin-top: 1.25rem; font-family: var(--display); font-size: 1.35rem; line-height: 1.3; }
+.keep span { display: block; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ledger); margin-bottom: 0.2rem; }
+.fig { font-family: var(--mono); font-size: 0.92em; }
+footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); }
+footer a { color: var(--ledger); }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">A companion to Frozen Arguments · Set 1: 1955–1987</div>
+    <h1>Pivots</h1>
+    <p class="intro">You land in another decade. You have that decade's tools, that decade's problem, and a handful of real options. Pick one. Then see what actually won, why the others lost, and how the winner changed what everyone believed for years afterwards.</p>
+    <p class="intro">History reads as obvious only after it happens. Every pivot here felt like a judgement call to the people standing in it.</p>
+    <div class="how" aria-label="How each pivot works">
+      <div><b>1 · The desk</b>The tools you actually have</div>
+      <div><b>2 · The problem</b>What is breaking, and for whom</div>
+      <div><b>3 · Your move</b>The options that were realistically open</div>
+      <div><b>4 · The record</b>What won, why, and what it taught people</div>
+    </div>
+  </header>
+
+  <!-- PIVOT 1 -->
+  <section class="pivot" id="pivot-1" data-won="D">
+    <div class="stamp"><span class="year">1950</span><span class="pnum">Pivot 1 · San Francisco</span></div>
+    <h2 class="role">You run operations at Bank of America, the largest bank in the world.</h2>
+    <div class="lbl">On your desk</div>
+    <ul class="desk"><li>clerks</li><li>ledger cards</li><li>mechanical bookkeeping machines</li><li>paper cheques</li><li>a research institute down the road at Stanford</li></ul>
+    <div class="lbl">The problem</div>
+    <p>Since the war, customers have been writing cheques faster than you can hire people to post them. Some branches now close in the afternoon just to finish the day's paperwork. Run the growth forward and you would one day need an absurd share of California's workforce to keep your own books.</p>
+    <p class="ask">What do you do?</p>
+    <div class="options" role="group" aria-label="Options for pivot 1">
+      <button class="opt" data-k="A" aria-pressed="false"><span class="k">A</span><span>Hire faster. Open training schools, add shifts, pay for overtime.</span></button>
+      <button class="opt" data-k="B" aria-pressed="false"><span class="k">B</span><span>Slow the customers down. Charge per cheque, raise minimum balances.</span></button>
+      <button class="opt" data-k="C" aria-pressed="false"><span class="k">C</span><span>Buy a computer to post the accounts.</span></button>
+      <button class="opt" data-k="D" aria-pressed="false"><span class="k">D</span><span>Change the cheque itself so a machine can read it, then buy the computer.</span></button>
+    </div>
+    <button class="skip" type="button">Just show me what happened</button>
+    <div class="reveal" hidden>
+      <div class="verdict" data-for="A"><div class="vl">You picked A</div><p>You are fighting a curve with a line. Hiring grows one clerk at a time; cheques were growing faster than that. This is the option the bank's own projection had already ruled out.</p></div>
+      <div class="verdict" data-for="B"><div class="vl">You picked B</div><p>You would be taxing the habit that makes you money, while competitors happily take the customers you push away. Rationing demand is how you lose a market politely.</p></div>
+      <div class="verdict" data-for="C"><div class="vl">You picked C, which is close</div><p>A computer alone does not help if a human still has to read every cheque to type it in. The bottleneck was never the adding. It was getting the numbers in.</p></div>
+      <div class="verdict" data-for="D"><div class="vl">You picked D, what actually won</div><p>You saw that the machine was the easy half. The bank did exactly this.</p></div>
+
+      <h3>What won</h3>
+      <p>The bank commissioned the Stanford Research Institute in 1950. The machine, ERMA, was unveiled in September 1955 and went to work on <span class="fig">September 14, 1959</span>, posting <span class="fig">50,000</span> accounts a day. But the decisive invention was the line of magnetic digits printed along the bottom of the cheque, MICR. It let a machine read a document the customer had folded, stamped and scribbled on. In <span class="fig">1956</span> the American Bankers Association made its font, E-13B, the national standard, so every bank's cheques worked in every bank's machines.</p>
+      <h3>Why the others lost</h3>
+      <ul class="losers">
+        <li><b>Hiring</b> scales linearly. The problem did not.</li>
+        <li><b>Rationing</b> would have handed growth to rivals.</li>
+        <li><b>A computer on its own</b> would have been fast at the part that was already fast.</li>
+      </ul>
+      <h3>How it changed what people believed</h3>
+      <p class="mind">The computer belongs in the back room, working overnight on the whole pile at once. For the next generation of bankers, "the computer" meant the night run, and the night run became how money worked.</p>
+      <p class="keep"><span>The question to keep</span>Is the bottleneck the work itself, or getting the work into a form a machine can take?</p>
+    </div>
+  </section>
+
+  <!-- PIVOT 2 -->
+  <section class="pivot" id="pivot-2" data-won="C">
+    <div class="stamp"><span class="year">1968</span><span class="pnum">Pivot 2 · California</span></div>
+    <h2 class="role">You sit on SCOPE, a committee of California clearinghouses.</h2>
+    <div class="lbl">On your desk</div>
+    <ul class="desk"><li>bank mainframes running overnight batches</li><li>MICR cheques</li><li>couriers and sorting machines</li><li>the Federal Reserve as a partner</li><li>dozens of banks that must all agree</li></ul>
+    <div class="lbl">The problem</div>
+    <p>Each bank now processes its own cheques by machine, but money still moves between banks by physically carrying paper to a clearinghouse every day. Your job is to design a paperless way to move it.</p>
+    <p class="ask">What do you build?</p>
+    <div class="options" role="group" aria-label="Options for pivot 2">
+      <button class="opt" data-k="A" aria-pressed="false"><span class="k">A</span><span>Keep the paper, but automate the sorting and speed up the couriers.</span></button>
+      <button class="opt" data-k="B" aria-pressed="false"><span class="k">B</span><span>A network that moves each payment the moment it is made.</span></button>
+      <button class="opt" data-k="C" aria-pressed="false"><span class="k">C</span><span>An electronic copy of the clearing you already run: exchange files of payments, settle overnight.</span></button>
+    </div>
+    <button class="skip" type="button">Just show me what happened</button>
+    <div class="reveal" hidden>
+      <div class="verdict" data-for="A"><div class="vl">You picked A</div><p>A faster horse. It makes the existing process cheaper but keeps the paper, and with it the trucks, the losses and the delays.</p></div>
+      <div class="verdict" data-for="B"><div class="vl">You picked B</div><p>The right answer for the 2020s, and a very hard sell in 1968. Every bank would have to rebuild systems that were designed around one overnight run, and all of them would have to agree to do it at once.</p></div>
+      <div class="verdict" data-for="C"><div class="vl">You picked C, what actually won</div><p>The committee replaced the paper without replacing the process. That is what got built.</p></div>
+
+      <h3>What won</h3>
+      <p>The first Automated Clearing House went live in <span class="fig">1972</span>, run by the Federal Reserve Bank of San Francisco with a group of California banks. Regional groups merged into a national body, NACHA, in <span class="fig">1974</span>. ACH still moves most American payroll and bill payments today, and it still settles in batches.</p>
+      <h3>Why the others lost</h3>
+      <ul class="losers">
+        <li><b>Faster paper</b> kept the most expensive part of the problem.</li>
+        <li><b>Instant payments</b> asked every bank to rebuild at once, on computers that were still costly to run continuously.</li>
+        <li><b>The electronic copy</b> fitted every bank's existing night run, which made it the one option everyone could say yes to.</li>
+      </ul>
+      <p class="sure"><b>How sure we are</b>No record shows the committee choosing overnight settlement on purpose. That ACH inherited the clock of the cheque clearing it replaced is a strong inference, and it is presented as one here.</p>
+      <h3>How it changed what people believed</h3>
+      <p class="mind">"Next business day" stopped sounding like a limitation and started sounding like how money works. Generations of customers, and the engineers who built on top of ACH, learned to treat slow money as natural.</p>
+      <p class="keep"><span>The question to keep</span>When many parties have to agree, does the best design win, or the one that changes the least for each of them?</p>
+    </div>
+  </section>
+
+  <!-- PIVOT 3 -->
+  <section class="pivot" id="pivot-3" data-won="D">
+    <div class="stamp"><span class="year">1985</span><span class="pnum">Pivot 3 · Dallas</span></div>
+    <h2 class="role">You run pricing at American Airlines.</h2>
+    <div class="lbl">On your desk</div>
+    <ul class="desk"><li>SABRE, a live count of every seat</li><li>years of booking history</li><li>unionised staff</li><li>a full-service network</li><li>Super Saver fares since 1975</li></ul>
+    <div class="lbl">The problem</div>
+    <p>Deregulation in 1978 let anyone fly anywhere at any price. People Express, founded in 1981, flies no-frills, packs the seats in, and sells fares you cannot profitably match. It is carrying around four million passengers a year and growing. Your costs are higher, and they are not coming down.</p>
+    <p class="ask">How do you fight back?</p>
+    <div class="options" role="group" aria-label="Options for pivot 3">
+      <button class="opt" data-k="A" aria-pressed="false"><span class="k">A</span><span>Cut costs until you can match their fares.</span></button>
+      <button class="opt" data-k="B" aria-pressed="false"><span class="k">B</span><span>Match their fares on every seat and take the loss.</span></button>
+      <button class="opt" data-k="C" aria-pressed="false"><span class="k">C</span><span>Ignore them. Your business travellers will never fly no-frills.</span></button>
+      <button class="opt" data-k="D" aria-pressed="false"><span class="k">D</span><span>Undercut them, but only on a limited number of seats per flight, and protect the rest.</span></button>
+    </div>
+    <button class="skip" type="button">Just show me what happened</button>
+    <div class="reveal" hidden>
+      <div class="verdict" data-for="A"><div class="vl">You picked A</div><p>You cannot out-cheap a company built from scratch to be cheap. Your costs are structural: unions, service, network.</p></div>
+      <div class="verdict" data-for="B"><div class="vl">You picked B</div><p>You would win the bargain hunters and hand a discount to every business traveller who was happy to pay full price. That is how you lose money faster than your rival.</p></div>
+      <div class="verdict" data-for="C"><div class="vl">You picked C</div><p>The price-sensitive passengers are real, they are many, and they are leaving. Ignoring them shrinks you slowly instead of quickly.</p></div>
+      <div class="verdict" data-for="D"><div class="vl">You picked D, what actually won</div><p>You stopped treating price as a number and started treating it as an allocation. American did exactly this.</p></div>
+
+      <h3>What won</h3>
+      <p>In <span class="fig">1985</span> American launched Ultimate Super Saver fares, priced below People Express but released in tightly limited numbers by a system called DINAMO. Early, price-sensitive travellers got cheap seats. The rest of the plane was held for late bookers paying several times more. The rule behind it, published by Ken Littlewood in 1972, fits on one line: hold a seat back while the chance of selling it at full fare, times the full fare, is worth more than the discount.</p>
+      <h3>Why the others lost</h3>
+      <ul class="losers">
+        <li><b>Cutting costs</b> was structurally impossible at the speed needed.</li>
+        <li><b>Matching every fare</b> would have given away the business-traveller revenue.</li>
+        <li><b>Ignoring them</b> meant a slow bleed of exactly the customers who were growing.</li>
+        <li><b>Limited cheap seats</b> needed a live inventory and deep booking history. American had spent 25 years building both.</li>
+      </ul>
+      <p class="sure"><b>How sure we are</b>The INFORMS Edelman Prize committee credited American's yield management with <span class="fig">$1.4 billion</span> in extra revenue over three years. The verdicts on options A to C are reasoning from the situation, not quotes from American's planners.</p>
+      <h3>How it changed what people believed</h3>
+      <p class="mind">A price stopped being a number and became a decision about how many to sell. Two people in neighbouring seats paying wildly different fares went from scandal to normal. Today every hotel, concert and ride-share price works on the same idea.</p>
+      <p class="keep"><span>The question to keep</span>If your rival copied your algorithm tomorrow, what would they still be missing?</p>
+    </div>
+  </section>
+
+  <!-- PIVOT 4 -->
+  <section class="pivot" id="pivot-4" data-won="none">
+    <div class="stamp"><span class="year">1985</span><span class="pnum">Pivot 4 · Newark</span></div>
+    <h2 class="role">Now switch sides. You are Donald Burr, founder of People Express.</h2>
+    <div class="lbl">On your desk</div>
+    <ul class="desk"><li>the lowest costs in the industry</li><li>one simple fare per seat</li><li>a basic reservation system</li><li>fast growth</li><li>a new acquisition: Frontier Airlines</li></ul>
+    <div class="lbl">The problem</div>
+    <p>American has just launched fares below yours, but only on some seats. Your cheapest customers are being picked off while American keeps its full-fare passengers. Burr's own reaction: <em>"This is a shot across our bow! If we don't invent a way to deal with [yield management], we're history!"</em></p>
+    <p class="ask">What do you do?</p>
+    <div class="options" role="group" aria-label="Options for pivot 4">
+      <button class="opt" data-k="A" aria-pressed="false"><span class="k">A</span><span>Build your own yield management system, fast.</span></button>
+      <button class="opt" data-k="B" aria-pressed="false"><span class="k">B</span><span>Cut fares further, across the board.</span></button>
+      <button class="opt" data-k="C" aria-pressed="false"><span class="k">C</span><span>Keep growing. Scale will bring your costs down even more.</span></button>
+      <button class="opt" data-k="D" aria-pressed="false"><span class="k">D</span><span>Sell the airline while it is still worth a lot.</span></button>
+    </div>
+    <button class="skip" type="button">Just show me what happened</button>
+    <div class="reveal" hidden>
+      <div class="verdict miss" data-for="A"><div class="vl">You picked A</div><p>The right instinct, and almost impossible in time. The algorithm was public, but the live inventory and years of booking history it needs could not be bought. American took a quarter of a century to build them.</p></div>
+      <div class="verdict miss" data-for="B"><div class="vl">You picked B</div><p>You are already the cheapest. Going lower only deepens losses on every seat, while American still undercuts you where it matters and earns full fare everywhere else.</p></div>
+      <div class="verdict miss" data-for="C"><div class="vl">You picked C</div><p>Growing larger means more seats sold at the one price American is targeting. Scale magnifies the problem instead of fixing it.</p></div>
+      <div class="verdict miss" data-for="D"><div class="vl">You picked D</div><p>Probably the least bad answer, and in the end it is roughly what happened, just later and for less.</p></div>
+
+      <h3>What happened</h3>
+      <p>People Express had already bought Frontier in 1985 with heavy debt, and it kept flying an expanded network. Burr later said the airline was profitable until American's new fares arrived, then "tipped right over into losing $50 million a month." In June 1986 it was quietly put up for sale. On <span class="fig">February 1, 1987</span>, it was folded into Continental Airlines.</p>
+      <h3>Why there was no good option</h3>
+      <ul class="losers">
+        <li>The weapon that beat People Express was built from data and systems, and those took decades to build.</li>
+        <li>Its whole advantage was a single low price. Yield management attacked precisely that.</li>
+        <li>Rapid growth, the Frontier debt and falling service quality had already weakened it.</li>
+      </ul>
+      <p class="sure"><b>How sure we are</b>"Software killed People Express" is too simple. Historians also cite overexpansion, the Frontier debt and service problems. Burr's quotes are real; his explanation is one participant's view.</p>
+      <h3>How it changed what people believed</h3>
+      <p class="mind">Being the cheapest stopped looking like a moat. For the next generation of airline founders, the lesson was that you also need to know, seat by seat, what you are selling, or a richer rival will take your best customers one fare at a time.</p>
+      <p class="keep"><span>The question to keep</span>Is your advantage something a rival can copy, or something they would have to spend twenty years building?</p>
+    </div>
+  </section>
+
+  <footer>Pivots · Set 1 draws on Chapter One of <a href="https://claude.ai/artifact/KL6wSBXEEPHCwYgCvWKkgf">Frozen Arguments</a>. The options are the realistic choices of each moment; the outcomes are sourced in that chapter.</footer>
+</div>
+
+<script>
+document.querySelectorAll('.pivot').forEach(function (card) {
+  var reveal = card.querySelector('.reveal');
+  var won = card.getAttribute('data-won');
+  function show(choice) {
+    card.querySelectorAll('.opt').forEach(function (b) {
+      var k = b.getAttribute('data-k');
+      b.setAttribute('aria-pressed', String(k === choice));
+      if (k === won) b.classList.add('won');
+    });
+    card.querySelectorAll('.verdict').forEach(function (v) {
+      v.hidden = v.getAttribute('data-for') !== choice;
+    });
+    reveal.hidden = false;
+  }
+  card.querySelectorAll('.opt').forEach(function (b) {
+    b.addEventListener('click', function () { show(b.getAttribute('data-k')); });
+  });
+  card.querySelector('.skip').addEventListener('click', function () { show(null); });
+});
+</script>
