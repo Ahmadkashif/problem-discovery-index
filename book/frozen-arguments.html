@@ -105,6 +105,13 @@ blockquote cite { display: block; font-style: normal; font-family: var(--mono); 
 .sources h4 { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); margin: 0 0 0.5rem; font-weight: 500; }
 .sources ul { padding-left: 1.1rem; margin: 0; }
 .sources li { margin-bottom: 0.3rem; }
+.toc .key { font-size: 0.95rem; margin: 0 0 0.4rem; color: var(--ink); }
+.toc .key em { color: var(--ledger); font-style: italic; }
+.carry { margin: 2.5rem 0 1rem; padding: 1.4rem 1.5rem; border: 1px solid var(--ledger); border-radius: 4px; }
+.carry .lbl { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ledger); }
+.carry ol { margin: 0.75rem 0 0.75rem; padding-left: 1.4rem; font-family: var(--display); font-size: 1.35rem; line-height: 1.35; }
+.carry ol li { margin-bottom: 0.45rem; }
+.carry p { margin: 0; font-size: 0.95rem; color: var(--muted); }
 footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padding-top: 2rem; }
 </style>
 
@@ -121,14 +128,14 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
     <div class="eyebrow">Working draft · Outline and Chapter 1</div>
     <h1>Frozen Arguments</h1>
     <p class="sub">How business decisions built the software we use, and why tools that do the same job keep fighting each other.</p>
-    <p class="premise">Every tool you use was built to win a specific commercial fight. It is a frozen argument about what mattered to someone, at a price, at a moment. Learn to read the argument and you can judge any tool, including the one you are about to build.</p>
+    <p class="premise">Every tool you use was built to win somebody's fight. It is a frozen argument about what mattered, to whom, at what price. This book does not ask you to memorise those arguments. It hands you one question per chapter, and once a question is in your head, you will start seeing its answer everywhere.</p>
   </header>
 
   <section class="outline" id="outline">
     <div class="eyebrow">The outline</div>
-    <h2>Twelve waves, one pattern</h2>
-    <p class="lede">The book runs in order, from the first bank computer in 1955 to the language models of today. Each chapter is one wave of computing, and each wave did the same thing: it made one thing almost free, and a new industry grew up around the newly cheap thing. Every chapter opens on a question a working developer has actually asked, and answers it with the fight that produced the answer.</p>
-    <p class="spine">What went to near zero, wave by wave:<br><b>arithmetic</b> → <b>tracking items</b> → <b>building a model</b> → <b>one version of the numbers</b> → <b>distribution</b> → <b>fixed compute</b> → <b>storage</b> → <b>location</b> → <b>attention</b> → <b>audience</b> → <b>presence</b> → <b>inference</b></p>
+    <h2>Twelve waves, twelve questions</h2>
+    <p class="lede">The book runs in order, from the first bank computer in 1955 to the language models of today. In every wave something became nearly free, and businesses fought over who would use it first. Each chapter opens with a question you have probably asked, and closes with a smaller one you will keep asking.</p>
+    <p class="spine">What became nearly free, wave by wave:<br><b>arithmetic</b> → <b>counting things</b> → <b>building a model</b> → <b>agreeing on the numbers</b> → <b>reaching customers</b> → <b>owning servers</b> → <b>storing everything</b> → <b>knowing where people are</b> → <b>pricing a glance</b> → <b>finding an audience</b> → <b>being in the room</b> → <b>reading and writing</b></p>
 
     <ol class="toc">
       <li>
@@ -136,8 +143,8 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
         <div class="body">
           <div class="t">Why Does Google Sheets Exist?</div>
           <p class="q">Excel already did the job. So why did anyone build it again?</p>
-          <p class="d">The reader's question, answered in miniature. Sheets did not beat Excel at spreadsheets. It traded power for a URL anyone could open at once, at a moment when the browser had become the place people already were. That trade is the whole book in one example: same job, different constraint, different winner.</p>
-          <div class="meta">Lens: the trade-off <span class="chip part">needs new research</span></div>
+          <p class="key">The question you keep: <em>Same job, different constraint. Which constraint just changed?</em></p>
+          <div class="meta">The lens for the whole book <span class="chip part">needs new research</span></div>
         </div>
       </li>
       <li class="current">
@@ -145,8 +152,8 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
         <div class="body">
           <div class="t"><a href="#chapter-1">The Night Shift</a></div>
           <p class="q">Why does your money still move overnight?</p>
-          <p class="d">A bank buried in cheques, an airline that could not tell what seats it had left, and the machines that let a business read its whole file for the first time. Then the first time software beat a cheaper competitor.</p>
-          <div class="meta">1955–1975 · ERMA, MICR, SABRE, People Express · cheap: arithmetic over every customer <span class="chip ok">ready</span></div>
+          <p class="key">The question you keep: <em>What are we still paying for a problem that no longer exists?</em></p>
+          <div class="meta">1955–1987 · ERMA, MICR, SABRE, People Express <span class="chip ok">ready</span></div>
         </div>
       </li>
       <li>
@@ -154,8 +161,8 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
         <div class="body">
           <div class="t">The Stripe on Everything</div>
           <p class="q">Why does every object in the world carry a barcode?</p>
-          <p class="d">A pack of gum crosses a scanner in Troy, Ohio, at 8:01 one morning in 1974. The real invention was an industry agreeing on a format. Plus the two opposed theories of the factory, American push and Japanese pull, that are still fighting inside every inventory system.</p>
-          <div class="meta">1964–1980 · UPC, MRP, Toyota · cheap: tracking physical things one at a time <span class="chip ok">ready</span></div>
+          <p class="key">The question you keep: <em>Who owns the format?</em></p>
+          <div class="meta">1964–1980 · UPC, MRP, Toyota <span class="chip ok">ready</span></div>
         </div>
       </li>
       <li>
@@ -163,8 +170,8 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
         <div class="body">
           <div class="t">The Grid</div>
           <p class="q">Why does your company really run on a spreadsheet?</p>
-          <p class="d">VisiCalc, then Lotus 1-2-3, then Excel. Each winner was native to the platform customers were moving to, and each loser optimised for the one they were leaving. Why the spreadsheet never loses, and what it costs when it is wrong.</p>
-          <div class="meta">1979–1992 · VisiCalc, Lotus, Excel · cheap: building a model without a programmer <span class="chip ok">ready</span></div>
+          <p class="key">The question you keep: <em>Why does the general tool keep beating the special one?</em></p>
+          <div class="meta">1979–1992 · VisiCalc, Lotus, Excel <span class="chip ok">ready</span></div>
         </div>
       </li>
       <li>
@@ -172,8 +179,8 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
         <div class="body">
           <div class="t">One Version of the Truth</div>
           <p class="q">Why do companies buy software that takes three years to install?</p>
-          <p class="d">SAP R/3 and the promise that a company could finally agree with itself about its own numbers. Why the promise sold even though the projects hurt.</p>
-          <div class="meta">1992–2000 · SAP, client–server ERP · cheap: one company, one set of numbers <span class="chip part">partly ready</span></div>
+          <p class="key">The question you keep: <em>Who gains when everyone has to agree on one number?</em></p>
+          <div class="meta">1992–2000 · SAP, ERP <span class="chip part">partly ready</span></div>
         </div>
       </li>
       <li>
@@ -181,8 +188,8 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
         <div class="body">
           <div class="t">The Price of Being Found</div>
           <p class="q">If listing on the web is free, why is selling on it so expensive?</p>
-          <p class="d">Mosaic, Netscape, the first card purchase online, and the fight between eBay and Amazon over what a listing even is. Distribution was never free. It only became free to list.</p>
-          <div class="meta">1993–2004 · Netscape, eBay, Amazon · cheap: distribution and discovery <span class="chip ok">ready</span></div>
+          <p class="key">The question you keep: <em>When something becomes free, where did the cost go?</em></p>
+          <div class="meta">1993–2004 · Netscape, eBay, Amazon <span class="chip ok">ready</span></div>
         </div>
       </li>
       <li>
@@ -190,8 +197,8 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
         <div class="body">
           <div class="t">Rent, Don't Buy</div>
           <p class="q">Why do you pay for software every month, forever?</p>
-          <p class="d">Salesforce, then Amazon Web Services, turned a capital purchase into a meter. The pricing change, more than any technical one, is why small businesses became software buyers at all.</p>
-          <div class="meta">1999–2015 · Salesforce, AWS · cheap: the fixed cost of compute <span class="chip part">needs vendor-side research</span></div>
+          <p class="key">The question you keep: <em>Who could suddenly afford it, and who could no longer leave?</em></p>
+          <div class="meta">1999–2015 · Salesforce, AWS <span class="chip part">needs vendor-side research</span></div>
         </div>
       </li>
       <li>
@@ -199,8 +206,8 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
         <div class="body">
           <div class="t">Keep Everything</div>
           <p class="q">Why do companies hoard data they never look at?</p>
-          <p class="d">Hadoop made storage cheap enough that deleting anything felt like a mistake. The industry that grew up to sell answers from the pile, and how often the pile never answered.</p>
-          <div class="meta">2006–2015 · Hadoop, Spark · cheap: keeping everything <span class="chip ok">ready</span></div>
+          <p class="key">The question you keep: <em>Is keeping it a decision, or a way of avoiding one?</em></p>
+          <div class="meta">2006–2015 · Hadoop, Spark <span class="chip ok">ready</span></div>
         </div>
       </li>
       <li>
@@ -208,8 +215,8 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
         <div class="body">
           <div class="t">The Dot on the Map</div>
           <p class="q">Why is your delivery driver managed by an app?</p>
-          <p class="d">The iPhone put a location on every worker. Uber and DoorDash built companies on knowing where the workforce is, and on measuring the worker far more closely than the platform measures itself.</p>
-          <div class="meta">2007–2016 · iPhone, Uber, DoorDash · cheap: knowing where people are <span class="chip ok">ready</span></div>
+          <p class="key">The question you keep: <em>Who gets measured, and who gets to do the measuring?</em></p>
+          <div class="meta">2007–2016 · iPhone, Uber, DoorDash <span class="chip ok">ready</span></div>
         </div>
       </li>
       <li>
@@ -217,8 +224,8 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
         <div class="body">
           <div class="t">The Auction You Never See</div>
           <p class="q">Why did that ad follow you around the internet?</p>
-          <p class="d">Real-time bidding priced every glance at a page. The only wave in the book with a death date: April 26, 2021, when Apple changed one permission prompt.</p>
-          <div class="meta">2005–2021 · Right Media, OpenRTB, Apple ATT · cheap: pricing attention <span class="chip ok">ready</span></div>
+          <p class="key">The question you keep: <em>Whose permission is your business model built on?</em></p>
+          <div class="meta">2005–2021 · Right Media, OpenRTB, Apple ATT <span class="chip ok">ready</span></div>
         </div>
       </li>
       <li>
@@ -226,8 +233,8 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
         <div class="body">
           <div class="t">The Feed</div>
           <p class="q">If YouTube already existed, why did TikTok win?</p>
-          <p class="d">Platforms that pay creators, platforms that don't, and what happened to Vine. Why a feed built on interests beat one built on subscriptions, and who carries the risk when the feed changes.</p>
-          <div class="meta">2012–2020 · YouTube, Vine, TikTok · cheap: reaching an audience <span class="chip part">needs new research</span></div>
+          <p class="key">The question you keep: <em>Who carries the risk when the rules change overnight?</em></p>
+          <div class="meta">2012–2020 · YouTube, Vine, TikTok <span class="chip part">needs new research</span></div>
         </div>
       </li>
       <li>
@@ -235,8 +242,8 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
         <div class="body">
           <div class="t">The Waiver</div>
           <p class="q">Why did the office come back?</p>
-          <p class="d">In March 2020 regulators suspended the rule that you had to be in the room. Much of what looked permanent was a waiver, and most waivers expired.</p>
-          <div class="meta">2020 · telehealth, remote work · cheap: being physically present <span class="chip ok">ready</span></div>
+          <p class="key">The question you keep: <em>Did the world change, or did someone just stop enforcing a rule?</em></p>
+          <div class="meta">2020 · telehealth, remote work <span class="chip ok">ready</span></div>
         </div>
       </li>
       <li>
@@ -244,8 +251,8 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
         <div class="body">
           <div class="t">The Attention Machine</div>
           <p class="q">Why did AI show up in everything at once?</p>
-          <p class="d">A 2017 paper, a 2022 chat window, and the scramble that followed. What language models made cheap, and what they did nothing to fix.</p>
-          <div class="meta">2017– · Transformers, ChatGPT · cheap: reading and writing unstructured text <span class="chip part">partly ready</span></div>
+          <p class="key">The question you keep: <em>If reading got cheap, what just got expensive?</em></p>
+          <div class="meta">2017– · Transformers, ChatGPT <span class="chip part">partly ready</span></div>
         </div>
       </li>
       <li>
@@ -253,12 +260,12 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
         <div class="body">
           <div class="t">How to Judge the Next Tool</div>
           <p class="q">What do seventy years of these fights teach you to look for?</p>
-          <p class="d">Three ways systems fail, in the order they appeared. First, two systems that never connected, which was nobody's fault. Then a platform that owned both sides and chose not to measure. Then a platform that measured its workers exhaustively and itself not at all. A field guide for the reader's next decision.</p>
-          <div class="meta">Synthesis <span class="chip ok">ready</span></div>
+          <p class="key">The question you keep: <em>Who could measure this, and why aren't they?</em></p>
+          <div class="meta">The twelve questions, used together <span class="chip ok">ready</span></div>
         </div>
       </li>
     </ol>
-    <p class="note">"Ready" means the source material for that chapter already exists in the research vault with dates checked. "Needs research" marks chapters where the vault covers the buyers of a technology but not the companies that sold it.</p>
+    <p class="note">"Ready" means the source material already exists in the research vault, with dates checked. "Needs research" marks chapters where the vault covers the businesses that bought a technology but not the companies that sold it.</p>
   </section>
 </div>
 
@@ -270,121 +277,132 @@ footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); padd
     <div class="span">1955 – 1987 · Bank of America · American Airlines · People Express</div>
   </div>
 
-  <p class="open">In the early 1950s, some branches of the largest bank in the world began closing their doors in the middle of the afternoon. They were not out of money and they were not in trouble. They were out of time. Every cheque written in California that day had to be posted to an account by hand, and the clerks could not finish while customers were still coming in.</p>
+  <p class="open">Your card payment says "pending." Your transfer will arrive "next business day." Have you ever asked who decided that?</p>
 
-  <p>Bank of America had a problem that did not look like a technology problem. It looked like arithmetic. After the war, Americans had started writing cheques, and the number was growing faster than the supply of people willing to process them. Every cheque meant a clerk reading an account number, finding a ledger card, checking the balance, posting the debit and filing the paper. The bank's projections were bleak in a specific way: at the rate cheque volume was growing, it would eventually need an absurd share of California's workforce just to keep its books.</p>
+  <p>Nobody you could name. It was decided by a machine's price tag in 1959, and the price tag stopped being true before most of us were born. The decision outlived its reason. This chapter is about how that happens, because it is happening somewhere in your work right now.</p>
 
-  <p>Nobody at the bank needed a new product. The existing product, a cheque that cleared, simply could not be delivered at the volume customers wanted. It was a wall made of arithmetic, and it is the first wall in this book.</p>
+  <h3><span class="rn">I</span>What happens when a business runs out of clerks?</h3>
 
-  <p>Keep that picture in mind, because you are still living with what the bank built to get over it. The next time your card payment shows as "pending", or a transfer says it will arrive "next business day", you are looking at a decision made in 1959 by people with a very expensive machine and a very good reason. The reason expired decades ago. The decision did not.</p>
+  <p>In the early 1950s, some branches of Bank of America, then the largest bank in the world, started shutting their doors in the middle of the afternoon. Not because of a run. Because of paper. Every cheque written that day had to be posted to an account by hand, and the clerks could not finish while customers kept walking in.</p>
 
-  <h3><span class="rn">I</span>The strange numbers at the bottom of the cheque</h3>
+  <p>After the war, Americans had discovered the cheque, and they were writing them faster than the bank could hire people to read them. Each one meant a clerk finding a ledger card, checking a balance, posting a debit, filing a slip. Run the growth forward and the bank would eventually need an absurd share of California's workforce just to keep its own books.</p>
 
-  <p>In 1950 Bank of America hired the Stanford Research Institute to build it a machine. The result, unveiled in September 1955, was called ERMA, the Electronic Recording Machine, Accounting. General Electric built the production version, and on <span class="fig">September 14, 1959</span>, it went to work, handling <span class="fig">50,000</span> accounts a day. By 1966 there were 32 ERMA systems in 12 regional centres, covering almost every branch the bank had.</p>
+  <p>Notice what kind of problem this is. The bank did not need a new product. Its customers were happy with the old one. It had simply hit a wall made of arithmetic. That turns out to be the most common way a new technology gets bought: not because someone wants the future, but because the present has stopped scaling.</p>
 
-  <p>The computer gets the credit in most retellings. It does not deserve most of it. The hard part was not adding numbers. Computers could already add. The hard part was getting the numbers in.</p>
+  <h3><span class="rn">II</span>What was the real invention?</h3>
 
-  <p>A cheque is a strange input document. The customer writes on it, by hand, with whatever pen they have, and it has to stay legally valid. It gets folded, stamped, coffee-stained and signed across. To automate cheque processing you have to make the cheque readable by a machine without changing what the customer is allowed to do with it.</p>
+  <p>In 1950 the bank hired the Stanford Research Institute to build a machine. It was unveiled in September 1955 as ERMA, the Electronic Recording Machine, Accounting. General Electric built the production model, which went to work on <span class="fig">September 14, 1959</span>, handling <span class="fig">50,000</span> accounts a day. By 1966 there were 32 of them, covering almost every branch the bank had.</p>
 
-  <p>The answer was a line of oddly shaped digits along the bottom edge: <span class="micr">⑆ 0 1 2 3 ⑆ 4 5 6 7 8 9 ⑈</span>. That line is called MICR, magnetic ink character recognition, and it is still printed on cheques today. Three design choices made it work, and each one traded elegance for survival in a messy world.</p>
+  <p>Everyone remembers the computer. The computer was the least interesting thing Bank of America bought.</p>
 
-  <p>First, the machine-readable part was printed before the customer ever saw the cheque. The account and routing numbers were already there; the customer's handwriting lived in a different part of the paper that the machine ignored. Second, the ink was magnetic rather than read by light, so a rubber stamp or a signature scrawled across the numbers did not break the read. A camera would have failed on exactly the crumpled, overwritten cheques that mattered most. Third, the font was designed for the reader, not for people. The digits look strange because each shape was chosen to produce a magnetic signal the machine could tell apart from every other.</p>
+  <p>Computers could already add. The hard problem was feeding them. A cheque is written by a customer, in their own hand, with whatever pen is nearby. It gets folded, stamped, stained and signed across, and it still has to be legally valid. How do you make a machine read a document you are not allowed to control?</p>
 
-  <p>Then came the step that made it an industry rather than a bank's private project. In <span class="fig">1956</span> the American Bankers Association adopted that font, called E-13B, as the national standard. Every bank could now print cheques every other bank's machines could read.</p>
+  <p>The answer is the line of strange digits still printed along the bottom of every cheque: <span class="micr">⑆ 0 1 2 3 ⑆ 4 5 6 7 8 9 ⑈</span>. It is called MICR, and it is three stubborn decisions in a row. Print the part the machine needs before the customer ever touches the paper. Print it in magnetic ink, so a stamp or a scrawl across it does not matter. Shape the digits for the machine, not for the eye. Each choice gave up elegance to survive a messy world.</p>
 
-  <div class="rule-box">
-    <div class="lbl">The pattern to notice</div>
-    <p>The breakthrough was not a device. It was an industry agreeing on a format. You will see this again in the next chapter, with the barcode, and many times after that. When a standard arrives, the companies that make devices start competing on price, and the value moves to whoever controls the format.</p>
-  </div>
-
-  <p>If you have ever written code that ingests documents you do not control, such as invoices, receipts, scanned forms or PDFs from a hundred different systems, you have faced the cheque problem. MICR's answer still holds. Do not try to standardise the person. Standardise the small part of the document you need, put it somewhere the mess cannot reach, and design it for the machine.</p>
-
-  <h3><span class="rn">II</span>The room with the rack</h3>
-
-  <p>Three thousand miles east, another company was hitting a different wall, and this one was not about volume. It was about knowing.</p>
-
-  <p>In the early 1950s an airline seat was, in a very literal sense, a card in a rack. To book a passenger, an agent phoned a central room. Someone walked to a rack, found the flight, checked whether a card was free and said yes or no. A complicated trip meant doing this several times. Booking took about <span class="fig">90 minutes</span> of human work on average. The rack was a single physical object, so only one person could consult it at a time. And because checking the truth was so slow, airlines routinely guessed, overselling some flights and underselling others.</p>
-
-  <p>An airline did not actually know what it had left to sell. It knew roughly.</p>
-
-  <p>The fix began, as the story is usually told, with two men named Smith sitting next to each other on a plane. In 1953 an IBM salesman named R. Blair Smith found himself beside C.R. Smith, the president of American Airlines, on a flight from Los Angeles to New York. They got talking. That conversation became a joint project.</p>
-
-  <div class="aside"><b>On the record</b>This is the kind of story that is usually too neat to be true. In this case both companies tell it in their own histories, so it stays in. But it is the charming part, not the important part.</div>
-
-  <p>The important part took years. American and IBM built the system between 1957 and 1960. It went live at one site in <span class="fig">1960</span> and ran nationwide by <span class="fig">1964</span>, handling every American Airlines reservation from more than 65 cities over 10,400 dedicated telephone lines. It was called SABRE, and at the time it was the largest civilian real-time data-processing system in the world.</p>
-
-  <p>Its achievement is usually described as speed: 90 minutes down to seconds. That is true, and it misses the point. SABRE's real achievement was a single, authoritative copy of the airline's inventory that many distant terminals could read and change at the same time without contradicting each other. Two agents in two cities could not sell the same last seat.</p>
-
-  <p>If you write software, you know this problem by name. It is concurrency, and it is why your database has transactions and locks. SABRE solved it for a whole airline, in public, with money on the line, before most of the vocabulary existed.</p>
-
-  <p>The consequence took a long time to arrive, and it is the more important one. For the first time an airline knew, continuously and exactly, what it had left to sell. Knowing exactly what you have left is the precondition for deciding what to charge for it. SABRE did not do clever pricing. It made clever pricing possible, and it would be another twenty-five years before anyone used that possibility as a weapon.</p>
-
-  <h3><span class="rn">III</span>Overnight</h3>
-
-  <p>ERMA and SABRE were opposites in one important way. SABRE had to answer a question while a customer waited on the phone. ERMA did not. A bank could collect the day's cheques and deal with them later, and given what a computer cost in 1959, later was the only sensible choice.</p>
-
-  <p>The machine was so expensive that it had to run constantly, and the bank's work was organised to feed it. Gather the day's transactions. Process them all in one pass overnight. Have the new balances ready by morning. This is called batch processing, and in 1959 it was exactly right. Handling each transaction the moment it happened would have been absurd on hardware that cost what that hardware cost.</p>
-
-  <p>Then something happened that happens again and again in this book. The workaround became the institution. The nightly cycle stopped being a property of the machine and became the organising fact of the bank. Cut-off times, value dates, "it will clear tomorrow", end-of-day reconciliation, the settlement file that arrives after the decision it should have informed. All of it grew around the overnight run.</p>
-
-  <p>Cheque automation solved processing. It did not solve the stranger problem underneath, which was that money moved between banks by physically carrying paper. In 1968 a group of California clearinghouses formed a committee called SCOPE to design a paperless alternative. The first Automated Clearing House went live in <span class="fig">1972</span>, run by the Federal Reserve Bank of San Francisco with a group of California banks, and the regional groups merged into a national association, NACHA, in <span class="fig">1974</span>.</p>
-
-  <p>Here is the part that explains your "next business day". ACH was designed as an electronic replacement for paper cheque clearing, and paper cheque clearing was already an overnight batch process. ACH did not choose a slow clock. It inherited one.</p>
-
-  <div class="aside"><b>How sure we are</b>No document we could find records a committee deciding that electronic money should move overnight. The inheritance is a strong inference from what ACH was built to replace, and this chapter presents it as one. The tidier story, that someone deliberately chose slowness, is not supported by the record.</div>
-
-  <div class="aside"><b>A common mix-up</b>You will often hear "T+2" used to explain why payments take days. It is the wrong term. T+2 means trade date plus two business days, and it is a rule for settling stock and bond trades. United States equities moved to T+1 in May 2024. Card and ACH timing is a separate mechanism: cut-off times and overnight settlement windows inherited from cheque clearing.</div>
-
-  <p>So the answer to this chapter's question is short. Your money moves overnight because, in 1959, the only affordable way to do arithmetic over every account was to do it once a night, and the systems built since were designed to replace that process rather than to rethink it. The constraint was the price of a computer. The constraint is gone. The clock is still here.</p>
-
-  <h3><span class="rn">IV</span>The fight nobody saw coming</h3>
-
-  <p>For twenty years SABRE did its job quietly. It booked seats. Then the rules of the airline business changed, and the machine turned out to be something else.</p>
-
-  <p>The Airline Deregulation Act of 1978 ended federal control over where airlines flew and what they charged. For the first time a new kind of competitor was possible: an airline with no old cost base, no expensive habits and no reason to charge what the incumbents charged.</p>
-
-  <p>The most successful of them was People Express, founded on <span class="fig">April 30, 1981</span>, in Newark by Donald Burr and colleagues. It packed seats in tightly, offered almost no service, trained staff to do several jobs, and sold fares the established airlines could not profitably match. By the mid-1980s it was carrying roughly four million passengers a year, had bought Frontier Airlines, and was flying 747s across the Atlantic. In Burr's own words it was "a vibrant, profitable company from 1981 to 1985."</p>
-
-  <p>American Airlines could not cut its costs to People Express's level. Its costs were structural: unionised labour, full service, an established network. So it did not try to compete on cost. It competed on something People Express could not do at all. It competed on deciding how many seats to sell at each price.</p>
-
-  <p>American had been preparing for years. Robert Crandall had sponsored a modernisation of SABRE in 1973 and introduced discounted Super Saver fares in 1975. In <span class="fig">1985</span> American launched Ultimate Super Saver fares, priced below People Express. The trick was that they were released in strictly limited numbers, controlled by a system called DINAMO.</p>
-
-  <p>Think about what that means. American did not need to sell every seat at People Express prices. It needed to sell just enough seats at those prices to win the price-sensitive passenger who booked early, while holding the rest of the plane back for the business traveller who booked late and would pay several times more. People Express had essentially one kind of fare. Once it sold a seat cheaply, the seat was gone. It had no way to answer.</p>
-
-  <p>The mathematics behind this was not new, and it was not hard. A rule published by Ken Littlewood in 1972 says, in effect: hold a seat back for a full-fare passenger as long as the chance of selling it at full fare, multiplied by the full fare, is worth more than the discount fare you could get today.</p>
-
-  <p class="formula">protect seats while  P(full-fare demand ≥ n) × full fare  &gt;  discount fare</p>
-
-  <p>If the discount fare is a quarter of the full fare, you keep protecting seats until the chance of needing them drops below 25 percent. Forecast the demand, revise the forecast as real bookings arrive, and adjust the number of cheap seats every day. That is the whole idea.</p>
-
-  <p>What was hard in 1985 was everything around the idea. You needed a live, exact count of every seat on every flight, which only a SABRE-class system had. You needed years of booking history detailed enough to forecast each fare class on each flight on each day. And you needed the computing power to re-solve the whole network every night. People Express had none of it, and none of it was for sale.</p>
-
-  <blockquote>"This is it! This is a shot across our bow! If we don't invent a way to deal with [yield management], we're history!"<cite>Donald Burr, on seeing American's fares, as told to Robert G. Cross</cite></blockquote>
-
-  <p>Burr said later that his airline had been profitable from the day it started until American came at it with Ultimate Super Savers, and then "tipped right over into losing $50 million a month." In June 1986 People Express was quietly put up for sale. On <span class="fig">February 1, 1987</span>, it was folded into Continental Airlines. The committee for the INFORMS Edelman Prize later credited American's yield management systems with <span class="fig">$1.4 billion</span> in extra revenue over three years.</p>
-
-  <div class="aside"><b>How sure we are</b>"Software killed People Express" is a good line and not the whole truth. Business historians point to several causes acting together: expansion that ran ahead of operations, the debt-heavy purchase of Frontier in 1985, and service that fell apart as the airline grew. Burr's quotes are real. His account of the cause is a participant's view, not a finding. What survives the caveat is this: American solved a problem with computing that its rival could not solve at all, and that gap was real, decisive at the margin, and impossible to buy.</div>
-
-  <h3><span class="rn">V</span>What it cost</h3>
-
-  <p>This book is about trade-offs, so it is worth being exact about what each of these machines gave up to win.</p>
-
-  <p><strong>Batch traded speed for throughput, permanently.</strong> It got the most transactions out of expensive hardware and did nothing at all for how fast any single one finished. When hardware became cheap, the trade stopped making sense, but by then the overnight run was part of the law, the accounting and the culture. Banking software still values being auditable and re-runnable over being fast. That looks like backwardness from the outside. It is a different goal.</p>
-
-  <p><strong>Batch also traded away connection.</strong> Each overnight run produced files, and the files went to other systems on other schedules. The result of a decision and the decision itself ended up in different places, on different clocks, and nobody joined them. Not because anyone gained from the gap, simply because the architecture separated them and the separation outlived its reason. This book calls it the missing join, and you will meet it in almost every chapter.</p>
-
-  <p><strong>Yield management traded away fairness, on purpose.</strong> Two identical seats on the same plane could now sell for wildly different prices. The airlines accepted the customer's resentment as the cost of the revenue, and that resentment never went away. The fences that made it work, like Saturday-night stays and advance-purchase rules, existed to keep business travellers away from cheap fares, not to serve anyone.</p>
-
-  <p><strong>And the banks traded away control.</strong> Most banks could never build their own ERMA. What grew up instead was a layer of vendors selling the same core system to hundreds of institutions. That layer ended up with more lasting pricing power than many of its customers. Today a small bank's options are often decided less by its own strategy than by what its core system vendor will support. That is what losing a build-or-buy decision looks like fifty years later.</p>
+  <p>Then came the move that mattered most. In <span class="fig">1956</span> the American Bankers Association made that font, E-13B, the national standard. Now every bank's cheques could be read by every bank's machines. A private project became an industry.</p>
 
   <div class="rule-box">
-    <div class="lbl">The rule this chapter teaches</div>
-    <p>An architecture chosen under a hard constraint outlives the constraint, becomes the way the industry works, and is then mistaken for a law of nature. When something in your stack feels like physics, ask what the constraint was and whether it still applies.</p>
+    <div class="lbl">Ask this about any technology</div>
+    <p>Was the breakthrough a device, or an agreement? Devices get copied and their prices fall. Agreements decide who everyone else has to fit around. Chapter Two is built entirely on this question.</p>
   </div>
 
-  <p>There is one more lesson, and it is the one American Airlines teaches. The pricing algorithm was cheap. It fit in a single inequality and had been public for over a decade. The moat was the infrastructure underneath it: a live inventory, years of clean history and the machinery to act on both every night. Almost every software fight in the chapters that follow turns on the same distinction. The clever part is rarely what wins. The data and the plumbing that make the clever part possible usually are.</p>
+  <p>If you have ever written code to pull data out of invoices, receipts or PDFs from a hundred different senders, you have met the cheque problem. MICR's answer still holds: stop trying to tidy up the human. Carve out the small piece you need and make that piece unbreakable.</p>
 
-  <p class="next">Next: a pack of Wrigley's Juicy Fruit gum, 67 cents, crosses a scanner at the Marsh Supermarket in Troy, Ohio, at 8:01 in the morning on June 26, 1974. The machines of Chapter One could do arithmetic over every customer. The next wave would let a business count every object.</p>
+  <h3><span class="rn">III</span>What does a business do when it doesn't know what it has?</h3>
+
+  <p>Across the country, American Airlines had a different wall. Not volume. Ignorance.</p>
+
+  <p>An airline seat in the early 1950s was a card in a rack in a room. To book you, an agent phoned that room. Someone walked to the rack, looked for the flight, and said yes or no. A trip with connections meant doing it again and again. One booking took about <span class="fig">90 minutes</span> of human work. Only one person could look at the rack at a time. So airlines guessed. They oversold some flights and flew others half empty, because finding out the truth cost more than being wrong.</p>
+
+  <p>Sit with that for a second. The airline did not know what it had to sell.</p>
+
+  <p>The fix is usually told as a chance meeting. In 1953 an IBM salesman, R. Blair Smith, sat next to American's president, C.R. Smith, on a flight from Los Angeles to New York, and the two Smiths started talking. Both companies tell the story in their own histories, so it stays in the book. But it is the decoration. The engineering is the story.</p>
+
+  <p>They built SABRE between 1957 and 1960. It went live at one site in <span class="fig">1960</span> and ran nationwide by <span class="fig">1964</span>, booking every American flight from more than 65 cities over 10,400 dedicated phone lines, the largest civilian real-time computer system in the world at the time.</p>
+
+  <p>People say SABRE's gift was speed: 90 minutes down to seconds. That undersells it. SABRE's gift was one true copy of the airline's inventory that agents in many cities could read and change at once, without two of them ever selling the same last seat. Programmers call this concurrency. American called it knowing what it owned.</p>
+
+  <p>And here is the part that should change how you look at your own systems. Knowing exactly what you have left to sell is the precondition for deciding what to charge for it. SABRE did not do clever pricing. It made clever pricing possible, and then nothing happened for twenty years. The weapon was loaded long before anyone thought to fire it.</p>
+
+  <div class="rule-box">
+    <div class="lbl">Ask this about any technology</div>
+    <p>What does this make possible that nobody is doing yet? The infrastructure often arrives decades before the business that exploits it.</p>
+  </div>
+
+  <h3><span class="rn">IV</span>Why does money still move at night?</h3>
+
+  <p>ERMA and SABRE differed in one way that still shapes your bank account. SABRE had to answer while a customer waited on the phone. ERMA did not. A bank could gather the day's cheques and deal with them later, and in 1959 later was the only sane choice.</p>
+
+  <p>The machine was so expensive that it had to run all the time, so the bank organised its life around feeding it. Collect the day. Process it all in one pass overnight. Wake up to new balances. This is batch processing, and for the economics of 1959 it was exactly right.</p>
+
+  <p>Then the workaround became the institution. Cut-off times, value dates, "it will clear tomorrow", the end-of-day reconciliation, the settlement file that lands after the decision it should have informed. None of that was a goal. It all grew around the night run, like a town around a railway station.</p>
+
+  <p>The cheque itself still had to travel between banks, physically. In 1968 a group of California clearinghouses set up a committee, SCOPE, to replace the paper. The first Automated Clearing House went live in <span class="fig">1972</span>, and the regional groups became a national body, NACHA, in <span class="fig">1974</span>. ACH is how most payroll and bill payments in the United States still move.</p>
+
+  <p>So why is ACH slow? Because it was designed to replace cheque clearing, and cheque clearing already ran overnight. Nobody chose a slow clock. They copied the one they had.</p>
+
+  <div class="aside"><b>How sure we are</b>No record shows a committee deciding money should move overnight. The inheritance is a strong inference from what ACH was built to replace, and that is how it is presented here. The tidier story, that someone chose slowness on purpose, has no evidence behind it.</div>
+
+  <div class="aside"><b>A common mix-up</b>People often blame "T+2" for slow payments. That term belongs to the stock market: trade date plus two business days to settle a share trade (now T+1 in the United States, since May 2024). Card and bank-transfer timing comes from somewhere else entirely: the overnight habits of cheque clearing.</div>
+
+  <p>That is the answer to the question this chapter opened with. Your money moves overnight because in 1959 the only affordable way to do arithmetic over every account was to do it once a night, and every system since was built to replace that process rather than question it. The constraint was the price of a computer. The constraint is gone. The clock stayed.</p>
+
+  <h3><span class="rn">V</span>How does a more expensive company beat a cheaper one?</h3>
+
+  <p>For twenty years SABRE booked seats and nobody thought of it as a weapon. Then the government changed the rules.</p>
+
+  <p>The Airline Deregulation Act of 1978 let airlines fly where they liked and charge what they liked. That made a new kind of rival possible: an airline with none of the old costs. The best of them was People Express, founded on <span class="fig">April 30, 1981</span>, in Newark by Donald Burr and his colleagues. Tight seating, no frills, staff who did several jobs, fares nobody else could match. By the mid-1980s it was carrying around four million passengers a year, had bought Frontier Airlines, and was flying 747s across the Atlantic. "A vibrant, profitable company from 1981 to 1985," in Burr's words.</p>
+
+  <p>Now put yourself in American's position. Your costs are higher and you cannot cut them: unions, full service, a huge network. A rival sells the same seat for less. What do you do?</p>
+
+  <p>Most companies in that spot try to get cheaper and lose. American asked a different question. It did not need to sell every seat at People Express prices. It only needed to sell enough of them cheaply to win the early, price-sensitive passenger, while holding the rest of the plane back for the late business traveller who would pay many times more.</p>
+
+  <p>Robert Crandall had been setting this up for over a decade. He sponsored a SABRE overhaul in 1973 and introduced discount Super Saver fares in 1975. In <span class="fig">1985</span> American launched Ultimate Super Savers, priced below People Express, but released in tightly limited numbers by a system called DINAMO. People Express had essentially one price. Once it sold a seat cheaply, the seat was gone. It could not fight back, because it could not see what American could see.</p>
+
+  <p>The maths was not the secret. A rule published by Ken Littlewood in 1972 fits on one line:</p>
+
+  <p class="formula">hold the seat while  P(a full-fare buyer shows up) × full fare  &gt;  discount fare</p>
+
+  <p>If the discount is a quarter of the full fare, keep seats back until the chance of filling them at full price drops below one in four. Forecast, watch the bookings come in, adjust every night. A first-year student could follow it.</p>
+
+  <p>So why couldn't People Express just do the same? Because the rule needs three things the rule does not mention: a live, exact count of every seat, years of booking history detailed enough to forecast each fare on each flight, and the computers to re-solve the whole network nightly. American had spent twenty-five years building those. None of it was for sale.</p>
+
+  <blockquote>"This is it! This is a shot across our bow! If we don't invent a way to deal with [yield management], we're history!"<cite>Donald Burr, on seeing American's new fares, as told to Robert G. Cross</cite></blockquote>
+
+  <p>Burr later said his airline was profitable until American's new fares arrived, and then "tipped right over into losing $50 million a month." In June 1986 People Express was quietly put up for sale. On <span class="fig">February 1, 1987</span>, it disappeared into Continental. The committee for the INFORMS Edelman Prize later credited American's yield management systems with <span class="fig">$1.4 billion</span> in extra revenue over three years.</p>
+
+  <div class="aside"><b>How sure we are</b>"Software killed People Express" is too clean. The airline also grew faster than it could run, took on heavy debt to buy Frontier in 1985, and let its service fall apart. Burr's quotes are real; his explanation is one participant's view. What holds up is narrower and more useful: American solved a problem its rival could not even attempt, and that gap was decisive at the margin.</div>
+
+  <p>People Express did not lose to a cheaper airline. It lost to a better-informed one.</p>
+
+  <h3><span class="rn">VI</span>What did winning cost, and who paid?</h3>
+
+  <p>Every win in this book has a bill attached. Learning to find it is most of the skill.</p>
+
+  <p><strong>Batch bought throughput and paid with speed.</strong> It squeezed the most work out of costly hardware and did nothing for how fast any single payment finished. When hardware became cheap, the trade stopped making sense, but by then it was written into law, accounting and habit. You pay that bill every time a payment sits in "pending."</p>
+
+  <p><strong>Batch also paid with connection.</strong> The night run produced files, the files went to other systems on other schedules, and the record of a decision drifted away from the record of what happened next. Nobody gained from the gap. The architecture just pulled the two apart, and the separation outlived its reason. This book calls that the missing join, and you will find it in nearly every chapter that follows.</p>
+
+  <p><strong>Yield management paid with fairness, on purpose.</strong> Two identical seats, wildly different prices. Airlines decided customer resentment was a fair price for the revenue, and they were right about the revenue. The Saturday-night stay and the advance-purchase rule were never there to serve you. They were fences to keep business travellers away from cheap seats.</p>
+
+  <p><strong>And the banks paid with control.</strong> Most could never build an ERMA of their own, so they bought systems from vendors who sold the same core to hundreds of banks. Fifty years later, what a small bank can offer is often decided less by its own strategy than by what its core vendor will support. That is what a build-or-buy decision looks like after half a century.</p>
+
+  <p>One more thing, and it may be the most useful idea in the chapter. American's pricing rule was cheap. It had been public for thirteen years and fit in a single line. What won was everything underneath it: the live inventory, the clean history, the machinery to act every night. In almost every fight ahead, the clever part is not what wins. The data and plumbing that make the clever part possible are.</p>
+
+  <div class="carry">
+    <div class="lbl">Questions to carry out of this chapter</div>
+    <ol>
+      <li>What are we still paying for a problem that no longer exists?</li>
+      <li>Was the breakthrough a device, or an agreement?</li>
+      <li>What does this make possible that nobody is doing yet?</li>
+      <li>If our rival copied our algorithm tomorrow, what would they still be missing?</li>
+      <li>Who is paying for this win, and do they know it?</li>
+    </ol>
+    <p>Try them on the tool you used most today. One of them will have an answer you did not expect.</p>
+  </div>
+
+  <p class="next">Next: at 8:01 one morning in June 1974, a 67-cent pack of Wrigley's Juicy Fruit crosses a scanner in Troy, Ohio. The machines in this chapter could do arithmetic over every customer. The next wave would let a business count every object. The question it raises: who owns the format?</p>
+
 
   <div class="sources">
     <h4>Sources for this chapter</h4>
