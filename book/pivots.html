@@ -1,4 +1,4 @@
-<title>Pivots</title>
+<title>Time Travel: Wave One</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -75,34 +75,79 @@ h1 { font-family: var(--display); font-weight: 400; font-size: clamp(3.2rem, 10v
 .keep { margin-top: 1.25rem; font-family: var(--display); font-size: 1.35rem; line-height: 1.3; }
 .keep span { display: block; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ledger); margin-bottom: 0.2rem; }
 .fig { font-family: var(--mono); font-size: 0.92em; }
+.scene { padding-block: 0.5rem 2.5rem; margin-bottom: 2rem; border-bottom: 1px solid var(--rule); }
+.scene p { margin: 0 0 1rem; }
+.world { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem 2rem; margin: 1.5rem 0; }
+.world > div { min-width: 0; }
+.world ul { margin: 0; padding-left: 1.1rem; }
+.world li { margin-bottom: 0.3rem; }
+.when { font-family: var(--mono); font-size: 0.75rem; color: var(--ledger); margin-left: 0.3rem; }
+.scene-q { font-size: 1.1rem; }
+.carry-home { border: 1px solid var(--ledger); border-radius: 4px; padding: 1.1rem 1.25rem; margin: 1.25rem 0; }
+.carry-home ol { margin: 0.5rem 0 0; padding-left: 1.4rem; font-family: var(--display); font-size: 1.3rem; line-height: 1.35; }
+.carry-home li { margin-bottom: 0.4rem; }
+.next-trip { font-style: italic; color: var(--muted); }
 footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); }
 footer a { color: var(--ledger); }
 </style>
 
 <div class="wrap">
   <header>
-    <div class="eyebrow">A companion to Frozen Arguments · Set 1: 1955–1987</div>
-    <h1>Pivots</h1>
-    <p class="intro">You land in another decade. You have that decade's tools, that decade's problem, and a handful of real options. Pick one. Then see what actually won, why the others lost, and how the winner changed what everyone believed for years afterwards.</p>
-    <p class="intro">History reads as obvious only after it happens. Every pivot here felt like a judgement call to the people standing in it.</p>
-    <div class="how" aria-label="How each pivot works">
-      <div><b>1 · The desk</b>The tools you actually have</div>
-      <div><b>2 · The problem</b>What is breaking, and for whom</div>
-      <div><b>3 · Your move</b>The options that were realistically open</div>
-      <div><b>4 · The record</b>What won, why, and what it taught people</div>
+    <div class="eyebrow">Frozen Arguments · Pivot: Time Travel · Wave One</div>
+    <h1>Time Travel</h1>
+    <p class="intro">This is one way of reading the book. You are a junior engineer, and you are dropped into one wave of computing at a time. You only get the tools that existed then. If there is no internet, there is no internet. You live there for a while, you face the problems people faced, and you make their decisions before you find out how they turned out.</p>
+    <div class="how" aria-label="How a trip works">
+      <div><b>1 · Arrive</b>What life and work look like</div>
+      <div><b>2 · Look around</b>What exists, and what doesn't yet</div>
+      <div><b>3 · Decide</b>Real choices, at real moments</div>
+      <div><b>4 · Come home</b>What won, and what it taught everyone</div>
     </div>
   </header>
 
+  <section class="scene" id="arrive">
+    <div class="stamp"><span class="year">1959</span><span class="pnum">Wave One · Mainframe &amp; Batch · 1955–1975</span></div>
+    <h2 class="role">You arrive.</h2>
+    <p>You are twenty-four and you have just been hired into the new data processing department at a big California bank. Nobody in your family knows what that means. Most people at the bank don't either.</p>
+    <p>On the main floor, rows of clerks sit with ledger cards, one card per customer, posting each cheque by hand. When someone wants to know a balance, a clerk walks to a cabinet and looks. When the day's paper runs late, branches close early to catch up. Upstairs, behind glass, sits the machine you were hired to look after. It fills a room. It is so expensive that it is never allowed to sit idle: all day it is fed, and all night it runs.</p>
+    <p>Across the country, an airline is booking seats by phoning a room where people walk to a rack of cards and check if one is free. It takes about ninety minutes to book a trip. A new kind of system called SABRE is being built to fix that, and it won't run nationwide for another five years.</p>
+    <p>Outside work, a long-distance phone call is something you plan for. A brand-new bank credit card was mailed last year, unasked, to 65,000 households in Fresno. Most people pay for things with cash or a cheque, and wait days to know if the cheque was good.</p>
+
+    <div class="world">
+      <div>
+        <div class="lbl">What exists</div>
+        <ul>
+          <li>Room-sized computers, bought only by the biggest companies</li>
+          <li>Magnetic ink numbers on cheques, a brand-new standard</li>
+          <li>Ledger cards, filing cabinets, telephones, telegrams</li>
+          <li>Overnight batch runs: collect the day, process it all at night</li>
+          <li>The first bank credit card, barely a year old</li>
+        </ul>
+      </div>
+      <div>
+        <div class="lbl">What doesn't exist yet</div>
+        <ul>
+          <li>Personal computers <span class="when">late 1970s</span></li>
+          <li>Spreadsheets <span class="when">1979</span></li>
+          <li>Electronic transfers between banks <span class="when">1972</span></li>
+          <li>Barcodes at the checkout <span class="when">1974</span></li>
+          <li>The web <span class="when">1993</span></li>
+          <li>Anything you would call AI</li>
+        </ul>
+      </div>
+    </div>
+    <p class="scene-q">The one thing everyone around you is short of: <strong>time to do the arithmetic.</strong> Every decision you are about to face comes back to that.</p>
+  </section>
+
   <!-- PIVOT 1 -->
   <section class="pivot" id="pivot-1" data-won="D">
-    <div class="stamp"><span class="year">1950</span><span class="pnum">Pivot 1 · San Francisco</span></div>
+    <div class="stamp"><span class="year">1950</span><span class="pnum">Stop 1 · San Francisco</span></div>
     <h2 class="role">You run operations at Bank of America, the largest bank in the world.</h2>
     <div class="lbl">On your desk</div>
     <ul class="desk"><li>clerks</li><li>ledger cards</li><li>mechanical bookkeeping machines</li><li>paper cheques</li><li>a research institute down the road at Stanford</li></ul>
     <div class="lbl">The problem</div>
     <p>Since the war, customers have been writing cheques faster than you can hire people to post them. Some branches now close in the afternoon just to finish the day's paperwork. Run the growth forward and you would one day need an absurd share of California's workforce to keep your own books.</p>
     <p class="ask">What do you do?</p>
-    <div class="options" role="group" aria-label="Options for pivot 1">
+    <div class="options" role="group" aria-label="Options for stop 1">
       <button class="opt" data-k="A" aria-pressed="false"><span class="k">A</span><span>Hire faster. Open training schools, add shifts, pay for overtime.</span></button>
       <button class="opt" data-k="B" aria-pressed="false"><span class="k">B</span><span>Slow the customers down. Charge per cheque, raise minimum balances.</span></button>
       <button class="opt" data-k="C" aria-pressed="false"><span class="k">C</span><span>Buy a computer to post the accounts.</span></button>
@@ -131,14 +176,14 @@ footer a { color: var(--ledger); }
 
   <!-- PIVOT 2 -->
   <section class="pivot" id="pivot-2" data-won="C">
-    <div class="stamp"><span class="year">1968</span><span class="pnum">Pivot 2 · California</span></div>
+    <div class="stamp"><span class="year">1968</span><span class="pnum">Stop 2 · California</span></div>
     <h2 class="role">You sit on SCOPE, a committee of California clearinghouses.</h2>
     <div class="lbl">On your desk</div>
     <ul class="desk"><li>bank mainframes running overnight batches</li><li>MICR cheques</li><li>couriers and sorting machines</li><li>the Federal Reserve as a partner</li><li>dozens of banks that must all agree</li></ul>
     <div class="lbl">The problem</div>
     <p>Each bank now processes its own cheques by machine, but money still moves between banks by physically carrying paper to a clearinghouse every day. Your job is to design a paperless way to move it.</p>
     <p class="ask">What do you build?</p>
-    <div class="options" role="group" aria-label="Options for pivot 2">
+    <div class="options" role="group" aria-label="Options for stop 2">
       <button class="opt" data-k="A" aria-pressed="false"><span class="k">A</span><span>Keep the paper, but automate the sorting and speed up the couriers.</span></button>
       <button class="opt" data-k="B" aria-pressed="false"><span class="k">B</span><span>A network that moves each payment the moment it is made.</span></button>
       <button class="opt" data-k="C" aria-pressed="false"><span class="k">C</span><span>An electronic copy of the clearing you already run: exchange files of payments, settle overnight.</span></button>
@@ -166,14 +211,14 @@ footer a { color: var(--ledger); }
 
   <!-- PIVOT 3 -->
   <section class="pivot" id="pivot-3" data-won="D">
-    <div class="stamp"><span class="year">1985</span><span class="pnum">Pivot 3 · Dallas</span></div>
+    <div class="stamp"><span class="year">1985</span><span class="pnum">Stop 3 · Dallas</span></div>
     <h2 class="role">You run pricing at American Airlines.</h2>
     <div class="lbl">On your desk</div>
     <ul class="desk"><li>SABRE, a live count of every seat</li><li>years of booking history</li><li>unionised staff</li><li>a full-service network</li><li>Super Saver fares since 1975</li></ul>
     <div class="lbl">The problem</div>
     <p>Deregulation in 1978 let anyone fly anywhere at any price. People Express, founded in 1981, flies no-frills, packs the seats in, and sells fares you cannot profitably match. It is carrying around four million passengers a year and growing. Your costs are higher, and they are not coming down.</p>
     <p class="ask">How do you fight back?</p>
-    <div class="options" role="group" aria-label="Options for pivot 3">
+    <div class="options" role="group" aria-label="Options for stop 3">
       <button class="opt" data-k="A" aria-pressed="false"><span class="k">A</span><span>Cut costs until you can match their fares.</span></button>
       <button class="opt" data-k="B" aria-pressed="false"><span class="k">B</span><span>Match their fares on every seat and take the loss.</span></button>
       <button class="opt" data-k="C" aria-pressed="false"><span class="k">C</span><span>Ignore them. Your business travellers will never fly no-frills.</span></button>
@@ -204,14 +249,14 @@ footer a { color: var(--ledger); }
 
   <!-- PIVOT 4 -->
   <section class="pivot" id="pivot-4" data-won="none">
-    <div class="stamp"><span class="year">1985</span><span class="pnum">Pivot 4 · Newark</span></div>
+    <div class="stamp"><span class="year">1985</span><span class="pnum">Stop 4 · Newark</span></div>
     <h2 class="role">Now switch sides. You are Donald Burr, founder of People Express.</h2>
     <div class="lbl">On your desk</div>
     <ul class="desk"><li>the lowest costs in the industry</li><li>one simple fare per seat</li><li>a basic reservation system</li><li>fast growth</li><li>a new acquisition: Frontier Airlines</li></ul>
     <div class="lbl">The problem</div>
     <p>American has just launched fares below yours, but only on some seats. Your cheapest customers are being picked off while American keeps its full-fare passengers. Burr's own reaction: <em>"This is a shot across our bow! If we don't invent a way to deal with [yield management], we're history!"</em></p>
     <p class="ask">What do you do?</p>
-    <div class="options" role="group" aria-label="Options for pivot 4">
+    <div class="options" role="group" aria-label="Options for stop 4">
       <button class="opt" data-k="A" aria-pressed="false"><span class="k">A</span><span>Build your own yield management system, fast.</span></button>
       <button class="opt" data-k="B" aria-pressed="false"><span class="k">B</span><span>Cut fares further, across the board.</span></button>
       <button class="opt" data-k="C" aria-pressed="false"><span class="k">C</span><span>Keep growing. Scale will bring your costs down even more.</span></button>
@@ -239,7 +284,24 @@ footer a { color: var(--ledger); }
     </div>
   </section>
 
-  <footer>Pivots · Set 1 draws on Chapter One of <a href="https://claude.ai/artifact/KL6wSBXEEPHCwYgCvWKkgf">Frozen Arguments</a>. The options are the realistic choices of each moment; the outcomes are sourced in that chapter.</footer>
+  <section class="scene" id="home">
+    <div class="stamp"><span class="year">Home</span><span class="pnum">What you bring back from Wave One</span></div>
+    <h2 class="role">You come back.</h2>
+    <p>You lived through the years when doing arithmetic over every customer stopped being impossible. You watched a bank win by changing a piece of paper, a committee build slow money because slow was what everyone already had, and an airline beat a cheaper rival by knowing exactly what it had left to sell.</p>
+    <p>Now look at your own desk. Your payment still says "pending." Your company still runs a job every night. Somewhere in your stack is a habit that was right in 1959.</p>
+    <div class="carry-home">
+      <div class="lbl">Questions you bring home</div>
+      <ol>
+        <li>What are we still paying for a problem that no longer exists?</li>
+        <li>Is the bottleneck the work, or getting the work into a form a machine can take?</li>
+        <li>When many parties must agree, does the best design win, or the one that changes least?</li>
+        <li>If a rival copied our algorithm tomorrow, what would they still be missing?</li>
+      </ol>
+    </div>
+    <p class="next-trip">Next trip: Wave Two, 1974. A pack of gum crosses a scanner in Troy, Ohio, and you will have to decide who should own the stripe.</p>
+  </section>
+
+  <footer>Time Travel · Wave One draws on Chapter One of <a href="https://claude.ai/artifact/KL6wSBXEEPHCwYgCvWKkgf">Frozen Arguments</a>. The options are the realistic choices of each moment; the outcomes are sourced in that chapter.</footer>
 </div>
 
 <script>
