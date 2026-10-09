@@ -87,6 +87,19 @@ h1 { font-family: var(--display); font-weight: 400; font-size: clamp(3.2rem, 10v
 .carry-home ol { margin: 0.5rem 0 0; padding-left: 1.4rem; font-family: var(--display); font-size: 1.3rem; line-height: 1.35; }
 .carry-home li { margin-bottom: 0.4rem; }
 .next-trip { font-style: italic; color: var(--muted); }
+.scene h3.sub { font-family: var(--display); font-weight: 400; font-size: 1.6rem; margin: 2rem 0 0.75rem; }
+.contrast { border-top: 1px solid var(--rule); margin: 0.5rem 0 1rem; font-size: 0.95rem; }
+.crow { display: grid; grid-template-columns: 9rem 1fr 1.4fr; gap: 0.25rem 1rem; padding: 0.6rem 0; border-bottom: 1px solid var(--rule); }
+.crow > span { min-width: 0; }
+.crow > span:first-child { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); padding-top: 0.2rem; }
+.crow > span:nth-child(2) { color: var(--muted); }
+.chead > span { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ledger) !important; }
+@media (max-width: 36rem) {
+  .crow { grid-template-columns: 1fr; }
+  .chead { display: none; }
+  .crow > span:nth-child(2)::before { content: "Today: "; font-weight: 600; }
+  .crow > span:nth-child(3)::before { content: "1959: "; font-weight: 600; color: var(--ledger); }
+}
 footer { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); }
 footer a { color: var(--ledger); }
 </style>
@@ -95,10 +108,10 @@ footer a { color: var(--ledger); }
   <header>
     <div class="eyebrow">Frozen Arguments · Pivot: Time Travel · Wave One</div>
     <h1>Time Travel</h1>
-    <p class="intro">This is one way of reading the book. You are a junior engineer, and you are dropped into one wave of computing at a time. You only get the tools that existed then. If there is no internet, there is no internet. You live there for a while, you face the problems people faced, and you make their decisions before you find out how they turned out.</p>
+    <p class="intro">One way of reading the book. You are a software engineer from today, dropped into one wave of computing at a time, with everything you know and none of your tools. If there is no internet, there is no internet. You live with what people then lived with until their decisions stop looking strange, and then you make those decisions yourself.</p>
     <div class="how" aria-label="How a trip works">
-      <div><b>1 · Arrive</b>What life and work look like</div>
-      <div><b>2 · Look around</b>What exists, and what doesn't yet</div>
+      <div><b>1 · Arrive</b>Your workday, then and now</div>
+      <div><b>2 · Feel it</b>The week the constraint wins</div>
       <div><b>3 · Decide</b>Real choices, at real moments</div>
       <div><b>4 · Come home</b>What won, and what it taught everyone</div>
     </div>
@@ -106,42 +119,42 @@ footer a { color: var(--ledger); }
 
   <section class="scene" id="arrive">
     <div class="stamp"><span class="year">1959</span><span class="pnum">Wave One · Mainframe &amp; Batch · 1955–1975</span></div>
-    <h2 class="role">You arrive.</h2>
-    <p>You are twenty-four and you have just been hired into the new data processing department at a big California bank. Nobody in your family knows what that means. Most people at the bank don't either.</p>
-    <p>On the main floor, rows of clerks sit with ledger cards, one card per customer, posting each cheque by hand. When someone wants to know a balance, a clerk walks to a cabinet and looks. When the day's paper runs late, branches close early to catch up. Upstairs, behind glass, sits the machine you were hired to look after. It fills a room. It is so expensive that it is never allowed to sit idle: all day it is fed, and all night it runs.</p>
-    <p>Across the country, an airline is booking seats by phoning a room where people walk to a rack of cards and check if one is free. It takes about ninety minutes to book a trip. A new kind of system called SABRE is being built to fix that, and it won't run nationwide for another five years.</p>
-    <p>Outside work, a long-distance phone call is something you plan for. A brand-new bank credit card was mailed last year, unasked, to 65,000 households in Fresno. Most people pay for things with cash or a cheque, and wait days to know if the cheque was good.</p>
+    <h2 class="role">Everything you know. None of your tools.</h2>
 
-    <div class="world">
-      <div>
-        <div class="lbl">What exists</div>
-        <ul>
-          <li>Room-sized computers, bought only by the biggest companies</li>
-          <li>Magnetic ink numbers on cheques, a brand-new standard</li>
-          <li>Ledger cards, filing cabinets, telephones, telegrams</li>
-          <li>Overnight batch runs: collect the day, process it all at night</li>
-          <li>The first bank credit card, barely a year old</li>
-        </ul>
-      </div>
-      <div>
-        <div class="lbl">What doesn't exist yet</div>
-        <ul>
-          <li>Personal computers <span class="when">late 1970s</span></li>
-          <li>Spreadsheets <span class="when">1979</span></li>
-          <li>Electronic transfers between banks <span class="when">1972</span></li>
-          <li>Barcodes at the checkout <span class="when">1974</span></li>
-          <li>The web <span class="when">1993</span></li>
-          <li>Anything you would call AI</li>
-        </ul>
-      </div>
+    <p>You are a working software engineer, today. You ship code, you read logs, you ask an AI when you're stuck. You also know how the next seventy years go: the cheque dies slowly, payments go electronic, the web arrives, the cloud, the phone in every pocket.</p>
+    <p>Now you're standing in a bank's data processing room in 1959, and none of that has happened yet. You still know how to program. Programmers exist here; they just don't call themselves engineers. Your job is the same as it is today: make the machine do what the business needs. Only the machine has changed.</p>
+
+    <h3 class="sub">Your workday, then and now</h3>
+    <div class="contrast" role="table" aria-label="A programmer's day in 2026 and in 1959">
+      <div class="crow chead" role="row"><span role="columnheader"></span><span role="columnheader">What you're used to</span><span role="columnheader">What you get in 1959</span></div>
+      <div class="crow" role="row"><span role="rowheader">Writing code</span><span role="cell">Type it, see it highlighted</span><span role="cell">Pencil it onto printed coding sheets, one instruction per line</span></div>
+      <div class="crow" role="row"><span role="rowheader">Getting it into the machine</span><span role="cell">Save the file</span><span role="cell">A keypunch operator turns each line into a punched card. Your program is a box of cards. Drop it and you have a sorting job.</span></div>
+      <div class="crow" role="row"><span role="rowheader">Running it</span><span role="cell">Hit run, results in seconds</span><span role="cell">Hand the deck in and wait for your slot on the machine. Results come back in hours, often the next morning, on folded printer paper.</span></div>
+      <div class="crow" role="row"><span role="rowheader">A typo</span><span role="cell">A red underline</span><span role="cell">A lost day</span></div>
+      <div class="crow" role="row"><span role="rowheader">When you're stuck</span><span role="cell">Search, Stack Overflow, an AI assistant</span><span role="cell">The manufacturer's manual, and whoever sits at the next desk</span></div>
+      <div class="crow" role="row"><span role="rowheader">Debugging</span><span role="cell">Breakpoints, stack traces, logs</span><span role="cell">Read your own code line by line before you submit it, because a failed run costs the machine's time. When it fails anyway, study a printed dump of memory.</span></div>
+      <div class="crow" role="row"><span role="rowheader">Languages</span><span role="cell">Dozens, free, one install away</span><span role="cell">Mostly the machine's own instructions. FORTRAN appeared two years ago. A committee is only now meeting to design a language for business, which will become COBOL.</span></div>
+      <div class="crow" role="row"><span role="rowheader">Data coming in</span><span role="cell">APIs, webhooks, uploads</span><span role="cell">Paper. People read it and turn it into cards, or it doesn't get in at all.</span></div>
+      <div class="crow" role="row"><span role="rowheader">Compute</span><span role="cell">Rent another server in a minute</span><span role="cell">One machine. It fills a room, the company owns it, and every hour of it is budgeted.</span></div>
     </div>
-    <p class="scene-q">The one thing everyone around you is short of: <strong>time to do the arithmetic.</strong> Every decision you are about to face comes back to that.</p>
+
+    <h3 class="sub">The week you stop feeling superior</h3>
+    <p>On your first Monday a manager asks for something you could build before lunch at home: <em>when a customer walks up to a teller, show their real balance.</em></p>
+    <p>You start the way you always would. Then the day starts pushing back.</p>
+    <p>The balance the bank has is only correct as of last night, because that is when the machine posted yesterday's cheques. Everything since then is sitting in trays of paper. To show a live balance, someone has to get today's cheques into the machine as they arrive. That means people at keypunches, all day.</p>
+    <p>Fine, you think. Then let the machine answer tellers' questions during the day. But the machine is the most expensive thing in the building, and while it sits waiting for one teller to ask about one account, it is not posting the thousands of cheques it was bought to post. Your feature would make every customer's balance a day later in order to make one customer's balance current.</p>
+    <p>So you write a smaller version and submit it. It comes back the next morning with an error on line 40. You fix it and submit again. Another night. By Thursday you have run your program three times in four days. You have started reading every line twice before handing it in. You have started grouping your changes so that one run tests all of them. Without anyone telling you to, you have stopped thinking in requests and started thinking in nights.</p>
+    <p class="scene-q">That is the moment 1959 stops looking primitive. <strong>You have just become a batch programmer, for the same reasons the bank became a batch bank.</strong> The constraint didn't make them slow. It made them careful, and it made the overnight run the only sensible design.</p>
+
+    <h3 class="sub">What you know that they don't</h3>
+    <p>Here is the uncomfortable part. You know where this goes. You know the overnight run will outlive the reason for it by sixty years. You know the important invention in this building is not the machine, but the odd-looking numbers being printed on the bottom of the cheques. You know a rival is about to be beaten not by cheaper costs, but by better information.</p>
+    <p>In each stop below, forget that you know. Decide with only what the people in the room could see. Then look at what they chose, and notice how often the "obvious" answer was the wrong one at the time.</p>
   </section>
 
   <!-- PIVOT 1 -->
   <section class="pivot" id="pivot-1" data-won="D">
     <div class="stamp"><span class="year">1950</span><span class="pnum">Stop 1 · San Francisco</span></div>
-    <h2 class="role">You run operations at Bank of America, the largest bank in the world.</h2>
+    <h2 class="role">You're in the room at Bank of America, then the largest bank in the world, as it decides what to do about the paper.</h2>
     <div class="lbl">On your desk</div>
     <ul class="desk"><li>clerks</li><li>ledger cards</li><li>mechanical bookkeeping machines</li><li>paper cheques</li><li>a research institute down the road at Stanford</li></ul>
     <div class="lbl">The problem</div>
@@ -177,7 +190,7 @@ footer a { color: var(--ledger); }
   <!-- PIVOT 2 -->
   <section class="pivot" id="pivot-2" data-won="C">
     <div class="stamp"><span class="year">1968</span><span class="pnum">Stop 2 · California</span></div>
-    <h2 class="role">You sit on SCOPE, a committee of California clearinghouses.</h2>
+    <h2 class="role">You've been given a seat on SCOPE, the committee of California clearinghouses asked to get rid of the paper.</h2>
     <div class="lbl">On your desk</div>
     <ul class="desk"><li>bank mainframes running overnight batches</li><li>MICR cheques</li><li>couriers and sorting machines</li><li>the Federal Reserve as a partner</li><li>dozens of banks that must all agree</li></ul>
     <div class="lbl">The problem</div>
@@ -212,7 +225,7 @@ footer a { color: var(--ledger); }
   <!-- PIVOT 3 -->
   <section class="pivot" id="pivot-3" data-won="D">
     <div class="stamp"><span class="year">1985</span><span class="pnum">Stop 3 · Dallas</span></div>
-    <h2 class="role">You run pricing at American Airlines.</h2>
+    <h2 class="role">You're now running pricing at American Airlines.</h2>
     <div class="lbl">On your desk</div>
     <ul class="desk"><li>SABRE, a live count of every seat</li><li>years of booking history</li><li>unionised staff</li><li>a full-service network</li><li>Super Saver fares since 1975</li></ul>
     <div class="lbl">The problem</div>
@@ -285,10 +298,10 @@ footer a { color: var(--ledger); }
   </section>
 
   <section class="scene" id="home">
-    <div class="stamp"><span class="year">Home</span><span class="pnum">What you bring back from Wave One</span></div>
-    <h2 class="role">You come back.</h2>
-    <p>You lived through the years when doing arithmetic over every customer stopped being impossible. You watched a bank win by changing a piece of paper, a committee build slow money because slow was what everyone already had, and an airline beat a cheaper rival by knowing exactly what it had left to sell.</p>
-    <p>Now look at your own desk. Your payment still says "pending." Your company still runs a job every night. Somewhere in your stack is a habit that was right in 1959.</p>
+    <div class="stamp"><span class="year">2026</span><span class="pnum">Back at your desk</span></div>
+    <h2 class="role">You come back, and your laptop looks different.</h2>
+    <p>The deploy takes forty seconds and you no longer roll your eyes at it. You spent a week where one test cost a night.</p>
+    <p>Then you notice things you used to walk past. Your bank app still says "pending." Your company still runs a big job every night, and nobody can say why it has to be at night. A report lands on your desk the morning after the decision it was meant to inform. These are not mistakes. They are decisions from 1959 that nobody went back to.</p>
     <div class="carry-home">
       <div class="lbl">Questions you bring home</div>
       <ol>
@@ -298,7 +311,7 @@ footer a { color: var(--ledger); }
         <li>If a rival copied our algorithm tomorrow, what would they still be missing?</li>
       </ol>
     </div>
-    <p class="next-trip">Next trip: Wave Two, 1974. A pack of gum crosses a scanner in Troy, Ohio, and you will have to decide who should own the stripe.</p>
+    <p class="next-trip">Next trip: 1974. You land in a supermarket where every price is stamped on by hand, and someone is about to scan a pack of gum.</p>
   </section>
 
   <footer>Time Travel · Wave One draws on Chapter One of <a href="https://claude.ai/artifact/KL6wSBXEEPHCwYgCvWKkgf">Frozen Arguments</a>. The options are the realistic choices of each moment; the outcomes are sourced in that chapter.</footer>
