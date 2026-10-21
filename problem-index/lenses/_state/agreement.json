@@ -1,0 +1,1 @@
+{"ai_proof": {"n": 80, "mae": 6.0, "within10": 82, "within20": 99, "rho": 0.93}, "clarity": {"n": 80, "mae": 5.4, "within10": 80, "within20": 99, "rho": 0.92}, "digital": {"n": 80, "mae": 2.7, "within10": 92, "within20": 100, "rho": 0.95}}

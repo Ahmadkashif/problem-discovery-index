@@ -1,0 +1,2059 @@
+{
+ "n_industries": 257,
+ "n_subniches": 3973,
+ "industries": {
+  "ai_proof": {
+   "median": 35,
+   "mean": 40.4,
+   "top": [
+    {
+     "id": "childcare-centers",
+     "name": "Childcare Centers",
+     "industry": "Childcare Centers",
+     "ai_proof": 90,
+     "clarity": 50,
+     "digital": 6,
+     "why_ai": "Licensed caregivers must physically supervise children under state-mandated ratios; parents choose the people.",
+     "why_clarity": "Daily routines repeat, but good care is judged loosely and outcomes surface years later.",
+     "why_digital": "Care is delivered in person to children in a local centre families must visit."
+    },
+    {
+     "id": "veterinary-practices",
+     "name": "Veterinary Practices",
+     "industry": "Veterinary Practices",
+     "ai_proof": 90,
+     "clarity": 56,
+     "digital": 6,
+     "why_ai": "Licensed vets examine, diagnose and operate on animals in person across dozens of species.",
+     "why_clarity": "Wellness visits recur, but multi-species diagnosis varies by clinician and outcomes are often uncertain.",
+     "why_digital": "Care is delivered hands-on in local clinics to clients who bring their pets in."
+    },
+    {
+     "id": "dental-practices",
+     "name": "Dental Practices",
+     "industry": "Dental Practices",
+     "ai_proof": 85,
+     "clarity": 69,
+     "digital": 6,
+     "why_ai": "Licensed dentists work hands-on in patients' mouths and carry malpractice liability personally.",
+     "why_clarity": "Procedures follow clinical protocols on recurring cases, though restoration longevity shows years later.",
+     "why_digital": "Care is delivered on a patient's body in a local operatory chosen face to face."
+    },
+    {
+     "id": "home-health-agencies",
+     "name": "Home Health Agencies",
+     "industry": "Home Health Agencies",
+     "ai_proof": 85,
+     "clarity": 56,
+     "digital": 6,
+     "why_ai": "Licensed nurses and therapists deliver hands-on care in patients' homes, with demand rising as the population ages.",
+     "why_clarity": "OASIS and CMS rules codify the work, but patient outcomes surface slowly.",
+     "why_digital": "Care is delivered in person in patients' homes across a local territory."
+    },
+    {
+     "id": "med-spas",
+     "name": "Med Spas",
+     "industry": "Med Spas",
+     "ai_proof": 85,
+     "clarity": 50,
+     "digital": 6,
+     "why_ai": "Licensed injectors treat faces by hand and clients return for a specific trusted provider.",
+     "why_clarity": "Aesthetic goals are matters of taste, though treatments recur every few months.",
+     "why_digital": "Treatments delivered in person at a local clinic."
+    },
+    {
+     "id": "physical-therapy",
+     "name": "Physical Therapy",
+     "industry": "Physical Therapy",
+     "ai_proof": 85,
+     "clarity": 50,
+     "digital": 6,
+     "why_ai": "Licensed therapists treat patients hands-on and carry personal clinical liability.",
+     "why_clarity": "Standard outcome tests exist, but recovery varies by patient and unfolds over weeks.",
+     "why_digital": "Treatment is delivered in person on the patient's body in a clinic."
+    },
+    {
+     "id": "acupuncture-practices",
+     "name": "Acupuncture Practices",
+     "industry": "Acupuncture Practices",
+     "ai_proof": 80,
+     "clarity": 31,
+     "digital": 6,
+     "why_ai": "Licensed acupuncturist needles patients in person; patients return for a specific practitioner.",
+     "why_clarity": "Two experts diagnose different patterns for one patient and outcomes are subjective.",
+     "why_digital": "Work starts from a patient's body and is delivered by hand in a local clinic."
+    },
+    {
+     "id": "chiropractic-practices",
+     "name": "Chiropractic Practices",
+     "industry": "Chiropractic Practices",
+     "ai_proof": 80,
+     "clarity": 56,
+     "digital": 6,
+     "why_ai": "Licensed DC delivers manual adjustments in person and carries the malpractice liability.",
+     "why_clarity": "Adjustments recur daily, but techniques vary and outcomes rest on patient-reported response.",
+     "why_digital": "Care is hands-on in a local clinic, chosen by nearby patients."
+    },
+    {
+     "id": "faith-organizations",
+     "name": "Faith Organizations",
+     "industry": "Faith Organizations",
+     "ai_proof": 80,
+     "clarity": 31,
+     "digital": 6,
+     "why_ai": "Congregants come for a pastor and a gathered community; pastoral care is personal and consequential.",
+     "why_clarity": "Services recur weekly, but spiritual success is a matter of faith and never objectively checked.",
+     "why_digital": "Worship, care and volunteering happen in person in a local building."
+    },
+    {
+     "id": "k12-private-schools",
+     "name": "K-12 Private Schools",
+     "industry": "K-12 Private Schools",
+     "ai_proof": 80,
+     "clarity": 50,
+     "digital": 6,
+     "why_ai": "Families pay for in-person teaching, supervision of minors and a school community.",
+     "why_clarity": "Teaching quality is contested and outcomes show up years later in student lives.",
+     "why_digital": "Children taught in classrooms on a local campus that families choose in person."
+    },
+    {
+     "id": "behavioral-health-clinics",
+     "name": "Behavioral Health Clinics",
+     "industry": "Behavioral Health Clinics",
+     "ai_proof": 75,
+     "clarity": 38,
+     "digital": 38,
+     "why_ai": "Licensed therapists treat patients personally; the therapeutic relationship is the product and carries liability.",
+     "why_clarity": "Recovery is gradual and hard to measure; clinicians apply protocols differently case by case.",
+     "why_digital": "Sessions are conversations held in local offices or by telehealth, bought through local payer networks."
+    },
+    {
+     "id": "electrical-contractors",
+     "name": "Electrical Contractors",
+     "industry": "Electrical Contractors",
+     "ai_proof": 75,
+     "clarity": 62,
+     "digital": 6,
+     "why_ai": "Licensed electricians physically wire and repair systems on site under permit and inspection.",
+     "why_clarity": "Work passes inspection against the code, but diagnostic skill is tacit and jobs vary.",
+     "why_digital": "Physical installation and repair in buildings, hired locally."
+    },
+    {
+     "id": "funeral-homes",
+     "name": "Funeral Homes",
+     "industry": "Funeral Homes",
+     "ai_proof": 75,
+     "clarity": 56,
+     "digital": 6,
+     "why_ai": "Licensed directors care for the body and grieving families who choose them on trust.",
+     "why_clarity": "Funeral Rule pricing and case tasks are codified, but a good service is judged by feeling.",
+     "why_digital": "Bodies, services and family meetings are all physical and local."
+    },
+    {
+     "id": "general-contractors",
+     "name": "General Contractors",
+     "industry": "General Contractors",
+     "ai_proof": 75,
+     "clarity": 44,
+     "digital": 19,
+     "why_ai": "Licensed, bonded GCs direct field crews building physical structures with thin-margin estimating judgment.",
+     "why_clarity": "Each project is unique and true margin is known only at closeout.",
+     "why_digital": "Drawings are digital, but value is a physical building procured locally."
+    },
+    {
+     "id": "hvac-contractors",
+     "name": "HVAC Contractors",
+     "industry": "HVAC Contractors",
+     "ai_proof": 75,
+     "clarity": 62,
+     "digital": 6,
+     "why_ai": "Certified technicians physically install and repair equipment in attics, basements and rooftops.",
+     "why_clarity": "A system heats or cools or it does not, though diagnosis relies on technician feel.",
+     "why_digital": "Physical equipment in homes and buildings, serviced in person by local contractors."
+    }
+   ],
+   "bottom": [
+    {
+     "id": "qa-test-automation-vendors",
+     "name": "QA & Test Automation Vendors",
+     "industry": "QA & Test Automation Vendors",
+     "ai_proof": 15,
+     "clarity": 75,
+     "digital": 100,
+     "why_ai": "Writing and repairing tests is code work that AI coding agents increasingly do directly.",
+     "why_clarity": "Tests pass or fail instantly against codified frameworks, though cosmetic change versus regression blurs it.",
+     "why_digital": "Code and applications in, test software and results delivered online."
+    },
+    {
+     "id": "seo-tooling-vendors",
+     "name": "SEO Tooling Vendors",
+     "industry": "SEO Tooling Vendors",
+     "ai_proof": 15,
+     "clarity": 44,
+     "digital": 100,
+     "why_ai": "Generative answers broke the rank-to-traffic premise the category sells measurements of.",
+     "why_clarity": "Metrics stay accurate but no longer map to outcomes, so value is contested.",
+     "why_digital": "Crawls and clickstream data in, dashboards out, sold online worldwide."
+    },
+    {
+     "id": "vector-search-vendors",
+     "name": "Vector Search Vendors",
+     "industry": "Vector Search Vendors",
+     "ai_proof": 15,
+     "clarity": 75,
+     "digital": 100,
+     "why_ai": "Retrieval demand grows with AI, but the database is commoditising into pgvector and self-hosting.",
+     "why_clarity": "Latency, recall against brute force and cost per vector are objective benchmarks.",
+     "why_digital": "Infrastructure software sold and operated as a cloud service."
+    },
+    {
+     "id": "virtual-assistant-services",
+     "name": "Virtual Assistant Services",
+     "industry": "Virtual Assistant Services",
+     "ai_proof": 15,
+     "clarity": 56,
+     "digital": 100,
+     "why_ai": "Calendar, inbox, travel and CRM tasks over shared logins are exactly what AI agents now do.",
+     "why_clarity": "Tasks recur daily, but whether delegation saved the executive time is measured by nobody.",
+     "why_digital": "Assistants abroad work remotely through shared logins and messaging."
+    },
+    {
+     "id": "work-collaboration-tools",
+     "name": "Work Collaboration Tools",
+     "industry": "Work Collaboration Tools",
+     "ai_proof": 15,
+     "clarity": 56,
+     "digital": 100,
+     "why_ai": "Undifferentiated horizontal SaaS that AI-native agents and suites can replicate and absorb.",
+     "why_clarity": "Task tracking is defined, but whether work became visible has no agreed measure.",
+     "why_digital": "Software built and sold online, used entirely on screens."
+    },
+    {
+     "id": "crowdsourcing-platforms",
+     "name": "Crowdsourcing Platforms",
+     "industry": "Crowdsourcing Platforms",
+     "ai_proof": 10,
+     "clarity": 75,
+     "digital": 100,
+     "why_ai": "LLMs already replace much microtask labelling, and task distribution is simple software with no licence.",
+     "why_clarity": "Post, assign, submit and pay recur millions of times, though quality disputes resist objective checks.",
+     "why_digital": "Tasks, submissions and payments flow online to a globally distributed workforce."
+    },
+    {
+     "id": "data-labeling-services",
+     "name": "Data Labeling Services",
+     "industry": "Data Labeling Services",
+     "ai_proof": 10,
+     "clarity": 94,
+     "digital": 100,
+     "why_ai": "Commodity screen work that model-assisted pre-labelling and synthetic data steadily replace.",
+     "why_clarity": "Defined labels on huge volumes of near-identical tasks, checked by consensus and gold sets.",
+     "why_digital": "Data in, labels out, delivered by a remote workforce anywhere."
+    },
+    {
+     "id": "game-asset-marketplaces",
+     "name": "Game Asset Marketplaces",
+     "industry": "Game Asset Marketplaces",
+     "ai_proof": 10,
+     "clarity": 50,
+     "digital": 100,
+     "why_ai": "Generative tools produce game-ready models, textures and audio directly, substituting for stock asset purchases.",
+     "why_clarity": "Whether an asset fits a project's style and pipeline is a judgment made after purchase.",
+     "why_digital": "Digital files listed, sold and downloaded online by buyers worldwide."
+    },
+    {
+     "id": "localization-services",
+     "name": "Localization Services",
+     "industry": "Localization Services",
+     "ai_proof": 10,
+     "clarity": 75,
+     "digital": 100,
+     "why_ai": "Machine translation already does the core work, leaving post-editing that AI keeps absorbing.",
+     "why_clarity": "Segments recur by the million with codified error typologies, though market outcomes go unmeasured.",
+     "why_digital": "Source files in, translated files out, sourced from linguists anywhere."
+    },
+    {
+     "id": "security-awareness-training",
+     "name": "Security Awareness Training",
+     "industry": "Security Awareness Training",
+     "ai_proof": 10,
+     "clarity": 56,
+     "digital": 100,
+     "why_ai": "Simulated phishing and training modules are software and content that AI generates and personalizes.",
+     "why_clarity": "Click rates recur constantly, but nobody links them to real compromise.",
+     "why_digital": "Email simulations and online modules delivered entirely through SaaS."
+    },
+    {
+     "id": "stock-media-marketplaces",
+     "name": "Stock Media Marketplaces",
+     "industry": "Stock Media Marketplaces",
+     "ai_proof": 10,
+     "clarity": 62,
+     "digital": 100,
+     "why_ai": "Generative models now produce much of the routine commercial imagery the libraries sold.",
+     "why_clarity": "Hundreds of millions of assets licensed under repeatable terms, with mixed quality signals.",
+     "why_digital": "Digital media searched, licensed and delivered online worldwide."
+    },
+    {
+     "id": "technical-content-agencies",
+     "name": "Technical Content Agencies",
+     "industry": "Technical Content Agencies",
+     "ai_proof": 10,
+     "clarity": 50,
+     "digital": 100,
+     "why_ai": "Technical prose generated from product sources is what LLMs and generative search now produce.",
+     "why_clarity": "Whether a reader completed a task is unmeasured; pageviews are the only signal.",
+     "why_digital": "Code and specs in, documentation out, delivered by remote writers."
+    },
+    {
+     "id": "digital-bpo-operations",
+     "name": "Digital BPO Operations",
+     "industry": "Digital BPO Operations",
+     "ai_proof": 5,
+     "clarity": 69,
+     "digital": 100,
+     "why_ai": "Offshore support contacts and back-office processing are exactly what AI agents are already absorbing.",
+     "why_clarity": "Scripted contacts repeat by the million, but resolution is estimated from samples and surveys.",
+     "why_digital": "Contacts and back-office tasks are handled remotely on screens, often from abroad."
+    },
+    {
+     "id": "no-code-app-builders",
+     "name": "No-Code App Builders",
+     "industry": "No-Code App Builders",
+     "ai_proof": 5,
+     "clarity": 62,
+     "digital": 100,
+     "why_ai": "AI app generation directly substitutes drag-and-drop building, with no licence or relationship moat.",
+     "why_clarity": "An app either works or fails, though each build differs.",
+     "why_digital": "Software built and sold online, used entirely on screen."
+    },
+    {
+     "id": "scheduling-booking-platforms",
+     "name": "Scheduling & Booking Platforms",
+     "industry": "Scheduling & Booking Platforms",
+     "ai_proof": 5,
+     "clarity": 88,
+     "digital": 100,
+     "why_ai": "Self-service booking is commoditised, nearly free software that AI assistants can handle directly.",
+     "why_clarity": "An appointment is booked on a calendar or not, millions of times over.",
+     "why_digital": "Calendars and availability in, bookings out, sold as self-serve SaaS."
+    }
+   ]
+  },
+  "clarity": {
+   "median": 62,
+   "mean": 59.9,
+   "top": [
+    {
+     "id": "data-labeling-services",
+     "name": "Data Labeling Services",
+     "industry": "Data Labeling Services",
+     "ai_proof": 10,
+     "clarity": 94,
+     "digital": 100,
+     "why_ai": "Commodity screen work that model-assisted pre-labelling and synthetic data steadily replace.",
+     "why_clarity": "Defined labels on huge volumes of near-identical tasks, checked by consensus and gold sets.",
+     "why_digital": "Data in, labels out, delivered by a remote workforce anywhere."
+    },
+    {
+     "id": "esignature-document-workflow",
+     "name": "E-Signature & Document Workflow",
+     "industry": "E-Signature & Document Workflow",
+     "ai_proof": 20,
+     "clarity": 94,
+     "digital": 100,
+     "why_ai": "Commoditised screen software where AI agreement platforms absorb the workflow around a solved signature.",
+     "why_clarity": "An envelope is signed or not, at enormous volume, with completion rate as the metric.",
+     "why_digital": "Documents in, signed digital agreements out, sold and used entirely online."
+    },
+    {
+     "id": "gig-delivery-platforms",
+     "name": "Gig Delivery Platforms",
+     "industry": "Gig Delivery Platforms",
+     "ai_proof": 25,
+     "clarity": 94,
+     "digital": 50,
+     "why_ai": "Dispatch is already algorithmic, but couriers still physically carry orders and robots cover little by 2031.",
+     "why_clarity": "An order delivered on time is an exact, instantly checked outcome repeated millions of times.",
+     "why_digital": "Orders are digital and app-booked, but the value is a physical handoff at a door."
+    },
+    {
+     "id": "pharmacy-independents",
+     "name": "Independent Pharmacies",
+     "industry": "Independent Pharmacies",
+     "ai_proof": 70,
+     "clarity": 94,
+     "digital": 31,
+     "why_ai": "Licensed pharmacists must personally verify, dispense and counsel patients who know them.",
+     "why_clarity": "A correctly filled, verified prescription is an exact, checkable deliverable thousands of times.",
+     "why_digital": "E-prescriptions arrive digitally, but medication is dispensed and handed over in person."
+    },
+    {
+     "id": "last-mile-delivery",
+     "name": "Last-Mile Delivery",
+     "industry": "Last-Mile Delivery",
+     "ai_proof": 45,
+     "clarity": 94,
+     "digital": 12,
+     "why_ai": "Drivers physically carry packages to doors in unstructured places; autonomy will not cover most stops by 2031.",
+     "why_clarity": "Each package is delivered on time or not, with instant proof of delivery.",
+     "why_digital": "Physical packages carried to physical doors, contracted through carrier platforms."
+    },
+    {
+     "id": "payment-processors",
+     "name": "Payment Processors",
+     "industry": "Payment Processors",
+     "ai_proof": 30,
+     "clarity": 94,
+     "digital": 100,
+     "why_ai": "Regulated, network-connected payment rails stay essential and AI-driven commerce adds volume.",
+     "why_clarity": "Authorisation rate is one measurable number over billions of near-identical transactions.",
+     "why_digital": "Transactions in, authorisations and settlements out, all over networks."
+    },
+    {
+     "id": "payroll-platforms",
+     "name": "Payroll Platforms",
+     "industry": "Payroll Platforms",
+     "ai_proof": 25,
+     "clarity": 94,
+     "digital": 94,
+     "why_ai": "Screen-based software, protected by tax-jurisdiction content, money-movement plumbing and filing liability.",
+     "why_clarity": "Correct net pay and filings are exact, on a fixed recurring calendar.",
+     "why_digital": "Time and tax data in, payments and filings out, all electronic."
+    },
+    {
+     "id": "tax-prep-firms",
+     "name": "Tax Prep Firms",
+     "industry": "Tax Prep Firms",
+     "ai_proof": 30,
+     "clarity": 94,
+     "digital": 81,
+     "why_ai": "Paid preparers sign returns, but most returns are rule-based screen work that tax software automates.",
+     "why_clarity": "Tax law defines a correct return, and thousands of near-identical returns recur every season.",
+     "why_digital": "Documents in and e-filed returns out, though many clients still come in locally."
+    },
+    {
+     "id": "collections-agencies",
+     "name": "Collections Agencies",
+     "industry": "Collections Agencies",
+     "ai_proof": 15,
+     "clarity": 88,
+     "digital": 88,
+     "why_ai": "Scripted phone contact on commodity placements; AI voice agents can do it within Reg F.",
+     "why_clarity": "Dollars collected per account are exact and calls repeat by the thousand.",
+     "why_digital": "Account files and dialer calls; creditors place work remotely, often offshore."
+    },
+    {
+     "id": "contract-manufacturing",
+     "name": "Contract Manufacturing",
+     "industry": "Contract Manufacturing",
+     "ai_proof": 50,
+     "clarity": 88,
+     "digital": 19,
+     "why_ai": "Value is physical parts made on factory floors; AI cannot substitute production, though OEMs treat CMs as commodities.",
+     "why_clarity": "OEM specs define exact parts, processes are codified and runs repeat at scale.",
+     "why_digital": "Physical materials become physical goods on factory lines, though bidding and offshore sourcing are routine."
+    },
+    {
+     "id": "medical-billing",
+     "name": "Medical Billing",
+     "industry": "Medical Billing",
+     "ai_proof": 20,
+     "clarity": 88,
+     "digital": 94,
+     "why_ai": "Claims, denials and posting are rule-bound screen work that AI-native revenue cycle software targets directly.",
+     "why_clarity": "A claim is paid or denied, with codified payer rules across thousands of near-identical claims.",
+     "why_digital": "Claims, remittances and EHR data are worked entirely on screen, often for remote clients."
+    },
+    {
+     "id": "scheduling-booking-platforms",
+     "name": "Scheduling & Booking Platforms",
+     "industry": "Scheduling & Booking Platforms",
+     "ai_proof": 5,
+     "clarity": 88,
+     "digital": 100,
+     "why_ai": "Self-service booking is commoditised, nearly free software that AI assistants can handle directly.",
+     "why_clarity": "An appointment is booked on a calendar or not, millions of times over.",
+     "why_digital": "Calendars and availability in, bookings out, sold as self-serve SaaS."
+    },
+    {
+     "id": "warehouse-3pl",
+     "name": "Warehouse & 3PL",
+     "industry": "Warehouse & 3PL",
+     "ai_proof": 45,
+     "clarity": 88,
+     "digital": 19,
+     "why_ai": "Physical storage and handling of goods persists; robotics trims labour but shippers still pay 3PLs.",
+     "why_clarity": "Orders ship accurately and on time or not, across thousands of repeat picks.",
+     "why_digital": "Physical goods stored and moved by hand under a WMS; contracts tendered nationally."
+    },
+    {
+     "id": "ap-automation-vendors",
+     "name": "AP Automation Vendors",
+     "industry": "AP Automation Vendors",
+     "ai_proof": 20,
+     "clarity": 81,
+     "digital": 100,
+     "why_ai": "Screen-only invoice software whose remaining human exception queue is exactly what AI-native AP tools target.",
+     "why_clarity": "Invoices either match and pay correctly or they do not, across millions of near-identical cases.",
+     "why_digital": "Invoices, ERP data and payments are processed and sold entirely as cloud software."
+    },
+    {
+     "id": "bnpl-providers",
+     "name": "BNPL Providers",
+     "industry": "BNPL Providers",
+     "ai_proof": 25,
+     "clarity": 81,
+     "digital": 100,
+     "why_ai": "Approvals are already automated in milliseconds; only lending capital and regulation sustain the firm.",
+     "why_clarity": "Millions of near-identical approvals with repayment outcomes observed within six weeks.",
+     "why_digital": "Device and payment data in, credit inside an online checkout, consumers acquired remotely."
+    }
+   ],
+   "bottom": [
+    {
+     "id": "faith-organizations",
+     "name": "Faith Organizations",
+     "industry": "Faith Organizations",
+     "ai_proof": 80,
+     "clarity": 31,
+     "digital": 6,
+     "why_ai": "Congregants come for a pastor and a gathered community; pastoral care is personal and consequential.",
+     "why_clarity": "Services recur weekly, but spiritual success is a matter of faith and never objectively checked.",
+     "why_digital": "Worship, care and volunteering happen in person in a local building."
+    },
+    {
+     "id": "independent-publishers",
+     "name": "Independent Publishers",
+     "industry": "Independent Publishers",
+     "ai_proof": 35,
+     "clarity": 31,
+     "digital": 81,
+     "why_ai": "Acquisition taste and author relationships matter, but editing, design and metadata work is AI-exposed.",
+     "why_clarity": "Which manuscripts will sell is a taste bet revealed months after publication.",
+     "why_digital": "Manuscripts edited on screen become printed and digital books sold through reps and retailers."
+    },
+    {
+     "id": "news-media-local",
+     "name": "Local News Media",
+     "industry": "Local News Media",
+     "ai_proof": 40,
+     "clarity": 31,
+     "digital": 56,
+     "why_ai": "Original local reporting needs people at meetings and scenes, but AI summarisation erodes routine coverage.",
+     "why_clarity": "Story selection runs on editors' gut instinct with no agreed success measure.",
+     "why_digital": "Events and sources reported on site, produced in a CMS, sold to local advertisers."
+    },
+    {
+     "id": "membership-community-platforms",
+     "name": "Membership & Community Platforms",
+     "industry": "Membership & Community Platforms",
+     "ai_proof": 35,
+     "clarity": 31,
+     "digital": 100,
+     "why_ai": "Members pay for belonging among specific people, which AI-generated community cannot supply.",
+     "why_clarity": "Belonging is unmeasured; activity metrics correlate weakly with whether members feel connected.",
+     "why_digital": "Posts, events and payments run entirely on online platforms."
+    },
+    {
+     "id": "product-design-studios",
+     "name": "Product Design Studios",
+     "industry": "Product Design Studios",
+     "ai_proof": 25,
+     "clarity": 31,
+     "digital": 94,
+     "why_ai": "Screen-based design work that generative tools increasingly produce directly.",
+     "why_clarity": "Design arguments are settled by seniority because outcomes never return.",
+     "why_digital": "Figma files in, designs and systems out, sold to remote clients."
+    },
+    {
+     "id": "revops-consultancies",
+     "name": "RevOps Consultancies",
+     "industry": "RevOps Consultancies",
+     "ai_proof": 25,
+     "clarity": 31,
+     "digital": 100,
+     "why_ai": "Unlicensed systems configuration and advice that AI agents and AI-native revenue tools increasingly absorb.",
+     "why_clarity": "Recommendations argued from conviction and never graded against later pipeline results.",
+     "why_digital": "CRM and revenue systems configured and advised on entirely remotely."
+    },
+    {
+     "id": "streaming-video-platforms",
+     "name": "Streaming Video Platforms",
+     "industry": "Streaming Video Platforms",
+     "ai_proof": 30,
+     "clarity": 31,
+     "digital": 100,
+     "why_ai": "Delivery and recommendation automate, but nine-figure commissioning bets on unmade titles stay judgment-heavy.",
+     "why_clarity": "Nobody can attribute subscribers to titles, so content value is decided by instinct.",
+     "why_digital": "Video is licensed, recommended and streamed entirely online to remote subscribers."
+    },
+    {
+     "id": "threat-intelligence-vendors",
+     "name": "Threat Intelligence Vendors",
+     "industry": "Threat Intelligence Vendors",
+     "ai_proof": 35,
+     "clarity": 31,
+     "digital": 100,
+     "why_ai": "Adversarial source operations and attribution need human analysts, though feeds and reports automate.",
+     "why_clarity": "Value is unverifiable because success is an attack that never happened.",
+     "why_digital": "Collected from online sources and delivered as feeds and portal reports."
+    },
+    {
+     "id": "trade-associations",
+     "name": "Trade Associations",
+     "industry": "Trade Associations",
+     "ai_proof": 50,
+     "clarity": 31,
+     "digital": 50,
+     "why_ai": "Members pay for community, in-person gatherings and collective advocacy, which AI does not substitute.",
+     "why_clarity": "Member value and dues ROI are hard to define, and retention drift shows only at renewal.",
+     "why_digital": "Mix of in-person conferences and lobbying with digital newsletters, directories and dues."
+    },
+    {
+     "id": "developer-relations-agencies",
+     "name": "Developer Relations Agencies",
+     "industry": "Developer Relations Agencies",
+     "ai_proof": 40,
+     "clarity": 25,
+     "digital": 81,
+     "why_ai": "Developers adopt tools explained by a credible person in talks and workshops, which AI cannot stand in for.",
+     "why_clarity": "Advocacy impact has no agreed metric and adoption shows up months later, unattributed.",
+     "why_digital": "Code and content work on screen, with conference talks and workshops delivered in person."
+    },
+    {
+     "id": "marketing-attribution-vendors",
+     "name": "Marketing Attribution Vendors",
+     "industry": "Marketing Attribution Vendors",
+     "ai_proof": 30,
+     "clarity": 25,
+     "digital": 100,
+     "why_ai": "Causal questions from observational data need judgement, but open-source models and AI-native tools commoditise delivery.",
+     "why_clarity": "No accepted way exists to check whether any channel-contribution answer is right.",
+     "why_digital": "Spend and conversion data in, models and dashboards out, sold remotely."
+    },
+    {
+     "id": "private-equity-firms",
+     "name": "Private Equity Firms",
+     "industry": "Private Equity Firms",
+     "ai_proof": 65,
+     "clarity": 25,
+     "digital": 50,
+     "why_ai": "LPs commit to specific partners' judgment on rare, high-stakes deals with fiduciary accountability.",
+     "why_clarity": "Each deal is a one-off bet and fund returns are known only years after investment.",
+     "why_digital": "Data rooms and models on screen, but deals are won and run in person through relationships."
+    },
+    {
+     "id": "tattoo-studios",
+     "name": "Tattoo Studios",
+     "industry": "Tattoo Studios",
+     "ai_proof": 75,
+     "clarity": 25,
+     "digital": 6,
+     "why_ai": "Clients pay a specific artist to tattoo their skin by hand.",
+     "why_clarity": "Good work is a matter of taste and every custom piece differs.",
+     "why_digital": "Ink applied to bodies in person; Instagram drives local discovery."
+    },
+    {
+     "id": "fractional-cto-services",
+     "name": "Fractional CTO Services",
+     "industry": "Fractional CTO Services",
+     "ai_proof": 55,
+     "clarity": 19,
+     "digital": 75,
+     "why_ai": "Clients hire a specific leader for consequential calls on undocumented systems; AI erodes the assessment work.",
+     "why_clarity": "Recommendations are judgement calls the practitioner rarely learns were right.",
+     "why_digital": "Code and documents read on screens; team interviews and leadership often in person, hired by referral."
+    },
+    {
+     "id": "indie-game-studios",
+     "name": "Indie Game Studios",
+     "industry": "Indie Game Studios",
+     "ai_proof": 35,
+     "clarity": 6,
+     "digital": 100,
+     "why_ai": "Each game is a novel creative bet, though generative tools cut production cost and flood stores.",
+     "why_clarity": "Fun is taste, every game is one-off, and the verdict arrives at launch years later.",
+     "why_digital": "Games are built in engines and sold through online stores worldwide."
+    }
+   ]
+  },
+  "digital": {
+   "median": 88,
+   "mean": 66.2,
+   "top": [
+    {
+     "id": "ai-agent-platforms",
+     "name": "AI Agent Platforms",
+     "industry": "AI Agent Platforms",
+     "ai_proof": 30,
+     "clarity": 44,
+     "digital": 100,
+     "why_ai": "Pure software sold on outcomes; demand grows with AI though model labs squeeze the platform layer.",
+     "why_clarity": "Task completion is measurable but nobody can predict reliability, and fixes are case-by-case patches.",
+     "why_digital": "Code, models and connectors built and delivered on screens, sold remotely to engineering teams."
+    },
+    {
+     "id": "ai-inference-providers",
+     "name": "AI Inference Providers",
+     "industry": "AI Inference Providers",
+     "ai_proof": 35,
+     "clarity": 69,
+     "digital": 100,
+     "why_ai": "Unlicensed screen work on rented hardware, but AI demand itself grows the market for serving.",
+     "why_clarity": "Latency and cost per token are measured instantly; kernel and capacity work stays expert craft.",
+     "why_digital": "Models and requests in, tokens out over an API, bought remotely by engineering teams."
+    },
+    {
+     "id": "ai-model-evaluation-firms",
+     "name": "AI Model Evaluation Firms",
+     "industry": "AI Model Evaluation Firms",
+     "ai_proof": 45,
+     "clarity": 44,
+     "digital": 100,
+     "why_ai": "Adversarial contamination problem and growing demand for independent measurement as models multiply.",
+     "why_clarity": "Scores are numbers, but their validity is unknowable while training data stays undisclosed.",
+     "why_digital": "Models, benchmarks and reports are all software, bought remotely by labs and enterprises."
+    },
+    {
+     "id": "ai-red-teaming-firms",
+     "name": "AI Red Teaming Firms",
+     "industry": "AI Red Teaming Firms",
+     "ai_proof": 45,
+     "clarity": 31,
+     "digital": 100,
+     "why_ai": "Adversarial, novel probing of models; demand grows with AI though automated suites take the breadth work.",
+     "why_clarity": "Coverage is unmeasurable, so a clean report cannot be checked against any agreed standard.",
+     "why_digital": "Models are probed, findings recorded and reports delivered entirely online to remote clients."
+    },
+    {
+     "id": "ap-automation-vendors",
+     "name": "AP Automation Vendors",
+     "industry": "AP Automation Vendors",
+     "ai_proof": 20,
+     "clarity": 81,
+     "digital": 100,
+     "why_ai": "Screen-only invoice software whose remaining human exception queue is exactly what AI-native AP tools target.",
+     "why_clarity": "Invoices either match and pay correctly or they do not, across millions of near-identical cases.",
+     "why_digital": "Invoices, ERP data and payments are processed and sold entirely as cloud software."
+    },
+    {
+     "id": "api-infrastructure-providers",
+     "name": "API Infrastructure Providers",
+     "industry": "API Infrastructure Providers",
+     "ai_proof": 25,
+     "clarity": 56,
+     "digital": 100,
+     "why_ai": "Pure software infrastructure; AI agent traffic sustains demand but tooling layers are easily rebuilt AI-native.",
+     "why_clarity": "Routing and policy are well specified, but change safety and pricing remain judgment calls.",
+     "why_digital": "Software sold to developers, built and delivered entirely online."
+    },
+    {
+     "id": "affiliate-networks",
+     "name": "Affiliate Networks",
+     "industry": "Affiliate Networks",
+     "ai_proof": 15,
+     "clarity": 56,
+     "digital": 100,
+     "why_ai": "Unlicensed software marketplace; tracking, payouts and partner admin are all code AI-native platforms can rebuild.",
+     "why_clarity": "Every sale is tracked and paid by rule, but whether commissions bought incremental sales is unverified.",
+     "why_digital": "Clicks, cookies, commissions and partner deals all live and are sold online."
+    },
+    {
+     "id": "app-marketing-firms",
+     "name": "App Marketing Firms",
+     "industry": "App Marketing Firms",
+     "ai_proof": 20,
+     "clarity": 62,
+     "digital": 100,
+     "why_ai": "Screen-based media buying with no licence; ad platforms already automate bidding and creative selection.",
+     "why_clarity": "Payback and ROAS are measurable targets, but attribution is noisy and value arrives months later.",
+     "why_digital": "Data in, dashboards and ad platforms for production, digital campaigns out, bought remotely."
+    },
+    {
+     "id": "bi-analytics-platforms",
+     "name": "BI & Analytics Platforms",
+     "industry": "BI & Analytics Platforms",
+     "ai_proof": 20,
+     "clarity": 50,
+     "digital": 100,
+     "why_ai": "Unlicensed screen software whose dashboards and queries AI-native analytics tools increasingly generate directly.",
+     "why_clarity": "Correct numbers are checkable, but metric definitions are contested and each estate is configured differently.",
+     "why_digital": "Data in, software built and sold remotely, delivered as online dashboards."
+    },
+    {
+     "id": "bnpl-providers",
+     "name": "BNPL Providers",
+     "industry": "BNPL Providers",
+     "ai_proof": 25,
+     "clarity": 81,
+     "digital": 100,
+     "why_ai": "Approvals are already automated in milliseconds; only lending capital and regulation sustain the firm.",
+     "why_clarity": "Millions of near-identical approvals with repayment outcomes observed within six weeks.",
+     "why_digital": "Device and payment data in, credit inside an online checkout, consumers acquired remotely."
+    },
+    {
+     "id": "brand-protection-firms",
+     "name": "Brand Protection Firms",
+     "industry": "Brand Protection Firms",
+     "ai_proof": 25,
+     "clarity": 56,
+     "digital": 100,
+     "why_ai": "Scanning listings and filing notices at scale is screen work AI-native vendors absorb.",
+     "why_clarity": "Takedowns are counted precisely but whether counterfeit sales fell is never measured.",
+     "why_digital": "Marketplace data in, platform notices and dashboards out, sold globally online."
+    },
+    {
+     "id": "bug-bounty-platforms",
+     "name": "Bug Bounty Platforms",
+     "industry": "Bug Bounty Platforms",
+     "ai_proof": 30,
+     "clarity": 56,
+     "digital": 100,
+     "why_ai": "Marketplace mechanics are software, but telling real findings from plausible ones still needs qualified security judgment.",
+     "why_clarity": "Valid findings can be reproduced, yet whether programme spend bought security is never measured.",
+     "why_digital": "Submissions, triage, payouts and disclosure all happen online with researchers worldwide."
+    },
+    {
+     "id": "ci-cd-platforms",
+     "name": "CI/CD Platforms",
+     "industry": "CI/CD Platforms",
+     "ai_proof": 25,
+     "clarity": 81,
+     "digital": 100,
+     "why_ai": "Pipeline infrastructure is not replaced by AI, and AI-written code raises build volume; operation is routine.",
+     "why_clarity": "Every run records pass, fail, duration and cost against the change that triggered it.",
+     "why_digital": "Code in, builds and deployments out, bought online from remote vendors."
+    },
+    {
+     "id": "crm-platforms",
+     "name": "CRM Platforms",
+     "industry": "CRM Platforms",
+     "ai_proof": 15,
+     "clarity": 56,
+     "digital": 100,
+     "why_ai": "Unlicensed SaaS whose record lock-in helps, but AI-native CRMs can automate data entry and forecasting.",
+     "why_clarity": "Records and forecasts recur constantly, but CRM value is diffuse and forecasts are overridden by gut.",
+     "why_digital": "Software built, sold and delivered entirely online to revenue teams."
+    },
+    {
+     "id": "cloud-cost-management",
+     "name": "Cloud Cost Management",
+     "industry": "Cloud Cost Management",
+     "ai_proof": 15,
+     "clarity": 69,
+     "digital": 100,
+     "why_ai": "Converged billing-report software that hyperscaler tools and AI agents can replicate from the same export.",
+     "why_clarity": "Savings show on the next monthly bill, though methods for driving engineering action vary.",
+     "why_digital": "Billing exports are ingested and analysed as cloud software sold remotely."
+    }
+   ],
+   "bottom": [
+    {
+     "id": "oil-gas-field-services",
+     "name": "Oil & Gas Field Services",
+     "industry": "Oil & Gas Field Services",
+     "ai_proof": 70,
+     "clarity": 69,
+     "digital": 6,
+     "why_ai": "Crews repair pumps and run services at remote wellsites under HSE rules, diagnosing by sound and feel.",
+     "why_clarity": "A well is back producing or not, though diagnosis relies on technicians' accumulated sensory judgement.",
+     "why_digital": "Work happens on physical equipment at scattered wellsites, recorded on handwritten field tickets."
+    },
+    {
+     "id": "painting-contractors",
+     "name": "Painting Contractors",
+     "industry": "Painting Contractors",
+     "ai_proof": 60,
+     "clarity": 69,
+     "digital": 6,
+     "why_ai": "Prep and painting happen by hand on site in occupied homes and buildings.",
+     "why_clarity": "Surfaces and coats are specified and repeat, though prep failures show months later.",
+     "why_digital": "Physical surfaces painted on site for local customers found through lead platforms."
+    },
+    {
+     "id": "pest-control",
+     "name": "Pest Control",
+     "industry": "Pest Control",
+     "ai_proof": 75,
+     "clarity": 62,
+     "digital": 6,
+     "why_ai": "Licensed applicators crawl attics and crawlspaces to diagnose and treat infestations on site.",
+     "why_clarity": "Elimination is checkable by callbacks, but diagnosis relies on tacit sign-reading.",
+     "why_digital": "Work starts from physical evidence in homes and is delivered by hand locally."
+    },
+    {
+     "id": "pet-services",
+     "name": "Pet Services",
+     "industry": "Pet Services",
+     "ai_proof": 70,
+     "clarity": 56,
+     "digital": 6,
+     "why_ai": "Grooming, walking and supervising dog groups is hands-on animal care owners entrust to specific people.",
+     "why_clarity": "Daily care routines repeat, but grooming style and group play safety rely on reading animals.",
+     "why_digital": "Animals are handled in person at facilities, homes and on walks, booked locally."
+    },
+    {
+     "id": "physical-therapy",
+     "name": "Physical Therapy",
+     "industry": "Physical Therapy",
+     "ai_proof": 85,
+     "clarity": 50,
+     "digital": 6,
+     "why_ai": "Licensed therapists treat patients hands-on and carry personal clinical liability.",
+     "why_clarity": "Standard outcome tests exist, but recovery varies by patient and unfolds over weeks.",
+     "why_digital": "Treatment is delivered in person on the patient's body in a clinic."
+    },
+    {
+     "id": "plumbing-contractors",
+     "name": "Plumbing Contractors",
+     "industry": "Plumbing Contractors",
+     "ai_proof": 75,
+     "clarity": 62,
+     "digital": 6,
+     "why_ai": "Licensed plumbers diagnose and repair by hand inside walls, slabs and crawlspaces.",
+     "why_clarity": "A fix works or leaks quickly, but diagnosis relies on multi-sensory tacit skill.",
+     "why_digital": "Pipes and fixtures in homes, sold by phone to local customers."
+    },
+    {
+     "id": "roofing-contractors",
+     "name": "Roofing Contractors",
+     "industry": "Roofing Contractors",
+     "ai_proof": 70,
+     "clarity": 69,
+     "digital": 6,
+     "why_ai": "Crews tear off and install roofs by hand on varied, dangerous sites; demand is weather-driven and persistent.",
+     "why_clarity": "A watertight roof built to manufacturer specs is checkable, though leaks may surface only after storms.",
+     "why_digital": "Physical roofs in, installed by hand, sold locally through referrals and door knocking."
+    },
+    {
+     "id": "security-guard-firms",
+     "name": "Security Guard Firms",
+     "industry": "Security Guard Firms",
+     "ai_proof": 50,
+     "clarity": 62,
+     "digital": 6,
+     "why_ai": "Licensed guards must be physically present, though remote video increasingly replaces guard hours.",
+     "why_clarity": "Post coverage repeats endlessly, but whether deterrence worked is rarely knowable.",
+     "why_digital": "Bodies on site at physical posts, bought through local contracts."
+    },
+    {
+     "id": "specialty-food-retail",
+     "name": "Specialty Food Retail",
+     "industry": "Specialty Food Retail",
+     "ai_proof": 65,
+     "clarity": 56,
+     "digital": 6,
+     "why_ai": "Perishable food is cut, baked and sold over the counter by knowledgeable staff customers seek out.",
+     "why_clarity": "Daily sales repeat, but ordering runs on owner intuition and counter expertise.",
+     "why_digital": "Physical perishable goods sold face to face in local stores."
+    },
+    {
+     "id": "tattoo-studios",
+     "name": "Tattoo Studios",
+     "industry": "Tattoo Studios",
+     "ai_proof": 75,
+     "clarity": 25,
+     "digital": 6,
+     "why_ai": "Clients pay a specific artist to tattoo their skin by hand.",
+     "why_clarity": "Good work is a matter of taste and every custom piece differs.",
+     "why_digital": "Ink applied to bodies in person; Instagram drives local discovery."
+    },
+    {
+     "id": "towing-companies",
+     "name": "Towing Companies",
+     "industry": "Towing Companies",
+     "ai_proof": 65,
+     "clarity": 69,
+     "digital": 6,
+     "why_ai": "Drivers hook and haul vehicles on roadsides at all hours; no software moves a car.",
+     "why_clarity": "A vehicle towed on time is checkable, though truck choice and rigging rely on experience.",
+     "why_digital": "Physical vehicles moved from local roadsides by trucks dispatched over phone and radio."
+    },
+    {
+     "id": "urgent-care",
+     "name": "Urgent Care Centers",
+     "industry": "Urgent Care Centers",
+     "ai_proof": 65,
+     "clarity": 69,
+     "digital": 6,
+     "why_ai": "Licensed clinicians examine, test and treat walk-in patients in person.",
+     "why_clarity": "Common presentations follow protocols across high volumes of short visits.",
+     "why_digital": "Patients walk in, are examined by hand and treated on site locally."
+    },
+    {
+     "id": "utility-contractors",
+     "name": "Utility Contractors",
+     "industry": "Utility Contractors",
+     "ai_proof": 70,
+     "clarity": 75,
+     "digital": 6,
+     "why_ai": "Certified crews dig, bore and climb to build and repair live infrastructure in the field.",
+     "why_clarity": "Unit-priced tasks follow strict safety codes and are inspected on completion.",
+     "why_digital": "Work is excavation and line construction, won through regional utility bids."
+    },
+    {
+     "id": "veterinary-practices",
+     "name": "Veterinary Practices",
+     "industry": "Veterinary Practices",
+     "ai_proof": 90,
+     "clarity": 56,
+     "digital": 6,
+     "why_ai": "Licensed vets examine, diagnose and operate on animals in person across dozens of species.",
+     "why_clarity": "Wellness visits recur, but multi-species diagnosis varies by clinician and outcomes are often uncertain.",
+     "why_digital": "Care is delivered hands-on in local clinics to clients who bring their pets in."
+    },
+    {
+     "id": "vocational-schools",
+     "name": "Vocational Schools",
+     "industry": "Vocational Schools",
+     "ai_proof": 60,
+     "clarity": 62,
+     "digital": 6,
+     "why_ai": "Instructors teach trades hands-on in shops under accreditation, and demand for trade skills keeps growing.",
+     "why_clarity": "Placement and certification rates are measurable, but rubrics vary by instructor and jobs come months later.",
+     "why_digital": "Students learn with tools and equipment in person, recruited from the local area."
+    }
+   ]
+  },
+  "rho_clarity_ai_proof": -0.15,
+  "rho_digital_ai_proof": -0.82,
+  "rho_digital_clarity": -0.02
+ },
+ "subniches": {
+  "ai_proof": {
+   "median": 30,
+   "mean": 32.8,
+   "top": [
+    {
+     "id": "physical-therapy/cash-pay-direct-access",
+     "name": "Cash-Pay / Direct-Access PT",
+     "industry": "Physical Therapy",
+     "ai_proof": 95,
+     "clarity": 44,
+     "digital": 6,
+     "why_ai": "Patients pay out of pocket for a specific therapist who examines and treats them without referral.",
+     "why_clarity": "Longer bespoke sessions vary by patient, and recovery shows over weeks.",
+     "why_digital": "Hands-on care in a small clinic, marketed directly to local consumers."
+    },
+    {
+     "id": "hoa-management/construction-defect-forensic-engineering",
+     "name": "Construction Defect Forensic Engineering",
+     "industry": "HOA Management",
+     "ai_proof": 95,
+     "clarity": 38,
+     "digital": 31,
+     "why_ai": "Licensed engineers investigate buildings on site and testify in defect litigation.",
+     "why_clarity": "Each building failure is novel and findings are contested in court.",
+     "why_digital": "Physical buildings investigated in person; reports are the digital output."
+    },
+    {
+     "id": "veterinary-practices/exotic-animal",
+     "name": "Exotic Animal",
+     "industry": "Veterinary Practices",
+     "ai_proof": 95,
+     "clarity": 25,
+     "digital": 6,
+     "why_ai": "Each species has unique physiology and thin references, so licensed hands-on care is novel every case.",
+     "why_clarity": "Few established reference ranges or formularies exist for reptiles, birds and small mammals.",
+     "why_digital": "Exams and treatment are in person at the clinic."
+    },
+    {
+     "id": "k12-private-schools/learning-difference-schools",
+     "name": "Learning Difference & Special Needs Schools",
+     "industry": "K-12 Private Schools",
+     "ai_proof": 95,
+     "clarity": 44,
+     "digital": 6,
+     "why_ai": "Specialists deliver individualized in-person instruction and therapy to vulnerable children.",
+     "why_clarity": "Goal frameworks exist, but each child's plan and progress differ.",
+     "why_digital": "Hands-on instruction and therapy in classrooms families visit."
+    },
+    {
+     "id": "veterinary-practices/mixed-animal-rural",
+     "name": "Mixed Animal Rural",
+     "industry": "Veterinary Practices",
+     "ai_proof": 95,
+     "clarity": 50,
+     "digital": 0,
+     "why_ai": "The only vet for miles handles pets and livestock on farms and in clinic under licence.",
+     "why_clarity": "Dual-species caseloads mean varied cases, from vaccines to emergency C-sections.",
+     "why_digital": "Hands-on care across clinic and farm calls in low-connectivity rural areas."
+    },
+    {
+     "id": "dental-practices/pediatric-dental",
+     "name": "Pediatric Dental Specialists",
+     "industry": "Dental Practices",
+     "ai_proof": 95,
+     "clarity": 62,
+     "digital": 6,
+     "why_ai": "Board-certified specialists treat children hands-on, managing behaviour and sedation that parents trust them with.",
+     "why_clarity": "Procedures are protocol-based, but behaviour management varies by child and practitioner.",
+     "why_digital": "In-person care in local offices chosen by parents through referrals."
+    },
+    {
+     "id": "home-health-agencies/pediatric-home-health",
+     "name": "Pediatric Home Health",
+     "industry": "Home Health Agencies",
+     "ai_proof": 95,
+     "clarity": 44,
+     "digital": 6,
+     "why_ai": "Nurses run long shifts caring for ventilator-dependent children with families as co-caregivers.",
+     "why_clarity": "Each child's medical complexity and family setup make care highly individual.",
+     "why_digital": "Shift nursing happens in homes and schools, entirely in person."
+    },
+    {
+     "id": "physical-therapy/pediatric-pt",
+     "name": "Pediatric PT Providers",
+     "industry": "Physical Therapy",
+     "ai_proof": 95,
+     "clarity": 38,
+     "digital": 6,
+     "why_ai": "Licensed therapists handle children with complex conditions, chosen by parents they trust.",
+     "why_clarity": "Developmental progress is slow, variable and measured on long horizons.",
+     "why_digital": "Care happens in person at clinics, homes and schools."
+    },
+    {
+     "id": "physical-therapy/pelvic-floor-specialists",
+     "name": "Pelvic Floor PT Specialists",
+     "industry": "Physical Therapy",
+     "ai_proof": 95,
+     "clarity": 44,
+     "digital": 6,
+     "why_ai": "Internal examinations of sensitive, often traumatised patients depend on a trusted licensed specialist.",
+     "why_clarity": "Assessments are specialised and each patient's presentation and recovery differ.",
+     "why_digital": "Intimate hands-on treatment delivered in a private clinic."
+    },
+    {
+     "id": "childcare-centers/special-needs-inclusive",
+     "name": "Special Needs Inclusive Programs",
+     "industry": "Childcare Centers",
+     "ai_proof": 95,
+     "clarity": 38,
+     "digital": 6,
+     "why_ai": "Individualised hands-on care for children with disabilities by licensed staff families trust.",
+     "why_clarity": "Each child's accommodations differ and progress is judged slowly against individual plans.",
+     "why_digital": "Care and therapy coordination happen in person in a local centre."
+    },
+    {
+     "id": "land-surveyors/tribal-federal-lands",
+     "name": "Tribal & Federal Land Surveys",
+     "industry": "Land Surveyors",
+     "ai_proof": 95,
+     "clarity": 44,
+     "digital": 19,
+     "why_ai": "Remote fieldwork under treaty and federal law needs licensed specialists trusted by tribes.",
+     "why_clarity": "The BLM Manual prescribes procedures, but each case is legally unique.",
+     "why_digital": "Paper archives and remote fieldwork for federal and tribal offices."
+    },
+    {
+     "id": "land-surveyors/boundary-expert-witness",
+     "name": "Boundary Retracement Expert Witnesses",
+     "industry": "Land Surveyors",
+     "ai_proof": 90,
+     "clarity": 19,
+     "digital": 38,
+     "why_ai": "A named licensed expert testifies in adversarial boundary litigation decided by courts.",
+     "why_clarity": "Each dispute is one-off, and the answer is whatever the court rules.",
+     "why_digital": "Deeds and monuments researched, then delivered as testimony in person."
+    },
+    {
+     "id": "faith-organizations/church-preschool-operators",
+     "name": "Church Preschool Operators",
+     "industry": "Faith Organizations",
+     "ai_proof": 90,
+     "clarity": 50,
+     "digital": 6,
+     "why_ai": "Licensed teachers physically care for young children, which parents entrust only to known people.",
+     "why_clarity": "Daily routines recur under licensing rules, but child development outcomes are slow and soft.",
+     "why_digital": "Care is delivered in person in church classrooms to local families."
+    },
+    {
+     "id": "veterinary-practices/companion-animal-general",
+     "name": "Companion Animal General Practice",
+     "industry": "Veterinary Practices",
+     "ai_proof": 90,
+     "clarity": 56,
+     "digital": 6,
+     "why_ai": "The owner-vet personally examines, treats and operates on pets under licence.",
+     "why_clarity": "Vaccinations and wellness exams repeat, but diagnosis and treatment vary by case.",
+     "why_digital": "Hands-on exam-room and surgical care for local clients."
+    },
+    {
+     "id": "childcare-centers/family-childcare-homes",
+     "name": "Family Childcare Homes",
+     "industry": "Childcare Centers",
+     "ai_proof": 90,
+     "clarity": 50,
+     "digital": 6,
+     "why_ai": "A licensed provider personally cares for children in their own home; parents pick the person.",
+     "why_clarity": "Daily routines repeat, but care quality is judged loosely and outcomes appear years later.",
+     "why_digital": "Hands-on care in a home, found through local referrals and word of mouth."
+    }
+   ],
+   "bottom": [
+    {
+     "id": "technical-content-agencies/style-and-terminology",
+     "name": "Style & Terminology Consistency",
+     "industry": "Technical Content Agencies",
+     "ai_proof": 0,
+     "clarity": 94,
+     "digital": 100,
+     "why_ai": "Terminology enforcement is linting work that language models do mechanically.",
+     "why_clarity": "Style rules and term lists give instant pass or fail on each sentence.",
+     "why_digital": "Text corpus in, linted and corrected text out."
+    },
+    {
+     "id": "bug-bounty-platforms/submission-deduplication",
+     "name": "Submission Deduplication & Filtering",
+     "industry": "Bug Bounty Platforms",
+     "ai_proof": 0,
+     "clarity": 94,
+     "digital": 100,
+     "why_ai": "Duplicate, scanner-output and out-of-scope filtering is matching and classification needing no security expertise.",
+     "why_clarity": "Each submission either matches a prior one or scope list or it does not.",
+     "why_digital": "Text submissions matched against a digital archive of prior reports."
+    },
+    {
+     "id": "procurement-spend-platforms/supplier-side-tools",
+     "name": "Supplier-Side Tools",
+     "industry": "Procurement & Spend Platforms",
+     "ai_proof": 0,
+     "clarity": 94,
+     "digital": 100,
+     "why_ai": "Onboarding, catalogue upkeep and invoice submission repeat across buyers and automate directly.",
+     "why_clarity": "Each portal task is accepted by the buyer system or rejected.",
+     "why_digital": "Supplier portals, catalogues and invoices are all online."
+    },
+    {
+     "id": "scheduling-booking-platforms/team-and-enterprise-scheduling",
+     "name": "Team & Enterprise Scheduling",
+     "industry": "Scheduling & Booking Platforms",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Calendars, round-robin rules and constraints are machine-readable and solved automatically.",
+     "why_clarity": "A meeting is placed with the right people at a valid time or not.",
+     "why_digital": "Internal calendars in and booked meetings out, sold as SaaS."
+    },
+    {
+     "id": "work-collaboration-tools/template-and-process-content",
+     "name": "Template & Process Content",
+     "industry": "Work Collaboration Tools",
+     "ai_proof": 0,
+     "clarity": 62,
+     "digital": 100,
+     "why_ai": "A team's real process is inferable from activity, so templates can be generated automatically.",
+     "why_clarity": "Template retention past the first month is a clear measure, though fit is subjective.",
+     "why_digital": "Activity data in, templates and onboarding content out."
+    },
+    {
+     "id": "newsletter-media/the-ad-ops-manager",
+     "name": "The Ad Operations Manager",
+     "industry": "Newsletter Media",
+     "ai_proof": 0,
+     "clarity": 88,
+     "digital": 100,
+     "why_ai": "Calendar, insertion, proofing and sponsor reports are almost entirely mechanical.",
+     "why_clarity": "Each placement and report is a defined, repeated deliverable checked against the sponsor order.",
+     "why_digital": "Creative, copy, sends and reports handled entirely on screen."
+    },
+    {
+     "id": "programmatic-ad-platforms/the-ad-operations-specialist",
+     "name": "The Ad Operations Specialist",
+     "industry": "Programmatic Ad Platforms",
+     "ai_proof": 0,
+     "clarity": 94,
+     "digital": 100,
+     "why_ai": "Discrepancies have six known causes diagnosable from data the systems already emit.",
+     "why_clarity": "The same monthly reconciliation repeats with finite, enumerable causes.",
+     "why_digital": "Three systems' reports in, reconciliations out, all in spreadsheets."
+    },
+    {
+     "id": "soc2-audit-firms/the-audit-associate",
+     "name": "The Audit Associate",
+     "industry": "SOC 2 & Attestation Audit Firms",
+     "ai_proof": 0,
+     "clarity": 94,
+     "digital": 100,
+     "why_ai": "Sending requests and checking files against control descriptions is mechanical work.",
+     "why_clarity": "The same check repeats across dozens of controls and engagements.",
+     "why_digital": "Workpapers and request lists handled entirely on screen."
+    },
+    {
+     "id": "recruiting-tech-vendors/the-candidate-in-pipeline",
+     "name": "The Candidate in the Pipeline",
+     "industry": "Recruiting Tech Vendors",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Telling candidates their status is a configuration of transitions the ATS already records.",
+     "why_clarity": "Every status change is a recorded event that either triggers a message or does not.",
+     "why_digital": "Status data in, candidate notifications out."
+    },
+    {
+     "id": "d2c-brand-operators/the-customer-experience-agent",
+     "name": "The Customer Experience Agent",
+     "industry": "D2C Brand Operators",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Most volume is a tracking lookup that needs no person.",
+     "why_clarity": "Where-is-my-order answers are exact lookups repeated all day.",
+     "why_digital": "Order and carrier data in, chat or email answers out."
+    },
+    {
+     "id": "seo-tooling-vendors/the-small-site-owner",
+     "name": "The Small Site Owner",
+     "industry": "SEO Tooling Vendors",
+     "ai_proof": 0,
+     "clarity": 62,
+     "digital": 100,
+     "why_ai": "Monthly SEO advice for small businesses can be fully generated by AI.",
+     "why_clarity": "A short list of recurring actions is easy to specify, with traffic results visible within weeks.",
+     "why_digital": "Site data in, generated advice out, delivered online to small businesses."
+    },
+    {
+     "id": "trust-safety-tooling-vendors/threshold-optimisation",
+     "name": "Threshold Optimisation",
+     "industry": "Trust & Safety Tooling Vendors",
+     "ai_proof": 0,
+     "clarity": 94,
+     "digital": 100,
+     "why_ai": "Given stated costs and score distributions, the optimal threshold is a computation software maintains.",
+     "why_clarity": "A known optimisation with a computable answer, testable against outcomes.",
+     "why_digital": "Score distributions in, thresholds out."
+    },
+    {
+     "id": "it-staffing-firms/timesheet-billing-reconciliation",
+     "name": "Timesheet & Billing Reconciliation",
+     "industry": "IT Staffing Firms",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 94,
+     "why_ai": "Approved hours times bill rate with defined adjustments is deterministic software work.",
+     "why_clarity": "Every invoice line reconciles exactly to timesheets and rate rules.",
+     "why_digital": "Timesheets in and invoices out, entirely in billing software."
+    },
+    {
+     "id": "robo-advisors/transfers-and-funding",
+     "name": "Transfers & Funding",
+     "industry": "Robo-Advisors",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Detecting stalled transfers and stopped contributions is event monitoring software performs directly.",
+     "why_clarity": "A transfer completes or stalls, and a contribution arrives or stops.",
+     "why_digital": "Transfer and funding events handled entirely online."
+    },
+    {
+     "id": "data-platform-integrators/usage-instrumentation",
+     "name": "Usage Instrumentation",
+     "industry": "Data Platform Integrators",
+     "ai_proof": 0,
+     "clarity": 81,
+     "digital": 100,
+     "why_ai": "Joining query logs, lineage and cost data is a reporting job software performs.",
+     "why_clarity": "Usage counts are objective facts from logs the platform already emits.",
+     "why_digital": "Platform telemetry joined into a reporting product."
+    }
+   ]
+  },
+  "clarity": {
+   "median": 69,
+   "mean": 66.1,
+   "top": [
+    {
+     "id": "talent-assessment-platforms/ats-integration",
+     "name": "ATS Integration & Score Plumbing",
+     "industry": "Talent Assessment Platforms",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Passing scores and context into applicant tracking systems is pure integration engineering.",
+     "why_clarity": "Each field either arrives in the ATS with its context or not.",
+     "why_digital": "API integrations between online systems."
+    },
+    {
+     "id": "insurtech-platforms/agency-certificate-operations",
+     "name": "Agency Certificate Operations",
+     "industry": "Insurtech Platforms",
+     "ai_proof": 5,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Checking a certificate against policy terms is a checkable property software can verify.",
+     "why_clarity": "Each certificate either matches what the policy supports or it does not.",
+     "why_digital": "Certificates generated and verified from policy data online."
+    },
+    {
+     "id": "sell-side-equity-research/estimates-consensus-data",
+     "name": "Analyst Estimates & Consensus Data Providers",
+     "industry": "Sell-Side Equity Research",
+     "ai_proof": 25,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Decades of point-in-time attributed estimates form a data moat AI cannot rebuild.",
+     "why_clarity": "Consensus is an exact computation over collected estimates.",
+     "why_digital": "Estimates collected, normalised and sold as data feeds."
+    },
+    {
+     "id": "tattoo-studios/appointment-deposit-mgmt",
+     "name": "Appointment & Deposit Management",
+     "industry": "Tattoo Studios",
+     "ai_proof": 10,
+     "clarity": 100,
+     "digital": 75,
+     "why_ai": "Deposits, reminders and no-show enforcement are rule-based booking software.",
+     "why_clarity": "Deposit rules and reminders apply identically to every booking.",
+     "why_digital": "Booking and payment run online for an in-person service."
+    },
+    {
+     "id": "software-supply-chain-security/artefact-provenance-integrity",
+     "name": "Artefact Provenance & Integrity",
+     "industry": "Software Supply Chain Security",
+     "ai_proof": 20,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Signing and attestation are automated build facts, with regulation sustaining demand.",
+     "why_clarity": "Provenance cryptographically verifies or fails, every build.",
+     "why_digital": "Build metadata in, signed attestations out."
+    },
+    {
+     "id": "insurance-tpa/auto-adjudication-engine",
+     "name": "Auto-Adjudication Engine",
+     "industry": "Insurance Third-Party Administrators (TPAs)",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Most claims follow deterministic paths a rules engine pays without human review.",
+     "why_clarity": "A claim validates, prices and pays correctly against plan rules or it fails instantly.",
+     "why_digital": "Electronic claims in, payments and EOBs out, entirely in software."
+    },
+    {
+     "id": "game-asset-marketplaces/automated-asset-validation",
+     "name": "Automated Asset Validation",
+     "industry": "Game Asset Marketplaces",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Broken references and missing textures are mechanically detectable at upload by software.",
+     "why_clarity": "Each package imports cleanly or fails, an instant objective check.",
+     "why_digital": "Uploaded files checked automatically within the marketplace pipeline."
+    },
+    {
+     "id": "small-law-firms/billing-collections-management",
+     "name": "Billing & Collections Management",
+     "industry": "Small Law Firms (Solo and 2-10 Attorney Practices)",
+     "ai_proof": 5,
+     "clarity": 100,
+     "digital": 94,
+     "why_ai": "Time capture, invoicing, reminders and trust reconciliation are rule-based tasks software automates.",
+     "why_clarity": "Invoices and three-way trust reconciliations either tie out or fail immediately.",
+     "why_digital": "Time and payment data in, invoices and reconciliations out."
+    },
+    {
+     "id": "non-emergency-medical-transport/broker-claims-reconciliation",
+     "name": "Broker Claims Reconciliation",
+     "industry": "Non-Emergency Medical Transport",
+     "ai_proof": 10,
+     "clarity": 100,
+     "digital": 94,
+     "why_ai": "Matching trip records to broker payments is deterministic and directly automatable.",
+     "why_clarity": "Two structured datasets reconcile or they do not, under deterministic rules.",
+     "why_digital": "Trip records and payment files matched entirely on screens."
+    },
+    {
+     "id": "digital-accessibility-firms/build-regression-prevention",
+     "name": "Build Regression Prevention",
+     "industry": "Digital Accessibility Firms",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Mechanically detectable checks in a CI pipeline are pure automation.",
+     "why_clarity": "Each build passes or fails a defined automated check instantly.",
+     "why_digital": "Code in, pipeline results out, inside engineering tooling."
+    },
+    {
+     "id": "freight-brokerage/carrier-onboarding-compliance",
+     "name": "Carrier Onboarding & Compliance Operations",
+     "industry": "Freight Brokerage",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "W-9, FMCSA authority and COI checks are rule-based document verification software fully automates.",
+     "why_clarity": "Each carrier passes or fails explicit coverage and authority thresholds.",
+     "why_digital": "Carrier packets in and verified records out, all online."
+    },
+    {
+     "id": "immigration-law/case-status-tracking",
+     "name": "Case Status Tracking",
+     "industry": "Immigration Law Firms",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Pure data retrieval from known portals for known receipt numbers.",
+     "why_clarity": "Identical daily lookups with instant, objective status results.",
+     "why_digital": "Portal data in, status updates out."
+    },
+    {
+     "id": "headless-commerce-vendors/catalogue-price-consistency",
+     "name": "Catalogue & Price Consistency",
+     "industry": "Headless Commerce Vendors",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Detecting divergent catalogue copies is a mechanical comparison software performs directly.",
+     "why_clarity": "Every service's price either matches the authoritative engine or it does not.",
+     "why_digital": "Catalogue records across services compared entirely in code."
+    },
+    {
+     "id": "independent-insurance-agents/certificate-of-insurance-teams",
+     "name": "Certificate-of-Insurance Servicing Teams",
+     "industry": "Independent Insurance Agents",
+     "ai_proof": 5,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "COI issuance is a high-volume rule-based workflow suited to end-to-end automation.",
+     "why_clarity": "Each certificate matches policy records and holder requirements exactly, issued dozens of times daily.",
+     "why_digital": "Email requests, AMS lookup, carrier portals and PDF delivery, all on screen."
+    },
+    {
+     "id": "warehouse-3pl/billing-reconciliation-3pl",
+     "name": "Client Billing & Reconciliation",
+     "industry": "Warehouse & 3PL",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Rate-card billing is fully deterministic once configured, a direct automation target.",
+     "why_clarity": "Each charge follows the client's rate card exactly and reconciles to WMS activity.",
+     "why_digital": "WMS activity in, invoices and reconciliations out, all digital."
+    }
+   ],
+   "bottom": [
+    {
+     "id": "security-awareness-training/simulation-harm",
+     "name": "Simulation Harm & Consent",
+     "industry": "Security Awareness Training",
+     "ai_proof": 45,
+     "clarity": 19,
+     "digital": 62,
+     "why_ai": "Whether to deceive employees is a governance and ethics question settled with HR and works councils.",
+     "why_clarity": "Harm is not measured by anyone and acceptable deception is contested.",
+     "why_digital": "Policy and campaign records, decided through negotiation with employee representatives."
+    },
+    {
+     "id": "mobile-game-publishers/survivorship-correction",
+     "name": "Survivorship Correction",
+     "industry": "Mobile Game Publishers",
+     "ai_proof": 25,
+     "clarity": 19,
+     "digital": 100,
+     "why_ai": "Recovering outcomes for killed games needs deliberate experimental design and costly business choices, not models.",
+     "why_clarity": "The missing outcomes were never observed, so correctness cannot be checked.",
+     "why_digital": "Experiment design and portfolio data, all digital."
+    },
+    {
+     "id": "streaming-video-platforms/the-commissioning-executive",
+     "name": "The Commissioning Executive",
+     "industry": "Streaming Video Platforms",
+     "ai_proof": 60,
+     "clarity": 19,
+     "digital": 50,
+     "why_ai": "Creator relationships are genuine assets and nine-figure commitments rest on personal judgment.",
+     "why_clarity": "Executives are judged on outcomes nobody can measure, with no known track record.",
+     "why_digital": "Decks and scripts are digital, but decisions run through meetings and creator relationships."
+    },
+    {
+     "id": "developer-relations-agencies/the-advocate",
+     "name": "The Developer Advocate",
+     "industry": "Developer Relations Agencies",
+     "ai_proof": 55,
+     "clarity": 19,
+     "digital": 62,
+     "why_ai": "The product is the advocate's own portable credibility, delivered through in-person talks and presence.",
+     "why_clarity": "Credibility is a matter of reputation and its effect on adoption is never measured.",
+     "why_digital": "Content is digital, but travel and public performance on stage carry the value."
+    },
+    {
+     "id": "fractional-cto-services/the-fractional-cto",
+     "name": "The Fractional CTO",
+     "industry": "Fractional CTO Services",
+     "ai_proof": 55,
+     "clarity": 19,
+     "digital": 75,
+     "why_ai": "The practitioner's depth of understanding across clients is the product; context reload automates, judgement does not.",
+     "why_clarity": "Four unrelated situations, each judged by feel with little feedback.",
+     "why_digital": "Work on code and documents, with leadership meetings and referral-based buying."
+    },
+    {
+     "id": "esports-organizations/the-player-career",
+     "name": "The Player Career",
+     "industry": "Esports Organizations",
+     "ai_proof": 50,
+     "clarity": 19,
+     "digital": 56,
+     "why_ai": "Young players need trusted advocates for health, contracts and transition, a relationship-based service.",
+     "why_clarity": "Whether a career was survivable and the exit successful is known only years later.",
+     "why_digital": "Concerns players' bodies, contracts and lives, served partly remotely across a global roster."
+    },
+    {
+     "id": "headless-commerce-vendors/the-solutions-architect",
+     "name": "The Solutions Architect",
+     "industry": "Headless Commerce Vendors",
+     "ai_proof": 40,
+     "clarity": 19,
+     "digital": 94,
+     "why_ai": "Binding composition decisions with failure modes appearing years later rest on accountable judgment.",
+     "why_clarity": "Each programme is bespoke and results appear in production eighteen months later.",
+     "why_digital": "Architecture designed on screen within integrator and vendor delivery teams."
+    },
+    {
+     "id": "creator-talent-agencies/the-talent-manager",
+     "name": "The Talent Manager",
+     "industry": "Creator Talent Agencies",
+     "ai_proof": 65,
+     "clarity": 19,
+     "digital": 50,
+     "why_ai": "The manager is negotiator, therapist and crisis responder; the relationship is the product.",
+     "why_clarity": "Every creator crisis is different and success is judged by retention and feel.",
+     "why_digital": "Phone-heavy and remote-capable, but in-person presence and relationships matter."
+    },
+    {
+     "id": "stock-media-marketplaces/training-corpus-economics",
+     "name": "Training Corpus Economics",
+     "industry": "Stock Media Marketplaces",
+     "ai_proof": 50,
+     "clarity": 19,
+     "digital": 94,
+     "why_ai": "Valuing work used for model training is litigated and grows with AI demand.",
+     "why_clarity": "Settled by formula and litigation, with no measured basis or quick check.",
+     "why_digital": "Corpus licensing deals structured and administered remotely."
+    },
+    {
+     "id": "digital-bpo-operations/contract-metric-reform",
+     "name": "Contractual Metric Reform",
+     "industry": "Digital BPO Operations",
+     "ai_proof": 55,
+     "clarity": 12,
+     "digital": 62,
+     "why_ai": "Renegotiating what clients pay for is an adversarial commercial contest with almost no engineering in it.",
+     "why_clarity": "Each contract renegotiation is one-off and its commercial success shows only over years.",
+     "why_digital": "Inputs are contracts and metrics, but deals are struck in enterprise relationship negotiations."
+    },
+    {
+     "id": "financial-data-vendors/data-vendor-corporate-development",
+     "name": "Data Vendor Corporate Development",
+     "industry": "Financial Data Vendors",
+     "ai_proof": 35,
+     "clarity": 12,
+     "digital": 69,
+     "why_ai": "Each acquisition thesis is novel and consequential, but deal analysis is screen work.",
+     "why_clarity": "Episodic deals, each unique, with integration success known years later.",
+     "why_digital": "Internal analysis on screens, with deal negotiation that benefits from presence."
+    },
+    {
+     "id": "behavioral-health-clinics/dsm-guideline-publishing",
+     "name": "Diagnostic Nomenclature & Practice Guideline Publishing",
+     "industry": "Behavioral Health Clinics",
+     "ai_proof": 70,
+     "clarity": 12,
+     "digital": 75,
+     "why_ai": "The DSM's value is the APA's institutional authority, which no AI can confer.",
+     "why_clarity": "Diagnostic categories are contested by expert consensus and revised once a decade.",
+     "why_digital": "Evidence review and publishing are documentary, with workgroups and print editions sold nationally."
+    },
+    {
+     "id": "catering-companies/food-trend-forecasting-boutiques",
+     "name": "Food Trend Forecasting Boutiques",
+     "industry": "Catering Companies",
+     "ai_proof": 50,
+     "clarity": 12,
+     "digital": 75,
+     "why_ai": "Buyers pay for a named principal's observation and network, though AI can draft trend reports.",
+     "why_clarity": "Forecast quality is taste and only judged by whether trends emerge years later.",
+     "why_digital": "Observation in restaurants feeds a published forecast sold nationally."
+    },
+    {
+     "id": "trust-safety-tooling-vendors/error-cost-elicitation",
+     "name": "Error Cost Elicitation",
+     "industry": "Trust & Safety Tooling Vendors",
+     "ai_proof": 60,
+     "clarity": 6,
+     "digital": 69,
+     "why_ai": "Setting the exchange rate between over-removal and under-removal is a values judgment accountable to regulators.",
+     "why_clarity": "No correct answer exists; it is a stated values position never objectively checked.",
+     "why_digital": "Deliberation with policy leaders, regulators and civil society produces a written position."
+    },
+    {
+     "id": "independent-publishers/poetry-chapbook-publishers",
+     "name": "Poetry & Chapbook Publishers",
+     "industry": "Independent Publishers",
+     "ai_proof": 50,
+     "clarity": 6,
+     "digital": 50,
+     "why_ai": "Poet-editors run presses as cultural projects valued for human curation and craft printing.",
+     "why_clarity": "Poetry selection is pure taste with no measurable success test.",
+     "why_digital": "Manuscripts arrive digitally, but books are often letterpress and sold at readings."
+    }
+   ]
+  },
+  "digital": {
+   "median": 94,
+   "mean": 78.0,
+   "top": [
+    {
+     "id": "developer-tools-vendors/ai-coding-assistants",
+     "name": "AI Coding Assistants",
+     "industry": "Developer Tools Vendors",
+     "ai_proof": 30,
+     "clarity": 62,
+     "digital": 100,
+     "why_ai": "Demand grows with AI, but foundation-model labs can commoditize the product.",
+     "why_clarity": "Generated code is checkable by tests, though real productivity gains are contested.",
+     "why_digital": "Code context in, generated code out, fully online software."
+    },
+    {
+     "id": "data-analytics-consultants/ai-model-audit-firms",
+     "name": "AI Model Audit & Assurance Firms",
+     "industry": "Data Analytics Consultants",
+     "ai_proof": 50,
+     "clarity": 38,
+     "digital": 100,
+     "why_ai": "Demand grows with AI deployment as regulators require independent conformity audits.",
+     "why_clarity": "Audit frameworks are still emerging, so methods and pass criteria are not agreed.",
+     "why_digital": "Models and documentation in, audit reports out, entirely remote."
+    },
+    {
+     "id": "financial-data-vendors/ai-research-platforms",
+     "name": "AI Research Platforms on Licensed Content",
+     "industry": "Financial Data Vendors",
+     "ai_proof": 20,
+     "clarity": 56,
+     "digital": 100,
+     "why_ai": "Search and summarisation are what general AI does, though licensed content is a moat.",
+     "why_clarity": "Summaries and extracted KPIs recur, but research usefulness is partly subjective.",
+     "why_digital": "Licensed documents searched and summarised on a web platform."
+    },
+    {
+     "id": "qa-test-automation-vendors/ai-generated-and-self-healing",
+     "name": "AI-Generated & Self-Healing Tests",
+     "industry": "QA & Test Automation Vendors",
+     "ai_proof": 10,
+     "clarity": 69,
+     "digital": 100,
+     "why_ai": "Generic coding agents generate and repair tests, competing directly with dedicated vendors.",
+     "why_clarity": "Tests run constantly, but a healed test that masks a regression goes unnoticed.",
+     "why_digital": "Application code in, generated tests out, all in software."
+    },
+    {
+     "id": "no-code-app-builders/ai-generated-app-sprawl",
+     "name": "AI-Generated App Sprawl",
+     "industry": "No-Code App Builders",
+     "ai_proof": 20,
+     "clarity": 56,
+     "digital": 100,
+     "why_ai": "Demand for governing generated apps grows with AI, though the solution itself is software.",
+     "why_clarity": "Provenance is recordable, but what counts as maintainable ownership is loosely defined.",
+     "why_digital": "App definitions and logs in, governance records out, entirely software."
+    },
+    {
+     "id": "api-infrastructure-providers/api-gateways-and-management",
+     "name": "API Gateways & Management",
+     "industry": "API Infrastructure Providers",
+     "ai_proof": 20,
+     "clarity": 75,
+     "digital": 100,
+     "why_ai": "Gateway sits in every call path, so buyers keep paying for it, but the work is policy enforcement.",
+     "why_clarity": "Routing, auth and rate limiting are codified, repeated per call and instantly testable.",
+     "why_digital": "Software layer configured and delivered on screens to platform teams."
+    },
+    {
+     "id": "api-infrastructure-providers/api-security-shadow-endpoints",
+     "name": "API Security & Shadow Endpoints",
+     "industry": "API Infrastructure Providers",
+     "ai_proof": 30,
+     "clarity": 62,
+     "digital": 100,
+     "why_ai": "Adversarial security exposure keeps demand rising, though inventory comes straight from traffic observation.",
+     "why_clarity": "A complete endpoint inventory is checkable, but sensitive-data risk judgments vary.",
+     "why_digital": "Traffic logs in, security inventory out, sold to remote security teams."
+    },
+    {
+     "id": "talent-assessment-platforms/ats-integration",
+     "name": "ATS Integration & Score Plumbing",
+     "industry": "Talent Assessment Platforms",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Passing scores and context into applicant tracking systems is pure integration engineering.",
+     "why_clarity": "Each field either arrives in the ATS with its context or not.",
+     "why_digital": "API integrations between online systems."
+    },
+    {
+     "id": "saas-implementation-partners/accelerator-productisation",
+     "name": "Accelerator Productisation",
+     "industry": "SaaS Implementation Partners",
+     "ai_proof": 15,
+     "clarity": 75,
+     "digital": 100,
+     "why_ai": "Packaging and maintaining deployable assets is product engineering AI accelerates.",
+     "why_clarity": "Accelerators are tested against each platform release with clear pass or fail.",
+     "why_digital": "Code and configuration packages built and deployed in software."
+    },
+    {
+     "id": "virtual-assistant-services/access-and-security",
+     "name": "Access, Credentials & Data Security",
+     "industry": "Virtual Assistant Services",
+     "ai_proof": 15,
+     "clarity": 75,
+     "digital": 100,
+     "why_ai": "Scoped credential and access tooling exists and automates provisioning directly.",
+     "why_clarity": "Least-privilege access is definable and checkable against what each task needs.",
+     "why_digital": "Credentials, permissions and systems are managed entirely in software."
+    },
+    {
+     "id": "virtual-economy-operators/account-and-inventory-security",
+     "name": "Account & Inventory Security",
+     "industry": "Virtual Economy Operators",
+     "ai_proof": 10,
+     "clarity": 94,
+     "digital": 100,
+     "why_ai": "Off-the-shelf authentication, holds and anomaly response close the gap without human judgment.",
+     "why_clarity": "Known custodian-grade controls either exist on an account or do not.",
+     "why_digital": "Account security controls run entirely in software."
+    },
+    {
+     "id": "crm-platforms/account-data-hygiene",
+     "name": "Account Data Hygiene",
+     "industry": "CRM Platforms",
+     "ai_proof": 10,
+     "clarity": 88,
+     "digital": 100,
+     "why_ai": "Account hierarchy is entity resolution against commercial reference data, directly automatable.",
+     "why_clarity": "Correct parent, subsidiary and duplicate links are checkable against reference records at scale.",
+     "why_digital": "Account records in, resolved hierarchies out, all inside software."
+    },
+    {
+     "id": "crypto-exchanges/account-recovery",
+     "name": "Account Recovery",
+     "industry": "Crypto Exchanges",
+     "ai_proof": 20,
+     "clarity": 69,
+     "digital": 100,
+     "why_ai": "Adversarial but high-volume risk decision on rich behavioural data that models can automate.",
+     "why_clarity": "Thousands of similar lockout cases, with takeovers surfacing only sometimes later.",
+     "why_digital": "Account evidence reviewed and resolved entirely online."
+    },
+    {
+     "id": "accounting-firms-smb/benchmark-survey-publishers",
+     "name": "Accounting Practice Benchmark Publishers",
+     "industry": "SMB Accounting Firms",
+     "ai_proof": 25,
+     "clarity": 56,
+     "digital": 100,
+     "why_ai": "Multi-decade proprietary survey panel cannot be generated by AI; no licence or personal liability involved.",
+     "why_clarity": "Defined annual metrics report, but benchmark accuracy is never checked against ground truth.",
+     "why_digital": "Survey data in, published reports and datasets out, sold entirely online."
+    },
+    {
+     "id": "lending-marketplaces/acquisition-economics",
+     "name": "Acquisition Economics",
+     "industry": "Lending Marketplaces",
+     "ai_proof": 10,
+     "clarity": 75,
+     "digital": 100,
+     "why_ai": "Programmatic bidding against a better value signal is pure automation.",
+     "why_clarity": "Bid machinery is codified and cost per submission is measured instantly.",
+     "why_digital": "Ad platforms and traffic data in, bids out."
+    }
+   ],
+   "bottom": [
+    {
+     "id": "k12-private-schools/single-campus-rural",
+     "name": "Single-Campus Rural Private Schools",
+     "industry": "K-12 Private Schools",
+     "ai_proof": 85,
+     "clarity": 44,
+     "digital": 0,
+     "why_ai": "Small community schools where a few teachers and one administrator serve local families in person.",
+     "why_clarity": "The administrator improvises across every role with no standard measure of success.",
+     "why_digital": "Paper records and in-person teaching in a small, local community."
+    },
+    {
+     "id": "electrical-contractors/small-rural-electricians",
+     "name": "Small & Rural Electricians",
+     "industry": "Electrical Contractors",
+     "ai_proof": 85,
+     "clarity": 50,
+     "digital": 0,
+     "why_ai": "Rural generalists handle varied physical work across wide areas for clients who know them personally.",
+     "why_clarity": "Code defines correct work, but each job differs across homes, farms and businesses.",
+     "why_digital": "Physical work in small towns found by phone and word of mouth."
+    },
+    {
+     "id": "hvac-contractors/small-rural-hvac",
+     "name": "Small & Rural HVAC",
+     "industry": "HVAC Contractors",
+     "ai_proof": 80,
+     "clarity": 62,
+     "digital": 0,
+     "why_ai": "Often the only licensed contractor for miles, physically servicing oil, propane and geothermal systems.",
+     "why_clarity": "Repairs are checkable, but diverse fuel systems mean less repetition.",
+     "why_digital": "Physical work in rural homes, found by word of mouth and phone."
+    },
+    {
+     "id": "plumbing-contractors/small-rural-plumbers",
+     "name": "Small & Rural Plumbers",
+     "industry": "Plumbing Contractors",
+     "ai_proof": 80,
+     "clarity": 56,
+     "digital": 0,
+     "why_ai": "One licensed plumber covers a rural county by hand and by reputation.",
+     "why_clarity": "Each job differs from wells to septic, but fixes are quickly verified.",
+     "why_digital": "Paper invoices, poor coverage and face-to-face small-town customers."
+    },
+    {
+     "id": "painting-contractors/small-crew-operators",
+     "name": "Small Crew Operators",
+     "industry": "Painting Contractors",
+     "ai_proof": 60,
+     "clarity": 62,
+     "digital": 0,
+     "why_ai": "Customers hire the individual painter who shows up and does the work.",
+     "why_clarity": "Jobs repeat, but quoting and quality run on personal habit.",
+     "why_digital": "Phone, text and handwritten estimates for local in-person work."
+    },
+    {
+     "id": "greenhouse-horticulture/small-greenhouse-nurseries",
+     "name": "Small Greenhouse Nurseries",
+     "industry": "Greenhouse Horticulture",
+     "ai_proof": 60,
+     "clarity": 38,
+     "digital": 0,
+     "why_ai": "Owner-operators vent, water and grow by hand and sell face to face to local customers.",
+     "why_clarity": "Mixed retail, wholesale and landscaping work runs on memory and paper records.",
+     "why_digital": "Manual climate control, paper records and local walk-in retail sales."
+    },
+    {
+     "id": "faith-organizations/small-rural-congregations",
+     "name": "Small Rural Congregations",
+     "industry": "Faith Organizations",
+     "ai_proof": 75,
+     "clarity": 38,
+     "digital": 0,
+     "why_ai": "Bivocational pastors and volunteers serve neighbours they know, in person.",
+     "why_clarity": "Weekly worship recurs, but congregational health has no objective measure.",
+     "why_digital": "Paper bulletins and word of mouth; most have no functional website."
+    },
+    {
+     "id": "municipal-services/small-town-public-works",
+     "name": "Small-Town Public Works",
+     "industry": "Municipal Services",
+     "ai_proof": 70,
+     "clarity": 62,
+     "digital": 0,
+     "why_ai": "A handful of workers plough snow, patch potholes and fix sewer backups by hand.",
+     "why_clarity": "A repaired pothole or cleared road is visible, though tasks vary daily.",
+     "why_digital": "Physical roads and drains maintained with a pickup truck for local residents."
+    },
+    {
+     "id": "youth-sports-orgs/special-needs-adaptive-leagues",
+     "name": "Special Needs Adaptive Leagues",
+     "industry": "Youth Sports Organizations",
+     "ai_proof": 80,
+     "clarity": 38,
+     "digital": 0,
+     "why_ai": "Trained buddies give hands-on adaptive support that families trust personally.",
+     "why_clarity": "Each child's accommodations differ and success is felt, not measured.",
+     "why_digital": "In-person adaptive play organized locally."
+    },
+    {
+     "id": "roofing-contractors/storm-chasing-restoration",
+     "name": "Storm Chasing & Restoration",
+     "industry": "Roofing Contractors",
+     "ai_proof": 50,
+     "clarity": 62,
+     "digital": 0,
+     "why_ai": "Nomadic crews install roofs by hand, though no relationship protects them.",
+     "why_clarity": "Storm claims recur with similar damage, but negotiations vary by carrier.",
+     "why_digital": "Door-to-door sales and hands-on installation in storm-hit towns."
+    },
+    {
+     "id": "oil-gas-field-services/stripper-well-operators",
+     "name": "Stripper Well Operators",
+     "industry": "Oil & Gas Field Services",
+     "ai_proof": 60,
+     "clarity": 62,
+     "digital": 0,
+     "why_ai": "Pumpers drive to marginal wells to gauge tanks and fix pumps by hand.",
+     "why_clarity": "Daily barrels and well uptime are simple measures recorded each visit.",
+     "why_digital": "No telemetry; production is recorded on paper during physical well visits."
+    },
+    {
+     "id": "childcare-centers/tribal-community-centers",
+     "name": "Tribal & Indigenous Community Childcare",
+     "industry": "Childcare Centers",
+     "ai_proof": 90,
+     "clarity": 50,
+     "digital": 0,
+     "why_ai": "Hands-on care inside a tribal community where cultural trust in the caregiver is central.",
+     "why_clarity": "Daily routines repeat, but care quality and outcomes are judged loosely and slowly.",
+     "why_digital": "In-person care on rural reservations with limited connectivity and purely local enrolment."
+    },
+    {
+     "id": "crop-farming/tribal-land-farming-operations",
+     "name": "Tribal Land Farming Operations",
+     "industry": "Crop Farming",
+     "ai_proof": 65,
+     "clarity": 31,
+     "digital": 0,
+     "why_ai": "Physical farming on trust land amid community trust and BIA tenure complexity.",
+     "why_clarity": "Fractionated ownership and BIA processes make each lease case different.",
+     "why_digital": "Limited broadband, physical land and face-to-face administration."
+    },
+    {
+     "id": "livestock-operations/tribal-reservation-ranches",
+     "name": "Tribal Reservation Ranches",
+     "industry": "Livestock Operations",
+     "ai_proof": 60,
+     "clarity": 38,
+     "digital": 0,
+     "why_ai": "Ranchers physically run cattle on trust land under BIA grazing permits.",
+     "why_clarity": "Permit rules are explicit, but ranching outcomes come annually.",
+     "why_digital": "Live cattle on reservation land with limited broadband, sold locally."
+    },
+    {
+     "id": "tattoo-studios/walk-in-flash-shops",
+     "name": "Walk-in Flash Shops",
+     "industry": "Tattoo Studios",
+     "ai_proof": 60,
+     "clarity": 62,
+     "digital": 0,
+     "why_ai": "Pre-drawn designs still need an artist tattooing skin by hand.",
+     "why_clarity": "Pre-drawn flash repeats with defined pricing and short sessions.",
+     "why_digital": "Foot-traffic walk-ins tattooed in person on the spot."
+    }
+   ]
+  },
+  "rho_clarity_ai_proof": -0.49,
+  "rho_digital_ai_proof": -0.75,
+  "rho_digital_clarity": 0.23
+ },
+ "anchor_drift": {
+  "ai_proof": {
+   "mean_abs": 0,
+   "max": 0,
+   "n": 16
+  },
+  "clarity": {
+   "mean_abs": 0,
+   "max": 0,
+   "n": 16
+  },
+  "digital": {
+   "mean_abs": 0,
+   "max": 0,
+   "n": 16
+  }
+ }
+}
