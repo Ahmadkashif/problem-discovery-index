@@ -1,10 +1,10 @@
 {
- "n_industries": 267,
- "n_subniches": 4227,
+ "n_industries": 277,
+ "n_subniches": 4473,
  "industries": {
   "ai_proof": {
    "median": 35,
-   "mean": 40.7,
+   "mean": 40.8,
    "top": [
     {
      "id": "childcare-centers",
@@ -342,7 +342,7 @@
   },
   "clarity": {
    "median": 56,
-   "mean": 59.4,
+   "mean": 59.3,
    "top": [
     {
      "id": "data-labeling-services",
@@ -477,6 +477,17 @@
      "why_digital": "Claims, remittances and EHR data are worked entirely on screen, often for remote clients."
     },
     {
+     "id": "notary-signing-services",
+     "name": "Notary & Signing Services",
+     "industry": "Notary & Signing Services",
+     "ai_proof": 45,
+     "clarity": 88,
+     "digital": 25,
+     "why_ai": "A commissioned notary must personally witness the signer, at a table or over video, and carries the liability, but the act is a commodity and remote notarization with automated identity proofing is eroding the in-person share.",
+     "why_clarity": "A valid act and a clean package are exactly defined by statute and lender checklists and recur thousands of times, though identity mistakes surface only months later.",
+     "why_digital": "Starts from a person and a plastic ID at a kitchen table and ends in a wet-ink package couriered back, with orders arriving through online marketplaces."
+    },
+    {
      "id": "scheduling-booking-platforms",
      "name": "Scheduling & Booking Platforms",
      "industry": "Scheduling & Booking Platforms",
@@ -497,31 +508,9 @@
      "why_ai": "Physical storage and handling of goods persists; robotics trims labour but shippers still pay 3PLs.",
      "why_clarity": "Orders ship accurately and on time or not, across thousands of repeat picks.",
      "why_digital": "Physical goods stored and moved by hand under a WMS; contracts tendered nationally."
-    },
-    {
-     "id": "ap-automation-vendors",
-     "name": "AP Automation Vendors",
-     "industry": "AP Automation Vendors",
-     "ai_proof": 20,
-     "clarity": 81,
-     "digital": 100,
-     "why_ai": "Screen-only invoice software whose remaining human exception queue is exactly what AI-native AP tools target.",
-     "why_clarity": "Invoices either match and pay correctly or they do not, across millions of near-identical cases.",
-     "why_digital": "Invoices, ERP data and payments are processed and sold entirely as cloud software."
     }
    ],
    "bottom": [
-    {
-     "id": "independent-publishers",
-     "name": "Independent Publishers",
-     "industry": "Independent Publishers",
-     "ai_proof": 35,
-     "clarity": 31,
-     "digital": 81,
-     "why_ai": "Acquisition taste and author relationships matter, but editing, design and metadata work is AI-exposed.",
-     "why_clarity": "Which manuscripts will sell is a taste bet revealed months after publication.",
-     "why_digital": "Manuscripts edited on screen become printed and digital books sold through reps and retailers."
-    },
     {
      "id": "interior-design-firms",
      "name": "Interior Design Firms",
@@ -565,6 +554,17 @@
      "why_ai": "Screen-based design work that generative tools increasingly produce directly.",
      "why_clarity": "Design arguments are settled by seniority because outcomes never return.",
      "why_digital": "Figma files in, designs and systems out, sold to remote clients."
+    },
+    {
+     "id": "public-relations-agencies",
+     "name": "Public Relations Agencies",
+     "industry": "Public Relations Agencies",
+     "ai_proof": 35,
+     "clarity": 31,
+     "digital": 75,
+     "why_ai": "Clients pay for senior counsellors' reporter relationships and crisis judgement, while list building, drafting and reporting are being automated.",
+     "why_clarity": "Placements show up within days, but whether coverage carried the message or moved anything is contested and rarely measured.",
+     "why_digital": "Client news, media data and documents in, coverage and reports out, with briefings, media training and counsel partly in person."
     },
     {
      "id": "revops-consultancies",
@@ -679,8 +679,8 @@
    ]
   },
   "digital": {
-   "median": 88,
-   "mean": 66.0,
+   "median": 81,
+   "mean": 65.5,
    "top": [
     {
      "id": "ai-agent-platforms",
@@ -1023,7 +1023,7 @@
  "subniches": {
   "ai_proof": {
    "median": 30,
-   "mean": 33.1,
+   "mean": 33.2,
    "top": [
     {
      "id": "physical-therapy/cash-pay-direct-access",
@@ -1361,7 +1361,7 @@
   },
   "clarity": {
    "median": 69,
-   "mean": 65.7,
+   "mean": 65.5,
    "top": [
     {
      "id": "talent-assessment-platforms/ats-integration",
@@ -1531,39 +1531,6 @@
    ],
    "bottom": [
     {
-     "id": "security-awareness-training/simulation-harm",
-     "name": "Simulation Harm & Consent",
-     "industry": "Security Awareness Training",
-     "ai_proof": 45,
-     "clarity": 19,
-     "digital": 62,
-     "why_ai": "Whether to deceive employees is a governance and ethics question settled with HR and works councils.",
-     "why_clarity": "Harm is not measured by anyone and acceptable deception is contested.",
-     "why_digital": "Policy and campaign records, decided through negotiation with employee representatives."
-    },
-    {
-     "id": "mobile-game-publishers/survivorship-correction",
-     "name": "Survivorship Correction",
-     "industry": "Mobile Game Publishers",
-     "ai_proof": 25,
-     "clarity": 19,
-     "digital": 100,
-     "why_ai": "Recovering outcomes for killed games needs deliberate experimental design and costly business choices, not models.",
-     "why_clarity": "The missing outcomes were never observed, so correctness cannot be checked.",
-     "why_digital": "Experiment design and portfolio data, all digital."
-    },
-    {
-     "id": "streaming-video-platforms/the-commissioning-executive",
-     "name": "The Commissioning Executive",
-     "industry": "Streaming Video Platforms",
-     "ai_proof": 60,
-     "clarity": 19,
-     "digital": 50,
-     "why_ai": "Creator relationships are genuine assets and nine-figure commitments rest on personal judgment.",
-     "why_clarity": "Executives are judged on outcomes nobody can measure, with no known track record.",
-     "why_digital": "Decks and scripts are digital, but decisions run through meetings and creator relationships."
-    },
-    {
      "id": "developer-relations-agencies/the-advocate",
      "name": "The Developer Advocate",
      "industry": "Developer Relations Agencies",
@@ -1630,6 +1597,17 @@
      "why_digital": "Corpus licensing deals structured and administered remotely."
     },
     {
+     "id": "biotech-research-firms/virtual-biotechs",
+     "name": "Virtual Biotechs Running on Outsourced Labs",
+     "industry": "Biotech Research Firms",
+     "ai_proof": 50,
+     "clarity": 19,
+     "digital": 94,
+     "why_ai": "The team's value is go/no-go judgement on novel programmes with years-long feedback, though its coordination work automates readily.",
+     "why_clarity": "Each programme is different and whether the call was right is known years later.",
+     "why_digital": "All work is managing documents, data and vendors remotely."
+    },
+    {
      "id": "digital-bpo-operations/contract-metric-reform",
      "name": "Contractual Metric Reform",
      "industry": "Digital BPO Operations",
@@ -1674,6 +1652,28 @@
      "why_digital": "Observation in restaurants feeds a published forecast sold nationally."
     },
     {
+     "id": "biotech-research-firms/rare-disease-foundation-programs",
+     "name": "Rare-Disease & Foundation-Funded Programmes",
+     "industry": "Biotech Research Firms",
+     "ai_proof": 70,
+     "clarity": 12,
+     "digital": 69,
+     "why_ai": "Patient foundations and founders are trusted relationships making novel, high-stakes calls on tiny evidence bases; demand grows with new modalities.",
+     "why_clarity": "Every rare-disease package is argued from scratch and FDA's acceptance arrives programme by programme.",
+     "why_digital": "Mostly document and precedent work, with some outsourced studies, coordinated remotely."
+    },
+    {
+     "id": "title-and-settlement-offices/title-expert-witnesses",
+     "name": "Title Standards & Claims Expert Witnesses",
+     "industry": "Title & Settlement Offices",
+     "ai_proof": 70,
+     "clarity": 12,
+     "digital": 44,
+     "why_ai": "Courts admit a named expert's opinion and cross-examine the person.",
+     "why_clarity": "Each case is novel and resolved by a court long after the report.",
+     "why_digital": "Case files reviewed on screen; testimony in person."
+    },
+    {
      "id": "trust-safety-tooling-vendors/error-cost-elicitation",
      "name": "Error Cost Elicitation",
      "industry": "Trust & Safety Tooling Vendors",
@@ -1699,7 +1699,7 @@
   },
   "digital": {
    "median": 94,
-   "mean": 77.7,
+   "mean": 77.5,
    "top": [
     {
      "id": "interior-design-firms/ad-market-research-firms",
@@ -1713,6 +1713,17 @@
      "why_digital": "Interviews and surveys in, reports out, entirely digital."
     },
     {
+     "id": "public-relations-agencies/ai-answer-visibility-trackers",
+     "name": "AI Answer-Engine Visibility Trackers",
+     "industry": "Public Relations Agencies",
+     "ai_proof": 15,
+     "clarity": 81,
+     "digital": 100,
+     "why_ai": "Demand grows with AI search, but the querying and reporting are automated and AI vendors may supply it themselves.",
+     "why_clarity": "Fixed question panels are re-run on a schedule with checkable answers and citations.",
+     "why_digital": "Automated queries in, dashboards out."
+    },
+    {
      "id": "developer-tools-vendors/ai-coding-assistants",
      "name": "AI Coding Assistants",
      "industry": "Developer Tools Vendors",
@@ -1722,6 +1733,17 @@
      "why_ai": "Demand grows with AI, but foundation-model labs can commoditize the product.",
      "why_clarity": "Generated code is checkable by tests, though real productivity gains are contested.",
      "why_digital": "Code context in, generated code out, fully online software."
+    },
+    {
+     "id": "portrait-photography-studios/ai-culling-editing-vendors",
+     "name": "AI Culling & Editing Vendors",
+     "industry": "Portrait Photography Studios",
+     "ai_proof": 5,
+     "clarity": 69,
+     "digital": 100,
+     "why_ai": "Model building for image selection and editing is itself the automation, under constant competition from general image models.",
+     "why_clarity": "Model outputs are checked against photographers' corrections at scale, though taste sets the target.",
+     "why_digital": "Images and edit histories in, models and software out, sold online worldwide."
     },
     {
      "id": "drafting-services/ai-drawing-automation-startups",
@@ -1744,6 +1766,17 @@
      "why_ai": "Demand grows with AI deployment as regulators require independent conformity audits.",
      "why_clarity": "Audit frameworks are still emerging, so methods and pass criteria are not agreed.",
      "why_digital": "Models and documentation in, audit reports out, entirely remote."
+    },
+    {
+     "id": "legal-support-services/ai-prior-art-search-tools",
+     "name": "AI Prior-Art Search Tool Vendors",
+     "industry": "Legal Support Services",
+     "ai_proof": 10,
+     "clarity": 56,
+     "digital": 100,
+     "why_ai": "Search software competes against general AI models and other vendors with no licensed human in the loop.",
+     "why_clarity": "Relevance can be benchmarked against citations, though what counts as relevant is debated.",
+     "why_digital": "Software built, sold and delivered online."
     },
     {
      "id": "financial-data-vendors/ai-research-platforms",
@@ -1832,39 +1865,6 @@
      "why_ai": "Scoped credential and access tooling exists and automates provisioning directly.",
      "why_clarity": "Least-privilege access is definable and checkable against what each task needs.",
      "why_digital": "Credentials, permissions and systems are managed entirely in software."
-    },
-    {
-     "id": "virtual-economy-operators/account-and-inventory-security",
-     "name": "Account & Inventory Security",
-     "industry": "Virtual Economy Operators",
-     "ai_proof": 10,
-     "clarity": 94,
-     "digital": 100,
-     "why_ai": "Off-the-shelf authentication, holds and anomaly response close the gap without human judgment.",
-     "why_clarity": "Known custodian-grade controls either exist on an account or do not.",
-     "why_digital": "Account security controls run entirely in software."
-    },
-    {
-     "id": "crm-platforms/account-data-hygiene",
-     "name": "Account Data Hygiene",
-     "industry": "CRM Platforms",
-     "ai_proof": 10,
-     "clarity": 88,
-     "digital": 100,
-     "why_ai": "Account hierarchy is entity resolution against commercial reference data, directly automatable.",
-     "why_clarity": "Correct parent, subsidiary and duplicate links are checkable against reference records at scale.",
-     "why_digital": "Account records in, resolved hierarchies out, all inside software."
-    },
-    {
-     "id": "crypto-exchanges/account-recovery",
-     "name": "Account Recovery",
-     "industry": "Crypto Exchanges",
-     "ai_proof": 20,
-     "clarity": 69,
-     "digital": 100,
-     "why_ai": "Adversarial but high-volume risk decision on rich behavioural data that models can automate.",
-     "why_clarity": "Thousands of similar lockout cases, with takeovers surfacing only sometimes later.",
-     "why_digital": "Account evidence reviewed and resolved entirely online."
     }
    ],
    "bottom": [
@@ -2035,9 +2035,9 @@
     }
    ]
   },
-  "rho_clarity_ai_proof": -0.48,
+  "rho_clarity_ai_proof": -0.49,
   "rho_digital_ai_proof": -0.75,
-  "rho_digital_clarity": 0.23
+  "rho_digital_clarity": 0.24
  },
  "anchor_drift": {
   "ai_proof": {

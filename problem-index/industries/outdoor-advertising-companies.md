@@ -1,0 +1,30 @@
+# Outdoor Advertising Companies
+
+## Profile
+**Category:** Professional Services
+**NAICS 2022:** 541850 — Indoor and outdoor display advertising
+**Market Size:** ~$9.46B US out-of-home advertising revenue in 2025, up 3.6%, with digital at 36.3% (OAAA); the 2022 Economic Census counted 2,166 firms in NAICS 541850 with ~$8.33B in receipts and 27,361 employees
+**Tech Maturity:** Medium — the three public operators run digital networks, programmatic connections and audience data, while most of the 2,000-plus independents run their faces, leases and posting on QuickBooks, a billboard package such as Apparatix or BillboardPlanet, and a real estate manager's memory.
+**Workforce:** Local account executives, real estate and leasing managers, billposters and construction crews, digital network operations and ad operations staff, permit and lease administrators, and a small layer of research and audience analysts at the largest operators
+
+## Key Pain Themes
+An outdoor company is a real estate business that sells time. Its assets are tens of thousands of small ground leases and the permits that let a structure stand on each one: Lamar holds about 71,500 leased sites and Outfront about 19,600 leases with 17,900 different landlords. Ground rent is the largest cost line, ~17% of billboard revenue at Lamar and 34% at Outfront, and every lease has its own term, escalator, access rights and restrictions. Many cities, Austin among them, no longer allow new off-premises signs, so a legal, permitted location is close to irreplaceable. When a landowner sells the rent stream to an aggregator, a highway widening takes the site, or a structure falls in a storm and loses its nonconforming status, the face is gone for good.
+
+The central judgement is what a location is worth. A real estate manager drives the approach and decides which parcel to lease, which static bulletin to convert to digital for ~$200,000, and how far to go when a landlord demands more rent at renewal. That judgement rests on sightlines, read direction, traffic speed, which advertiser categories buy on that corridor and whether the permit will survive a code challenge, and it is rarely written down. The audience number buyers see comes from Geopath, the industry's measurement bureau, which is a model of who passed rather than a record of who looked. Geopath and the OAAA chose Ipsos in March 2026 to pilot a replacement system, with transition from 2027 and full adoption in 2028.
+
+The sales side runs on local relationships. About 79% of Lamar's outdoor revenue is local, sold by roughly 1,000 account executives to service businesses, health care, restaurants, retailers and car dealers who renew on whether the phone rang. External clocks bind every layer: contract start dates where a late posting becomes a makegood, annual state permit renewals under the Highway Beautification Act, digital display rules such as eight-second minimum dwell times, and transit and airport concessions with minimum annual guarantees owed whether or not the ads sell.
+
+## Current Tech Landscape
+Digital networks run on content management and player software from Broadsign and display hardware from Daktronics, Watchfire and Formetco; programmatic demand arrives through supply platforms such as Vistar Media, which T-Mobile bought in 2025, covered in [[programmatic-ad-platforms|Programmatic Ad Platforms]]. Independents run sales, contracts, posting instructions, proof of performance and leases on Apparatix, BillboardPlanet, SignDash or HighSign Pro, with QuickBooks for billing. The large operators have built their own inventory and lease systems, plus planning tools such as Outfront's smartSCOUT. Audience figures come from Geopath, and attribution studies from specialist agencies such as Billups and from location-data vendors. Each tool does its job inside its boundary. The record of what each location actually earns compared with what the real estate manager expected, joined to its lease, permit, structure condition and audience estimate, is not held in any of them.
+
+## Problems
+- [[problems/outdoor-advertising-companies/high-impact|🔴 High Impact: The Location Only the Real Estate Manager Can Price]]
+- [[problems/outdoor-advertising-companies/low-impact-1|🟡 Low Impact: Ground Lease and Permit Administration]]
+- [[problems/outdoor-advertising-companies/low-impact-2|🟡 Low Impact: Digital Copy Approval Against Face-Level Rules]]
+- [[problems/outdoor-advertising-companies/worker-life-1|🟢 Worker Life: The Billposter on the Catwalk]]
+- [[problems/outdoor-advertising-companies/worker-life-2|🟢 Worker Life: The Local Account Executive at Renewal Time]]
+- [[problems/outdoor-advertising-companies/ml-opportunity|🧠 ML Opportunities]]
+- [[problems/outdoor-advertising-companies/ai-agents-platforms|🤖 AI Agents & Platforms]]
+
+## Analysis
+The industry's central unmeasured judgement is location value: what a given face will earn over the next ten years, before the lease is signed, the conversion is funded or the renewal is agreed. Operators hold the best possible training data for it, years of billing history for every face they own, and they rarely join that history to the site attributes and the manager's original expectation. Three things block a fix. The judgement sits with a few senior real estate people who learned it by driving corridors. Sales performance confounds the outcome, since a strong account executive can make a weak board look good. And the audience currency is a modelled estimate in the middle of a replacement. The commercial opening is strongest at the large and mid-sized operators, where one better conversion or renewal decision pays for the tooling, and in an operations platform for the ~2,000 independents, most of them tiny (64% of establishments had fewer than five employees in 2023). Under the Pass 2 rubric the operators are weak buyers for a research-insight engine: their insight supports sales rather than being invoiced, and the insight pockets around them are small, client-bound or owned by the measurement bureau.

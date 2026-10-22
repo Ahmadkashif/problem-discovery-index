@@ -1,0 +1,6 @@
+# outdoor-advertising-companies — builder report (batch 2)
+- Files: 65 vault + source log + scores (27 lines). REST-VERIFY-CLEAN.
+- Niches: Digital Billboard Conversions; Transit, Airport & Street Furniture Concessions; Site Leases & Entitlements (non-terminal → Ground Lease Retention; Permits, Zoning & Relocation Rights); Static Posting & Structure Maintenance; Independent Billboard Operators; Local Direct Advertisers; Digital Loop Scheduling & Copy Approval; Agency RFP Response & Avails.
+- Pass 2: 16 pockets — 0 qualified / 7 below / 2 kill switch / 7 fail gate. Near-miss: Roadway Mobility & Traffic Data Suppliers 43. Linked not re-scored: alternative-data-research-providers (56), ad-verification-measurement (51), property-tax-appeal-consultancies (53).
+- Checked: OAAA 2025 US OOH $9.46B (+3.6%, digital 36.3%); 2022 EC 541850 — 2,166 firms, $8.33B, 27,361 employees; Lamar FY2025 10-K ~159,300 billboards; Outfront 2023 $534.7M impairments; Geopath/OAAA picked Ipsos 31 Mar 2026; HBA 10% penalty.
+- Fix round (review A): 16 pockets — 0 qualified / 6 below / 2 kill switch / 8 fail gate; state control → fails gate; Q4 cuts for measurement contractor (40) and Geopath (38); buy Impact sections quantified.

@@ -8,7 +8,7 @@ slug = sys.argv[1]
 row = next(r for r in csv.DictReader(open("_state/rest/queue.tsv"), delimiter="\t") if r["slug"] == slug)
 root = os.path.abspath(".")
 q = list(csv.DictReader(open("_state/rest/queue.tsv"), delimiter="\t"))
-built = ", ".join(r["slug"] for r in q if r["slug"] != slug and os.path.exists(f"niches/{r['slug']}/_overview.md") and os.path.exists(f"lenses/_state/scores/{r['slug']}.jsonl")) or "none yet"
+built = ", ".join(r["slug"] for r in q if r["slug"] != slug and os.path.exists(f"_state/rest/reports/{r['slug']}.md")) or "none yet"
 print(f"""You are building one new industry into the Obsidian vault at {root}/.
 Industry: {row['name']}   slug: {slug}   category: {row['category']}   NAICS 2022: {row['naics']}
 Boundary: {row['boundary']}
@@ -43,4 +43,6 @@ existing pocket or score consistently with it; (e) a contested sentence must gov
 as a sibling industry's niche: check the boundary sentences of nearby queue rows; (h) Q5 is about the pocket as a
 buyer: one accountable exec plus a fragmented market of such firms, so a market of a handful of firms scores 2-3;
 (i) Q2 counts analysts whose work grows with volume, so licensing an owned dataset with a small team scores low;
-(j) production headcount (detailers, modellers, coders) is not an insight function for the gate.""")
+(j) production headcount (detailers, modellers, coders, servers, clerks) is not an insight function for the gate;
+(k) work commissioned through counsel or owned by clients is a live "data isn't theirs" kill switch (the vault's
+majority rule), and kill switches are binary, never a score deduction.""")
