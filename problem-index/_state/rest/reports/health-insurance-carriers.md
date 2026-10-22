@@ -1,0 +1,6 @@
+# health-insurance-carriers — builder report (batch 6)
+- Files: 69 vault + source log + scores (31 lines). REST-VERIFY-CLEAN.
+- High-impact (tacit): the nurse reviewer's read of the authorization packet (fast-track approvals, grade denials against appeal outcomes; never auto-deny).
+- Niches: Utilization Management & Prior Authorization (non-terminal → Outpatient Prior Authorization & Gold-Carding; Inpatient & Post-Acute Concurrent Review); MA Risk Adjustment & RADV Defence; Provider Data, Directories & Network Adequacy; Appeals & Grievances Case Management; Regional & Provider-Sponsored Health Plans; Dual-Eligible & SNP Members; HEDIS Hybrid Chart Review & Stars Measurement; Enrollment & CMS Payment Reconciliation.
+- Pass 2: 20 pockets — 0 qualified / 9 below / 8 kill switch / 3 fail gate (after review A). Top: outsourced payment integrity vendors 51 KS (BAA/PHI); clean: payer drug pipeline & LOE intelligence (IPD Analytics) 47, Medicare & health policy advisory 46, pooled ACA risk adjustment reporting (Wakely WNRAR, checked aggregate-only terms) 44. ~25 existing payer-side pockets linked.
+- Checked: NAIC 2025 $1.37T DWP across 1,156 health filers, 90.3% loss ratio, 0.4% margin; OEWS May 2023 430,460 in 524114; KFF 2026 MA 35.2M (55%), SNP 23%; KFF 52.8M MA PA decisions 2024 (7.7% denied, 80.7% of appeals overturned); CMS-0057-F clocks.

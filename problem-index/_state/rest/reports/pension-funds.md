@@ -1,0 +1,6 @@
+# pension-funds — builder report (batch 6)
+- Files: 66 vault + source log + scores (28 lines). REST-VERIFY-CLEAN.
+- High-impact (tacit): private-markets re-up decision (GP team, marks and conduct read during the J-curve, never recorded in gradable form).
+- Niches: Private Markets Programmes at Public Plans (non-terminal → Private Markets Monitoring & Fee Verification; Commitment Pacing & Liquidity Planning); Pension Administration System Modernisation; Employer Contribution Reporting & Pensionable Pay Review; Multiemployer Pension Fund Offices; Small Local Public Plans; Mid-Size Corporate Sponsors With Frozen Plans; Benefit Estimates & Final Calculations; Payee Verification & Overpayment Prevention.
+- Pass 2: 17 pockets — 0 qualified / 6 below / 6 kill switch / 5 fail gate. Top clean: asset owner board & search intelligence 46; pension cost & service benchmarking 44. Top KS: multiemployer plan actuaries 49; consultant performance reporting 44.
+- Checked: Census ASPP 2025 $6.49T state/local assets, $418.25B benefits, 37M+ members; DOL Form 5500 2023 46,233 private DB plans ~$2.99T, 1,341 multiemployer plans ~$729B; QCEW 2024 525110 919 establishments / 4,997 employees (public systems file elsewhere); LIMRA 2025 PRT $31.3B / 683 contracts; PBGC SFA ~$70.0B to 108 plans.

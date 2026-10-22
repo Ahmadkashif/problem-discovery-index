@@ -1,10 +1,10 @@
 {
- "n_industries": 299,
- "n_subniches": 5010,
+ "n_industries": 306,
+ "n_subniches": 5194,
  "industries": {
   "ai_proof": {
-   "median": 35,
-   "mean": 40.8,
+   "median": 35.0,
+   "mean": 40.9,
    "top": [
     {
      "id": "childcare-centers",
@@ -341,8 +341,8 @@
    ]
   },
   "clarity": {
-   "median": 56,
-   "mean": 59.7,
+   "median": 56.0,
+   "mean": 59.6,
    "top": [
     {
      "id": "data-labeling-services",
@@ -679,8 +679,8 @@
    ]
   },
   "digital": {
-   "median": 81,
-   "mean": 65.3,
+   "median": 81.0,
+   "mean": 65.6,
    "top": [
     {
      "id": "ai-agent-platforms",
@@ -1016,14 +1016,14 @@
     }
    ]
   },
-  "rho_clarity_ai_proof": -0.15,
+  "rho_clarity_ai_proof": -0.16,
   "rho_digital_ai_proof": -0.83,
-  "rho_digital_clarity": -0.02
+  "rho_digital_clarity": -0.01
  },
  "subniches": {
   "ai_proof": {
    "median": 30.0,
-   "mean": 33.2,
+   "mean": 33.4,
    "top": [
     {
      "id": "physical-therapy/cash-pay-direct-access",
@@ -1361,7 +1361,7 @@
   },
   "clarity": {
    "median": 69.0,
-   "mean": 65.4,
+   "mean": 65.2,
    "top": [
     {
      "id": "sales-finance-companies/abs-loan-tape-due-diligence",
@@ -1699,7 +1699,7 @@
   },
   "digital": {
    "median": 94.0,
-   "mean": 77.8,
+   "mean": 78.0,
    "top": [
     {
      "id": "interior-design-firms/ad-market-research-firms",

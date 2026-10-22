@@ -1,0 +1,6 @@
+# title-insurance-carriers — builder report (batch 6)
+- Files: 62 vault + source log (19 URLs) + scores (24 lines). REST-VERIFY-CLEAN.
+- High-impact (tacit): the claims counsel's first read of a title claim.
+- Niches: Agency-Channel Residential Underwriting; National Commercial & High-Liability Title; Title Claims Administration & Litigation (non-terminal → Claim Intake & Coverage Determination; Cure, Defense & Panel Counsel Management); Agency Audit & Escrow Oversight; Regional & Bar-Related Underwriters; Home Equity & Refinance Lenders (AOLs, waivers, GSE pilot); Policy Issuance, CPLs & Premium Remittance; Title Statistical Reporting & Rate Filings.
+- Pass 2: 13 pockets — 0 qualified / 2 below / 1 kill switch / 10 fail gate (after review B: zoning report providers fail gate as per-report production). Top: claims defence 32 KS; instant decision underwriters 30. Claims-counsel research linked to land-surveyors/title-underwriting-claims-research (same organisation), ~20 pockets linked.
+- Checked: ALTA 2025 $18.5B premium (+13.8%), $667M claims paid; NAIC $18.6B DPW, agents 62.7%, CR 102.8%; Census SUSB 2022 1,004 firms, $22.36B receipts (92% at 24 firms); First American FY2025 10-K loss provision 3.0%, IBNR $1,095.9M; Milliman/ALTA fraud claims >$143K avg.

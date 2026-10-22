@@ -45,10 +45,12 @@ competes and end on who takes the account; "lowest price/take rate" is a generic
 as a sibling industry's niche: check the boundary sentences of nearby queue rows; (h) Q5 is about the pocket as a
 buyer: one accountable exec plus a fragmented market of such firms, so a market of a handful of firms scores 2-3;
 (i) Q2 counts analysts whose work grows with volume, so licensing an owned dataset with a small team scores low;
-(j) production headcount (detailers, modellers, coders, servers, clerks) is not an insight function for the gate;
+(j) production headcount (detailers, modellers, coders, servers, clerks, inspectors, examiners, tabulators) is not an insight function for the gate;
 (k) work commissioned through counsel or owned by clients is a live "data isn't theirs" kill switch (the vault's
 majority rule), and kill switches are binary, never a score deduction; (l) client loan-level or transaction data held
 under a service agreement is a live kill switch unless you cite checked evidence the agreement permits aggregate use;
-(m) contested sentences end "...takes the account" (competitor lists go in the body, not the sentence).""")
+(m) contested sentences end "...takes the account" (competitor lists go in the body, not the sentence) and name the win
+condition ("whoever keeps the most hedges on through a margin spike takes the account"), never "whoever does it best";
+(n) government procurement is not a kill switch: only statutory confidentiality, privilege or client-owned data count.""")
 if notes:
     print("Slug-specific notes from the coordinator: " + " ".join(notes))

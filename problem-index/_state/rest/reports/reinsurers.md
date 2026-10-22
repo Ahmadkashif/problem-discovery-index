@@ -1,0 +1,6 @@
+# reinsurers — builder report (batch 6)
+- Files: 64 vault + source log + scores (26 lines). REST-VERIFY-CLEAN.
+- High-impact (tacit): the lead property-cat underwriter's "own view of risk" loads on top of vendor model output, recorded without reasons and never graded.
+- Niches: Property Catastrophe Treaty Underwriting; Casualty Treaty Reinsurance (non-terminal → Casualty XoL Trend & Development Pricing; MGA & Programme Quota Share Oversight); Facultative Reinsurance Underwriting; Reinsurance Claims, Technical Accounting & Collateral; Retrocession Buyers & Sellers; ILS Investors & Sidecar Capital Providers; Submission & Exposure Data Preparation; Treaty Wording & Contract Certainty.
+- Pass 2: 15 pockets — 0 qualified / 7 below / 3 kill switch / 5 fail gate (after review B: supervisors fail gate). Near-miss: single-peril & climate modellers 47; industry loss index providers (PCS, PERILS) 46; cat bond modelling agents 43. Rule used: own-risk pricing on cedent data = no KS; productised cross-cedent data = KS.
+- Checked: Aon Apr 2026 global reinsurance capital $785B ($649B traditional, $136B alternative), CR 88.5%; QCEW 2024 524130 1,192 est / 30,896 emp; Guy Carpenter US property-cat ROL −12% at 1/1/2026; Artemis cat bonds ~$65.6B outstanding H1 2026.
