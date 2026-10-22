@@ -1,0 +1,1 @@
+The FCC's November 2023 SIM-swap and port-out order (WC Docket 21-341) requires carriers to authenticate customers before a SIM change or port-out and to notify them immediately, but a July 2024 bureau order (DA 24-649) deferred compliance with all of its rules until OMB approval and a Federal Register compliance-date notice, and no such notice had appeared by October 2026.

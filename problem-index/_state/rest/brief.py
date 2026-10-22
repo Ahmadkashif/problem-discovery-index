@@ -8,6 +8,7 @@ slug = sys.argv[1]
 row = next(r for r in csv.DictReader(open("_state/rest/queue.tsv"), delimiter="\t") if r["slug"] == slug)
 root = os.path.abspath(".")
 q = list(csv.DictReader(open("_state/rest/queue.tsv"), delimiter="\t"))
+notes = [r["note"] for r in csv.DictReader(open("_state/rest/builder-notes.tsv"), delimiter="\t") if r["slug"] == slug] if os.path.exists("_state/rest/builder-notes.tsv") else []
 built = ", ".join(r["slug"] for r in q if r["slug"] != slug and os.path.exists(f"_state/rest/reports/{r['slug']}.md")) or "none yet"
 print(f"""You are building one new industry into the Obsidian vault at {root}/.
 Industry: {row['name']}   slug: {slug}   category: {row['category']}   NAICS 2022: {row['naics']}
@@ -32,7 +33,8 @@ commits. Other builders are writing other slugs at the same time, so ignore file
 Do not spawn subagents or forks (no Agent tool calls): do all the work yourself. The owner caps this job at 3
 agents in parallel. Pass 2 table verdicts are exactly ✅ Indexed · Below threshold · ⚠️ Kill switch · Fails gate.
 A pocket already profiled under another industry gets no second profile: name and wikilink it in the Pass 2 prose.
-New industries from this plan that are already built and safe to wikilink: {built}.
+New industries from this plan that are already built and safe to wikilink: every slug with a report file in
+_state/rest/reports/ (ls it; ignore the review-*, findings-* and sim-swap-sentence files).
 Any other queued slug (see _state/rest/queue.tsv) is not built yet: name it in prose, never as a wikilink.
 Lessons from earlier reviews, apply them up front: (a) Q4 = 5 needs a hard third-party deadline on the pocket
 itself (court dates, regulator filing dates, earnings dates), not a client's project schedule; (b) use the insight
@@ -46,3 +48,5 @@ buyer: one accountable exec plus a fragmented market of such firms, so a market 
 (j) production headcount (detailers, modellers, coders, servers, clerks) is not an insight function for the gate;
 (k) work commissioned through counsel or owned by clients is a live "data isn't theirs" kill switch (the vault's
 majority rule), and kill switches are binary, never a score deduction.""")
+if notes:
+    print("Slug-specific notes from the coordinator: " + " ".join(notes))

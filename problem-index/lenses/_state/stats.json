@@ -1,9 +1,9 @@
 {
- "n_industries": 284,
- "n_subniches": 4644,
+ "n_industries": 291,
+ "n_subniches": 4816,
  "industries": {
   "ai_proof": {
-   "median": 35.0,
+   "median": 35,
    "mean": 40.7,
    "top": [
     {
@@ -341,8 +341,8 @@
    ]
   },
   "clarity": {
-   "median": 56.0,
-   "mean": 59.2,
+   "median": 56,
+   "mean": 59.4,
    "top": [
     {
      "id": "data-labeling-services",
@@ -679,8 +679,8 @@
    ]
   },
   "digital": {
-   "median": 81.0,
-   "mean": 65.5,
+   "median": 81,
+   "mean": 65.3,
    "top": [
     {
      "id": "ai-agent-platforms",
@@ -1018,12 +1018,12 @@
   },
   "rho_clarity_ai_proof": -0.16,
   "rho_digital_ai_proof": -0.83,
-  "rho_digital_clarity": -0.01
+  "rho_digital_clarity": -0.02
  },
  "subniches": {
   "ai_proof": {
    "median": 30.0,
-   "mean": 33.2,
+   "mean": 33.1,
    "top": [
     {
      "id": "physical-therapy/cash-pay-direct-access",
@@ -1699,7 +1699,7 @@
   },
   "digital": {
    "median": 94.0,
-   "mean": 77.6,
+   "mean": 77.7,
    "top": [
     {
      "id": "interior-design-firms/ad-market-research-firms",
