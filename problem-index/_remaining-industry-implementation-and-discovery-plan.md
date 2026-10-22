@@ -1,6 +1,6 @@
 # Remaining Industry Implementation and Discovery Plan
 
-**Status:** written 2026-10-22. Stage 0 not started.
+**Status:** written 2026-10-22. Stage 0 complete 2026-10-22; batch loop running (see CURSOR).
 **Input:** `_rest-of-the-industries.md`, the 714 NAICS 2022 industries the vault doesn't have yet.
 **Output:** each of them, alone or merged with close siblings, built into the vault to the same standard as the Phase 4 industries (`hedge-funds` is the reference).
 **Branch:** `phase4/capital-markets-research`. Never `main`.
@@ -630,16 +630,67 @@ Stage E is the only step that edits existing files. It runs only on the owner's 
 
 ## CURSOR
 
-**Stage:** 0 — not started
-**Triage:** — of 714 codes (new — · merge — · covered — · skip —)
-**Queue:** — industries in — batches
+**Stage:** 0 complete (2026-10-22). Batch loop next.
+**Triage:** 714 of 714 codes (new 421 · merge 265 · covered 17 · skip 11)
+**Queue:** 421 industries in 49 batches
 **Done:** 0 industries · 0 files · 0 qualifiers
-**Last verifier run:** —
-**Next action:** Stage 0.1, seed `_state/rest/naics-triage.tsv`
+**Last verifier run:** `check_queue.py` → QUEUE-CLEAN (2026-10-22)
+**Next action:** Batch 1, Professional Services (10 industries)
+**Run constraint (owner, 2026-10-22):** at most **3 subagents in parallel**, builders and reviewers combined. §5 step 2's "up to 10 at once" is overridden.
+
+**Stage 0 notes.** Every decision and boundary sentence lives in `_state/rest/stage0_triage.py`, which writes both TSVs; don't re-run it once any row is past `todo`, because it resets statuses. The count (421) sits above the plan's 300–400 guess because services stayed close to one industry per code, as §0.2 expects; manufacturing came to 272 + 5 cross-sector codes in 119 industries (~2.3 per industry) and wholesale to 59 codes in 31. Covered: 17 codes folded into existing hubs (e.g. 541214 → `payroll-platforms`, 813920 → `trade-associations`). Skipped: 11 single-operator or shell codes (Federal Reserve, USPS, NASA, DoD, State, holding companies, household employers, video rental). Category: 8132–8139 nonprofits (foundations, advocacy, civic clubs, unions, political) use `Nonprofit & Government` instead of the table's `Specialty Services`, and the 52xxx insurance carriers and benefit pools use `Insurance`. Residual "all other" codes were built around their largest firm type; the `reason` column says which (e.g. 238990 → asphalt paving; fence and pool builders also sit there).
 
 | Batch | Sector | Industries | Done | Files | Qualifiers | Pattern |
 |---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — |
+| 1 | 54 Professional Services | 10 | 0 | — | — | — |
+| 2 | 54 Professional Services | 10 | 0 | — | — | — |
+| 3 | 51 Information | 7 | 0 | — | — | — |
+| 4 | 51 Information | 7 | 0 | — | — | — |
+| 5 | 52 Finance & Insurance | 8 | 0 | — | — | — |
+| 6 | 52 Finance & Insurance | 7 | 0 | — | — | — |
+| 7 | 56 Admin, Support & Waste | 9 | 0 | — | — | — |
+| 8 | 56 Admin, Support & Waste | 8 | 0 | — | — | — |
+| 9 | 56 Admin, Support & Waste | 8 | 0 | — | — | — |
+| 10 | 61 Education | 9 | 0 | — | — | — |
+| 11 | 62 Health Care | 9 | 0 | — | — | — |
+| 12 | 62 Health Care | 9 | 0 | — | — | — |
+| 13 | 53 Real Estate & Rental | 9 | 0 | — | — | — |
+| 14 | 71 Arts & Recreation | 8 | 0 | — | — | — |
+| 15 | 71 Arts & Recreation | 8 | 0 | — | — | — |
+| 16 | 81 Other Services | 8 | 0 | — | — | — |
+| 17 | 81 Other Services | 7 | 0 | — | — | — |
+| 18 | 81 Other Services | 7 | 0 | — | — | — |
+| 19 | 72 Accommodation & Food | 6 | 0 | — | — | — |
+| 20 | 42 Wholesale | 8 | 0 | — | — | — |
+| 21 | 42 Wholesale | 8 | 0 | — | — | — |
+| 22 | 42 Wholesale | 8 | 0 | — | — | — |
+| 23 | 42 Wholesale | 7 | 0 | — | — | — |
+| 24 | 44-45 Retail | 10 | 0 | — | — | — |
+| 25 | 44-45 Retail | 10 | 0 | — | — | — |
+| 26 | 44-45 Retail | 10 | 0 | — | — | — |
+| 27 | 48-49 Transportation | 8 | 0 | — | — | — |
+| 28 | 48-49 Transportation | 7 | 0 | — | — | — |
+| 29 | 48-49 Transportation | 7 | 0 | — | — | — |
+| 30 | 23 Construction | 8 | 0 | — | — | — |
+| 31 | 23 Construction | 8 | 0 | — | — | — |
+| 32 | 22 Utilities | 8 | 0 | — | — | — |
+| 33 | 21 Mining | 8 | 0 | — | — | — |
+| 34 | 11 Agriculture | 8 | 0 | — | — | — |
+| 35 | 11 Agriculture | 8 | 0 | — | — | — |
+| 36 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 37 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 38 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 39 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 40 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 41 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 42 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 43 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 44 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 45 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 46 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 47 | 31-33 Manufacturing | 9 | 0 | — | — | — |
+| 48 | 92 Public Administration | 9 | 0 | — | — | — |
+| 49 | 92 Public Administration | 8 | 0 | — | — | — |
 
 ---
 

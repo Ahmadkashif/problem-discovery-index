@@ -1,0 +1,715 @@
+naics	title	sector	decision	slug	reason
+112511	Finfish Farming and Fish Hatcheries	11	new	fish-farms	
+112512	Shellfish Farming	11	new	shellfish-farms	
+112519	Other Aquaculture	11	merge	fish-farms	Other aquaculture (shrimp and other species in ponds and RAS) runs the same water-quality, feeding and harvest workflow.
+112910	Apiculture	11	new	beekeeping-operations	
+112920	Horses and Other Equine Production	11	new	horse-breeding-farms	
+112930	Fur-Bearing Animal and Rabbit Production	11	merge	specialty-livestock-farms	Fur-bearing animal and rabbit farms raise niche livestock with the same small-herd husbandry and niche-market selling.
+112990	All Other Animal Production	11	new	specialty-livestock-farms	
+113110	Timber Tract Operations	11	new	timberland-managers	
+113210	Forest Nurseries and Gathering of Forest Products	11	covered	greenhouse-horticulture	Forest seedling nurseries are tree nurseries; greenhouse-horticulture already covers nursery and tree production (111421).
+113310	Logging	11	new	logging-companies	
+114111	Finfish Fishing	11	new	commercial-fishing-operations	
+114112	Shellfish Fishing	11	merge	commercial-fishing-operations	Shellfish fishing vessels work under the same NOAA and state quotas, vessel monitoring and crew-share economics.
+114119	Other Marine Fishing	11	merge	commercial-fishing-operations	Other marine fishing is done by the same vessel operators under the same regime.
+114210	Hunting and Trapping	11	new	hunting-outfitters	
+115111	Cotton Ginning	11	new	cotton-gins	
+115112	Soil Preparation, Planting, and Cultivating	11	new	custom-farming-contractors	
+115113	Crop Harvesting, Primarily by Machine	11	merge	custom-farming-contractors	Custom harvesting crews are the same per-acre equipment contractors working the other end of the season.
+115114	Postharvest Crop Activities (except Cotton Ginning)	11	new	produce-packing-houses	
+115115	Farm Labor Contractors and Crew Leaders	11	new	farm-labor-contractors	
+115116	Farm Management Services	11	new	farm-management-firms	
+115210	Support Activities for Animal Production	11	new	livestock-support-services	
+115310	Support Activities for Forestry	11	new	forestry-services	
+211120	Crude Petroleum Extraction	21	new	oil-and-gas-producers	
+211130	Natural Gas Extraction	21	merge	oil-and-gas-producers	Natural gas producers run the same leasing, drilling, completion and production operations, usually in the same basins and often the same firms.
+212114	Surface Coal Mining	21	new	coal-mines	
+212115	Underground Coal Mining	21	merge	coal-mines	Underground coal mines are run by the same operators under the same MSHA and SMCRA regime and the same supply contracts; roof control is the extra skill.
+212210	Iron Ore Mining	21	merge	metal-mines	Iron ore mines run the same drill-blast-haul, grade control and concentrating work.
+212220	Gold Ore and Silver Ore Mining	21	new	gold-and-silver-mines	
+212230	Copper, Nickel, Lead, and Zinc Mining	21	new	metal-mines	
+212290	Other Metal Ore Mining	21	merge	metal-mines	Other metal mines (lithium, uranium, rare earths) run the same mine-and-mill workflow under the same MSHA rules.
+212311	Dimension Stone Mining and Quarrying	21	new	dimension-stone-quarries	
+212312	Crushed and Broken Limestone Mining and Quarrying	21	new	aggregate-producers	
+212313	Crushed and Broken Granite Mining and Quarrying	21	merge	aggregate-producers	Granite quarries run the same drill-blast, crushing, screening and stockpile sales.
+212319	Other Crushed and Broken Stone Mining and Quarrying	21	merge	aggregate-producers	Other crushed stone quarries run the same operation for the same buyers.
+212321	Construction Sand and Gravel Mining	21	merge	aggregate-producers	Sand and gravel pits sell to the same ready-mix, asphalt and DOT buyers through the same plant and scale house.
+212322	Industrial Sand Mining	21	merge	industrial-mineral-mines	Industrial sand miners process to customer specs (grain size, purity) for glass, foundry and oilfield buyers, the same work.
+212323	Kaolin, Clay, and Ceramic and Refractory Minerals Mining	21	merge	industrial-mineral-mines	Kaolin, clay and refractory mineral miners process to the same kind of customer specs.
+212390	Other Nonmetallic Mineral Mining and Quarrying	21	new	industrial-mineral-mines	
+213113	Support Activities for Coal Mining	21	merge	mining-contractors	Coal mining support contractors do the same contract drilling, blasting and stripping.
+213114	Support Activities for Metal Mining	21	new	mining-contractors	
+213115	Support Activities for Nonmetallic Minerals (except Fuels) Mining	21	merge	mining-contractors	Nonmetallic mining support contractors do the same work for quarries and industrial-mineral mines.
+221111	Hydroelectric Power Generation	22	new	hydroelectric-operators	
+221112	Fossil Fuel Electric Power Generation	22	new	thermal-power-plants	
+221113	Nuclear Electric Power Generation	22	new	nuclear-power-plants	
+221114	Solar Electric Power Generation	22	new	renewable-power-producers	
+221115	Wind Electric Power Generation	22	merge	renewable-power-producers	Wind farms are owned and operated by the same IPPs under the same PPAs, interconnection queues, market bidding and remote SCADA O&M.
+221116	Geothermal Electric Power Generation	22	merge	thermal-power-plants	Geothermal plants are steam-cycle plants run by the same control-room operators on the same turbine-generator sets.
+221117	Biomass Electric Power Generation	22	merge	thermal-power-plants	Biomass plants are steam boilers run like coal units by the same operators, with fuel handling as the main difference.
+221118	Other Electric Power Generation	22	merge	renewable-power-producers	Battery storage and other generation is developed and operated by the same IPPs under the same contracts and market rules.
+221121	Electric Bulk Power Transmission and Control	22	new	transmission-operators	
+221122	Electric Power Distribution	22	new	electric-utilities	
+221210	Natural Gas Distribution	22	new	gas-utilities	
+221330	Steam and Air-Conditioning Supply	22	new	district-energy-operators	
+237210	Land Subdivision	23	new	land-developers	
+237310	Highway, Street, and Bridge Construction	23	new	highway-contractors	
+237990	Other Heavy and Civil Engineering Construction	23	new	heavy-civil-contractors	
+238110	Poured Concrete Foundation and Structure Contractors	23	new	concrete-contractors	
+238120	Structural Steel and Precast Concrete Contractors	23	new	steel-erectors	
+238130	Framing Contractors	23	new	framing-contractors	
+238140	Masonry Contractors	23	new	masonry-contractors	
+238150	Glass and Glazing Contractors	23	new	glazing-contractors	
+238170	Siding Contractors	23	new	siding-contractors	
+238190	Other Foundation, Structure, and Building Exterior Contractors	23	merge	steel-erectors	Ornamental metal, curtain-wall framing and on-site welding work is done by the same ironworkers and crews.
+238290	Other Building Equipment Contractors	23	new	elevator-contractors	
+238310	Drywall and Insulation Contractors	23	new	drywall-and-insulation-contractors	
+238330	Flooring Contractors	23	new	flooring-contractors	
+238340	Tile and Terrazzo Contractors	23	new	tile-contractors	
+238350	Finish Carpentry Contractors	23	new	finish-carpentry-contractors	
+238390	Other Building Finishing Contractors	23	merge	finish-carpentry-contractors	Other building finishing (countertops, closet systems, shower doors) is installed by the same finish crews.
+238910	Site Preparation Contractors	23	new	excavation-contractors	
+238990	All Other Specialty Trade Contractors	23	new	paving-contractors	Paving and sealcoating contractors are the largest firm type in this residual code; fence and pool builders also sit here.
+311811	Retail Bakeries	31	covered	specialty-food-retail	Retail bakeries that bake on premises are the bakery shops specialty-food-retail already covers.
+312111	Soft Drink Manufacturing	31	new	beverage-bottlers	
+312112	Bottled Water Manufacturing	31	merge	beverage-bottlers	Bottled water plants run the same high-speed filling lines, DSD routes and retailer programs, often inside the same bottler.
+312113	Ice Manufacturing	31	merge	beverage-bottlers	Packaged ice makers freeze, bag and deliver on the same DSD route model to the same c-stores and grocers.
+312120	Breweries	31	new	breweries	
+312130	Wineries	31	new	wineries	
+312140	Distilleries	31	new	distilleries	
+312230	Tobacco Manufacturing	31	new	tobacco-manufacturers	
+313110	Fiber, Yarn, and Thread Mills	31	merge	textile-mills	Yarn spinning mills sell to the same weavers and knitters and run the same continuous mill floor and quality lab.
+313210	Broadwoven Fabric Mills	31	new	textile-mills	
+313220	Narrow Fabric Mills and Schiffli Machine Embroidery	31	merge	textile-mills	Narrow-fabric and Schiffli embroidery mills weave and knit on the same kinds of machines for the same apparel and industrial buyers.
+313230	Nonwoven Fabric Mills	31	new	nonwoven-fabric-mills	
+313240	Knit Fabric Mills	31	merge	textile-mills	Knit fabric mills make fabric for the same cut-and-sew buyers with the same lab dips, yield and defect grading.
+313310	Textile and Fabric Finishing Mills	31	new	textile-dyers-and-finishers	
+313320	Fabric Coating Mills	31	merge	textile-dyers-and-finishers	Fabric coaters run the same commission finishing model on customers' greige goods, with chemistry and line control as the craft.
+314110	Carpet and Rug Mills	31	new	carpet-mills	
+314120	Curtain and Linen Mills	31	new	sewn-products-makers	
+314910	Textile Bag and Canvas Mills	31	merge	sewn-products-makers	Canvas, awning and textile-bag shops cut and sew non-apparel textiles to order with the same pattern, nesting and sewing workflow.
+314994	Rope, Cordage, Twine, Tire Cord, and Tire Fabric Mills	31	merge	textile-mills	Rope, cordage and tire-cord mills twist and braid fiber on the same kind of continuous textile lines.
+314999	All Other Miscellaneous Textile Product Mills	31	merge	sewn-products-makers	Other textile product makers (flags, banners, contract embroidery) run the same small cut-and-sew shops.
+315120	Apparel Knitting Mills	31	merge	apparel-manufacturers	Apparel knitting mills (hosiery, sweaters) design, sample and sell garments to the same retailers and brands.
+315250	Cut and Sew Apparel Manufacturing (except Contractors)	31	new	apparel-manufacturers	
+315990	Apparel Accessories and Other Apparel Manufacturing	31	merge	apparel-manufacturers	Accessory makers (hats, gloves, belts, ties) run the same design, sampling and wholesale workflow.
+316110	Leather and Hide Tanning and Finishing	31	new	tanneries	
+316210	Footwear Manufacturing	31	new	footwear-and-leather-goods-makers	
+316990	Other Leather and Allied Product Manufacturing	31	merge	footwear-and-leather-goods-makers	Handbag, luggage and saddlery makers cut and stitch leather with the same clicking, skiving and stitching workflow.
+321113	Sawmills	32	new	sawmills	
+321114	Wood Preservation	32	new	wood-treating-plants	
+321211	Hardwood Veneer and Plywood Manufacturing	32	merge	engineered-wood-mills	Hardwood veneer and plywood mills run the same peeling, drying and press lines.
+321212	Softwood Veneer and Plywood Manufacturing	32	new	engineered-wood-mills	
+321215	Engineered Wood Member Manufacturing	32	merge	engineered-wood-mills	Engineered wood member plants (glulam, LVL, I-joists) press veneers and strands into structural members under the same APA certification.
+321219	Reconstituted Wood Product Manufacturing	32	merge	engineered-wood-mills	OSB, particleboard and MDF plants run the same continuous press lines and resin chemistry.
+321911	Wood Window and Door Manufacturing	32	merge	millwork-manufacturers	Wood window and door plants run the same moulders, CNC and finishing lines and sell through the same dealer channel.
+321912	Cut Stock, Resawing Lumber, and Planing	32	merge	sawmills	Planing mills and resaw operations finish the same lumber with the same grading, kiln and planer work, often on the sawmill site.
+321918	Other Millwork (including Flooring)	32	new	millwork-manufacturers	
+321920	Wood Container and Pallet Manufacturing	32	new	pallet-manufacturers	
+321991	Manufactured Home (Mobile Home) Manufacturing	32	new	factory-built-home-builders	
+321992	Prefabricated Wood Building Manufacturing	32	merge	factory-built-home-builders	Modular and prefab wood building makers run the same factory-line construction and shipping, under state modular codes instead of the HUD code.
+321999	All Other Miscellaneous Wood Product Manufacturing	32	merge	millwork-manufacturers	Other wood product makers (dowels, turnings, components) run the same machining and finishing work.
+322110	Pulp Mills	32	merge	pulp-and-paper-mills	Pulp mills are mostly integrated into paper mills, with the same digesters, recovery boilers and mill crews.
+322120	Paper Mills	32	new	pulp-and-paper-mills	
+322130	Paperboard Mills	32	merge	pulp-and-paper-mills	Paperboard mills run the same machines, wet ends and recovery operations.
+322211	Corrugated and Solid Fiber Box Manufacturing	32	new	paperboard-packaging-makers	
+322212	Folding Paperboard Box Manufacturing	32	merge	paperboard-packaging-makers	Folding carton plants print, die-cut and glue paperboard boxes for the same CPG buyers.
+322219	Other Paperboard Container Manufacturing	32	merge	paperboard-packaging-makers	Other paperboard container makers (tubes, drums, cores) convert the same board for the same buyers.
+322220	Paper Bag and Coated and Treated Paper Manufacturing	32	merge	paper-converters	Paper bag and coated-paper makers convert parent rolls on the same slitting, coating and bag lines.
+322230	Stationery Product Manufacturing	32	merge	paper-converters	Stationery makers convert paper into envelopes, notebooks and forms on the same lines.
+322291	Sanitary Paper Product Manufacturing	32	merge	paper-converters	Tissue and sanitary paper converters run the same roll-converting lines.
+322299	All Other Converted Paper Product Manufacturing	32	new	paper-converters	
+324110	Petroleum Refineries	32	new	petroleum-refineries	
+324121	Asphalt Paving Mixture and Block Manufacturing	32	new	asphalt-plants	
+324122	Asphalt Shingle and Coating Materials Manufacturing	32	merge	building-products-plants	Asphalt shingle plants run continuous lines selling to the same distributors and contractors.
+324191	Petroleum Lubricating Oil and Grease Manufacturing	32	new	lubricant-blenders	
+324199	All Other Petroleum and Coal Products Manufacturing	32	merge	petroleum-refineries	Coke and calcined petroleum coke plants run refining-adjacent thermal processes, mostly at or beside refineries.
+325110	Petrochemical Manufacturing	32	new	petrochemical-plants	
+325120	Industrial Gas Manufacturing	32	new	industrial-gas-producers	
+325130	Synthetic Dye and Pigment Manufacturing	32	merge	inorganic-chemical-plants	Dye and pigment plants run the same batch and continuous inorganic chemistry for the same industrial buyers.
+325180	Other Basic Inorganic Chemical Manufacturing	32	new	inorganic-chemical-plants	
+325193	Ethyl Alcohol Manufacturing	32	new	ethanol-plants	
+325194	Cyclic Crude, Intermediate, and Gum and Wood Chemical Manufacturing	32	merge	petrochemical-plants	Cyclic crude and wood-chemical plants run the same continuous chemical process units.
+325199	All Other Basic Organic Chemical Manufacturing	32	merge	petrochemical-plants	Other basic organic chemical plants run the same continuous process units for the same industrial buyers.
+325211	Plastics Material and Resin Manufacturing	32	new	polymer-producers	
+325212	Synthetic Rubber Manufacturing	32	merge	polymer-producers	Synthetic rubber plants polymerise the same monomers in the same kind of reactors.
+325220	Artificial and Synthetic Fibers and Filaments Manufacturing	32	merge	polymer-producers	Synthetic fiber plants polymerise and spin the same polymers.
+325311	Nitrogenous Fertilizer Manufacturing	32	new	fertilizer-plants	
+325312	Phosphatic Fertilizer Manufacturing	32	merge	fertilizer-plants	Phosphate fertilizer plants run the same continuous process and sell into the same ag-retail channel.
+325314	Fertilizer (Mixing Only) Manufacturing	32	merge	ag-input-retailers	Fertilizer blending plants are run by the same ag retailers and co-ops as part of their agronomy service.
+325315	Compost Manufacturing	32	new	compost-producers	
+325320	Pesticide and Other Agricultural Chemical Manufacturing	32	new	crop-protection-manufacturers	
+325411	Medicinal and Botanical Manufacturing	32	new	supplement-manufacturers	
+325412	Pharmaceutical Preparation Manufacturing	32	new	pharmaceutical-manufacturers	
+325413	In-Vitro Diagnostic Substance Manufacturing	32	covered	medical-device-mfg	In-vitro diagnostic reagents are regulated by FDA as medical devices (510(k), QMSR), so IVD makers run medical-device-mfg's quality and regulatory workflow.
+325414	Biological Product (except Diagnostic) Manufacturing	32	new	biologics-manufacturers	
+325510	Paint and Coating Manufacturing	32	new	coatings-and-adhesives-makers	
+325520	Adhesive Manufacturing	32	merge	coatings-and-adhesives-makers	Adhesive makers formulate batch chemistry for the same industrial buyers with the same lab, QC and performance testing.
+325611	Soap and Other Detergent Manufacturing	32	new	cleaning-chemical-makers	
+325612	Polish and Other Sanitation Good Manufacturing	32	merge	cleaning-chemical-makers	Polish and sanitation-goods makers blend the same surfactant chemistry for the same retail and institutional buyers.
+325613	Surface Active Agent Manufacturing	32	merge	cleaning-chemical-makers	Surfactant makers supply and often run the same blending operations.
+325620	Toilet Preparation Manufacturing	32	new	cosmetics-manufacturers	
+325910	Printing Ink Manufacturing	32	merge	coatings-and-adhesives-makers	Printing ink makers formulate and color-match batches the same way.
+325920	Explosives Manufacturing	32	merge	mining-contractors	Commercial explosives makers sell mostly through their own blasting-service arms, the same drill-and-blast work.
+325992	Photographic Film, Paper, Plate, Chemical, and Copy Toner Manufacturing	32	merge	specialty-chemical-blenders	Photographic chemical and toner makers blend and package specialty formulations the same way.
+325998	All Other Miscellaneous Chemical Product and Preparation Manufacturing	32	new	specialty-chemical-blenders	
+326111	Plastics Bag and Pouch Manufacturing	32	merge	plastic-film-and-bag-makers	Bag and pouch makers convert the same blown and cast film on the same lines.
+326112	Plastics Packaging Film and Sheet (including Laminated) Manufacturing	32	new	plastic-film-and-bag-makers	
+326113	Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing	32	merge	plastic-film-and-bag-makers	Unlaminated film and sheet extruders run the same film lines.
+326121	Unlaminated Plastics Profile Shape Manufacturing	32	new	plastic-extruders	
+326122	Plastics Pipe and Pipe Fitting Manufacturing	32	merge	plastic-extruders	Pipe and fitting extruders run the same extrusion lines and dies.
+326130	Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing	32	merge	plastic-extruders	Laminated plastic plate and sheet makers press and extrude for the same industrial buyers.
+326140	Polystyrene Foam Product Manufacturing	32	merge	foam-product-makers	Polystyrene foam makers mould and cut foam for the same packaging and construction buyers.
+326150	Urethane and Other Foam Product (except Polystyrene) Manufacturing	32	new	foam-product-makers	
+326160	Plastics Bottle Manufacturing	32	merge	plastic-molders	Bottle makers blow-mould on the same kind of machines for the same custom-molding buyers.
+326191	Plastics Plumbing Fixture Manufacturing	32	merge	plumbing-products-makers	Plastic and fiberglass tub, shower and fixture makers sell through the same plumbing wholesalers and showrooms to the same plumbers and builders.
+326199	All Other Plastics Product Manufacturing	32	new	plastic-molders	
+326211	Tire Manufacturing (except Retreading)	32	new	tire-manufacturers	
+326212	Tire Retreading	32	new	tire-retreaders	
+326220	Rubber and Plastics Hoses and Belting Manufacturing	32	merge	rubber-product-makers	Hose and belt makers mix, mould and extrude the same compounds.
+326291	Rubber Product Manufacturing for Mechanical Use	32	merge	rubber-product-makers	Mechanical rubber goods makers mould the same compounds for OEMs.
+326299	All Other Rubber Product Manufacturing	32	new	rubber-product-makers	
+327110	Pottery, Ceramics, and Plumbing Fixture Manufacturing	32	merge	ceramics-and-refractory-makers	Pottery, sanitaryware and technical ceramics are formed and kiln-fired the same way.
+327120	Clay Building Material and Refractories Manufacturing	32	new	ceramics-and-refractory-makers	
+327211	Flat Glass Manufacturing	32	merge	glass-manufacturers	Flat glass plants run the same melting furnaces.
+327212	Other Pressed and Blown Glass and Glassware Manufacturing	32	merge	glass-manufacturers	Pressed and blown glassware plants run the same furnaces and forming.
+327213	Glass Container Manufacturing	32	new	glass-manufacturers	
+327215	Glass Product Manufacturing Made of Purchased Glass	32	new	glass-fabricators	
+327310	Cement Manufacturing	32	new	cement-and-lime-plants	
+327320	Ready-Mix Concrete Manufacturing	32	new	ready-mix-concrete-producers	
+327331	Concrete Block and Brick Manufacturing	32	merge	concrete-products-plants	Block and brick plants cast the same products.
+327332	Concrete Pipe Manufacturing	32	merge	concrete-products-plants	Concrete pipe plants cast in the same yards.
+327390	Other Concrete Product Manufacturing	32	new	concrete-products-plants	
+327410	Lime Manufacturing	32	merge	cement-and-lime-plants	Lime plants run the same kilns, quarry feed and bulk shipping.
+327420	Gypsum Product Manufacturing	32	new	building-products-plants	
+327910	Abrasive Product Manufacturing	32	merge	ceramics-and-refractory-makers	Abrasive makers press and fire bonded abrasives in the same kilns.
+327991	Cut Stone and Stone Product Manufacturing	32	new	stone-countertop-fabricators	
+327992	Ground or Treated Mineral and Earth Manufacturing	32	merge	industrial-mineral-mines	Ground and treated mineral processing is the mill at the mine, run by the same operators.
+327993	Mineral Wool Manufacturing	32	merge	building-products-plants	Mineral wool plants run the same continuous lines into the same channel.
+327999	All Other Miscellaneous Nonmetallic Mineral Product Manufacturing	32	merge	ceramics-and-refractory-makers	Other nonmetallic mineral products are formed and fired the same way.
+331110	Iron and Steel Mills and Ferroalloy Manufacturing	33	new	steel-mills	
+331210	Iron and Steel Pipe and Tube Manufacturing from Purchased Steel	33	merge	steel-mills	Pipe and tube mills form and weld the same steel.
+331221	Rolled Steel Shape Manufacturing	33	merge	steel-mills	Rolled shape mills roll the same steel.
+331222	Steel Wire Drawing	33	merge	steel-mills	Wire drawers draw the same rod.
+331313	Alumina Refining and Primary Aluminum Production	33	merge	nonferrous-metal-mills	Primary aluminum smelters run the same melt, cast and pot-line operations.
+331314	Secondary Smelting and Alloying of Aluminum	33	merge	nonferrous-metal-mills	Secondary aluminum smelters remelt scrap the same way.
+331315	Aluminum Sheet, Plate, and Foil Manufacturing	33	merge	nonferrous-metal-mills	Aluminum sheet, plate and foil mills roll the same metal.
+331318	Other Aluminum Rolling, Drawing, and Extruding	33	new	aluminum-extruders	
+331410	Nonferrous Metal (except Aluminum) Smelting and Refining	33	new	nonferrous-metal-mills	
+331420	Copper Rolling, Drawing, Extruding, and Alloying	33	merge	nonferrous-metal-mills	Copper rolling and drawing mills roll and draw the same way.
+331491	Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, and Extruding	33	merge	nonferrous-metal-mills	Other nonferrous rolling mills roll and draw the same way.
+331492	Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)	33	merge	nonferrous-metal-mills	Secondary nonferrous smelters remelt scrap the same way.
+331511	Iron Foundries	33	new	sand-casting-foundries	
+331512	Steel Investment Foundries	33	new	investment-casting-foundries	
+331513	Steel Foundries (except Investment)	33	merge	sand-casting-foundries	Steel foundries run the same sand-mould pattern, melt, pour and finish.
+331523	Nonferrous Metal Die-Casting Foundries	33	new	die-casting-shops	
+331524	Aluminum Foundries (except Die-Casting)	33	merge	sand-casting-foundries	Aluminum foundries run the same sand and permanent-mould casting.
+331529	Other Nonferrous Metal Foundries (except Die-Casting)	33	merge	sand-casting-foundries	Other nonferrous foundries run the same casting.
+332111	Iron and Steel Forging	33	new	forging-shops	
+332112	Nonferrous Forging	33	merge	forging-shops	Nonferrous forgers run the same presses, hammers, die design and heat treatment for the same aerospace, auto and industrial buyers.
+332117	Powder Metallurgy Part Manufacturing	33	merge	forging-shops	Powder metallurgy shops press and sinter net-shape parts for the same auto and industrial buyers, competing for the same part numbers.
+332215	Metal Kitchen Cookware, Utensil, Cutlery, and Flatware (except Precious) Manufacturing	33	merge	tool-and-hardware-makers	Cookware, cutlery and flatware makers stamp, forge and finish metal consumer goods for the same retail and distributor buyers.
+332216	Saw Blade and Handtool Manufacturing	33	merge	tool-and-hardware-makers	Saw blade and hand tool makers forge, heat-treat and finish for the same hardware and industrial channel.
+332431	Metal Can Manufacturing	33	new	metal-container-makers	
+332439	Other Metal Container Manufacturing	33	merge	metal-container-makers	Drum, pail and gas-cylinder makers form, seam and test steel containers on the same kind of lines for the same filler customers.
+332510	Hardware Manufacturing	33	new	tool-and-hardware-makers	
+332722	Bolt, Nut, Screw, Rivet, and Washer Manufacturing	33	new	fastener-manufacturers	
+332911	Industrial Valve Manufacturing	33	new	valve-manufacturers	
+332912	Fluid Power Valve and Hose Fitting Manufacturing	33	merge	fluid-power-manufacturers	Fluid power valve and hose-fitting makers sell to the same OEMs through the same fluid-power distributors.
+332913	Plumbing Fixture Fitting and Trim Manufacturing	33	new	plumbing-products-makers	
+332919	Other Metal Valve and Pipe Fitting Manufacturing	33	merge	valve-manufacturers	Other metal valve and pipe-fitting makers machine, pressure-test and certify to the same API and ASME standards for the same plant and EPC buyers.
+332991	Ball and Roller Bearing Manufacturing	33	merge	power-transmission-makers	Bearing makers sell to the same OEMs and MRO distributors with the same application engineering.
+332992	Small Arms Ammunition Manufacturing	33	merge	firearms-manufacturers	Small arms ammunition makers sell under the same ATF and FFL/SOT licensing through the same distributors and retailers.
+332993	Ammunition (except Small Arms) Manufacturing	33	merge	defense-systems-manufacturers	Ordnance and large-calibre ammunition makers sell to the same DoD buyer through the same contracting regime.
+332994	Small Arms, Ordnance, and Ordnance Accessories Manufacturing	33	new	firearms-manufacturers	
+333111	Farm Machinery and Equipment Manufacturing	33	new	farm-equipment-manufacturers	
+333112	Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing	33	merge	farm-equipment-manufacturers	Lawn, garden and turf equipment makers sell through the same farm and outdoor-power dealer networks, often as divisions of the same OEMs.
+333120	Construction Machinery Manufacturing	33	new	heavy-machinery-manufacturers	
+333131	Mining Machinery and Equipment Manufacturing	33	merge	heavy-machinery-manufacturers	Mining machinery is made largely by the same OEMs on the same platforms (haul trucks, loaders, drills) and sold through the same dealers.
+333132	Oil and Gas Field Machinery and Equipment Manufacturing	33	new	oilfield-equipment-manufacturers	
+333241	Food Product Machinery Manufacturing	33	merge	industrial-machinery-builders	Food machinery builders design and build engineer-to-order machines with the same quote, design, build, FAT and field-service workflow.
+333242	Semiconductor Machinery Manufacturing	33	new	semiconductor-equipment-makers	
+333243	Sawmill, Woodworking, and Paper Machinery Manufacturing	33	merge	industrial-machinery-builders	Woodworking and paper machinery builders run the same engineer-to-order workflow.
+333248	All Other Industrial Machinery Manufacturing	33	new	industrial-machinery-builders	
+333310	Commercial and Service Industry Machinery Manufacturing	33	new	commercial-equipment-manufacturers	
+333413	Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing	33	merge	hvac-equipment-manufacturers	Fan, blower and air-purification makers sell into the same HVAC distribution and mechanical-contractor channel.
+333414	Heating Equipment (except Warm Air Furnaces) Manufacturing	33	merge	hvac-equipment-manufacturers	Boiler and heating equipment makers sell into the same channel under the same DOE efficiency rules.
+333415	Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing	33	new	hvac-equipment-manufacturers	
+333511	Industrial Mold Manufacturing	33	merge	tool-die-and-mold-shops	Industrial mold makers build one-off tooling with the same toolmakers, CNC and EDM equipment and tryout process as die shops.
+333514	Special Die and Tool, Die Set, Jig, and Fixture Manufacturing	33	new	tool-die-and-mold-shops	
+333515	Cutting Tool and Machine Tool Accessory Manufacturing	33	merge	machine-tool-builders	Cutting tool and accessory makers sell to the same machine shops through the same distributors and applications engineers.
+333517	Machine Tool Manufacturing	33	new	machine-tool-builders	
+333519	Rolling Mill and Other Metalworking Machinery Manufacturing	33	merge	industrial-machinery-builders	Rolling mill and other metalworking machinery builders run the same engineer-to-order workflow.
+333611	Turbine and Turbine Generator Set Units Manufacturing	33	new	engine-and-turbine-makers	
+333612	Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing	33	merge	power-transmission-makers	Gear and speed-reducer makers sell to the same OEMs and MRO distributors.
+333613	Mechanical Power Transmission Equipment Manufacturing	33	new	power-transmission-makers	
+333618	Other Engine Equipment Manufacturing	33	merge	engine-and-turbine-makers	Other engine makers (diesel, gas and marine engines) build prime movers for the same OEM and power-generation buyers with the same aftermarket model.
+333912	Air and Gas Compressor Manufacturing	33	merge	pump-and-compressor-makers	Air and gas compressor makers sell to the same plant and contractor buyers through the same distributors.
+333914	Measuring, Dispensing, and Other Pumping Equipment Manufacturing	33	new	pump-and-compressor-makers	
+333921	Elevator and Moving Stairway Manufacturing	33	merge	elevator-contractors	Elevator OEMs earn most of their margin installing and servicing their own units, the same mechanic work as independent elevator contractors.
+333922	Conveyor and Conveying Equipment Manufacturing	33	new	material-handling-equipment-makers	
+333923	Overhead Traveling Crane, Hoist, and Monorail System Manufacturing	33	merge	material-handling-equipment-makers	Overhead crane and hoist makers sell to the same plants and warehouses through the same integrators.
+333924	Industrial Truck, Tractor, Trailer, and Stacker Machinery Manufacturing	33	merge	material-handling-equipment-makers	Forklift and industrial truck makers sell to the same warehouses through dealers.
+333991	Power-Driven Handtool Manufacturing	33	merge	tool-and-hardware-makers	Power tool makers sell through the same hardware, home-center and industrial-supply channel, often under the same brands.
+333992	Welding and Soldering Equipment Manufacturing	33	merge	machine-tool-builders	Welding and soldering equipment makers sell to the same metalworking shops through the same distributors.
+333993	Packaging Machinery Manufacturing	33	merge	industrial-machinery-builders	Packaging machinery builders run the same engineer-to-order workflow for the same plant buyers.
+333994	Industrial Process Furnace and Oven Manufacturing	33	merge	industrial-machinery-builders	Industrial furnace and oven builders run the same engineer-to-order workflow.
+333995	Fluid Power Cylinder and Actuator Manufacturing	33	new	fluid-power-manufacturers	
+333996	Fluid Power Pump and Motor Manufacturing	33	merge	fluid-power-manufacturers	Hydraulic pump and motor makers sell to the same mobile and industrial OEMs.
+333998	All Other Miscellaneous General Purpose Machinery Manufacturing	33	merge	industrial-machinery-builders	Other general-purpose machinery builders run the same engineer-to-order workflow.
+334111	Electronic Computer Manufacturing	33	new	computer-hardware-makers	
+334112	Computer Storage Device Manufacturing	33	merge	computer-hardware-makers	Storage device makers design and outsource assembly the same way and sell to the same enterprises.
+334118	Computer Terminal and Other Computer Peripheral Equipment Manufacturing	33	merge	computer-hardware-makers	Peripheral and terminal makers (printers, POS terminals) do the same.
+334210	Telephone Apparatus Manufacturing	33	merge	communications-equipment-makers	Telephone and networking apparatus makers sell to the same carriers and enterprises with the same certification cycles.
+334220	Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing	33	new	communications-equipment-makers	
+334290	Other Communications Equipment Manufacturing	33	merge	communications-equipment-makers	Other communications equipment makers (alarm, signalling) do the same.
+334310	Audio and Video Equipment Manufacturing	33	new	audio-video-equipment-makers	
+334412	Bare Printed Circuit Board Manufacturing	33	new	pcb-fabricators	
+334413	Semiconductor and Related Device Manufacturing	33	new	semiconductor-manufacturers	
+334416	Capacitor, Resistor, Coil, Transformer, and Other Inductor Manufacturing	33	merge	electronic-component-makers	Capacitor, resistor and inductor makers sell to the same OEMs and distributors with the same qualification cycles.
+334417	Electronic Connector Manufacturing	33	merge	electronic-component-makers	Connector makers sell to the same OEMs and distributors.
+334419	Other Electronic Component Manufacturing	33	new	electronic-component-makers	
+334511	Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing	33	new	avionics-and-defense-electronics-makers	
+334512	Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use	33	merge	process-instrument-makers	Environmental control makers sell sensing and control products into the same building and industrial channels.
+334513	Instruments and Related Products Manufacturing for Measuring, Displaying, and Controlling Industrial Process Variables	33	new	process-instrument-makers	
+334514	Totalizing Fluid Meter and Counting Device Manufacturing	33	merge	process-instrument-makers	Fluid meter and counter makers sell to the same utilities and plants.
+334515	Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals	33	merge	test-and-lab-instrument-makers	Electrical test instrument makers sell to the same R&D and QA labs through the same technical sales and calibration services.
+334516	Analytical Laboratory Instrument Manufacturing	33	new	test-and-lab-instrument-makers	
+334519	Other Measuring and Controlling Device Manufacturing	33	merge	process-instrument-makers	Other measuring and controlling device makers sell the same way.
+334610	Manufacturing and Reproducing Magnetic and Optical Media	33	new	media-replication-plants	
+335131	Residential Electric Lighting Fixture Manufacturing	33	merge	electrical-products-manufacturers	Residential lighting makers sell through the same electrical distributors to the same contractors.
+335132	Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing	33	merge	electrical-products-manufacturers	Commercial lighting makers sell through the same channel with spec-driven project quoting.
+335139	Electric Lamp Bulb and Other Lighting Equipment Manufacturing	33	merge	electrical-products-manufacturers	Lamp and lighting-equipment makers sell through the same channel.
+335210	Small Electrical Appliance Manufacturing	33	merge	appliance-manufacturers	Small appliance makers sell through the same retailers under the same safety listings.
+335220	Major Household Appliance Manufacturing	33	new	appliance-manufacturers	
+335311	Power, Distribution, and Specialty Transformer Manufacturing	33	new	power-equipment-manufacturers	
+335312	Motor and Generator Manufacturing	33	merge	motor-and-control-makers	Motor and generator makers sell to the same OEMs and automation integrators.
+335313	Switchgear and Switchboard Apparatus Manufacturing	33	merge	power-equipment-manufacturers	Switchgear makers sell to the same utilities and data centers with the same long lead times.
+335314	Relay and Industrial Control Manufacturing	33	new	motor-and-control-makers	
+335910	Battery Manufacturing	33	new	battery-manufacturers	
+335921	Fiber Optic Cable Manufacturing	33	merge	wire-and-cable-manufacturers	Fiber optic cable makers draw, jacket and test cable for the same carriers and electrical distributors.
+335929	Other Communication and Energy Wire Manufacturing	33	new	wire-and-cable-manufacturers	
+335931	Current-Carrying Wiring Device Manufacturing	33	merge	electrical-products-manufacturers	Wiring device makers sell through the same channel.
+335932	Noncurrent-Carrying Wiring Device Manufacturing	33	merge	electrical-products-manufacturers	Noncurrent wiring device makers (boxes, conduit fittings) sell through the same channel.
+335991	Carbon and Graphite Product Manufacturing	33	merge	electrical-products-manufacturers	Carbon and graphite product makers sell electrical components to the same OEM buyers.
+335999	All Other Miscellaneous Electrical Equipment and Component Manufacturing	33	new	electrical-products-manufacturers	
+336110	Automobile and Light Duty Motor Vehicle Manufacturing	33	new	vehicle-manufacturers	
+336120	Heavy Duty Truck Manufacturing	33	merge	vehicle-manufacturers	Heavy truck makers run the same body, paint and final-assembly plants with the same tier-1 supply base and launch process.
+336211	Motor Vehicle Body Manufacturing	33	merge	truck-body-and-trailer-builders	Truck body builders and upfitters build to order on purchased chassis for the same fleets and dealers.
+336212	Truck Trailer Manufacturing	33	new	truck-body-and-trailer-builders	
+336213	Motor Home Manufacturing	33	merge	rv-manufacturers	Motor home makers build on purchased chassis for the same RV dealers on the same model-year and dealer-show cycle.
+336214	Travel Trailer and Camper Manufacturing	33	new	rv-manufacturers	
+336310	Motor Vehicle Gasoline Engine and Engine Parts Manufacturing	33	merge	auto-parts-suppliers	Engine parts suppliers run the same IATF 16949, PPAP and APQP workflow for the same OEM buyers.
+336320	Motor Vehicle Electrical and Electronic Equipment Manufacturing	33	merge	auto-parts-suppliers	Electrical and electronic parts suppliers run the same IATF 16949 and PPAP workflow for the same OEMs.
+336330	Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing	33	merge	auto-parts-suppliers	Steering and suspension suppliers run the same OEM launch, PPAP and line-side delivery work.
+336340	Motor Vehicle Brake System Manufacturing	33	merge	auto-parts-suppliers	Brake system suppliers run the same OEM launch and PPAP work, with safety-critical traceability.
+336350	Motor Vehicle Transmission and Power Train Parts Manufacturing	33	merge	auto-parts-suppliers	Transmission and powertrain parts suppliers run the same OEM launch and PPAP work.
+336360	Motor Vehicle Seating and Interior Trim Manufacturing	33	merge	auto-parts-suppliers	Seating and interior trim suppliers run the same sequenced, just-in-time OEM delivery.
+336370	Motor Vehicle Metal Stamping	33	merge	auto-parts-suppliers	Automotive stamping suppliers run the same OEM launch and PPAP work on press lines.
+336390	Other Motor Vehicle Parts Manufacturing	33	new	auto-parts-suppliers	
+336411	Aircraft Manufacturing	33	new	aircraft-manufacturers	
+336412	Aircraft Engine and Engine Parts Manufacturing	33	merge	aerospace-parts-suppliers	Aircraft engine and engine-parts makers supply the same OEMs and aftermarket under the same AS9100, FAA PMA and first-article rules.
+336413	Other Aircraft Parts and Auxiliary Equipment Manufacturing	33	new	aerospace-parts-suppliers	
+336414	Guided Missile and Space Vehicle Manufacturing	33	new	defense-systems-manufacturers	
+336415	Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing	33	merge	defense-systems-manufacturers	Missile and space propulsion makers sell to the same DoD and NASA buyers under ITAR, DFARS and DCAA rules.
+336419	Other Guided Missile and Space Vehicle Parts and Auxiliary Equipment Manufacturing	33	merge	defense-systems-manufacturers	Missile and space vehicle parts makers sell to the same buyers under the same rules.
+336510	Railroad Rolling Stock Manufacturing	33	new	railcar-manufacturers	
+336611	Ship Building and Repairing	33	new	shipyards	
+336612	Boat Building	33	new	boat-builders	
+336991	Motorcycle, Bicycle, and Parts Manufacturing	33	new	powersports-vehicle-makers	
+336992	Military Armored Vehicle, Tank, and Tank Component Manufacturing	33	merge	defense-systems-manufacturers	Armored vehicle makers sell to the same DoD buyer under the same contracting and ITAR rules.
+336999	All Other Transportation Equipment Manufacturing	33	merge	powersports-vehicle-makers	Other transport equipment makers (snowmobiles, golf carts, ATVs) design and sell through the same powersports dealer networks.
+337110	Wood Kitchen Cabinet and Countertop Manufacturing	33	new	cabinet-and-millwork-shops	
+337121	Upholstered Household Furniture Manufacturing	33	merge	furniture-manufacturers	Upholstered furniture makers sell to the same furniture retailers with the same cut, sew, frame and foam lines.
+337122	Nonupholstered Wood Household Furniture Manufacturing	33	new	furniture-manufacturers	
+337126	Household Furniture (except Wood and Upholstered) Manufacturing	33	merge	furniture-manufacturers	Metal and other household furniture makers sell to the same retailers on the same market-week cycle.
+337127	Institutional Furniture Manufacturing	33	merge	contract-furniture-makers	Institutional furniture makers (schools, healthcare) sell through the same contract dealers under the same BIFMA standards.
+337211	Wood Office Furniture Manufacturing	33	merge	contract-furniture-makers	Wood office furniture makers sell through the same contract dealers.
+337212	Custom Architectural Woodwork and Millwork Manufacturing	33	merge	cabinet-and-millwork-shops	Custom architectural millwork shops run the same shop drawings, CNC nesting, finishing and installation as cabinet shops, often doing both.
+337214	Office Furniture (except Wood) Manufacturing	33	new	contract-furniture-makers	
+337215	Showcase, Partition, Shelving, and Locker Manufacturing	33	merge	contract-furniture-makers	Showcase, partition, shelving and locker makers sell into the same commercial fit-outs through the same dealers.
+337910	Mattress Manufacturing	33	merge	furniture-manufacturers	Mattress makers use the same foam, spring and fabric lines and sell to the same furniture and bedding retailers.
+337920	Blind and Shade Manufacturing	33	merge	sewn-products-makers	Blind and shade fabricators make made-to-measure window coverings with the same fabric cutting and sewing as drapery workrooms.
+339116	Dental Laboratories	33	new	dental-laboratories	
+339910	Jewelry and Silverware Manufacturing	33	new	jewelry-manufacturers	
+339920	Sporting and Athletic Goods Manufacturing	33	new	sporting-goods-manufacturers	
+339930	Doll, Toy, and Game Manufacturing	33	new	toy-manufacturers	
+339940	Office Supplies (except Paper) Manufacturing	33	merge	consumer-products-makers	Pen, pencil and art-supply makers sell to the same retail and office buyers.
+339950	Sign Manufacturing	33	new	sign-shops	
+339991	Gasket, Packing, and Sealing Device Manufacturing	33	merge	rubber-product-makers	Gasket and seal makers mould and die-cut the same elastomers for the same industrial buyers.
+339992	Musical Instrument Manufacturing	33	new	musical-instrument-makers	
+339993	Fastener, Button, Needle, and Pin Manufacturing	33	merge	fastener-manufacturers	Button, pin, snap and zipper makers cold-form, stamp and mould small fastening parts at high volume for OEM and apparel buyers, the same process economics.
+339994	Broom, Brush, and Mop Manufacturing	33	merge	consumer-products-makers	Broom, brush and mop makers sell household goods to the same retail and jan-san buyers.
+339995	Burial Casket Manufacturing	33	merge	consumer-products-makers	Casket makers build finished goods for a single channel the same small-batch way.
+339999	All Other Miscellaneous Manufacturing	33	new	consumer-products-makers	
+423110	Automobile and Other Motor Vehicle Merchant Wholesalers	42	new	wholesale-auto-auctions	
+423120	Motor Vehicle Supplies and New Parts Merchant Wholesalers	42	new	auto-parts-distributors	
+423130	Tire and Tube Merchant Wholesalers	42	merge	auto-parts-distributors	Tire wholesalers deliver to the same repair shops and dealers with the same fitment lookup and hot-shot routes.
+423140	Motor Vehicle Parts (Used) Merchant Wholesalers	42	new	auto-salvage-yards	
+423210	Furniture Merchant Wholesalers	42	new	home-furnishings-wholesalers	
+423220	Home Furnishing Merchant Wholesalers	42	merge	home-furnishings-wholesalers	Home furnishing wholesalers sell through the same market-week showrooms and reps to the same furniture and home stores.
+423310	Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers	42	new	building-material-dealers	
+423320	Brick, Stone, and Related Construction Material Merchant Wholesalers	42	merge	building-material-dealers	Brick, stone and masonry supply yards sell to the same contractors with the same takeoff, quote and job-site delivery.
+423330	Roofing, Siding, and Insulation Material Merchant Wholesalers	42	merge	building-material-dealers	Roofing, siding and insulation distributors do the same two-step distribution to contractors from branch yards.
+423390	Other Construction Material Merchant Wholesalers	42	merge	building-material-dealers	Other construction material distributors run the same contractor-account, quote and delivery workflow.
+423410	Photographic Equipment and Supplies Merchant Wholesalers	42	merge	consumer-goods-wholesalers	Camera and photo-equipment distributors sell to the same retailers through the same rep-and-EDI channel.
+423420	Office Equipment Merchant Wholesalers	42	new	business-equipment-dealers	
+423430	Computer and Computer Peripheral Equipment and Software Merchant Wholesalers	42	new	it-value-added-resellers	
+423440	Other Commercial Equipment Merchant Wholesalers	42	merge	business-equipment-dealers	Cash-register, scale, ATM and store-fixture dealers sell, install and service machines under service contracts like copier dealers.
+423450	Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers	42	new	medical-supply-distributors	
+423460	Ophthalmic Goods Merchant Wholesalers	42	merge	medical-supply-distributors	Ophthalmic goods wholesalers sell regulated product catalogs to the same practices.
+423490	Other Professional Equipment and Supplies Merchant Wholesalers	42	merge	medical-supply-distributors	Lab and other professional supply distributors sell regulated catalogs to clinics and labs under the same GPO contracts.
+423510	Metal Service Centers and Other Metal Merchant Wholesalers	42	new	metal-service-centers	
+423520	Coal and Other Mineral and Ore Merchant Wholesalers	42	merge	scrap-metal-recyclers	Coal and ore merchants trade bulk raw materials to the same mills and smelters, grading and pricing loads against commodity indexes.
+423610	Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers	42	new	electrical-distributors	
+423620	Household Appliances, Electric Housewares, and Consumer Electronics Merchant Wholesalers	42	new	consumer-goods-wholesalers	
+423690	Other Electronic Parts and Equipment Merchant Wholesalers	42	new	electronic-component-distributors	
+423710	Hardware Merchant Wholesalers	42	new	hardware-wholesalers	
+423720	Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers	42	new	plumbing-and-hvac-distributors	
+423730	Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers	42	merge	plumbing-and-hvac-distributors	HVAC equipment distributors sell to the same mechanical contractors (NAICS 238220 lumps plumbing and HVAC) from the same branch model.
+423740	Refrigeration Equipment and Supplies Merchant Wholesalers	42	merge	plumbing-and-hvac-distributors	Refrigeration supply houses sell to the same HVAC/R contractors.
+423810	Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers	42	new	heavy-equipment-dealers	
+423820	Farm and Garden Machinery and Equipment Merchant Wholesalers	42	new	farm-equipment-dealers	
+423830	Industrial Machinery and Equipment Merchant Wholesalers	42	merge	industrial-distributors	Industrial machinery and equipment distributors sell to the same plant maintenance and engineering buyers, often from the same branches.
+423840	Industrial Supplies Merchant Wholesalers	42	new	industrial-distributors	
+423860	Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers	42	new	aviation-parts-distributors	
+423910	Sporting and Recreational Goods and Supplies Merchant Wholesalers	42	merge	consumer-goods-wholesalers	Sporting goods wholesalers sell branded goods to specialty retailers through reps, trade shows and seasonal pre-books.
+423920	Toy and Hobby Goods and Supplies Merchant Wholesalers	42	merge	consumer-goods-wholesalers	Toy and hobby wholesalers use the same rep, trade-show and pre-book channel to the same independents.
+423930	Recyclable Material Merchant Wholesalers	42	new	scrap-metal-recyclers	
+423940	Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers	42	merge	jewelry-manufacturers	Jewelry, precious-stone and precious-metal wholesalers sell to the same retailers on the same memo terms, and most also manufacture.
+423990	Other Miscellaneous Durable Goods Merchant Wholesalers	42	merge	consumer-goods-wholesalers	Other durable-goods wholesalers (luggage, instruments, housewares) sell through the same channel.
+424110	Printing and Writing Paper Merchant Wholesalers	42	merge	business-supplies-distributors	Paper merchants sell printing paper through the same warehouses, reps and delivery as packaging and facility supplies.
+424120	Stationery and Office Supplies Merchant Wholesalers	42	merge	business-supplies-distributors	Office-supply wholesalers and dealers sell to the same business buyers on the same contract-delivery model.
+424130	Industrial and Personal Service Paper Merchant Wholesalers	42	new	business-supplies-distributors	
+424210	Drugs and Druggists' Sundries Merchant Wholesalers	42	new	pharmaceutical-wholesalers	
+424310	Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers	42	merge	apparel-wholesalers	Fabric converters and notions jobbers sell into the same garment supply chain through the same showroom-and-sample model.
+424340	Footwear Merchant Wholesalers	42	merge	apparel-wholesalers	Footwear wholesalers sell through the same showrooms, line sheets, pre-books and EDI to the same retailers.
+424350	Clothing and Clothing Accessories Merchant Wholesalers	42	new	apparel-wholesalers	
+424510	Grain and Field Bean Merchant Wholesalers	42	new	grain-elevators	
+424520	Livestock Merchant Wholesalers	42	new	livestock-auction-markets	
+424590	Other Farm Product Raw Material Merchant Wholesalers	42	merge	grain-elevators	Cotton, wool, leaf-tobacco and hay merchants buy raw farm products from growers with the same grading, price-risk and storage work.
+424610	Plastics Materials and Basic Forms and Shapes Merchant Wholesalers	42	merge	chemical-distributors	Resin and plastics distributors do the same bulk and packaged distribution, repackaging and SDS and hazmat compliance.
+424690	Other Chemical and Allied Products Merchant Wholesalers	42	new	chemical-distributors	
+424710	Petroleum Bulk Stations and Terminals	42	merge	fuel-distributors	Bulk plants and terminals are owned and run by the same jobbers as part of the same supply chain.
+424720	Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals)	42	new	fuel-distributors	
+424810	Beer and Ale Merchant Wholesalers	42	new	beverage-alcohol-distributors	
+424820	Wine and Distilled Alcoholic Beverage Merchant Wholesalers	42	merge	beverage-alcohol-distributors	Wine and spirits distributors work the same three-tier system, route sales, chain programming and depletion reporting.
+424910	Farm Supplies Merchant Wholesalers	42	new	ag-input-retailers	
+424920	Book, Periodical, and Newspaper Merchant Wholesalers	42	merge	consumer-goods-wholesalers	Book and periodical distributors sell to the same independent retailers on returnable terms.
+424930	Flower, Nursery Stock, and Florists' Supplies Merchant Wholesalers	42	new	floral-wholesalers	
+424940	Tobacco Product and Electronic Cigarette Merchant Wholesalers	42	new	convenience-store-distributors	
+424950	Paint, Varnish, and Supplies Merchant Wholesalers	42	merge	paint-stores	Paint jobbers sell to the same painting and body-shop contractors with the same tinting and color matching.
+424990	Other Miscellaneous Nondurable Goods Merchant Wholesalers	42	merge	consumer-goods-wholesalers	Other nondurable wholesalers (pet, art and party supplies) sell through the same channel.
+425120	Wholesale Trade Agents and Brokers	42	new	manufacturers-reps	
+441110	New Car Dealers	44	new	franchised-car-dealers	
+441222	Boat Dealers	44	merge	powersports-and-boat-dealers	Boat dealers run the same OEM floorplan, seasonal inventory, F&I and service-department model, often in the same store.
+441227	Motorcycle, ATV, and All Other Motor Vehicle Dealers	44	new	powersports-and-boat-dealers	
+441330	Automotive Parts and Accessories Retailers	44	merge	auto-parts-distributors	Parts chains (NAPA, O'Reilly, AutoZone) earn a growing share from commercial delivery to repair shops, the same fitment and hot-shot work as warehouse distributors.
+441340	Tire Dealers	44	new	tire-dealers	
+444110	Home Centers	44	merge	hardware-stores	Home centers run the same assortment, special-order and pro-desk workflow at scale.
+444120	Paint and Wallpaper Retailers	44	new	paint-stores	
+444140	Hardware Retailers	44	new	hardware-stores	
+444180	Other Building Material Dealers	44	merge	building-material-dealers	Lumberyards and pro dealers that NAICS files as retail do the same takeoff, quote, yard and job-site delivery work for contractors.
+444230	Outdoor Power Equipment Retailers	44	new	outdoor-power-equipment-dealers	
+444240	Nursery, Garden Center, and Farm Supply Retailers	44	new	garden-centers	
+445110	Supermarkets and Other Grocery Retailers (except Convenience Retailers)	44	new	grocery-stores	
+445131	Convenience Retailers	44	new	convenience-stores	
+445132	Vending Machine Operators	44	new	vending-machine-operators	
+445320	Beer, Wine, and Liquor Retailers	44	new	liquor-stores	
+449110	Furniture Retailers	44	new	furniture-stores	
+449121	Floor Covering Retailers	44	new	flooring-and-blinds-retailers	
+449122	Window Treatment Retailers	44	merge	flooring-and-blinds-retailers	Window treatment retailers do the same in-home measure, quote, order and installer scheduling.
+449129	All Other Home Furnishings Retailers	44	merge	furniture-stores	Home furnishings stores (kitchenware, lighting, decor) sell through the same showroom, special-order and delivery model.
+449210	Electronics and Appliance Retailers	44	new	appliance-and-electronics-stores	
+455110	Department Stores	45	merge	general-merchandise-retailers	Department stores run the same central merchandising, replenishment and store-operations machinery.
+455211	Warehouse Clubs and Supercenters	45	merge	general-merchandise-retailers	Warehouse clubs and supercenters run the same central merchandising and replenishment at larger scale.
+455219	All Other General Merchandise Retailers	45	new	general-merchandise-retailers	
+456120	Cosmetics, Beauty Supplies, and Perfume Retailers	45	new	beauty-supply-stores	
+456130	Optical Goods Retailers	45	new	optical-retailers	
+456191	Food (Health) Supplement Retailers	45	new	supplement-stores	
+457110	Gasoline Stations with Convenience Stores	45	merge	convenience-stores	Gas stations with convenience stores are the same operators running fuel plus in-store on the same POS and back office.
+457120	Other Gasoline Stations	45	merge	convenience-stores	Fuel-only stations are run by the same operators under the same fuel-pricing and compliance work.
+457210	Fuel Dealers	45	new	propane-and-heating-oil-dealers	
+458210	Shoe Retailers	45	covered	independent-retailers	Independent shoe stores run the same open-to-buy, size-run and seasonal markdown workflow as the apparel boutiques independent-retailers covers.
+458310	Jewelry Retailers	45	new	jewelry-stores	
+458320	Luggage and Leather Goods Retailers	45	covered	independent-retailers	Luggage and leather-goods stores are accessories boutiques with the same buying and markdown workflow.
+459110	Sporting Goods Retailers	45	new	sporting-goods-stores	
+459120	Hobby, Toy, and Game Retailers	45	new	hobby-and-craft-stores	
+459130	Sewing, Needlework, and Piece Goods Retailers	45	merge	hobby-and-craft-stores	Sewing and quilt shops run the same class-and-event-driven community model with specialty inventory.
+459140	Musical Instrument and Supplies Retailers	45	new	musical-instrument-stores	
+459210	Book Retailers and News Dealers	45	new	bookstores	
+459310	Florists	45	new	florists	
+459410	Office Supplies and Stationery Retailers	45	merge	business-supplies-distributors	Office supply chains earn most of their revenue through B2B contract delivery, the same work as independent dealers.
+459510	Used Merchandise Retailers	45	new	thrift-and-resale-stores	
+459910	Pet and Pet Supplies Retailers	45	new	pet-stores	
+459920	Art Dealers	45	new	art-galleries	
+459930	Manufactured (Mobile) Home Dealers	45	new	manufactured-home-dealers	
+459991	Tobacco, Electronic Cigarette, and Other Smoking Supplies Retailers	45	new	smoke-and-vape-shops	
+481111	Scheduled Passenger Air Transportation	48	new	passenger-airlines	
+481112	Scheduled Freight Air Transportation	48	new	air-cargo-carriers	
+481211	Nonscheduled Chartered Passenger Air Transportation	48	new	charter-air-operators	
+481212	Nonscheduled Chartered Freight Air Transportation	48	merge	air-cargo-carriers	Nonscheduled freight charters (ACMI and ad hoc) are flown by the same cargo airlines with the same crews and aircraft.
+481219	Other Nonscheduled Air Transportation	48	merge	charter-air-operators	Other nonscheduled flying under Part 135 and Part 91 is done by the same on-demand operators.
+482111	Line-Haul Railroads	48	merge	freight-railroads	Class I railroads run the same FRA-regulated train, yard and car-hire operations at larger scale.
+482112	Short Line Railroads	48	new	freight-railroads	
+483111	Deep Sea Freight Transportation	48	new	ocean-shipping-carriers	
+483112	Deep Sea Passenger Transportation	48	new	cruise-lines	
+483113	Coastal and Great Lakes Freight Transportation	48	merge	tug-and-barge-operators	Coastal and Great Lakes freight is mostly tug-and-barge under the Jones Act and USCG Subchapter M, the same as inland towing.
+483114	Coastal and Great Lakes Passenger Transportation	48	merge	cruise-lines	Coastal small-ship cruises run the same berth inventory, itinerary and onboard-revenue model.
+483211	Inland Water Freight Transportation	48	new	tug-and-barge-operators	
+483212	Inland Water Passenger Transportation	48	new	ferry-operators	
+484122	General Freight Trucking, Long-Distance, Less Than Truckload	48	new	ltl-carriers	
+485111	Mixed Mode Transit Systems	48	new	transit-agencies	
+485112	Commuter Rail Systems	48	merge	transit-agencies	Commuter rail systems run the same FTA-funded, FRA- or state-safety-overseen service planning and operations.
+485119	Other Urban Transit Systems	48	merge	transit-agencies	Other urban transit (light rail, subway, streetcar) is run by the same transit authorities.
+485210	Interurban and Rural Bus Transportation	48	covered	charter-bus-operators	Interurban and rural bus lines are run by motorcoach operators with the same CDL drivers, FMCSA compliance and dispatch as charter operators.
+485410	School and Employee Bus Transportation	48	new	school-bus-contractors	
+485999	All Other Transit and Ground Passenger Transportation	48	covered	charter-bus-operators	Airport and hotel shuttles and vanpools are run by the same motorcoach and van operators with the same dispatch and FMCSA work.
+486110	Pipeline Transportation of Crude Oil	48	merge	pipeline-operators	Crude pipelines run the same PHMSA integrity management, control rooms and SCADA.
+486210	Pipeline Transportation of Natural Gas	48	new	pipeline-operators	
+486910	Pipeline Transportation of Refined Petroleum Products	48	merge	pipeline-operators	Refined products pipelines run the same integrity, batching and control-room work.
+486990	All Other Pipeline Transportation	48	merge	pipeline-operators	Other pipelines (NGLs, CO2) run under the same PHMSA regime.
+487110	Scenic and Sightseeing Transportation, Land	48	new	sightseeing-tour-companies	
+487210	Scenic and Sightseeing Transportation, Water	48	new	boat-tour-operators	
+487990	Scenic and Sightseeing Transportation, Other	48	new	aerial-tour-operators	
+488111	Air Traffic Control	48	merge	airport-operators	Contract air-traffic towers are bought by the same airport sponsors and run under the same FAA airport operations regime.
+488119	Other Airport Operations	48	new	airport-operators	
+488190	Other Support Activities for Air Transportation	48	new	aircraft-mro-shops	
+488210	Support Activities for Rail Transportation	48	new	rail-services-contractors	
+488310	Port and Harbor Operations	48	merge	port-terminal-operators	Port and harbor operators run the same berths, yards and gates as stevedores, often as landlords to them.
+488320	Marine Cargo Handling	48	new	port-terminal-operators	
+488330	Navigational Services to Shipping	48	new	marine-pilotage-and-towing	
+488390	Other Support Activities for Water Transportation	48	merge	marine-pilotage-and-towing	Salvage, ship-assist and other water support services run from the same harbor tug and pilot bases.
+488490	Other Support Activities for Road Transportation	48	new	toll-road-operators	
+488991	Packing and Crating	48	new	crating-and-export-packers	
+488999	All Other Support Activities for Transportation	48	merge	pipeline-operators	Independently operated pipeline terminals are the main operators in this residual code and do the same tankage and custody-transfer work.
+491110	Postal Service	49	skip		The Postal Service is a single federal operator (USPS); contract postal units and mail centers are covered under private-mail-centers.
+493130	Farm Product Warehousing and Storage	49	merge	grain-elevators	Farm product warehousing under the US Warehouse Act is the same licensed storage, grading and receipting.
+512120	Motion Picture and Video Distribution	51	new	film-distributors	
+512131	Motion Picture Theaters (except Drive-Ins)	51	new	movie-theaters	
+512132	Drive-In Motion Picture Theaters	51	merge	movie-theaters	Drive-ins book the same films on the same percentage film-rent terms and live on the same concession margin.
+512191	Teleproduction and Other Postproduction Services	51	new	postproduction-studios	
+512199	Other Motion Picture and Video Industries	51	merge	film-distributors	Film libraries, archives, stock-footage houses and booking agencies license the same rights to the same exhibitors and platforms under the same window and territory terms.
+512230	Music Publishers	51	new	music-publishers	
+512240	Sound Recording Studios	51	new	recording-studios	
+512290	Other Sound Recording Industries	51	merge	recording-studios	Audio production services without a tracking room (voice-over, sound design, audiobook and jingle production) employ the same engineers on the same session-billing workflow.
+513140	Directory and Mailing List Publishers	51	new	directory-and-list-publishers	
+513191	Greeting Card Publishers	51	new	greeting-card-publishers	
+516110	Radio Broadcasting Stations	51	merge	broadcast-stations	Radio stations share the FCC licence regime, local spot sales against ratings, traffic and billing systems and political-file compliance, and most station groups own both.
+516120	Television Broadcasting Stations	51	new	broadcast-stations	
+517111	Wired Telecommunications Carriers	51	new	wired-broadband-providers	
+517112	Wireless Telecommunications Carriers (except Satellite)	51	new	wireless-carriers	
+517121	Telecommunications Resellers	51	new	telecom-resellers	
+517122	Agents for Wireless Telecommunications Services	51	new	wireless-retail-agents	
+517410	Satellite Telecommunications	51	new	satellite-operators	
+517810	All Other Telecommunications	51	merge	telecom-resellers	VoIP and other providers riding on networks they do not own do the same provisioning, number porting, rating and billing as MVNOs and resellers.
+519210	Libraries and Archives	51	new	libraries-and-archives	
+521110	Monetary Authorities-Central Bank	52	skip		Central banking is the Federal Reserve System, a single statutory institution; there is no firm population to build for.
+522110	Commercial Banking	52	new	community-banks	
+522180	Savings Institutions and Other Depository Credit Intermediation	52	merge	community-banks	Thrifts and savings banks run the same core banking, lending and BSA/AML workflows on the same cores (Fiserv, Jack Henry, FIS) under the same OCC and FDIC examinations.
+522210	Credit Card Issuing	52	new	credit-card-issuers	
+522220	Sales Financing	52	new	sales-finance-companies	
+522292	Real Estate Credit	52	new	mortgage-lenders	
+522299	International, Secondary Market, and All Other Nondepository Credit Intermediation	52	new	pawnshops	Pawnbrokers are the largest operator population in this residual code; secondary-market lenders here are a handful of GSEs.
+522390	Other Activities Related to Credit Intermediation	52	new	money-service-businesses	
+523160	Commodity Contracts Intermediation	52	new	commodity-brokers	
+523991	Trust, Fiduciary, and Custody Activities	52	new	trust-companies	
+524113	Direct Life Insurance Carriers	52	new	life-insurance-carriers	
+524114	Direct Health and Medical Insurance Carriers	52	new	health-insurance-carriers	
+524126	Direct Property and Casualty Insurance Carriers	52	new	property-casualty-insurers	
+524127	Direct Title Insurance Carriers	52	new	title-insurance-carriers	
+524128	Other Direct Insurance (except Life, Health, and Medical) Carriers	52	merge	property-casualty-insurers	Other direct carriers (warranty, pet, travel, credit) run the same rate filings, underwriting and claims under the same state insurance departments.
+524130	Reinsurance Carriers	52	new	reinsurers	
+525110	Pension Funds	52	new	pension-funds	
+525120	Health and Welfare Funds	52	new	self-insured-benefit-pools	
+525190	Other Insurance Funds	52	merge	self-insured-benefit-pools	Public-entity risk pools, workers' comp self-insurance funds and risk retention groups pool members' risk under trustees who hire a TPA, exactly as union and employer welfare funds do.
+525920	Trusts, Estates, and Agency Accounts	52	skip		Trusts, estates and agency accounts are legal entities with no staff; their administration is done by trust-companies and estate lawyers.
+531130	Lessors of Miniwarehouses and Self-Storage Units	53	new	self-storage-operators	
+532111	Passenger Car Rental	53	new	car-rental-companies	
+532112	Passenger Car Leasing	53	covered	fleet-managers	Passenger car leasing is done mostly by fleet management companies (Element, Wheels, Enterprise Fleet Management), the services side of fleet-managers.
+532120	Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing	53	new	truck-and-trailer-lessors	
+532210	Consumer Electronics and Appliances Rental	53	new	rent-to-own-stores	
+532281	Formal Wear and Costume Rental	53	new	formal-wear-rental-shops	
+532282	Video Tape and Disc Rental	53	skip		Video tape and disc rental has essentially no operators left (Redbox kiosks shut in 2024; one Blockbuster store remains).
+532283	Home Health Equipment Rental	53	covered	medical-supply-retail	Home medical equipment rental (beds, oxygen, wheelchairs) is billed by the same DME suppliers on Medicare capped-rental cycles.
+532284	Recreational Goods Rental	53	new	recreational-rental-shops	
+532289	All Other Consumer Goods Rental	53	merge	rent-to-own-stores	Furniture and other consumer-goods rental runs on the same weekly-payment lease agreements, collections and returns.
+532310	General Rental Centers	53	merge	equipment-rental-companies	General rental centers (tool and party rental) run the same fleet utilisation, dispatch, damage-waiver and maintenance workflow, often from the same branches.
+532411	Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing	53	new	aircraft-and-railcar-lessors	
+532412	Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing	53	new	equipment-rental-companies	
+532420	Office Machinery and Equipment Rental and Leasing	53	merge	business-equipment-dealers	Copier and office-machine leasing is done by the same dealers as part of the sale.
+532490	Other Commercial and Industrial Machinery and Equipment Rental and Leasing	53	merge	equipment-rental-companies	Other commercial and industrial equipment rental (generators, forklifts, medical and test equipment) is the same rental business with a different fleet.
+533110	Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)	53	new	franchisors	Franchisors are the largest operator population in this code; patent and brand licensors are fewer.
+541120	Offices of Notaries	54	new	notary-signing-services	
+541191	Title Abstract and Settlement Offices	54	new	title-and-settlement-offices	
+541199	All Other Legal Services	54	new	legal-support-services	Process servers, freelance paralegals and patent searchers make up this residual code.
+541214	Payroll Services	54	covered	payroll-platforms	ADP and Paychex, the typical payroll service bureaus, are the core firms of the payroll-platforms industry (its ~$30B payroll processing and services market).
+541310	Architectural Services	54	new	architecture-firms	
+541320	Landscape Architectural Services	54	new	landscape-architecture-firms	
+541340	Drafting Services	54	new	drafting-services	
+541360	Geophysical Surveying and Mapping Services	54	new	geophysical-survey-firms	
+541380	Testing Laboratories and Services	54	new	testing-laboratories	
+541410	Interior Design Services	54	new	interior-design-firms	
+541430	Graphic Design Services	54	new	graphic-design-studios	
+541490	Other Specialized Design Services	54	new	specialty-design-studios	Fashion, textile and exhibit designers are the bulk of this residual code.
+541614	Process, Physical Distribution, and Logistics Consulting Services	54	new	logistics-consultants	
+541713	Research and Development in Nanotechnology	54	merge	contract-research-labs	Nanotechnology R&D firms run the same contract- and grant-funded lab model (SBIR, DoD and DOE awards, milestone reports, IP terms) as other physical-science R&D labs.
+541714	Research and Development in Biotechnology (except Nanobiotechnology)	54	new	biotech-research-firms	
+541715	Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)	54	new	contract-research-labs	
+541820	Public Relations Agencies	54	new	public-relations-agencies	
+541840	Media Representatives	54	new	media-rep-firms	
+541850	Indoor and Outdoor Display Advertising	54	new	outdoor-advertising-companies	
+541860	Direct Mail Advertising	54	new	direct-mail-agencies	
+541870	Advertising Material Distribution Services	54	merge	direct-mail-agencies	Flyer, door-hanger and sample distributors sell the same physical ad piece to the same local advertisers, targeted by route and household lists with response tracking; only the last mile differs (hand delivery instead of USPS).
+541921	Photography Studios, Portrait	54	new	portrait-photography-studios	
+541922	Commercial Photography	54	new	commercial-photographers	
+551111	Offices of Bank Holding Companies	55	skip		Bank holding companies are legal shells; the operating work sits in the bank subsidiaries (community-banks).
+551112	Offices of Other Holding Companies	55	skip		Holding company offices are legal shells; the operating work sits in subsidiaries in other industries.
+551114	Corporate, Subsidiary, and Regional Managing Offices	55	skip		Corporate and regional head offices are functions of firms classified in other industries, not a firm type of their own.
+561210	Facilities Support Services	56	new	facilities-management-firms	
+561312	Executive Search Services	56	new	executive-search-firms	
+561330	Professional Employer Organizations	56	new	professional-employer-organizations	
+561410	Document Preparation Services	56	new	document-preparation-services	
+561421	Telephone Answering Services	56	new	answering-services	
+561431	Private Mail Centers	56	new	private-mail-centers	
+561450	Credit Bureaus	56	new	credit-bureaus	
+561491	Repossession Services	56	new	repossession-services	
+561492	Court Reporting and Stenotype Services	56	new	court-reporting-firms	
+561510	Travel Agencies	56	new	travel-agencies	
+561520	Tour Operators	56	new	tour-operators	
+561591	Convention and Visitors Bureaus	56	new	visitors-bureaus	
+561599	All Other Travel Arrangement and Reservation Services	56	new	ticketing-agencies	Ticketing and reservation services are the bulk of this residual code.
+561611	Investigation and Personal Background Check Services	56	new	investigation-and-screening-firms	
+561613	Armored Car Services	56	new	armored-car-services	
+561621	Security Systems Services (except Locksmiths)	56	new	security-alarm-integrators	
+561622	Locksmiths	56	new	locksmiths	
+561910	Packaging and Labeling Services	56	new	contract-packagers	
+561990	All Other Support Services	56	new	auctioneers	Auctioneers are the largest distinct firm type in this residual code; traffic-control flagging firms and coupon processors also sit here.
+562111	Solid Waste Collection	56	new	waste-haulers	
+562112	Hazardous Waste Collection	56	merge	hazardous-waste-firms	Hazardous waste collection is sold with treatment as one cradle-to-grave RCRA service, using the same waste profiles, manifests and generator customers.
+562119	Other Waste Collection	56	merge	waste-haulers	Other nonhazardous collection (roll-off, brush, C&D debris) uses the same trucks, routes, drivers and billing.
+562211	Hazardous Waste Treatment and Disposal	56	new	hazardous-waste-firms	
+562212	Solid Waste Landfill	56	new	landfill-operators	
+562213	Solid Waste Combustors and Incinerators	56	new	waste-to-energy-plants	
+562219	Other Nonhazardous Waste Treatment and Disposal	56	merge	landfill-operators	Other nonhazardous disposal (C&D landfills, liquid waste, biosolids) runs the same permitted-site, scale-house and tipping-fee workflow.
+562920	Materials Recovery Facilities	56	new	recycling-facilities	
+562991	Septic Tank and Related Services	56	new	septic-service-companies	
+562998	All Other Miscellaneous Waste Management Services	56	merge	septic-service-companies	Sewer, catch-basin, grease-trap and tank cleaning use the same vacuum trucks, drivers and disposal permits.
+611210	Junior Colleges	61	new	community-colleges	
+611310	Colleges, Universities, and Professional Schools	61	new	colleges-and-universities	
+611410	Business and Secretarial Schools	61	covered	vocational-schools	Business and secretarial schools are Title IV career schools under the same accreditors and gainful-employment rules as vocational-schools.
+611420	Computer Training	61	new	it-training-bootcamps	
+611512	Flight Training	61	new	flight-schools	
+611610	Fine Arts Schools	61	new	fine-arts-schools	
+611620	Sports and Recreation Instruction	61	new	sports-instruction-schools	
+611692	Automobile Driving Schools	61	new	driving-schools	
+611699	All Other Miscellaneous Schools and Instruction	61	new	safety-training-providers	Certification trainers are the clearest firm type in this residual code.
+611710	Educational Support Services	61	new	education-consulting-and-testing	
+621111	Offices of Physicians (except Mental Health Specialists)	62	new	physician-practices	
+621320	Offices of Optometrists	62	new	optometry-practices	
+621391	Offices of Podiatrists	62	new	podiatry-practices	
+621410	Family Planning Centers	62	merge	community-health-centers	Title X family planning clinics are grant-funded safety-net clinics with the same sliding-fee billing, federal grant reporting and Medicaid-heavy payer mix as FQHCs.
+621491	HMO Medical Centers	62	merge	physician-practices	Staff-model HMO centers are multispecialty group practices running the same visit, documentation, referral and quality-reporting workflow; capitation changes the payer contract, not the clinical work.
+621492	Kidney Dialysis Centers	62	new	dialysis-centers	
+621498	All Other Outpatient Care Centers	62	new	community-health-centers	
+621511	Medical Laboratories	62	new	clinical-laboratories	
+621512	Diagnostic Imaging Centers	62	new	diagnostic-imaging-centers	
+621910	Ambulance Services	62	new	ambulance-services	
+621991	Blood and Organ Banks	62	new	blood-and-organ-banks	
+621999	All Other Miscellaneous Ambulatory Health Care Services	62	new	health-screening-services	Screening services are the clearest firm type in this residual code.
+622110	General Medical and Surgical Hospitals	62	new	general-hospitals	
+622210	Psychiatric and Substance Abuse Hospitals	62	new	psychiatric-hospitals	
+622310	Specialty (except Psychiatric and Substance Abuse) Hospitals	62	new	specialty-hospitals	
+623110	Nursing Care Facilities (Skilled Nursing Facilities)	62	new	skilled-nursing-facilities	
+623210	Residential Intellectual and Developmental Disability Facilities	62	new	idd-group-homes	
+623220	Residential Mental Health and Substance Abuse Facilities	62	new	residential-treatment-centers	
+623311	Continuing Care Retirement Communities	62	merge	assisted-living-communities	CCRCs run assisted and independent living with the same private-pay sales, care staffing and state AL licensing, plus an entrance-fee contract.
+623312	Assisted Living Facilities for the Elderly	62	new	assisted-living-communities	
+623990	Other Residential Care Facilities	62	new	youth-group-homes	
+711110	Theater Companies and Dinner Theaters	71	new	performing-arts-companies	
+711120	Dance Companies	71	merge	performing-arts-companies	Dance companies run the same nonprofit season model (subscriptions, single tickets, grants, donor cultivation, venue rental) with the same administrative staff.
+711130	Musical Groups and Artists	71	new	musical-groups	
+711190	Other Performing Arts Companies	71	merge	performing-arts-companies	Circuses, ice shows and other companies sell the same seasons and tours through the same ticketing and touring workflow.
+711211	Sports Teams and Clubs	71	new	sports-teams	
+711212	Racetracks	71	new	racetracks	
+711219	Other Spectator Sports	71	new	racing-stables	Racing stables and trainers are the largest operator group in this residual code.
+711310	Promoters of Performing Arts, Sports, and Similar Events with Facilities	71	new	event-venues	
+711320	Promoters of Performing Arts, Sports, and Similar Events without Facilities	71	new	event-promoters	
+712110	Museums	71	new	museums	
+712120	Historical Sites	71	merge	museums	Historical sites and house museums do the same collections care, interpretation, admissions and membership work under the same AAM standards.
+712130	Zoos and Botanical Gardens	71	new	zoos-and-botanical-gardens	
+712190	Nature Parks and Other Similar Institutions	71	merge	zoos-and-botanical-gardens	Nature parks and preserves run the same living-collection, grounds and admissions-plus-membership model.
+713110	Amusement and Theme Parks	71	new	theme-parks	
+713120	Amusement Arcades	71	new	family-entertainment-centers	
+713210	Casinos (except Casino Hotels)	71	new	casinos	
+713290	Other Gambling Industries	71	new	gambling-operators	
+713910	Golf Courses and Country Clubs	71	new	golf-clubs	
+713920	Skiing Facilities	71	new	ski-resorts	
+713930	Marinas	71	new	marinas	
+713950	Bowling Centers	71	merge	family-entertainment-centers	Bowling centers now run as FECs (lanes plus arcade plus party bookings plus food and drink) with the same game-card, party-booking and F&B workflow.
+713990	All Other Amusement and Recreation Industries	71	merge	family-entertainment-centers	Trampoline parks, escape rooms, go-karts, mini golf and laser tag sell the same per-visit and party-package experiences.
+721120	Casino Hotels	72	merge	casinos	Casino hotels run the same gaming floor, player tracking, comps and gaming-commission compliance; the hotel is an amenity of the floor.
+721191	Bed-and-Breakfast Inns	72	new	bed-and-breakfasts	
+721211	RV (Recreational Vehicle) Parks and Campgrounds	72	new	rv-parks-and-campgrounds	
+721214	Recreational and Vacation Camps (except Campgrounds)	72	new	summer-camps	
+721310	Rooming and Boarding Houses, Dormitories, and Workers' Camps	72	new	workforce-housing-operators	
+722310	Food Service Contractors	72	new	contract-food-service-operators	
+722410	Drinking Places (Alcoholic Beverages)	72	new	bars-and-taverns	
+722514	Cafeterias, Grill Buffets, and Buffets	72	covered	independent-restaurants	Cafeterias and buffets run the same kitchen, labour and food-cost workflow as other limited- and full-service restaurants.
+811122	Automotive Glass Replacement Shops	81	new	auto-glass-shops	
+811191	Automotive Oil Change and Lubrication Shops	81	new	quick-lube-shops	
+811192	Car Washes	81	new	car-washes	
+811198	All Other Automotive Repair and Maintenance	81	covered	auto-repair-shops	Exhaust, rustproofing and tire-repair shops are the same independent repair shops doing a narrower menu, with the same technicians and shop software.
+811210	Electronic and Precision Equipment Repair and Maintenance	81	new	electronics-repair-shops	
+811310	Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance	81	new	industrial-repair-shops	
+811411	Home and Garden Equipment Repair and Maintenance	81	merge	outdoor-power-equipment-dealers	Small-engine repair shops are mostly OPE dealers' service departments or independents doing the same repairs for the same homeowners and landscapers.
+811412	Appliance Repair and Maintenance	81	new	appliance-repair-companies	
+811420	Reupholstery and Furniture Repair	81	new	upholstery-shops	
+811430	Footwear and Leather Goods Repair	81	new	shoe-repair-shops	
+812113	Nail Salons	81	new	nail-salons	
+812191	Diet and Weight Reducing Centers	81	new	weight-loss-centers	
+812220	Cemeteries and Crematories	81	new	cemeteries-and-crematories	
+812310	Coin-Operated Laundries and Drycleaners	81	new	laundromats	
+812320	Drycleaning and Laundry Services (except Coin-Operated)	81	new	drycleaners	
+812331	Linen Supply	81	new	commercial-laundries	
+812332	Industrial Launderers	81	merge	commercial-laundries	Industrial launderers (uniform rental) run the same plants, route trucks and rental-garment tracking as linen suppliers.
+812921	Photofinishing Laboratories (except One-Hour)	81	new	photo-labs	
+812922	One-Hour Photofinishing	81	merge	photo-labs	One-hour labs do the same film processing and printing for the same customers.
+812930	Parking Lots and Garages	81	new	parking-operators	
+812990	All Other Personal Services	81	new	bail-bond-agencies	Bail agents are the largest licensed firm type in this residual code.
+813211	Grantmaking Foundations	81	new	grantmaking-foundations	
+813212	Voluntary Health Organizations	81	merge	advocacy-nonprofits	Voluntary health organisations run the same donor fundraising (walks, peer-to-peer, direct mail) and advocacy campaigns, plus research grants.
+813219	Other Grantmaking and Giving Services	81	merge	grantmaking-foundations	United Ways, community foundations and other giving services run the same grant cycles, due diligence and impact reporting.
+813311	Human Rights Organizations	81	merge	advocacy-nonprofits	Human rights organisations run the same donor-funded campaign and advocacy model.
+813312	Environment, Conservation and Wildlife Organizations	81	merge	advocacy-nonprofits	Conservation organisations raise money and campaign the same way; land trusts' stewardship is one niche within.
+813319	Other Social Advocacy Organizations	81	new	advocacy-nonprofits	
+813410	Civic and Social Organizations	81	new	civic-and-fraternal-clubs	
+813920	Professional Organizations	81	covered	trade-associations	Professional associations run the same dues, events, certification and advocacy model; the trade-associations hub already counts them in its ~70,000 associations.
+813930	Labor Unions and Similar Labor Organizations	81	new	labor-unions	
+813940	Political Organizations	81	new	political-campaigns	
+813990	Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)	81	covered	hoa-management	This residual's largest population is homeowners' and condominium associations, whose operating work is the hoa-management industry's.
+814110	Private Households	81	skip		Private households that employ domestic workers are not firms; household-employer payroll is served by payroll-platforms.
+921110	Executive Offices	92	covered	municipal-services	Mayors' and county executives' offices run the functions municipal-services covers; state executive offices do the same work at larger scale.
+921120	Legislative Bodies	92	new	legislative-bodies	
+921130	Public Finance Activities	92	new	tax-and-revenue-agencies	
+921140	Executive and Legislative Offices, Combined	92	covered	municipal-services	Combined executive-legislative offices are city and county governments, the municipal-services industry.
+921150	American Indian and Alaska Native Tribal Governments	92	new	tribal-governments	
+922110	Courts	92	new	courts	
+922140	Correctional Institutions	92	new	correctional-facilities	
+922150	Parole Offices and Probation Offices	92	new	probation-and-parole-agencies	
+922190	Other Justice, Public Order, and Safety Activities	92	new	emergency-management-agencies	Emergency management offices are the clearest function in this residual code.
+923110	Administration of Education Programs	92	new	education-agencies	
+923120	Administration of Public Health Programs	92	new	public-health-departments	
+923130	Administration of Human Resource Programs (except Education, Public Health, and Veterans' Affairs Programs)	92	new	benefits-administration-agencies	
+923140	Administration of Veterans' Affairs	92	merge	benefits-administration-agencies	Veterans' affairs benefit offices do the same eligibility determination, claims and case work on the same kind of rules engines and backlogs.
+924110	Administration of Air and Water Resource and Solid Waste Management Programs	92	new	environmental-regulators	
+924120	Administration of Conservation Programs	92	new	natural-resource-agencies	
+925110	Administration of Housing Programs	92	new	public-housing-authorities	
+926110	Administration of General Economic Programs	92	new	economic-development-agencies	
+926120	Regulation and Administration of Transportation Programs	92	new	transportation-departments	
+926130	Regulation and Administration of Communications, Electric, Gas, and Other Utilities	92	new	utility-commissions	
+926140	Regulation of Agricultural Marketing and Commodities	92	merge	licensing-agencies	Agricultural marketing and commodity regulators license, inspect and grade the same way as other commercial regulators.
+926150	Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors	92	new	licensing-agencies	
+927110	Space Research and Technology	92	skip		Space research administration is a single federal agency (NASA); its contractors sit in manufacturing and R&D industries.
+928110	National Security	92	skip		National security is a single federal department (DoD); its suppliers sit in defense manufacturing and services industries.
+928120	International Affairs	92	skip		International affairs is a single federal department (State, with USAID); there is no firm population to build for.
