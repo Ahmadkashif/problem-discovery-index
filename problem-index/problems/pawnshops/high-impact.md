@@ -1,0 +1,30 @@
+# The Counter Appraisal Nobody Grades
+
+**Industry:** [[pawnshops|Pawnshops]]
+**Type:** High Impact
+**One-liner:** Every pawn loan is a valuation and a credit decision made in a few minutes at the counter, and although the outcome of every ticket is recorded in dollars within months, no pawnbroker joins the appraisal to what the item later fetched, so the judgement that is the business is neither measured nor passed on.
+**Tags:** #tacit-knowledge-ml #cnns #transfer-learning #gradient-boosting #survival-analysis #evaluation-metrics #worker-facing #revenue-impact
+
+## The Problem
+A customer puts a gold chain on the counter. The clerk weighs it, looks for a karat stamp, streaks it on a touchstone, applies acid and decides it is 14k at about 22 grams with no premium over melt. The next customer brings a drill kit, then a games console, then a pistol, then a watch that may or may not be what the dial says. For each the clerk must work out what it is, whether it is genuine and working, what it will resell for in this store and how likely this customer is to return, then name a loan — commonly a quarter to three-fifths of expected resale by industry account (estimate). The average US loan at FirstCash was $312 at the end of 2025, so the whole judgement fits in the time a customer will stand at a counter.
+
+The loan amount is the entire credit decision. There is no credit check and no recourse: an unpaid loan forfeits and the store recovers only what the item sells for. About a third end that way — Oregon's 2025 pawnbroker report put the forfeiture rate at 33.4%. Lend too much on an item that forfeits and the store loses the difference; lend too little and the customer goes down the road, which is never recorded.
+
+What separates a good pawnbroker from a new clerk is pattern recognition nobody writes down. The heft of real gold against a plated tungsten bracelet that passes the acid test. Which tool brands sell in this town and which sit for months. That a console's value drops the week its successor launches. That a customer who has redeemed nine tickets in a row is safer at a higher loan than a stranger with a better item. That a seller with three new-in-box impact drivers and a vague story is a police hold waiting to happen. Chains publish lending guides — percentages by category, caps by age — but the guide sets the ceiling; the experienced appraiser decides where under it to land.
+
+The outcome of every decision is in the point-of-sale system: redeemed, renewed, forfeited and sold for a known price after a known number of days, scrapped at melt, or seized by police. The appraisal itself is almost never recorded. The system keeps the loan amount, which blends the estimate of value with negotiation and the read on the customer, so no store can say which clerks value accurately, which categories it over-lends on, or what its best pawnbroker knows that its newest does not.
+
+## Why It's Unsolved
+The data collection problem is that the expert's estimate has to be captured at the counter, mid-transaction, by the person doing it. Descriptions are free text typed for the police form ("YG CHAIN 14K 22.3G"); photographs are taken only where a jurisdiction requires them; and the clerk's actual number — "this will sell for $450" — exists only in their head. Asking for it adds seconds per ticket on a busy Friday, with no visible return to the clerk.
+
+The labelling problem is that the honest label is observed for the wrong sample. Realised resale price exists only for the forfeited third, and it is not a random third: customers abandon the items they value least relative to the loan. Price also depends on the store's pricing, shelf time and season, and for gold on spot, which fell ~22% between January's record close and early October 2026. Experts disagree with themselves: the same clerk lends differently on a Friday rush than a slow Tuesday, or after a recent loss on a fake. And walk-aways are the missing class, because no system logs a loan not made.
+
+The deployment problem is speed and trust. An answer must come in seconds, from a phone camera, while the customer watches, without handing the customer a number that undercuts the negotiation. About four in five shops are single-store independents (estimate), too small to train on their own data. Clerks and owners are wary of a system that scores them, and a model right on average but wrong on the one Rolex in the case will be ignored.
+
+## What a Solution Looks Like
+A structured appraisal record first and a model second. At intake the system drafts the record from photographs and the fields the police form already demands — category, brand, model, serial, metal, karat, weight — and asks the clerk for one number: expected resale. For gold it computes the melt floor from weight, karat and live spot, so the clerk supplies only the premium. Every record is graded later against the outcome: sale price and shelf time for forfeits, melt for scrap, redemption for the rest.
+
+On top of the ledger, learn the experienced appraisers' adjustments. Train on the stores and clerks whose valuations prove most accurate, condition on photographs, attributes, store, season and spot, and give the next clerk a range with a reason — for example, "eleven of this model forfeited here last year and sold for $180–240 in a median 19 days; this customer has redeemed nine of ten tickets." Flag the patterns that cost money: plated gold, locked phones, items that drew police holds in the chain's own records. The clerk keeps the decision.
+
+## Impact If Solved
+For a chain with a US loan book the size of FirstCash's $450.5M, valuation error on the forfeited third is a direct loss line; cutting it a few points while lending more where history says it is safe would be worth tens of millions of dollars a year (estimate), visible in the loan growth and inventory turnover chains already report. For independents it would put a chain's pricing experience behind a one-store owner. And a clerk who now needs months to years before being trusted with jewellery and guns (estimate) would start with the store's history at their elbow.

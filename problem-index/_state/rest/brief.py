@@ -30,8 +30,8 @@ Boundary: {row['boundary']}
 
 Coordinator notes: work from the vault root above (cd there first). Don't run any git command; the coordinator
 commits. Other builders are writing other slugs at the same time, so ignore files that aren't yours.
-Do not spawn subagents or forks (no Agent tool calls): do all the work yourself. The owner caps this job at 3
-agents in parallel. Pass 2 table verdicts are exactly ✅ Indexed · Below threshold · ⚠️ Kill switch · Fails gate.
+Do not spawn subagents or forks (no Agent tool calls): do all the work yourself. The owner caps this job at 1
+agent at a time. Pass 2 table verdicts are exactly ✅ Indexed · Below threshold · ⚠️ Kill switch · Fails gate.
 A pocket already profiled under another industry gets no second profile: name and wikilink it in the Pass 2 prose.
 New industries from this plan that are already built and safe to wikilink: every slug with a report file in
 _state/rest/reports/ (ls it; ignore the review-*, findings-* and sim-swap-sentence files).
@@ -47,6 +47,8 @@ buyer: one accountable exec plus a fragmented market of such firms, so a market 
 (i) Q2 counts analysts whose work grows with volume, so licensing an owned dataset with a small team scores low;
 (j) production headcount (detailers, modellers, coders, servers, clerks) is not an insight function for the gate;
 (k) work commissioned through counsel or owned by clients is a live "data isn't theirs" kill switch (the vault's
-majority rule), and kill switches are binary, never a score deduction.""")
+majority rule), and kill switches are binary, never a score deduction; (l) client loan-level or transaction data held
+under a service agreement is a live kill switch unless you cite checked evidence the agreement permits aggregate use;
+(m) contested sentences end "...takes the account" (competitor lists go in the body, not the sentence).""")
 if notes:
     print("Slug-specific notes from the coordinator: " + " ".join(notes))

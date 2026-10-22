@@ -1,0 +1,5 @@
+# trust-companies — builder report (batch 5)
+- Files: 61 vault + source log + scores (23 lines). REST-VERIFY-CLEAN.
+- Niches: Personal Trust Administration; Institutional Custody & Asset Servicing; Special Asset Administration; Corporate Trust & Indenture Administration (non-terminal → Structured Finance Trustee Reporting; Default & Bondholder Direction Administration); Community Bank Trust Departments; Self-Directed IRA Alternative-Asset Custody; Fiduciary Tax Compliance; Trust Account Acceptance & Onboarding.
+- Pass 2: 12 pockets — 0 qualified / 2 below / 3 kill switch / 7 fail gate. Custody network & depository risk assessors 43; securities lending data vendors 36 (DataLend give-to-get counted as checked aggregate-use permission). ~19 existing pockets linked, not re-profiled.
+- Checked: FDIC RC-T 2025-12-31 ~$55.6B fiduciary income on ~$45.7T fiduciary assets, ~553,600 managed personal trust accounts, 424,279 corporate trusteeships (~$30.5T), 5,203 issues in default; QCEW 2024 523991 2,982 establishments / 21,735 employees (undercount); 12 CFR 9.6.

@@ -1,10 +1,10 @@
 {
- "n_industries": 291,
- "n_subniches": 4816,
+ "n_industries": 299,
+ "n_subniches": 5010,
  "industries": {
   "ai_proof": {
    "median": 35,
-   "mean": 40.7,
+   "mean": 40.8,
    "top": [
     {
      "id": "childcare-centers",
@@ -342,7 +342,7 @@
   },
   "clarity": {
    "median": 56,
-   "mean": 59.4,
+   "mean": 59.7,
    "top": [
     {
      "id": "data-labeling-services",
@@ -1016,14 +1016,14 @@
     }
    ]
   },
-  "rho_clarity_ai_proof": -0.16,
+  "rho_clarity_ai_proof": -0.15,
   "rho_digital_ai_proof": -0.83,
   "rho_digital_clarity": -0.02
  },
  "subniches": {
   "ai_proof": {
    "median": 30.0,
-   "mean": 33.1,
+   "mean": 33.2,
    "top": [
     {
      "id": "physical-therapy/cash-pay-direct-access",
@@ -1364,6 +1364,17 @@
    "mean": 65.4,
    "top": [
     {
+     "id": "sales-finance-companies/abs-loan-tape-due-diligence",
+     "name": "ABS Agreed-Upon Procedures & Loan-Tape Due Diligence",
+     "industry": "Sales Finance Companies",
+     "ai_proof": 20,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Sample comparison of tape fields to contracts is mechanical and automatable.",
+     "why_clarity": "Each field either matches the document or does not.",
+     "why_digital": "Tapes and contract images in, exception reports out."
+    },
+    {
      "id": "talent-assessment-platforms/ats-integration",
      "name": "ATS Integration & Score Plumbing",
      "industry": "Talent Assessment Platforms",
@@ -1395,6 +1406,17 @@
      "why_ai": "Decades of point-in-time attributed estimates form a data moat AI cannot rebuild.",
      "why_clarity": "Consensus is an exact computation over collected estimates.",
      "why_digital": "Estimates collected, normalised and sold as data feeds."
+    },
+    {
+     "id": "sales-finance-companies/ancillary-product-refunds",
+     "name": "Ancillary Product Cancellations & Refunds",
+     "industry": "Sales Finance Companies",
+     "ai_proof": 0,
+     "clarity": 100,
+     "digital": 94,
+     "why_ai": "Refunds are calculations from contract terms and state rules.",
+     "why_clarity": "Every refund has an exact correct answer computable from the terms.",
+     "why_digital": "Contract images and servicing data in, refunds and filings out on screen."
     },
     {
      "id": "tattoo-studios/appointment-deposit-mgmt",
@@ -1505,53 +1527,9 @@
      "why_ai": "Detecting divergent catalogue copies is a mechanical comparison software performs directly.",
      "why_clarity": "Every service's price either matches the authoritative engine or it does not.",
      "why_digital": "Catalogue records across services compared entirely in code."
-    },
-    {
-     "id": "independent-insurance-agents/certificate-of-insurance-teams",
-     "name": "Certificate-of-Insurance Servicing Teams",
-     "industry": "Independent Insurance Agents",
-     "ai_proof": 5,
-     "clarity": 100,
-     "digital": 100,
-     "why_ai": "COI issuance is a high-volume rule-based workflow suited to end-to-end automation.",
-     "why_clarity": "Each certificate matches policy records and holder requirements exactly, issued dozens of times daily.",
-     "why_digital": "Email requests, AMS lookup, carrier portals and PDF delivery, all on screen."
-    },
-    {
-     "id": "warehouse-3pl/billing-reconciliation-3pl",
-     "name": "Client Billing & Reconciliation",
-     "industry": "Warehouse & 3PL",
-     "ai_proof": 0,
-     "clarity": 100,
-     "digital": 100,
-     "why_ai": "Rate-card billing is fully deterministic once configured, a direct automation target.",
-     "why_clarity": "Each charge follows the client's rate card exactly and reconciles to WMS activity.",
-     "why_digital": "WMS activity in, invoices and reconciliations out, all digital."
     }
    ],
    "bottom": [
-    {
-     "id": "developer-relations-agencies/the-advocate",
-     "name": "The Developer Advocate",
-     "industry": "Developer Relations Agencies",
-     "ai_proof": 55,
-     "clarity": 19,
-     "digital": 62,
-     "why_ai": "The product is the advocate's own portable credibility, delivered through in-person talks and presence.",
-     "why_clarity": "Credibility is a matter of reputation and its effect on adoption is never measured.",
-     "why_digital": "Content is digital, but travel and public performance on stage carry the value."
-    },
-    {
-     "id": "fractional-cto-services/the-fractional-cto",
-     "name": "The Fractional CTO",
-     "industry": "Fractional CTO Services",
-     "ai_proof": 55,
-     "clarity": 19,
-     "digital": 75,
-     "why_ai": "The practitioner's depth of understanding across clients is the product; context reload automates, judgement does not.",
-     "why_clarity": "Four unrelated situations, each judged by feel with little feedback.",
-     "why_digital": "Work on code and documents, with leadership meetings and referral-based buying."
-    },
     {
      "id": "esports-organizations/the-player-career",
      "name": "The Player Career",
@@ -1652,6 +1630,17 @@
      "why_digital": "Observation in restaurants feeds a published forecast sold nationally."
     },
     {
+     "id": "commodity-brokers/fcm-consolidator-corporate-development",
+     "name": "Non-Bank FCM Consolidator Corporate Development",
+     "industry": "Commodity Brokers",
+     "ai_proof": 35,
+     "clarity": 12,
+     "digital": 69,
+     "why_ai": "Each acquisition thesis is novel and consequential, but deal analysis is screen work.",
+     "why_clarity": "Episodic deals, each unique, with client retention known years later.",
+     "why_digital": "Internal analysis on screens, with negotiation that benefits from presence."
+    },
+    {
      "id": "biotech-research-firms/rare-disease-foundation-programs",
      "name": "Rare-Disease & Foundation-Funded Programmes",
      "industry": "Biotech Research Firms",
@@ -1661,6 +1650,17 @@
      "why_ai": "Patient foundations and founders are trusted relationships making novel, high-stakes calls on tiny evidence bases; demand grows with new modalities.",
      "why_clarity": "Every rare-disease package is argued from scratch and FDA's acceptance arrives programme by programme.",
      "why_digital": "Mostly document and precedent work, with some outsourced studies, coordinated remotely."
+    },
+    {
+     "id": "money-service-businesses/remittance-rollup-corp-dev",
+     "name": "Remittance Rollup Corporate Development",
+     "industry": "Money Service Businesses",
+     "ai_proof": 55,
+     "clarity": 12,
+     "digital": 62,
+     "why_ai": "Acquisition judgements are novel, high-stakes and relationship-driven.",
+     "why_clarity": "Each deal is one-off and its success is known years later.",
+     "why_digital": "Data rooms and models on screen, with negotiations in person."
     },
     {
      "id": "title-and-settlement-offices/title-expert-witnesses",
@@ -1699,7 +1699,7 @@
   },
   "digital": {
    "median": 94.0,
-   "mean": 77.7,
+   "mean": 77.8,
    "top": [
     {
      "id": "interior-design-firms/ad-market-research-firms",
@@ -1711,6 +1711,17 @@
      "why_ai": "Panels and relationships with designers are hard to substitute; report writing is not.",
      "why_clarity": "Survey methods are codified but findings are rarely validated against outcomes.",
      "why_digital": "Interviews and surveys in, reports out, entirely digital."
+    },
+    {
+     "id": "sales-finance-companies/abs-loan-tape-due-diligence",
+     "name": "ABS Agreed-Upon Procedures & Loan-Tape Due Diligence",
+     "industry": "Sales Finance Companies",
+     "ai_proof": 20,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "Sample comparison of tape fields to contracts is mechanical and automatable.",
+     "why_clarity": "Each field either matches the document or does not.",
+     "why_digital": "Tapes and contract images in, exception reports out."
     },
     {
      "id": "public-relations-agencies/ai-answer-visibility-trackers",
@@ -1834,6 +1845,17 @@
      "why_digital": "App definitions and logs in, governance records out, entirely software."
     },
     {
+     "id": "commodity-brokers/ais-commodity-flow-intelligence",
+     "name": "AIS-Derived Commodity-Flow & Freight Intelligence",
+     "industry": "Commodity Brokers",
+     "ai_proof": 25,
+     "clarity": 75,
+     "digital": 100,
+     "why_ai": "Cargo inference from AIS is model-driven and reproducible by well-funded rivals, though analyst judgement on grades and destinations persists.",
+     "why_clarity": "Flow estimates recur daily for thousands of voyages and are graded against EIA weekly and customs releases.",
+     "why_digital": "Vessel signals and customs data in, data feeds and platforms out, sold to clients worldwide."
+    },
+    {
      "id": "api-infrastructure-providers/api-gateways-and-management",
      "name": "API Gateways & Management",
      "industry": "API Infrastructure Providers",
@@ -1843,28 +1865,6 @@
      "why_ai": "Gateway sits in every call path, so buyers keep paying for it, but the work is policy enforcement.",
      "why_clarity": "Routing, auth and rate limiting are codified, repeated per call and instantly testable.",
      "why_digital": "Software layer configured and delivered on screens to platform teams."
-    },
-    {
-     "id": "api-infrastructure-providers/api-security-shadow-endpoints",
-     "name": "API Security & Shadow Endpoints",
-     "industry": "API Infrastructure Providers",
-     "ai_proof": 30,
-     "clarity": 62,
-     "digital": 100,
-     "why_ai": "Adversarial security exposure keeps demand rising, though inventory comes straight from traffic observation.",
-     "why_clarity": "A complete endpoint inventory is checkable, but sensitive-data risk judgments vary.",
-     "why_digital": "Traffic logs in, security inventory out, sold to remote security teams."
-    },
-    {
-     "id": "talent-assessment-platforms/ats-integration",
-     "name": "ATS Integration & Score Plumbing",
-     "industry": "Talent Assessment Platforms",
-     "ai_proof": 0,
-     "clarity": 100,
-     "digital": 100,
-     "why_ai": "Passing scores and context into applicant tracking systems is pure integration engineering.",
-     "why_clarity": "Each field either arrives in the ATS with its context or not.",
-     "why_digital": "API integrations between online systems."
     }
    ],
    "bottom": [
@@ -2035,8 +2035,8 @@
     }
    ]
   },
-  "rho_clarity_ai_proof": -0.49,
-  "rho_digital_ai_proof": -0.75,
+  "rho_clarity_ai_proof": -0.5,
+  "rho_digital_ai_proof": -0.74,
   "rho_digital_clarity": 0.25
  },
  "anchor_drift": {

@@ -1,0 +1,7 @@
+# mortgage-lenders — builder report (batch 5)
+- Files: 66 vault + source log + scores (25 lines). REST-VERIFY-CLEAN.
+- Niches: Secondary Marketing & Pipeline Risk; Retained Servicing & MSR Management (non-terminal → Portfolio Recapture & Retention; Subservicer Oversight & Cost to Service); Post-Closing, Delivery & Trailing Documents; Quality Control & Repurchase Defence; Non-QM & Alternative-Documentation Lending; The Mortgage Underwriter; Income, Asset & Employment Verification; HMDA & Regulatory Data Reporting.
+- Pass 2: 14 pockets — 1 qualified / 7 below / 4 kill switch / 2 fail gate.
+- (downgraded on review to 49, below threshold; MCT lock indices show aggregate-use rights) Pipeline Hedge & Best-Execution Advisors 51 (Q4 5 on SIFMA settlement calendar; Q5 3, ~10 firms: MCT, MIAC, Vice Capital). Case: they forecast daily what share of each lender's locked pipeline will fund and hedge it; each lock resolves in 30–90 days so every forecast gets a label, yet none keeps a graded, calibrated archive or decomposes slippage. Narrow — builder says a reviewer could argue 49.
+- Checked: MBA Oct 2026 ~$2.1T originations 2026; state-licensed lenders ~$1T (59%) in 2024; ~4,898 HMDA filers 2024; Fannie Selling Guide D1-3-01 10% QC sample.
+- Fix round (review A): 13 pockets — 0 qualified / 6 below / 5 KS / 2 fail gate; fair lending is the vault's one profile; prepayment analytics → auto-abs-deal-analytics.
