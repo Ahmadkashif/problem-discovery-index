@@ -36,10 +36,10 @@ New industries from this plan that are already built and safe to wikilink: {buil
 Any other queued slug (see _state/rest/queue.tsv) is not built yet: name it in prose, never as a wikilink.
 Lessons from earlier reviews, apply them up front: (a) Q4 = 5 needs a hard third-party deadline on the pocket
 itself (court dates, regulator filing dates, earnings dates), not a client's project schedule; (b) use the insight
-function's own headcount, never the whole firm's; (c) every number needs a source-log entry or "~"/"(estimate)";
+function's own headcount per firm, never the whole firm's and never summed across firms; (c) every number needs a source-log entry or "~"/"(estimate)";
 (d) before scoring a pocket, grep niches/ for the same organisations under other industries and either link the
-existing pocket or score consistently with it; (e) a contested sentence must govern the niche's build/buy/fix, and
-"lowest price/take rate" is a generic contest; (f) only tags in _state/safe-tags.txt; (g) don't claim the same work
+existing pocket or score consistently with it; (e) a contested sentence must govern the niche's build/buy/fix, name who
+competes and end on who takes the account; "lowest price/take rate" is a generic contest; (f) only tags in _state/safe-tags.txt; (g) don't claim the same work
 as a sibling industry's niche: check the boundary sentences of nearby queue rows; (h) Q5 is about the pocket as a
 buyer: one accountable exec plus a fragmented market of such firms, so a market of a handful of firms scores 2-3;
 (i) Q2 counts analysts whose work grows with volume, so licensing an owned dataset with a small team scores low;

@@ -1,10 +1,10 @@
 {
- "n_industries": 277,
- "n_subniches": 4473,
+ "n_industries": 284,
+ "n_subniches": 4644,
  "industries": {
   "ai_proof": {
-   "median": 35,
-   "mean": 40.8,
+   "median": 35.0,
+   "mean": 40.7,
    "top": [
     {
      "id": "childcare-centers",
@@ -341,8 +341,8 @@
    ]
   },
   "clarity": {
-   "median": 56,
-   "mean": 59.3,
+   "median": 56.0,
+   "mean": 59.2,
    "top": [
     {
      "id": "data-labeling-services",
@@ -679,7 +679,7 @@
    ]
   },
   "digital": {
-   "median": 81,
+   "median": 81.0,
    "mean": 65.5,
    "top": [
     {
@@ -1022,7 +1022,7 @@
  },
  "subniches": {
   "ai_proof": {
-   "median": 30,
+   "median": 30.0,
    "mean": 33.2,
    "top": [
     {
@@ -1193,17 +1193,6 @@
    ],
    "bottom": [
     {
-     "id": "bug-bounty-platforms/submission-deduplication",
-     "name": "Submission Deduplication & Filtering",
-     "industry": "Bug Bounty Platforms",
-     "ai_proof": 0,
-     "clarity": 94,
-     "digital": 100,
-     "why_ai": "Duplicate, scanner-output and out-of-scope filtering is matching and classification needing no security expertise.",
-     "why_clarity": "Each submission either matches a prior one or scope list or it does not.",
-     "why_digital": "Text submissions matched against a digital archive of prior reports."
-    },
-    {
      "id": "procurement-spend-platforms/supplier-side-tools",
      "name": "Supplier-Side Tools",
      "industry": "Procurement & Spend Platforms",
@@ -1224,6 +1213,17 @@
      "why_ai": "Calendars, round-robin rules and constraints are machine-readable and solved automatically.",
      "why_clarity": "A meeting is placed with the right people at a valid time or not.",
      "why_digital": "Internal calendars in and booked meetings out, sold as SaaS."
+    },
+    {
+     "id": "directory-and-list-publishers/verification-call-outsourcers",
+     "name": "Tele-Research & Verification Call Outsourcers",
+     "industry": "Directory & List Publishers",
+     "ai_proof": 0,
+     "clarity": 94,
+     "digital": 94,
+     "why_ai": "Scripted verification calls are the work AI voice and automated checks are built to replace, within calling rules.",
+     "why_clarity": "Scripted calls with fixed outcome codes repeat by the million and are audited quickly.",
+     "why_digital": "Client records in, calls by phone, updated records out, routinely offshore."
     },
     {
      "id": "work-collaboration-tools/template-and-process-content",
@@ -1360,8 +1360,8 @@
    ]
   },
   "clarity": {
-   "median": 69,
-   "mean": 65.5,
+   "median": 69.0,
+   "mean": 65.4,
    "top": [
     {
      "id": "talent-assessment-platforms/ats-integration",
@@ -1698,8 +1698,8 @@
    ]
   },
   "digital": {
-   "median": 94,
-   "mean": 77.5,
+   "median": 94.0,
+   "mean": 77.6,
    "top": [
     {
      "id": "interior-design-firms/ad-market-research-firms",
@@ -1757,6 +1757,17 @@
      "why_digital": "Software sold and delivered online."
     },
     {
+     "id": "recording-studios/ai-mastering-and-stem-services",
+     "name": "AI Mastering, Mixing & Stem-Separation Services",
+     "industry": "Recording Studios",
+     "ai_proof": 5,
+     "clarity": 81,
+     "digital": 100,
+     "why_ai": "Fully automated processing that rival models replicate quickly.",
+     "why_clarity": "Each track is processed the same way and judged quickly by the customer.",
+     "why_digital": "Uploads in, processed audio out, entirely online."
+    },
+    {
      "id": "data-analytics-consultants/ai-model-audit-firms",
      "name": "AI Model Audit & Assurance Firms",
      "industry": "Data Analytics Consultants",
@@ -1766,6 +1777,17 @@
      "why_ai": "Demand grows with AI deployment as regulators require independent conformity audits.",
      "why_clarity": "Audit frameworks are still emerging, so methods and pass criteria are not agreed.",
      "why_digital": "Models and documentation in, audit reports out, entirely remote."
+    },
+    {
+     "id": "music-publishers/ai-music-attribution-vendors",
+     "name": "AI Music Attribution & Training-Licensing Vendors",
+     "industry": "Music Publishers",
+     "ai_proof": 30,
+     "clarity": 31,
+     "digital": 100,
+     "why_ai": "Attribution against improving generators is novel and contested, but it is model work rather than personal accountability.",
+     "why_clarity": "There is no agreed ground truth for which works a model learned from, so results are hard to verify.",
+     "why_digital": "Audio and model outputs in, attribution reports out, entirely online."
     },
     {
      "id": "legal-support-services/ai-prior-art-search-tools",
@@ -1843,42 +1865,9 @@
      "why_ai": "Passing scores and context into applicant tracking systems is pure integration engineering.",
      "why_clarity": "Each field either arrives in the ATS with its context or not.",
      "why_digital": "API integrations between online systems."
-    },
-    {
-     "id": "saas-implementation-partners/accelerator-productisation",
-     "name": "Accelerator Productisation",
-     "industry": "SaaS Implementation Partners",
-     "ai_proof": 15,
-     "clarity": 75,
-     "digital": 100,
-     "why_ai": "Packaging and maintaining deployable assets is product engineering AI accelerates.",
-     "why_clarity": "Accelerators are tested against each platform release with clear pass or fail.",
-     "why_digital": "Code and configuration packages built and deployed in software."
-    },
-    {
-     "id": "virtual-assistant-services/access-and-security",
-     "name": "Access, Credentials & Data Security",
-     "industry": "Virtual Assistant Services",
-     "ai_proof": 15,
-     "clarity": 75,
-     "digital": 100,
-     "why_ai": "Scoped credential and access tooling exists and automates provisioning directly.",
-     "why_clarity": "Least-privilege access is definable and checkable against what each task needs.",
-     "why_digital": "Credentials, permissions and systems are managed entirely in software."
     }
    ],
    "bottom": [
-    {
-     "id": "k12-private-schools/single-campus-rural",
-     "name": "Single-Campus Rural Private Schools",
-     "industry": "K-12 Private Schools",
-     "ai_proof": 85,
-     "clarity": 44,
-     "digital": 0,
-     "why_ai": "Small community schools where a few teachers and one administrator serve local families in person.",
-     "why_clarity": "The administrator improvises across every role with no standard measure of success.",
-     "why_digital": "Paper records and in-person teaching in a small, local community."
-    },
     {
      "id": "electrical-contractors/small-rural-electricians",
      "name": "Small & Rural Electricians",
@@ -1990,6 +1979,17 @@
      "why_digital": "No telemetry; production is recorded on paper during physical well visits."
     },
     {
+     "id": "greeting-card-publishers/the-card-merchandiser",
+     "name": "The Card Department Merchandiser",
+     "industry": "Greeting Card Publishers",
+     "ai_proof": 40,
+     "clarity": 88,
+     "digital": 0,
+     "why_ai": "Stocking, refiling and resetting card pockets is hands-on work in stores that no machine will do economically by 2031, though checking what is wrong automates.",
+     "why_clarity": "A pocket is full, correct and on season or it is not, every visit, against a planogram.",
+     "why_digital": "The work is physical, in the store, delivered as a maintained fixture."
+    },
+    {
      "id": "childcare-centers/tribal-community-centers",
      "name": "Tribal & Indigenous Community Childcare",
      "industry": "Childcare Centers",
@@ -2037,7 +2037,7 @@
   },
   "rho_clarity_ai_proof": -0.49,
   "rho_digital_ai_proof": -0.75,
-  "rho_digital_clarity": 0.24
+  "rho_digital_clarity": 0.25
  },
  "anchor_drift": {
   "ai_proof": {

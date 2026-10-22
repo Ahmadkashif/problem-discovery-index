@@ -5,7 +5,7 @@
 **Value-Chain Position:** Aggregator / rollup platforms
 
 ## What They Do
-Broadcast groups own dozens of stations. Their corporate national sales, pricing and research teams either manage the rep relationship or replace it with an in-house desk, as Gray Television did in the mid-2010s according to trade press (estimate). They set pricing policy across the group's stations and judge rep performance. Broadcast stations as an industry are queued separately in this plan; this pocket is the group-level team the rep reports to.
+Broadcast groups own dozens of stations. Their corporate national sales, pricing and research teams either manage the rep relationship or replace it with an in-house desk, as Gray Television did in the mid-2010s according to trade press (estimate). They set pricing policy across the group's stations and judge rep performance. Broadcast stations as an industry are built as [[industries/broadcast-stations|Broadcast TV & Radio Stations]]; this pocket is the group-level team the rep reports to.
 
 ## Insight Function
 **Size:** ~10-50 per large group (estimate)
