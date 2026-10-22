@@ -1,0 +1,8 @@
+# Review — batch 1 group B (drafting, testing, geophysical, logistics, contract-research)
+- [x] CRL research-security-due-diligence 51 → Q5 3 (buyer is the provider's research head; Strider + handful) = 49, below threshold; delete build/buy/fix; fix kill-switch line (agency adjudications excluded; public outcomes only); Size per firm. (coordinator)
+- [x] GEO multi-client-seismic-data-libraries 52 → Q2 3, Q5 2 = 48 (Pulse C$51.1M with 15 staff); Size whole-firm → analytical staff (estimate); delete build/buy/fix; overview + hub. (coordinator)
+- [x] GEO seismic-processing-imaging build duplicates post-drill grading; low-impact-1 vs worker-life-1 same workflow; uneven kill switches (airborne, offshore UXO); pocket Size lines unmarked. (geophysical builder)
+- [x] TEST regulatory intelligence harmonise → 51 qualifier?; forensic link/align; Nadcap link/harmonise; standards publishers harmonise; links to UL/ANAB pockets. (testing builder — sent)
+- [x] LOG high-impact vs worker-life-1 same workflow → narrow high-impact; lean contested sentence generic. (logistics builder)
+- [x] CRL solicitation-and-proposal-compliance contested sentence overlaps sbir-microfirms → calendar and zero-defect compliance only. (coordinator)
+- [x] DRAFT scan-to-bim / joist-deck / rebar-fabricator pockets pass gate on production headcount → fail gate; residential-permit-drafting ↔ architecture code-analysis-permit-sets link + split; legacy-drawing-conversion → scan-to-BIM link; pocket Size lines "(estimate)". (coordinator)

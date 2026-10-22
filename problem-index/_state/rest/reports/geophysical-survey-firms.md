@@ -1,0 +1,7 @@
+# geophysical-survey-firms — builder report (batch 1)
+- Files: 68 vault + source log + scores (27 lines). REST-VERIFY-CLEAN.
+- Niches: Energy Seismic Acquisition & Processing (non-terminal → Onshore Seismic Acquisition Crews; Seismic Processing & Imaging); Subsurface Utility Designating (QL-B); Seismic Permitting & Landowner Relations; Legacy Geophysical Data Rescue; Junior Mining Exploration Geophysics; Burial, Cemetery & Archaeological GPR; UXO Advanced Geophysical Classification; Concrete Scanning Before Cutting & Coring.
+- Pass 2: 16 pockets — 1 qualified / 8 below / 4 kill switch / 3 fail gate. Near-misses: UXO risk consultancies 46, site-specific seismic hazard 44.
+- QUALIFIER: Multi-Client Seismic Data Libraries 52/60 (TGS-PGS, Viridien Earth Data, Seismic Exchange, Pulse Seismic). Case: they own the data outright and invoice the processed image against lease-sale, budget and merger clocks; licensees drill through every licensed volume and well tops become public, yet the library never measures its own depth error to decide which vintages to reprocess; change-of-control fees on licensee mergers are found by hand and late.
+- Checked: SUSB 2022 541360 — 968 firms, 7,249 employees, $1.99B receipts; Dawson Geophysical FY2025 10-K $75.6M, 269 staff; DoD DAGCAP ~95% of digs not munitions.
+- Fix round (review B): library downgraded to 48 by coordinator; 16 pockets — 0 qualified / 6 below / 7 kill switch / 3 fail gate; worker-life-1 rewritten (Designating in Live Traffic); ML entry 4 replaced to keep Derived-from true.

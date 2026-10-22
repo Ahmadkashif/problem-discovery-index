@@ -1,10 +1,10 @@
 {
- "n_industries": 257,
- "n_subniches": 3973,
+ "n_industries": 267,
+ "n_subniches": 4227,
  "industries": {
   "ai_proof": {
    "median": 35,
-   "mean": 40.4,
+   "mean": 40.7,
    "top": [
     {
      "id": "childcare-centers",
@@ -341,8 +341,8 @@
    ]
   },
   "clarity": {
-   "median": 62,
-   "mean": 59.9,
+   "median": 56,
+   "mean": 59.4,
    "top": [
     {
      "id": "data-labeling-services",
@@ -433,6 +433,17 @@
      "why_digital": "Documents in and e-filed returns out, though many clients still come in locally."
     },
     {
+     "id": "testing-laboratories",
+     "name": "Testing Laboratories",
+     "industry": "Testing Laboratories",
+     "ai_proof": 55,
+     "clarity": 94,
+     "digital": 38,
+     "why_ai": "Accredited labs must physically test samples and products, and regulators and buyers mandate their certificates; AI cannot run the chemistry or the chamber.",
+     "why_clarity": "Standard methods with QC limits give exact, checkable results on thousands of near-identical samples.",
+     "why_digital": "Physical samples and products are tested at benches and in chambers; results go out as digital certificates to clients who still prefer nearby labs for sample logistics."
+    },
+    {
      "id": "collections-agencies",
      "name": "Collections Agencies",
      "industry": "Collections Agencies",
@@ -497,31 +508,9 @@
      "why_ai": "Screen-only invoice software whose remaining human exception queue is exactly what AI-native AP tools target.",
      "why_clarity": "Invoices either match and pay correctly or they do not, across millions of near-identical cases.",
      "why_digital": "Invoices, ERP data and payments are processed and sold entirely as cloud software."
-    },
-    {
-     "id": "bnpl-providers",
-     "name": "BNPL Providers",
-     "industry": "BNPL Providers",
-     "ai_proof": 25,
-     "clarity": 81,
-     "digital": 100,
-     "why_ai": "Approvals are already automated in milliseconds; only lending capital and regulation sustain the firm.",
-     "why_clarity": "Millions of near-identical approvals with repayment outcomes observed within six weeks.",
-     "why_digital": "Device and payment data in, credit inside an online checkout, consumers acquired remotely."
     }
    ],
    "bottom": [
-    {
-     "id": "faith-organizations",
-     "name": "Faith Organizations",
-     "industry": "Faith Organizations",
-     "ai_proof": 80,
-     "clarity": 31,
-     "digital": 6,
-     "why_ai": "Congregants come for a pastor and a gathered community; pastoral care is personal and consequential.",
-     "why_clarity": "Services recur weekly, but spiritual success is a matter of faith and never objectively checked.",
-     "why_digital": "Worship, care and volunteering happen in person in a local building."
-    },
     {
      "id": "independent-publishers",
      "name": "Independent Publishers",
@@ -532,6 +521,17 @@
      "why_ai": "Acquisition taste and author relationships matter, but editing, design and metadata work is AI-exposed.",
      "why_clarity": "Which manuscripts will sell is a taste bet revealed months after publication.",
      "why_digital": "Manuscripts edited on screen become printed and digital books sold through reps and retailers."
+    },
+    {
+     "id": "interior-design-firms",
+     "name": "Interior Design Firms",
+     "industry": "Interior Design Firms",
+     "ai_proof": 50,
+     "clarity": 31,
+     "digital": 25,
+     "why_ai": "Taste-led design delivered through site visits, showrooms and installs, with some licensing; AI rendering and e-design threaten the low end only.",
+     "why_clarity": "Good design is a matter of the client's taste, each designer works by eye, and every project is bespoke.",
+     "why_digital": "Starts from rooms and samples, produced partly on screen, delivered as a physical finished room to mostly local clients."
     },
     {
      "id": "news-media-local",
@@ -680,7 +680,7 @@
   },
   "digital": {
    "median": 88,
-   "mean": 66.2,
+   "mean": 66.0,
    "top": [
     {
      "id": "ai-agent-platforms",
@@ -1016,14 +1016,14 @@
     }
    ]
   },
-  "rho_clarity_ai_proof": -0.15,
-  "rho_digital_ai_proof": -0.82,
-  "rho_digital_clarity": -0.02
+  "rho_clarity_ai_proof": -0.16,
+  "rho_digital_ai_proof": -0.83,
+  "rho_digital_clarity": -0.01
  },
  "subniches": {
   "ai_proof": {
    "median": 30,
-   "mean": 32.8,
+   "mean": 33.1,
    "top": [
     {
      "id": "physical-therapy/cash-pay-direct-access",
@@ -1193,17 +1193,6 @@
    ],
    "bottom": [
     {
-     "id": "technical-content-agencies/style-and-terminology",
-     "name": "Style & Terminology Consistency",
-     "industry": "Technical Content Agencies",
-     "ai_proof": 0,
-     "clarity": 94,
-     "digital": 100,
-     "why_ai": "Terminology enforcement is linting work that language models do mechanically.",
-     "why_clarity": "Style rules and term lists give instant pass or fail on each sentence.",
-     "why_digital": "Text corpus in, linted and corrected text out."
-    },
-    {
      "id": "bug-bounty-platforms/submission-deduplication",
      "name": "Submission Deduplication & Filtering",
      "industry": "Bug Bounty Platforms",
@@ -1347,6 +1336,17 @@
      "why_digital": "Transfer and funding events handled entirely online."
     },
     {
+     "id": "graphic-design-studios/design-subscription-services",
+     "name": "Unlimited Design Subscription Services",
+     "industry": "Graphic Design Studios",
+     "ai_proof": 0,
+     "clarity": 75,
+     "digital": 100,
+     "why_ai": "Queue-based commodity design production is directly substituted by generative tools.",
+     "why_clarity": "Requests are defined tasks repeated at volume with turnaround targets.",
+     "why_digital": "Requests and files exchanged online with remote, often offshore designers."
+    },
+    {
      "id": "data-platform-integrators/usage-instrumentation",
      "name": "Usage Instrumentation",
      "industry": "Data Platform Integrators",
@@ -1361,7 +1361,7 @@
   },
   "clarity": {
    "median": 69,
-   "mean": 66.1,
+   "mean": 65.7,
    "top": [
     {
      "id": "talent-assessment-platforms/ats-integration",
@@ -1699,8 +1699,19 @@
   },
   "digital": {
    "median": 94,
-   "mean": 78.0,
+   "mean": 77.7,
    "top": [
+    {
+     "id": "interior-design-firms/ad-market-research-firms",
+     "name": "A&D Market Research for Manufacturers",
+     "industry": "Interior Design Firms",
+     "ai_proof": 30,
+     "clarity": 56,
+     "digital": 100,
+     "why_ai": "Panels and relationships with designers are hard to substitute; report writing is not.",
+     "why_clarity": "Survey methods are codified but findings are rarely validated against outcomes.",
+     "why_digital": "Interviews and surveys in, reports out, entirely digital."
+    },
     {
      "id": "developer-tools-vendors/ai-coding-assistants",
      "name": "AI Coding Assistants",
@@ -1711,6 +1722,17 @@
      "why_ai": "Demand grows with AI, but foundation-model labs can commoditize the product.",
      "why_clarity": "Generated code is checkable by tests, though real productivity gains are contested.",
      "why_digital": "Code context in, generated code out, fully online software."
+    },
+    {
+     "id": "drafting-services/ai-drawing-automation-startups",
+     "name": "AI Drawing-Automation Startups",
+     "industry": "Drafting Services",
+     "ai_proof": 15,
+     "clarity": 69,
+     "digital": 100,
+     "why_ai": "Product software built with AI that larger platforms can replicate.",
+     "why_clarity": "Output quality is testable per sheet, though methods are still evolving.",
+     "why_digital": "Software sold and delivered online."
     },
     {
      "id": "data-analytics-consultants/ai-model-audit-firms",
@@ -1843,28 +1865,6 @@
      "why_ai": "Adversarial but high-volume risk decision on rich behavioural data that models can automate.",
      "why_clarity": "Thousands of similar lockout cases, with takeovers surfacing only sometimes later.",
      "why_digital": "Account evidence reviewed and resolved entirely online."
-    },
-    {
-     "id": "accounting-firms-smb/benchmark-survey-publishers",
-     "name": "Accounting Practice Benchmark Publishers",
-     "industry": "SMB Accounting Firms",
-     "ai_proof": 25,
-     "clarity": 56,
-     "digital": 100,
-     "why_ai": "Multi-decade proprietary survey panel cannot be generated by AI; no licence or personal liability involved.",
-     "why_clarity": "Defined annual metrics report, but benchmark accuracy is never checked against ground truth.",
-     "why_digital": "Survey data in, published reports and datasets out, sold entirely online."
-    },
-    {
-     "id": "lending-marketplaces/acquisition-economics",
-     "name": "Acquisition Economics",
-     "industry": "Lending Marketplaces",
-     "ai_proof": 10,
-     "clarity": 75,
-     "digital": 100,
-     "why_ai": "Programmatic bidding against a better value signal is pure automation.",
-     "why_clarity": "Bid machinery is codified and cost per submission is measured instantly.",
-     "why_digital": "Ad platforms and traffic data in, bids out."
     }
    ],
    "bottom": [
@@ -2035,7 +2035,7 @@
     }
    ]
   },
-  "rho_clarity_ai_proof": -0.49,
+  "rho_clarity_ai_proof": -0.48,
   "rho_digital_ai_proof": -0.75,
   "rho_digital_clarity": 0.23
  },

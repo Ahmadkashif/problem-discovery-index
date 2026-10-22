@@ -1,0 +1,6 @@
+# architecture-firms — builder report (batch 1)
+- Files: 67 vault + source log + scores (26 lines). REST-VERIFY-CLEAN.
+- Niches: Institutional Architecture (non-terminal → Healthcare Facility Design; Public K-12 & Civic Bond Programmes); Multifamily & Mixed-Use Housing; Construction Administration Services; Historic Rehabilitation & Tax-Credit Projects; Sole Practitioners & Micro-Firms; Licensure-Path Emerging Professionals; Code Analysis & Permit Set Preparation; Construction Document Production & Sheet Coordination.
+- Pass 2: 15 pockets — 1 qualified / 10 below / 1 kill switch / 3 fail gate. Near-miss: Design-Stage Cost Consultants 49.
+- QUALIFIER: Building & Fire Code Consultants (niches/architecture-firms/building-fire-code-consultants) 51/60 (Q1 5, Q2 4, Q3 4, Q4 5, Q5 3), 1,500-1,700 (Jensen Hughes). Case: the code report or alternative-means request is the invoice and the building official's permit review is the clock; the record of which approaches each jurisdiction accepted, conditioned or rejected under which code edition sits unindexed in project email.
+- Checked: $104.1B gross billings 2023 (AIA Firm Survey 2024); 19,000+ firms, ~75% <10 staff (AIA), 116,005 licensed architects 2024 (NCARB); CALGreen embodied carbon rule from 1 Jul 2024.

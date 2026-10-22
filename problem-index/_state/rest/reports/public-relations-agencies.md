@@ -1,0 +1,6 @@
+# public-relations-agencies — builder report (batch 2)
+- Files: 68 vault + source log + scores (27 lines). REST-VERIFY-CLEAN.
+- Niches: Technology & B2B Media Relations; Healthcare & Life Sciences Communications; Crisis & Issues Management (non-terminal → Cyber Incident & Disclosure Communications; Social Media Flashpoint Response); Public Affairs & Issue Advocacy; Multicultural & In-Language Media Relations; The Beat Reporter; Coverage Monitoring & Measurement Reporting; Media List Building & Outreach Operations.
+- Pass 2: 16 pockets — 1 qualified / 8 below / 4 kill switch / 3 fail gate.
+- QUALIFIER: PR Measurement & Media Analysis Firms 51/60 (Q 5/5/4/3/4; Cision insights/PRIME Research, Onclusive, Fullintel, Carma, Commetric). Case: they sell hand- and machine-coded coverage (pull-through, tone, share of voice) as the product, scaling with analyst headcount (PRIME 700+ at acquisition); they hold the only large archive of coded coverage, yet none has shown its codes predict reputation, demand or AI-answer citation, which Barcelona Principles 4.0 (Jun 2025) now ask for. Narrow: Q4 3 (client reporting calendar), and automated coding erodes the Q2 labour model.
+- Checked: 2022 EC 541820 — 8,125 firms, ~$15.8B receipts, 65,010 employees (EC2254BASIC flat file); CBP 2023 8,646 estabs; SEC 8-K Item 1.05 four-business-day rule.

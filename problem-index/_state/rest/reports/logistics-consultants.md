@@ -1,0 +1,6 @@
+# logistics-consultants — builder report (batch 1)
+- Files: 65 vault + source log + scores (27 lines). REST-VERIFY-CLEAN. Builder used two forks for niche files (against the 3-agent cap; brief now forbids it).
+- Niches: Distribution Network Design & Strategy; Warehouse Design & Automation Advisory; DC Operations Assessments; Lean & Process Improvement Engagements; Mid-Market Shippers Without Logistics Engineers; Health-System Supply Chains; Transportation Procurement & Bid Management (non-terminal → Truckload Bid Design & Routing Guide Performance; Parcel & LTL Contract Optimisation); Inventory Policy & Safety Stock Studies.
+- Pass 2: 16 pockets incl. 5 "↔ Cross-referenced" duplicates of pockets indexed elsewhere — sent back to delete them and use the allowed verdict set. 0 new qualifiers (Parcel & LTL benchmarking 54 @ last-mile-delivery; Freight rate benchmarks 54 @ cold-chain-logistics; Supply chain research 52 = Gartner-type, @ cloud-infrastructure-consultants it-research-advisory-firms 54).
+- Checked: SUSB 2022 541614 — 7,630 firms, ~$25.0B receipts; CBP 2023 8,360 estabs / 97,017 employees; CSCMP 2025 logistics cost $2.58T (8.8% GDP); NMFC Docket 2025-1 density classes 19 Jul 2025.
+- Fix round done: 5 duplicate pockets deleted; 11 pockets — 0 qualified / 5 below / 4 kill switch / 2 fail gate. Verdicts now in the allowed set.
