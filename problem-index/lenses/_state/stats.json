@@ -1,6 +1,6 @@
 {
- "n_industries": 323,
- "n_subniches": 5600,
+ "n_industries": 325,
+ "n_subniches": 5648,
  "industries": {
   "ai_proof": {
    "median": 40,
@@ -680,7 +680,7 @@
   },
   "digital": {
    "median": 81,
-   "mean": 65.0,
+   "mean": 64.7,
    "top": [
     {
      "id": "ai-agent-platforms",
@@ -1441,6 +1441,17 @@
      "why_digital": "Build metadata in, signed attestations out."
     },
     {
+     "id": "contract-packagers/artwork-proofing-software-vendors",
+     "name": "Artwork, Label Proofing & Print Inspection Software Vendors",
+     "industry": "Contract Packagers",
+     "ai_proof": 10,
+     "clarity": 100,
+     "digital": 100,
+     "why_ai": "File and print comparison is a vision task that general AI models increasingly perform.",
+     "why_clarity": "A comparison finds a difference or it does not, instantly and objectively.",
+     "why_digital": "Files and scans in, comparison reports out, sold as software."
+    },
+    {
      "id": "insurance-tpa/auto-adjudication-engine",
      "name": "Auto-Adjudication Engine",
      "industry": "Insurance Third-Party Administrators (TPAs)",
@@ -1516,17 +1527,6 @@
      "why_ai": "W-9, FMCSA authority and COI checks are rule-based document verification software fully automates.",
      "why_clarity": "Each carrier passes or fails explicit coverage and authority thresholds.",
      "why_digital": "Carrier packets in and verified records out, all online."
-    },
-    {
-     "id": "immigration-law/case-status-tracking",
-     "name": "Case Status Tracking",
-     "industry": "Immigration Law Firms",
-     "ai_proof": 0,
-     "clarity": 100,
-     "digital": 100,
-     "why_ai": "Pure data retrieval from known portals for known receipt numbers.",
-     "why_clarity": "Identical daily lookups with instant, objective status results.",
-     "why_digital": "Portal data in, status updates out."
     }
    ],
    "bottom": [
@@ -1699,7 +1699,7 @@
   },
   "digital": {
    "median": 94.0,
-   "mean": 77.7,
+   "mean": 77.5,
    "top": [
     {
      "id": "interior-design-firms/ad-market-research-firms",
