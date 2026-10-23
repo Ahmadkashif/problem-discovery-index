@@ -1,0 +1,6 @@
+# executive-search-firms — builder report (batch 7)
+- Files: 62 vault + source log + scores (24 lines). REST-VERIFY-CLEAN.
+- High-impact (tacit): the consultant's read of a candidate, never graded against what happened after the hire.
+- Niches: Corporate C-Suite & CEO Search (non-terminal → CEO Succession & Insider-Outsider Benchmarking; Functional C-Suite Search); PE Portfolio Leadership Search; Board Director Search; Higher Education & Nonprofit Leadership Search; The Placed Executive's First 18 Months; Boutique Retained Search Firms; Market Mapping & Longlist Research; Off-Limits, Conflicts & Candidate-Data Compliance.
+- Pass 2: 13 pockets — 0 qualified / 4 below / 2 kill switch / 7 fail gate. Near-miss: global search firm research & knowledge centres 44 (Q2 4 after review A); KS: leadership assessment & succession advisory 45, board effectiveness reviews 40. Mintz-type executive due diligence left to investigation-and-screening-firms.
+- Checked: CBP 2023 5,897 est / 38,564 emp (93% <20), Economic Census 2022 ~$12.6B (third-party summary); Korn Ferry FY2025 exec search $846.2M; Heidrick ~1/3 first-year comp, $146K avg per search, Advent/Corvex take-private ~$1.3B (Dec 2025); CCL 38%–50%+ 18-month failure; Spencer Stuart 2026 364 new S&P 500 directors.

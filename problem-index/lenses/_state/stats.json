@@ -1,9 +1,9 @@
 {
- "n_industries": 306,
- "n_subniches": 5194,
+ "n_industries": 315,
+ "n_subniches": 5407,
  "industries": {
   "ai_proof": {
-   "median": 35.0,
+   "median": 35,
    "mean": 40.9,
    "top": [
     {
@@ -174,17 +174,6 @@
    ],
    "bottom": [
     {
-     "id": "qa-test-automation-vendors",
-     "name": "QA & Test Automation Vendors",
-     "industry": "QA & Test Automation Vendors",
-     "ai_proof": 15,
-     "clarity": 75,
-     "digital": 100,
-     "why_ai": "Writing and repairing tests is code work that AI coding agents increasingly do directly.",
-     "why_clarity": "Tests pass or fail instantly against codified frameworks, though cosmetic change versus regression blurs it.",
-     "why_digital": "Code and applications in, test software and results delivered online."
-    },
-    {
      "id": "seo-tooling-vendors",
      "name": "SEO Tooling Vendors",
      "industry": "SEO Tooling Vendors",
@@ -249,6 +238,17 @@
      "why_ai": "Commodity screen work that model-assisted pre-labelling and synthetic data steadily replace.",
      "why_clarity": "Defined labels on huge volumes of near-identical tasks, checked by consensus and gold sets.",
      "why_digital": "Data in, labels out, delivered by a remote workforce anywhere."
+    },
+    {
+     "id": "document-preparation-services",
+     "name": "Document Preparation Services",
+     "industry": "Document Preparation Services",
+     "ai_proof": 10,
+     "clarity": 81,
+     "digital": 94,
+     "why_ai": "Speech recognition and language models now draft what transcriptionists, typists and editors produce, leaving correction of hard cases as the human share.",
+     "why_clarity": "Transcripts and formatted documents are exact deliverables checked against audio or a style rule, recurring thousands of times.",
+     "why_digital": "Audio and drafts in, text out, bought online from home-based and offshore providers."
     },
     {
      "id": "game-asset-marketplaces",
@@ -341,8 +341,8 @@
    ]
   },
   "clarity": {
-   "median": 56.0,
-   "mean": 59.6,
+   "median": 62,
+   "mean": 59.9,
    "top": [
     {
      "id": "data-labeling-services",
@@ -679,8 +679,8 @@
    ]
   },
   "digital": {
-   "median": 81.0,
-   "mean": 65.6,
+   "median": 81,
+   "mean": 65.5,
    "top": [
     {
      "id": "ai-agent-platforms",
@@ -1022,7 +1022,7 @@
  },
  "subniches": {
   "ai_proof": {
-   "median": 30.0,
+   "median": 30,
    "mean": 33.4,
    "top": [
     {
@@ -1360,7 +1360,7 @@
    ]
   },
   "clarity": {
-   "median": 69.0,
+   "median": 69,
    "mean": 65.2,
    "top": [
     {
@@ -1698,7 +1698,7 @@
    ]
   },
   "digital": {
-   "median": 94.0,
+   "median": 94,
    "mean": 78.0,
    "top": [
     {
@@ -1823,6 +1823,17 @@
      "why_digital": "Licensed documents searched and summarised on a web platform."
     },
     {
+     "id": "answering-services/ai-voice-receptionist-vendors",
+     "name": "AI Voice Agent & Virtual Receptionist Vendors",
+     "industry": "Telephone Answering Services",
+     "ai_proof": 10,
+     "clarity": 69,
+     "digital": 100,
+     "why_ai": "These vendors are the AI substitution itself and compete with each other on commoditising models.",
+     "why_clarity": "Answered and booked calls are measurable, but conversation design is still iterated by feel.",
+     "why_digital": "Calls in, software-handled conversations out, sold online."
+    },
+    {
      "id": "qa-test-automation-vendors/ai-generated-and-self-healing",
      "name": "AI-Generated & Self-Healing Tests",
      "industry": "QA & Test Automation Vendors",
@@ -1854,17 +1865,6 @@
      "why_ai": "Cargo inference from AIS is model-driven and reproducible by well-funded rivals, though analyst judgement on grades and destinations persists.",
      "why_clarity": "Flow estimates recur daily for thousands of voyages and are graded against EIA weekly and customs releases.",
      "why_digital": "Vessel signals and customs data in, data feeds and platforms out, sold to clients worldwide."
-    },
-    {
-     "id": "api-infrastructure-providers/api-gateways-and-management",
-     "name": "API Gateways & Management",
-     "industry": "API Infrastructure Providers",
-     "ai_proof": 20,
-     "clarity": 75,
-     "digital": 100,
-     "why_ai": "Gateway sits in every call path, so buyers keep paying for it, but the work is policy enforcement.",
-     "why_clarity": "Routing, auth and rate limiting are codified, repeated per call and instantly testable.",
-     "why_digital": "Software layer configured and delivered on screens to platform teams."
     }
    ],
    "bottom": [
@@ -2035,9 +2035,9 @@
     }
    ]
   },
-  "rho_clarity_ai_proof": -0.5,
+  "rho_clarity_ai_proof": -0.51,
   "rho_digital_ai_proof": -0.74,
-  "rho_digital_clarity": 0.25
+  "rho_digital_clarity": 0.26
  },
  "anchor_drift": {
   "ai_proof": {

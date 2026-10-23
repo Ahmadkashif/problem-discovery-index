@@ -1,0 +1,5 @@
+# facilities-management-firms — builder report (batch 7)
+- Files: 68 vault + source log + scores (27 lines). REST-VERIFY-CLEAN.
+- Niches: Corporate Occupier IFM Portfolios (non-terminal → IFM Bid Solutioning & Baseline Pricing; Self-Delivery vs Subcontract Delivery Mix); Federal Base Operations Support Contracts; Healthcare Facility Operations; Statutory Inspection & Life-Safety Compliance; The Multi-Craft Building Technician; The Client-Side IFM Contract Manager; Service Desk Intake & Dispatch; Subcontractor Invoice Validation & Pass-Through Billing.
+- Pass 2: 16 pockets — 0 qualified / 9 below / 3 kill switch / 4 fail gate (after review A). bps-compliance-consultancies cut from 51 to 46 (LL87/LL84 records public → Q3 3; LL97 filing extendable → Q4 4); build/buy/fix deleted. KS: institutional condition assessment 47, CMMS network data 41, building analytics/FDD 42. Hospital EC/LS accreditation fails gate.
+- Checked: Census SAS 2022 561210 revenue ~$31.2B; CBP 2023 9,019 est / 283,836 emp (third-party summary); OEWS May 2023 190,720 emp; CBRE BOE 2025 $23,224M ($12,529M pass-through); GAO-26-107255 $285B DOD maintenance backlog; ABM FY2025 $8.7B.

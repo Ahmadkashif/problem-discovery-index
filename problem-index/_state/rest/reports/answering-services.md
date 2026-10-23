@@ -1,0 +1,5 @@
+# answering-services — builder report (batch 7)
+- Files: 63 vault + source log + scores (25 lines). REST-VERIFY-CLEAN.
+- Niches: Medical After-Hours Answering (non-terminal → On-Call Routing & Paging; RN Telephone Triage Lines); Home Services & Trades Answering; Funeral Home First-Call Answering; Property Management Emergency Maintenance Lines; The Answering Service Operator; Hospice & Home Health After-Hours Lines; Routine Message Capture & Delivery; Call Quality & Escalation Compliance Scoring.
+- Pass 2: 14 pockets — 0 qualified / 1 below / 4 kill switch / 9 fail gate (after review A: health-plan nurse lines and contact-centre benchmarking fail gate). KS (HIPAA or client call data): call-tracking & conversation intelligence 35, nurse triage clinical analytics 34.
+- Checked: Economic Census 2022 934 firms, ~$2.59B receipts, 31,260 emp; CBP 2023 1,035 est / 41,582 emp; Schmitt-Thompson 400+ call centres, 20M+ calls (publisher, 2015); NLC 41 states + 2 territories; 42 CFR 418.100(c)(2).

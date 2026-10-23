@@ -1,0 +1,7 @@
+# Review — batch 7 group A (facilities, exec search, PEO, doc prep, answering)
+Rulings: extendable filing dates are Q4 4, not 5; public outcome and audit records cap Q3 at 3 (IND precedent); accreditation surveyors and contract specialists are production; worker-life notes must change worker or pain, not restate the high-impact capture.
+- [x] FM: bps-compliance-consultancies Q3 3 + Q4 4 → 46, "Logged — below threshold", drop Contested on + build/buy/fix, overview row + qualifier paragraph + hub Analysis; audits out of Output/moat or same-population link to energy-auditors/commercial-ashrae-auditors; hospital-ec-ls headcount per org w/o surveyors (likely fails) + comparator 48; federal-installation-buyers per command insight only or fail; sca-wage-determinations total 22; cmms Q4 1–2; equipment-breakdown Q4 3 (40); worker-life-1 refocus (dispatch churn/on-call false alarms), drop tacit tag; lens institutional-condition physical 4.
+- [x] EXEC: worker-life-2 refocus (coordinator/engagement manager, no move-risk); low-impact-2 + high-impact impact numbers; proxy-pay Q4 3 (34); research centres position + Q2 4 (44).
+- [x] PEO: peo-benefits-underwriting-consultants Q5 2 (40).
+- [x] DOCPREP: worker-life-1/2 impact numbers; hub "3–4 cents a line" vs log ~$0.03–0.05.
+- [x] ANSWERING: worker-life-1 refocus (account switching / traumatic calls); worker-life-2 + low-impact-2 impact numbers; "~ninety seconds" and "within the hour" marked estimate or sourced; health-plan-nurse-lines fails gate; contact-centre benchmarking gate/Q3 check.
