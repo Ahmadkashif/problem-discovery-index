@@ -1,0 +1,55 @@
+# Review — batch P1 group A (industrial distributors, general hospitals, skilled nursing facilities)
+Rulings: a data vendor whose own refresh and ranking cycle sets the clock is Q4 2, and a client's submission date doesn't raise it; contributed data that the vendor licenses commercially (Premier 10-K data-licence revenue, Vizient Life Sciences Strategy Partners selling CDB data to suppliers) is vendor product rights, so no kill switch; per-case physician reviewers, MDS nurses and claim analysts are production; a consultancy whose only proprietary asset is client work product from resident records under a BAA has a live kill switch; the consultancy's own hard clock (TPE/ADR response) sets Q4, not the facility's ARD dates; a pocket mixing service-agreement and sensor-subscription data regimes says which half carries the switch; a pocket with "a handful" of analysts fails the gate.
+- [x] INDUSTRIAL: rfq-and-order-intake-automation market size vs share line reconciled + project-quote variant (electrical bid lists and lighting schedules, lumber takeoffs, HVAC equipment schedules) in build/buy/fix; condition-monitoring-services split (service-agreement half KS, sensor-subscription half below threshold, verdict 44 KS unchanged); rebate-spa-claim-administration Q4 3 (33) + size excludes claim analysts; bearing-trade-remedy-enforcement fails gate + lens liability 4; worker-life-2 refocus off part identification (after-hours triage/dispatch or another worker), worker-life-1 off the inside rep; small-independent-distributors contest narrowed or Filter Notes; ai-agents entry 1 "own pages" → YC job pages (or confirm careers sites); AD $100B URL → full-year release; quantify build/buy/fix Impact lines.
+- [x] HOSPITALS: hospital-discharge-databases-rwe Q4 2 → 48, Logged — below threshold (delete build/buy/fix, Contested line, Problems; overview row 9; Why These Pockets; hub Analysis; Vizient evidence in profile + source log); cdi-prebill-review-vendors Q4 3 (46) + size excludes physician reviewers; reimbursement consultancies recalled clocks sourced; registries Q4 2 (41); sepsis vendors Q4 2; worker-life-1 off the med-surg RN (or name the ambient-charting conflict); clinical-denials drops post-acute + links SNF ma-authorization-denials, health-insurance-carriers/inpatient-post-acute-review, medical-billing/denial-management-appeals; rural-critical-access lens rescored as back-office + link urgent-care/rural-critical-access; SmarterDx, WellSpan sources; Prenosis wording; DRG "(recalled)" fixed; ratings publishers hold U.S. News incl. Best Nursing Homes; case-management holds CarePort/WellSky, Aidin, naviHealth field; nurse-staffing-office links SNF staffing pockets + internal-scheduling-retention; 3 prose SNF mentions → wikilinks; cross-link high-impact notes; quantify Impact lines.
+- [x] SNF: snf-survey-consultancies → Logged — kill switch (48); mds-pdpm-consultancies size analysts ~5–30 + Q4 4 (48 KS); nursing-home-consumer-ratings replaced by link to general-hospitals/hospital-quality-ratings-publishers; ma-authorization-denials holds MA field; referral-admissions links general-hospitals case-management vendor field; per-diem + staffing-marketplace-data-teams link it-staffing-firms/contingent-workforce-msp-vms and general-hospitals nurse-staffing-office; nursing-home-compensation-surveys links hr-consultants/compensation-survey-publishers; senior-care-occupancy-data note for assisted-living to link; worker-life-1 off the CNA (e.g. LPN med pass); high-impact, low-impact-1, low-impact-2 Impact numbers; independent-operators contest narrowed or Filter Notes; hub Skypoint caveat; medicaid-case-mix-auditors Q4 4 (44); snf-ehr-data-teams Q4 2–3; links to general-hospitals; quantify Impact lines.
+- Findings log (existing files, not fixed): IQVIA hospital-data pocket (54) Q4 3 on self-set refresh; home-health-agencies/home-health-compliance-consulting kill switch missed (same as SNF survey consultancies); home-health-agencies/oasis-coding-review-outsourcers size counts coders and Q4 on agency clocks; STR (56) predates lessons a and h.
+
+Full review text follows.
+
+## 1. general-hospitals qualifier: does not hold
+`niches/general-hospitals/hospital-discharge-databases-rwe/profile.md`: no kill switch holds (Premier FY2025 10-K data-licence revenue; Vizient Life Sciences Strategy Partners page https://www.vizient.com/suppliers/life-sciences-strategy-partners, read 2026-10-24, offers CDB data from 1,300+ hospitals to suppliers "to build real-world evidence"; terms themselves not found). Gate holds (50–300 epidemiologists, economists, data scientists per firm, intake excluded). Q4 3 unsupported: refresh and ranking cycle self-set, client submission dates are client dates → Q4 2. Q5 3 defensible for a 2–4 firm field (Premier, Vizient, Truveta, IQVIA). Corrected 5/4/5/2/3 = 48 (46 if Q5 2), Logged — below threshold; general-hospitals ends with 0 qualifiers. Knock-ons: delete build/buy/fix, Contested line and Problems; overview row 9 and Why These Pockets; hub Analysis last two sentences; builder report. Not yet in `_scorecard-index-rest.md` or `qualifiers.jsonl`.
+
+## 2. Near misses
+- hospital-reimbursement-consultancies (48 KS): switch holds (DSH eligible days, S-10 listings are PHI under BAAs). Q4 5 holds (cost report 5 months after year end; PRRB 180 days) but clocks marked "recalled": source them.
+- cdi-prebill-review-vendors (48 KS): switch holds; Q4 4 on claim-drop timing (client clock) → 3 = 46; size counts physician reviewers (production).
+- snf-survey-consultancies (48, no KS): score holds; only proprietary asset (mock-survey findings paired with the 2567) is client work product from resident records under a BAA → live switch (k, l). Verdict Logged — kill switch. Home-health twin has the same defect.
+- mds-pdpm-consultancies (50 KS): switch holds; size counts MDS nurses auditing case by case → analysts ~5–30 per firm (estimate); Q4 5 rests on facility ARD/transmission; own clock is TPE/ADR response → Q4 4 = 48. Twin oasis-coding-review-outsourcers same issues.
+
+## 3. skilled-nursing-facilities: no missed qualifier
+senior-care-occupancy-data (43): NIC MAP not profiled elsewhere; score consistent (self-set monthly releases Q4 2, single firm Q5 3, small SNF team Q2 3; contributed data with product rights = no switch). Add note that assisted-living-communities should link it. healthcare-reit-lender-underwriting (29) correct; ltc-liability-actuarial-benchmarks fails gate correct; nursing-home-compensation-surveys correct but link hr-consultants/compensation-survey-publishers (54).
+
+## 4. industrial-distributors
+- rfq-and-order-intake-automation: correctly level-1 on ⚡, covers four distributor types. (a) ~$4B market size vs ~1% share of industrial-only receipts (~$3.9B) don't reconcile. (b) build/buy/fix cover MRO POs only; add project-quote variant.
+- condition-monitoring-services (44 KS): route-based/OEM services and distributor reliability groups → live; sensor-subscription vendors likely not (Augury blog: generic model "crowdsourced from all of Augury's customers", https://www.augury.com/blog/machine-health/big-news-at-scale-augury-achieves-continuous-learning-for-its-machine-health-ai/). Say vendor half is below threshold.
+- rebate-spa-claim-administration (35 KS) vs restaurant-suppliers deviated-pricing (39, no KS): switch right here (lesson l); restaurant file is the defect. Q4 4 here vs 3 there on contract-set windows → 3 = 33. Size counts claim analysts and programme administrators (production).
+- bearing-trade-remedy-enforcement (23 KS): "a handful" of analysts → fails gate; lens liability 5 → 4.
+- worker-life-2 repeats high-impact workflow (part identification from a vague description or photo); worker-life-1 repeats high-impact worker (inside rep).
+- small-independent-distributors contest bundles three contests; "goes live in days" is a sales-cycle property.
+- ai-agents-platforms entry 1 says "on their own pages" but log cites YC job pages.
+- source log: AD "$100B in 2025" URL is the first-half article; use https://www.inddist.com/associations/news/22959834/ad-members-report-100b-in-2025-sales
+- 21 of 33 niche build/buy/fix Impact sections have no number. Clean: Filter Notes, lenses, hub figures.
+
+## general-hospitals, other
+- worker-life-1 same worker as high-impact (med-surg RN); ambient charting would erase the documentation-timing signal.
+- clinical-denials-status-appeals includes post-acute denials (belong to case-management and SNF ma-authorization-denials).
+- rural-critical-access-hospitals lens scored as bedside care while its contest is back-office; SNF independent-operators scored as back office. Link urgent-care/rural-critical-access.
+- Facts: SmarterDx 85 systems/300+ sites unsourced; WellSpan unsourced; "Prenosis (FDA-authorised sepsis tool, recalled)" reads as a product recall; hub "DRG weights reset every 1 October (recalled)".
+- Minor Q4: registries 3 → 2 (41); sepsis vendors 3 → 2.
+- 17 of 33 Impact sections lack a number. Clean: tacit note, ml entry 1, Filter Notes, placement, AHA/NSI/HRRP/Premier figures.
+
+## skilled-nursing-facilities, other
+- worker-life-1 repeats high-impact worker (CNA) and capture surface.
+- Impact numbers missing: high-impact ("several times a month"), low-impact-1 ("several dollars per Medicare day"), low-impact-2 (none); 27 of 30 niche Impact sections.
+- independent-operators contest bundles three sibling contests with a double win condition.
+- Hub lists Skypoint as hiring without the Bengaluru caveat.
+- Minor Q4: medicaid-case-mix-auditors 5 → 4 (44); snf-ehr-data-teams 4 → 2–3.
+- Clean: KFF, MedPAC, QSO-26-14-NH, LTCCC, CLA figures; lens scores vs home-health twins.
+
+## 5. Duplicates between general-hospitals and skilled-nursing-facilities
+- Ratings publishers: general-hospitals/hospital-quality-ratings-publishers holds (add Best Nursing Homes); SNF nursing-home-consumer-ratings becomes a link.
+- MA authorisation: SNF ma-authorization-denials holds; hospitals drop post-acute from clinical-denials and link; case-management links it for the first authorisation step.
+- Post-acute placement vs referral intake: keep both (sender vs receiver), cross-link; CarePort/WellSky, Aidin, naviHealth field described once in general-hospitals case-management.
+- Staffing marketplaces: SNF per-diem-shift-marketplaces and staffing-marketplace-data-teams hold ShiftKey/IntelyCare/CareRev; general-hospitals nurse-staffing-office links them; cross-link with SNF internal-scheduling-retention; SNF staffing-marketplace-data-teams links it-staffing-firms/contingent-workforce-msp-vms (55).
+- Tacit notes distinct (med-surg RN, ward, charting timing, 12–24h deterioration, SEP-1/HRRP vs CNA/LPN, nursing home, ADL drift + one-tap flag, 72h–7d transfer, SNF VBP). Cross-link.
+- No SNF file links general-hospitals. Prose-only SNF mentions in general-hospitals: problems/general-hospitals/ai-agents-platforms.md:47; niches/general-hospitals/case-management-post-acute-placement/profile.md:15; niches/general-hospitals/hospital-quality-ratings-publishers/profile.md:28.

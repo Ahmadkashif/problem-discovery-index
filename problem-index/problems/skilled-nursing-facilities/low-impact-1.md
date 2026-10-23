@@ -1,0 +1,18 @@
+# PDPM Coding Review That Reads the Chart
+
+**Industry:** [[skilled-nursing-facilities|Skilled Nursing Facilities]]
+**Type:** Low Impact (Customisation Opportunity)
+**One-liner:** Hospitals have clinical documentation integrity software that reads the chart and queries the doctor, but a SNF's MDS coordinator still checks PDPM coding by hand against a stack of notes, because no CDI tool understands MDS item rules, assessment windows or the five PDPM components.
+**Tags:** #large-language-models #transformers #bert #evaluation-metrics #compliance #revenue-impact #automation
+
+## The Problem
+Every Medicare Part A stay starts with a 5-day assessment whose assessment reference date (ARD) must fall in the first eight days (recalled). From it PDPM sets the daily rate through five components: physical therapy, occupational therapy, speech-language pathology, nursing and non-therapy ancillaries. Each depends on specific MDS items. The primary diagnosis maps to a clinical category, Section GG functional scores are taken over the first three days, swallowing and cognitive items drive SLP, depression and extensive services drive nursing, and a list of comorbidities scores NTA. One missed comorbidity or a GG score taken from the wrong shift can move the rate by tens of dollars a day for the whole stay (estimate). A code without support in the chart is a payback when a Targeted Probe and Educate reviewer or a state Medicaid case-mix auditor reads the record. Since 1 October 2025 the same items also drive Medicaid rates in states such as Virginia and Ohio that moved to PDPM groupings.
+
+## What Already Exists
+Hospitals buy clinical documentation integrity and computer-assisted coding platforms (Solventum 360 Encompass, Optum CAC, Iodine) that read physician notes, suggest ICD-10 codes and query the physician. PointClickCare and MatrixCare show PDPM worksheets that calculate the score from whatever was coded. Simple and similar compliance tools flag MDS inconsistencies after the fact. Consultancies such as Zimmet and Harmony send RN auditors to review samples.
+
+## The Customisation Gap
+Hospital CDI targets DRG coding from physician documentation. A SNF needs something different: evidence for MDS items, drawn from CNA flowsheets, therapy evaluations, nurse notes, hospital discharge summaries and medication records, each inside its look-back window. The logic to add includes the RAI Manual's item-by-item coding rules and look-back periods, ARD selection that captures the highest supportable acuity, the "usual performance" rule for Section GG across disciplines, the NTA comorbidity list with its required documentation, and interim payment assessment triggers when a resident's condition changes. Every suggested code must link to the note that supports it. The output also has to fit the coordinator's work in the EHR, inside the transmission deadline, rather than sit in a separate audit portal. With CMS now asking about PDPM upcoding, the tool must find both under-coding and over-coding. A tool that only raises the score is a liability.
+
+## Impact If Solved
+An MDS coordinator responsible for 25–40 Part A assessments a month (estimate) would review evidence-linked suggestions instead of searching notes. The facility would capture case-mix it currently misses and stop coding what it cannot defend. A net case-mix correction of ~1–2% (estimate) on the ~$1.8M of fee-for-service Part A revenue an average freestanding SNF receives ($26B across ~14,400 SNFs, MedPAC; derived) is worth ~$18,000–36,000 a year, before MA and Medicaid PDPM states are counted, with avoided TPE and case-mix paybacks on top.

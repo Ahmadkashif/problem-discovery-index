@@ -1,0 +1,23 @@
+# RFQ & Order Intake Automation
+
+**Parent Industry:** [[industries/industrial-distributors|Industrial Distributors]]
+**Category:** Highly Automatable
+**Contested on:** Every serious competitor in this niche is fighting to turn a customer's RFQ or purchase order — email body, PDF, spreadsheet or scanned fax — into a priced ERP draft quote or order that the rep releases without retyping a line, and whoever posts the highest no-touch line-match rate on the distributor's own inbox takes the account.
+
+## Profile
+**Market Size:** ~$1.2B a year of inside-sales labour spent keying quotes and orders at US industrial distributors (estimate); ~$4B across industrial, electrical, building-material and plumbing/HVAC distribution together (estimate); software spend on automating it is ~$300M across the four and growing fast (estimate)
+**Share of Parent Industry:** ~0.3% of industrial distributors' receipts, counting the industrial labour figure only (estimate)
+**Digital Adoption:** Low — most lines are still keyed by hand, though order automation has been sold for a decade and AI vendors multiplied in 2025–2026
+**Target Buyer:** VP of Operations or inside sales manager; the CFO when the case is headcount
+**Automation Potential:** Very High — extraction is largely solved; line matching to SKUs, customer codes and schedule tags is the remaining hard part
+
+## What Makes This a Distinct Niche
+This is the single workflow that the AI vendor field selling into distributors is racing to own, and it arrives in two forms across four distributor types. The first is the purchase order or MRO RFQ: a plant buyer's lines written in the plant's own stock codes. The second is the emailed project list for a straight resale quote: a contractor's bid list, or the lines of an equipment or fixture schedule to be matched to stocked SKUs, sent as an email, PDF or spreadsheet, which [[industries/electrical-distributors|Electrical Distributors]] receive daily, [[industries/building-material-dealers|Building Material Dealers]] see as lumber and materials lists, and the queued plumbing and HVAC distributors build sees as equipment schedules. In both forms the request is a list to be matched and priced, the ERP needs structured lines, and a rep sits in between. The line with neighbouring niches runs three ways, in the same wording as the electrical build: schedule or list lines matched to SKUs for a straight resale quote come here; agency-priced lighting packages and their submittals go to [[niches/electrical-distributors/lighting-desk-quoting-submittals/profile|The Lighting Desk]]; plan-and-spec takeoff, where the package must be completed and made compliant before it can be priced, goes to [[niches/electrical-distributors/bid-day-project-quoting/profile|Bid-Day Project Quoting & Takeoff]], whose lumber analogue is [[niches/building-material-dealers/plan-set-takeoff-quoting/profile|Plan-Set Takeoff & Lumber Package Quoting]]. The platform-side version of the contest is [[niches/b2b-commerce-platforms/quote-to-cash/profile|Quote to Cash]], and the phone-and-text variant in foodservice is [[niches/restaurant-suppliers/order-intake-automation/profile|Order Intake Automation]].
+
+## Current Tools & Gaps
+Conexiom has sold sales-order automation for years (600+ customers, 1.5B line items a year by its own count) and partners with Epicor for Eclipse and Prophet 21. The AI wave — Avent, Mercura, Comena, Hexa, Augment's Augie, Lark and others — drafts quotes and orders inside the ERP, and ERP vendors are embedding their own agents (Epicor Prism). Checked on 2026-10-24: Avent (San Francisco), Mercura and Comena (both Munich) had forward deployed engineer roles open on their YC job pages; Hexa listed none on YC; Augment's open roles on its careers page were deployment and sales. The gaps: match rates are claimed on demo sets, not measured on each distributor's inbox; customer stock codes and schedule tags need cross-referencing; and the resolution of hard lines is not captured as training data.
+
+## Problems
+- [[niches/industrial-distributors/rfq-and-order-intake-automation/build|🔨 Build: Match Rate Measured on the Distributor's Own Inbox]]
+- [[niches/industrial-distributors/rfq-and-order-intake-automation/buy|🛒 Buy: Document Extraction Turned Into an Order Desk]]
+- [[niches/industrial-distributors/rfq-and-order-intake-automation/fix|🔧 Fix: The Customer's Own Part Number and the Schedule's Own Tag]]

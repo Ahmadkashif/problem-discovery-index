@@ -1,10 +1,10 @@
 {
- "n_industries": 325,
- "n_subniches": 5648,
+ "n_industries": 332,
+ "n_subniches": 5814,
  "industries": {
   "ai_proof": {
-   "median": 40,
-   "mean": 41.1,
+   "median": 40.0,
+   "mean": 41.7,
    "top": [
     {
      "id": "childcare-centers",
@@ -40,6 +40,17 @@
      "why_digital": "Care is delivered on a patient's body in a local operatory chosen face to face."
     },
     {
+     "id": "general-hospitals",
+     "name": "General Hospitals",
+     "industry": "General Hospitals",
+     "ai_proof": 85,
+     "clarity": 50,
+     "digital": 6,
+     "why_ai": "Licensed nurses, physicians and surgeons treat acutely ill patients in person, carry personal liability, and make high-stakes calls on deterioration and surgery that demand will not hand to software.",
+     "why_clarity": "Protocols, DRGs and CMS measures codify much of the work, but every admission differs and outcomes such as readmission and mortality surface weeks later through noisy, risk-adjusted measures.",
+     "why_digital": "Care is delivered on patients' bodies in a local building; patients arrive by ambulance, referral and network, not online."
+    },
+    {
      "id": "home-health-agencies",
      "name": "Home Health Agencies",
      "industry": "Home Health Agencies",
@@ -71,6 +82,28 @@
      "why_ai": "Licensed therapists treat patients hands-on and carry personal clinical liability.",
      "why_clarity": "Standard outcome tests exist, but recovery varies by patient and unfolds over weeks.",
      "why_digital": "Treatment is delivered in person on the patient's body in a clinic."
+    },
+    {
+     "id": "physician-practices",
+     "name": "Physician Practices",
+     "industry": "Physician Practices",
+     "ai_proof": 85,
+     "clarity": 50,
+     "digital": 19,
+     "why_ai": "Licensed physicians examine and treat patients in person, carry personal liability, and patients choose and stay with a doctor they trust.",
+     "why_clarity": "Common visits recur by the thousand, but diagnosis is judgement and outcomes surface weeks or years later, often in another organisation's records.",
+     "why_digital": "Care starts from a patient in the room and is delivered in person by local practices, with telehealth and records work on the margin."
+    },
+    {
+     "id": "skilled-nursing-facilities",
+     "name": "Skilled Nursing Facilities",
+     "industry": "Skilled Nursing Facilities",
+     "ai_proof": 85,
+     "clarity": 56,
+     "digital": 6,
+     "why_ai": "Licensed nurses and aides give hands-on care around the clock under federal certification, with demand rising as the population ages.",
+     "why_clarity": "The MDS and RAI Manual codify assessment and care planning across recurring cases, but whether care was good shows slowly and noisily.",
+     "why_digital": "Care is delivered in person to residents in a local building that families and hospital case managers choose locally."
     },
     {
      "id": "acupuncture-practices",
@@ -137,39 +170,6 @@
      "why_ai": "Licensed electricians physically wire and repair systems on site under permit and inspection.",
      "why_clarity": "Work passes inspection against the code, but diagnostic skill is tacit and jobs vary.",
      "why_digital": "Physical installation and repair in buildings, hired locally."
-    },
-    {
-     "id": "funeral-homes",
-     "name": "Funeral Homes",
-     "industry": "Funeral Homes",
-     "ai_proof": 75,
-     "clarity": 56,
-     "digital": 6,
-     "why_ai": "Licensed directors care for the body and grieving families who choose them on trust.",
-     "why_clarity": "Funeral Rule pricing and case tasks are codified, but a good service is judged by feeling.",
-     "why_digital": "Bodies, services and family meetings are all physical and local."
-    },
-    {
-     "id": "general-contractors",
-     "name": "General Contractors",
-     "industry": "General Contractors",
-     "ai_proof": 75,
-     "clarity": 44,
-     "digital": 19,
-     "why_ai": "Licensed, bonded GCs direct field crews building physical structures with thin-margin estimating judgment.",
-     "why_clarity": "Each project is unique and true margin is known only at closeout.",
-     "why_digital": "Drawings are digital, but value is a physical building procured locally."
-    },
-    {
-     "id": "hvac-contractors",
-     "name": "HVAC Contractors",
-     "industry": "HVAC Contractors",
-     "ai_proof": 75,
-     "clarity": 62,
-     "digital": 6,
-     "why_ai": "Certified technicians physically install and repair equipment in attics, basements and rooftops.",
-     "why_clarity": "A system heats or cools or it does not, though diagnosis relies on technician feel.",
-     "why_digital": "Physical equipment in homes and buildings, serviced in person by local contractors."
     }
    ],
    "bottom": [
@@ -341,8 +341,8 @@
    ]
   },
   "clarity": {
-   "median": 62,
-   "mean": 59.9,
+   "median": 62.0,
+   "mean": 60.0,
    "top": [
     {
      "id": "data-labeling-services",
@@ -679,8 +679,8 @@
    ]
   },
   "digital": {
-   "median": 81,
-   "mean": 64.7,
+   "median": 75.0,
+   "mean": 63.6,
    "top": [
     {
      "id": "ai-agent-platforms",
@@ -850,17 +850,6 @@
    ],
    "bottom": [
     {
-     "id": "oil-gas-field-services",
-     "name": "Oil & Gas Field Services",
-     "industry": "Oil & Gas Field Services",
-     "ai_proof": 70,
-     "clarity": 69,
-     "digital": 6,
-     "why_ai": "Crews repair pumps and run services at remote wellsites under HSE rules, diagnosing by sound and feel.",
-     "why_clarity": "A well is back producing or not, though diagnosis relies on technicians' accumulated sensory judgement.",
-     "why_digital": "Work happens on physical equipment at scattered wellsites, recorded on handwritten field tickets."
-    },
-    {
      "id": "painting-contractors",
      "name": "Painting Contractors",
      "industry": "Painting Contractors",
@@ -936,6 +925,17 @@
      "why_ai": "Licensed guards must be physically present, though remote video increasingly replaces guard hours.",
      "why_clarity": "Post coverage repeats endlessly, but whether deterrence worked is rarely knowable.",
      "why_digital": "Bodies on site at physical posts, bought through local contracts."
+    },
+    {
+     "id": "skilled-nursing-facilities",
+     "name": "Skilled Nursing Facilities",
+     "industry": "Skilled Nursing Facilities",
+     "ai_proof": 85,
+     "clarity": 56,
+     "digital": 6,
+     "why_ai": "Licensed nurses and aides give hands-on care around the clock under federal certification, with demand rising as the population ages.",
+     "why_clarity": "The MDS and RAI Manual codify assessment and care planning across recurring cases, but whether care was good shows slowly and noisily.",
+     "why_digital": "Care is delivered in person to residents in a local building that families and hospital case managers choose locally."
     },
     {
      "id": "specialty-food-retail",
@@ -1016,14 +1016,14 @@
     }
    ]
   },
-  "rho_clarity_ai_proof": -0.16,
-  "rho_digital_ai_proof": -0.83,
-  "rho_digital_clarity": -0.02
+  "rho_clarity_ai_proof": -0.15,
+  "rho_digital_ai_proof": -0.84,
+  "rho_digital_clarity": -0.03
  },
  "subniches": {
   "ai_proof": {
    "median": 30.0,
-   "mean": 33.5,
+   "mean": 33.7,
    "top": [
     {
      "id": "physical-therapy/cash-pay-direct-access",
@@ -1068,6 +1068,17 @@
      "why_ai": "Specialists deliver individualized in-person instruction and therapy to vulnerable children.",
      "why_clarity": "Goal frameworks exist, but each child's plan and progress differ.",
      "why_digital": "Hands-on instruction and therapy in classrooms families visit."
+    },
+    {
+     "id": "skilled-nursing-facilities/long-stay-dementia-residents",
+     "name": "Long-Stay Residents Living with Dementia",
+     "industry": "Skilled Nursing Facilities",
+     "ai_proof": 95,
+     "clarity": 44,
+     "digital": 6,
+     "why_ai": "Aides and nurses care hands-on for residents who cannot speak for themselves, where trust and judgement are the product.",
+     "why_clarity": "Daily routines repeat, but good dementia care is hard to define and its effects on falls and behaviours surface slowly.",
+     "why_digital": "Care is given in person in the building, chosen locally by families."
     },
     {
      "id": "veterinary-practices/mixed-animal-rural",
@@ -1147,6 +1158,17 @@
      "why_digital": "Paper archives and remote fieldwork for federal and tribal offices."
     },
     {
+     "id": "general-hospitals/bedside-nurses-med-surg",
+     "name": "Bedside Nurses on Med-Surg Units",
+     "industry": "General Hospitals",
+     "ai_proof": 90,
+     "clarity": 56,
+     "digital": 0,
+     "why_ai": "Bedside nurses assess, treat and watch patients in person under their own licence, and their vigilance is the hospital's first defence against deterioration.",
+     "why_clarity": "Assessments follow written protocols and recur every shift, but whether a judgement was right shows only hours or days later.",
+     "why_digital": "Nursing is delivered on patients' bodies on a hospital unit; documentation is the only digital part."
+    },
+    {
      "id": "land-surveyors/boundary-expert-witness",
      "name": "Boundary Retracement Expert Witnesses",
      "industry": "Land Surveyors",
@@ -1167,28 +1189,6 @@
      "why_ai": "Licensed teachers physically care for young children, which parents entrust only to known people.",
      "why_clarity": "Daily routines recur under licensing rules, but child development outcomes are slow and soft.",
      "why_digital": "Care is delivered in person in church classrooms to local families."
-    },
-    {
-     "id": "veterinary-practices/companion-animal-general",
-     "name": "Companion Animal General Practice",
-     "industry": "Veterinary Practices",
-     "ai_proof": 90,
-     "clarity": 56,
-     "digital": 6,
-     "why_ai": "The owner-vet personally examines, treats and operates on pets under licence.",
-     "why_clarity": "Vaccinations and wellness exams repeat, but diagnosis and treatment vary by case.",
-     "why_digital": "Hands-on exam-room and surgical care for local clients."
-    },
-    {
-     "id": "childcare-centers/family-childcare-homes",
-     "name": "Family Childcare Homes",
-     "industry": "Childcare Centers",
-     "ai_proof": 90,
-     "clarity": 50,
-     "digital": 6,
-     "why_ai": "A licensed provider personally cares for children in their own home; parents pick the person.",
-     "why_clarity": "Daily routines repeat, but care quality is judged loosely and outcomes appear years later.",
-     "why_digital": "Hands-on care in a home, found through local referrals and word of mouth."
     }
    ],
    "bottom": [
@@ -1531,17 +1531,6 @@
    ],
    "bottom": [
     {
-     "id": "esports-organizations/the-player-career",
-     "name": "The Player Career",
-     "industry": "Esports Organizations",
-     "ai_proof": 50,
-     "clarity": 19,
-     "digital": 56,
-     "why_ai": "Young players need trusted advocates for health, contracts and transition, a relationship-based service.",
-     "why_clarity": "Whether a career was survivable and the exit successful is known only years later.",
-     "why_digital": "Concerns players' bodies, contracts and lives, served partly remotely across a global roster."
-    },
-    {
      "id": "headless-commerce-vendors/the-solutions-architect",
      "name": "The Solutions Architect",
      "industry": "Headless Commerce Vendors",
@@ -1674,6 +1663,17 @@
      "why_digital": "Case files reviewed on screen; testimony in person."
     },
     {
+     "id": "electric-utilities/utility-rd-consortium",
+     "name": "Utility R&D Consortium",
+     "industry": "Electric Distribution Utilities",
+     "ai_proof": 55,
+     "clarity": 12,
+     "digital": 69,
+     "why_ai": "Research programmes combine lab and field testing with member relationships built over decades.",
+     "why_clarity": "Research projects are bespoke and their value is judged slowly.",
+     "why_digital": "Mostly data and reports with some lab and field work, delivered to members worldwide."
+    },
+    {
      "id": "trust-safety-tooling-vendors/error-cost-elicitation",
      "name": "Error Cost Elicitation",
      "industry": "Trust & Safety Tooling Vendors",
@@ -1699,7 +1699,7 @@
   },
   "digital": {
    "median": 94.0,
-   "mean": 77.5,
+   "mean": 77.4,
    "top": [
     {
      "id": "interior-design-firms/ad-market-research-firms",

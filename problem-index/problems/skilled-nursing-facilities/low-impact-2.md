@@ -1,0 +1,18 @@
+# Survey Readiness Built on the Public CMS-2567 Record
+
+**Industry:** [[skilled-nursing-facilities|Skilled Nursing Facilities]]
+**Type:** Low Impact (Customisation Opportunity)
+**One-liner:** Every nursing home's inspection findings are published word for word, yet facilities prepare for the unannounced annual survey with generic audit checklists and a consultant's memory instead of what their own state's survey teams have actually been citing.
+**Tags:** #gradient-boosting #large-language-models #bert #evaluation-metrics #compliance #quick-win #data-integration
+
+## The Problem
+A standard recertification survey arrives unannounced, at least once every 15 months in principle (42 CFR 488.308). In June 2026, 1,410 facilities had gone more than 18 months without one (CMS QSO-26-14-NH), so administrators live in a long window of not knowing when. The survey team spends days in the building interviewing residents, watching medication passes and meals, and reading records. Findings come back on the CMS-2567 statement of deficiencies, each cited against an F-tag with a scope-and-severity letter. The facility then has a short deadline, ~10 calendar days (recalled), to submit a plan of correction. The stakes run past the citation. The health inspection domain anchors the Five-Star overall rating. A harm-level tag ends eligibility for the risk-based survey that launched on 8 September 2026, for which only 1,560 of 14,682 facilities qualified, and repeated findings lead to civil money penalties and Special Focus Facility status. The average facility draws 9.5 deficiencies a survey cycle (KFF).
+
+## What Already Exists
+Generic governance, risk and compliance platforms and policy-management tools hold audit checklists and document policies. EHR vendors ship survey-readiness report packs. Consultancies run mock surveys with former surveyors. Care Compare, data.cms.gov and advocacy sites such as ProPublica's Nursing Home Inspect and LTCCC's NursingHome411 let anyone read inspection findings.
+
+## The Customisation Gap
+The generic tool knows nothing about F-tags, scope and severity, the Long-Term Care Survey Process's entrance-conference document list, or how one state's teams differ from another's. The public 2567 text is a uniquely detailed record. It is narrative findings for every facility, every survey and every complaint investigation, published by CMS. What has to be layered on is a parser that turns 2567 narratives into structured findings (F-tag, regulatory group, care area, evidence type, severity), aggregation by state survey agency and recent survey cycle, and a mapping from a facility's own signals to the tags surveyors are likely to pursue. Those signals include PBJ staffing dips, MDS quality measures, complaint history, incident logs and its last 2567. Mock-survey checklists then need to be generated from that risk profile rather than from a fixed template. Plan-of-correction drafting also needs grounding in what corrected the same tag elsewhere and passed revisit.
+
+## Impact If Solved
+A director of nursing would prepare for the tags most likely to be cited in her state rather than for all of them. An average 2567 carries 9.5 deficiencies (KFF), and plans of correction would take ~2–3 hours to draft from proven language instead of ~2 evenings (estimate). Facilities near the risk-based survey line would know which one or two risks stand between them and a survey with roughly half the onsite time and a "High Performing Facility" icon on Care Compare. Only 1,560 of 14,682 facilities qualified in June 2026, and 2,723 were excluded because they had at least one actual-harm citation in the last cycle (CMS QSO-26-14-NH).
