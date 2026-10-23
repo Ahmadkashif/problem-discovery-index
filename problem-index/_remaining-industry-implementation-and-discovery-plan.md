@@ -632,11 +632,11 @@ Stage E is the only step that edits existing files. It runs only on the owner's 
 
 **Stage:** batch loop. Batches 1–5 closed 2026-10-22, batches 6–9 closed 2026-10-23 (batch 9 early, with 2 of its 8 industries); placement-priority batches next.
 **Triage:** 714 of 714 codes (new 421 · merge 265 · covered 17 · skip 11)
-**Queue:** 421 industries in 49 batches
+**Queue:** 421 industries in 54 batches (the 49 sector batches, plus priority batches P1–P4 and waste batch 9b, added 2026-10-23)
 **Done:** 68 industries · 4,475 files (4,339 vault + 136 state) · 4 qualifiers
 **Last verifier run:** `verify.sh` (all done rows) → REST-VERIFY-CLEAN; `check_queue.py` → QUEUE-CLEAN; lenses rebuilt via `_state/rest/lens_rebuild.sh` (2026-10-23, batch 9 close)
-**Next action:** (paused) batch 9 closed early on 2026-10-23 with contract-packagers and auctioneers; its six waste industries moved to batch 9b. The owner asked for a short-term placement filter, so the next batches are the placement-priority ones being set up the same evening.
-**Paused (owner, 2026-10-23):** the owner paused the run after the in-flight auctioneers build, at 67% of the weekly quota, to keep quota for higher-impact daytime work. From now on the run happens at night only, when the owner restarts it; there is no auto-resume heartbeat. On restart: finish batch 9 (waste-haulers onward). Scheduled by the owner (session-only crons): resume Sat 2026-10-24 00:03 PKT with **3 parallel agents** until the weekly quota reset at 15:00 PKT (no new builders after 14:30); at 14:52 the cap returns to 1 and the run pauses again.
+**Next action:** (paused) start batch P1. The owner asked for a short-term placement filter on 2026-10-23 (`_short-term-placement-filter.md`; script `_state/rest/placement_filter.py`, evidence in `_state/rest/placement-evidence/`), so 28 industries moved into priority batches P1–P4, which run before everything else. P1–P3 are the 20 that passed a web check for open engineering and FDE roles; P4 is the next eight by desk score. Their builder notes in `_state/rest/builder-notes.tsv` carry the hiring vendors found, and brief.py prints them. After P4 comes 9b (the six waste industries batch 9 left behind), then batch 10 onward in sector order. Batch 9 closed early with contract-packagers and auctioneers.
+**Paused (owner, 2026-10-23):** the owner paused the run after the in-flight auctioneers build, at 67% of the weekly quota, to keep quota for higher-impact daytime work. From now on the run happens at night only, when the owner restarts it; there is no auto-resume heartbeat. On restart: start batch P1 (placement priority). Scheduled by the owner (session-only crons): resume Sat 2026-10-24 00:03 PKT with **3 parallel agents** until the weekly quota reset at 15:00 PKT (no new builders after 14:30); at 14:52 the cap returns to 1 and the run pauses again.
 **Run constraint (owner, 2026-10-22):** at most **1 subagent at a time** from batch 5's remaining builds onward (it was 3 until then), builders, reviewers and fix rounds combined; the live cap is in `_state/rest/agent-cap.txt`. §5 step 2's "up to 10 at once" is overridden. The owner set it to 1 to keep quota for other work: the first 37 industries used about 36 points of a 47%-used weekly quota, roughly 1% of a week per industry. Builders must not spawn forks or subagents (the brief says so).
 **Coordinator tooling (2026-10-22):** `_state/rest/brief.py <slug>` prints the §7 brief with built siblings and review lessons; `set_status.py`; `resort_p2.py <slug>` re-sorts a Pass 2 table after a fix; `lens_rebuild.sh` runs §5.3 while later batches are mid-build (it leaves non-`done` slugs out); `build_scorecard.py` writes `_scorecard-index-rest.md` from `qualifiers.jsonl` and checks each profile still says Qualified at the same total. Builder reports, review checklists and pending findings live in `_state/rest/reports/`.
 
@@ -653,44 +653,49 @@ Stage E is the only step that edits existing files. It runs only on the owner's 
 | 7 | 56 Admin, Support & Waste | 9 | 9 | 582 | 0 | Facilities management, executive search, PEOs, document preparation, answering services, mail centers, credit bureaus, repossession and court reporting. No qualifiers: the operators sell labour, and the analytics around them sit on client- or member-furnished data (PHI, FCRA furnishing, client call and claim files) or in one- to three-firm markets. The one first-pass qualifier, building-performance-standard compliance consultancies, fell from 51 to 46 on review: NYC's audit and benchmarking records are public (Q3 3) and the LL97 filing can be extended (Q4 4). Review also re-gated per-report and examiner staff and per-organisation headcounts, and set a contributed-data kill-switch rule (FCRA furnishing or member trust = live) for Stage E to apply to tenant screening and identity graphs. |
 | 8 | 56 Admin, Support & Waste | 8 | 8 | 521 | 0 | Travel agencies, tour operators, visitors bureaus, ticketing, investigation and screening, armored car, alarm integrators and locksmiths. No qualifiers: the operators sell labour or inventory risk, the platforms around them are one- to three-firm markets with self-set clocks, and most insight teams turned out to be production staff once counted per firm (investigators, desk analysts, implementation staff). Review dropped three kill switches where checked terms gave vendors product rights (Alarm.com, SmartRent and Schlage, ticket-fraud signals) and re-gated summed or production headcounts. The guard licensing boards were found to be one organisation family licensing PIs, alarm firms, locksmiths and repossessors, and the guards' alarm-monitoring pocket is misfiled now that central stations have their own industry (both logged for Stage E). |
 | 9 | 56 Admin, Support & Waste | 2 | 2 | 130 | 0 | Contract packagers and auctioneers, closed early on 2026-10-23 so the placement-priority batches could run next. No qualifiers: the packagers' EPR compliance pocket fell to 41 under a kill switch, the ABL collateral-appraisal pocket stays at 50 under a live kill switch with ~10–25 central analysts, and auction-house pockets cap Q3 at 3 because hammer prices are public. The six waste industries moved to batch 9b. |
-| 10 | 61 Education | 9 | 0 | — | — | — |
-| 11 | 62 Health Care | 9 | 0 | — | — | — |
-| 12 | 62 Health Care | 9 | 0 | — | — | — |
+| P1 | Placement priority (web-checked) | 7 | 0 | — | — | — |
+| P2 | Placement priority (web-checked) | 7 | 0 | — | — | — |
+| P3 | Placement priority (web-checked) | 6 | 0 | — | — | — |
+| P4 | Placement priority (desk-ranked) | 8 | 0 | — | — | — |
+| 9b | 56 Admin, Support & Waste | 6 | 0 | — | — | — |
+| 10 | 61 Education | 8 | 0 | — | — | — |
+| 11 | 62 Health Care | 5 | 0 | — | — | — |
+| 12 | 62 Health Care | 5 | 0 | — | — | — |
 | 13 | 53 Real Estate & Rental | 9 | 0 | — | — | — |
 | 14 | 71 Arts & Recreation | 8 | 0 | — | — | — |
-| 15 | 71 Arts & Recreation | 8 | 0 | — | — | — |
+| 15 | 71 Arts & Recreation | 7 | 0 | — | — | — |
 | 16 | 81 Other Services | 8 | 0 | — | — | — |
 | 17 | 81 Other Services | 7 | 0 | — | — | — |
 | 18 | 81 Other Services | 7 | 0 | — | — | — |
 | 19 | 72 Accommodation & Food | 6 | 0 | — | — | — |
-| 20 | 42 Wholesale | 8 | 0 | — | — | — |
-| 21 | 42 Wholesale | 8 | 0 | — | — | — |
-| 22 | 42 Wholesale | 8 | 0 | — | — | — |
+| 20 | 42 Wholesale | 6 | 0 | — | — | — |
+| 21 | 42 Wholesale | 6 | 0 | — | — | — |
+| 22 | 42 Wholesale | 7 | 0 | — | — | — |
 | 23 | 42 Wholesale | 7 | 0 | — | — | — |
-| 24 | 44-45 Retail | 10 | 0 | — | — | — |
+| 24 | 44-45 Retail | 7 | 0 | — | — | — |
 | 25 | 44-45 Retail | 10 | 0 | — | — | — |
 | 26 | 44-45 Retail | 10 | 0 | — | — | — |
-| 27 | 48-49 Transportation | 8 | 0 | — | — | — |
+| 27 | 48-49 Transportation | 7 | 0 | — | — | — |
 | 28 | 48-49 Transportation | 7 | 0 | — | — | — |
-| 29 | 48-49 Transportation | 7 | 0 | — | — | — |
-| 30 | 23 Construction | 8 | 0 | — | — | — |
+| 29 | 48-49 Transportation | 6 | 0 | — | — | — |
+| 30 | 23 Construction | 6 | 0 | — | — | — |
 | 31 | 23 Construction | 8 | 0 | — | — | — |
-| 32 | 22 Utilities | 8 | 0 | — | — | — |
-| 33 | 21 Mining | 8 | 0 | — | — | — |
+| 32 | 22 Utilities | 7 | 0 | — | — | — |
+| 33 | 21 Mining | 7 | 0 | — | — | — |
 | 34 | 11 Agriculture | 8 | 0 | — | — | — |
 | 35 | 11 Agriculture | 8 | 0 | — | — | — |
 | 36 | 31-33 Manufacturing | 10 | 0 | — | — | — |
 | 37 | 31-33 Manufacturing | 10 | 0 | — | — | — |
 | 38 | 31-33 Manufacturing | 10 | 0 | — | — | — |
-| 39 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 39 | 31-33 Manufacturing | 9 | 0 | — | — | — |
 | 40 | 31-33 Manufacturing | 10 | 0 | — | — | — |
 | 41 | 31-33 Manufacturing | 10 | 0 | — | — | — |
 | 42 | 31-33 Manufacturing | 10 | 0 | — | — | — |
 | 43 | 31-33 Manufacturing | 10 | 0 | — | — | — |
 | 44 | 31-33 Manufacturing | 10 | 0 | — | — | — |
 | 45 | 31-33 Manufacturing | 10 | 0 | — | — | — |
-| 46 | 31-33 Manufacturing | 10 | 0 | — | — | — |
-| 47 | 31-33 Manufacturing | 9 | 0 | — | — | — |
+| 46 | 31-33 Manufacturing | 8 | 0 | — | — | — |
+| 47 | 31-33 Manufacturing | 8 | 0 | — | — | — |
 | 48 | 92 Public Administration | 9 | 0 | — | — | — |
 | 49 | 92 Public Administration | 8 | 0 | — | — | — |
 

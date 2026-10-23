@@ -1,0 +1,422 @@
+rank	slug	name	category	status	batch	score	E	P	M	F	R	gate	checked	note
+1	legal-support-services	Legal Support Services	Professional Services	done	2	45	5	4	5	4	4	pass	web	FDE roles: OpenAI legal, August, Norm AI; Everlaw, Phaselab; MVP: review demo on Enron/EDRM + CourtListener
+2	answering-services	Telephone Answering Services	Business Support & Waste Services	done	7	43	5	4	3	5	4	pass	web	FDE roles: Phonely, Acrely, Retell AI, PolyAI; Synthflow; MVP: voice receptionist on Twilio + LLM
+3	electrical-distributors	Electrical Distributors	Wholesale & Distribution	todo	21	43	4	5	4	4	5	pass	web	FDE roles: Avent, Mercura, Comena (last two Munich); NAED AI business case; MVP: RFQ email to quote from catalog PDFs
+4	industrial-distributors	Industrial Distributors	Wholesale & Distribution	todo	22	42	4	5	4	4	4	pass	web	FDE roles: Avent, Comena, Mercura; Hexa, Augment in the space; MVP: RFQ/PO email to ERP draft quote
+5	travel-agencies	Travel Agencies	Business Support & Waste Services	done	8	42	4	3	5	5	4	pass	desk	
+6	biotech-research-firms	Biotech Research Firms	Professional Services	done	2	41	5	4	4	3	4	pass	desk	
+7	general-hospitals	General Hospitals	Healthcare & Clinical	todo	12	41	5	5	4	2	4	pass	web	FDE roles: OpenAI healthcare, Cair Health, Hippocratic AI, Opmed.ai, Smarter Technologies; pitch vendors, hospitals are slow
+8	skilled-nursing-facilities	Skilled Nursing Facilities	Healthcare & Clinical	todo	12	40	4	4	5	3	4	pass	web	PointClickCare (AI engineer), Aline, SafelyYou; MVP: staffing-gap dashboard on CMS PBJ + Care Compare
+9	money-service-businesses	Money Service Businesses	Financial Services	done	5	39	4	4	4	4	3	pass	desk	
+10	executive-search-firms	Executive Search Firms	Business Support & Waste Services	done	7	39	3	3	5	5	4	pass	desk	
+11	public-relations-agencies	Public Relations Agencies	Professional Services	done	2	39	3	3	5	5	4	pass	desk	
+12	community-banks	Community Banks	Financial Services	done	5	38	4	4	4	3	4	pass	desk	
+13	electric-utilities	Electric Distribution Utilities	Utilities & Energy	todo	32	38	4	4	4	3	4	pass	web	Gridsight (FDE, confirmed), E Source and MLabs (FDE, aggregator); MVP: hosting-capacity screen on EIA-860/861
+14	mortgage-lenders	Mortgage Lenders	Financial Services	done	5	38	4	4	4	3	4	pass	web	Ocrolus mortgage FDE (confirmed); Valon, Addy AI, Saaf (FDE, aggregator); MVP: LE vs CD fee-cure checker
+15	health-insurance-carriers	Health Insurance Carriers	Insurance	done	6	37	4	5	4	2	3	pass	web	FDE roles: Cohere Health, CLERA, OpenAI, Hippocratic AI; FHIR prior-auth APIs due 2027-01-01
+16	physician-practices	Physician Practices	Healthcare & Clinical	todo	11	37	4	4	3	4	3	pass	web	FDE roles: Commure/Athelas, Hippocratic AI, Opmed.ai; CMS-0057 prior-auth rules; MVP: prior-auth packet from Synthea + payer policy PDFs
+17	aerospace-parts-suppliers	Aerospace Parts Suppliers	Manufacturing & Industrial	todo	46	37	3	4	4	4	4	pass	web	SalesPatriot (FDE, Lead FDE); MVP: auto-balloon drawing + AS9102 form
+18	aircraft-mro-shops	Aircraft MRO & FBO Shops	Transportation & Logistics	todo	29	37	3	5	3	4	4	pass	web	FDE roles: Zymbly, Soji AI; ~17,000 mechanic shortfall; MVP: work-card checker vs FAA ADs/SDRs
+19	building-material-dealers	Building Material Dealers	Wholesale & Distribution	todo	20	37	3	4	4	4	4	pass	web	Avent (FDE), Mercura (FDE, Munich); MVP: priced lumber list from a public plan set
+20	graphic-design-studios	Graphic Design Studios	Professional Services	done	1	37	3	2	5	5	4	pass	desk	
+21	heavy-civil-contractors	Heavy Civil Contractors	Construction & Trades	todo	30	37	3	4	5	3	4	pass	web	Rudus (FDE), Trunk Tools (FDE, unconfirmed); MVP: unit-price outliers from state DOT bid tabs
+22	interior-design-firms	Interior Design Firms	Professional Services	done	1	37	3	3	4	5	4	pass	desk	
+23	notary-signing-services	Notary & Signing Services	Professional Services	done	2	37	3	3	4	5	4	pass	desk	
+24	plumbing-and-hvac-distributors	Plumbing & HVAC Distributors	Wholesale & Distribution	todo	21	37	3	4	4	4	4	pass	web	Mercura, Avent, Comena (shared distributor vendors); Augment at Johnstone
+25	property-casualty-insurers	Property & Casualty Insurers	Insurance	done	6	37	3	4	4	4	4	pass	web	FDE roles: Strada, Outmarket, ReSource Pro (several dated or India-based); MVP: ACORD submission intake
+26	assisted-living-communities	Assisted Living Communities	Healthcare & Clinical	todo	12	36	4	3	3	4	4	pass	web	SafelyYou, Aline, Mon Ami, Sensorum, AxisCare; pain not sourced
+27	court-reporting-firms	Court Reporting Firms	Business Support & Waste Services	done	7	36	3	4	4	4	3	pass	desk	
+28	idd-group-homes	IDD Group Homes	Healthcare & Clinical	todo	12	36	3	4	4	4	3	pass	desk	
+29	it-value-added-resellers	IT Distributors & Value-Added Resellers	Wholesale & Distribution	todo	20	36	3	3	5	4	3	pass	desk	
+30	land-developers	Land Developers	Construction & Trades	todo	30	36	3	4	5	3	3	pass	desk	
+31	music-publishers	Music Publishers	Media, Telecom & Information	done	3	36	3	4	4	4	3	pass	desk	
+32	optometry-practices	Optometry Practices	Healthcare & Clinical	todo	11	36	3	3	4	5	3	pass	desk	
+33	powersports-and-boat-dealers	Powersports & Boat Dealers	Retail & E-Commerce	todo	24	36	3	3	4	5	3	pass	desk	
+34	contract-research-labs	Contract Research Labs	Professional Services	done	1	35	4	4	3	3	3	pass	desk	
+35	gambling-operators	Sportsbooks & Other Gambling Operators	Arts, Entertainment & Recreation	todo	15	35	4	3	4	3	3	pass	desk	
+36	grocery-stores	Grocery Stores	Retail & E-Commerce	todo	24	35	4	4	3	3	3	pass	desk	
+37	life-insurance-carriers	Life Insurance Carriers	Insurance	done	6	35	4	4	4	2	3	pass	desk	
+38	oil-and-gas-producers	Oil & Gas Producers	Mining & Extraction	todo	33	35	4	3	4	3	3	pass	desk	
+39	parking-operators	Parking Operators	Specialty Services	todo	18	35	4	3	4	3	3	pass	desk	
+40	sports-teams	Sports Teams & Clubs	Arts, Entertainment & Recreation	todo	14	35	4	3	4	3	3	pass	desk	
+41	wholesale-auto-auctions	Wholesale Auto Auctions	Wholesale & Distribution	todo	20	35	4	3	4	3	3	pass	desk	
+42	architecture-firms	Architecture Firms	Professional Services	done	1	35	3	3	4	4	4	pass	desk	
+43	community-health-centers	Community Health Centers	Healthcare & Clinical	todo	11	35	3	4	4	3	4	pass	desk	
+44	franchised-car-dealers	Franchised Car Dealers	Retail & E-Commerce	todo	24	35	3	5	3	3	4	pass	web	BizzyCar (eng lead, full stack); Toma/Impel unconfirmed; 19M of 53M service calls missed in 2025
+45	ocean-shipping-carriers	Ocean Shipping Carriers	Transportation & Logistics	todo	27	35	3	4	3	4	4	pass	web	Pallet confirmed, Reform FDE unconfirmed, Zencargo FDE closed; MVP: B/L to booking draft
+46	self-storage-operators	Self-Storage Operators	Real Estate, Rental & Leasing	todo	13	35	3	3	4	4	4	pass	desk	
+47	title-and-settlement-offices	Title & Settlement Offices	Professional Services	done	2	35	3	4	3	4	4	pass	web	Qualia (engineering), Propy; MVP: closing-package checker on recorder documents
+48	nuclear-power-plants	Nuclear Power Plants	Utilities & Energy	todo	32	34	4	4	4	2	2	pass	desk	
+49	air-cargo-carriers	Air Cargo Carriers	Transportation & Logistics	todo	27	34	3	4	4	3	3	pass	desk	
+50	aircraft-and-railcar-lessors	Aircraft & Railcar Lessors	Real Estate, Rental & Leasing	todo	13	34	3	4	4	3	3	pass	desk	
+51	ambulance-services	Ambulance Services	Healthcare & Clinical	todo	11	34	3	4	4	3	3	pass	desk	
+52	auto-glass-shops	Auto Glass Shops	Specialty Services	todo	16	34	3	3	4	4	3	pass	desk	
+53	auto-parts-distributors	Auto Parts Distributors & Stores	Wholesale & Distribution	todo	20	34	3	4	4	3	3	pass	desk	
+54	auto-salvage-yards	Auto Salvage Yards	Wholesale & Distribution	todo	20	34	3	3	4	4	3	pass	desk	
+55	charter-air-operators	Charter & On-Demand Air Operators	Transportation & Logistics	todo	27	34	3	3	4	4	3	pass	desk	
+56	consumer-goods-wholesalers	Consumer Goods Wholesalers	Wholesale & Distribution	todo	21	34	3	3	4	4	3	pass	desk	
+57	consumer-products-makers	Consumer Products Makers	Manufacturing & Industrial	todo	47	34	3	5	3	3	3	pass	web	Confido (FDE + 3 engineering roles, NYC); deductions 3-7% of revenue (vendor figure)
+58	cosmetics-manufacturers	Cosmetics Manufacturers	Manufacturing & Industrial	todo	39	34	3	3	4	4	3	pass	desk	
+59	dental-laboratories	Dental Laboratories	Manufacturing & Industrial	todo	47	34	3	4	3	4	3	pass	desk	
+60	diagnostic-imaging-centers	Diagnostic Imaging Centers	Healthcare & Clinical	todo	11	34	3	4	4	3	3	pass	web	HOPPR (FDE ML); heaviest prior-auth specialty; MVP: order vs ACR Appropriateness Criteria checker
+61	drafting-services	Drafting Services	Professional Services	done	1	34	3	3	4	4	3	pass	desk	
+62	event-promoters	Event Promoters	Arts, Entertainment & Recreation	todo	14	34	3	3	4	4	3	pass	desk	
+63	event-venues	Event Venues	Arts, Entertainment & Recreation	todo	14	34	3	3	4	4	3	pass	desk	
+64	investigation-and-screening-firms	Investigation & Background Screening Firms	Business Support & Waste Services	done	8	34	3	3	4	4	3	pass	desk	
+65	optical-retailers	Optical Retailers	Retail & E-Commerce	todo	25	34	3	3	4	4	3	pass	desk	
+66	outdoor-advertising-companies	Outdoor Advertising Companies	Professional Services	done	2	34	3	3	4	4	3	pass	desk	
+67	pcb-fabricators	PCB Fabricators	Manufacturing & Industrial	todo	44	34	3	3	4	4	3	pass	desk	
+68	plastic-molders	Plastic Molders	Manufacturing & Industrial	todo	40	34	3	3	4	4	3	pass	desk	
+69	postproduction-studios	Postproduction Studios	Media, Telecom & Information	done	3	34	3	3	4	4	3	pass	desk	
+70	propane-and-heating-oil-dealers	Propane & Heating Oil Dealers	Retail & E-Commerce	todo	25	34	3	3	4	4	3	pass	desk	
+71	psychiatric-hospitals	Psychiatric Hospitals	Healthcare & Clinical	todo	12	34	3	4	4	3	3	pass	desk	
+72	thrift-and-resale-stores	Thrift & Resale Stores	Retail & E-Commerce	todo	26	34	3	3	4	4	3	pass	desk	
+73	ticketing-agencies	Ticketing & Reservation Agencies	Business Support & Waste Services	done	8	34	3	3	4	4	3	pass	desk	
+74	weight-loss-centers	Weight Loss Centers	Specialty Services	todo	17	34	3	3	4	4	3	pass	desk	
+75	wired-broadband-providers	Wired Broadband Providers	Media, Telecom & Information	done	4	34	3	4	4	3	3	pass	desk	
+76	biologics-manufacturers	Biologics Manufacturers	Manufacturing & Industrial	todo	39	33	4	4	3	2	3	pass	desk	
+77	defense-systems-manufacturers	Defense Systems Manufacturers	Manufacturing & Industrial	todo	46	33	4	3	4	2	3	pass	web	FDE roles: Anduril, Vannevar Labs, SalesPatriot; clearance limits; CMMC L2 paused 2026-07
+78	passenger-airlines	Passenger Airlines	Transportation & Logistics	todo	27	33	4	4	3	2	3	pass	desk	
+79	satellite-operators	Satellite Operators	Media, Telecom & Information	done	4	33	4	3	3	3	3	pass	desk	
+80	transit-agencies	Rail & Mixed-Mode Transit Agencies	Transportation & Logistics	todo	28	33	4	3	5	1	3	pass	desk	
+81	clinical-laboratories	Clinical Laboratories	Healthcare & Clinical	todo	11	33	3	4	3	3	4	pass	web	labs hire in-house (Quest, CareDx, Personalis); PAMA cuts resume 2027; MVP: underpayment finder on CMS lab fee schedule
+82	colleges-and-universities	Colleges & Universities	Education	todo	10	33	3	4	4	2	4	pass	web	Ellucian, CollegeVine (FDE, dated), Memorang; committee buyers
+83	community-colleges	Community Colleges	Education	todo	10	33	3	4	4	2	4	pass	desk	
+84	drywall-and-insulation-contractors	Drywall & Insulation Contractors	Construction & Trades	todo	31	33	3	3	4	4	2	pass	desk	
+85	ag-input-retailers	Ag Input Retailers	Wholesale & Distribution	todo	23	32	3	3	4	3	3	pass	desk	
+86	apparel-manufacturers	Apparel Manufacturers	Manufacturing & Industrial	todo	37	32	3	3	4	3	3	pass	desk	
+87	beverage-alcohol-distributors	Beverage Alcohol Distributors	Wholesale & Distribution	todo	23	32	3	3	4	3	3	pass	desk	
+88	car-washes	Car Washes	Specialty Services	todo	16	32	3	3	3	4	3	pass	desk	
+89	courts	Courts	Nonprofit & Government	todo	48	32	3	4	5	1	3	pass	desk	
+90	fuel-distributors	Petroleum Fuel Distributors	Wholesale & Distribution	todo	23	32	3	3	4	3	3	pass	desk	
+91	heavy-equipment-dealers	Construction Equipment Dealers	Wholesale & Distribution	todo	21	32	3	3	4	3	3	pass	desk	
+92	pharmaceutical-manufacturers	Pharmaceutical Manufacturers	Manufacturing & Industrial	todo	39	32	3	4	4	2	3	pass	web	Seal (FDE, GxP, London); MVP: CAPA drafts from FDA warning letters; slow buyers
+93	professional-employer-organizations	Professional Employer Organizations	Business Support & Waste Services	done	7	32	3	3	4	3	3	pass	desk	
+94	sales-finance-companies	Sales Finance Companies	Financial Services	done	5	32	3	3	4	3	3	pass	desk	
+95	school-bus-contractors	School Bus Contractors	Transportation & Logistics	todo	28	32	3	3	4	3	3	pass	desk	
+96	security-alarm-integrators	Security Alarm Integrators	Business Support & Waste Services	done	8	32	3	3	3	4	3	pass	desk	
+97	self-insured-benefit-pools	Self-Insured Benefit & Risk Pools	Insurance	done	6	32	3	4	3	3	3	pass	desk	
+98	specialty-hospitals	Specialty Hospitals	Healthcare & Clinical	todo	12	32	3	4	3	3	3	pass	desk	
+99	testing-laboratories	Testing Laboratories	Professional Services	done	1	32	3	4	3	3	3	pass	desk	
+100	timberland-managers	Timberland Owners & Managers	Agriculture & Food	todo	34	32	3	3	4	3	3	pass	desk	
+101	title-insurance-carriers	Title Insurance Carriers	Insurance	done	6	32	3	3	4	3	3	pass	desk	
+102	vending-machine-operators	Vending Machine Operators	Retail & E-Commerce	todo	24	32	3	3	3	4	3	pass	desk	
+103	casinos	Casinos	Arts, Entertainment & Recreation	todo	15	31	4	3	3	2	3	pass	desk	
+104	credit-card-issuers	Credit Card Issuers	Financial Services	done	5	31	4	3	3	2	3	pass	desk	
+105	general-merchandise-retailers	General Merchandise Chains	Retail & E-Commerce	todo	25	31	4	3	3	2	3	pass	desk	
+106	auto-parts-suppliers	Auto Parts Suppliers	Manufacturing & Industrial	todo	46	31	3	4	4	2	2	pass	desk	
+107	transmission-operators	Transmission & Grid Operators	Utilities & Energy	todo	32	31	3	4	4	2	2	pass	desk	
+108	avionics-and-defense-electronics-makers	Avionics & Defense Electronics Makers	Manufacturing & Industrial	todo	44	30	4	3	3	2	2	pass	desk	
+109	benefits-administration-agencies	Benefits Administration Agencies	Nonprofit & Government	todo	49	30	3	4	4	1	3	pass	desk	
+110	car-rental-companies	Car Rental Companies	Real Estate, Rental & Leasing	todo	13	30	3	3	3	3	3	pass	desk	
+111	convenience-stores	Convenience Stores & Gas Stations	Retail & E-Commerce	todo	24	30	3	3	3	3	3	pass	desk	
+112	facilities-management-firms	Facilities Management Firms	Business Support & Waste Services	done	7	30	3	3	3	3	3	pass	desk	
+113	produce-packing-houses	Produce Packing Houses	Agriculture & Food	todo	35	30	3	3	3	3	3	pass	desk	
+114	truck-and-trailer-lessors	Truck, Trailer & RV Lessors	Real Estate, Rental & Leasing	todo	13	30	3	3	3	3	3	pass	desk	
+115	trust-companies	Trust Companies	Financial Services	done	5	30	3	3	3	3	3	pass	desk	
+116	waste-haulers	Waste Haulers	Business Support & Waste Services	todo	9b	30	3	3	3	3	3	pass	desk	
+117	coatings-and-adhesives-makers	Coatings & Adhesives Makers	Manufacturing & Industrial	todo	39	29	3	3	3	3	2	pass	desk	
+118	dialysis-centers	Dialysis Centers	Healthcare & Clinical	todo	11	29	3	4	3	2	2	pass	desk	
+119	hvac-equipment-manufacturers	HVAC Equipment Manufacturers	Manufacturing & Industrial	todo	43	29	3	3	3	3	2	pass	desk	
+120	industrial-machinery-builders	Industrial Machinery Builders	Manufacturing & Industrial	todo	43	29	3	3	3	3	2	pass	desk	
+121	pharmaceutical-wholesalers	Pharmaceutical Wholesalers	Wholesale & Distribution	todo	22	29	3	4	3	2	2	pass	desk	
+122	pipeline-operators	Pipeline Operators	Transportation & Logistics	todo	28	29	3	4	3	2	2	pass	desk	
+123	power-equipment-manufacturers	Power Equipment Manufacturers	Manufacturing & Industrial	todo	45	29	3	4	3	2	2	pass	desk	
+124	shipyards	Shipyards	Manufacturing & Industrial	todo	46	29	3	4	3	2	2	pass	desk	
+125	test-and-lab-instrument-makers	Test & Lab Instrument Makers	Manufacturing & Industrial	todo	45	29	3	3	3	3	2	pass	desk	
+126	emergency-management-agencies	Emergency Management Agencies	Nonprofit & Government	todo	48	28	3	3	4	1	3	pass	desk	
+127	licensing-agencies	Licensing & Inspection Agencies	Nonprofit & Government	todo	49	28	3	3	4	1	3	pass	desk	
+128	tax-and-revenue-agencies	Tax & Revenue Agencies	Nonprofit & Government	todo	48	28	3	3	4	1	3	pass	desk	
+129	transportation-departments	Transportation Departments	Nonprofit & Government	todo	49	28	3	3	4	1	3	pass	desk	
+130	contract-food-service-operators	Contract Food Service Operators	Hospitality & Food Service	todo	19	27	3	3	3	2	2	pass	desk	
+131	credit-bureaus	Credit Bureaus	Business Support & Waste Services	done	7	27	3	3	3	2	2	pass	desk	
+132	crop-protection-manufacturers	Crop Protection Manufacturers	Manufacturing & Industrial	todo	39	27	3	3	3	2	2	pass	desk	
+133	cruise-lines	Cruise Lines	Transportation & Logistics	todo	27	27	3	3	3	2	2	pass	desk	
+134	farm-equipment-manufacturers	Farm Equipment Manufacturers	Manufacturing & Industrial	todo	42	27	3	3	3	2	2	pass	desk	
+135	heavy-machinery-manufacturers	Heavy Machinery Manufacturers	Manufacturing & Industrial	todo	42	27	3	3	3	2	2	pass	desk	
+136	machine-tool-builders	Machine Tool Builders	Manufacturing & Industrial	todo	43	27	3	3	3	2	2	pass	desk	
+137	metal-mines	Metal Mines	Mining & Extraction	todo	33	27	3	3	3	2	2	pass	desk	
+138	port-terminal-operators	Port & Terminal Operators	Transportation & Logistics	todo	29	27	3	3	3	2	2	pass	desk	
+139	reinsurers	Reinsurers	Insurance	done	6	27	3	3	3	2	2	pass	desk	
+140	theme-parks	Theme Parks	Arts, Entertainment & Recreation	todo	15	27	3	3	3	2	2	pass	desk	
+141	airport-operators	Airport Operators	Transportation & Logistics	todo	29	25	3	3	3	1	2	pass	desk	
+142	freight-railroads	Freight Railroads	Transportation & Logistics	todo	27	25	3	3	3	1	2	pass	desk	
+143	renewable-power-producers	Renewable Power Producers	Utilities & Energy	todo	32	36	2	5	5	3	4	fail	web	Nira FDE closed; Enverus/Pearl Street, RatedPower unconfirmed; MVP: queue risk on LBNL Queued Up + ISO queues
+144	highway-contractors	Highway & Bridge Contractors	Construction & Trades	todo	30	34	2	4	5	3	4	fail	web	no highway-specific vendor role; same bid-tab MVP as heavy civil
+145	political-campaigns	Political Campaigns & Committees	Nonprofit & Government	todo	18	34	2	3	5	4	4	fail	desk	
+146	advocacy-nonprofits	Advocacy Nonprofits	Nonprofit & Government	todo	18	33	2	3	5	4	3	fail	desk	
+147	cabinet-and-millwork-shops	Cabinet & Architectural Millwork Shops	Manufacturing & Industrial	todo	46	33	2	3	4	5	3	fail	desk	
+148	document-preparation-services	Document Preparation Services	Business Support & Waste Services	done	7	33	2	2	5	5	3	fail	desk	
+149	electronic-component-distributors	Electronic Component Distributors	Wholesale & Distribution	todo	21	33	2	4	4	4	3	fail	web	Cassidy, Boardera exist, no open engineering role seen
+150	farm-labor-contractors	Farm Labor Contractors	Agriculture & Food	todo	35	33	2	3	5	4	3	fail	desk	
+151	flooring-and-blinds-retailers	Flooring & Window Covering Retailers	Retail & E-Commerce	todo	25	33	2	3	4	5	3	fail	desk	
+152	manufacturers-reps	Manufacturers' Representatives	Wholesale & Distribution	todo	23	33	2	3	3	5	5	fail	web	Parspec (sales roles only), Repfabric; owners fast and listed (MANA)
+153	podiatry-practices	Podiatry Practices	Healthcare & Clinical	todo	11	33	2	3	4	5	3	fail	desk	
+154	stone-countertop-fabricators	Stone Countertop Fabricators	Manufacturing & Industrial	todo	41	33	2	3	4	5	3	fail	desk	
+155	medical-supply-distributors	Medical Supply Distributors	Wholesale & Distribution	todo	20	32	2	4	3	4	4	fail	web	no DME vendor engineering role found; 2026 competitive bidding; owners reachable via VGM/AAHomecare
+156	metal-service-centers	Metal Service Centers	Wholesale & Distribution	todo	21	32	2	4	3	4	4	fail	web	only Avent (generic); Uptool, Forgepoint unconfirmed
+157	residential-treatment-centers	Residential Treatment Centers	Healthcare & Clinical	todo	12	32	2	4	3	4	4	fail	web	no engineering roles found; 42 CFR Part 2 enforceable 2026-02-16
+158	tool-die-and-mold-shops	Tool, Die & Mold Shops	Manufacturing & Industrial	todo	43	32	2	3	3	5	4	fail	web	Uptool, CloudNC, CADDi; no open role seen
+159	material-handling-equipment-makers	Material Handling Equipment Makers	Manufacturing & Industrial	todo	44	31	4	3	2	3	3	fail	desk	
+160	recycling-facilities	Materials Recovery Facilities	Business Support & Waste Services	todo	9b	31	4	3	2	3	3	fail	desk	
+161	apparel-wholesalers	Apparel & Footwear Wholesalers	Wholesale & Distribution	todo	22	31	2	3	4	4	3	fail	desk	
+162	aviation-parts-distributors	Aircraft & Marine Parts Distributors	Wholesale & Distribution	todo	22	31	2	4	3	4	3	fail	web	ERP.Aero, ePlane AI exist, no role confirmed
+163	bail-bond-agencies	Bail Bond Agencies	Specialty Services	todo	18	31	2	2	4	5	3	fail	desk	
+164	bed-and-breakfasts	Bed-and-Breakfasts	Hospitality & Food Service	todo	19	31	2	2	4	5	3	fail	desk	
+165	breweries	Breweries	Manufacturing & Industrial	todo	36	31	2	2	4	5	3	fail	desk	
+166	business-equipment-dealers	Office & Business Equipment Dealers	Wholesale & Distribution	todo	20	31	2	3	4	4	3	fail	desk	
+167	commercial-photographers	Commercial Photographers	Professional Services	done	2	31	2	2	4	5	3	fail	desk	
+168	crating-and-export-packers	Crating & Export Packers	Transportation & Logistics	todo	29	31	2	3	4	4	3	fail	desk	
+169	direct-mail-agencies	Direct Mail Agencies	Professional Services	done	2	31	2	3	4	4	3	fail	desk	
+170	driving-schools	Driving Schools	Education	todo	10	31	2	2	4	5	3	fail	desk	
+171	electronics-repair-shops	Electronics Repair Shops	Specialty Services	todo	16	31	2	2	4	5	3	fail	desk	
+172	family-entertainment-centers	Family Entertainment Centers	Arts, Entertainment & Recreation	todo	15	31	2	2	4	5	3	fail	desk	
+173	farm-management-firms	Farm Management Firms	Agriculture & Food	todo	35	31	2	3	4	4	3	fail	desk	
+174	florists	Florists	Retail & E-Commerce	todo	26	31	2	2	4	5	3	fail	desk	
+175	furniture-stores	Furniture Stores	Retail & E-Commerce	todo	25	31	2	3	4	4	3	fail	desk	
+176	hardware-wholesalers	Hardware Wholesalers	Wholesale & Distribution	todo	21	31	2	3	4	4	3	fail	desk	
+177	hazardous-waste-firms	Hazardous Waste Firms	Business Support & Waste Services	todo	9b	31	2	4	4	3	3	fail	desk	
+178	health-screening-services	Health Screening Services	Healthcare & Clinical	todo	12	31	2	3	4	4	3	fail	desk	
+179	home-furnishings-wholesalers	Home Furnishings Wholesalers	Wholesale & Distribution	todo	20	31	2	3	4	4	3	fail	desk	
+180	it-training-bootcamps	IT Training & Coding Bootcamps	Education	todo	10	31	2	2	5	4	3	fail	desk	
+181	jewelry-stores	Jewelry Stores	Retail & E-Commerce	todo	25	31	2	2	4	5	3	fail	desk	
+182	logistics-consultants	Logistics Consultants	Professional Services	done	1	31	2	3	4	4	3	fail	desk	
+183	manufactured-home-dealers	Manufactured Home Dealers	Retail & E-Commerce	todo	26	31	2	3	4	4	3	fail	desk	
+184	nail-salons	Nail Salons	Specialty Services	todo	17	31	2	2	4	5	3	fail	desk	
+185	paving-contractors	Asphalt Paving Contractors	Construction & Trades	todo	31	31	2	3	4	4	3	fail	desk	
+186	portrait-photography-studios	Portrait Photography Studios	Professional Services	done	2	31	2	2	4	5	3	fail	desk	
+187	recording-studios	Recording Studios	Media, Telecom & Information	done	3	31	2	2	4	5	3	fail	desk	
+188	recreational-rental-shops	Recreational Equipment Rental Shops	Real Estate, Rental & Leasing	todo	13	31	2	2	4	5	3	fail	desk	
+189	rv-parks-and-campgrounds	RV Parks & Campgrounds	Hospitality & Food Service	todo	19	31	2	2	4	5	3	fail	desk	
+190	safety-training-providers	Safety & Certification Training Providers	Education	todo	10	31	2	3	4	4	3	fail	desk	
+191	siding-contractors	Siding Contractors	Construction & Trades	todo	31	31	2	2	4	5	3	fail	desk	
+192	sign-shops	Sign Shops	Manufacturing & Industrial	todo	47	31	2	2	4	5	3	fail	desk	
+193	sports-instruction-schools	Sports Instruction Schools	Education	todo	10	31	2	2	4	5	3	fail	desk	
+194	supplement-manufacturers	Supplement Manufacturers	Manufacturing & Industrial	todo	39	31	2	3	4	4	3	fail	desk	
+195	telecom-resellers	Telecom Resellers	Media, Telecom & Information	done	4	31	2	3	4	4	3	fail	desk	
+196	tire-dealers	Tire Dealers	Retail & E-Commerce	todo	24	31	2	3	4	4	3	fail	desk	
+197	flooring-contractors	Flooring Contractors	Construction & Trades	todo	31	30	2	3	4	4	2	fail	desk	
+198	framing-contractors	Framing Contractors	Construction & Trades	todo	30	30	2	3	4	4	2	fail	desk	
+199	glass-fabricators	Glass Fabricators	Manufacturing & Industrial	todo	40	30	2	3	4	4	2	fail	desk	
+200	glazing-contractors	Glazing Contractors	Construction & Trades	todo	30	30	2	3	4	4	2	fail	desk	
+201	grantmaking-foundations	Grantmaking Foundations	Nonprofit & Government	todo	18	30	2	3	5	2	4	fail	web	no confirmed roles; IRS 990-PF XML data; slow buyers
+202	millwork-manufacturers	Millwork Manufacturers	Manufacturing & Industrial	todo	37	30	2	3	4	4	2	fail	desk	
+203	art-galleries	Art Galleries	Retail & E-Commerce	todo	26	29	2	2	4	4	3	fail	desk	
+204	auctioneers	Auctioneers	Business Support & Waste Services	done	9	29	2	2	4	4	3	fail	desk	
+205	bars-and-taverns	Bars & Taverns	Hospitality & Food Service	todo	19	29	2	2	3	5	3	fail	desk	
+206	broadcast-stations	Broadcast TV & Radio Stations	Media, Telecom & Information	done	4	29	2	3	4	3	3	fail	desk	
+207	business-supplies-distributors	Business Supplies Distributors	Wholesale & Distribution	todo	22	29	2	3	4	3	3	fail	desk	
+208	cemeteries-and-crematories	Cemeteries & Crematories	Specialty Services	todo	17	29	2	2	4	4	3	fail	desk	
+209	concrete-contractors	Concrete Contractors	Construction & Trades	todo	30	29	2	3	3	4	3	fail	desk	
+210	contract-packagers	Contract Packagers	Business Support & Waste Services	done	9	29	2	3	3	4	3	fail	desk	
+211	convenience-store-distributors	Convenience Store Distributors	Wholesale & Distribution	todo	23	29	2	3	4	3	3	fail	desk	
+212	directory-and-list-publishers	Directory & List Publishers	Media, Telecom & Information	done	3	29	2	2	4	4	3	fail	desk	
+213	distilleries	Distilleries	Manufacturing & Industrial	todo	36	29	2	2	4	4	3	fail	desk	
+214	drycleaners	Drycleaners	Specialty Services	todo	17	29	2	2	3	5	3	fail	desk	
+215	equipment-rental-companies	Equipment Rental Companies	Real Estate, Rental & Leasing	todo	13	29	2	3	3	4	3	fail	web	Renterra, EquipmentShare, no confirmed role
+216	excavation-contractors	Excavation & Site Prep Contractors	Construction & Trades	todo	31	29	2	3	3	4	3	fail	desk	
+217	film-distributors	Film Distributors	Media, Telecom & Information	done	3	29	2	3	4	3	3	fail	desk	
+218	flight-schools	Flight Schools	Education	todo	10	29	2	3	3	4	3	fail	desk	
+219	garden-centers	Garden Centers & Farm Stores	Retail & E-Commerce	todo	24	29	2	2	4	4	3	fail	desk	
+220	golf-clubs	Golf Courses & Country Clubs	Arts, Entertainment & Recreation	todo	15	29	2	2	4	4	3	fail	desk	
+221	hardware-stores	Hardware Stores & Home Centers	Retail & E-Commerce	todo	24	29	2	2	4	4	3	fail	desk	
+222	industrial-repair-shops	Industrial Machinery Repair Shops	Specialty Services	todo	16	29	2	3	3	4	3	fail	desk	
+223	laundromats	Laundromats	Specialty Services	todo	17	29	2	2	3	5	3	fail	desk	
+224	liquor-stores	Liquor Stores	Retail & E-Commerce	todo	25	29	2	2	4	4	3	fail	desk	
+225	ltl-carriers	LTL Carriers	Transportation & Logistics	todo	28	29	2	4	3	3	3	fail	web	Pallet (agent delivery, logistics-wide), project44 unconfirmed; NMFC density reclass
+226	marinas	Marinas	Arts, Entertainment & Recreation	todo	15	29	2	2	4	4	3	fail	desk	
+227	media-rep-firms	Media Representative Firms	Professional Services	done	2	29	2	2	4	4	3	fail	desk	
+228	outdoor-power-equipment-dealers	Outdoor Power Equipment Dealers	Retail & E-Commerce	todo	24	29	2	2	4	4	3	fail	desk	
+229	performing-arts-companies	Performing Arts Companies	Arts, Entertainment & Recreation	todo	14	29	2	3	4	3	3	fail	desk	
+230	pet-stores	Pet Stores	Retail & E-Commerce	todo	26	29	2	2	4	4	3	fail	desk	
+231	repossession-services	Repossession Agencies	Business Support & Waste Services	done	7	29	2	3	3	4	3	fail	desk	
+232	scrap-metal-recyclers	Scrap Metal Recyclers	Wholesale & Distribution	todo	22	29	2	3	3	4	3	fail	desk	
+233	septic-service-companies	Septic & Vacuum Service Companies	Business Support & Waste Services	todo	9b	29	2	2	3	5	3	fail	desk	
+234	summer-camps	Summer & Vacation Camps	Hospitality & Food Service	todo	19	29	2	2	4	4	3	fail	desk	
+235	supplement-stores	Supplement Stores	Retail & E-Commerce	todo	25	29	2	2	4	4	3	fail	desk	
+236	tour-operators	Tour Operators	Business Support & Waste Services	done	8	29	2	2	4	4	3	fail	desk	
+237	wineries	Wineries	Manufacturing & Industrial	todo	36	29	2	2	4	4	3	fail	desk	
+238	aircraft-manufacturers	Aircraft Manufacturers	Manufacturing & Industrial	todo	46	28	4	3	2	2	2	fail	desk	
+239	battery-manufacturers	Battery Manufacturers	Manufacturing & Industrial	todo	45	28	4	3	2	2	2	fail	desk	
+240	semiconductor-equipment-makers	Semiconductor Equipment Makers	Manufacturing & Industrial	todo	43	28	4	3	2	2	2	fail	desk	
+241	semiconductor-manufacturers	Semiconductor Manufacturers	Manufacturing & Industrial	todo	44	28	4	3	2	2	2	fail	desk	
+242	vehicle-manufacturers	Vehicle Manufacturers	Manufacturing & Industrial	todo	45	28	4	3	2	2	2	fail	desk	
+243	wireless-carriers	Wireless Carriers	Media, Telecom & Information	done	4	28	4	3	2	2	2	fail	desk	
+244	chemical-distributors	Chemical Distributors	Wholesale & Distribution	todo	23	28	2	3	3	3	4	fail	web	no chemical-specific vendor role; incumbents ship AI order entry
+245	contract-furniture-makers	Contract Furniture Makers	Manufacturing & Industrial	todo	47	28	2	3	4	3	2	fail	desk	
+246	education-consulting-and-testing	Education Consulting & Testing Services	Education	todo	10	28	2	2	3	4	4	fail	web	no vendor engineering roles; small budgets
+247	ethanol-plants	Ethanol Plants	Manufacturing & Industrial	todo	38	28	2	3	4	3	2	fail	desk	
+248	fastener-manufacturers	Fastener Manufacturers	Manufacturing & Industrial	todo	42	28	2	3	4	3	2	fail	desk	
+249	franchisors	Franchisors	Real Estate, Rental & Leasing	todo	13	28	2	3	3	3	4	fail	web	no confirmed engineering roles; FDD Item 19 extractor from state portals
+250	paperboard-packaging-makers	Paperboard Packaging Makers	Manufacturing & Industrial	todo	38	28	2	3	4	3	2	fail	desk	
+251	steel-erectors	Structural Steel & Ironwork Erectors	Construction & Trades	todo	30	28	2	3	3	4	2	fail	desk	
+252	valve-manufacturers	Valve Manufacturers	Manufacturing & Industrial	todo	42	28	2	3	4	3	2	fail	desk	
+253	appliance-repair-companies	Appliance Repair Companies	Specialty Services	todo	16	28	1	3	3	5	3	fail	web	no vendors hiring
+254	boat-tour-operators	Boat Tour & Fishing Charter Operators	Transportation & Logistics	todo	28	28	1	2	4	5	3	fail	desk	
+255	farm-equipment-dealers	Farm Equipment Dealers	Wholesale & Distribution	todo	21	27	2	3	3	3	3	fail	desk	
+256	landscape-architecture-firms	Landscape Architecture Firms	Professional Services	done	1	27	2	2	3	4	3	fail	desk	
+257	pawnshops	Pawnshops	Financial Services	done	5	27	2	2	3	4	3	fail	desk	
+258	pension-funds	Pension Funds	Financial Services	done	6	27	2	3	4	2	3	fail	desk	
+259	public-housing-authorities	Public Housing Authorities	Nonprofit & Government	todo	49	27	2	3	4	2	3	fail	desk	
+260	quick-lube-shops	Quick Lube Shops	Specialty Services	todo	16	27	2	2	3	4	3	fail	desk	
+261	specialty-design-studios	Specialty Design Studios	Professional Services	done	1	27	2	2	3	4	3	fail	desk	
+262	utility-commissions	Utility Commissions	Nonprofit & Government	todo	49	27	2	3	5	1	3	fail	desk	
+263	aggregate-producers	Crushed Stone, Sand & Gravel Producers	Mining & Extraction	todo	33	26	2	3	3	3	2	fail	desk	
+264	aluminum-extruders	Aluminum Extruders	Manufacturing & Industrial	todo	41	26	2	3	3	3	2	fail	desk	
+265	beverage-bottlers	Beverage Bottlers	Manufacturing & Industrial	todo	36	26	2	3	3	3	2	fail	desk	
+266	commercial-equipment-manufacturers	Commercial Equipment Manufacturers	Manufacturing & Industrial	todo	43	26	2	3	3	3	2	fail	desk	
+267	commodity-brokers	Commodity Brokers	Financial Services	done	5	26	2	3	3	3	2	fail	desk	
+268	custom-farming-contractors	Custom Farming Contractors	Agriculture & Food	todo	35	26	2	2	3	4	2	fail	desk	
+269	die-casting-shops	Die Casting Shops	Manufacturing & Industrial	todo	42	26	2	3	3	3	2	fail	desk	
+270	electrical-products-manufacturers	Electrical Products Manufacturers	Manufacturing & Industrial	todo	45	26	2	3	3	3	2	fail	desk	
+271	electronic-component-makers	Electronic Component Makers	Manufacturing & Industrial	todo	44	26	2	3	3	3	2	fail	desk	
+272	elevator-contractors	Elevator Contractors	Construction & Trades	todo	31	26	2	3	3	3	2	fail	desk	
+273	factory-built-home-builders	Factory-Built Home Builders	Manufacturing & Industrial	todo	37	26	2	3	3	3	2	fail	desk	
+274	forging-shops	Forging Shops	Manufacturing & Industrial	todo	42	26	2	3	3	3	2	fail	desk	
+275	grain-elevators	Grain Elevators & Farm Product Merchants	Wholesale & Distribution	todo	22	26	2	3	3	3	2	fail	desk	
+276	investment-casting-foundries	Investment Casting Foundries	Manufacturing & Industrial	todo	41	26	2	3	3	3	2	fail	desk	
+277	jewelry-manufacturers	Jewelry Manufacturers	Manufacturing & Industrial	todo	47	26	2	2	3	4	2	fail	desk	
+278	labor-unions	Labor Unions	Nonprofit & Government	todo	18	26	2	3	4	2	2	fail	desk	
+279	livestock-auction-markets	Livestock Auction Markets	Wholesale & Distribution	todo	22	26	2	2	3	4	2	fail	desk	
+280	mining-contractors	Mining Contractors	Mining & Extraction	todo	33	26	2	3	3	3	2	fail	desk	
+281	motor-and-control-makers	Motor & Control Makers	Manufacturing & Industrial	todo	45	26	2	3	3	3	2	fail	desk	
+282	oilfield-equipment-manufacturers	Oilfield Equipment Manufacturers	Manufacturing & Industrial	todo	43	26	2	3	3	3	2	fail	desk	
+283	rail-services-contractors	Rail Services Contractors	Transportation & Logistics	todo	27	26	2	3	3	3	2	fail	desk	
+284	ready-mix-concrete-producers	Ready-Mix Concrete Producers	Manufacturing & Industrial	todo	41	26	2	3	3	3	2	fail	desk	
+285	rv-manufacturers	RV Manufacturers	Manufacturing & Industrial	todo	46	26	2	3	3	3	2	fail	desk	
+286	sand-casting-foundries	Sand Casting Foundries	Manufacturing & Industrial	todo	41	26	2	3	3	3	2	fail	desk	
+287	sewn-products-makers	Sewn Textile Products Makers	Manufacturing & Industrial	todo	36	26	2	2	3	4	2	fail	desk	
+288	specialty-chemical-blenders	Specialty Chemical Blenders	Manufacturing & Industrial	todo	39	26	2	3	3	3	2	fail	desk	
+289	truck-body-and-trailer-builders	Truck Body & Trailer Builders	Manufacturing & Industrial	todo	45	26	2	3	3	3	2	fail	desk	
+290	tug-and-barge-operators	Tug & Barge Operators	Transportation & Logistics	todo	27	26	2	3	3	3	2	fail	desk	
+291	wire-and-cable-manufacturers	Wire & Cable Manufacturers	Manufacturing & Industrial	todo	45	26	2	3	3	3	2	fail	desk	
+292	wireless-retail-agents	Wireless Retail Agents	Media, Telecom & Information	done	4	26	2	2	3	4	2	fail	desk	
+293	workforce-housing-operators	Workforce Housing Operators	Hospitality & Food Service	todo	19	26	2	3	3	3	2	fail	desk	
+294	youth-group-homes	Youth Group Homes	Healthcare & Clinical	todo	12	26	2	3	3	3	2	fail	desk	
+295	locksmiths	Locksmiths	Business Support & Waste Services	done	8	26	1	2	3	5	3	fail	desk	
+296	engine-and-turbine-makers	Engine & Turbine Makers	Manufacturing & Industrial	todo	43	25	3	3	2	2	2	fail	desk	
+297	petrochemical-plants	Petrochemical Plants	Manufacturing & Industrial	todo	38	25	3	3	2	2	2	fail	desk	
+298	petroleum-refineries	Petroleum Refineries	Manufacturing & Industrial	todo	38	25	3	3	2	2	2	fail	desk	
+299	steel-mills	Steel Mills	Manufacturing & Industrial	todo	41	25	3	3	2	2	2	fail	desk	
+300	economic-development-agencies	Economic Development Agencies	Nonprofit & Government	todo	49	25	2	2	4	2	3	fail	desk	
+301	education-agencies	Education Agencies	Nonprofit & Government	todo	48	25	2	3	4	1	3	fail	desk	
+302	environmental-regulators	Environmental Regulators	Nonprofit & Government	todo	49	25	2	3	4	1	3	fail	desk	
+303	libraries-and-archives	Libraries & Archives	Media, Telecom & Information	done	4	25	2	2	4	2	3	fail	desk	
+304	movie-theaters	Movie Theaters	Media, Telecom & Information	done	3	25	2	2	3	3	3	fail	desk	
+305	museums	Museums	Arts, Entertainment & Recreation	todo	14	25	2	2	4	2	3	fail	desk	
+306	public-health-departments	Public Health Departments	Nonprofit & Government	todo	48	25	2	3	4	1	3	fail	desk	
+307	bookstores	Bookstores	Retail & E-Commerce	todo	26	25	1	2	4	4	2	fail	desk	
+308	floral-wholesalers	Floral Wholesalers	Wholesale & Distribution	todo	23	25	1	2	4	4	2	fail	desk	
+309	hunting-outfitters	Hunting Preserves & Outfitters	Agriculture & Food	todo	35	25	1	1	4	5	2	fail	desk	
+310	musical-groups	Musical Groups & Orchestras	Arts, Entertainment & Recreation	todo	14	25	1	2	4	4	2	fail	desk	
+311	musical-instrument-stores	Musical Instrument Stores	Retail & E-Commerce	todo	26	25	1	2	4	4	2	fail	desk	
+312	sightseeing-tour-companies	Land Sightseeing Companies	Transportation & Logistics	todo	28	25	1	2	4	4	2	fail	desk	
+313	upholstery-shops	Upholstery Shops	Specialty Services	todo	16	25	1	2	3	5	2	fail	desk	
+314	appliance-and-electronics-stores	Appliance & Electronics Stores	Retail & E-Commerce	todo	25	24	2	2	3	3	2	fail	desk	
+315	audio-video-equipment-makers	Audio & Video Equipment Makers	Manufacturing & Industrial	todo	44	24	2	2	3	3	2	fail	desk	
+316	blood-and-organ-banks	Blood & Organ Banks	Healthcare & Clinical	todo	11	24	2	3	3	2	2	fail	desk	
+317	boat-builders	Boat Builders	Manufacturing & Industrial	todo	46	24	2	2	3	3	2	fail	desk	
+318	building-products-plants	Building Products Plants	Manufacturing & Industrial	todo	41	24	2	2	3	3	2	fail	desk	
+319	commercial-laundries	Commercial Laundries	Specialty Services	todo	17	24	2	2	3	3	2	fail	desk	
+320	concrete-products-plants	Concrete Products Plants	Manufacturing & Industrial	todo	41	24	2	2	3	3	2	fail	desk	
+321	firearms-manufacturers	Firearms Manufacturers	Manufacturing & Industrial	todo	42	24	2	2	3	3	2	fail	desk	
+322	fish-farms	Fish Farms	Agriculture & Food	todo	34	24	2	3	2	3	2	fail	desk	
+323	fluid-power-manufacturers	Fluid Power Manufacturers	Manufacturing & Industrial	todo	44	24	2	2	3	3	2	fail	desk	
+324	footwear-and-leather-goods-makers	Footwear & Leather Goods Makers	Manufacturing & Industrial	todo	37	24	2	2	3	3	2	fail	desk	
+325	forestry-services	Forestry Services Contractors	Agriculture & Food	todo	35	24	2	2	3	3	2	fail	desk	
+326	furniture-manufacturers	Furniture Manufacturers	Manufacturing & Industrial	todo	47	24	2	2	3	3	2	fail	desk	
+327	gas-utilities	Gas Distribution Utilities	Utilities & Energy	todo	32	24	2	3	3	2	2	fail	desk	
+328	geophysical-survey-firms	Geophysical Survey Firms	Professional Services	done	1	24	2	3	2	3	2	fail	desk	
+329	hydroelectric-operators	Hydroelectric Operators	Utilities & Energy	todo	32	24	2	3	3	2	2	fail	desk	
+330	lubricant-blenders	Lubricant Blenders	Manufacturing & Industrial	todo	38	24	2	2	3	3	2	fail	desk	
+331	paper-converters	Paper Converters	Manufacturing & Industrial	todo	38	24	2	2	3	3	2	fail	desk	
+332	plastic-extruders	Plastic Extruders	Manufacturing & Industrial	todo	40	24	2	2	3	3	2	fail	desk	
+333	plumbing-products-makers	Plumbing Products Makers	Manufacturing & Industrial	todo	42	24	2	2	3	3	2	fail	desk	
+334	power-transmission-makers	Power Transmission Component Makers	Manufacturing & Industrial	todo	43	24	2	2	3	3	2	fail	desk	
+335	process-instrument-makers	Process Instrument Makers	Manufacturing & Industrial	todo	44	24	2	2	3	3	2	fail	desk	
+336	pump-and-compressor-makers	Pump & Compressor Makers	Manufacturing & Industrial	todo	43	24	2	2	3	3	2	fail	desk	
+337	racetracks	Racetracks	Arts, Entertainment & Recreation	todo	14	24	2	2	3	3	2	fail	desk	
+338	rent-to-own-stores	Rent-to-Own Stores	Real Estate, Rental & Leasing	todo	13	24	2	2	3	3	2	fail	desk	
+339	rubber-product-makers	Rubber Product Makers	Manufacturing & Industrial	todo	40	24	2	2	3	3	2	fail	desk	
+340	sawmills	Sawmills	Manufacturing & Industrial	todo	37	24	2	3	2	3	2	fail	desk	
+341	ski-resorts	Ski Resorts	Arts, Entertainment & Recreation	todo	15	24	2	2	3	3	2	fail	desk	
+342	sporting-goods-manufacturers	Sporting Goods Manufacturers	Manufacturing & Industrial	todo	47	24	2	2	3	3	2	fail	desk	
+343	sporting-goods-stores	Sporting Goods Stores	Retail & E-Commerce	todo	26	24	2	2	3	3	2	fail	desk	
+344	tool-and-hardware-makers	Tool & Hardware Makers	Manufacturing & Industrial	todo	42	24	2	2	3	3	2	fail	desk	
+345	toy-manufacturers	Toy Manufacturers	Manufacturing & Industrial	todo	47	24	2	2	3	3	2	fail	desk	
+346	tribal-governments	Tribal Governments	Nonprofit & Government	todo	48	24	2	3	3	2	2	fail	desk	
+347	communications-equipment-makers	Communications Equipment Makers	Manufacturing & Industrial	todo	44	23	3	2	2	2	2	fail	desk	
+348	computer-hardware-makers	Computer Hardware Makers	Manufacturing & Industrial	todo	44	23	3	2	2	2	2	fail	desk	
+349	legislative-bodies	Legislative Bodies	Nonprofit & Government	todo	48	23	2	2	4	1	3	fail	desk	
+350	aerial-tour-operators	Aerial & Other Sightseeing Operators	Transportation & Logistics	todo	29	23	1	2	3	4	2	fail	desk	
+351	beauty-supply-stores	Beauty Supply Stores	Retail & E-Commerce	todo	25	23	1	2	3	4	2	fail	desk	
+352	civic-and-fraternal-clubs	Civic & Fraternal Clubs	Nonprofit & Government	todo	18	23	1	2	4	3	2	fail	desk	
+353	compost-producers	Compost Producers	Manufacturing & Industrial	todo	39	23	1	2	3	4	2	fail	desk	
+354	fine-arts-schools	Fine Arts Schools	Education	todo	10	23	1	2	4	3	2	fail	desk	
+355	finish-carpentry-contractors	Finish Carpentry Contractors	Construction & Trades	todo	31	23	1	2	3	4	2	fail	desk	
+356	formal-wear-rental-shops	Formal Wear & Costume Rental Shops	Real Estate, Rental & Leasing	todo	13	23	1	2	3	4	2	fail	desk	
+357	greeting-card-publishers	Greeting Card Publishers	Media, Telecom & Information	done	3	23	1	2	4	3	2	fail	desk	
+358	horse-breeding-farms	Horse Farms & Equine Breeders	Agriculture & Food	todo	34	23	1	2	3	4	2	fail	desk	
+359	livestock-support-services	Livestock Support Services	Agriculture & Food	todo	35	23	1	2	3	4	2	fail	desk	
+360	masonry-contractors	Masonry Contractors	Construction & Trades	todo	30	23	1	2	3	4	2	fail	desk	
+361	pallet-manufacturers	Pallet Manufacturers	Manufacturing & Industrial	todo	37	23	1	2	3	4	2	fail	desk	
+362	private-mail-centers	Private Mail Centers	Business Support & Waste Services	done	7	23	1	2	3	4	2	fail	desk	
+363	racing-stables	Racing Stables	Arts, Entertainment & Recreation	todo	14	23	1	2	3	4	2	fail	desk	
+364	shoe-repair-shops	Shoe Repair Shops	Specialty Services	todo	16	23	1	1	3	5	2	fail	desk	
+365	smoke-and-vape-shops	Smoke & Vape Shops	Retail & E-Commerce	todo	26	23	1	2	3	4	2	fail	desk	
+366	specialty-livestock-farms	Specialty Livestock Farms	Agriculture & Food	todo	34	23	1	2	3	4	2	fail	desk	
+367	tile-contractors	Tile & Terrazzo Contractors	Construction & Trades	todo	31	23	1	2	3	4	2	fail	desk	
+368	cement-and-lime-plants	Cement & Lime Plants	Manufacturing & Industrial	todo	41	22	2	3	2	2	2	fail	desk	
+369	correctional-facilities	Correctional Facilities	Nonprofit & Government	todo	48	22	2	3	3	1	2	fail	desk	
+370	gold-and-silver-mines	Gold & Silver Mines	Mining & Extraction	todo	33	22	2	2	3	2	2	fail	desk	
+371	inorganic-chemical-plants	Inorganic Chemical Plants	Manufacturing & Industrial	todo	38	22	2	3	2	2	2	fail	desk	
+372	landfill-operators	Landfill Operators	Business Support & Waste Services	todo	9b	22	2	3	2	2	2	fail	desk	
+373	logging-companies	Logging Companies	Agriculture & Food	todo	34	22	2	2	2	3	2	fail	desk	
+374	natural-resource-agencies	Natural Resource Agencies	Nonprofit & Government	todo	49	22	2	2	4	1	2	fail	desk	
+375	polymer-producers	Polymer Producers	Manufacturing & Industrial	todo	38	22	2	3	2	2	2	fail	desk	
+376	powersports-vehicle-makers	Powersports Vehicle Makers	Manufacturing & Industrial	todo	46	22	2	2	3	2	2	fail	desk	
+377	probation-and-parole-agencies	Probation & Parole Agencies	Nonprofit & Government	todo	48	22	2	3	3	1	2	fail	desk	
+378	pulp-and-paper-mills	Pulp & Paper Mills	Manufacturing & Industrial	todo	37	22	2	3	2	2	2	fail	desk	
+379	thermal-power-plants	Fossil & Thermal Power Plants	Utilities & Energy	todo	32	22	2	3	2	2	2	fail	desk	
+380	visitors-bureaus	Convention & Visitors Bureaus	Business Support & Waste Services	done	8	22	1	2	4	2	3	fail	desk	
+381	beekeeping-operations	Beekeeping Operations	Agriculture & Food	todo	34	21	1	2	2	4	2	fail	desk	
+382	cleaning-chemical-makers	Cleaning Chemical Makers	Manufacturing & Industrial	todo	39	21	1	2	3	3	2	fail	desk	
+383	foam-product-makers	Foam Product Makers	Manufacturing & Industrial	todo	40	21	1	2	3	3	2	fail	desk	
+384	hobby-and-craft-stores	Hobby, Game & Craft Stores	Retail & E-Commerce	todo	26	21	1	2	3	3	2	fail	desk	
+385	musical-instrument-makers	Musical Instrument Makers	Manufacturing & Industrial	todo	47	21	1	1	3	4	2	fail	desk	
+386	paint-stores	Paint Stores	Retail & E-Commerce	todo	24	21	1	2	3	3	2	fail	desk	
+387	photo-labs	Photo Labs	Specialty Services	todo	17	21	1	1	3	4	2	fail	desk	
+388	appliance-manufacturers	Appliance Manufacturers	Manufacturing & Industrial	todo	45	20	2	2	2	2	2	fail	desk	
+389	industrial-gas-producers	Industrial Gas Producers	Manufacturing & Industrial	todo	38	20	2	2	2	2	2	fail	desk	
+390	nonferrous-metal-mills	Nonferrous Metal Mills	Manufacturing & Industrial	todo	41	20	2	2	2	2	2	fail	desk	
+391	railcar-manufacturers	Railcar Manufacturers	Manufacturing & Industrial	todo	46	20	2	2	2	2	2	fail	desk	
+392	tire-manufacturers	Tire Manufacturers	Manufacturing & Industrial	todo	40	20	2	2	2	2	2	fail	desk	
+393	toll-road-operators	Toll Road & Bridge Operators	Transportation & Logistics	todo	29	20	2	2	3	1	2	fail	desk	
+394	armored-car-services	Armored Car Services	Business Support & Waste Services	done	8	19	1	2	2	3	2	fail	desk	
+395	asphalt-plants	Asphalt Plants	Manufacturing & Industrial	todo	38	19	1	2	2	3	2	fail	desk	
+396	ceramics-and-refractory-makers	Ceramics & Refractory Makers	Manufacturing & Industrial	todo	40	19	1	2	2	3	2	fail	desk	
+397	commercial-fishing-operations	Commercial Fishing Operations	Agriculture & Food	todo	34	19	1	2	2	3	2	fail	desk	
+398	cotton-gins	Cotton Gins	Agriculture & Food	todo	35	19	1	2	2	3	2	fail	desk	
+399	dimension-stone-quarries	Dimension Stone Quarries	Mining & Extraction	todo	33	19	1	2	2	3	2	fail	desk	
+400	district-energy-operators	District Energy Operators	Utilities & Energy	todo	32	19	1	2	3	2	2	fail	desk	
+401	ferry-operators	Ferry Operators	Transportation & Logistics	todo	28	19	1	2	3	2	2	fail	desk	
+402	marine-pilotage-and-towing	Harbor Pilots & Towing Services	Transportation & Logistics	todo	29	19	1	2	3	2	2	fail	desk	
+403	plastic-film-and-bag-makers	Plastic Film & Bag Makers	Manufacturing & Industrial	todo	40	19	1	2	2	3	2	fail	desk	
+404	shellfish-farms	Shellfish Farms	Agriculture & Food	todo	34	19	1	2	2	3	2	fail	desk	
+405	tanneries	Tanneries	Manufacturing & Industrial	todo	37	19	1	2	2	3	2	fail	desk	
+406	textile-dyers-and-finishers	Textile Dyers & Finishers	Manufacturing & Industrial	todo	36	19	1	2	2	3	2	fail	desk	
+407	tire-retreaders	Tire Retreaders	Manufacturing & Industrial	todo	40	19	1	2	2	3	2	fail	desk	
+408	wood-treating-plants	Wood Treating Plants	Manufacturing & Industrial	todo	37	19	1	2	2	3	2	fail	desk	
+409	zoos-and-botanical-gardens	Zoos & Botanical Gardens	Arts, Entertainment & Recreation	todo	15	19	1	2	3	2	2	fail	desk	
+410	carpet-mills	Carpet Mills	Manufacturing & Industrial	todo	36	17	1	2	2	2	2	fail	desk	
+411	coal-mines	Coal Mines	Mining & Extraction	todo	33	17	1	2	2	2	2	fail	desk	
+412	engineered-wood-mills	Engineered Wood & Panel Mills	Manufacturing & Industrial	todo	37	17	1	2	2	2	2	fail	desk	
+413	fertilizer-plants	Fertilizer Plants	Manufacturing & Industrial	todo	39	17	1	2	2	2	2	fail	desk	
+414	glass-manufacturers	Glass Manufacturers	Manufacturing & Industrial	todo	40	17	1	2	2	2	2	fail	desk	
+415	industrial-mineral-mines	Industrial Mineral Mines	Mining & Extraction	todo	33	17	1	2	2	2	2	fail	desk	
+416	metal-container-makers	Metal Container Makers	Manufacturing & Industrial	todo	42	17	1	2	2	2	2	fail	desk	
+417	nonwoven-fabric-mills	Nonwoven Fabric Mills	Manufacturing & Industrial	todo	36	17	1	2	2	2	2	fail	desk	
+418	textile-mills	Textile Mills	Manufacturing & Industrial	todo	36	17	1	2	2	2	2	fail	desk	
+419	waste-to-energy-plants	Waste-to-Energy Plants	Business Support & Waste Services	todo	9b	17	1	2	2	2	2	fail	desk	
+420	media-replication-plants	Media Replication Plants	Manufacturing & Industrial	todo	45	16	1	1	2	3	1	fail	desk	
+421	tobacco-manufacturers	Tobacco Manufacturers	Manufacturing & Industrial	todo	36	16	1	2	2	2	1	fail	desk	

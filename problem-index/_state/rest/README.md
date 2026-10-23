@@ -11,6 +11,8 @@ The run order and cursor live in `../../_remaining-industry-implementation-and-d
 | `check_queue.py` | Checks the triage and queue against `_rest-of-the-industries.md`. Prints `QUEUE-CLEAN` |
 | `verify.sh` | Per-industry verifier. Runs `../phase4/verify.sh`, then this plan's extra checks: NAICS line, Type strings, ml and agent entry shape, axis balance, contested lines, lens scores and source log. Prints `REST-VERIFY-CLEAN` |
 | `sources/<slug>.md` | Per-industry log of web-checked claims, estimates and empty searches |
+| `placement_filter.py` | Short-term placement filter (owner, 2026-10-23): desk scores for all 421 industries plus web-checked corrections; writes `placement-filter.tsv`. Report: `../../_short-term-placement-filter.md` |
+| `placement-evidence/` | The web check behind the filter: hiring vendors with role URLs, the open pain and a two-week MVP per industry |
 
 Run from the vault root:
 
