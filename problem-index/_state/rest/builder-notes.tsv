@@ -22,3 +22,8 @@ ticketing-agencies	Existing pockets to link: niches/movie-theaters/online-ticket
 security-alarm-integrators	Existing pocket to link: niches/security-guard-firms/alarm-monitoring-analytics; answering-services links alarm and elevator line monitoring here. Check electrical-contractors for low-voltage pockets.
 armored-car-services	community-banks and money-service-businesses are built: check their cash logistics and ATM pockets; security-guard-firms exists.
 locksmiths	security-alarm-integrators is built in this batch: link its access-control pockets rather than re-profile.
+auctioneers	Existing pockets to link: niches/property-casualty-insurers/salvage-auction-platforms, niches/towing-companies/salvage-auction-data, niches/livestock-operations/auction-market-operators, auto-dealers-independent auction pockets, equipment valuation guides; repossession-services named equipment appraisal and liquidation firms as left to this industry.
+waste-haulers	municipal-services exists; check environmental-consultants and municipal-services for solid-waste pockets before profiling. Later batch 9 siblings (landfill, recycling, waste-to-energy) will link to you.
+hazardous-waste-firms	environmental-consultants exists (check its RCRA/remediation pockets); waste-haulers is built in this batch.
+recycling-facilities	Commodity price reporting for recovered paper/plastics may exist under printing-shops or packaging pockets; check. waste-haulers and landfill-operators are built in this batch.
+septic-service-companies	plumbing-contractors exists (check its septic/drain pockets); waste-haulers is built in this batch.

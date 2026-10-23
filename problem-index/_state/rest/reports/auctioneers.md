@@ -1,0 +1,6 @@
+# auctioneers — builder report (batch 9)
+- Files: 64 vault + source log + scores (26 lines). REST-VERIFY-CLEAN.
+- High-impact (tacit): "The Pre-Sale Estimate Nobody Scores Against the Hammer".
+- Niches: Equipment & Farm Machinery Auctions; Estate & Personal Property Auctions (non-terminal → Whole-House Estate Contents; Fine Art, Antiques & Collectibles Consignments); Farmland & Rural Real Estate Auctions; Bankruptcy, Receivership & Court-Ordered Liquidations; Single-Auctioneer Rural Firms; Municipal & Public Surplus Sellers; Lot Cataloguing & Online Listing; Post-Sale Settlement & Pickup.
+- Pass 2: 15 pockets — 0 qualified / 4 below / 2 kill switch / 9 fail gate (after review). Top: ABL appraisal & liquidation firms 50 KS (5/4/5/3/3; kill switch holds — no published NOLV/recovery index; ~10–25 central analysts). Published catalogue estimates and hammers cap Q3 at 3 (auction houses 34, marketplaces 27). Hub NAICS line keeps 561990 only (verifier); farmland profile names the 531210 slice.
+- Checked: SUSB 2022 561990 (whole residual code) 10,864 firms, $30.96B — auctioneer slice ~4,000–6,000 firms, ~$4–6B (estimate); RB Global FY2025 GTV $16.2B; ATG FY25 $12.1B hammer; Fla. s. 468.388; NAA ~2,500 members.

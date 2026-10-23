@@ -1,0 +1,6 @@
+# contract-packagers — builder report (batch 9)
+- Files: 62 vault + source log + scores (24 lines). REST-VERIFY-CLEAN.
+- High-impact (tacit): "The Line Rate Nobody Can Defend" — the estimator's units-per-labour-hour guess from a sample, never graded against the run.
+- Niches: Pharmaceutical Contract Packaging (non-terminal → Commercial Drug Packaging & Serialisation; Clinical Trial Packaging & Labelling); Retail Display, Club-Pack & Promotional Programmes; Food Repacking & Multipack Assembly; Import Relabelling, Re-marking & Rework; Emerging Brands & Short-Run Clients; Small Independent Contract Packagers; Line-Side Label Verification, Coding & Inspection; Quoting, Line-Rate Estimating & Job Costing.
+- Pass 2: 13 pockets — 0 qualified / 4 below / 5 kill switch / 4 fail gate. Near-miss: packaging EPR compliance data & reporting vendors 41 KS after review (Q4 4: PRO grace period; client SKU data under service agreements). Best clean: packaging market research publishers 34.
+- Checked: SUSB 2022 561910 $10.72B, 1,629 firms, 49,620 emp (43 enterprises 500+ ~38%); QCEW 2024 63,819 emp; PMMI Oct 2024 outsourcing report; DSCSA exemption end 27 May 2025; 21 CFR 211.130(e); Alcami–Tjoapack (Apr 2026); allergen 27.1% of FDA recalls FY2013–2025.
