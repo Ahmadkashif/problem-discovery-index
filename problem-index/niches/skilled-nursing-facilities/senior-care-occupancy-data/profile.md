@@ -25,4 +25,4 @@ NIC MAP Vision publishes a monthly skilled nursing report of occupancy, patient-
 | **Weighted total** | | **43/60** |
 
 **Kill switches:** none — contributed operator data is aggregated and published by design, not reused against a service agreement
-**Verdict:** Logged — below threshold. The insight is the invoice, but releases are self-timed and the skilled nursing team is small next to the senior housing business. NIC MAP's main product is senior housing occupancy, so the queued assisted living communities build should link this profile rather than profile NIC MAP again.
+**Verdict:** Logged — below threshold. The insight is the invoice, but releases are self-timed and the skilled nursing team is small next to the senior housing business. NIC MAP's main product is senior housing occupancy; [[industries/assisted-living-communities|Assisted Living Communities]] links this profile rather than profiling NIC MAP again.

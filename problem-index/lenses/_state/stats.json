@@ -1,10 +1,10 @@
 {
- "n_industries": 332,
- "n_subniches": 5814,
+ "n_industries": 339,
+ "n_subniches": 5987,
  "industries": {
   "ai_proof": {
-   "median": 40.0,
-   "mean": 41.7,
+   "median": 40,
+   "mean": 42.1,
    "top": [
     {
      "id": "childcare-centers",
@@ -117,6 +117,28 @@
      "why_digital": "Work starts from a patient's body and is delivered by hand in a local clinic."
     },
     {
+     "id": "aircraft-mro-shops",
+     "name": "Aircraft MRO & FBO Shops",
+     "industry": "Aircraft MRO & FBO Shops",
+     "ai_proof": 80,
+     "clarity": 62,
+     "digital": 6,
+     "why_ai": "Certificated mechanics work hands-on in hangars and on ramps and personally sign return to service under Part 43, so AI can only assist the work and the paperwork.",
+     "why_clarity": "Approved data and manual limits define an airworthy result, but inspection calls vary between mechanics and the truth about a borderline call can surface years later.",
+     "why_digital": "Aircraft and engines come in, physical repairs and signed records go out at the airport; engine shops are bought nationally, line work locally."
+    },
+    {
+     "id": "assisted-living-communities",
+     "name": "Assisted Living Communities",
+     "industry": "Assisted Living Communities",
+     "ai_proof": 80,
+     "clarity": 50,
+     "digital": 6,
+     "why_ai": "Caregivers and med techs give hands-on help with bathing, dressing, medications and dementia care around the clock in a state-licensed building, and demand rises as the population ages.",
+     "why_clarity": "Service plans and state rules define the tasks and the days repeat, but good care is judged loosely by families and outcomes surface slowly.",
+     "why_digital": "Care is delivered in person to residents in a local community that families visit and choose locally."
+    },
+    {
      "id": "chiropractic-practices",
      "name": "Chiropractic Practices",
      "industry": "Chiropractic Practices",
@@ -148,28 +170,6 @@
      "why_ai": "Families pay for in-person teaching, supervision of minors and a school community.",
      "why_clarity": "Teaching quality is contested and outcomes show up years later in student lives.",
      "why_digital": "Children taught in classrooms on a local campus that families choose in person."
-    },
-    {
-     "id": "behavioral-health-clinics",
-     "name": "Behavioral Health Clinics",
-     "industry": "Behavioral Health Clinics",
-     "ai_proof": 75,
-     "clarity": 38,
-     "digital": 38,
-     "why_ai": "Licensed therapists treat patients personally; the therapeutic relationship is the product and carries liability.",
-     "why_clarity": "Recovery is gradual and hard to measure; clinicians apply protocols differently case by case.",
-     "why_digital": "Sessions are conversations held in local offices or by telehealth, bought through local payer networks."
-    },
-    {
-     "id": "electrical-contractors",
-     "name": "Electrical Contractors",
-     "industry": "Electrical Contractors",
-     "ai_proof": 75,
-     "clarity": 62,
-     "digital": 6,
-     "why_ai": "Licensed electricians physically wire and repair systems on site under permit and inspection.",
-     "why_clarity": "Work passes inspection against the code, but diagnostic skill is tacit and jobs vary.",
-     "why_digital": "Physical installation and repair in buildings, hired locally."
     }
    ],
    "bottom": [
@@ -341,7 +341,7 @@
    ]
   },
   "clarity": {
-   "median": 62.0,
+   "median": 62,
    "mean": 60.0,
    "top": [
     {
@@ -679,8 +679,8 @@
    ]
   },
   "digital": {
-   "median": 75.0,
-   "mean": 63.6,
+   "median": 75,
+   "mean": 62.6,
    "top": [
     {
      "id": "ai-agent-platforms",
@@ -1022,8 +1022,8 @@
  },
  "subniches": {
   "ai_proof": {
-   "median": 30.0,
-   "mean": 33.7,
+   "median": 30,
+   "mean": 33.9,
    "top": [
     {
      "id": "physical-therapy/cash-pay-direct-access",
@@ -1360,7 +1360,7 @@
    ]
   },
   "clarity": {
-   "median": 69.0,
+   "median": 69,
    "mean": 65.2,
    "top": [
     {
@@ -1496,6 +1496,17 @@
      "why_digital": "Time and payment data in, invoices and reconciliations out."
     },
     {
+     "id": "ocean-shipping-carriers/booking-bl-documentation",
+     "name": "Booking, Shipping Instruction & B/L Documentation",
+     "industry": "Ocean Shipping Carriers",
+     "ai_proof": 5,
+     "clarity": 100,
+     "digital": 94,
+     "why_ai": "Turning instructions into bills of lading is extraction and validation, which agents absorb directly.",
+     "why_clarity": "Each bill is right or amended, across millions of near-identical cases, with instant comparison to the issued bill.",
+     "why_digital": "Emails and PDFs in, structured bills and eBLs out, produced in offshore centres for global customers."
+    },
+    {
      "id": "non-emergency-medical-transport/broker-claims-reconciliation",
      "name": "Broker Claims Reconciliation",
      "industry": "Non-Emergency Medical Transport",
@@ -1516,31 +1527,9 @@
      "why_ai": "Mechanically detectable checks in a CI pipeline are pure automation.",
      "why_clarity": "Each build passes or fails a defined automated check instantly.",
      "why_digital": "Code in, pipeline results out, inside engineering tooling."
-    },
-    {
-     "id": "freight-brokerage/carrier-onboarding-compliance",
-     "name": "Carrier Onboarding & Compliance Operations",
-     "industry": "Freight Brokerage",
-     "ai_proof": 0,
-     "clarity": 100,
-     "digital": 100,
-     "why_ai": "W-9, FMCSA authority and COI checks are rule-based document verification software fully automates.",
-     "why_clarity": "Each carrier passes or fails explicit coverage and authority thresholds.",
-     "why_digital": "Carrier packets in and verified records out, all online."
     }
    ],
    "bottom": [
-    {
-     "id": "headless-commerce-vendors/the-solutions-architect",
-     "name": "The Solutions Architect",
-     "industry": "Headless Commerce Vendors",
-     "ai_proof": 40,
-     "clarity": 19,
-     "digital": 94,
-     "why_ai": "Binding composition decisions with failure modes appearing years later rest on accountable judgment.",
-     "why_clarity": "Each programme is bespoke and results appear in production eighteen months later.",
-     "why_digital": "Architecture designed on screen within integrator and vendor delivery teams."
-    },
     {
      "id": "creator-talent-agencies/the-talent-manager",
      "name": "The Talent Manager",
@@ -1606,6 +1595,17 @@
      "why_ai": "The DSM's value is the APA's institutional authority, which no AI can confer.",
      "why_clarity": "Diagnostic categories are contested by expert consensus and revised once a decade.",
      "why_digital": "Evidence review and publishing are documentary, with workgroups and print editions sold nationally."
+    },
+    {
+     "id": "heavy-civil-contractors/dispute-boards-geotechnical-reviewers",
+     "name": "Dispute Boards & Geotechnical Baseline Reviewers",
+     "industry": "Heavy Civil Contractors",
+     "ai_proof": 75,
+     "clarity": 12,
+     "digital": 50,
+     "why_ai": "Parties appoint named, trusted individuals to judge novel, high-stakes disputes on large projects.",
+     "why_clarity": "Each dispute is one-off and the right answer is rarely known.",
+     "why_digital": "Project records in, recommendations delivered in hearings to appointing parties."
     },
     {
      "id": "catering-companies/food-trend-forecasting-boutiques",
@@ -1698,8 +1698,8 @@
    ]
   },
   "digital": {
-   "median": 94.0,
-   "mean": 77.4,
+   "median": 94,
+   "mean": 77.1,
    "top": [
     {
      "id": "interior-design-firms/ad-market-research-firms",
@@ -1869,17 +1869,6 @@
    ],
    "bottom": [
     {
-     "id": "electrical-contractors/small-rural-electricians",
-     "name": "Small & Rural Electricians",
-     "industry": "Electrical Contractors",
-     "ai_proof": 85,
-     "clarity": 50,
-     "digital": 0,
-     "why_ai": "Rural generalists handle varied physical work across wide areas for clients who know them personally.",
-     "why_clarity": "Code defines correct work, but each job differs across homes, farms and businesses.",
-     "why_digital": "Physical work in small towns found by phone and word of mouth."
-    },
-    {
      "id": "hvac-contractors/small-rural-hvac",
      "name": "Small & Rural HVAC",
      "industry": "HVAC Contractors",
@@ -1922,6 +1911,17 @@
      "why_ai": "Owner-operators vent, water and grow by hand and sell face to face to local customers.",
      "why_clarity": "Mixed retail, wholesale and landscaping work runs on memory and paper records.",
      "why_digital": "Manual climate control, paper records and local walk-in retail sales."
+    },
+    {
+     "id": "assisted-living-communities/small-residential-care-homes",
+     "name": "Small Residential Care Homes",
+     "industry": "Assisted Living Communities",
+     "ai_proof": 85,
+     "clarity": 50,
+     "digital": 0,
+     "why_ai": "Two or three caregivers and the owner give round-the-clock hands-on care in a converted house that families choose for the people.",
+     "why_clarity": "State rules define staffing and records and the days repeat, but care quality in a home is judged informally.",
+     "why_digital": "Everything happens in person in a local home found by word of mouth and local placement agents."
     },
     {
      "id": "faith-organizations/small-rural-congregations",
