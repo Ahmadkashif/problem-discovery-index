@@ -1,0 +1,6 @@
+# ticketing-agencies — builder report (batch 8)
+- Files: 63 vault + source log + scores (25 lines). REST-VERIFY-CLEAN.
+- High-impact (tacit): "The House Scaled by Feel" — the ticketing director's section pricing, holds and release timing, graded by resale within hours but recorded nowhere.
+- Niches: Primary Ticketing for Venues, Tours & Teams (non-terminal → Concert Tour Onsales & Allocation; Season-Ticket & Membership Ticketing); Secondary Resale Marketplaces; Box Office Holds, Comps & Show Settlement; Timeshare Exchange & Vacation-Club Reservations; Nonprofit Arts & Small-Venue Box Offices; Public Park & Campground Reservations; Onsale Bot & Purchase-Limit Enforcement; Event Cancellation Refunds & Chargebacks.
+- Pass 2: 14 pockets — 0 qualified / 5 below / 4 kill switch / 5 fail gate (after review A). Near-miss: ticketing payment fraud vendors 38 (no KS: vendor product rights), resale marketplace data science 37. KS (client data): fan-data consultancies 36, primary platform data science 37.
+- Checked: Economic Census 2022 ~$25.0B, 1,661 firms, 76,907 emp; CBP 2023 2,872 est; Ticketmaster 2025 346M fee-bearing tickets, $37.1B GTV (10-K via search summary); FTC fees rule (12 May 2025); Vermont Act 109; Live Nation verdict 15 Apr 2026 (press summaries).

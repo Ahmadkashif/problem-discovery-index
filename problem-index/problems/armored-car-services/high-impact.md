@@ -1,0 +1,28 @@
+# The Stop the Messenger Reads and Nobody Records
+
+**Industry:** [[armored-car-services|Armored Car Services]]
+**Type:** High Impact
+**One-liner:** Every armored stop begins with a veteran messenger deciding in seconds whether the scene is safe to step into, and the carrier records the decision only when it was wrong.
+**Tags:** #tacit-knowledge-ml #cnns #object-detection #gradient-boosting #transfer-learning #evaluation-metrics #data-integration #worker-facing
+
+## The Problem
+An armored route is a sequence of exposures. The truck pulls up at a bank branch, a supermarket or an ATM. The driver stays locked in. The messenger steps out with a bag or a cassette and walks to the door and back. That walk, a minute or two at most stops, is when almost every attack happens. In 2023 the FBI recorded 49 violations involving armored carriers under the Hobbs Act. A firearm was used in 44 of them, violence occurred in 22, and two people died. The most common setting was a weekday morning in a commercial district or shopping centre, the same setting as thousands of uneventful stops that day.
+
+Before the door opens, an experienced crew has already made a judgement. A car idling across the lot with two people in it who were not there last week. A van parked where the truck usually stops. A store manager who is not at the door at the usual time, or who is there and looks wrong. A man on a phone who watches the truck rather than the street. Veterans describe it as a feel: they circle the block, swap the order of two stops, radio dispatch, or decline the stop and come back later. Juniors either miss these cues or abort for the wrong ones, which costs the route its schedule and the customer its service window.
+
+None of this is captured. The route system logs arrival, departure and the bags scanned. A robbery produces an incident file. An aborted or re-sequenced stop, the most direct evidence of the crew's judgement, appears at best as a late arrival with a free-text note. When a veteran retires or quits, which happens often in a job paying ~$20–28 an hour in 2026 postings, the carrier loses a decade of reads of particular sites and keeps none of it.
+
+## Why It's Unsolved
+The data collection problem is that the expert's read happens in the cab, in seconds, through glances at mirrors and windows, and it has to be captured without slowing the stop or distracting a crew whose attention is the security system. Trucks increasingly carry cameras, but footage is kept for evidence and deleted on schedule. It is not joined to the route record or the decision made. Capturing the read means recording what the crew saw (multi-camera video around the truck as it approaches), what they did (proceed, circle, re-sequence, abort, call for backup) and why, in a word or a button press, at the moment they did it.
+
+The labelling problem is severe. Robberies are rare at the level of any one route — a few dozen nationally a year against tens of millions of stops (estimate) — so the outcome label is almost always "nothing happened", and nothing-happened stops include ones the crew read correctly as dangerous and avoided. Aborts are the richer signal, but experts disagree with themselves: the same messenger aborts a stop on Monday and works it on Thursday under near-identical conditions, depending on fatigue, recent news of an attack or the route's lateness. Pre-incident surveillance — the same vehicle seen at several stops on a route over days — is visible only across many trucks' footage, which no single crew sees.
+
+The deployment problem is speed and trust. Any assistance must arrive in the cab before the messenger's hand reaches the door handle, faster than the veteran's own glance, or it will be ignored. It must also not cry wolf: a system that flags every idling car trains the crew to dismiss it within a week, and a carrier will not adopt a tool whose false alarms push routes past bank cut-offs. Unions and crews will resist anything that looks like scoring them on courage.
+
+## What a Solution Looks Like
+A stop-risk record first and a model second. Every approach is recorded with the truck's camera feeds for the last few hundred metres, the route context (site, time, day, cash value carried, recent incidents nearby) and a one-tap crew decision with an optional spoken reason. Over months this becomes a labelled corpus of expert reads: proceed, delay, re-sequence, abort, call for backup, and what happened afterwards.
+
+On top of that corpus, three models. Computer vision detects and re-identifies vehicles and people that recur near a carrier's stops across trucks and days, flagging possible surveillance of a route that no single crew could notice. A stop-risk model trained on veterans' decisions, with incidents and near-misses weighted heavily, scores each approach in the seconds before arrival. A coaching view shows a new messenger how veterans handled the same site. The goal is not to replace the read but to give every crew the network's memory of a site, and give security directors evidence of which sites and patterns precede attacks.
+
+## Impact If Solved
+The FBI counted 49 armored-carrier violations under the Hobbs Act in 2023, with violence in 22 and two deaths. If a carrier running a third of US routes prevented one in five of its share of attacks (estimate), that is ~3 armed robberies a year avoided, each with a cash loss commonly in the hundreds of thousands of dollars (estimate), a specie claim that feeds the next renewal, and a crew who go home. Making the veteran's read transferable also shortens the most dangerous period of a messenger's career, the first year, and gives the carrier a documented risk process to show its underwriters and the banks whose cash it carries.

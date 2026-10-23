@@ -1,0 +1,6 @@
+# visitors-bureaus — builder report (batch 8)
+- Files: 62 vault + source log + scores (24 lines). REST-VERIFY-CLEAN.
+- High-impact (tacit): the convention sales director's read of whether a group will book and fill its block (bureaus report contracted blocks as "definite room nights" without checking pickup).
+- Niches: Convention & Group Sales (non-terminal → Citywide Convention Bids & Incentives; Single-Hotel Group Lead Distribution); Leisure Destination Marketing & Campaign Attribution; Hotel Tax & TID Administration; Sports Tourism & Event Bidding; Rural & Small-Community Bureaus; Volunteer & SMERF Group Planners; Visitor Volume & Spend Reporting; Listings, Event Calendars & Visitor Inquiries.
+- Pass 2: 13 pockets — 0 qualified / 5 below / 2 kill switch / 6 fail gate (after review A: convention center management fails gate). Near-miss: convention center & HQ-hotel feasibility consultancies 40; card-spend destination analytics 39. KS: convention housing bureaus 36 (pickup data under association contracts).
+- Checked: Economic Census 2022 863 firms, ~$2.66B, 7,889 emp; CBP 2023 940 est (~88% nonprofit); DestinationNEXT 2025 42% funding at risk; Granicus–Simpleview (Sep 2024); 211 TIDs in 23 states; Visit Orlando FY2024 $113.7M.

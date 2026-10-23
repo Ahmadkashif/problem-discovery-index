@@ -1,0 +1,6 @@
+# investigation-and-screening-firms — builder report (batch 8)
+- Files: 63 vault + source log + scores (25 lines). REST-VERIFY-CLEAN.
+- High-impact (tacit): surveillance days that produce nothing — the veteran investigator's read of when a subject will move.
+- Niches: Enterprise Employment Background Screening (non-terminal → High-Volume Hourly & Gig Screening; Regulated-Workforce Screening & Monitoring); Insurance Claims Investigation & Surveillance; County Court Record Retrieval; Corporate Due Diligence & Executive Vetting; Candidates With Records; Solo & Small PI Agencies; Employment, Education & Licence Verification; Social Media & Open-Source Evidence Capture.
+- Pass 2: 14 pockets — 0 qualified / 2 below / 2 kill switch / 10 fail gate (after review B: litigation support and claims desk units fail gate; executive vetting KS dropped → 42 below). KS: corporate investigations 42. Below: criminal record & booking data aggregators 32 (bulk public records = vendor product rights).
+- Checked: SUSB 2022 561611 3,767 firms, 43,409 emp, $6.88B (32 firms 500+ take ~46%); First Advantage FY2025 $1,574.4M, Sterling closed 31 Oct 2024 ($2.2B); NELP ban-the-box counts; Cal. Gov. Code §12952; CFPB withdrew 2024/2021 opinions 9 May 2025; QCEW 2024 40,701 emp.

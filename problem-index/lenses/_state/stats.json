@@ -1,10 +1,10 @@
 {
- "n_industries": 315,
- "n_subniches": 5407,
+ "n_industries": 323,
+ "n_subniches": 5600,
  "industries": {
   "ai_proof": {
-   "median": 35,
-   "mean": 40.9,
+   "median": 40,
+   "mean": 41.1,
    "top": [
     {
      "id": "childcare-centers",
@@ -444,6 +444,17 @@
      "why_digital": "Physical samples and products are tested at benches and in chambers; results go out as digital certificates to clients who still prefer nearby labs for sample logistics."
     },
     {
+     "id": "armored-car-services",
+     "name": "Armored Car Services",
+     "industry": "Armored Car Services",
+     "ai_proof": 55,
+     "clarity": 88,
+     "digital": 12,
+     "why_ai": "Armed crews must physically carry cash between vaults, trucks and counters under state licensing, and cash's steady 14% share of payments keeps the stops coming through 2031, if thinner.",
+     "why_clarity": "Cash is delivered, counted and credited or it is not, under codified custody procedures repeated thousands of times a day, though the crew's read of a stop is judged by feel.",
+     "why_digital": "The input and the delivery are physical cash and armored trucks, though banks and retailers buy through regional and national contracts."
+    },
+    {
      "id": "collections-agencies",
      "name": "Collections Agencies",
      "industry": "Collections Agencies",
@@ -497,17 +508,6 @@
      "why_ai": "Self-service booking is commoditised, nearly free software that AI assistants can handle directly.",
      "why_clarity": "An appointment is booked on a calendar or not, millions of times over.",
      "why_digital": "Calendars and availability in, bookings out, sold as self-serve SaaS."
-    },
-    {
-     "id": "warehouse-3pl",
-     "name": "Warehouse & 3PL",
-     "industry": "Warehouse & 3PL",
-     "ai_proof": 45,
-     "clarity": 88,
-     "digital": 19,
-     "why_ai": "Physical storage and handling of goods persists; robotics trims labour but shippers still pay 3PLs.",
-     "why_clarity": "Orders ship accurately and on time or not, across thousands of repeat picks.",
-     "why_digital": "Physical goods stored and moved by hand under a WMS; contracts tendered nationally."
     }
    ],
    "bottom": [
@@ -680,7 +680,7 @@
   },
   "digital": {
    "median": 81,
-   "mean": 65.5,
+   "mean": 65.0,
    "top": [
     {
      "id": "ai-agent-platforms",
@@ -1018,12 +1018,12 @@
   },
   "rho_clarity_ai_proof": -0.16,
   "rho_digital_ai_proof": -0.83,
-  "rho_digital_clarity": -0.01
+  "rho_digital_clarity": -0.02
  },
  "subniches": {
   "ai_proof": {
-   "median": 30,
-   "mean": 33.4,
+   "median": 30.0,
+   "mean": 33.5,
    "top": [
     {
      "id": "physical-therapy/cash-pay-direct-access",
@@ -1360,7 +1360,7 @@
    ]
   },
   "clarity": {
-   "median": 69,
+   "median": 69.0,
    "mean": 65.2,
    "top": [
     {
@@ -1463,6 +1463,17 @@
      "why_digital": "Uploaded files checked automatically within the marketplace pipeline."
     },
     {
+     "id": "locksmiths/key-duplication-kiosk-networks",
+     "name": "Automated Key Duplication Kiosk Networks",
+     "industry": "Locksmiths",
+     "ai_proof": 10,
+     "clarity": 100,
+     "digital": 19,
+     "why_ai": "A machine already scans and cuts the key; people only service kiosks.",
+     "why_clarity": "A copied key works or not, millions of times, under a fixed procedure.",
+     "why_digital": "A physical key goes in and a physical key comes out at a store kiosk."
+    },
+    {
      "id": "small-law-firms/billing-collections-management",
      "name": "Billing & Collections Management",
      "industry": "Small Law Firms (Solo and 2-10 Attorney Practices)",
@@ -1516,17 +1527,6 @@
      "why_ai": "Pure data retrieval from known portals for known receipt numbers.",
      "why_clarity": "Identical daily lookups with instant, objective status results.",
      "why_digital": "Portal data in, status updates out."
-    },
-    {
-     "id": "headless-commerce-vendors/catalogue-price-consistency",
-     "name": "Catalogue & Price Consistency",
-     "industry": "Headless Commerce Vendors",
-     "ai_proof": 0,
-     "clarity": 100,
-     "digital": 100,
-     "why_ai": "Detecting divergent catalogue copies is a mechanical comparison software performs directly.",
-     "why_clarity": "Every service's price either matches the authoritative engine or it does not.",
-     "why_digital": "Catalogue records across services compared entirely in code."
     }
    ],
    "bottom": [
@@ -1698,8 +1698,8 @@
    ]
   },
   "digital": {
-   "median": 94,
-   "mean": 78.0,
+   "median": 94.0,
+   "mean": 77.7,
    "top": [
     {
      "id": "interior-design-firms/ad-market-research-firms",

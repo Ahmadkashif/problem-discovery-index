@@ -1,0 +1,6 @@
+# tour-operators — builder report (batch 8)
+- Files: 64 vault + source log + scores (26 lines). REST-VERIFY-CLEAN.
+- High-impact (tacit): the departure call at ~90/60/45 days (guarantee, consolidate or cancel; which allotments to release), never recorded beside its outcome.
+- Niches: Escorted Multi-Day Touring; Educational & Student Group Travel (non-terminal → Teacher-Led School Tours; Faculty-Led University Programmes); Receptive Operators & DMCs; Tour Costing, Pricing & Currency Risk; Adventure & Small-Group Specialists; The Tour Leader & Local Guide; Experience Marketplace Channel Operations; Rooming Lists, Manifests & Supplier Reconfirmation.
+- Pass 2: 15 pockets — 0 qualified / 4 below / 2 kill switch / 9 fail gate (after review A: adventure liability and travel payments fail gate per firm; ATOL s.23 checked). Near-miss: experience marketplace data science (Viator, GetYourGuide, Klook) 37 — ticketing-agencies should link it, not re-profile. KS: tour reservation software data teams 31; package travel insolvency schemes 31 (statute recalled, unchecked).
+- Checked: Economic Census 2022 2,513 firms, ~$9.0B, 28,158 emp; CBP 2023 ~66% of 2,584 est <5; Viator ~$4.7B gross bookings 2025; GetYourGuide 20%→30% commission (Jul 2025); Lindblad land revenue $275.4M 2025; USTOA $1M TAP.

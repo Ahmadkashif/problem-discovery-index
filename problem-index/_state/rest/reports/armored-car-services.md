@@ -1,0 +1,5 @@
+# armored-car-services — builder report (batch 8)
+- Files: 62 vault + source log + scores (24 lines). REST-VERIFY-CLEAN.
+- Niches: Bank & CU Branch Cash Logistics; Retail Cash Pickup & Smart-Safe Programmes; Shortage, Discrepancy & Loss Claims; High-Value Valuables & Precious Metals Transport; Rural Banks & CUs on Thin Routes; Regional Independent Armored Carriers; ATM Managed Services (non-terminal → ATM Cash Forecasting & Replenishment; ATM First-Line Service & Fault Dispatch); Vault Counting, Fitness Sorting & Local Recirculation.
+- Pass 2: 13 pockets — 0 qualified / 4 below / 1 kill switch / 8 fail gate (after review B: carrier security, forecasting software and smart-safe vendors fail gate). Near-miss: payments, ATM & cash-cycle research houses 34. KS: ATM managed-services forecasting desks 31.
+- Checked: SUSB 2022 561613 92 firms, 766 est, 26,285 emp, $3.49B (six enterprises ~90%); Brink's FY2025 $5.26B, NCR Atleos deal ~$6.6B (26 Feb 2026); Loomis USA SEK 15.85B; FinCEN $37M Brink's Global Services; Fed Diary 2025 cash 14%; FBI 2023 49 Hobbs Act armored-carrier violations.
