@@ -5,7 +5,7 @@
 **Value-Chain Position:** Specialist advisory & valuation
 
 ## What They Do
-Software and service firms that track refrigerant charges, service events and leak rates for supermarket chains, cold-storage operators and large building owners, and prepare the records and reports that EPA's leak-repair rule (appliances with 15 lb or more of an HFC above 53 GWP, from 1 January 2026, search summary) and California's Refrigerant Management Program require. Trakref and refrigerant reclaimers' compliance services are examples (recalled). Clients pay subscriptions or per-site fees; distributors refer and sometimes resell them.
+Software and service firms that track refrigerant charges, service events and leak rates for supermarket chains (whose own monitoring services are logged as [[niches/grocery-stores/supermarket-refrigeration-monitoring/profile|🔍 Supermarket Refrigeration Monitoring & Refrigerant Management]]), cold-storage operators and large building owners, and prepare the records and reports that EPA's leak-repair rule (appliances with 15 lb or more of an HFC above 53 GWP, from 1 January 2026, search summary) and California's Refrigerant Management Program require. Trakref and refrigerant reclaimers' compliance services are examples (recalled). Clients pay subscriptions or per-site fees; distributors refer and sometimes resell them.
 
 ## Insight Function
 **Size:** Mostly data-entry, record-keeping and customer-support staff; analysts beyond record production number under 10 per firm (estimate)

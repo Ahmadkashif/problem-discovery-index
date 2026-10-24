@@ -1,10 +1,10 @@
 {
- "n_industries": 345,
- "n_subniches": 6139,
+ "n_industries": 352,
+ "n_subniches": 6306,
  "industries": {
   "ai_proof": {
-   "median": 40,
-   "mean": 42.5,
+   "median": 40.0,
+   "mean": 42.8,
    "top": [
     {
      "id": "childcare-centers",
@@ -60,6 +60,17 @@
      "why_ai": "Licensed nurses and therapists deliver hands-on care in patients' homes, with demand rising as the population ages.",
      "why_clarity": "OASIS and CMS rules codify the work, but patient outcomes surface slowly.",
      "why_digital": "Care is delivered in person in patients' homes across a local territory."
+    },
+    {
+     "id": "idd-group-homes",
+     "name": "IDD Group Homes",
+     "industry": "IDD Group Homes",
+     "ai_proof": 85,
+     "clarity": 50,
+     "digital": 6,
+     "why_ai": "DSPs give hands-on personal care, medication and behaviour support around the clock in a licensed home, and residents depend on staff who know them; demand is rationed by waiting lists, not by AI.",
+     "why_clarity": "Person-centred plans and state rules define the supports and the days repeat, but whether a resident's life improved is judged loosely and shows slowly.",
+     "why_digital": "Support is delivered in person in a local house, and placements are arranged locally through state service coordinators."
     },
     {
      "id": "med-spas",
@@ -159,17 +170,6 @@
      "why_ai": "Congregants come for a pastor and a gathered community; pastoral care is personal and consequential.",
      "why_clarity": "Services recur weekly, but spiritual success is a matter of faith and never objectively checked.",
      "why_digital": "Worship, care and volunteering happen in person in a local building."
-    },
-    {
-     "id": "k12-private-schools",
-     "name": "K-12 Private Schools",
-     "industry": "K-12 Private Schools",
-     "ai_proof": 80,
-     "clarity": 50,
-     "digital": 6,
-     "why_ai": "Families pay for in-person teaching, supervision of minors and a school community.",
-     "why_clarity": "Teaching quality is contested and outcomes show up years later in student lives.",
-     "why_digital": "Children taught in classrooms on a local campus that families choose in person."
     }
    ],
    "bottom": [
@@ -341,8 +341,8 @@
    ]
   },
   "clarity": {
-   "median": 62,
-   "mean": 60.2,
+   "median": 62.0,
+   "mean": 60.1,
    "top": [
     {
      "id": "clinical-laboratories",
@@ -512,17 +512,6 @@
    ],
    "bottom": [
     {
-     "id": "interior-design-firms",
-     "name": "Interior Design Firms",
-     "industry": "Interior Design Firms",
-     "ai_proof": 50,
-     "clarity": 31,
-     "digital": 25,
-     "why_ai": "Taste-led design delivered through site visits, showrooms and installs, with some licensing; AI rendering and e-design threaten the low end only.",
-     "why_clarity": "Good design is a matter of the client's taste, each designer works by eye, and every project is bespoke.",
-     "why_digital": "Starts from rooms and samples, produced partly on screen, delivered as a physical finished room to mostly local clients."
-    },
-    {
      "id": "news-media-local",
      "name": "Local News Media",
      "industry": "Local News Media",
@@ -622,6 +611,17 @@
      "why_digital": "Code and content work on screen, with conference talks and workshops delivered in person."
     },
     {
+     "id": "land-developers",
+     "name": "Land Developers",
+     "industry": "Land Developers",
+     "ai_proof": 70,
+     "clarity": 25,
+     "digital": 19,
+     "why_ai": "Developers price entitlement, yield and cost risk on unique tracts and deliver physical lots through local councils, builders and subcontractors.",
+     "why_clarity": "Lots delivered are countable, but every tract differs and whether the land price was right is known only at build-out, years later.",
+     "why_digital": "Parcel data and plans are digital, but the product is graded, paved land sold locally to builders."
+    },
+    {
      "id": "marketing-attribution-vendors",
      "name": "Marketing Attribution Vendors",
      "industry": "Marketing Attribution Vendors",
@@ -679,8 +679,8 @@
    ]
   },
   "digital": {
-   "median": 75,
-   "mean": 62.0,
+   "median": 69.0,
+   "mean": 61.2,
    "top": [
     {
      "id": "ai-agent-platforms",
@@ -1016,14 +1016,14 @@
     }
    ]
   },
-  "rho_clarity_ai_proof": -0.14,
+  "rho_clarity_ai_proof": -0.15,
   "rho_digital_ai_proof": -0.84,
   "rho_digital_clarity": -0.03
  },
  "subniches": {
   "ai_proof": {
-   "median": 30,
-   "mean": 34.0,
+   "median": 30.0,
+   "mean": 34.2,
    "top": [
     {
      "id": "physical-therapy/cash-pay-direct-access",
@@ -1158,6 +1158,17 @@
      "why_digital": "Paper archives and remote fieldwork for federal and tribal offices."
     },
     {
+     "id": "idd-group-homes/aging-residents-dementia",
+     "name": "Ageing Residents with Down Syndrome and Dementia",
+     "industry": "IDD Group Homes",
+     "ai_proof": 90,
+     "clarity": 44,
+     "digital": 6,
+     "why_ai": "Caring for residents with intellectual disability and dementia is hands-on, relationship-based and novel for each person, and demand grows with longevity.",
+     "why_clarity": "Daily care repeats, but good dementia care is judged loosely and decline is slow and noisy.",
+     "why_digital": "Care is delivered in person in the resident's home, arranged locally."
+    },
+    {
      "id": "general-hospitals/bedside-nurses-med-surg",
      "name": "Bedside Nurses on Med-Surg Units",
      "industry": "General Hospitals",
@@ -1178,31 +1189,9 @@
      "why_ai": "A named licensed expert testifies in adversarial boundary litigation decided by courts.",
      "why_clarity": "Each dispute is one-off, and the answer is whatever the court rules.",
      "why_digital": "Deeds and monuments researched, then delivered as testimony in person."
-    },
-    {
-     "id": "faith-organizations/church-preschool-operators",
-     "name": "Church Preschool Operators",
-     "industry": "Faith Organizations",
-     "ai_proof": 90,
-     "clarity": 50,
-     "digital": 6,
-     "why_ai": "Licensed teachers physically care for young children, which parents entrust only to known people.",
-     "why_clarity": "Daily routines recur under licensing rules, but child development outcomes are slow and soft.",
-     "why_digital": "Care is delivered in person in church classrooms to local families."
     }
    ],
    "bottom": [
-    {
-     "id": "procurement-spend-platforms/supplier-side-tools",
-     "name": "Supplier-Side Tools",
-     "industry": "Procurement & Spend Platforms",
-     "ai_proof": 0,
-     "clarity": 94,
-     "digital": 100,
-     "why_ai": "Onboarding, catalogue upkeep and invoice submission repeat across buyers and automate directly.",
-     "why_clarity": "Each portal task is accepted by the buyer system or rejected.",
-     "why_digital": "Supplier portals, catalogues and invoices are all online."
-    },
     {
      "id": "scheduling-booking-platforms/team-and-enterprise-scheduling",
      "name": "Team & Enterprise Scheduling",
@@ -1356,11 +1345,22 @@
      "why_ai": "Joining query logs, lineage and cost data is a reporting job software performs.",
      "why_clarity": "Usage counts are objective facts from logs the platform already emits.",
      "why_digital": "Platform telemetry joined into a reporting product."
+    },
+    {
+     "id": "optometry-practices/benefits-verification-estimates",
+     "name": "Vision & Medical Benefits Verification and Patient Estimates",
+     "industry": "Optometry Practices",
+     "ai_proof": 0,
+     "clarity": 94,
+     "digital": 94,
+     "why_ai": "Checking portals and turning benefit text into estimates is screen work that agents and eligibility software replace directly.",
+     "why_clarity": "Benefits are defined per plan, checks repeat for every visit, and the adjudicated claim confirms the estimate within days.",
+     "why_digital": "The inputs are portals and eligibility responses and the output is a digital benefits card, done by remote vendors as easily as on site."
     }
    ]
   },
   "clarity": {
-   "median": 69,
+   "median": 69.0,
    "mean": 65.1,
    "top": [
     {
@@ -1698,8 +1698,8 @@
    ]
   },
   "digital": {
-   "median": 94,
-   "mean": 77.0,
+   "median": 94.0,
+   "mean": 76.7,
    "top": [
     {
      "id": "interior-design-firms/ad-market-research-firms",

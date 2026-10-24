@@ -5,7 +5,7 @@
 **Value-Chain Position:** Data & benchmark vendors
 
 ## What They Do
-Operators and analytics firms that detect and quantify methane and other emissions from orbit and attribute them to facilities: GHGSat (which flies its own methane-sensing satellites), Kayrros (analytics over public and commercial data), and non-profits such as Carbon Mapper. Oil and gas producers, pipeline operators, coal miners, investors and governments pay for detections, facility-level estimates and verification reports, increasingly to satisfy the EU Methane Regulation's requirements, which extend to importers from 2027.
+Operators and analytics firms that detect and quantify methane and other emissions from orbit and attribute them to facilities: GHGSat (which flies its own methane-sensing satellites), Kayrros (analytics over public and commercial data), and non-profits such as Carbon Mapper. [[industries/oil-and-gas-producers|Oil and gas producers]], pipeline operators, coal miners, investors and governments pay for detections, facility-level estimates and verification reports, increasingly to satisfy the EU Methane Regulation's requirements, which extend to importers from 2027.
 
 ## Insight Function
 **Size:** ~20-60 remote-sensing scientists and emissions analysts per firm (estimate)
@@ -25,4 +25,4 @@ Operators and analytics firms that detect and quantify methane and other emissio
 | **Weighted total** | | **40/60** |
 
 **Kill switches:** none — observations are the firm's own and taken from orbit, not supplied by the client.
-**Verdict:** Logged — below threshold. Owned data and analysis the client pays for, but detection is increasingly automated, the regulatory clock belongs to the client, and the field is a few firms and non-profits. The producers themselves belong to the queued oil-and-gas-producers industry.
+**Verdict:** Logged — below threshold. Owned data and analysis the client pays for, but detection is increasingly automated, the regulatory clock belongs to the client, and the field is a few firms and non-profits. The producers themselves belong to [[industries/oil-and-gas-producers|Oil & Gas Producers]], and aircraft, drone and on-site sensor surveys commissioned over their sites are logged as [[niches/oil-and-gas-producers/methane-measurement-providers/profile|🔍 Aerial & Continuous Methane Measurement Providers]].
