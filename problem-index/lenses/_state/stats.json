@@ -1,10 +1,10 @@
 {
- "n_industries": 339,
- "n_subniches": 5987,
+ "n_industries": 345,
+ "n_subniches": 6139,
  "industries": {
   "ai_proof": {
    "median": 40,
-   "mean": 42.1,
+   "mean": 42.5,
    "top": [
     {
      "id": "childcare-centers",
@@ -342,8 +342,19 @@
   },
   "clarity": {
    "median": 62,
-   "mean": 60.0,
+   "mean": 60.2,
    "top": [
+    {
+     "id": "clinical-laboratories",
+     "name": "Clinical Laboratories",
+     "industry": "Clinical Laboratories",
+     "ai_proof": 60,
+     "clarity": 94,
+     "digital": 38,
+     "why_ai": "Specimens are tested on physical analysers under a CLIA director's accountability and pathologists sign diagnoses, while ageing and genetic testing keep demand growing; most routine testing is a commodity bought on network and price.",
+     "why_clarity": "Each test follows a written procedure, produces an exact number checked by quality control and proficiency testing, and repeats thousands of times a day.",
+     "why_digital": "The work starts from a tube or tissue delivered by courier and ends as a digital result; practices choose labs on insurance networks, couriers and interfaces, mostly locally."
+    },
     {
      "id": "data-labeling-services",
      "name": "Data Labeling Services",
@@ -497,17 +508,6 @@
      "why_ai": "A commissioned notary must personally witness the signer, at a table or over video, and carries the liability, but the act is a commodity and remote notarization with automated identity proofing is eroding the in-person share.",
      "why_clarity": "A valid act and a clean package are exactly defined by statute and lender checklists and recur thousands of times, though identity mistakes surface only months later.",
      "why_digital": "Starts from a person and a plastic ID at a kitchen table and ends in a wet-ink package couriered back, with orders arriving through online marketplaces."
-    },
-    {
-     "id": "scheduling-booking-platforms",
-     "name": "Scheduling & Booking Platforms",
-     "industry": "Scheduling & Booking Platforms",
-     "ai_proof": 5,
-     "clarity": 88,
-     "digital": 100,
-     "why_ai": "Self-service booking is commoditised, nearly free software that AI assistants can handle directly.",
-     "why_clarity": "An appointment is booked on a calendar or not, millions of times over.",
-     "why_digital": "Calendars and availability in, bookings out, sold as self-serve SaaS."
     }
    ],
    "bottom": [
@@ -680,7 +680,7 @@
   },
   "digital": {
    "median": 75,
-   "mean": 62.6,
+   "mean": 62.0,
    "top": [
     {
      "id": "ai-agent-platforms",
@@ -1016,14 +1016,14 @@
     }
    ]
   },
-  "rho_clarity_ai_proof": -0.15,
+  "rho_clarity_ai_proof": -0.14,
   "rho_digital_ai_proof": -0.84,
   "rho_digital_clarity": -0.03
  },
  "subniches": {
   "ai_proof": {
    "median": 30,
-   "mean": 33.9,
+   "mean": 34.0,
    "top": [
     {
      "id": "physical-therapy/cash-pay-direct-access",
@@ -1361,7 +1361,7 @@
   },
   "clarity": {
    "median": 69,
-   "mean": 65.2,
+   "mean": 65.1,
    "top": [
     {
      "id": "sales-finance-companies/abs-loan-tape-due-diligence",
@@ -1699,7 +1699,7 @@
   },
   "digital": {
    "median": 94,
-   "mean": 77.1,
+   "mean": 77.0,
    "top": [
     {
      "id": "interior-design-firms/ad-market-research-firms",
@@ -1722,6 +1722,17 @@
      "why_ai": "Sample comparison of tape fields to contracts is mechanical and automatable.",
      "why_clarity": "Each field either matches the document or does not.",
      "why_digital": "Tapes and contract images in, exception reports out."
+    },
+    {
+     "id": "diagnostic-imaging-centers/acr-appropriateness-criteria-cds",
+     "name": "ACR Appropriateness Criteria & Imaging Order Decision Support",
+     "industry": "Diagnostic Imaging Centers",
+     "ai_proof": 50,
+     "clarity": 50,
+     "digital": 100,
+     "why_ai": "Expert panels' evidence judgements carry the ACR's authority, but with the AUC mandate rescinded fewer buyers must pay for them.",
+     "why_clarity": "Panels follow a documented rating method, but each topic is a fresh evidence review and whether criteria improve care is rarely measured.",
+     "why_digital": "Literature in and published criteria and licensed decision-support content out, all online."
     },
     {
      "id": "public-relations-agencies/ai-answer-visibility-trackers",
@@ -1854,42 +1865,9 @@
      "why_ai": "Demand for governing generated apps grows with AI, though the solution itself is software.",
      "why_clarity": "Provenance is recordable, but what counts as maintainable ownership is loosely defined.",
      "why_digital": "App definitions and logs in, governance records out, entirely software."
-    },
-    {
-     "id": "commodity-brokers/ais-commodity-flow-intelligence",
-     "name": "AIS-Derived Commodity-Flow & Freight Intelligence",
-     "industry": "Commodity Brokers",
-     "ai_proof": 25,
-     "clarity": 75,
-     "digital": 100,
-     "why_ai": "Cargo inference from AIS is model-driven and reproducible by well-funded rivals, though analyst judgement on grades and destinations persists.",
-     "why_clarity": "Flow estimates recur daily for thousands of voyages and are graded against EIA weekly and customs releases.",
-     "why_digital": "Vessel signals and customs data in, data feeds and platforms out, sold to clients worldwide."
     }
    ],
    "bottom": [
-    {
-     "id": "hvac-contractors/small-rural-hvac",
-     "name": "Small & Rural HVAC",
-     "industry": "HVAC Contractors",
-     "ai_proof": 80,
-     "clarity": 62,
-     "digital": 0,
-     "why_ai": "Often the only licensed contractor for miles, physically servicing oil, propane and geothermal systems.",
-     "why_clarity": "Repairs are checkable, but diverse fuel systems mean less repetition.",
-     "why_digital": "Physical work in rural homes, found by word of mouth and phone."
-    },
-    {
-     "id": "plumbing-contractors/small-rural-plumbers",
-     "name": "Small & Rural Plumbers",
-     "industry": "Plumbing Contractors",
-     "ai_proof": 80,
-     "clarity": 56,
-     "digital": 0,
-     "why_ai": "One licensed plumber covers a rural county by hand and by reputation.",
-     "why_clarity": "Each job differs from wells to septic, but fixes are quickly verified.",
-     "why_digital": "Paper invoices, poor coverage and face-to-face small-town customers."
-    },
     {
      "id": "painting-contractors/small-crew-operators",
      "name": "Small Crew Operators",
@@ -1946,6 +1924,17 @@
      "why_digital": "Physical roads and drains maintained with a pickup truck for local residents."
     },
     {
+     "id": "defense-systems-manufacturers/solid-rocket-motor-supply",
+     "name": "Solid Rocket Motor & Propellant Ingredient Supply",
+     "industry": "Defense Systems Manufacturers",
+     "ai_proof": 75,
+     "clarity": 50,
+     "digital": 0,
+     "why_ai": "Motors are produced in hazardous bays by qualified operators and accepted by certified radiographers, and only a few plants can do it.",
+     "why_clarity": "Specifications and acceptance criteria are written, but batch calls are tacit and static-fire outcomes are rare, destructive and slow.",
+     "why_digital": "Energetic ingredients in, physical motors out of contractor plants, sold to a handful of primes under ITAR."
+    },
+    {
      "id": "youth-sports-orgs/special-needs-adaptive-leagues",
      "name": "Special Needs Adaptive Leagues",
      "industry": "Youth Sports Organizations",
@@ -1955,6 +1944,17 @@
      "why_ai": "Trained buddies give hands-on adaptive support that families trust personally.",
      "why_clarity": "Each child's accommodations differ and success is felt, not measured.",
      "why_digital": "In-person adaptive play organized locally."
+    },
+    {
+     "id": "clinical-laboratories/specimen-logistics-courier-networks",
+     "name": "Specimen Logistics & Courier Networks",
+     "industry": "Clinical Laboratories",
+     "ai_proof": 40,
+     "clarity": 88,
+     "digital": 0,
+     "why_ai": "Drivers physically collect specimens from offices and lockboxes on local roads, which autonomy will not replace for most routes by 2031.",
+     "why_clarity": "Routes, pickup times and rejection rates are countable every day against fixed stability limits.",
+     "why_digital": "The work is moving physical specimens between local sites by vehicle."
     },
     {
      "id": "roofing-contractors/storm-chasing-restoration",

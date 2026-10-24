@@ -24,5 +24,5 @@ Medicare Administrative Contractors process Part B claims for physician practice
 | Q5 Buyer + market | ×2 | — |
 | **Weighted total** | | **—/60** |
 
-**Kill switches:** none judged (not scored)
+**Kill switches:** none (LCDs and their evidence reviews are published; government procurement is not a switch)
 **Verdict:** Logged — fails gate (each jurisdiction's policy team is a handful of physicians and staff, below the 10-person bar).
