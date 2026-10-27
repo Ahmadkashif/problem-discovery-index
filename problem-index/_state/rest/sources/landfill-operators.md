@@ -24,6 +24,7 @@
 - 40 CFR 258.40(a)(2): composite-liner landfills need a leachate collection system designed to keep less than 30 cm of leachate over the liner — https://www.law.cornell.edu/cfr/text/40/258.40 (accessed 2026-10-25)
 - 40 CFR 258.21: six inches of earthen cover at the end of each operating day, or alternatives approved by an approved state — https://www.law.cornell.edu/cfr/text/40/258.21 (accessed 2026-10-25)
 - EPA publishes historical weekly volume-weighted average RIN price data from EMTS (chart; figures not in page text) — https://www.epa.gov/fuels-registration-reporting-and-compliance-help/rin-trades-and-price-information (accessed 2026-10-25)
+- CARB publishes monthly LCFS credit transfer activity reports covering "recent credit transfers volumes, credit prices and price trends"; latest listed August 2026 (posted September 2026) — https://ww2.arb.ca.gov/resources/documents/monthly-lcfs-credit-transfer-activity-reports (accessed 2026-10-28)
 
 ## Estimates (not checked)
 - US landfill disposal revenue ~$18B a year including publicly owned landfills — derived from the ~$14.5B SUSB receipts (2022), the 2024 EREF average of $62.28 a ton, WM's 129M depletable tons and the ~65% of landfills that are publicly owned and outside SUSB
@@ -42,7 +43,6 @@
 - Insight-function headcounts in every Pass 2 pocket — estimates; no team sizes are published
 - A large compactor costs ~$1M+; a wellfield technician covers ~100–300 wells a month (recalled from trade press and job ads)
 - Host community fees ~$1–5 a ton (recalled ranges from published host agreements)
-- CARB publishes monthly LCFS credit transfer prices (recalled; not fetched)
 - Loci Controls adjusts valves as often as hourly (search summary of a Waste360 article)
 - Gas offtake and gas-rights agreements reference RIN assessments; OPIS, Argus and S&P Global run environmental-markets desks (recalled from trade press)
 - Named vendors and firms not individually checked: Paradigm Compass, Carolina Software WasteWORKS, AMCS, Wastebits, QED Landtec GEM, Propeller, Firmatek, DroneDeploy, Heartland Water Technology, Veolia, Aclarity, Revive Environmental, 374Water, Envirosuite, OMI Industries, Posi-Shell, Caterpillar, Tana, BOMAG, Al-Jon, Trimble, Carlson, SCS Engineers, Geosyntec, Weaver Consultants Group, CEC, WSP, HDR, Barr, Raftelis, Burns & McDonnell, PROS, Pricefx, Zilliant, Deswik, Maptek, OpenGov, Cartegraph, Cority, Enablon, Sphera, EarthSoft EQuIS, Locus, Sanitas, Climate Action Reserve, Ruby Canyon Environmental, SCS Global Services, Coalition for Renewable Natural Gas, American Biogas Council, OPAL Fuels, Archaea Energy (bp), Montauk Renewables, Ameresco (recalled names)

@@ -25,4 +25,4 @@ The National Waste & Recycling Association (private haulers' trade body; its 202
 | **Weighted total** | | **—/60** |
 
 **Kill switches:** would be live for the member and facility survey data (membership data the organisations hold for their members); none for published compilations of public records.
-**Verdict:** Logged — fails gate (research teams under 10 each). Tip-fee data matters more to the disposal side covered by the landfill-operators build.
+**Verdict:** Logged — fails gate (research teams under 10 each). Tip-fee data matters more to the disposal side, where the pricing contest is [[niches/landfill-operators/tip-fee-disposal-pricing/profile|🎯 Tip Fee & Disposal Contract Pricing]].

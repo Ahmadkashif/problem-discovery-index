@@ -11,7 +11,7 @@ The central landfill engineering, airspace and environmental accounting teams at
 **Size:** ~20–60 airspace, engineering and environmental accounting analysts per consolidator (estimate; site engineers working landfill by landfill are production and not counted)
 **Output:** Airspace and depletion models, closure and post-closure estimates and assurance amounts, expansion and acquisition cases
 **Proprietary data:** Survey, tonnage, density, gas and leachate histories across hundreds of landfills — the deepest operating record of landfill behaviour anywhere
-**Clock:** Airspace, depletion and closure figures enter audited quarterly statements, and WM's auditor treats closure costs and depletion rates as critical audit matters; permit renewals and expansion hearings are site clocks
+**Clock:** Airspace, depletion and closure figures enter the issuers' financial statements, reviewed each quarter and audited each year, and WM's auditor treats closure costs and depletion rates as critical audit matters; the 10-Q and 10-K dates are the issuer's own and can be extended under Rule 12b-25, so Q4 3 is the ceiling; permit renewals and expansion hearings are site clocks
 **Buyer:** Chief financial officer or SVP of engineering and disposal operations
 
 ## Scorecard
@@ -25,4 +25,4 @@ The central landfill engineering, airspace and environmental accounting teams at
 | **Weighted total** | | **30/60** |
 
 **Kill switches:** none — survey, tonnage and monitoring records are the consolidators' own operating data.
-**Verdict:** Logged — below threshold. Scored against the sibling consolidator pockets, [[niches/waste-haulers/consolidator-pricing-route-analytics/profile|🔍 Consolidator Pricing & Route Analytics Teams]] (28) and [[niches/hazardous-waste-firms/consolidator-acceptance-capacity-analytics/profile|🔍 Consolidator Waste Acceptance, Pricing & Capacity Analytics]] (28). The only difference is Q4 3 against 2: here the analysis itself becomes a filed number in audited statements, not just a disclosure of its result. Nobody pays for the analysis, central teams do not grow with tonnage, and five firms that build their own models are a market of five.
+**Verdict:** Logged — below threshold. Scored against the sibling consolidator pockets, [[niches/waste-haulers/consolidator-pricing-route-analytics/profile|🔍 Consolidator Pricing & Route Analytics Teams]] (28) and [[niches/hazardous-waste-firms/consolidator-acceptance-capacity-analytics/profile|🔍 Consolidator Waste Acceptance, Pricing & Capacity Analytics]] (28). The only difference is Q4 3 against 2: here the analysis itself becomes a filed number in the quarterly and annual statements, not just a disclosure of its result. Nobody pays for the analysis, central teams do not grow with tonnage, and five firms that build their own models are a market of five.

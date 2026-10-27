@@ -25,4 +25,4 @@ Software sold to landfills: scale-house and billing systems (Paradigm's Compass,
 | **Weighted total** | | **—/60** |
 
 **Kill switches:** undetermined — subscription terms were not read; Loci's use of anonymised client data suggests some agreements permit aggregate use, but that is not checked evidence for the category.
-**Verdict:** Logged — fails gate (analytics teams under 10). Groundwater data platforms are profiled as [[niches/environmental-consultants/environmental-data-management-vendors/profile|🔍 Environmental Data Management Vendors]] (46).
+**Verdict:** Logged — fails gate (analytics teams under 10). Groundwater data platforms are profiled as [[niches/environmental-consultants/environmental-data-management-vendors/profile|🔍 Environmental Data Management Vendors]] (46; Stage E caveat: its Q4 rests on clients' regulatory reporting deadlines, a client clock, so it likely scores a few points lower).

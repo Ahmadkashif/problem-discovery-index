@@ -5,7 +5,7 @@
 **Value-Chain Position:** Data & benchmark vendors
 
 ## What They Do
-Operators and analytics firms that detect and quantify methane and other emissions from orbit and attribute them to facilities: GHGSat (which flies its own methane-sensing satellites), Kayrros (analytics over public and commercial data), and non-profits such as Carbon Mapper. [[industries/oil-and-gas-producers|Oil and gas producers]], pipeline operators, coal miners, investors and governments pay for detections, facility-level estimates and verification reports, increasingly to satisfy the EU Methane Regulation's requirements, which extend to importers from 2027.
+Operators and analytics firms that detect and quantify methane and other emissions from orbit and attribute them to facilities: GHGSat (which flies its own methane-sensing satellites), Kayrros (analytics over public and commercial data), and non-profits such as Carbon Mapper. [[industries/oil-and-gas-producers|Oil and gas producers]], pipeline operators, coal miners, [[industries/landfill-operators|landfill operators]], investors and governments pay for detections, facility-level estimates and verification reports, increasingly to satisfy the EU Methane Regulation's requirements, which extend to importers from 2027.
 
 ## Insight Function
 **Size:** ~20-60 remote-sensing scientists and emissions analysts per firm (estimate)

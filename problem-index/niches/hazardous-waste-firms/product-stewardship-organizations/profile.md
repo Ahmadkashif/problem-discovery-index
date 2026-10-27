@@ -21,8 +21,8 @@ Producer-funded nonprofits that run state stewardship programmes for leftover pa
 | Q2 Labor mass + repeatable | ×2 | 2 |
 | Q3 Proprietary data moat | ×3 | 4 |
 | Q4 External clock | ×2 | 4 |
-| Q5 Buyer + market | ×2 | 1 |
-| **Weighted total** | | **29/60** |
+| Q5 Buyer + market | ×2 | 2 |
+| **Weighted total** | | **31/60** |
 
 **Kill switches:** **data isn't theirs** — producers' sales reports are members' compliance data, which the vault treats as membership data the organisation cannot reuse, and state stewardship laws carry confidentiality provisions on producer data (not checked).
-**Verdict:** Logged — kill switch. One organisation per product category means a market of two or three buyers, and producers pay because the law requires it, not for analysis. Scored to match [[niches/waste-haulers/packaging-epr-pros/profile|🔍 Packaging EPR Producer Responsibility Organisations]] (29, kill switch).
+**Verdict:** Logged — kill switch. One organisation per product category means a market of two or three buyers (Q5 2), and producers pay because the law requires it, not for analysis. Scored like [[niches/waste-haulers/packaging-epr-pros/profile|🔍 Packaging EPR Producer Responsibility Organisations]] (29, kill switch) except Q5, where that pocket's single dominant PRO scores 1.

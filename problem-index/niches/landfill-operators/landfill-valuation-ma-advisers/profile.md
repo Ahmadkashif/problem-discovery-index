@@ -25,4 +25,4 @@ Investment bankers covering environmental services, appraisers who value landfil
 | **Weighted total** | | **—/60** |
 
 **Kill switches:** would be live — target and client data are held under engagement and confidentiality terms.
-**Verdict:** Logged — fails gate (teams under 10, per engagement). Hauler acquisitions are logged as [[niches/waste-haulers/private-hauler-rollup-platforms/profile|🔍 Private Hauler Rollup Platforms]] and municipal solid waste revenue bond ratings as [[niches/municipal-services/municipal-credit-rating-analysis/profile|🔍 Municipal Credit Rating & Public Finance Analysis]] (56, indexed).
+**Verdict:** Logged — fails gate (teams under 10, per engagement). Hauler acquisitions are logged as [[niches/waste-haulers/private-hauler-rollup-platforms/profile|🔍 Private Hauler Rollup Platforms]] and municipal solid waste revenue bond ratings as [[niches/municipal-services/municipal-credit-rating-analysis/profile|🔍 Municipal Credit Rating & Public Finance Analysis]] (56, indexed; Stage E caveat: the batch 4 rating-split finding and the P3-G ruling on issuer-confidential data make it likely to leave the index).

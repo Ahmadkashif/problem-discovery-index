@@ -10,7 +10,7 @@ The environmental-markets desks of the price reporting agencies — OPIS, Argus 
 ## Insight Function
 **Size:** ~10–30 environmental and biofuels market reporters and analysts per agency (estimate)
 **Output:** Daily RIN and LCFS credit assessments, forward curves, market commentary, policy analysis
-**Proprietary data:** Reporter-collected bids, offers and trades from brokers, obligated parties and generators, with the assessment history behind each number; EPA publishes weekly volume-weighted RIN prices from its EMTS trading system and CARB publishes monthly LCFS credit transfer prices
+**Proprietary data:** Reporter-collected bids, offers and trades from brokers, obligated parties and generators, with the assessment history behind each number; EPA publishes weekly volume-weighted RIN prices from its EMTS trading system and CARB publishes monthly LCFS credit transfer reports covering transfer volumes, credit prices and price trends (latest seen: August 2026)
 **Clock:** Daily publication calendars the agencies set; EPA's annual volume rules and waiver credit price ($1.91 for 2025) move the market but bind obligated parties, not the agencies
 **Buyer:** Head of environmental markets or editorial director
 

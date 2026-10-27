@@ -5,7 +5,7 @@
 **Value-Chain Position:** Suppliers selling into the industry
 
 ## What They Do
-Firms that measure methane at producers' sites from aircraft, drones, fixed sensors or survey crews, and deliver detections, emission-rate estimates and reports for operators' compliance and voluntary programmes. Bridger Photonics and Insight M fly aerial surveys, Project Canary and Qube install continuous monitors, and SeekOps flies drones (recalled), alongside LDAR contractors running OGI crews. Operators pay per survey, per sensor or per site.
+Firms that measure methane at producers' sites from aircraft, drones, fixed sensors or survey crews, and deliver detections, emission-rate estimates and reports for operators' compliance and voluntary programmes. Bridger Photonics and Insight M fly aerial surveys, Project Canary and Qube install continuous monitors, and SeekOps flies drones (recalled), alongside LDAR contractors running OGI crews. Operators pay per survey, per sensor or per site. The same aircraft and drone surveys are flown over landfills, whose own gas and reporting work sits with [[industries/landfill-operators|Landfill Operators]].
 
 ## Insight Function
 **Size:** ~10-40 emissions scientists, data analysts and quantification staff per firm (estimate)

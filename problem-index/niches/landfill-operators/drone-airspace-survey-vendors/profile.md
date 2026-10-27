@@ -25,4 +25,4 @@ Drone mapping platforms and survey service firms that measure landfill volumes, 
 | **Weighted total** | | **—/60** |
 
 **Kill switches:** would be live for commissioned surveys of clients' sites; undetermined for platform subscriptions whose terms were not read.
-**Verdict:** Logged — fails gate (no 10-person landfill insight team). The larger aerial mapping shape is [[niches/land-surveyors/aerial-lidar-data-providers/profile|🔍 Aerial & LiDAR Data Providers]] (49).
+**Verdict:** Logged — fails gate (no 10-person landfill insight team). The larger aerial mapping shape is [[niches/land-surveyors/aerial-lidar-data-providers/profile|🔍 Aerial & LiDAR Data Providers]] (49; Stage E caveat: its clock rests on flying seasons and project schedules, which are client clocks, and its count includes processing staff, who are production, so it likely scores lower).

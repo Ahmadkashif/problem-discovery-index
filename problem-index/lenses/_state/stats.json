@@ -1,10 +1,10 @@
 {
- "n_industries": 352,
- "n_subniches": 6306,
+ "n_industries": 355,
+ "n_subniches": 6376,
  "industries": {
   "ai_proof": {
-   "median": 40.0,
-   "mean": 42.8,
+   "median": 40,
+   "mean": 43.0,
    "top": [
     {
      "id": "childcare-centers",
@@ -341,8 +341,8 @@
    ]
   },
   "clarity": {
-   "median": 62.0,
-   "mean": 60.1,
+   "median": 62,
+   "mean": 60.2,
    "top": [
     {
      "id": "clinical-laboratories",
@@ -679,8 +679,8 @@
    ]
   },
   "digital": {
-   "median": 69.0,
-   "mean": 61.2,
+   "median": 69,
+   "mean": 60.7,
    "top": [
     {
      "id": "ai-agent-platforms",
@@ -850,17 +850,6 @@
    ],
    "bottom": [
     {
-     "id": "painting-contractors",
-     "name": "Painting Contractors",
-     "industry": "Painting Contractors",
-     "ai_proof": 60,
-     "clarity": 69,
-     "digital": 6,
-     "why_ai": "Prep and painting happen by hand on site in occupied homes and buildings.",
-     "why_clarity": "Surfaces and coats are specified and repeat, though prep failures show months later.",
-     "why_digital": "Physical surfaces painted on site for local customers found through lead platforms."
-    },
-    {
      "id": "pest-control",
      "name": "Pest Control",
      "industry": "Pest Control",
@@ -1013,17 +1002,28 @@
      "why_ai": "Instructors teach trades hands-on in shops under accreditation, and demand for trade skills keeps growing.",
      "why_clarity": "Placement and certification rates are measurable, but rubrics vary by instructor and jobs come months later.",
      "why_digital": "Students learn with tools and equipment in person, recruited from the local area."
+    },
+    {
+     "id": "waste-haulers",
+     "name": "Waste Haulers",
+     "industry": "Waste Haulers",
+     "ai_proof": 60,
+     "clarity": 88,
+     "digital": 6,
+     "why_ai": "CDL drivers must physically empty hundreds of carts and containers a day on public streets, and automated arms still need a driver, so trash keeps being collected by people through 2031.",
+     "why_clarity": "A stop is serviced or missed, on fixed weekly routes repeated thousands of times, though route knowledge and franchise pricing are judged by feel.",
+     "why_digital": "Waste, trucks and streets are physical, and service is bought through local franchise bids and subscriptions."
     }
    ]
   },
-  "rho_clarity_ai_proof": -0.15,
+  "rho_clarity_ai_proof": -0.14,
   "rho_digital_ai_proof": -0.84,
-  "rho_digital_clarity": -0.03
+  "rho_digital_clarity": -0.04
  },
  "subniches": {
   "ai_proof": {
    "median": 30.0,
-   "mean": 34.2,
+   "mean": 34.3,
    "top": [
     {
      "id": "physical-therapy/cash-pay-direct-access",
@@ -1698,8 +1698,8 @@
    ]
   },
   "digital": {
-   "median": 94.0,
-   "mean": 76.7,
+   "median": 88.0,
+   "mean": 76.5,
    "top": [
     {
      "id": "interior-design-firms/ad-market-research-firms",
@@ -1869,26 +1869,26 @@
    ],
    "bottom": [
     {
-     "id": "painting-contractors/small-crew-operators",
-     "name": "Small Crew Operators",
-     "industry": "Painting Contractors",
-     "ai_proof": 60,
-     "clarity": 62,
+     "id": "waste-haulers/small-independent-haulers",
+     "name": "Small Independent Haulers",
+     "industry": "Waste Haulers",
+     "ai_proof": 70,
+     "clarity": 88,
      "digital": 0,
-     "why_ai": "Customers hire the individual painter who shows up and does the work.",
-     "why_clarity": "Jobs repeat, but quoting and quality run on personal habit.",
-     "why_digital": "Phone, text and handwritten estimates for local in-person work."
+     "why_ai": "The owner drives the truck and keeps customers on local relationships that a national competitor or software cannot replace.",
+     "why_clarity": "Stops are serviced or missed and invoices paid or late, in a small, repetitive operation.",
+     "why_digital": "Physical collection for neighbours and local businesses, sold face to face or by phone."
     },
     {
-     "id": "greenhouse-horticulture/small-greenhouse-nurseries",
-     "name": "Small Greenhouse Nurseries",
-     "industry": "Greenhouse Horticulture",
-     "ai_proof": 60,
-     "clarity": 38,
+     "id": "landfill-operators/small-public-rural-landfills",
+     "name": "Small Public & Rural Landfills",
+     "industry": "Landfill Operators",
+     "ai_proof": 75,
+     "clarity": 56,
      "digital": 0,
-     "why_ai": "Owner-operators vent, water and grow by hand and sell face to face to local customers.",
-     "why_clarity": "Mixed retail, wholesale and landscaping work runs on memory and paper records.",
-     "why_digital": "Manual climate control, paper records and local walk-in retail sales."
+     "why_ai": "Small public landfills are run on site by local crews under state permits and public accountability, and counties will still need someone to operate them in 2031.",
+     "why_clarity": "Remaining life and compliance are measurable, but practices vary by site and life forecasts are revised only annually.",
+     "why_digital": "The work is physical and local, bought by county governments through local procurement."
     },
     {
      "id": "assisted-living-communities/small-residential-care-homes",

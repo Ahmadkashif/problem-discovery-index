@@ -5,7 +5,7 @@
 **Type:** Fix (Pain Point)
 **One-liner:** Small haulers keep collecting from customers who stopped paying months ago, because suspending a stop means the owner remembering to tell the driver.
 **Tags:** #automation #quick-win #revenue-impact #workflow-orchestration #data-integration
-**Contested on:** Every serious competitor in this niche is fighting to become the one system a 2–20 truck hauler bills, routes and collects payments on, and whoever gets the owner's days sales outstanding lowest takes the account.
+**Contested on:** Every serious competitor in this niche is fighting to run a 2–20 truck hauler's billing and payment collection, and whoever gets the owner's days sales outstanding lowest takes the account.
 
 ## The Problem
 Billing and routing are separate: the invoice says 90 days past due, the route sheet still lists the stop, and the driver empties the cart.

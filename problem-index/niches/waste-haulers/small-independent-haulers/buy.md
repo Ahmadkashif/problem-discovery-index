@@ -5,7 +5,7 @@
 **Type:** Buy & Customize (Vertical Adaptation)
 **One-liner:** Small utilities and propane dealers already run quarterly prepay, autopay and dunning for households; subscription trash is the same recurring household bill with a truck behind it.
 **Tags:** #logistic-regression #automation #revenue-impact #workflow-orchestration #quick-win
-**Contested on:** Every serious competitor in this niche is fighting to become the one system a 2–20 truck hauler bills, routes and collects payments on, and whoever gets the owner's days sales outstanding lowest takes the account.
+**Contested on:** Every serious competitor in this niche is fighting to run a 2–20 truck hauler's billing and payment collection, and whoever gets the owner's days sales outstanding lowest takes the account.
 
 ## The Problem
 Subscription haulers bill quarterly in advance or monthly in arrears by paper invoice, take cheques, and chase late payers by phone.
