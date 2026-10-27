@@ -4,8 +4,9 @@ for an engineering placement first (see `_short-term-placement-filter.md` § Pri
 Usage (from the vault root): python3 _state/rest/priority_order.py [--dry-run]
 Keeps done rows, the P batches and batch 9b's built rows in place, then writes, in order:
 the Q batches; the remaining sector batches sorted by mean placement score (highest first);
-the government batches G1..Gn; and batch X, the industries the owner skipped (status blocked).
-Row contents are untouched apart from `order`, `batch` and, for SKIP, `status`. Safe to re-run.
+then the industries the owner skipped (status blocked): batch X (gambling and alcohol) and
+batch XG (government, or selling only to it). Row contents are untouched apart from `order`,
+`batch` and, for skipped rows, `status`. Safe to re-run.
 """
 import csv, sys, statistics
 
@@ -34,14 +35,18 @@ Q = {
 # blocked on 2026-10-24 and stays in batch P4.
 SKIP = ["casinos", "racetracks", "racing-stables", "beverage-alcohol-distributors", "liquor-stores",
         "bars-and-taverns", "breweries", "wineries", "distilleries"]
-# Owner, 2026-10-27: deprioritise industries that are part of US government or directly serve
-# it. Batches 48-49 (public administration) plus public institutions and firms whose customer is
-# an agency.
-GOV_BATCHES = {"48", "49"}
-GOV = ["courts", "community-colleges", "transit-agencies", "airport-operators", "toll-road-operators",
-       "highway-contractors", "school-bus-contractors", "youth-group-homes",
-       "avionics-and-defense-electronics-makers", "shipyards", "waste-to-energy-plants"]
-GOV_BATCH_SIZE = 7
+# Owner, 2026-10-27, refining an earlier "deprioritise government" rule: selling to government
+# alongside other customers is fine; industries that are government, or sell only to it, are
+# skipped (status blocked, batch XG). Avionics, shipyards and waste-to-energy have commercial
+# customers too, so they went back to their sector batches.
+GOV_SKIP = ["legislative-bodies", "tax-and-revenue-agencies", "tribal-governments", "correctional-facilities",
+            "probation-and-parole-agencies", "emergency-management-agencies", "education-agencies",
+            "public-health-departments", "benefits-administration-agencies", "environmental-regulators",
+            "natural-resource-agencies", "public-housing-authorities", "economic-development-agencies",
+            "transportation-departments", "utility-commissions", "licensing-agencies", "courts",
+            "community-colleges", "transit-agencies", "airport-operators", "toll-road-operators",
+            "highway-contractors", "school-bus-contractors", "youth-group-homes"]
+RESTORE = {"avionics-and-defense-electronics-makers": "44", "shipyards": "46", "waste-to-energy-plants": "9c"}
 WASTE_UNBUILT = ["waste-to-energy-plants", "recycling-facilities", "septic-service-companies"]
 
 QUE = "_state/rest/queue.tsv"
@@ -51,11 +56,11 @@ by = {r["slug"]: r for r in rows}
 score = {r["slug"]: int(r["score"]) for r in csv.DictReader(open("_state/rest/placement-filter.tsv"), delimiter="\t")}
 
 picked = [s for b in Q.values() for s in b]
-for s in picked + SKIP + GOV:
+for s in picked + SKIP + GOV_SKIP + list(RESTORE):
     assert s in by, s
 assert len(picked) == len(set(picked)), "slug picked twice"
-assert not set(picked) & (set(SKIP) | set(GOV)), set(picked) & (set(SKIP) | set(GOV))
-for s in SKIP:
+assert not set(picked) & (set(SKIP) | set(GOV_SKIP)), set(picked) & (set(SKIP) | set(GOV_SKIP))
+for s in SKIP + GOV_SKIP:
     assert by[s]["status"] in ("todo", "blocked"), (s, by[s]["status"])
 
 def fixed(r):
@@ -72,14 +77,15 @@ for s in WASTE_UNBUILT:
         by[s]["batch"] = "9c"
 for s in SKIP:
     by[s]["status"], by[s]["batch"] = "blocked", "X"
+for s in GOV_SKIP:
+    by[s]["status"], by[s]["batch"] = "blocked", "XG"
+for s, b in RESTORE.items():
+    if by[s]["status"] == "todo":
+        by[s]["batch"] = b
 seen = {id(r) for r in head + qrows}
 xrows = [r for r in rows if r["batch"] == "X" and id(r) not in seen]
-gov = [r for r in rows if id(r) not in seen and r["batch"] != "X" and
-       (r["slug"] in GOV or r["batch"] in GOV_BATCHES or r["batch"].startswith("G"))]
-gov.sort(key=lambda r: (-score[r["slug"]], rows.index(r)))
-for i, r in enumerate(gov):
-    r["batch"] = f"G{i // GOV_BATCH_SIZE + 1}"
-seen |= {id(r) for r in xrows + gov}
+xgrows = [r for r in rows if r["batch"] == "XG" and id(r) not in seen]
+seen |= {id(r) for r in xrows + xgrows}
 tail = [r for r in rows if id(r) not in seen]
 groups = {}
 for r in tail:
@@ -87,13 +93,13 @@ for r in tail:
 first = {b: min(rows.index(r) for r in g) for b, g in groups.items()}
 mean = {b: statistics.mean(score[r["slug"]] for r in g) for b, g in groups.items()}
 order = sorted(groups, key=lambda b: (-mean[b], first[b]))
-out = head + qrows + [r for b in order for r in groups[b]] + gov + xrows
+out = head + qrows + [r for b in order for r in groups[b]] + xrows + xgrows
 assert len(out) == len(rows) and len({r["slug"] for r in out}) == len(rows)
 for i, r in enumerate(out, 1):
     r["order"] = str(i)
 
 print(f"head {len(head)} | Q {len(qrows)} | sector tail {len(tail)} in {len(order)} batches | "
-      f"government {len(gov)} in G1-G{(len(gov) - 1) // GOV_BATCH_SIZE + 1} | skipped {len(xrows)}")
+      f"skipped: gambling and alcohol {len(xrows)}, government {len(xgrows)}")
 if "--dry-run" not in sys.argv:
     with open(QUE, "w", newline="") as fh:
         w = csv.DictWriter(fh, cols, delimiter="\t", lineterminator="\n")
