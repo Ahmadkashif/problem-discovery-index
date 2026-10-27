@@ -632,7 +632,7 @@ Stage E is the only step that edits existing files. It runs only on the owner's 
 
 **Stage:** batch loop. Batches 1–5 closed 2026-10-22, batches 6–9 closed 2026-10-23 (batch 9 early, with 2 of its 8 industries); placement-priority batches P1–P3 closed 2026-10-24 and P4 on 2026-10-25; on 2026-10-27 the owner set a priority order (daily batches Q1–Q7, `_short-term-placement-filter.md` § Priority order); batch 9b (three built) closes first.
 **Triage:** 714 of 714 codes (new 421 · merge 265 · covered 17 · skip 11)
-**Queue:** 421 industries in 62 batches (the 49 sector batches, plus priority batches P1–P4 and waste batch 9b, added 2026-10-23; priority batches Q1–Q7 and 9c added 2026-10-27, when `_state/rest/priority_order.py` also sorted the sector batches by mean placement score)
+**Queue:** 421 industries in 65 batches (the 49 sector batches, plus priority batches P1–P4 and waste batch 9b, added 2026-10-23; priority batches Q1–Q7 and 9c added 2026-10-27, when `_state/rest/priority_order.py` also sorted the sector batches by mean placement score; the same day the owner skipped gambling and alcohol (9 industries, batch X, `blocked`) and moved 27 government industries to batches G1–G4 at the end)
 **Done:** 95 industries · 6,243 files (6,053 vault + 190 state) · 4 qualifiers
 **Last verifier run:** `verify.sh` (all done rows) → REST-VERIFY-CLEAN; `check_queue.py` → QUEUE-CLEAN; lenses rebuilt via `_state/rest/lens_rebuild.sh` (2026-10-25, batch P4 close)
 **Next action:** (running from 2026-10-28: daily window 00:00–12:00 PKT, one agent, at most 5 builder launches per PKT day; owner rule 2026-10-27. The cap is `_state/rest/daily-cap.txt`; append `<date>\t<slug>` to `_state/rest/build-log.tsv` at each builder launch; fix rounds and reviews don't count.) Order: (1) re-run the 9b-A review (waste-haulers, hazardous-waste-firms, landfill-operators; built 2026-10-25, the first review was stopped unfinished), their fix rounds (resume builders a2145b8f98eb4241c, a575fdfdc2a53b3f0, aafe63a368a6e04b5 with SendMessage) and close 9b with those three; (2) before each Q batch's first builder, one web-check agent checks that batch (and the next one when convenient) with the 2026-10-23 placement prompt (E/P/M/F/R, own pages only, no blocked sites); add the results to EVIDENCE in `placement_filter.py`, re-run it, add a placement builder note per industry (hiring vendors to re-check, shared vendor fields to link: distributor AI quoting → `niches/industrial-distributors/rfq-and-order-intake-automation`, dealer stack → `franchised-car-dealers`, bid tabs → `heavy-civil-contractors/public-bid-tab-unit-price-intelligence`, interconnection → `electric-utilities`), and swap any industry that fails the gate (E ≤ 2) for the first Q7 reserve; (3) build Q1 (renewable-power-producers, wholesale-auto-auctions, community-health-centers, parking-operators, auto-parts-distributors), review in groups of 3 + 2, fix, close; then Q2…Q7; then the sector batches in queue order.
@@ -667,46 +667,49 @@ Stage E is the only step that edits existing files. It runs only on the owner's 
 | Q6 | Priority order (2026-10-27, desk-ranked; web check before build) | 5 | 0 | — | — | — |
 | Q7 | Priority order (2026-10-27, reserves) | 5 | 0 | — | — | — |
 | 20 | 42 Wholesale | 2 | 0 | — | — | — |
-| 25 | 44-45 Retail | 10 | 0 | — | — | — |
-| 10 | 61 Education | 8 | 0 | — | — | — |
+| 12 | 62 Health Care | 1 | 0 | — | — | — |
+| 25 | 44-45 Retail | 9 | 0 | — | — | — |
+| 9c | 56 Admin, Support & Waste (9b remainder) | 2 | 0 | — | — | — |
 | 18 | 81 Other Services | 6 | 0 | — | — | — |
+| 14 | 71 Arts & Recreation | 5 | 0 | — | — | — |
+| 10 | 61 Education | 7 | 0 | — | — | — |
 | 21 | 42 Wholesale | 2 | 0 | — | — | — |
-| 19 | 72 Accommodation & Food | 6 | 0 | — | — | — |
+| 19 | 72 Accommodation & Food | 5 | 0 | — | — | — |
 | 24 | 44-45 Retail | 7 | 0 | — | — | — |
 | 11 | 62 Health Care | 3 | 0 | — | — | — |
-| 16 | 81 Other Services | 8 | 0 | — | — | — |
-| 12 | 62 Health Care | 2 | 0 | — | — | — |
 | 23 | 42 Wholesale | 4 | 0 | — | — | — |
-| 27 | 48-49 Transportation | 6 | 0 | — | — | — |
 | 22 | 42 Wholesale | 6 | 0 | — | — | — |
 | 31 | 23 Construction | 8 | 0 | — | — | — |
 | 30 | 23 Construction | 5 | 0 | — | — | — |
+| 16 | 81 Other Services | 7 | 0 | — | — | — |
 | 13 | 53 Real Estate & Rental | 7 | 0 | — | — | — |
-| 14 | 71 Arts & Recreation | 7 | 0 | — | — | — |
-| 28 | 48-49 Transportation | 6 | 0 | — | — | — |
 | 17 | 81 Other Services | 6 | 0 | — | — | — |
-| 15 | 71 Arts & Recreation | 7 | 0 | — | — | — |
 | 43 | 31-33 Manufacturing | 10 | 0 | — | — | — |
-| 46 | 31-33 Manufacturing | 8 | 0 | — | — | — |
-| 49 | 92 Public Administration | 8 | 0 | — | — | — |
+| 15 | 71 Arts & Recreation | 6 | 0 | — | — | — |
 | 26 | 44-45 Retail | 9 | 0 | — | — | — |
 | 35 | 11 Agriculture | 8 | 0 | — | — | — |
-| 44 | 31-33 Manufacturing | 9 | 0 | — | — | — |
-| 9c | 56 Admin, Support & Waste (9b remainder) | 3 | 0 | — | — | — |
+| 46 | 31-33 Manufacturing | 7 | 0 | — | — | — |
+| 27 | 48-49 Transportation | 4 | 0 | — | — | — |
 | 47 | 31-33 Manufacturing | 7 | 0 | — | — | — |
 | 45 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 44 | 31-33 Manufacturing | 8 | 0 | — | — | — |
+| 28 | 48-49 Transportation | 4 | 0 | — | — | — |
 | 41 | 31-33 Manufacturing | 10 | 0 | — | — | — |
 | 42 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 29 | 48-49 Transportation | 4 | 0 | — | — | — |
 | 39 | 31-33 Manufacturing | 7 | 0 | — | — | — |
-| 48 | 92 Public Administration | 8 | 0 | — | — | — |
-| 29 | 48-49 Transportation | 6 | 0 | — | — | — |
 | 38 | 31-33 Manufacturing | 10 | 0 | — | — | — |
 | 37 | 31-33 Manufacturing | 10 | 0 | — | — | — |
 | 34 | 11 Agriculture | 8 | 0 | — | — | — |
-| 36 | 31-33 Manufacturing | 10 | 0 | — | — | — |
 | 32 | 22 Utilities | 4 | 0 | — | — | — |
 | 33 | 21 Mining | 7 | 0 | — | — | — |
 | 40 | 31-33 Manufacturing | 9 | 0 | — | — | — |
+| 36 | 31-33 Manufacturing | 7 | 0 | — | — | — |
+| G1 | Government, deprioritised by owner 2026-10-27 | 7 | 0 | — | — | — |
+| G2 | Government, deprioritised by owner 2026-10-27 | 7 | 0 | — | — | — |
+| G3 | Government, deprioritised by owner 2026-10-27 | 7 | 0 | — | — | — |
+| G4 | Government, deprioritised by owner 2026-10-27 | 6 | 0 | — | — | — |
+| X | Skipped by owner 2026-10-27: gambling and alcohol (status blocked) | 9 | 0 | — | — | — |
 
 ---
 
