@@ -630,14 +630,14 @@ Stage E is the only step that edits existing files. It runs only on the owner's 
 
 ## CURSOR
 
-**Stage:** batch loop. Batches 1–5 closed 2026-10-22, batches 6–9 closed 2026-10-23 (batch 9 early, with 2 of its 8 industries); placement-priority batches P1–P3 closed 2026-10-24 and P4 on 2026-10-25; waste batch 9b next.
+**Stage:** batch loop. Batches 1–5 closed 2026-10-22, batches 6–9 closed 2026-10-23 (batch 9 early, with 2 of its 8 industries); placement-priority batches P1–P3 closed 2026-10-24 and P4 on 2026-10-25; on 2026-10-27 the owner set a priority order (daily batches Q1–Q7, `_short-term-placement-filter.md` § Priority order); batch 9b (three built) closes first.
 **Triage:** 714 of 714 codes (new 421 · merge 265 · covered 17 · skip 11)
-**Queue:** 421 industries in 54 batches (the 49 sector batches, plus priority batches P1–P4 and waste batch 9b, added 2026-10-23)
+**Queue:** 421 industries in 62 batches (the 49 sector batches, plus priority batches P1–P4 and waste batch 9b, added 2026-10-23; priority batches Q1–Q7 and 9c added 2026-10-27, when `_state/rest/priority_order.py` also sorted the sector batches by mean placement score)
 **Done:** 95 industries · 6,243 files (6,053 vault + 190 state) · 4 qualifiers
 **Last verifier run:** `verify.sh` (all done rows) → REST-VERIFY-CLEAN; `check_queue.py` → QUEUE-CLEAN; lenses rebuilt via `_state/rest/lens_rebuild.sh` (2026-10-25, batch P4 close)
-**Next action:** (paused by the owner 2026-10-25 ~05:50 PKT: "stop, wait till i ask you to continue"; the daily-window crons were cancelled and the in-flight 9b-A review was stopped unfinished, so re-run it on resume; earlier rule: daily window 00:00–12:00 PKT, cap 1; owner rule 2026-10-24; the owner's window-start message of 2026-10-25 set the order: finish P4, then 9b and batch 10 onward) P4 closed 2026-10-25 (7 built, gambling-operators skipped and `blocked`). Next: batch 9b (waste-haulers (built 2026-10-25), hazardous-waste-firms (built), landfill-operators (built; group 9b-A review not yet done), waste-to-energy-plants, recycling-facilities, septic-service-companies), one builder at a time, then reviews in two groups of three, fix rounds and the 9b close; then batch 10 (education).
+**Next action:** (running from 2026-10-28: daily window 00:00–12:00 PKT, one agent, at most 5 builder launches per PKT day; owner rule 2026-10-27. The cap is `_state/rest/daily-cap.txt`; append `<date>\t<slug>` to `_state/rest/build-log.tsv` at each builder launch; fix rounds and reviews don't count.) Order: (1) re-run the 9b-A review (waste-haulers, hazardous-waste-firms, landfill-operators; built 2026-10-25, the first review was stopped unfinished), their fix rounds (resume builders a2145b8f98eb4241c, a575fdfdc2a53b3f0, aafe63a368a6e04b5 with SendMessage) and close 9b with those three; (2) before each Q batch's first builder, one web-check agent checks that batch (and the next one when convenient) with the 2026-10-23 placement prompt (E/P/M/F/R, own pages only, no blocked sites); add the results to EVIDENCE in `placement_filter.py`, re-run it, add a placement builder note per industry (hiring vendors to re-check, shared vendor fields to link: distributor AI quoting → `niches/industrial-distributors/rfq-and-order-intake-automation`, dealer stack → `franchised-car-dealers`, bid tabs → `heavy-civil-contractors/public-bid-tab-unit-price-intelligence`, interconnection → `electric-utilities`), and swap any industry that fails the gate (E ≤ 2) for the first Q7 reserve; (3) build Q1 (renewable-power-producers, wholesale-auto-auctions, community-health-centers, parking-operators, auto-parts-distributors), review in groups of 3 + 2, fix, close; then Q2…Q7; then the sector batches in queue order.
 **Paused (owner, 2026-10-23):** the owner paused the run after the in-flight auctioneers build, at 67% of the weekly quota, to keep quota for higher-impact daytime work. From now on the run happens at night only, when the owner restarts it; there is no auto-resume heartbeat. On restart: continue from the first batch with `todo` or `building` rows (9b as of the P4 close, 2026-10-25). Scheduled by the owner (session-only crons): resume Sat 2026-10-24 00:03 PKT with **3 parallel agents** until the weekly quota reset at 15:00 PKT (no new builders after 14:30); at 14:52 the cap returns to 1 and the run pauses again.
-**Run window (owner, 2026-10-24):** the run works only from 00:00 to 12:00 PKT each day, one agent at a time (agent-cap 1). Session crons start it at ~00:03, heartbeat at :17/:47 from 00 to 11 (no new builders after 11:30), and stop it at ~11:51 (let the in-flight agent finish, close a completed batch, set the next action to (paused)). gambling-operators is skipped (status blocked) by owner decision.
+**Run window (owner, 2026-10-24):** the run works only from 00:00 to 12:00 PKT each day, one agent at a time (agent-cap 1). Session crons start it at ~00:03, heartbeat at :17/:47 from 00 to 11 (no new builders after 11:30), and stop it at ~11:51 (let the in-flight agent finish, close a completed batch, set the next action to (paused)). gambling-operators is skipped (status blocked) by owner decision. **Daily build cap (owner, 2026-10-27):** at most 5 builder launches per PKT day (`_state/rest/daily-cap.txt`, counted in `_state/rest/build-log.tsv`); reviews, fix rounds and web checks don't count.
 **Run constraint (owner, 2026-10-22):** at most **1 subagent at a time** from batch 5's remaining builds onward (it was 3 until then), builders, reviewers and fix rounds combined; the live cap is in `_state/rest/agent-cap.txt`. §5 step 2's "up to 10 at once" is overridden. The owner set it to 1 to keep quota for other work: the first 37 industries used about 36 points of a 47%-used weekly quota, roughly 1% of a week per industry. Builders must not spawn forks or subagents (the brief says so).
 **Coordinator tooling (2026-10-22):** `_state/rest/brief.py <slug>` prints the §7 brief with built siblings and review lessons; `set_status.py`; `resort_p2.py <slug>` re-sorts a Pass 2 table after a fix; `lens_rebuild.sh` runs §5.3 while later batches are mid-build (it leaves non-`done` slugs out); `build_scorecard.py` writes `_scorecard-index-rest.md` from `qualifiers.jsonl` and checks each profile still says Qualified at the same total. Builder reports, review checklists and pending findings live in `_state/rest/reports/`.
 
@@ -658,47 +658,55 @@ Stage E is the only step that edits existing files. It runs only on the owner's 
 | P2 | Placement priority (web-checked) | 7 | 7 | 463 | 0 | Aircraft MRO, building-material and plumbing/HVAC distribution, heavy civil, assisted living, franchised car dealers and ocean carriers. No qualifiers: the near misses sat on client or member data (dam safety 44 behind CEII and licensee-owned reports, P&I clubs, 20 Groups) or on self-set calendars (lumber and PVC price assessments 41, ship valuation 45). Review added the rulings that contributed data with unseen aggregate-use terms is "undetermined" rather than live, per-dam, per-project and per-aircraft reviewers are production, and gate-failure profiles still state their switch. The shared RFQ vendor niche now carries a four-way line (SKU-matched lists → RFQ; plan-and-spec takeoff, lighting packages and HVAC re-selection → each distributor's own niche). The owner's MVP ideas were grounded or reframed (bid tabs scoped away from highway work; FAA has no bulk AD download; B/L data ownership stated). |
 | P3 | Placement priority (web-checked) | 6 | 6 | 398 | 0 | Diagnostic imaging, consumer products, clinical labs, defense systems, colleges and pharmaceutical manufacturers. No qualifiers: the near misses were regulatory and data publishers on their own clocks (pharma regulatory intelligence 47 at Q4 3, retailer shopper data 46, labs' data licensing 46) or consultancies on client data (enrolment optimisation 47 behind FERPA, imaging core labs 46). Review added that computer-system validation and Part 11 are not kill switches, that admits who never enrol are not FERPA students, that a regulatory effective date is the client's clock, and that association member surveys are membership data. Defense content was held to industry level (energetics described only as process records). The owner's MVP ideas were reframed where the data or rule had moved (CMS AUC paused; Medicare pays the lab fee schedule mechanically, so the money is in commercial contracts priced off it). |
 | P4 | Placement priority (desk-ranked) | 8 | 7 | 454 | 0 | IDD group homes, IT value-added resellers, land developers, optometry, powersports and boat dealers, grocery stores, and oil and gas producers; gambling-operators skipped by the owner on 2026-10-24 (status `blocked`). No qualifiers: the near misses sat on sponsor data or HIPAA (ophthalmic CROs 46, vision plans 42, IDD rate-study consultancies 42) or on their own calendars with few buyers (household receipt panels 46, boat registration data 43, public-sector IT procurement intelligence 41). Review excluded more production staff from gate headcounts (code encoders, per-deal bankers, option underwriters, per-dealer credit reviewers, insurance underwriters, per-AFE engineers, per-payer auditors), ruled out time-to-approval and proof-method win conditions, held that content licensed to a vendor for republication is vendor product rights, and judged subscription and managed-service halves separately. Placement check: the desk employer score held for grocery (Afresh has three US FDE roles) and narrowly for powersports; it looks a point high for optometry, oil and gas and IT VARs, and IDD and land-entitlement vendors showed little US engineering hiring. |
-| 9b | 56 Admin, Support & Waste | 6 | 0 | — | — | — |
-| 10 | 61 Education | 8 | 0 | — | — | — |
-| 11 | 62 Health Care | 5 | 0 | — | — | — |
-| 12 | 62 Health Care | 5 | 0 | — | — | — |
-| 13 | 53 Real Estate & Rental | 9 | 0 | — | — | — |
-| 14 | 71 Arts & Recreation | 8 | 0 | — | — | — |
-| 15 | 71 Arts & Recreation | 7 | 0 | — | — | — |
-| 16 | 81 Other Services | 8 | 0 | — | — | — |
-| 17 | 81 Other Services | 7 | 0 | — | — | — |
-| 18 | 81 Other Services | 7 | 0 | — | — | — |
-| 19 | 72 Accommodation & Food | 6 | 0 | — | — | — |
-| 20 | 42 Wholesale | 6 | 0 | — | — | — |
-| 21 | 42 Wholesale | 6 | 0 | — | — | — |
-| 22 | 42 Wholesale | 7 | 0 | — | — | — |
-| 23 | 42 Wholesale | 7 | 0 | — | — | — |
-| 24 | 44-45 Retail | 7 | 0 | — | — | — |
+| 9b | 56 Admin, Support & Waste | 3 | 0 | — | — | — |
+| Q1 | Priority order (2026-10-27, desk-ranked; web check before build) | 5 | 0 | — | — | — |
+| Q2 | Priority order (2026-10-27, desk-ranked; web check before build) | 5 | 0 | — | — | — |
+| Q3 | Priority order (2026-10-27, desk-ranked; web check before build) | 5 | 0 | — | — | — |
+| Q4 | Priority order (2026-10-27, desk-ranked; web check before build) | 5 | 0 | — | — | — |
+| Q5 | Priority order (2026-10-27, desk-ranked; web check before build) | 5 | 0 | — | — | — |
+| Q6 | Priority order (2026-10-27, desk-ranked; web check before build) | 5 | 0 | — | — | — |
+| Q7 | Priority order (2026-10-27, reserves) | 5 | 0 | — | — | — |
+| 20 | 42 Wholesale | 2 | 0 | — | — | — |
 | 25 | 44-45 Retail | 10 | 0 | — | — | — |
-| 26 | 44-45 Retail | 10 | 0 | — | — | — |
-| 27 | 48-49 Transportation | 7 | 0 | — | — | — |
-| 28 | 48-49 Transportation | 7 | 0 | — | — | — |
-| 29 | 48-49 Transportation | 6 | 0 | — | — | — |
-| 30 | 23 Construction | 6 | 0 | — | — | — |
+| 10 | 61 Education | 8 | 0 | — | — | — |
+| 18 | 81 Other Services | 6 | 0 | — | — | — |
+| 21 | 42 Wholesale | 2 | 0 | — | — | — |
+| 19 | 72 Accommodation & Food | 6 | 0 | — | — | — |
+| 24 | 44-45 Retail | 7 | 0 | — | — | — |
+| 11 | 62 Health Care | 3 | 0 | — | — | — |
+| 16 | 81 Other Services | 8 | 0 | — | — | — |
+| 12 | 62 Health Care | 2 | 0 | — | — | — |
+| 23 | 42 Wholesale | 4 | 0 | — | — | — |
+| 27 | 48-49 Transportation | 6 | 0 | — | — | — |
+| 22 | 42 Wholesale | 6 | 0 | — | — | — |
 | 31 | 23 Construction | 8 | 0 | — | — | — |
-| 32 | 22 Utilities | 7 | 0 | — | — | — |
-| 33 | 21 Mining | 7 | 0 | — | — | — |
-| 34 | 11 Agriculture | 8 | 0 | — | — | — |
+| 30 | 23 Construction | 5 | 0 | — | — | — |
+| 13 | 53 Real Estate & Rental | 7 | 0 | — | — | — |
+| 14 | 71 Arts & Recreation | 7 | 0 | — | — | — |
+| 28 | 48-49 Transportation | 6 | 0 | — | — | — |
+| 17 | 81 Other Services | 6 | 0 | — | — | — |
+| 15 | 71 Arts & Recreation | 7 | 0 | — | — | — |
+| 43 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 46 | 31-33 Manufacturing | 8 | 0 | — | — | — |
+| 49 | 92 Public Administration | 8 | 0 | — | — | — |
+| 26 | 44-45 Retail | 9 | 0 | — | — | — |
 | 35 | 11 Agriculture | 8 | 0 | — | — | — |
-| 36 | 31-33 Manufacturing | 10 | 0 | — | — | — |
-| 37 | 31-33 Manufacturing | 10 | 0 | — | — | — |
-| 38 | 31-33 Manufacturing | 10 | 0 | — | — | — |
-| 39 | 31-33 Manufacturing | 9 | 0 | — | — | — |
-| 40 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 44 | 31-33 Manufacturing | 9 | 0 | — | — | — |
+| 9c | 56 Admin, Support & Waste (9b remainder) | 3 | 0 | — | — | — |
+| 47 | 31-33 Manufacturing | 7 | 0 | — | — | — |
+| 45 | 31-33 Manufacturing | 10 | 0 | — | — | — |
 | 41 | 31-33 Manufacturing | 10 | 0 | — | — | — |
 | 42 | 31-33 Manufacturing | 10 | 0 | — | — | — |
-| 43 | 31-33 Manufacturing | 10 | 0 | — | — | — |
-| 44 | 31-33 Manufacturing | 10 | 0 | — | — | — |
-| 45 | 31-33 Manufacturing | 10 | 0 | — | — | — |
-| 46 | 31-33 Manufacturing | 8 | 0 | — | — | — |
-| 47 | 31-33 Manufacturing | 8 | 0 | — | — | — |
-| 48 | 92 Public Administration | 9 | 0 | — | — | — |
-| 49 | 92 Public Administration | 8 | 0 | — | — | — |
+| 39 | 31-33 Manufacturing | 7 | 0 | — | — | — |
+| 48 | 92 Public Administration | 8 | 0 | — | — | — |
+| 29 | 48-49 Transportation | 6 | 0 | — | — | — |
+| 38 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 37 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 34 | 11 Agriculture | 8 | 0 | — | — | — |
+| 36 | 31-33 Manufacturing | 10 | 0 | — | — | — |
+| 32 | 22 Utilities | 4 | 0 | — | — | — |
+| 33 | 21 Mining | 7 | 0 | — | — | — |
+| 40 | 31-33 Manufacturing | 9 | 0 | — | — | — |
 
 ---
 

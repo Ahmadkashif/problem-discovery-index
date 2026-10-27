@@ -120,3 +120,23 @@ Renewable power producers is the closest miss. It has the strongest pain and dat
 - Defense roles (Anduril, Vannevar) often need US citizenship or a clearance.
 - Rows marked desk in the TSV are judgement scores, not evidence.
 - The 257 industries built before this plan (the original 118 plus Phase 4) are not scored here. The same script could score them.
+
+## Priority order for the rest of the run (2026-10-27)
+
+The owner restarted the run on 2026-10-27 with five industries a day (one agent, 00:00–12:00 PKT) and asked for the industries that matter most to the placement goal to go first, so the other ~290 can wait. `_state/rest/priority_order.py` put these 35 into daily batches Q1–Q7, right after waste batch 9b's three built industries. All of them are desk scores apart from the ones marked web, and desk E ran about a point high when the first 42 were checked. So each batch gets a web check (vendors with open engineering or FDE roles, own pages only) before its builders start, and any industry that fails moves behind Q7.
+
+How they were picked: the filter score first; then a boost where an industry shares a vendor field that already proved out in P1–P4 (AI quoting for distributors, prior-auth and revenue-cycle vendors in healthcare, the dealer and auction stack in autos), so one demo can be shown to several vendors; then a cut for clearance or citizenship limits (owner works from Pakistan) and for buyers who move through public procurement.
+
+| Day | Batch | Industries | Why this group |
+|---|---|---|---|
+| 1 | Q1 | Renewable Power Producers (36, web), Wholesale Auto Auctions (35), Community Health Centers (35), Parking Operators (35), Auto Parts Distributors (34) | Strongest pain and public data checked so far (interconnection queues), the auction and parts side of the built dealer stack, healthcare's FDE market with public HRSA UDS data, and parking's computer-vision vendors |
+| 2 | Q2 | Sports Teams (35), Self-Storage Operators (35), Psychiatric Hospitals (34), Consumer Goods Wholesalers (34), Ambulance Services (34) | Public sports data for demos, storage revenue management, behavioural-health vendors, the distributor quoting field again, EMS billing |
+| 3 | Q3 | Electronic Component Distributors (33, web), Air Cargo Carriers (34), Heavy Equipment Dealers (32), Plastic Molders (34), Specialty Hospitals (32) | BOM quoting, digital cargo booking, equipment pricing, job-shop quote automation |
+| 4 | Q4 | Medical Supply Distributors (32, web), Residential Treatment Centers (32, web), Aircraft & Railcar Lessors (34), Biologics Manufacturers (33), LTL Carriers (29, web) | Web-checked near misses with real pain (2026 DME bidding, 42 CFR Part 2, NMFC reclass) plus lease-document and GxP work |
+| 5 | Q5 | Beverage Alcohol Distributors (32), Metal Service Centers (32, web), PCB Fabricators (34), Courts (32), Highway Contractors (34, web) | More of the distributor and job-shop fields; legal AI's vendors via courts; the heavy-civil bid-tab demo reused |
+| 6 | Q6 | Auto Salvage Yards (34), Thrift & Resale Stores (34), Transmission Operators (31), Nuclear Power Plants (34), Cosmetics Manufacturers (34) | Salvage auctions, resale pricing, transmission interconnection; nuclear sits late for citizenship limits |
+| 7 | Q7 | Manufacturers' Representatives (33, web), Aviation Parts Distributors (31, web), Fuel Distributors (32), Weight-Loss Centers (34), Dental Laboratories (34) | Reserves that move up when a Q1–Q6 pick fails its web check |
+
+After Q7 the sector batches run in order of their mean placement score, highest first: wholesale, retail, education and specialty services lead, and the low-scoring plant, mill, mining and utility batches come last. Waste batch 9b closes with its three built industries; its three unbuilt ones (waste-to-energy, recycling, septic) moved to batch 9c in the tail. Casinos (batch 15) and racetracks are gambling-adjacent; they stay in the tail until the owner says whether "skip gambling entirely" covers them.
+
+At five a day the Q batches take seven nights (2026-10-28 to 2026-11-03) and roughly 35–50% of a weekly quota per week. Re-decide after Q7 whether the tail is worth the quota.

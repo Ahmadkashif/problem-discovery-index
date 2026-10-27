@@ -13,6 +13,8 @@ The run order and cursor live in `../../_remaining-industry-implementation-and-d
 | `sources/<slug>.md` | Per-industry log of web-checked claims, estimates and empty searches |
 | `placement_filter.py` | Short-term placement filter (owner, 2026-10-23): desk scores for all 421 industries plus web-checked corrections; writes `placement-filter.tsv`. Report: `../../_short-term-placement-filter.md` |
 | `placement-evidence/` | The web check behind the filter: hiring vendors with role URLs, the open pain and a two-week MVP per industry |
+| `priority_order.py` | Owner's priority order (2026-10-27): daily batches Q1–Q7 after 9b, sector batches sorted by mean placement score |
+| `daily-cap.txt`, `build-log.tsv` | Builder launches allowed per PKT day (owner rule 2026-10-27: 5) and the log they are counted from (one row per builder launch) |
 
 Run from the vault root:
 
