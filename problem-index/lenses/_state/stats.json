@@ -1,10 +1,10 @@
 {
- "n_industries": 355,
- "n_subniches": 6376,
+ "n_industries": 360,
+ "n_subniches": 6501,
  "industries": {
   "ai_proof": {
-   "median": 40,
-   "mean": 43.0,
+   "median": 40.0,
+   "mean": 43.2,
    "top": [
     {
      "id": "childcare-centers",
@@ -341,8 +341,8 @@
    ]
   },
   "clarity": {
-   "median": 62,
-   "mean": 60.2,
+   "median": 62.0,
+   "mean": 60.4,
    "top": [
     {
      "id": "clinical-laboratories",
@@ -679,8 +679,8 @@
    ]
   },
   "digital": {
-   "median": 69,
-   "mean": 60.7,
+   "median": 69.0,
+   "mean": 60.3,
    "top": [
     {
      "id": "ai-agent-platforms",
@@ -1018,11 +1018,11 @@
   },
   "rho_clarity_ai_proof": -0.14,
   "rho_digital_ai_proof": -0.84,
-  "rho_digital_clarity": -0.04
+  "rho_digital_clarity": -0.05
  },
  "subniches": {
   "ai_proof": {
-   "median": 30.0,
+   "median": 30,
    "mean": 34.3,
    "top": [
     {
@@ -1360,7 +1360,7 @@
    ]
   },
   "clarity": {
-   "median": 69.0,
+   "median": 69,
    "mean": 65.1,
    "top": [
     {
@@ -1698,8 +1698,8 @@
    ]
   },
   "digital": {
-   "median": 88.0,
-   "mean": 76.5,
+   "median": 88,
+   "mean": 76.4,
    "top": [
     {
      "id": "interior-design-firms/ad-market-research-firms",
@@ -1812,6 +1812,17 @@
      "why_digital": "Audio and model outputs in, attribution reports out, entirely online."
     },
     {
+     "id": "auto-parts-distributors/ai-parts-identification-vendors",
+     "name": "AI Parts-Identification & Fitment Vendors",
+     "industry": "Auto Parts Distributors & Stores",
+     "ai_proof": 20,
+     "clarity": 75,
+     "digital": 100,
+     "why_ai": "Identification models are software competing with other models, protected by data and accuracy rather than people.",
+     "why_clarity": "Parts lists are right or wrong per job at high volume, checked when the repair is done.",
+     "why_digital": "Estimates, photos and catalogs in, parts lists out, sold as software."
+    },
+    {
      "id": "legal-support-services/ai-prior-art-search-tools",
      "name": "AI Prior-Art Search Tool Vendors",
      "industry": "Legal Support Services",
@@ -1854,17 +1865,6 @@
      "why_ai": "Generic coding agents generate and repair tests, competing directly with dedicated vendors.",
      "why_clarity": "Tests run constantly, but a healed test that masks a regression goes unnoticed.",
      "why_digital": "Application code in, generated tests out, all in software."
-    },
-    {
-     "id": "no-code-app-builders/ai-generated-app-sprawl",
-     "name": "AI-Generated App Sprawl",
-     "industry": "No-Code App Builders",
-     "ai_proof": 20,
-     "clarity": 56,
-     "digital": 100,
-     "why_ai": "Demand for governing generated apps grows with AI, though the solution itself is software.",
-     "why_clarity": "Provenance is recordable, but what counts as maintainable ownership is loosely defined.",
-     "why_digital": "App definitions and logs in, governance records out, entirely software."
     }
    ],
    "bottom": [
@@ -2037,7 +2037,7 @@
   },
   "rho_clarity_ai_proof": -0.51,
   "rho_digital_ai_proof": -0.74,
-  "rho_digital_clarity": 0.26
+  "rho_digital_clarity": 0.25
  },
  "anchor_drift": {
   "ai_proof": {

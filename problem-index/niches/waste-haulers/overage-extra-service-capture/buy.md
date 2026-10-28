@@ -11,7 +11,7 @@
 An overage charge is a penalty notice in all but name, and customers contest it the way drivers contest tickets.
 
 ## What Already Exists
-Automated parking and traffic enforcement platforms capture an image, match it to a registered owner, issue a notice with evidence, handle payment and run an appeal process with review queues and statutory timelines.
+Automated parking and traffic enforcement platforms capture an image, match it to a registered owner, issue a notice with evidence, handle payment and run an appeal process with review queues and statutory timelines (the private-lot version is [[niches/parking-operators/parking-notice-processing/profile|Parking Notice Processing & Disputes]]).
 
 ## The Customization Gap
 The adaptation needs: matching an image to a container and account instead of a plate; contract and franchise rules instead of a traffic code; a first-warning-per-year rule and seven-day waits like those in the Nevada settlement; an option to resolve by upsizing service instead of paying; and an appeal handled by a customer service rep inside the hauler's CRM rather than by a hearing officer.

@@ -480,7 +480,6 @@ EVIDENCE = {
     "defense-systems-manufacturers": (4, 3, 4, 2, 3, "FDE roles: Anduril, Vannevar Labs, SalesPatriot; clearance limits; CMMC L2 paused 2026-07"),
     "franchised-car-dealers": (3, 5, 3, 3, 4, "BizzyCar (eng lead, full stack); Toma/Impel unconfirmed; 19M of 53M service calls missed in 2025"),
     # energy, transport and other group (roles counted only when seen open on the page)
-    "renewable-power-producers": (2, 5, 5, 3, 4, "Nira FDE closed; Enverus/Pearl Street, RatedPower unconfirmed; MVP: queue risk on LBNL Queued Up + ISO queues"),
     "electric-utilities": (4, 4, 4, 3, 4, "Gridsight (FDE, confirmed), E Source and MLabs (FDE, aggregator); MVP: hosting-capacity screen on EIA-860/861"),
     "aircraft-mro-shops": (3, 5, 3, 4, 4, "FDE roles: Zymbly, Soji AI; ~17,000 mechanic shortfall; MVP: work-card checker vs FAA ADs/SDRs"),
     "ltl-carriers": (2, 4, 3, 3, 3, "Pallet (agent delivery, logistics-wide), project44 unconfirmed; NMFC density reclass"),
@@ -494,6 +493,17 @@ EVIDENCE = {
     "appliance-repair-companies": (1, 3, 3, 5, 3, "no vendors hiring"),
     "mortgage-lenders": (4, 4, 4, 3, 4, "Ocrolus mortgage FDE (confirmed); Valon, Addy AI, Saaf (FDE, aggregator); MVP: LE vs CD fee-cure checker"),
     "title-and-settlement-offices": (3, 4, 3, 4, 4, "Qualia (engineering), Propy; MVP: closing-package checker on recorder documents"),
+    # Q1-Q2 pre-batch check (2026-10-28; own pages, ATS boards and YC job pages only)
+    "renewable-power-producers": (4, 5, 5, 4, 4, "re-checked 2026-10-28: Paces (6 eng roles, Brooklyn), Tyba (Sr SWE), Nira (CPTO only), Redwood Energy (storage SWE); MVP: withdrawal/COD model on LBNL Queued Up + ISO queues"),
+    "wholesale-auto-auctions": (3, 4, 4, 3, 4, "ACV (SWE III, Buffalo), CarGurus/CarOffer (SDE II, Boston); Cox/Manheim, OPENLANE unconfirmed; NAAA 2026 arbitration guidelines; MVP: arb-risk checker on vPIC + recalls API"),
+    "community-health-centers": (5, 5, 4, 4, 5, "Relevant (Lead Engineer), Azara, Medical Home Network, Candid and Trellis (FDE); CY2026 UDS table revisions due Feb 2027 (UDS+ patient-level on hold); MVP: UDS readiness on Synthea + HRSA UDS data"),
+    "parking-operators": (4, 4, 4, 4, 4, "Metropolis (~20 eng roles), SpotHero, Parkade; MVP: occupancy/yield pricing on Seattle or SFpark open data + ALPR demo"),
+    "auto-parts-distributors": (4, 4, 4, 5, 4, "FDE roles: Endeavor, Paragon, SalesPatriot (distributor order intake, not auto-specific); PartsTech, Partly unconfirmed; MVP: shop-order intake on vPIC + synthetic ACES/PIES"),
+    "sports-teams": (4, 3, 3, 3, 4, "Teamworks, SeatGeek, Genius Sports (large employers); KORE, StellarAlgo, Relo unconfirmed; MVP: MiLB ticket pricing on MLB Stats API + SeatGeek API"),
+    "self-storage-operators": (3, 4, 3, 4, 4, "Storable (AI agents SWE, Seattle), OpenUnit (YC); ECRI notice bills (Illinois HB 645); MVP: ECRI optimiser on synthetic ledger"),
+    "psychiatric-hospitals": (5, 5, 3, 3, 4, "FDE roles: AKASA, Candid, Trellis (shared RCM); Eleos (Tel Aviv); FY2027 IPF PPS assessment instrument; MVP: UR packet drafter + IPFQR benchmark"),
+    "consumer-goods-wholesalers": (5, 5, 4, 5, 5, "Glimpse (deductions, SWE roles, a16z Series A Mar 2026); FDE roles: Endeavor, Paragon, SalesPatriot; MVP: X12 812/820 deduction triage + PO intake"),
+    "ambulance-services": (4, 5, 4, 4, 5, "ImageTrend (EMS software eng), Substrate and Candid (FDE, shared RCM); RSNAT prior auth; MVP: PCS/medical-necessity checker on NEMSIS + CMS ambulance fee schedule"),
 }
 
 desk = {}

@@ -58,7 +58,7 @@ Several positions are already profiled under other industries and are not repeat
 | 10 | Industrial Buying & Marketing Groups | Aggregator/rollup | ~10-40 at the largest group | 36 | ⚠️ Kill switch |
 | 11 | Distributor Rollup & Platform Integration Analytics | Aggregator/rollup | ~10-40 per platform | 31 | Below threshold |
 | 12 | Bearing & PT Manufacturers' Channel Analytics | Supplier | ~10-50 per manufacturer | 29 | Below threshold |
-| 13 | Distributor ERP Vendors | Supplier | ~10-30 per vendor | 24 | ⚠️ Kill switch |
+| 13 | Distributor ERP Vendors | Supplier | ~10-30 per vendor | 24 | Below threshold |
 | 14 | Federal MRO Buyers | Payer & intermediary | ~20-100 | 21 | Below threshold |
 | 15 | Rebate & SPA Claim Administration Services | Payer & intermediary | ~3-10 analytics staff; claim processors are production | — | Fails gate |
 | 16 | Bearing Trade-Remedy Enforcement | Regulatory | a handful on the bearing orders | — | Fails gate |

@@ -24,5 +24,5 @@ The vendors of the ERPs industrial distributors run on — Epicor (Prophet 21 an
 | Q5 Buyer + market | ×2 | 2 |
 | **Weighted total** | | **24/60** |
 
-**Kill switches:** **entrenched incumbent owns the workflow** — the ERP is the system of record whose schema every add-on must work through — and **data isn't theirs**, because hosted transaction data belongs to the distributors.
-**Verdict:** Logged — kill switch. Analytics serve the product, and the vendors are the incumbents an insight tool would have to work through, not buyers of one.
+**Kill switches:** *data isn't theirs to use* — undetermined: hosted transaction data belongs to the distributors under ERP and SaaS terms that were not read. (An entrenched incumbent owning the workflow is not a switch on the incumbent itself: these vendors are that incumbent.)
+**Verdict:** Logged — below threshold (24; data switch undetermined, terms unread; changed from kill switch in the batch Q1 review, 2026-10-28). Analytics serve the product, and the vendors are the incumbents an insight tool would have to work through, not buyers of one.

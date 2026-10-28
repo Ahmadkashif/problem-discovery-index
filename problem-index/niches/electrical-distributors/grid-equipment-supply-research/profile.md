@@ -25,4 +25,4 @@ Energy and industrial research firms survey transformer, switchgear and other gr
 | **Weighted total** | | **40/60** |
 
 **Kill switches:** none — survey responses are given to the firm for aggregate publication.
-**Verdict:** Logged — below threshold. Scored against [[niches/metal-fabrication/metals-market-intelligence/profile|Metals Market Intelligence]] (45) and [[niches/commodity-brokers/energy-fundamentals-research-houses/profile|Energy Fundamentals Research Houses]] (44): Q3 is 3 because a lead-time survey is less owned than a maintained capacity database, and Q4 is 2 because no official release grades the numbers on a calendar the firms don't set.
+**Verdict:** Logged — below threshold. Scored against [[niches/metal-fabrication/metals-market-intelligence/profile|Metals Market Intelligence]] (45) and [[niches/commodity-brokers/energy-fundamentals-research-houses/profile|Energy Fundamentals Research Houses]] (40): Q3 is 3 because a lead-time survey is less owned than a maintained capacity database, and Q4 is 2 because no official release grades the numbers on a calendar the firms don't set.

@@ -52,8 +52,8 @@ Second, orthogonal sweep. Pass 1 searched across the operator layer, where Censu
 |---|---|---|---|---|---|
 | 9 | Consumer-Products Licensing Royalty Auditors | Specialist advisory | 10-40 | 46 | ⚠️ Kill switch |
 | 10 | Shelf Image Recognition & Retail Execution Vendors | Supplier | 10-40 client-insight analysts (largest vendors) | 36 | ⚠️ Kill switch |
-| 11 | Brand Licensing Agencies & Extension Consultancies | Specialist advisory | 10-40 | 33 | ⚠️ Kill switch |
-| 12 | Publisher Category Management & Consumer Insight Teams | Aggregator/rollup | 20-80 | 32 | ⚠️ Kill switch |
+| 11 | Publisher Category Management & Consumer Insight Teams | Aggregator/rollup | 20-80 | 34 | ⚠️ Kill switch |
+| 12 | Brand Licensing Agencies & Extension Consultancies | Specialist advisory | 10-40 | 33 | ⚠️ Kill switch |
 | 13 | Entertainment Licensors' Consumer Products Insight | Supplier | 20-100 | 30 | Below threshold |
 | 14 | Specialty Paper & Foil Suppliers' Application Teams | Supplier | 10-50 | 21 | Below threshold |
 | 15 | Retail Space Planning Software Vendors | Supplier | under 10 analysts | — | Fails gate |

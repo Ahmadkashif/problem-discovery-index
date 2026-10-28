@@ -24,5 +24,5 @@ Specialty consumer reporting agencies that hold payroll records contributed by e
 | Q5 Buyer + market | ×2 | 2 |
 | **Weighted total** | | **36/60** |
 
-**Kill switches:** lean live, unverified — data isn't theirs to use. The records are employers' payroll data supplied under service and contribution agreements (recalled, often bundled with employer services such as unemployment-claims handling) and released as consumer reports for a permissible purpose; the agreements' terms were not checked, so whether they grant the database rights beyond verification is unknown, and the switch is treated as live until they are.
+**Kill switches:** live — data isn't theirs to use. The records are employers' payroll data supplied under service and contribution agreements (recalled, often bundled with employer services such as unemployment-claims handling) and released as consumer reports for a permissible purpose; the agreements' terms were not checked, but data furnished for release as consumer reports under the FCRA is live under this run's furnishing ruling, whatever the contribution terms say.
 **Verdict:** Logged — kill switch (36). The product is a point-of-decision lookup on an owned dataset run by a small analytical team (Q2 2, Q4 2, as for the deposit-screening, short-term lending and cash-flow pockets here), and one database dominates (Q5 2).

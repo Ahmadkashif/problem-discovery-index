@@ -25,4 +25,4 @@ Category-specific used-value guides outside the J.D. Power and Black Book family
 | **Weighted total** | | **—/60** |
 
 **Kill switches:** none — NPA prices from its own hammer results, and BUC licenses values built from reported sales commercially, which this run treats as the vendor's product rights.
-**Verdict:** Logged — fails gate (no 10-person valuation team; the guide rides on the auction or the listings). The large guide publishers are [[niches/auto-dealers-independent/vehicle-valuation-guides/profile|Vehicle Valuation Guide Publishers]] (56, indexed; ~52 under this run's vendor-calendar ruling, Stage E). NPA's auction operation fits the queued Wholesale Auto Auctions industry's dealer-only auction shape.
+**Verdict:** Logged — fails gate (no 10-person valuation team; the guide rides on the auction or the listings). The large guide publishers are [[niches/auto-dealers-independent/vehicle-valuation-guides/profile|Vehicle Valuation Guide Publishers]] (56, indexed; ~52 under this run's vendor-calendar ruling, Stage E). NPA's auction operation fits the dealer-only auction shape of [[industries/wholesale-auto-auctions|Wholesale Auto Auctions]].

@@ -21,8 +21,8 @@ The largest card publishers, Hallmark and American Greetings (majority-owned by 
 | Q2 Labor mass + repeatable | ×2 | 3 |
 | Q3 Proprietary data moat | ×3 | 4 |
 | Q4 External clock | ×2 | 3 |
-| Q5 Buyer + market | ×2 | 1 |
-| **Weighted total** | | **32/60** |
+| Q5 Buyer + market | ×2 | 2 |
+| **Weighted total** | | **34/60** |
 
 **Kill switches:** *Data isn't theirs to use:* live. The scan data is the retailer's, shared under supply agreements for managing that retailer's department; using it across accounts or outside the relationship is restricted.
-**Verdict:** Logged — kill switch. The richest outcome data in the industry, used to win contracts rather than invoiced, held under the retailer's terms, and a buyer market of two or three firms.
+**Verdict:** Logged — kill switch. The richest outcome data in the industry, used to win contracts rather than invoiced, held under the retailer's terms, and a buyer market of two or three firms (Q5 2, raised from 1 in the batch Q1 review, 2026-10-28: a handful of firms scores 2–3).

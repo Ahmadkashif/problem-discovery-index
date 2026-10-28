@@ -20,9 +20,9 @@ Research firms that build oil, refined product, natural gas and LNG supply-deman
 | Q1 Insight is the invoice | ×3 | 5 |
 | Q2 Labor mass + repeatable | ×2 | 3 |
 | Q3 Proprietary data moat | ×3 | 3 |
-| Q4 External clock | ×2 | 4 |
+| Q4 External clock | ×2 | 2 |
 | Q5 Buyer + market | ×2 | 3 |
-| **Weighted total** | | **44/60** |
+| **Weighted total** | | **40/60** |
 
 **Kill switches:** none
-**Verdict:** Logged — below threshold. Scored against its metals siblings [[niches/metal-fabrication/metals-market-intelligence/profile|🔍 Metals Market Intelligence]] (45) and [[niches/pawnshops/precious-metals-supply-research/profile|🔍 Precious Metals Supply & Recycling Research]] (45). Q3 is 3 rather than their 4 because energy balances rest on public statistics and licensed flows rather than owned capacity databases or field surveys. Q4 is 4 rather than 3 because the weekly and monthly official releases grade the numbers on a calendar the firms don't set. Upstream and asset research for producers belongs to [[industries/oil-and-gas-producers|Oil & Gas Producers]].
+**Verdict:** Logged — below threshold. Scored against its metals siblings [[niches/metal-fabrication/metals-market-intelligence/profile|🔍 Metals Market Intelligence]] (45) and [[niches/pawnshops/precious-metals-supply-research/profile|🔍 Precious Metals Supply & Recycling Research]] (45). Q3 is 3 rather than their 4 because energy balances rest on public statistics and licensed flows rather than owned capacity databases or field surveys. Q4 is 2: the weekly and monthly official releases grade the numbers on a calendar the firms don't set, but no deadline binds the firms' own work, and a statistics agency's release calendar is scored like any publisher's own calendar (rescored from 4 in the batch Q1 review, 2026-10-28). Upstream and asset research for producers belongs to [[industries/oil-and-gas-producers|Oil & Gas Producers]].
