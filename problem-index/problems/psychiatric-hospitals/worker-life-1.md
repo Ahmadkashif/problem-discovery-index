@@ -1,0 +1,20 @@
+# The Mental Health Technician on Fifteen-Minute Checks
+
+**Industry:** [[psychiatric-hospitals|Psychiatric Hospitals]]
+**Type:** Worker Life Changing
+**One-liner:** A mental health technician spends a twelve-hour shift walking the unit every fifteen minutes with a clipboard, or sitting an arm's length from one patient, and is the staff member most likely to be hit, so what she gets back is time, safety and a record that protects her.
+**Tags:** #worker-facing #automation #workflow-orchestration #object-detection #time-series-forecasting #descriptive-statistics #compliance
+
+## The Problem
+Mental health technicians, also called psychiatric technicians or behavioral health associates, are the largest group of staff on a psychiatric unit and the lowest paid (~$17–$22 an hour, estimate). Their core task is observation. Every patient is checked at least every 15 minutes, around the clock: the technician walks the hall, looks into each room, and writes a code for where the patient is and what they are doing (in bed, in the day room, pacing, asleep with breathing seen). A 20-bed unit is 1,920 entries a day. Patients at high risk of suicide or violence are on 1:1 observation, so a technician sits within arm's reach of one person for a whole shift, including in the bathroom doorway.
+
+The technician is also the first to respond when a patient escalates, and the one who holds a limb during a restraint. In 2017–2020 psychiatric and substance abuse hospitals recorded more than 100 violence injuries with days away from work per 10,000 workers, against 7–17 for the rest of the hospital subsector (AHRQ, using BLS data; search summary), and BLS has found psychiatric aides and technicians among the occupations with the highest rates of injury from patient violence (search summary). After a shift with a restraint she stays late to write her statement.
+
+## Why It Matters to the Worker
+The rounding sheet is a liability trap. If a patient harms themselves between checks, the first question in the review is whether the 15-minute boxes were filled in on time and honestly. A technician covering two hallways because someone called out sometimes fills boxes from memory, and knows it. The 1:1 is exhausting and dull at once: twelve hours of vigilance with no task, while the patient resents being watched. And the job is physically dangerous for people who often hold a second job. Turnover is high, so units run on new technicians who have not yet learned which patients to stand back from.
+
+## What a Solution Looks Like
+Digital rounding on a handheld that prompts each check at the right moment, records time and location automatically from room beacons, takes a one-tap behaviour code, and warns the charge nurse when a check is late. That removes the paper and makes the record defensible. Where hospitals choose video or contactless sensors, as AvaSure and Oxehealth sell (search summary), one observer can watch several low-to-moderate-risk patients and technicians are freed for the patients who need a person in the room. Any camera-based system is trained and demonstrated only on consented or synthetic footage, and its alerts go to a person, not to an automatic response. This note's capture surface is the technician's own rounding entry, and digital 15-minute rounds are step one of the solution for her sake: less writing, a defensible record and fewer hours in a chair. The high-impact note captures something else, the charge nurse's worry rating and actions at handover; the rounding entries only become one of its inputs once they are digital, so the technician's observations finally count.
+
+## Impact If Solved
+If digital rounding cuts the ~1,920 daily entries on a 20-bed unit from ~30 seconds of writing each to ~5 seconds of tapping, it frees ~13 technician hours a day per unit (estimate). If virtual observation covers a third of 1:1 hours for lower-risk patients, a hospital averaging four 1:1s a shift frees ~32 bedside technician hours a day, less the remote observer's shift, which can go to de-escalation rather than watching (estimate).

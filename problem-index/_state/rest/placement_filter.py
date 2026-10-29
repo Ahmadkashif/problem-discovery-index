@@ -500,7 +500,7 @@ EVIDENCE = {
     "parking-operators": (4, 4, 4, 4, 4, "Metropolis (~20 eng roles), SpotHero, Parkade; MVP: occupancy/yield pricing on Seattle or SFpark open data + ALPR demo"),
     "auto-parts-distributors": (4, 4, 4, 5, 4, "FDE roles: Endeavor, Paragon, SalesPatriot (distributor order intake, not auto-specific); PartsTech, Partly unconfirmed; MVP: shop-order intake on vPIC + synthetic ACES/PIES"),
     "sports-teams": (4, 3, 3, 3, 4, "Teamworks, SeatGeek, Genius Sports (large employers); KORE, StellarAlgo, Relo unconfirmed; MVP: MiLB ticket pricing on MLB Stats API + SeatGeek API"),
-    "self-storage-operators": (3, 4, 3, 4, 4, "Storable (AI agents SWE, Seattle), OpenUnit (YC); ECRI notice bills (Illinois HB 645); MVP: ECRI optimiser on synthetic ledger"),
+    "self-storage-operators": (3, 4, 3, 4, 4, "Storable (AI agents SWE, Seattle), OpenUnit (YC); ECRI notice rules (California 30-day notice, NYC licence 2026-08; Illinois HB 645 unconfirmed, builder 2026-10-29); MVP: ECRI optimiser on synthetic ledger"),
     "psychiatric-hospitals": (5, 5, 3, 3, 4, "FDE roles: AKASA, Candid, Trellis (shared RCM); Eleos (Tel Aviv); FY2027 IPF PPS assessment instrument; MVP: UR packet drafter + IPFQR benchmark"),
     "consumer-goods-wholesalers": (5, 5, 4, 5, 5, "Glimpse (deductions, SWE roles, a16z Series A Mar 2026); FDE roles: Endeavor, Paragon, SalesPatriot; MVP: X12 812/820 deduction triage + PO intake"),
     "ambulance-services": (4, 5, 4, 4, 5, "ImageTrend (EMS software eng), Substrate and Candid (FDE, shared RCM); RSNAT prior auth; MVP: PCS/medical-necessity checker on NEMSIS + CMS ambulance fee schedule"),

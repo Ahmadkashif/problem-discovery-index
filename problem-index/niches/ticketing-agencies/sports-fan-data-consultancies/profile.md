@@ -5,7 +5,7 @@
 **Value-Chain Position:** Specialist advisory & valuation
 
 ## What They Do
-Firms that analyse teams' and venues' ticketing, CRM and fan data to set prices, target renewals and sell premium seating: KORE Software and StellarAlgo on the platform side, Two Circles and smaller agencies on the consulting side. Teams, college athletics departments and venues pay retainers, project fees and subscriptions. The analysis is the product, delivered as pricing recommendations, renewal-risk lists and revenue strategy.
+Firms that analyse teams' and venues' ticketing, CRM and fan data to set prices, target renewals and sell premium seating: KORE and StellarAlgo on the platform side, Two Circles and smaller agencies on the consulting side. KORE is no longer independent: Two Circles agreed to buy it in a deal announced 2024-10-16, and KORE had itself bought the social-sponsorship measurement firm Hookit in 2022 (Hookit purchase: search summary). Teams, college athletics departments and venues pay retainers, project fees and subscriptions. The analysis is the product, delivered as pricing recommendations, renewal-risk lists and revenue strategy.
 
 ## Insight Function
 **Size:** 20-100 analysts and data scientists at the larger firms (estimate)
@@ -21,8 +21,8 @@ Firms that analyse teams' and venues' ticketing, CRM and fan data to set prices,
 | Q2 Labor mass + repeatable | ×2 | 3 |
 | Q3 Proprietary data moat | ×3 | 2 |
 | Q4 External clock | ×2 | 3 |
-| Q5 Buyer + market | ×2 | 3 |
-| **Weighted total** | | **36/60** |
+| Q5 Buyer + market | ×2 | 2 |
+| **Weighted total** | | **34/60** |
 
 **Kill switches:** live — data isn't theirs. The work runs on each client's ticketing and CRM data held under service agreements, and no checked evidence shows those agreements permit pooled research products.
-**Verdict:** Logged — kill switch. The analysis really is the invoice, and the firms sell to a clear revenue owner at each of a few hundred major-league and college programmes. But the firms themselves are a short list rather than a fragmented market (Q5 3), the data belongs to the clients, and the firms' own corpus is thin. This pocket is the natural seller of the renewal-risk work in [[niches/ticketing-agencies/season-ticket-renewals/profile|Season-Ticket & Membership Ticketing]].
+**Verdict:** Logged — kill switch (34). The analysis really is the invoice, and the firms sell to a clear revenue owner at each of a few hundred major-league and college programmes. But the firms themselves are a short list rather than a fragmented market, now shorter with KORE inside Two Circles (Q5 2), the data belongs to the clients, and the firms' own corpus is thin. This pocket is the natural seller of the renewal-risk work in [[niches/ticketing-agencies/season-ticket-renewals/profile|Season-Ticket & Membership Ticketing]].

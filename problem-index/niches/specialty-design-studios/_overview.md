@@ -52,17 +52,17 @@ Second, orthogonal sweep. Pass 1 searched across the operator layer and found st
 |---|---|---|---|---|---|
 | 9 | Lab-Dip & Colour Approval Services | Supplier | 50-200 | 48 | Below threshold |
 | 10 | Pre-Shipment Inspection & Factory QC Services | Specialist advisory | 200-2,000 | 47 | Below threshold |
-| 11 | Apparel Factoring & Retailer Credit | Payer & intermediary | 20-100 | 44 | Below threshold |
-| 12 | Social-Image Trend Prediction Vendors | Data vendor | 20-100 | 42 | Below threshold |
-| 13 | Sourcing Agents & Buying Offices | Aggregator/rollup | 50-500 | 40 | Below threshold |
-| 14 | Material Sustainability Data Platforms | Data vendor | 50-200 | 40 | ⚠️ Kill switch |
-| 15 | Colour Systems & Forecast Publishers | Data vendor | 15-60 | 40 | Below threshold |
-| 16 | Museum Visitor Research & Exhibit Evaluation | Specialist advisory | 10-40 | 39 | Below threshold |
-| 17 | Fabric Digitization & 3D Material Services | Supplier | 10-60 | 38 | Below threshold |
-| 18 | Event General Contractor Data Teams | Aggregator/rollup | 20-80 | 38 | ⚠️ Kill switch |
-| 19 | Brand Licensing Design Direction Teams | Aggregator/rollup | 30-150 | 36 | Below threshold |
-| 20 | Fiber Promotion Research Organisations | Association | 50-200 | 29 | Below threshold |
-| 21 | Apparel & Children's Product Safety Regulators | Regulatory | hundreds | 26 | ⚠️ Kill switch |
+| 11 | Social-Image Trend Prediction Vendors | Data vendor | 20-100 | 42 | Below threshold |
+| 12 | Sourcing Agents & Buying Offices | Aggregator/rollup | 50-500 | 40 | Below threshold |
+| 13 | Material Sustainability Data Platforms | Data vendor | 50-200 | 40 | ⚠️ Kill switch |
+| 14 | Colour Systems & Forecast Publishers | Data vendor | 15-60 | 40 | Below threshold |
+| 15 | Museum Visitor Research & Exhibit Evaluation | Specialist advisory | 10-40 | 39 | Below threshold |
+| 16 | Fabric Digitization & 3D Material Services | Supplier | 10-60 | 38 | Below threshold |
+| 17 | Event General Contractor Data Teams | Aggregator/rollup | 20-80 | 38 | ⚠️ Kill switch |
+| 18 | Brand Licensing Design Direction Teams | Aggregator/rollup | 30-150 | 36 | Below threshold |
+| 19 | Fiber Promotion Research Organisations | Association | 50-200 | 29 | Below threshold |
+| 20 | Apparel & Children's Product Safety Regulators | Regulatory | hundreds | 26 | ⚠️ Kill switch |
+| 21 | Apparel Factoring & Retailer Credit | Payer & intermediary | <10 (credit analysts are production) | — | Fails gate |
 | 22 | Exhibition Industry Research & Exhibit Trade Associations | Association | <10 | — | Fails gate |
 | 23 | Independent Sample Rooms & Development Centres | Supplier | none | — | Fails gate |
 

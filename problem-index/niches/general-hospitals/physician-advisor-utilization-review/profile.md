@@ -11,7 +11,7 @@ These firms provide second-level physician review of inpatient-versus-observatio
 **Size:** ~10-60 analysts and data scientists per firm (estimate); physician advisors reviewing cases one by one are production
 **Output:** Status determinations, peer-to-peer outcomes, appeal letters, status-prediction scores
 **Proprietary data:** Cross-hospital records of status decisions, payer responses and appeal outcomes, held on client charts
-**Clock:** Payer concurrent-review and peer-to-peer windows (often 24–72 hours) and appeal deadlines (recalled)
+**Clock:** Payer concurrent-review and peer-to-peer windows (often 24–72 hours) and appeal deadlines (recalled). Each binds a single review, which is production work, so Q4 is capped at 3
 **Buyer:** Medical Director or Chief Analytics Officer at the firm
 
 ## Scorecard
@@ -20,9 +20,9 @@ These firms provide second-level physician review of inpatient-versus-observatio
 | Q1 Insight is the invoice | ×3 | 4 |
 | Q2 Labor mass + repeatable | ×2 | 3 |
 | Q3 Proprietary data moat | ×3 | 4 |
-| Q4 External clock | ×2 | 4 |
+| Q4 External clock | ×2 | 3 |
 | Q5 Buyer + market | ×2 | 4 |
-| **Weighted total** | | **46/60** |
+| **Weighted total** | | **44/60** |
 
 **Kill switches:** **HIPAA**, and **data isn't theirs**. Determinations are made on identified client charts under business associate agreements.
-**Verdict:** Logged — kill switch. Labour scales with reviewers, who are production, and the decision record is PHI the hospital owns.
+**Verdict:** Logged — kill switch (44). Labour scales with reviewers, who are production, the per-review windows that set its clock bind production work (Q4 3), and the decision record is PHI the hospital owns.

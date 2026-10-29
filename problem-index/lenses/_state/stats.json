@@ -1,10 +1,10 @@
 {
- "n_industries": 360,
- "n_subniches": 6501,
+ "n_industries": 365,
+ "n_subniches": 6614,
  "industries": {
   "ai_proof": {
-   "median": 40.0,
-   "mean": 43.2,
+   "median": 40,
+   "mean": 43.4,
    "top": [
     {
      "id": "childcare-centers",
@@ -106,6 +106,17 @@
      "why_digital": "Care starts from a patient in the room and is delivered in person by local practices, with telehealth and records work on the margin."
     },
     {
+     "id": "psychiatric-hospitals",
+     "name": "Psychiatric Hospitals",
+     "industry": "Psychiatric Hospitals",
+     "ai_proof": 85,
+     "clarity": 50,
+     "digital": 6,
+     "why_ai": "Nurses, technicians and psychiatrists hold, observe and treat people in crisis on locked units around the clock, psychiatrists sign holds and carry liability, and patients held involuntarily did not choose their provider, so trust is 3.",
+     "why_clarity": "Admissions and per diem rules repeat daily, but whether a patient is stable enough to leave is contested and readmission shows up weeks later.",
+     "why_digital": "Care starts and ends with a person on a locked unit, and admissions come from local emergency departments, courts and police."
+    },
+    {
      "id": "skilled-nursing-facilities",
      "name": "Skilled Nursing Facilities",
      "industry": "Skilled Nursing Facilities",
@@ -159,17 +170,6 @@
      "why_ai": "Licensed DC delivers manual adjustments in person and carries the malpractice liability.",
      "why_clarity": "Adjustments recur daily, but techniques vary and outcomes rest on patient-reported response.",
      "why_digital": "Care is hands-on in a local clinic, chosen by nearby patients."
-    },
-    {
-     "id": "faith-organizations",
-     "name": "Faith Organizations",
-     "industry": "Faith Organizations",
-     "ai_proof": 80,
-     "clarity": 31,
-     "digital": 6,
-     "why_ai": "Congregants come for a pastor and a gathered community; pastoral care is personal and consequential.",
-     "why_clarity": "Services recur weekly, but spiritual success is a matter of faith and never objectively checked.",
-     "why_digital": "Worship, care and volunteering happen in person in a local building."
     }
    ],
    "bottom": [
@@ -341,8 +341,8 @@
    ]
   },
   "clarity": {
-   "median": 62.0,
-   "mean": 60.4,
+   "median": 62,
+   "mean": 60.3,
    "top": [
     {
      "id": "clinical-laboratories",
@@ -679,8 +679,8 @@
    ]
   },
   "digital": {
-   "median": 69.0,
-   "mean": 60.3,
+   "median": 69,
+   "mean": 59.7,
    "top": [
     {
      "id": "ai-agent-platforms",
@@ -850,17 +850,6 @@
    ],
    "bottom": [
     {
-     "id": "pest-control",
-     "name": "Pest Control",
-     "industry": "Pest Control",
-     "ai_proof": 75,
-     "clarity": 62,
-     "digital": 6,
-     "why_ai": "Licensed applicators crawl attics and crawlspaces to diagnose and treat infestations on site.",
-     "why_clarity": "Elimination is checkable by callbacks, but diagnosis relies on tacit sign-reading.",
-     "why_digital": "Work starts from physical evidence in homes and is delivered by hand locally."
-    },
-    {
      "id": "pet-services",
      "name": "Pet Services",
      "industry": "Pet Services",
@@ -892,6 +881,17 @@
      "why_ai": "Licensed plumbers diagnose and repair by hand inside walls, slabs and crawlspaces.",
      "why_clarity": "A fix works or leaks quickly, but diagnosis relies on multi-sensory tacit skill.",
      "why_digital": "Pipes and fixtures in homes, sold by phone to local customers."
+    },
+    {
+     "id": "psychiatric-hospitals",
+     "name": "Psychiatric Hospitals",
+     "industry": "Psychiatric Hospitals",
+     "ai_proof": 85,
+     "clarity": 50,
+     "digital": 6,
+     "why_ai": "Nurses, technicians and psychiatrists hold, observe and treat people in crisis on locked units around the clock, psychiatrists sign holds and carry liability, and patients held involuntarily did not choose their provider, so trust is 3.",
+     "why_clarity": "Admissions and per diem rules repeat daily, but whether a patient is stable enough to leave is contested and readmission shows up weeks later.",
+     "why_digital": "Care starts and ends with a person on a locked unit, and admissions come from local emergency departments, courts and police."
     },
     {
      "id": "roofing-contractors",
@@ -1016,14 +1016,14 @@
     }
    ]
   },
-  "rho_clarity_ai_proof": -0.14,
+  "rho_clarity_ai_proof": -0.15,
   "rho_digital_ai_proof": -0.84,
-  "rho_digital_clarity": -0.05
+  "rho_digital_clarity": -0.04
  },
  "subniches": {
   "ai_proof": {
-   "median": 30,
-   "mean": 34.3,
+   "median": 30.0,
+   "mean": 34.4,
    "top": [
     {
      "id": "physical-therapy/cash-pay-direct-access",
@@ -1037,6 +1037,17 @@
      "why_digital": "Hands-on care in a small clinic, marketed directly to local consumers."
     },
     {
+     "id": "psychiatric-hospitals/child-adolescent-inpatient",
+     "name": "Child & Adolescent Inpatient Psychiatry",
+     "industry": "Psychiatric Hospitals",
+     "ai_proof": 95,
+     "clarity": 31,
+     "digital": 6,
+     "why_ai": "Licensed clinicians treat minors in person with their families, and parents choose a unit they trust with their child.",
+     "why_clarity": "Each youth's family and school situation differs, and whether treatment worked shows up weeks or months later.",
+     "why_digital": "Care is delivered on a locked unit and through in-person family work, referred locally."
+    },
+    {
      "id": "hoa-management/construction-defect-forensic-engineering",
      "name": "Construction Defect Forensic Engineering",
      "industry": "HOA Management",
@@ -1046,6 +1057,17 @@
      "why_ai": "Licensed engineers investigate buildings on site and testify in defect litigation.",
      "why_clarity": "Each building failure is novel and findings are contested in court.",
      "why_digital": "Physical buildings investigated in person; reports are the digital output."
+    },
+    {
+     "id": "ambulance-services/critical-care-specialty-transport",
+     "name": "Critical Care & Specialty Care Transport Teams",
+     "industry": "Ambulance Services",
+     "ai_proof": 95,
+     "clarity": 50,
+     "digital": 6,
+     "why_ai": "Critical care nurses and paramedics manage ventilated and pressor-dependent patients in a moving vehicle under their own licences.",
+     "why_clarity": "Protocols exist, but each transport is a different critical patient and adverse outcomes are judged slowly.",
+     "why_digital": "Care is delivered on the patient in a vehicle between local hospitals, arranged through hospital contracts."
     },
     {
      "id": "veterinary-practices/exotic-animal",
@@ -1167,28 +1189,6 @@
      "why_ai": "Caring for residents with intellectual disability and dementia is hands-on, relationship-based and novel for each person, and demand grows with longevity.",
      "why_clarity": "Daily care repeats, but good dementia care is judged loosely and decline is slow and noisy.",
      "why_digital": "Care is delivered in person in the resident's home, arranged locally."
-    },
-    {
-     "id": "general-hospitals/bedside-nurses-med-surg",
-     "name": "Bedside Nurses on Med-Surg Units",
-     "industry": "General Hospitals",
-     "ai_proof": 90,
-     "clarity": 56,
-     "digital": 0,
-     "why_ai": "Bedside nurses assess, treat and watch patients in person under their own licence, and their vigilance is the hospital's first defence against deterioration.",
-     "why_clarity": "Assessments follow written protocols and recur every shift, but whether a judgement was right shows only hours or days later.",
-     "why_digital": "Nursing is delivered on patients' bodies on a hospital unit; documentation is the only digital part."
-    },
-    {
-     "id": "land-surveyors/boundary-expert-witness",
-     "name": "Boundary Retracement Expert Witnesses",
-     "industry": "Land Surveyors",
-     "ai_proof": 90,
-     "clarity": 19,
-     "digital": 38,
-     "why_ai": "A named licensed expert testifies in adversarial boundary litigation decided by courts.",
-     "why_clarity": "Each dispute is one-off, and the answer is whatever the court rules.",
-     "why_digital": "Deeds and monuments researched, then delivered as testimony in person."
     }
    ],
    "bottom": [
@@ -1360,7 +1360,7 @@
    ]
   },
   "clarity": {
-   "median": 69,
+   "median": 69.0,
    "mean": 65.1,
    "top": [
     {
@@ -1698,8 +1698,8 @@
    ]
   },
   "digital": {
-   "median": 88,
-   "mean": 76.4,
+   "median": 88.0,
+   "mean": 76.2,
    "top": [
     {
      "id": "interior-design-firms/ad-market-research-firms",
@@ -2037,7 +2037,7 @@
   },
   "rho_clarity_ai_proof": -0.51,
   "rho_digital_ai_proof": -0.74,
-  "rho_digital_clarity": 0.25
+  "rho_digital_clarity": 0.26
  },
  "anchor_drift": {
   "ai_proof": {

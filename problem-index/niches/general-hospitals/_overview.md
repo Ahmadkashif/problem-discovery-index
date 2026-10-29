@@ -53,9 +53,9 @@ Second, orthogonal sweep. This pass sweeps seven positions in the value chain: a
 | 9 | De-identified Hospital Discharge Databases & Benchmarking | Data vendor | 50-300 | 48 | Below threshold |
 | 10 | Hospital Reimbursement & Cost Report Consultancies | Specialist advisory | 20-150 | 48 | ⚠️ Kill switch |
 | 11 | Clinical Documentation Integrity & Pre-Bill Review Vendors | Supplier | 30-200 | 46 | ⚠️ Kill switch |
-| 12 | Physician Advisor & Utilization Review Services | Specialist advisory | 10-60 | 46 | ⚠️ Kill switch |
-| 13 | Physician Compensation & Fair Market Value Advisory | Specialist advisory | 30-300 | 46 | ⚠️ Kill switch |
-| 14 | Hospital Patient Experience Survey Vendors (HCAHPS) | Supplier | 20-150 | 45 | ⚠️ Kill switch |
+| 12 | Physician Compensation & Fair Market Value Advisory | Specialist advisory | 30-300 | 46 | ⚠️ Kill switch |
+| 13 | Hospital Patient Experience Survey Vendors (HCAHPS) | Supplier | 20-150 | 45 | ⚠️ Kill switch |
+| 14 | Physician Advisor & Utilization Review Services | Specialist advisory | 10-60 | 44 | ⚠️ Kill switch |
 | 15 | Clinical Outcomes Registries | Association | 20-150 | 41 | ⚠️ Kill switch |
 | 16 | Service-Line Demand Forecasting & Strategy Data | Data vendor | 20-100 | 40 | Below threshold |
 | 17 | Hospital Malpractice Claims Benchmarking | Payer & intermediary | 20-100 | 40 | ⚠️ Kill switch |
@@ -69,7 +69,7 @@ Second, orthogonal sweep. This pass sweeps seven positions in the value chain: a
 
 ## Why These Pockets
 
-No pocket qualifies. The hospital itself is not a qualifier, and neither is the health system above it. Pocket 18 shows why: hundreds of analysts at the largest systems, complete records for every patient, real clocks. But the output is spent on the system's own decisions and never invoiced, and every byte is PHI. The same wall stops almost everyone who works on hospital data for a fee: the reimbursement consultancies (48), CDI and pre-bill vendors (46), physician advisors (46), HCAHPS vendors (45), registries (41), optimisation and sepsis vendors (36, 32) and CMS's measure contractors (34). Many hospital-side pockets are already in the vault and score the same way:
+No pocket qualifies. The hospital itself is not a qualifier, and neither is the health system above it. Pocket 18 shows why: hundreds of analysts at the largest systems, complete records for every patient, real clocks. But the output is spent on the system's own decisions and never invoiced, and every byte is PHI. The same wall stops almost everyone who works on hospital data for a fee: the reimbursement consultancies (48), CDI and pre-bill vendors (46), HCAHPS vendors (45), physician advisors (44), registries (41), optimisation and sepsis vendors (36, 32) and CMS's measure contractors (34). Many hospital-side pockets are already in the vault and score the same way:
 
 - The outsourced revenue cycle is [[niches/medical-billing/rcm-platform-analytics/profile|🔍 Revenue Cycle Platform Analytics]] (55, kill switch).
 - Claims flow through [[niches/medical-billing/healthcare-clearinghouses/profile|🔍 Healthcare Claims Clearinghouses]] (52).
@@ -90,9 +90,9 @@ The coordinator asked for the price-transparency angle to be tested. Turquoise H
 - [[niches/general-hospitals/hospital-discharge-databases-rwe/profile|🔍 De-identified Hospital Discharge Databases & Benchmarking]]
 - [[niches/general-hospitals/hospital-reimbursement-consultancies/profile|🔍 Hospital Reimbursement & Cost Report Consultancies]]
 - [[niches/general-hospitals/cdi-prebill-review-vendors/profile|🔍 Clinical Documentation Integrity & Pre-Bill Review Vendors]]
-- [[niches/general-hospitals/physician-advisor-utilization-review/profile|🔍 Physician Advisor & Utilization Review Services]]
 - [[niches/general-hospitals/physician-fmv-valuation/profile|🔍 Physician Compensation & Fair Market Value Advisory]]
 - [[niches/general-hospitals/hcahps-patient-experience-vendors/profile|🔍 Hospital Patient Experience Survey Vendors (HCAHPS)]]
+- [[niches/general-hospitals/physician-advisor-utilization-review/profile|🔍 Physician Advisor & Utilization Review Services]]
 - [[niches/general-hospitals/clinical-outcomes-registries/profile|🔍 Clinical Outcomes Registries]]
 - [[niches/general-hospitals/service-line-forecasting-data/profile|🔍 Service-Line Demand Forecasting & Strategy Data]]
 - [[niches/general-hospitals/hospital-malpractice-claims-benchmarking/profile|🔍 Hospital Malpractice Claims Benchmarking]]
